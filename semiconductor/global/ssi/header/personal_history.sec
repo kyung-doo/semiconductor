@@ -1,0 +1,38 @@
+<div class="history_area" data-role="ui-personalhistory" style="display:none">
+    <div class="history_con clearfix">
+        <h2 class="blind">Customer History</h2>
+        <p class="notice">Up to 10 products and 10 contents displayed in visit history. (5 pins available for each to fix history.)</p>
+        <dl class="history_list my_product">
+            <dt data-role="ui-personalhistory-title">My Products</dt>
+            <dd>
+        <p class="no_history" style="display:none">No Products in your history</p>
+                <ul data-role="ui-personalhistory-products">
+        </ul>
+            </dd>
+        </dl>
+        <dl class="history_list">
+            <dt data-role="ui-personalhistory-title">My Contents</dt>
+            <dd>
+        <p class="no_history" style="display:none">No Contents in your history</p>
+                <ul data-role="ui-personalhistory-contents">
+                </ul>
+            </dd>
+        </dl>
+    </div>
+    <p class="btn_layer_close"><a href="#" class="btn_close" data-role="ui-btn-close-personalhistory">Close</a></p>
+</div>
+<!-- noresult popup -->
+<div class="pop-wrap personal_comp" data-role="ui-layer-noresult" style="display:none;">
+    <h2 class="pop-tit">ERROR</h2>
+    <p class="caution">Sorry, no results found.</p>
+    <a href="#" class="btn-close" data-role="ui-close-noresult"><span class="blind">Close Layer</span></a>
+</div>
+<!-- //noresult popup -->
+
+<!-- 5 products popup -->
+<div class="pop-wrap personal_comp" data-role="ui-layer-overpin" style="display:none;">
+    <h2 class="pop-tit">NOTICE</h2>
+    <p class="caution">You can pin up to 5 <span data-role="ui-msg-type"></span>.</p>
+    <a href="#" class="btn-close" data-role="ui-close-overpin"><span class="blind">Close Layer</span></a>
+</div>
+<!-- //5 products popup -->
