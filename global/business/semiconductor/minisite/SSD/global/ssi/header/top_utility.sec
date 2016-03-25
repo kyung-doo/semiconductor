@@ -1,8 +1,0 @@
-<ul class="direct">
-	<!--<li><a href="#" class="btn" data-role="sign-in" data-type="signin">Sign In</a></li>-->
-	<!--<li><a href="#" class="btn">MY Business</a></li>-->
-	<li><a href="#" class="btn outlink" target="_blank" title="New Window">B2B WORKPLACE</a></li>
-	<li><a href="#" class="btn outlink" target="_blank" title="New Window">MEMORY LINK</a></li>
-	<li><a href="#" class="btn outlink" target="_blank" title="New Window">EXYNOS</a></li>
-</ul>
-
