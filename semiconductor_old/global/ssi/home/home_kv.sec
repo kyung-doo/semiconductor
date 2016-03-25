@@ -1,0 +1,105 @@
+<div class="key-visual home_kv" data-role="ui-flick" data-autoplay="Y">
+            <div data-role="ui-flick-container">
+                <ul class="item4"  data-role="ui-flick-content">        <!-- class:"item"+slide item sum -->
+                    <li>
+                        <div class="screen movie">
+                        <img alt="USHERING IN THE WORLD OF TOMORROW, TODAY" data-media-mobile="/semiconductor/common/img/@temp/00_home_KV_01_mob.jpg" data-media-desktop="/semiconductor/common/img/@temp/00_home_KV_05.jpg" class="kv_desktop">
+                            <div>
+                                <div class="focus-msg">
+                                    <p class="category">Portable SSD T3</p>
+                                    <h1 class="tit">Transfer faster  Store Safer</h1>
+                                    <div class="txt">
+                                        The fast and compact external storage Samsung Portable SSD T3
+                                    </div>
+                                    <!-- 버튼영역 -->
+                                    <span class="act">
+                                        <a href="/semiconductor/products/exynos-solution" class="btn-type1 link" tabindex="0" onclick="javascript:sendClickCode('pid','global b2bsemiconductor_home_kv2_BRING LIFE TO BUSINESS_20150720'); sendClickCode('content_click_count','kv2_find out more');">Learn more</a>
+                                    </span>
+                                    <!-- //버튼영역 -->
+                                </div>
+                            </div>
+                            <span class="act2"></span>
+                        </div>
+                    </li>
+                    <!-- video(youtube player) -->
+                    <li>
+                        <div class="screen movie">
+                        <img alt="AT THE CORE OF YOUR REVOLUTIONARY DEVICE" data-media-mobile="/semiconductor/common/img/@temp/00_home_KV_02_mob.jpg" data-media-desktop="/semiconductor/common/img/@temp/00_home_KV_04.jpg" class="kv_desktop">
+                            <div>
+                                <div class="focus-msg black_style">
+                                    <p class="category">Portable SSD T3</p>
+                                    <h1 class="tit">Transfer faster Store Safer</h1>
+                                    <div class="txt">
+                                    The fast and compact external storage Samsung Portable SSD T3
+                                    </div>
+                                    <!-- 버튼영역 -->
+                                    <span class="act">
+                                        <a href="/semiconductor/products/exynos-solution" class="btn-type1 link" tabindex="0" onclick="javascript:sendClickCode('pid','global b2bsemiconductor_home_kv2_BRING LIFE TO BUSINESS_20150720'); sendClickCode('content_click_count','kv2_find out more');">Find out more</a>
+                                    </span>
+                                    <!-- //버튼영역 -->
+                                </div>
+                            </div>
+                            <span class="act2">
+                                <!--<button type="button" class="btn-ico video" data-role="play-btn" data-video-type="youtube" data-video-id="GF6gB6sq7nk" data-view="1"><span class="blind">watch the video : [입력받은 대체텍스트]</span></button>-->
+                            </span>
+                        </div>
+                    </li>
+                    <!-- //video(youtube player) -->
+                    <!-- video(brightcove player) -->
+                    <li>
+                        <div class="screen movie">
+                        <img alt="UNRIVALED PERFORMANCE FOR ENTERPRISE" data-media-mobile="/semiconductor/common/img/@temp/00_home_KV_03_mob.jpg" data-media-desktop="/semiconductor/common/img/@temp/00_home_KV_03.jpg" class="kv_desktop">
+                            <div>
+                                <div class="focus-msg "> <!-- 키비쥬얼 폰트  black_style 로 검은색으로 변경 기본은 흰색 -->
+                                    <p class="category">Portable SSD T3</p>
+                                    <h1 class="tit">Unrivaled Performance for Enterprise</h1>
+                                    <div class="txt">
+                                        Best-in-class storage for ultimate competitiveness
+                                    </div>
+                                    <!-- 버튼영역 -->
+                                    <span class="act">
+                                        <a href="/semiconductor/products/flash-storage/enterprise-ssd" class="btn-type1 link" tabindex="0" onclick="javascript:sendClickCode('pid','global b2bsemiconductor_home_kv3_BRING LIFE TO BUSINESS_20150720'); sendClickCode('content_click_count','kv3_find out more');">Find out more</a>
+                                    </span>
+                                    <!-- //버튼영역 -->
+                                </div>
+                            </div>
+                            <span class="act2">
+
+                            </span>
+                        </div>
+                    </li>
+                    <!-- //video(brightcove player) -->
+                    <!-- 20150623 html 직접 제공 영역
+                    <li>
+                        <div class="screen movie">
+                            html area <br/>(영역에 대한 가이드 필요, 현재 배너 영역 전체가 inline html 영역)
+                        </div>
+                    </li>
+                     //20150623 html 직접 제공 영역 -->
+                </ul>
+            </div>
+            <!-- 2개 이상일때 출력 -->
+            <div class="ctl-carousel">
+
+                <button type="button" class="prev" data-role="ui-flick-prev"><span class="blind">previous</span></button>
+                <button type="button" class="pause" data-role="ui-flick-auto"><span class="blind">pause</span></button>
+                <button type="button" class="next" data-role="ui-flick-next"><span class="blind">next</span></button>
+                <ul data-role="ui-flick-navigate">        <!-- slide 수많큼 li,button 추가 -->
+                    <li class="current">
+                        <button type="button"><span class="blind">slide 1</span></button>
+                    </li>
+                    <li>
+                        <button type="button"><span class="blind">slide 2</span></button>
+                    </li>
+                    <li>
+                        <button type="button"><span class="blind">slide 3</span></button>
+                    </li>
+                    <!--
+                    <li>
+                        <button type="button"><span class="blind">slide 4</span></button>
+                    </li>
+                    -->
+                </ul>
+            </div>
+        </div>
+        <!-- //key visual -->

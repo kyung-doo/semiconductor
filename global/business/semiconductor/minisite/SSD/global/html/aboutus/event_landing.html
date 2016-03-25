@@ -1,0 +1,465 @@
+<!--#include virtual="/semiconductor/global/ssi/header/dochead_html5.sec"-->
+
+	<!-- 페이지별 css link,js -->
+	<link rel="stylesheet" type="text/css" media="all" href="/semiconductor/common/css/pages/insight.css"><!-- //20150706 css 경로 변경 -->
+	<script src="/semiconductor/common/js/page/aboutus.js"></script>
+	<script src="/semiconductor/common/js/page/aboutus_event.js"></script>
+	<!-- //페이지별 css link,js -->
+
+	<title>Event | Samsung Semiconductor Global</title>		<!-- unique한 페이지 title -->
+
+	<meta name="title" content="Event | Samsung Semiconductor Global"/>
+	<meta name="description" content="Rediscover the wonder of technology with our latest breakthroughs, products, and events as we continue to push limits of innovation"/>
+	<meta name="keywords" content="Event, samsung, samsung.com, samsung electronics, semiconductor, samsung website"/>
+	<meta name="last-modified" content="날짜 입력 필요 (예:2015-07-02)" />
+
+<!--#include virtual="/semiconductor/common/html/sec/semi_header.sec"-->
+
+	<!-- contents wrapper -->
+	<div class="content-wrap">
+		<div id="content">
+        	<span class="blind">Content</span>
+        </div>
+		
+		<!--#include virtual="/semiconductor/global/ssi/page/event_landing_kv.sec"-->
+
+		<!-- copy -->
+		<div class="grid-row head-desc">
+			<div class="col-inner">
+				SAMSUNG participates in trade shows and exhibitions across the globe throughout the year. Our exhibits provide engineers and decision makers with introductions to our newest products and technological innovations. To find out where and when SAMSUNG will be exhibiting near you, as well as about many new SAMSUNG products and systems, browse this section for details on upcoming trade shows, forums, and exhibitions that SAMSUNG will be participating in.
+			</div>
+		</div>
+		<!-- //copy -->
+
+		<!-- filter -->
+		<form method="post" action="#" name="filter" class="refine toggle-content filter-news-area">
+			<!-- table,desktop -->
+			<div class="filter-by-area desktop-area">
+				<div class="filter-sort-module" data-role="ui-filter-list">
+					<div class="filterby-section" data-role="ui-filter-container">
+						<a href="#" class="btn-filterby link-toggled" data-role="ui-filter-toggle"><span>Filter by ( 219 )</span></a><!--선택 됐을 때 class link-toggled-->
+						<!-- 140819 추가 css[display=none] -->
+						<div class="product-depth-area" data-role="ui-filter-content" style="display:none;">
+							<!--one depth-->
+							<div class="ui-filter-menu" data-role="ui-filter-menu">
+								<ul class="menu"><!--탭갯수에 따라 class명 변경 2개일때 tab2, 4개일때 tab4, 5개일때 tab5, 6개일때 tab6, 7개일때 tab7-->
+									<li class="active"><a href="#">Region</a></li>
+									<li><a href="#">Period</a></li>
+								</ul>
+							</div>
+							<!--//one depth-->
+
+							<div class="filter-content" data-role="ui-filter-area">
+								<div class="product-listarea">
+									<!--two depth-->
+									<ul class="two-depth" data-role="ui-filter-area-news">
+										<li><input type="checkbox" id="p-twodepth"><label for="p-twodepth">America</label></li>
+										<li><input type="checkbox" id="p-twodepth2"><label for="p-twodepth2">EMEA</label></li>
+										<li><input type="checkbox" id="p-twodepth3"><label for="p-twodepth3">APAC</label></li>
+									</ul>
+
+									<!-- date filter -->
+									<div class="two-depth date-filter" style="display:none;" data-role="ui-filter-area-period">
+										<!-- select -->
+										<div class="period">
+											
+											<!-- 20150714 Month, Year 위치변경 -->
+											
+											<!-- from month -->
+											<div>
+												<select data-role="ui-period-from-month">
+													<option value="">Month</option>
+													<option value="01">January</option>
+													<option value="02">February</option>
+													<option value="03">March</option>
+													<option value="04">April</option>
+													<option value="05">May</option>
+													<option value="06">June</option>
+													<option value="07">July</option>
+													<option value="08">August</option>
+													<option value="09">September</option>
+													<option value="10">October</option>
+													<option value="11">November</option>
+													<option value="12">December</option>
+												</select>
+											</div>
+											<!-- //from month -->
+											<!-- from year -->
+											<div>
+												<select data-role="ui-period-from-year">
+													<option>Year</option>
+													<option value="2015">2015</option>
+												</select>
+											</div>
+											<!-- //from year -->
+											
+											<span>~</span>
+											
+											<!-- to month -->
+											<div>
+												<select data-role="ui-period-to-month">
+													<option value="">Month</option>
+													<option value="01">January</option>
+													<option value="02">February</option>
+													<option value="03">March</option>
+													<option value="04">April</option>
+													<option value="05">May</option>
+													<option value="06">June</option>
+													<option value="07">July</option>
+													<option value="08">August</option>
+													<option value="09">September</option>
+													<option value="10">October</option>
+													<option value="11">November</option>
+													<option value="12">December</option>
+												</select>
+											</div>
+											<!-- //to month -->
+											<!-- to year -->
+											<div>
+												<select data-role="ui-period-to-year">
+													<option>Year</option>
+													<option value="2015">2015</option>
+												</select>
+											</div>
+											<!-- //to year -->
+											
+											<!-- //20150714 Month, Year 위치변경 -->
+											
+										</div>
+										<!-- //select -->
+
+										<!-- btn -->
+										<button type="button" class="btn-type1" data-role="ui-btn-select-period">Select</button>
+										<!-- //btn -->
+									</div>
+									<!-- //date filter -->
+								
+								</div>
+							</div>
+							<!--select product list-->
+							<div class="select-product" data-role="ui-filter-result">
+							</div>
+							<!--//select product list-->
+
+							<div class="controll-area">
+								<a href="javascript:void(0);" class="btn-clear-all" data-role="btn-clear-all">Clear all</a>
+								<a href="javascript:void(0);" class="btn-filter-cls" data-role="btn-close-layer">Close</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--//table,desktop-->
+			
+			<!--mobile-->
+			<div class="filter-by-area mobile-area" data-role="ui-mfilter-list">
+				<!--select menu-->
+				<div class="sorting-area" data-role="ui-mfilter-menu">
+					<a href="#" class="filterby link-toggled" data-role="ui-mfilter-toggle"><span>Filter by</span><em></em></a>
+				</div>
+				<!--//select menu-->
+				<!--filterby menu-->
+				<div class="filterby-section" data-role="ui-mfilter-content" data-tab="true" style="display:none;">
+					<!--one depth-->
+					<ul class="m-onedepth">
+						<li>
+							<a href="#" class="filter-title" data-role="ui-mfilter-menu"><span>Region</span></a>
+							<!--two depth-->
+							<ul class="m-twodepth">
+								<li><input type="checkbox" id="p-mtwo"><label for="p-mtwo">America</label></li>
+								<li><input type="checkbox" id="p-mtwo2"><label for="p-mtwo2">EMEA</label></li>
+								<li><input type="checkbox" id="p-mtwo3"><label for="p-mtwo3">APAC</label></li>
+							</ul>
+							<!--//two depth-->
+						</li>
+					</ul>
+					<!--//one depth-->
+					<!--one depth-->
+					<ul class="m-onedepth">
+						<li>
+							<a href="#" class="filter-title m-btn-date-filter link-toggled" data-role="ui-mfilter-menu"><span>Period</span></a>
+							<!-- date filter -->
+							<div class="m-twodepth m-date-filter" style="display:none;" data-role="ui-filter-area-period">
+								<!-- from -->
+								<div class="period">
+									
+									<!-- 20150714 Month, Year 위치변경 -->
+									
+									<select data-role="ui-period-from-month">
+										<option value="">Month</option>
+										<option value="01">January</option>
+										<option value="02">February</option>
+										<option value="03">March</option>
+										<option value="04">April</option>
+										<option value="05">May</option>
+										<option value="06">June</option>
+										<option value="07">July</option>
+										<option value="08">August</option>
+										<option value="09">September</option>
+										<option value="10">October</option>
+										<option value="11">November</option>
+										<option value="12">December</option>
+									</select>
+									<select data-role="ui-period-from-year">
+										<option>Year</option>
+										<option value="2015">2015</option>
+									</select>
+									
+									<!-- //20150714 Month, Year 위치변경 -->
+									
+								</div>
+								<!-- //from -->
+								<span>~</span>
+								<!-- to -->
+								<div class="period">
+								
+									<!-- 20150714 Month, Year 위치변경 -->
+								
+									<select data-role="ui-period-to-month">
+										<option value="">Month</option>
+										<option value="01">January</option>
+										<option value="02">February</option>
+										<option value="03">March</option>
+										<option value="04">April</option>
+										<option value="05">May</option>
+										<option value="06">June</option>
+										<option value="07">July</option>
+										<option value="08">August</option>
+										<option value="09">September</option>
+										<option value="10">October</option>
+										<option value="11">November</option>
+										<option value="12">December</option>
+									</select>
+									<select data-role="ui-period-to-year">
+										<option>Year</option>
+										<option value="2015">2015</option>
+									</select>
+									
+									<!-- //20150714 Month, Year 위치변경 -->
+									
+								</div>
+								<!-- //to -->
+
+								<!-- btn -->
+								<button type="button" class="btn-type1" data-role="ui-btn-select-period">Select</button>
+								<!-- //btn -->
+							</div>
+							<!-- //date filter -->
+						</li>
+					</ul>
+					<!--//one depth-->
+					<div class="controll-area">
+						<div class="select-product" data-role="ui-mfilter-result"></div>
+						<a href="javascript:void(0);" class="btn-clear-all" data-role="btn-clear-all">Clear all</a>
+						<a href="javascript:void(0);" class="btn-filter-cls" data-role="btn-close-layer">Close</a>
+					</div>
+				</div>
+				<!--//filterby menu-->
+			</div>
+			<!--//mobile-->
+
+		</form>
+		<!-- //filter -->
+
+		<!-- filter by jump menu  -->
+		<div class="floating-jumpmenu filter_by" data-role="ui-jump-basic">
+			<div>
+				<ul>
+					<li><a href="#" data-role="ui-jump-filter-filterby"><span class="btn" onclick="sendClickCode('jumpto','jump to:filter');">Filter by</span></a></li>  
+				</ul>
+			</div>
+		</div>
+		 <!-- //filter by jump menu -->
+
+		<!-- list -->
+		<div class="module article-txt">
+			<ul class="insight-list grid-row" data-tmpl="event">
+				<!-- item (event outlink only) -->
+				<li>
+					<div class="img"><img src="/semiconductor/common/img/@temp/@temp-insights-01.jpg" alt="" /></div>
+					<p class="out_link_ico"><a href="#">out link</a></p><!-- //20150714 outlink 위치 변경 -->
+					<div class="fluid-txt txt">
+						<h2 data-ui-textoverflow="true" class="tit">GDS FST Summit(US)</h2>
+						<div data-ui-textoverflow="true" class="sub">The FST US Summit will bring together 65 senior decision makers and business leaders from across the banking, financial services and insurance fields.The FST US Summit will bring together 65 senior decision makers and business leaders from across the banking, financial services and insurance fields</div>
+					</div>
+					<ul class="event-info">
+						<li data-ui-textoverflow="true"><h3>Schedule :</h3>Jun. 24. 2015 ~ Jun. 26. 2015</li>
+						<li data-ui-textoverflow="true"><h3>Location :</h3>Fira Gran Via, Barcelona, Spain</li>
+					</ul>
+				</li>
+				<!-- //item (event outlink only) -->
+
+				<!-- item (event readmore + outlink) -->
+				<li>
+					<div class="img"><img src="/semiconductor/common/img/@temp/@temp-insights-01.jpg" alt="" /></div>
+					<p class="out_link_ico"><a href="#">out link</a></p>
+					<div class="fluid-txt txt">
+						<h2 data-ui-textoverflow="true" class="tit">GDS FST Summit(US)</h2>
+						<div data-ui-textoverflow="true" class="sub">The FST US Summit will bring together 65 senior decision makers and business leaders from across the banking, financial services and insurance fields.The FST US Summit will bring together 65 senior decision makers and business leaders from across the banking, financial services and insurance fields</div>
+					</div>
+					<ul class="event-info">
+						<li data-ui-textoverflow="true"><h3>Schedule :</h3>Jun. 24. 2015 ~ Jun. 26. 2015</li>
+						<li data-ui-textoverflow="true"><h3>Location :</h3>Fira Gran Via, Barcelona, Spain</li>
+					</ul>
+					<div class="act align">
+						<a href="" class="btn link">Read more</a>
+					</div>
+				</li>
+				<!-- //item (event readmore + outlink) -->
+
+				<!-- item (event download + outlink) -->
+				<li>
+					<div class="img"><img src="/semiconductor/common/img/@temp/@temp-insights-01.jpg" alt="" /></div>
+					<p class="out_link_ico"><a href="#">out link</a></p>
+					<div class="fluid-txt txt">
+						<h2 data-ui-textoverflow="true" class="tit">GDS FST Summit(US)</h2>
+						<div data-ui-textoverflow="true" class="sub">The FST US Summit will bring together 65 senior decision makers and business leaders from across the banking, financial services and insurance fields.The FST US Summit will bring together 65 senior decision makers and business leaders from across the banking, financial services and insurance fields</div>
+					</div>
+					<ul class="event-info">
+						<li data-ui-textoverflow="true"><h3>Schedule :</h3>Jun. 24. 2015 ~ Jun. 26. 2015</li>
+						<li data-ui-textoverflow="true"><h3>Location :</h3>Fira Gran Via, Barcelona, Spain</li>
+					</ul>
+					<div class="act align">
+						<a href="" class="btn pdf_down">Download PDF</a>
+					</div>
+				</li>
+				<!-- //item (event download + outlink) -->
+
+				<!-- item (event video + outlink) -->
+				<li>
+					<div class="img">
+						<img src="/semiconductor/common/img/@temp/@temp-insights-01.jpg" alt="" />
+						<button type="button" class="btn-ico video" data-role="play-btn" data-video-type="youtube" data-video-id="GF6gB6sq7nk" data-view="1"><span class="blind">watch the video : [입력받은 대체텍스트]</span></button>
+					</div>
+					<p class="out_link_ico"><a href="#">out link</a></p>
+					<div class="fluid-txt txt">
+						<h2 data-ui-textoverflow="true" class="tit">GDS FST Summit(US)</h2>
+						<div data-ui-textoverflow="true" class="sub">The FST US Summit will bring together 65 senior decision makers and business leaders from across the banking, financial services and insurance fields.The FST US Summit will bring together 65 senior decision makers and business leaders from across the banking, financial services and insurance fields</div>
+					</div>
+					<ul class="event-info">
+						<li data-ui-textoverflow="true"><h3>Schedule :</h3>Jun. 24. 2015 ~ Jun. 26. 2015</li>
+						<li data-ui-textoverflow="true"><h3>Location :</h3>Fira Gran Via, Barcelona, Spain</li>
+					</ul>
+				</li>
+				<!-- //item (event video + outlink) -->
+
+				<!-- item (event video + readmore + outlink) -->
+				<li>
+					<div class="img">
+						<img src="/semiconductor/common/img/@temp/@temp-insights-01.jpg" alt="" />
+						<button type="button" class="btn-ico video" data-role="play-btn" data-video-type="youtube" data-video-id="GF6gB6sq7nk" data-view="1"><span class="blind">watch the video : [입력받은 대체텍스트]</span></button>
+					</div>
+					<p class="out_link_ico"><a href="#">out link</a></p>
+					<div class="fluid-txt txt">
+						<h2 data-ui-textoverflow="true" class="tit">GDS FST Summit(US)</h2>
+						<div data-ui-textoverflow="true" class="sub">The FST US Summit will bring together 65 senior decision makers and business leaders from across the banking, financial services and insurance fields.The FST US Summit will bring together 65 senior decision makers and business leaders from across the banking, financial services and insurance fields</div>
+					</div>
+					<ul class="event-info">
+						<li data-ui-textoverflow="true"><h3>Schedule :</h3>Jun. 24. 2015 ~ Jun. 26. 2015</li>
+						<li data-ui-textoverflow="true"><h3>Location :</h3>Fira Gran Via, Barcelona, Spain</li>
+					</ul>
+					<div class="act align">
+						<a href="" class="btn link">Read more</a>
+					</div>
+				</li>
+				<!-- //item (event video + readmore + outlink) -->
+
+				<!-- item (event video + download + outlink) -->
+				<li>
+					<div class="img">
+						<img src="/semiconductor/common/img/@temp/@temp-insights-01.jpg" alt="" />
+						<button type="button" class="btn-ico video" data-role="play-btn" data-video-type="youtube" data-video-id="GF6gB6sq7nk" data-view="1"><span class="blind">watch the video : [입력받은 대체텍스트]</span></button>
+					</div>
+					<p class="out_link_ico"><a href="#">out link</a></p>
+					<div class="fluid-txt txt">
+						<h2 data-ui-textoverflow="true" class="tit">GDS FST Summit(US)</h2>
+						<div data-ui-textoverflow="true" class="sub">The FST US Summit will bring together 65 senior decision makers and business leaders from across the banking, financial services and insurance fields.The FST US Summit will bring together 65 senior decision makers and business leaders from across the banking, financial services and insurance fields</div>
+					</div>
+					<ul class="event-info">
+						<li data-ui-textoverflow="true"><h3>Schedule :</h3>Jun. 24. 2015 ~ Jun. 26. 2015</li>
+						<li data-ui-textoverflow="true"><h3>Location :</h3>Fira Gran Via, Barcelona, Spain</li>
+					</ul>
+					<div class="act align">
+						<a href="" class="btn pdf_down">Download PDF</a>
+					</div>
+				</li>
+				<!-- //item (event video + download + outlink) -->
+			</ul>
+
+			<div class="wrapper-act">
+				<button type="button" class="btn-type2 show" title="load more event" data-role="ui-btn-event-loadmore" data-page="1">Load more</button>
+			</div>
+		</div>
+
+		<script type="text/x-jquery-tmpl" id="tmpl-event-inner">
+		{{if mainModel}}
+			{{each mainModel.insightList}}
+			<li class="event">
+				<div class="img">
+					<img src="${'$'}{imgUrl}" alt="${'$'}{imgDesc}" />
+					{{if videoUrl }}
+					<button type="button" class="btn-ico video" data-role="play-btn" data-video-type="${'$'}{videoType}" data-video-id="${'$'}{videoID}" data-view="1" onclick="javascript:addMyContents_PersonalHistory('c', '${'$'}{contsTitle}', 'v', '', '${'$'}{videoType}', '${'$'}{videoID}'); ">
+						<span class="blind">watch the video : ${'$'}{vidTitle}</span>
+					</button>
+					{{/if}}
+				</div>
+
+				<p class="out_link_ico">
+       				{{if contsLinkUrl }}
+        			<a href="${'$'}{contsLinkUrl}">out link</a>
+      				{{/if}}
+      			</p>
+
+				<div class="fluid-txt txt">
+					<h2 data-ui-textoverflow="true" class="tit">${'$'}{contsTitle}</h2>
+					<div data-ui-textoverflow="true" class="sub">${'$'}{contsDesc}</div>
+				</div>
+
+				<ul class="event-info">       
+       				<li><h3>Schedule :</h3>${'$'}{validStYmd} ~ ${'$'}{validEndYmd}</li>
+       				<li><h3>Location :</h3>${'$'}{eventLoc}</li>
+      			</ul>
+
+				<div class="act align">
+				{{if pdfUrl }}
+					<a href="${'$'}{pdfUrl}${'$'}{pdfFile}" class="btn pdf_down" target="_blank" onclick="javascript:addMyContents_PersonalHistory('c', '${'$'}{contsTitle}', 'p', '${'$'}{pdfUrl}${'$'}{pdfFile}', '', '');">Download PDF</a>
+				{{/if}}
+			</li>
+			{{/each}}
+		{{/if }}
+		</script>
+		<!-- //list -->
+		
+		<!-- year and month correctly popup -->
+		<div class="pop-wrap personal_comp" data-role="ui-layer-correctly" style="display:none;">
+			<h2 class="pop-tit">ERROR</h2>
+			<p class="caution"> Please choose month and year correctly <span data-role="ui-msg-type"></span>.</p>
+			<a href="#" class="btn-close" data-role="ui-close-correctly"><span class="blind">Close Layer</span></a>
+		</div>
+		<!-- //year and month correctly popup -->
+
+	</div>
+	<!-- //contents wrapper -->
+
+<!-- pathindicatorENG -->
+<p style="display:none" id="pathindicatorENG">
+	<a>Semiconductor</a>
+	<a>About us</a>
+	<a>Event</a>
+</p>
+<!-- //pathindicatorENG -->
+<input id="pageTrack" name="pageTrack" type="hidden" value="semiconductor event landing"/>
+
+<input id="group" name="group" type="hidden"  value="" />
+<input id="type" name="type" type="hidden" value="" />
+<input id="subtype" name="subtype" type="hidden" value="" />
+<input id="subsubtype" name="subsubtype" type="hidden"value="" />
+
+<input id="product_id" name="product_id" type="hidden" value=" ">
+<input id="product_partnumber" name="product_display_name"  type="hidden" value="">
+<input id="product_display_name" name="product_display_name"  type="hidden" value="">
+
+<input id="insight_id" name="pvi_project_code" type="hidden" value="">
+<input id="insight_title" name="resource_id" type="hidden" value="">
+
+<!--#include virtual="/semiconductor/common/html/sec/semi_footer.sec"-->

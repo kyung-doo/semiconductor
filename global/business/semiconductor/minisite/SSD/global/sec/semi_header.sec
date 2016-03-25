@@ -1,0 +1,51 @@
+</head>
+<!--[if IE 7]><body class="legacy-ie ie7"><![endif]-->
+<!--[if IE 8]><body class="legacy-ie ie8"><![endif]-->
+<!--[if IE 9]><body class="ie9"><![endif]-->
+<!--[if gte IE 10]><!--><body><!--<![endif]-->
+<!-- common skip menu -->
+<div class="skip-menu">
+    <a href="#content">skip to content</a>
+</div>
+<!-- //common skip menu -->
+<div class="body-wrap" data-role="ui-nav-wrap">
+    <!-- header -->
+    <div class="header-wrap">
+        <div class="space"></div>
+        <div class="header">
+            <div class="logo">
+
+            <a href="/uk/business">
+            <span class="blind">SAMSUNG BUSINESS</span>
+            <span>V-NAND SSD</span>
+
+            </a>
+            </div>
+            <button type="button" class="btn-ico ctl-nav" data-role="ui-nav-btn"><span class="label">Open Menu</span></button>
+            <div class="overlay"></div>    <!-- dimed layer -->
+            <div class="nav">
+                <!-- GNB -->
+                <?php include($_SERVER['DOCUMENT_ROOT'].'/global/business/semiconductor/minisite/SSD/global/sec/ssi/navigation/top_nav.sec')?>
+                <!--#include virtual="/semiconductor/global/ssi/navigation/top_nav.sec"-->
+                <!-- //GNB -->
+                <!-- top utility -->
+                <ul class="direct">
+                    <li><a href="/uk" class="btn link outlink" target="_blank" title="New window" onclick="sendClickCode('gnb','b2b_utility menu:consumer section');">SAMSUNG OFFICIAL SITE</a></li>
+                    <li><a href="https://partnerportal.samsung.com/portal/app/main?redirectYN=Y&amp;targetSite=GB&amp;targetNation=GB" class="btn link outlink" target="_blank" title="New window" onclick="sendClickCode('gnb','b2b_utility menu:partner portal');">SAMSUNG SSD FACE BOOK</a></li>
+                </ul>
+                <!-- //top utility -->
+            </div>
+            <div class="util-menu">
+                <button type="button" class="btn-ico call-smartfinder" data-role="ui-btn-show-smartfinder"><span class="label">smartfinder</span></button>
+            </div>
+        </div>
+    <div class="history_notification" style="display:none">
+
+        <a href="#"  data-role="ui-personalhistory-notification">CHECK OUT NOW THAT HISTORY IS CREATED!</a>
+
+    </div>
+    </div>
+    <!-- //header -->
+
+
+

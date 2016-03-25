@@ -1,0 +1,1492 @@
+@charset "utf-8";
+*{margin:0;padding:0;}
+img,fieldset,input,button{border:0}
+fieldset {min-width:0}
+img[src=''], img:not([src]) {opacity:0;}
+ul,ol{list-style:none}
+html{-webkit-text-size-adjust:none;-webkit-tap-highlight-color:transparent}
+html,input,table,textarea,select{font-family:'SamsungIFRg', Arial; word-wrap:break-word; color:#000;}
+button{border-radius:0;background:transparent;text-transform:inherit;font-family:inherit;color:inherit}
+a{color:inherit;text-decoration:none}
+em{font-style:normal}
+label img{pointer-events:none}
+.blind{overflow:hidden; position:absolute !important; left:-9999px !important; top:-9999px !important}
+caption {width:1px; text-align:left; font-size:0; line-height:0; text-indent:-999em}
+input {-webkit-border-radius:0; -webkit-appearance:none;}
+input[type=text]::-ms-clear {display:none}
+input[type=text]::-webkit-input-placeholder,input[type=text]:-ms-input-placeholder,textarea::-webkit-input-placeholder,textarea:-ms-input-placeholder {color:#666}
+input[placeholder],input[type=text]:-moz-placeholder,input[type=text]::-moz-placeholder,textarea[placeholder],textarea:-moz-placeholder,textarea::-moz-placeholder {color:#666; opacity:1}
+@font-face { font-family: 'SamsungIFBlk'; src: url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-800.eot"); src: url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-800.eot?#iefix") format("embedded-opentype"), url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-800.woff") format("woff"), url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-800.ttf") format("truetype"), url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-800.svg#SamsungOne-800") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'SamsungIFBd'; src: url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-600.eot"); src: url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-600.eot?#iefix") format("embedded-opentype"), url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-600.woff") format("woff"), url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-600.ttf") format("truetype"), url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-600.svg#SamsungOne-600") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'SamsungIFRg'; src: url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-400.eot"); src: url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-400.eot?#iefix") format("embedded-opentype"), url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-400.woff") format("woff"), url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-400.ttf") format("truetype"), url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-400.svg#SamsungOne-400") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'samsungIcon'; src: url("/global/business/semiconductor/minisite/SSD/global/common/font/samsungIcon.eot"); src: url("/global/business/semiconductor/minisite/SSD/global/common/font/samsungIcon.eot?#iefix") format("embedded-opentype"), url("/global/business/semiconductor/minisite/SSD/global/common/font/samsungIcon.woff") format("woff"), url("/global/business/semiconductor/minisite/SSD/global/common/font/samsungIcon.ttf") format("truetype"), url("/global/business/semiconductor/minisite/SSD/global/common/font/samsungIcon.svg#samsungIcon") format("svg"); font-weight: normal; font-style: normal;}
+html{font-size:16px; line-height:1.365}
+h1,div.solution-visual-area div.inarea h1,.key-visual .screen .focus-msg h1,.sec-title {font-size:28px; font-family: 'SamsungIFBlk';}
+.pop-tit {font-size:32px !important;}
+h2,     .tab-content .module .fluid-txt .tit,     .module .tit,     .grid-outer .tit,     .tab-theme .tab-tit {font-size:28px}
+h3,     .module .fluid-txt .tit,     .grid-outer .fluid-txt .tit,     .article-thumb2 .grid-col2 .tit,     .article-thumb2 .grid-col3 .tit,     .article-txt3 .grid-col2 .tit /* small h2 */ {font-size:24px}
+h4,     ul.sortby-list li a,     a.btn-filterby span,     a.btn-advanced span,     .list-thumb .fluid-txt .tit,     .tab-theme .tab-sub,     .key-visual .screen .focus-msg h1 em,     .grid-outer .cat {font-size:18px}
+button {font-size:16px}
+div.select-product span.word,     .module .cat,     .article2 .no sub {font-size:14px}
+.grid-outer .cat + .tit, .sec-title2 {font-size:24px}
+.sec-board-box .tit {font-size:24px}
+.key-visual .screen .focus-msg .txt {font-size:21px}
+table th {font-weight:normal}
+@media (min-width:768px) and (max-width:1023px) {
+    h1,     div.solution-visual-area div.inarea h1,     .key-visual .screen .focus-msg h1,     .sec-title,     .module .tit {font-size:28px}
+    .pop-tit {font-size:28px !important}
+    h2,     .tab-content .module .fluid-txt .tit,     .grid-outer .tit, .sec-title2     .tab-theme .tab-tit {font-size:24px}
+    h3,     .module .fluid-txt .tit,     .grid-outer .fluid-txt .tit,     .article-thumb2 .grid-col2 .tit,     .article-thumb2 .grid-col3 .tit,     .article-txt3 .grid-col2 .tit {font-size:20px}
+    button,h4,     a.btn-filterby span,     .list-thumb .fluid-txt .tit,     .tab-theme .tab-sub,     .key-visual .screen .focus-msg .txt,     .grid-outer .cat{font-size:16px}
+    div.select-product span.word,     .module .cat,     .article-thumb2 .grid-col1 .meta,     .article2 .no sub {font-size:14px}
+    .grid-outer .cat + .tit,.sec-board-box .tit {font-size:20px}
+    .key-visual .screen .focus-msg .txt {font-size:18px}
+}
+@media (max-width:767px) {
+html{font-size:14px}
+    h1,     div.solution-visual-area div.inarea h1,     .key-visual .screen .focus-msg h1,     .sec-title {font-size:24px}     .pop-tit {font-size:24px !important}
+    h2,     .tab-content .module .fluid-txt .tit,     .module .tit,     .grid-outer .tit, .sec-title2     .tab-theme .tab-tit {font-size:20px}
+    h3,     .module .fluid-txt .tit,     .grid-outer .fluid-txt .tit,     .article-thumb2 .grid-col2 .tit,     .article-thumb2 .grid-col3 .tit,     .article-txt3 .grid-col2 .tit {font-size:16px}
+    h4,     ul.sortby-list li a,     a.btn-filterby span,     .list-thumb .fluid-txt .tit,     .tab-theme .tab-sub,     .key-visual .screen .focus-msg .txt,     .grid-outer .cat {font-size:14px}
+    button {font-size:14px}
+    div.select-product span.word,     .module .cat,     .article-thumb2 .grid-col1 .meta,     .article2 .no sub {font-size:12px}
+    .grid-outer .cat + .tit {font-size:16px}
+    .sec-board-box .tit {font-size:16px}
+}
+@media (min-width:1024px) and (max-width:1280px) {
+    .key-visual .screen .focus-msg h1 {font-size:26px}
+    .key-visual .screen .focus-msg .txt {font-size:18px}
+    .key-visual .screen .focus-msg h1 em {font-size:16px}
+}
+/* heading */
+h1,h2,h3,h4,h5,h6{font-weight:normal; font-size:100%}
+.sec-title{line-height:1.1111; text-transform:uppercase; color:#000}
+.sec-title.sub{text-transform:none}
+.sec-title .flag {width:34px; height:23px;}
+.sec-title .category {color:#0057a4;}
+.sec-txt {padding-left:10px; color:#777}
+.sec-title2 {margin-left:10px; line-height:1.1111; color:#666}
+.sec-title2 span {/*text-transform:uppercase; */ color:#0057a4;}
+/* color */
+.bg-main1{background:#0057a4;color:#fff}
+.bg-main1-tint2{background:#b8d8ee}        /* 25% */
+.bg-main1-tint3{background:#e5eef6}        /* 10% */
+.bg-main4 {background:#d2e9ef;}
+.bg-main5{background:#f1f1f1}
+.bg-main6{background:#fff}
+.bg-main7{color:#fff; background:#0071bf}
+.fg-main2-tint2{color:#5a5a5a}
+.odd{background:#f9f9f9}
+.even{background:#f1f1f1}
+/* button */
+a.btn{color:#0057a4; vertical-align:middle; font-weight:normal; font-size:16px; line-height:1.5; display:inline-block; position:relative; -moz-transition:color ease-in-out .3s; -o-transition:color ease-in-out .3s; -webkit-transition:color ease-in-out .3s}
+a.btn:after{font-family:'samsungIcon'; display:inline-block; vertical-align:middle; margin:0 0 4px 2px; font-size:0.9rem; position:relative}
+a.btn:before{font-family:'samsungIcon';display:inline-block; vertical-align:middle;font-size:0.9em;position:relative}
+a.btn.show:after{content:"\27"}
+a.btn.hide:after{content:"\28"}
+a.btn.link:after{content:"\34"}
+a.btn.link2:before{content:"\5f"}
+a.btn.pop:after{content:"\34"}
+a.btn.down:after{content:"\e00a"}
+a.btn.print:after{content:"\e61e"; font-size:1.1rem;}
+a.btn.top:after{content:"\4e"}
+a.btn.outlink:after{content:"\e60e"; margin-left:5px;}
+.legacy-ie a.btn.link:after{margin-bottom:2px;}
+button{cursor:pointer;}
+.btn-type1{background-color:#0057a4;color:#fff;height:40px;vertical-align:middle;padding:0 20px; *padding:0}
+.btn-type2, .edit-btn .btn {background:transparent;color:#0057a4;height:40px; vertical-align:middle; padding:0 20px}
+.btn-type3{background:#5a5a5a;color:#fff;font-size:18px;height:40px;vertical-align:middle; padding:0 20px}
+.btn-type4{background:#f1f1f1;color:#000;font-size:16px; height:32px; line-height:32px; vertical-align:middle; padding:0 20px}
+.legacy-ie .module .btn-type2, .legacy-ie .product-wrap .btn-type2 {line-height:2.365}
+ a.focus-repeater {position:absolute; font-size:0}
+.btn-type1, .btn-type2, .btn-type3, .btn-ico, .btn-small{-moz-transition:background-color ease-in-out .3s;-o-transition:background-color ease-in-out .3s;-webkit-transition:background-color ease-in-out .3s;transition:background-color ease-in-out .3s;}
+.btn-type1:after, .btn-type2:after, .edit-btn .btn:after {margin:0 0 0px 2px; font-family:'samsungIcon'; display:inline-block; vertical-align:middle; font-size:0.9rem}
+.edit-btn .btn:after {content:"\34"; margin-bottom:2px}
+button[type=button].show:after{content:"\30";font-size:13px;}
+button[type=button].hide:after{content:"\28";font-size:13px;}
+button[type=button].link:after{margin-bottom:1px; content:"\34"}
+button[type=button].pop:after{margin-bottom:3px; content:"\34"}
+button[type=button].video:after{content:"\e017"}
+button[type=button].share:after{content:"\48";}
+.btn-small{border:1px solid #dadee1;border-radius:2px;background:#0057a4;color:#fff;height:40px;font-size:16px;vertical-align:middle;padding:0 25px;text-transform:uppercase}
+button>.label{position:fixed; top:-999999em; left:-999999em; display:block; text-align:left;}
+.btn-ico{overflow:hidden}
+.btn-ico:before{font-family: 'samsungIcon';display:block;text-align:center;width:100%;height:100%;}
+.btn-ico.rss{width:35px;height:35px;border-radius:2px;background:#1765aa;color:#fff;line-height:35px;vertical-align:middle;margin-right:5px}
+.btn-ico.rss:before{content:"";}
+.btn-type1.outlink:after {position:relative; top:-1px; display: inline-block; content:"\e60e"; margin-left:4px; font-family:'samsungIcon'; vertical-align:middle; font-size:12px;}
+.btn.btn-outlink:after {position: relative; width:14px; margin-left: 3px; font-family:'samsungIcon'; font-size:12px; content:"\e60e"}
+.btn.link-outlink {text-transform:none;}
+.btn.link-outlink:first-letter {text-transform:none;}
+.btn.link-outlink:after {position: relative; width:14px; margin-left: 3px; font-family:'samsungIcon'; font-size:12px; content:"\e60e"}
+a.btn-type1 {display:inline-block; height:40px; line-height:40px; padding:0 20px; color:#fff; vertical-align:middle; background: #0057A4;}
+a.btn-type1.link:after {display: inline-block; content: "\34"; margin: 0 0 0px 2px; margin-bottom: 1px; font-family:'samsungIcon'; vertical-align: middle; font-size: 0.9rem;}
+a.ico.facebook, a.ico.linkedin, a.ico.tw, a.ico.google{width:33px;height:32px;background-repeat:no-repeat;background-position:0 0;display:inline-block; font-size:14px}
+a.ico.facebook{background-image:url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/ico_social_facebook.png);}
+a.ico.linkedin{background-image:url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/ico_social_linkedin.png);}
+a.ico.tw{background-image:url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/ico_social_twitter.png);}
+a.ico.google{background-image:url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/ico_social_google.png)}
+.btn-ico.video{background:transparent url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/btn_video.png) no-repeat 0 0; width:60px; height:60px; background-size:60px auto;position:absolute;left:50%;top:50%;margin:-30px 0 0 -30px}
+.legacy-ie .btn-ico.video {width:68px; height:68px; background:url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/btn_video.png) no-repeat 0 0; margin:-34px 0 0 -34px}
+.btn-ico.video:after{display:none;}
+.btn-ico.video.type02 {left:25%}
+.btn-ico.video:hover {background-color:transparent !important; background-image:url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/btn_video_hover.png)}
+.btn-ico.submit-sch:before{content:"\e013"}
+.btn-area{text-align:center}
+.btn-area .btn-type1 + .btn-type1 {*margin-left:3px}
+.btn-area a.btn2{margin:0 20px}
+.wrapper-act{clear:both;display:block;padding:0 0 0;text-align:center;max-width:1366px;margin:0 auto}
+.module .wrapper-act, .grid-outer .wrapper-act {padding:0 28px 0; max-width:1310px}
+.module .insight-grid .wrapper-act {padding:0 5px 0}
+.product-col .wrapper-act {padding:0 5px 0}
+.wrapper-act button, .wrapper-act a{margin:10px 14px 0}
+.wrapper-act button {font-size:16px}
+.wrapper-act .btn-type2.show {position:relative; box-sizing:border-box; width:100%; padding:0; margin:10px 0 0; background:#f1f1f1}
+.legacy-ie a:active {background:none}
+.wrapper-act.home-type{ text-align:left;}
+.wrapper-act.home-type{ padding:0 10px;}
+.wrapper-act.home-type .btn-type2{ margin-left:0; margin-right:0; padding-left:0; padding-right:0;}
+@media (max-width:1023px){
+.wrapper-act.home-type{ text-align:center;}
+.wrapper-act.home-type{ padding:0 10px;}
+.wrapper-act.home-type .btn-type2{ margin-left:0; margin-right:0; padding-left:0; padding-right:0;}
+}
+@media (min-width:768px) and (max-width:1023px){
+    .module .wrapper-act,     .grid-outer .wrapper-act {padding:0 15px 0}
+    .wrapper-act {padding:0 5px 0}
+    .btn.btn-outlink:after {margin-bottom:4px;}
+}
+@media (max-width:767px){
+    .btn-small{font-size:14px}
+    button[type=button].show:after{font-size:12px}
+    .module .wrapper-act, .grid-outer .wrapper-act {padding:0 10px 0}
+    .btn-ico.video.type02 {left:50%}
+    a.btn {font-size:14px}
+    a.btn:after {margin:0 0 0 2px}
+    .btn.btn-outlink:after {margin-bottom:6px; height:15px}
+}
+.btn-type1:hover, .btn-ico:hover, .btn-small:hover{background-color:#b8d8ee !important; color:#000 !important}
+.btn-type1:active, .btn-ico:active, .btn-small:active{background-color:#292929 !important;color:#fff !important}
+a.btn:hover, .btn-type2:hover, .edit-btn .btn:hover {color:#000 !important}
+a.btn:active, .btn-type2:active{color:#292929 !important}
+.bg-main1 a.btn,.bg-main7 a.btn{color:#fff}
+a.box-btn {display:block;}
+a.box-btn:after {display: block; content:""; clear: both;}
+a.box-btn:hover span.btn {color:#000}
+a.box-btn span.btn {display:block; color:#0057a4; vertical-align:middle; font-weight:normal; font-size:16px; line-height:1.5; -moz-transition:color ease-in-out .3s; -o-transition:color ease-in-out .3s; -webkit-transition:color ease-in-out .3s}
+a.box-btn span.btn:after {font-family:'samsungIcon'; display:inline-block; vertical-align:middle; margin:0 0 4px 2px; font-size:0.9rem;}
+a.box-btn span.btn.down:after{content:"\e00a"}
+a.box-btn span.btn.link:after{content:"\34"}
+@media (max-width:767px){
+    a.box-btn span.btn {font-size:14px;}
+}
+.link-box {margin-top:20px;}
+.link-box .btn {margin-right:20px;}
+/* blit list */
+.blit-list li {position:relative; margin:5px 0; padding-left:10px; text-indent:-6px}
+.blit-list li:before {position:relative; left:-4px; top:8px; display: inline-block; width:4px; height:4px; content:""; background:#000; vertical-align: top;}
+/* blit list (usecase) */
+.grid-col1 .blit-list {position:relative; width:100%; box-sizing:border-box;}
+.grid-col1.left .blit-list {left:10px; padding-right:10px;}
+.grid-col1.left .blit-list li {padding:0;}
+@media (max-width:767px){
+    .grid-col1 .blit-list {position:static !important; padding:0 !important;}
+    .grid-col1.left .blit-list li {padding-left:10px;}
+}
+/* equal height box */
+@media (min-width:768px){
+    .grid-row .col-inner.box{margin-bottom:-999999px;padding-bottom:999999px}
+}
+.legacy-ie .grid-row .col-inner.box{margin-bottom:-999999px;padding-bottom:999999px}
+.legacy-ie .grid-col2 .col-inner.box{width:650px}
+.legacy-ie .grid-col4 .col-inner.box, .legacy-ie .article-thumb .col-inner.box, .legacy-ie .board-box-cplex .grid-col{width:320px}
+.legacy-ie .grid-col3 .col-inner.box{width:430px}
+/* Form element */
+input[type=text], input[type=search], textarea, select{-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+.firefox option {width:100%; padding:0 10px}
+.select-wrap{display:inline-block;position:relative}
+.select-wrap select{width:100%;height:37px;border:1px solid #dadee1;border-radius:2px;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+.select-wrap:before{content:"v";color:#fff;text-align:center;line-height:35px;position:absolute;right:0;top:0;width:35px;height:35px;background:#1428a0;border:1px solid #dadee1;border-radius:0 2px 2px 0}
+/*content-wrap checkbox*/
+input[type=checkbox]{position:absolute;opacity:0}
+input[type=checkbox]+label{display:inline-block;padding-left:30px;position:relative}
+input[type=checkbox]+label:before{content:"";overflow:hidden;position:absolute;display:inline-block;width:24px;height:24px;left:0;border:1px solid #ccc;box-sizing:border-box;background-color:#fff;background-repeat:no-repeat;background-size:auto 100%;}
+input[type=checkbox]:checked+label:before{border-width:0;background-color:#0071bf;background-image:url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/ico_checked3.png);}
+input[type=checkbox]:checked+label.inpart:before{color:#fff; background-position:-50.545454px 0;background-color:#fff;border-width:1px}
+    .legacy-ie input[type=checkbox]{position:static;margin:3px 0 0}
+    .legacy-ie input[type=checkbox]+label{padding-left:6px}
+    .legacy-ie input[type=checkbox]+label:before{display:none !important}
+input[disabled=disabled]+label {color:#5a5a5a}
+input[disabled=disabled]+label:before{color:#5d5d5d; border-width:0;background-color:#5a5a5a; background-image:none}
+input[type=checkbox]:focus + label:before,input[type=checkbox]:checked:focus + label:before {outline:1px dotted #000}
+input[type=radio]{position:absolute;opacity:0}
+input[type=radio]+label{display:inline-block;padding-left:24px;position:relative}
+input[type=radio]+label:before{content:"";overflow:hidden;position:absolute;display:inline-block;width:17px;height:17px;left:0;top:4px;background:url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/ico_radio.png) no-repeat 0 0}
+input[type=radio]:checked+label:before{background-position:-20px 0}
+    .legacy-ie input[type=radio]{position:static;margin:3px 0 0}
+    .legacy-ie input[type=radio]+label{padding-left:6px}
+    .legacy-ie input[type=radio]+label:before{display:none !important}
+select{font-size:18px;font-size:1rem; height:38px; line-height:38px; padding-left:7px;border:0;border-radius:0;-webkit-appearance:none; background:#fff url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/ico_select.png) no-repeat right 5px center}
+.ie8 select {height:38px}
+    .legacy-ie select{height:auto}
+textarea{border:0;}
+.placeholder {color: #a9a9a9;}
+/* grid pattern */
+.grid-row{max-width:1320px; margin:0 auto;padding:0 28px 0 18px;position:relative;overflow:hidden}
+.grid-row:after{content:"";display:block;clear:both;overflow:hidden;visibility:hidden}
+.grid-row .col-inner{margin:10px 0 0 10px; display:block; *zoom:1}
+.grid-row.head-desc {margin-top:-5px; margin-bottom:35px;}
+.grid-row.head-desc .col-inner {margin-top:0;}
+.grid-row .col-inner > a {display:block; position:relative}
+.grid-row .col-inner > a .thumb,.grid-row .col-inner > a .thumb img {position:static}
+.grid-row .fluid-txt{display:block;padding-left:20px;padding-right:20px}
+.grid-col1{width:100%;float:left}
+.grid-col2{width:50%;float:left}
+.grid-col3{width:33.333333333%;float:left}
+.grid-col4{width:25%;float:left}
+.grid-col5{width:20%;float:left}
+.grid-col6{width:16.66666%;float:left}
+.grid-col-rest{overflow:hidden}
+.module>.sec-title, .grid-outer>.sec-title{max-width:1310px;margin:0 auto;padding-right:28px;padding-left:28px;}
+.grid-row .sec-title, .grid-row .sec_cont_txt {padding-left:10px}
+.grid-row .sec_cont_txt {margin-top:10px; color:#010101}
+.col-inner .sec-title{padding-left:0 !important}
+@media (min-width:768px) and (max-width:1023px){
+    .grid-col5,     .grid-col6{width:33.33333333%}
+    .grid-col4{width:50%;}
+    .grid-row .grid-col4:nth-of-type(2n+1){clear:both}
+    .grid-row{padding:0 15px 0 5px}
+    .grid-row .col-inner{margin:10px 0 0 10px}
+    .module>.sec-title,     .grid-outer>.sec-title{padding-left:15px}
+}
+@media (max-width:767px){
+    .grid-col5{width:50%}
+    .grid-col4,     .grid-col3,     .grid-col2,     .grid-col6,     .grid-col-rest{width:100%}
+    .grid-row[data-role="ui-accordion"]{padding:0}
+    .grid-row[data-role="ui-accordion"] .col-inner{margin:0;padding:0 10px 0}
+    .grid-row{padding:0 10px 0 0}
+    .grid-row .col-inner{margin:10px 0 0 10px}
+    .module>.sec-title{padding-left:10px}
+    .grid-row.head-desc {margin-top:-10px; margin-bottom:25px;}
+}
+.module, .grid-outer{padding:0 0 40px 0}
+.grid-outer.bg-main5{margin-bottom:40px;padding-bottom:0}
+@media (max-width:767px){
+    .article,     .module,     .grid-outer {padding-bottom:25px !important}
+    .grid-outer.bg-main5{margin-bottom:25px}
+}
+.module-bg1{background:#0071bf}
+.module-bg9{background:#f1f1f1; border-top:1px solid #ccc}
+/* img by display size */
+.thumb img{width:100%; vertical-align:top}
+.clip-center{overflow:hidden; position:relative;}
+.clip-center span{display:inline-block;position:relative;left:50%;/*height:100%*/}  /*gallerxy 10.1 broswer 에서 featurebox img 크기가 device 크기로 나오는 문제가 발생하여 height: 100% 제거함*/
+.clip-center span img{position:relative;left:-50%; width:auto;}
+.legacy-ie .clip-center span {float:none;}
+img.media-tablet, img.media-mobile, span.media-table, span.media-mobile{visibility:hidden;display:none}
+@media (max-width:767px){
+    .clip-center img{height:auto;width:100%}
+    .clip-center span{display:block; width:100%; float:none;position:static;height:auto}
+    .clip-center span img{position:static; width:100%; height:auto !important}
+    span.media-desktop,     img.media-desktop,     span.media-tablet,     img.media-tablet{visibility:hidden;display:none !important}
+    span.media-mobile,     img.media-mobile{visibility:visible;display:inline-block}
+}
+.tbl {display:table;width:100%}
+.tbl-cell{display:table-cell}
+/* accordion */
+button.ctl-accordion{display:none;position:absolute;left:0;width:100%;margin-top:-50px;height:50px;text-align:right}
+button.ctl-accordion:after{font-family:'samsungIcon';display:inline-block;margin-right:20px;width:25px;height:25px;text-align:right;line-height:25px}
+button.ctl-accordion.closed:after{content:"\27";}
+button.ctl-accordion.expanded:after{content:"\28"}
+@media (min-width:768px) and (max-width:1023px) {
+    button.ctl-accordion:after{margin-right:10px}
+}
+@media (max-width:767px){
+    .tit-accordion{font-family:'SamsungIFBd'; padding:0 !important;display:table;width:100%;height:50px !important;border:0 !important;margin:0 !important}
+    .tit-accordion>span{display:table-cell;vertical-align:middle}
+    [data-role="ui-accordion"] [data-role="ui-accordion-content"] {display:none;padding-bottom:25px}
+    button.ctl-accordion{display:block}
+    button.ctl-accordion:after{margin-right:10px}
+}
+/* tab */
+.tab-content{display:none;padding-top:0;}
+.tab-content.show{display:block}
+/* jumpmenu */
+.key-visual+.floating-jumpmenu{margin-top:-40px}
+.key-visual+.floating-jumpmenu.active{margin-top:0}
+/* jumpmenu : base */
+.floating-jumpmenu {width:100%; background:url("/global/business/semiconductor/minisite/SSD/global/common/img/layout/bg-jump-default.png"); border-top:1px solid #989898; border-bottom:1px solid #989898; text-transform:uppercase; position:relative; font-size:1rem; line-height:1.666em; font-family:SamsungIFBd; color:#0057a4;}
+.acc-cont .floating-jumpmenu,.floating-jumpmenu li a.active:before {display:none;}
+.floating-jumpmenu.active{position:fixed;left:0;top:0;right:0;z-index:9;display:block !important;margin-top:0;z-index:9999999}
+.floating-jumpmenu.active>div{display:block}
+.floating-jumpmenu.active+.tab-holder .tab-content.show{padding-top:100px}
+    .legacy-ie .floating-jumpmenu.active + .grid-row.tab-theme .tab-content > div:first-child {padding-top:67px}
+.floating-jumpmenu>div, div.jump-module div.inner{position:relative; max-width:1366px;margin:0 auto; /*padding-right:140px;*/ overflow:hidden;text-align:center; box-sizing:border-box}
+    .legacy-ie .floating-jumpmenu>div, .legacy-ie .floating-jumpmenu div.innner {width:1366px}
+.floating-jumpmenu .product-title, .floating-jumpmenu h2 {width:100%; height:60px; background:#fff; border-bottom:1px solid #c6c6c6}
+.floating-jumpmenu .product-title span, .floating-jumpmenu h2 span {display:block; max-width:1326px; margin:0 auto; padding:15px 20px; line-height:30px; font-family:'SamsungIFRg'; font-size:28px; color:#292929}
+.floating-jumpmenu .product-title span {text-transform:none}
+.floating-jumpmenu ul {overflow:hidden; z-index:10;  border-left:1px solid #989898}
+.floating-jumpmenu ul:before, ul.jump-link:before {content:"";background:#e3e3e3;height:1px;position:absolute;left:0;right:0;top:56px;z-index:5}
+.floating-jumpmenu li, ul.jump-link li {float:left; /*position:relative*/} /*//20150803 mobile jellybean 4.2 에서 fixed 후, event 영역을 갱신하지 못하는 문제가 있어서 relative 를 제거함*/
+.floating-jumpmenu li a{display:table;width:100%; background:none; border-right:1px solid #989898; box-sizing:border-box}
+    .ie7 .floating-jumpmenu li a {display:block; height:20px; padding:20px 0}
+.floating-jumpmenu ul.col5 li{overflow:hidden; width:20%; }
+.floating-jumpmenu ul.col4 li{overflow:hidden; width:25%; height:56px}
+.floating-jumpmenu ul.col3 li{overflow:hidden; width:33.3%; height:56px}
+.floating-jumpmenu ul.col3 li:first-child{width:33.4%}
+.floating-jumpmenu ul.col2 li {overflow:hidden; width:50%; height:56px}
+.floating-jumpmenu ul.col1 li {overflow:hidden; width:100%; height:56px}
+.floating-jumpmenu li span {display:table-cell;vertical-align:middle;padding:0 20px; height:56px}
+.floating-jumpmenu.filter_by li span {text-align:left;}
+.floating-jumpmenu li .active, .floating-jumpmenu li .on{width:100%; background:#0071bf;color:#fff;position:relative;z-index:1}
+.floating-jumpmenu>button{width:100%;height:40px;line-height: 1.4;display:none;padding:0 13px;font-family:inherit;color:inherit;text-align:left;position:relative;z-index:5;}
+.floating-jumpmenu>button:after{content:"\27";display:block;font-family:'samsungIcon';position:absolute;right:13px;top:0;line-height:40px;font-size:.6rem;}
+.floating-jumpmenu.expand>button:after{content:"\28"}
+/* jumpmenu : btn */
+.floating-jumpmenu .btn-jump-wrap {position:absolute; top:0px; right:0; display:block; width:100%; max-width:1366px; z-index:3}
+    .legacy-ie .floating-jumpmenu .btn-jump-wrap {width:1366px; right:50%; margin-right:-683px;}
+.floating-jumpmenu.pdp .btn-jump-wrap{top:61px} /* pdp */
+.floating-jumpmenu .btn-jump-wrap a {position:absolute; right:0px; top:0; width:auto; padding: 0 20px; height:56px; border-left:1px solid #989898; border-right:1px solid #989898; display: inline-block; background-color: #f8f8f8; text-transform:none}
+.legacy-ie .floating-jumpmenu .btn-jump-wrap a {right:10px;}
+.floating-jumpmenu .btn-jump-wrap a:before {display: inline-block; width: 1px; height: 56px; content: ""; vertical-align: middle;}
+.floating-jumpmenu .btn-jump-wrap a:after {position: absolute; right:20px; top:1px; display: inline; vertical-align: middle; line-height: 56px; font-family:'samsungIcon';}
+.floating-jumpmenu .btn-jump-wrap a.request:after, .floating-jumpmenu .btn-jump-wrap a.quote:after {font-size:15px; content:'\e615'}
+.floating-jumpmenu .btn-jump-wrap a.email:after {font-size:12px; content:'\e60c'}
+.floating-jumpmenu .btn-jump-wrap a .blind-txt {display:inline; padding-right: 25px; font-size:16px; line-height:1.2; font-family:"SamsungIFRg"; color:#0057a4; vertical-align: middle}
+a.btn-jump span {text-transform:none}
+/* jumpmenu : text only */
+.floating-jumpmenu.only {display:none}
+.floating-jumpmenu.only>div {display:block !important; text-align:center; padding:0; border-right:0; z-index:10}
+.floating-jumpmenu.blue {background:#0071bf; opacity:0.9; border-top:none; border-bottom:none}
+.floating-jumpmenu.blue>div {color:#fff; background:none !important}
+.floating-jumpmenu.blue>div em {color:#fff}
+.floating-jumpmenu>div.main-jump, div.jump-module div.inner.main-jump {position:relative; max-width:1366px; margin:0 auto; padding-right:0; overflow:hidden;text-align:center; box-sizing:border-box} /* home */
+.floating-jumpmenu .btn-only-wrap {line-height:0; font-size:0; overflow:hidden}
+.floating-jumpmenu .btn-only-wrap span {display:inline-block; padding:0 15px; overflow:hidden;  font-family:'SamsungIFRg'; }
+.floating-jumpmenu .btn-only-wrap em {float:left; height:56px; line-height:56px; padding-right:10px; color:#000; font-size:28px; vertical-align:middle}
+.floating-jumpmenu .btn-only-wrap.bg-main7 em {color:#fff}
+.floating-jumpmenu .btn-only-wrap a {text-transform:none}
+.floating-jumpmenu .btn-only-wrap a {float:left; height:56px; line-height:58px; font-size:16px; vertical-align:middle}
+.floating-jumpmenu .btn-only-wrap a:after {content:"\34";font-family:'samsungIcon'; position:relative; top:-1px; display:inline-block;overflow:hidden;vertical-align:middle;margin-left:2px;font-size:0.9rem; line-height:50px}
+/* jumpmenu : filter by, sort by area */
+.floating-jumpmenu.filter_by {display:none; text-transform:none}
+.floating-jumpmenu.filter_by li a:before {content:""; display:block; position:static; left:0; top:0; bottom:0; width:0; background:none}
+.floating-jumpmenu.filter_by li a {background-color:#0057a0; border-left:1px solid #fff; color:#fff; width:270px; font-family:'SamsungIFRg';}
+.floating-jumpmenu.filter_by li span:after {content:'\27'; position:absolute; top:50%; right:20px; margin-top:-12px; display:inline-block; font-family: 'samsungIcon'; overflow: hidden; vertical-align: middle; font-size: 0.9rem; *zoom:1; *display:inline; }
+.floating-jumpmenu.filter_by li:first-child a {border-left:0}
+.floating-jumpmenu.filter_by li.on a {background-color:#0057a0}
+.floating-jumpmenu.filter_by div.filter-hidden li a {display:none;}
+.floating-jumpmenu.filter_by div.filter-hidden {height:56px;}
+@media (min-width:1367px) {
+    .floating-jumpmenu .btn-jump-wrap {left:50%; margin-left:-683px}
+    .floating-jumpmenu .btn-jump-wrap a {border-right:1px solid #989898}
+}
+@media (max-width:1023px) {
+    .floating-jumpmenu .btn-jump-wrap a:before {display: none;}
+    .floating-jumpmenu .btn-jump-wrap a:after {position: relative; right:0; top:1px;}
+    .floating-jumpmenu .btn-jump-wrap a .blind-txt {position:absolute;left:-9999px;top:-9999px;width:0;height:0;font-size:0;line-height:0;overflow:hidden;}
+    .floating-jumpmenu .btn-jump-wrap a.share {padding: 0;}
+    .floating-jumpmenu .btn-jump-wrap a.share:after {right:0; top:1px;}
+}
+@media (min-width:768px) and (max-width:1023px){
+    .floating-jumpmenu.pdp.active>div {padding-right:57px}
+    .floating-jumpmenu.pdp .btn-jump-wrap{top:51px}
+    .floating-jumpmenu>div,     div.jump-module div.inner,     .floating-jumpmenu.share>div,     .sec-theme .floating-jumpmenu>div {margin:0 auto; /*padding-right:55px*/}
+    .floating-jumpmenu .product-title,     .floating-jumpmenu h2 {height:50px}
+    .floating-jumpmenu .product-title span,     .floating-jumpmenu h2 span {padding:10px 20px; font-size:24px}
+    .floating-jumpmenu ul:before, ul.jump-link:before {top:56px}
+    .floating-jumpmenu .btn-jump-wrap a {width: 55px; height:56px; padding: 0;}
+    .floating-jumpmenu .btn-jump-wrap a.share {width: 55px;}
+    .floating-jumpmenu .btn-jump-wrap a:after {display: block; text-align: center;}
+    .floating-jumpmenu .btn-jump-wrap a.share:after {font-size:34px;}
+    .floating-jumpmenu .btn-jump-wrap a.email:after {font-size:17px;}
+    .floating-jumpmenu .btn-jump-wrap a.request:after,     .floating-jumpmenu .btn-jump-wrap a.quote:after {font-size:20px;}
+    .floating-jumpmenu.share>div em {padding-left:10px; font-size:20px}
+    .floating-jumpmenu .btn-only-wrap em {font-size:24px}
+}
+@media (max-width:767px) {
+    .floating-jumpmenu.expand {border-bottom:0;}
+    .floating-jumpmenu.active>div{display:none}
+    .floating-jumpmenu>.second-jump,     .floating-jumpmenu.active>.second-jump {max-width:none !important; padding-right:0 !important; border:1px solid #989898; border-bottom:none;  z-index: 1000;}
+    .floating-jumpmenu.pdp {height:auto;} /*150626  타이틀 없는 버전때문에 height:91px 초기화*/
+    .floating-jumpmenu.pdp>button {padding-right:80px;}
+    .floating-jumpmenu.pdp .btn-jump-wrap {top:51px}
+    .floating-jumpmenu {height:40px}
+    .floating-jumpmenu>div{display:none;padding:0;text-align:left; /*margin-right:41px;*/ background:url(/global/business/semiconductor/minisite/SSD/global/common/img/layout/bg-jump-default.png)}
+    .floating-jumpmenu .product-title,     .floating-jumpmenu h2 {height:50px}
+    .floating-jumpmenu .product-title span,     .floating-jumpmenu h2 span {padding:15px 10px; line-height:20px; font-size:16px}
+    .floating-jumpmenu>button{display:block; padding:0 55px 0 10px; border-left:1px solid #989898;}
+    .floating-jumpmenu>button:after{right:65px}
+    .floating-jumpmenu>button.industry_jump:after {content:''}
+    .floating-jumpmenu ul:before {display:none}
+    .floating-jumpmenu li{float:none;width:100% !important; border-bottom:1px solid #989898}
+    .floating-jumpmenu.filter_by li {border-bottom:none}
+    .floating-jumpmenu li a{display:block; height:auto; border-left:0}
+    .floating-jumpmenu ul.col3 li a {border-left:0}
+    .floating-jumpmenu li span {display:block; height:auto; min-height:20px; padding:11px 10px 9px}
+    .floating-jumpmenu li span:after {right:10px}
+    .floating-jumpmenu.expand>div{display:block}
+    ul.jump-link li a {height:50px; padding:0 13px}
+    .floating-jumpmenu .btn-jump-wrap {top:0px; width:auto; z-index:20}
+    .floating-jumpmenu .btn-jump-wrap a {width: 40px; height:40px; padding: 0; background: #f8f8f8;}
+    .floating-jumpmenu .btn-jump-wrap a.share {width: 40px;}
+    .floating-jumpmenu .btn-jump-wrap a:after {display: block; text-align: center; line-height: 40px;}
+    .floating-jumpmenu .btn-jump-wrap a.request:after,     .floating-jumpmenu .btn-jump-wrap a.quote:after {font-size:15px; content:'\e615'}
+    .floating-jumpmenu .btn-jump-wrap a.email:after {font-size:14px; content:'\e60c'}
+    .floating-jumpmenu .btn-jump-wrap a.share:after {font-size:24px; content:'\48'}
+    .floating-jumpmenu.share>div {padding-right:0}
+    .floating-jumpmenu.share>div em {padding-left:20px; font-size:16px}
+    .floating-jumpmenu.only > div {margin-right:0}
+    .floating-jumpmenu .btn-only-wrap a {height:40px; line-height:41px}
+    .floating-jumpmenu .btn-only-wrap a:after {line-height:35px; font-size:12px; top:0px}
+    .floating-jumpmenu .btn-only-wrap em {height:40px; line-height:40px; font-size:20px;}
+    .floating-jumpmenu .btn-only-wrap span {height:40px; line-height:40px; font-size:14px}
+    .floating-jumpmenu .btn-only-wrap span:after {line-height:40px}
+    .floating-jumpmenu.filter_by > div {display:block !important}
+    .floating-jumpmenu.filter_by > button {display:none}
+    .floating-jumpmenu.filter_by > div li {float:left}
+    .floating-jumpmenu.filter_by > div li a {height:40px; text-align:center}
+    .floating-jumpmenu.filter_by li a {display: inline-block; width: auto; min-width: 104px; color:#fff; background:#0056a4;}
+    .floating-jumpmenu.filter_by li span {position:relative; padding-top:8px; padding-right: 30px;}
+    .floating-jumpmenu.filter_by li span:after {right:10px;}
+    .floating-jumpmenu.filter_by div.filter-hidden {height:40px;}
+}
+@media (min-width:320px) and (max-width:360px){
+    .floating-jumpmenu .btn-only-wrap span {padding:0 5px}
+    .floating-jumpmenu .btn-only-wrap em {font-size:18px}
+    .floating-jumpmenu .btn-only-wrap a {font-size:14px}
+}
+@media (max-width:480px) {
+    .floating-jumpmenu .btn-only-wrap a {padding: 0 5px; font-size: 0; line-height: 0;}
+    .floating-jumpmenu .btn-only-wrap a:after {margin-left: 0; content: "\e60c"; font-size: 14px; line-height: 40px;}
+}
+/* key visual */
+.key-visual {max-width:1920px;margin:0 auto 55px;overflow:hidden;position:relative;height:auto !important; width:100%}
+.key-visual.short-type .focus-msg {z-index:1;}
+.key-visual.with-filter {margin-bottom:20px}
+.key-visual ul[class*="item"]{position:relative;left:0;overflow:hidden;min-width:100%}
+.key-visual ul[class*="item"] li{position:absolute; left:1920px;}
+.key-visual ul[class*="item"] li:first-child {position: static;}
+.key-visual ul.item1,.key-visual ul.item1 li{width:100%;}
+.key-visual ul.item2{width:200%}
+.key-visual ul.item2 li{width:50%;}
+.key-visual ul.item3{width:300%}
+.key-visual ul.item3 li{width:33.333333333%}
+.key-visual ul.item4{width:400%}
+.key-visual ul.item4 li{width:25%;}
+.key-visual ul.item5{width:500%}
+.key-visual ul.item5 li{width:20%}
+.key-visual .screen{position:relative;height:0;padding-bottom:28.5505%;background-size:auto 100%;overflow:hidden;background-image:none !important}
+.key-visual li{overflow:hidden;}
+.key-visual li .kv_desktop,.key-visual li .kv_mobile {position:absolute; right:0; top:0;}
+.legacy-ie .key-visual li .kv_desktop {width:1920px; height:390px; right:50%; margin-right:-960px}
+.legacy-ie .key-visual.home_kv li .kv_desktop {width:1920px; height:600px; right:50%; margin-right:-960px}
+.legacy-ie .key-visual li .kv_mobile {display:none}
+@media (max-width:767px) {
+    .key-visual li .kv_desktop {display:none}
+    .key-visual li .kv_mobile {width:100%; height:auto}
+}
+@media (min-width:768px) and (max-width:1023px) {
+    .key-visual li .screen {position:relative}
+    .key-visual li .kv_desktop {width:1438px; height:292px; margin-right:-208px}
+    .key-visual li .kv_mobile {display:none}
+}
+@media (min-width:1024px) and (max-width:1366px) {
+    .key-visual.short-type,     .key-visual.short-type > div > ul {height:240px !important;}
+    .key-visual.short-type .screen .focus-msg {height:220px;}
+    .key-visual li .kv_desktop {width:auto; height:100%; margin-right:-20.3%}
+    .key-visual li .kv_mobile {display:none}
+}
+@media (min-width:1367px) {
+    .key-visual.short-type,     .key-visual.short-type > div > ul,     .key-visual.short-type .screen {height:240px !important;}
+    .key-visual li .kv_desktop {width:1920px; height:390px; right:50%; margin-right:-960px}
+    .key-visual.home_kv li .kv_desktop {width:1920px; height:600px; right:50%; margin-right:-960px}
+    .key-visual li .kv_mobile {display:none}
+}
+.key-visual .screen .focus-msg{position:absolute;left:10px;top:10px;bottom:10px;width:30.1%;padding:0 1.4694%; background:url(/global/business/semiconductor/minisite/SSD/global/common/img/layout/bg_kv_txt.png);color:#fff; line-height: 1.2;}
+.key-visual .screen .focus-msg h1{padding-top:5%;overflow:hidden; text-transform:uppercase;}
+.key-visual .screen .focus-msg h1 a{display:block; position:relative; font-size:18px;overflow:hidden; text-transform:uppercase; /*color:#b8d8ee;*/ padding-left:24px; font-family:'SamsungIFRg';}
+.key-visual .screen .focus-msg h1 a:after {display:inline-block; position:absolute; top:0; left:0; content:"\e613"; font-family:'samsungIcon'}
+.key-visual .screen .focus-msg h1 span{display:block;text-transform:uppercase}
+.key-visual .screen .focus-msg h1 em {display:block; font-family:'SamsungIFRg'; overflow: hidden; text-overflow:ellipsis; white-space: nowrap;text-transform: none;}
+.key-visual .screen .focus-msg .txt{padding-top:3%; overflow:hidden;}
+.key-visual .screen .focus-msg .act{position:absolute;bottom:8.1081%;display:block;overflow:hidden}
+.key-visual .screen .focus-msg button[type=button], .key-visual .screen .focus-msg a.btn-type1{background:#fff;color:#0057A4;float:left;line-height:40px}
+.key-visual .screen .focus-msg button[type=button]:after, .key-visual .screen .focus-msg a.btn-type1:after{display:none}
+.key-visual .screen .focus-msg .btn-type1 {margin-right:10px; margin-top:10px;}
+.key-visual .screen .focus-msg .btn-type1:last-child {margin-right:0;}
+.key-visual .screen .focus-msg .btn-type1:hover {background-color:#0071bf !important; color:#fff !important}
+.key-visual .screen.movie iframe{position:absolute;left:0;right:0;top:0;bottom:0;}
+@media (min-width:1024px){
+    .key-visual.home_kv .screen .focus-msg{position:relative;left:10px;top:10px;bottom:auto;width:440px;padding:0 1.4694%; background:none;color:#fff; line-height: 1.2; padding-top: 105px;}
+.key-visual.home_kv .screen .focus-msg .category{font-size: 21px;}
+.key-visual.home_kv .screen .focus-msg h1{padding-top:20px;overflow:hidden; font-size:52px; line-height:56px; font-family: 'SamsungIFBlk'; text-shadow:1px 1px 1px rgba(0,0,0,0.8);}
+.key-visual.home_kv .screen .focus-msg .txt{padding-top:15px; overflow:hidden;text-shadow:1px 1px 1px #000;text-shadow:1px 1px 1px rgba(0,0,0,0.8);font-size:21px; line-height: 30px;}
+.key-visual.home_kv .screen .focus-msg .act{position:relative;bottom:auto;display:block;overflow:hidden; margin-top:30px;}
+.key-visual.home_kv .screen .focus-msg .act a{font-size: 16px;text-shadow:1px 1px 1px rgba(0,0,0,0.8); background: none; line-height: auto; padding: 0; margin: 0; color:#fff; padding-left: 5px;}
+.key-visual.home_kv .screen .focus-msg .act a:after {  margin-bottom:3px;  content: "\34"; margin: 0 0 0px 2px;  font-family: 'samsungIcon';  display: inline-block;  vertical-align: middle; font-size: 15px;}
+}
+.legacy-ie  .key-visual.home_kv .screen .focus-msg{position:relative;left:10px;top:10px;bottom:auto;width:50%;padding:0 1.4694%; background:none;color:#fff; line-height: 1.2;}
+.legacy-ie .key-visual.home_kv .screen .focus-msg{position:relative;left:10px;top:10px;bottom:auto;width:50%;padding:0 1.4694%; background:none;color:#fff; line-height: 1.2;}
+.legacy-ie .key-visual.home_kv .screen .focus-msg h1{padding-top:5%;overflow:hidden; font-size:52px; line-height:100%; font-family: 'SamsungIFRg'; text-shadow:1px 1px 1px rgba(0,0,0,0.8);}
+.legacy-ie .key-visual.home_kv .screen .focus-msg .txt{padding-top:1%; overflow:hidden;text-shadow:1px 1px 1px #000;text-shadow:1px 1px 1px rgba(0,0,0,0.8);font-size:26px;}
+.legacy-ie .key-visual.home_kv .screen .focus-msg .act{position:relative;bottom:auto;display:block;overflow:hidden; margin-top:25px;}
+.legacy-ie .key-visual.home_kv .screen .focus-msg .act a{font-size: 16px;text-shadow:1px 1px 1px rgba(0,0,0,0.8); background: none; line-height: auto; padding: 0; margin: 0; color:#fff;}
+.key-visual.home_kv .screen .focus-msg .act a:after {  margin-bottom:3px;  content: "\34"; margin: 0 0 0px 2px;  font-family: 'samsungIcon';  display: inline-block;  vertical-align: middle; font-size: 15px;}
+
+.key-visual.home_kv .screen .focus-msg.black_style{color:#000;}
+.key-visual.home_kv .screen .focus-msg.black_style h1{text-shadow:1px 1px 1px #fff;text-shadow:1px 1px 1px rgba(255,255,255,0.8);}
+.key-visual.home_kv .screen .focus-msg.black_style .txt{text-shadow:1px 1px 1px #fff;text-shadow:1px 1px 1px rgba(255,255,255,0.8); color:#000;}
+.key-visual.home_kv .screen .focus-msg.black_style .act{}
+.key-visual.home_kv .screen .focus-msg.black_style .act a{text-shadow:1px 1px 1px #fff;text-shadow:1px 1px 1px rgba(255,255,255,0.8); color:#000;}
+.key-visual.home_kv .screen .focus-msg.black_style .act a:after {  margin-bottom:3px;  content: "\34"; margin: 0 0 0px 2px;  font-family: 'samsungIcon';  display: inline-block;  vertical-align: middle; font-size: 15px;}
+.notebook {margin-top:10px; margin-bottom:10px}
+.kv-bg {position:absolute; z-index:-2; top:0; left:50%; margin-left:-960px; width:1920px; height: auto;}
+
+
+@media (min-width:1367px){
+    .key-visual.index_kv .screen{height:600px;padding-bottom:0;} /* index용 키비쥬얼 추가 css */
+    .key-visual.index_kv .screen img{ position:absolute;  top:0%; left:50%; margin-left:-960px; margin-top:0; height:600px; width:auto;}
+    .key-visual .screen{height:390px;padding-bottom:0;}
+    .key-visual.home_kv .screen{height:600px;padding-bottom:0;}
+    .key-visual .screen>div{margin:0 auto;max-width:1366px;height:100%;position:relative}
+}
+@media (min-width:1024px) and (max-width:1366px) {
+    .key-visual.index_kv .screen{height:600px;padding-bottom:0;} /* index용 키비쥬얼 추가 css */
+    .key-visual.index_kv .screen img{ position:absolute;  top:0%; margin-top:0; height:600px; width:auto;}
+    .key-visual.home_kv  li .kv_desktop{height:auto;}
+
+}
+@media(min-width:1023px){
+.key-visual.home_kv .screen{height:600px;padding-bottom:0;}
+}
+@media(max-width:1023px){
+    .key-visual{background:#424242}
+    .key-visual .screen{position:static;height:auto;padding-bottom:0}
+    .key-visual .screen>div{position:relative; z-index:2}
+    .key-visual .screen .focus-msg{display:block; position:static; width:auto; padding:20px 20px 60px; background:#424242}
+    .key-visual .screen .focus-msg h1{padding:0}
+    .key-visual .screen .focus-msg .txt{margin:10px 0 15px; padding-top:0;}
+    .key-visual .screen .focus-msg .act {bottom:20px}
+    .wrapper-act button {font-size:16px}
+    .key-visual.index_kv .screen{height:550px;padding-bottom:0;} /* index용 키비쥬얼 추가 css */
+    .key-visual.home_kv .screen .focus-msg .category{font-size: 14px; margin-bottom: 20px;}
+    .key-visual.home_kv .screen .focus-msg.black_style{color:#fff;}
+    .key-visual.home_kv .screen .focus-msg.black_style h1{text-shadow:none;}
+    .key-visual.home_kv .screen .focus-msg.black_style .txt{color:#fff;text-shadow:none;}
+}
+@media (min-width:768px) and (max-width:1023px){
+    .key-visual .screen .focus-msg h1 a{font-size:16px}
+    .key-visual .screen{padding-top:292px;background-size:auto 292px;background-position:right -207px top 0}
+    .key-visual.home_kv .screen{padding-top:470px;background-size:auto 292px;background-position:right -207px top 0}/* index용 키비쥬얼 추가 css */
+    .key-visual.home_kv .screen img{ height: 470px;}
+    .key-visual .btn-ico.video{top:146px}
+    .key-visual.index_kv .btn-ico.video{top:300px}/* index용 키비쥬얼 추가 css */
+.key-visual.index_kv .screen{height:550px;padding-bottom:0;} /* index용 키비쥬얼 추가 css */
+.key-visual.index_kv .screen .focus-msg{width:80%;}
+.key-visual.index_kv .screen .focus-msg h1{padding-top:5%;overflow:hidden; line-height:100%; font-family: 'SamsungIFRg'; text-shadow:1px 1px 1px #000; text-shadow:1px 1px 1px rgba(0,0,0,0.8);}
+.key-visual.index_kv .screen .focus-msg .txt{padding-top:1%; overflow:hidden;text-shadow:1px 1px 1px #000;text-shadow:1px 1px 1px rgba(0,0,0,0.8);}
+.key-visual.index_kv .screen .focus-msg .act{position:relative;bottom:auto;display:block;overflow:hidden; margin-top:30px;}
+.key-visual.index_kv .screen .focus-msg .act a{  font-size: 20px;text-shadow:1px 1px 1px #000;text-shadow:1px 1px 1px rgba(0,0,0,0.8);}
+.key-visual.index_kv .screen .focus-msg .act a:after {  margin-bottom:3px;  content: "\34"; margin: 0 0 0px 2px;  font-family: 'samsungIcon';  display: inline-block;  vertical-align: middle; font-size: 15px;}
+
+}
+@media (max-width:767px){
+    .key-visual {margin-bottom:30px}
+    .key-visual.home_kv .screen{padding-top:420px;position:relative}
+    .key-visual.home_kv .screen img{ height:420px; width: auto; }
+    .key-visual .screen .focus-msg {padding:20px;}
+    .key-visual .screen .focus-msg .act {position:static; margin-top:10px}
+    .key-visual .screen{background-size:100% auto;padding-top:55.8%}
+    .key-visual .screen .focus-msg h1{font-size:24px; font-family:'SamsungIFBd';}
+    .key-visual .screen .focus-msg h1 a{font-size:14px}
+    .key-visual .screen .act2{position:absolute;display:block;padding-top:55.8%;left:50%;top:0;}
+    .key-visual .screen .act2 .btn-ico.video{left:0}
+    .wrapper-act button {font-size:14px}
+    .floating-jumpmenu .product-title {height:40px; padding:5px 0; /*text-align:center;*/ overflow:hidden}
+    .floating-jumpmenu .product-title:after {display:inline-block; width:0.001%; height:40px; content:""; vertical-align:middle}
+    .floating-jumpmenu .product-title span {box-sizing:border-box; display:inline-block; width:99.999%; max-height:40px; line-height:1.4em; padding:0 10px; /*text-align:center;*/ vertical-align:middle; text-overflow:ellipsis; overflow:hidden}
+    .key-visual.index_kv .screen .focus-msg{ width:auto; padding: 20px; position: static;}
+    .key-visual.home_kv .screen .act2{position:absolute;display:block; padding-top:0;left:50%;top:50%; margin-top:-30px; z-index: 10;}
+    .key-visual.index_kv .btn-ico.video{top:30px} /* index용 키비쥬얼 추가 css */
+    .key-visual.index_kv .screen .focus-msg h1{font-size:24px; padding-top: 0; font-family:'SamsungIFBd';}
+    .key-visual.index_kv .screen .focus-msg .txt{font-size:14px;}
+    .key-visual.index_kv .screen .focus-msg .act a{  font-size:12 !important;text-shadow:none;}
+    .key-visual.home_kv .screen .focus-msg .category{font-size: 14px; margin-bottom:10px;}
+}
+@media (max-width:560px){
+    .key-visual .screen .act button[type="button"],     .key-visual .screen .act a.btn-type1 {width:100%; text-align:center; padding:0}
+    .key-visual .screen .focus-msg button[type=button]~button[type=button],     .key-visual .screen .focus-msg a.btn-type1 ~ button[type=button] {margin:10px 0 0 }
+}
+/* static type skin */
+.key-visual .screen.contact-skin{background-image:url(/global/business/semiconductor/minisite/SSD/global/common/img/skin/vi_contact.png);}
+.key-visual .screen.solution-detail-skin{background-image:url(/global/business/semiconductor/minisite/SSD/global/common/img/skin/vi_solution.png);}
+@media (max-width:767px){
+    .key-visual .screen.contact-skin{background-image:url(/global/business/semiconductor/minisite/SSD/global/common/img/skin/vi_contact_m.png)}
+}
+a.btn-clip-square {display:inline-block; position:absolute; right:5px; top:5px; width:25px; height:25px; vertical-align:middle; background: url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/btn-kv-sns.png) no-repeat 0 0; border-radius:5px}
+a.btn-clip-square:after {content:"\e612"; font-family:'samsungIcon'; display:inline-block; width:25px; height:25px; text-align:center; line-height:25px; font-size:16px; color:#fff}
+.act-sns{position:absolute;max-width:1366px;left:0;top:0;width:100%; height:10px}
+.legacy-ie .act-sns {width:1366px; left:50%; margin-left:-683px}
+.act-sns>div{position:absolute;right:10px;top:10px;overflow:hidden}
+.act-sns a{position:relative; float:right; display:block; width:33px; height:33px; margin-top:10px; margin-right:28px; background:url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/btn-kv-sns.png) no-repeat 0 0; border-radius:5px}
+.act-sns a:after {position:absolute; right:0; top:0; display:inline-block; width:33px; height:33px; text-align:center; line-height:33px; content:'\48'; font-family:'samsungIcon'; font-size:22px; color:#fff}
+@media (max-width:1023px){
+    .act-sns a {margin-right:15px}
+}
+@media (max-width:767px){
+    .act-sns a {margin-right:10px}
+}
+.sns-list {display:inline-block; width:100%; margin:15px 0 10px; text-align: center; *display:inline; *zoom:1; }
+.sns-list:after {content:""; display:block; clear:both}
+.sns-list a {display:inline-block; width:20%; margin-left:-5px}
+.sns-list a span {padding:0 7px; display:block}
+.firefox .sns-list a span {padding:0 3px}
+.sns-list a img {width:100%}
+.ui-layer-scope .ui-layer-container.share {width:400px; top:50%; margin-top:-176px}
+.ui-layer-container.share .des {text-align:center}
+.ui-layer-container.share .input_area {margin-top:25px}
+.ui-layer-container.share .input_area input {display:block; width:100%; height:40px; line-height:20px; vertical-align:middle; border-radius:3px; border:1px solid #dadee1; padding:10px}
+.ui-layer-container.share .input_area button {margin-top:10px; vertical-align:middle; border-radius:3px; border:1px solid #dadee1; background:#0057a4; color:#fff}
+@media (min-width:1367px){
+    .act-sns{left:50%; margin-left:-683px}
+}
+@media (max-width:767px){
+    .act-sns>div{right:20px}
+}
+@media (max-width:400px) {
+    .ui-layer-container.share {width:100% !important}
+}
+/* type2 kv */
+div.top-visual-area{position:relative; overflow:hidden; margin-bottom:40px; height: 100%;}
+div.top-visual-area.short-type {min-height:150px; height:auto;}
+    div.top-visual-area div.inarea{max-width:1310px; margin:0 auto; min-height:120px; height: 100%; max-height:460px; padding:20px 20px 60px; position:relative}
+    div.top-visual-area.short-type div.inarea{padding-bottom:20px; box-sizing:border-box;}
+    div.top-visual-area.type-fixed div.inarea,     div.top-visual-area.type-partner div.inarea {height:120px; min-height:120px}
+        div.top-visual-area div.inarea div.info{color:#fff}
+        div.top-visual-area div.inarea div.info h1{line-height:1.2; font-size:32px; padding:0}
+        div.top-visual-area div.inarea div.info h1 a {position: relative; display:block; font-size:18px; line-height:18px; overflow:hidden;text-transform:uppercase; padding-left:24px}
+        div.top-visual-area div.inarea div.info h1 a:after {position: absolute; left:0; top:0; display: block; height: 18px; font-family: 'samsungIcon'; content: '\e613'; font-size:1.2rem }
+        div.top-visual-area div.inarea div.info h1 strong {display: block; margin-top:5px; font-weight:normal;}
+        div.top-visual-area div.inarea div.info p{margin:5px 0 30px; font-size:18px}
+        div.top-visual-area.short-type div.inarea div.info p{margin-bottom:0;}
+        div.top-visual-area div.inarea div.info p.type-100 {width:100%}
+        div.top-visual-area div.inarea div.info span{font-size:14px; font-family:'SamsungIFBd';}
+        div.top-visual-area div.inarea div.info div p {margin:0; }
+        div.top-visual-area button[type=button],         div.top-visual-area .btn-area a.btn-type1 {background:#fff; color:#0057A4;}
+        div.top-visual-area .btn-area a.btn-type1 {display:inline-block; height:40px; line-height:40px}
+        div.top-visual-area div.inarea div.btn-area {position:absolute; bottom:20px; left:0; padding:0 20px; text-align:left}
+        div.top-visual-area.short-type div.inarea div.btn-area {position:static; padding:20px 0 0 0;}
+        div.top-visual-area div.inarea div.btn-area * {margin-left:2px}
+        div.top-visual-area div.inarea div.btn-area *:first-child {margin-left:0}
+        div.top-visual-area div.inarea div.btn-area button span {font-size:16px; font-family:SamsungIFRg}
+        div.top-visual-area div.inarea div.btn-area .btn-share {position:relative; width:40px; height:40px; line-height:40px; vertical-align:top}
+        div.top-visual-area div.inarea div.btn-area .btn-share:after {position:absolute; top:0; right:5px; content:'\48'; font-family:'samsungIcon'; font-size:20px}
+        div.top-visual-area div.inarea div.btn-area .btn-share.type2 {padding:0 25px 0 10px; width:auto; background-position:85% 50%; text-align:left}
+        div.top-visual-area div.inarea div.btn-area .btn-contact {position:relative; width:auto; height:40px; line-height:40px; vertical-align:top; padding:0 35px 0 10px; text-align:left}
+        div.top-visual-area div.inarea div.btn-area .btn-contact:after {position:absolute; top:1px; right:10px; width:20px; height:40px; content:'\e60c'; margin-left:0; font-size:14px}
+        div.top-visual-area div.inarea div.btn-area .btn-clip {position:relative; width:40px; height:40px; line-height:40px;}
+        div.top-visual-area div.inarea div.btn-area .btn-clip:after {position:absolute; top:0; bottom:0; left:0; display: block; width:40px; height: 40px; line-height: 40px; margin:0; padding: 0; font-family:'samsungIcon'; content:'\e612'; font-size:20px; text-align:center;}
+            .legacy-ie div.top-visual-area div.inarea div.btn-area .btn-clip:after {top:-20px}
+        div.top-visual-area div.inarea div.btn-area .btn-clip span {overflow:hidden; position:absolute; left:-9999px; top:-9999px; width:0; height:0; font-size:0; line-height:0}
+    @media (max-width:1023px){
+        div.top-visual-area div.inarea div.info h1{font-size:28px;}
+        div.top-visual-area div.inarea div.info p{width:100%;font-size:16px}
+    }
+    @media (max-width:767px){
+        div.top-visual-area{margin-bottom:30px}
+        div.top-visual-area div.inarea div.info h1{font-size:24px;}
+        div.top-visual-area div.inarea div.info p{font-size:14px}
+        div.top-visual-area div.inarea div.info p{margin:0 0 25px}
+        div.top-visual-area div.inarea h1{font-size:24px;}
+        div.top-visual-area div.inarea div.btn-area{overflow:hidden;}
+        div.top-visual-area div.inarea div.btn-area button.share {float:right; font-size:14px}
+        div.top-visual-area div.inarea div.btn-area * {margin:0}
+        div.top-visual-area div.inarea div.btn-area .btn-share:after {position:absolute; top:0; right:0; width:40px; margin-left:0; content:'\48'; font-family:'samsungIcon'; font-size:20px; text-align:center}
+        div.top-visual-area div.inarea div.btn-area .btn-share.type2 {width:40px}
+        div.top-visual-area div.inarea div.btn-area .btn-share.type2 {padding:0 10px 0 10px}
+        div.top-visual-area div.inarea div.btn-area .btn-share.type2 span {overflow:hidden;position:absolute;left:-9999px;top:-9999px;width:0;height:0;font-size:0;line-height:0}
+        div.top-visual-area div.inarea div.btn-area .btn-contact {width:40px; height:40px; padding:0}
+        div.top-visual-area div.inarea div.btn-area .btn-contact span {overflow:hidden;position:absolute;left:-9999px;top:-9999px;width:0;height:0;font-size:0;line-height:0}
+    }
+/* solution detail kv  */
+    div.solution-visual-area{position:relative; background-position:50% 50%; margin-bottom:40px; overflow:hidden}
+    div.solution-visual-area div.inarea{max-width:1326px; margin:0 auto; padding:30px 20px; position:relative; color:#fff;}
+    div.solution-visual-area div.inarea h1 {overflow:hidden; height:1.2em; line-height:1.2em}
+    div.solution-visual-area button[type=button]{margin-right:5px; background:#fff;color:#0057A4;}
+    div.solution-visual-area a.btn-type1 {display:inline-block; margin-right:5px; background:#fff;color:#0057A4; line-height:40px}
+    .solution-visual-area .kv_btn_wrap {padding: 0 10px; margin:0 auto; max-width:1346px; *zoom:1; margin-bottom:10px; overflow:hidden;}
+    .solution-visual-area .kv_btn_wrap:after {display:block; clear:both; content:''}
+    .solution-visual-area .kv_btn_wrap > div {box-sizing:border-box; width:49.7%; padding:20px; background:url('/global/business/semiconductor/minisite/SSD/global/common/img/layout/bg_kv_txt.png'); margin-bottom:-9999px; padding-bottom:9999px;}
+        .legacy-ie .solution-visual-area .kv_btn_wrap > div {float:left; width:667px}
+    .legacy-ie .solution-visual-area .kv_btn_wrap > div:first-child {margin-right:10px}
+    .solution-visual-area .kv_btn_wrap p {height:55px; line-height: 1.1; font-size:28px; color:#fff; margin-bottom:10px;}
+    .solution-visual-area .kv_btn_wrap p.call {font-size:16px}
+    .solution-visual-area .kv_btn_wrap > div > div {padding-bottom:0}
+    .solution-visual-area .kv_btn_wrap a,     .solution-visual-area .kv_btn_wrap button {float:left; margin-top:-10px; margin-bottom:20px;}
+    .solution-visual-area .kv_btn_wrap .btn-type1.email:after {margin:1px 0 0 5px; width:24px; height:19px; line-height:19px; display:inline-block; *display:inline; content:'\e60c'; font-size:15px; vertical-align:top}
+    .solution-visual-area .kv_btn_wrap .btn-type1.call:after {margin:0 0 5px 5px; width:17px; height:17px; line-height:17px; display:inline-block; font-size:17px; content:'\65'}
+    @media (min-width:768px) and (max-width:1280px){
+        .solution-visual-area .kv_btn_wrap p {font-size:24px}
+        .solution-visual-area .kv_btn_wrap .kv_btn_box1 {float:left}
+        .solution-visual-area .kv_btn_wrap .kv_btn_box2 {float:right}
+    }
+    @media (min-width:768px){
+        .solution-visual-area .kv_btn_wrap .kv_btn_box1 {float:left}
+        .solution-visual-area .kv_btn_wrap .kv_btn_box2 {float:right}
+        .solution-visual-area .kv_btn_wrap .btn-type1.email:after {line-height:18px}
+    }
+    @media (max-width:767px){
+        div.solution-visual-area{height:auto; margin-bottom:30px}
+        div.solution-visual-area div.inarea{padding:20px}
+        div.solution-visual-area div.inarea h1{height:auto; line-height:1.2em}
+        .solution-visual-area .kv_btn_wrap p {height:auto; font-size:20px; margin-bottom:0;}
+        .solution-visual-area .kv_btn_wrap {padding:0; margin-bottom:0;}
+        .solution-visual-area .kv_btn_wrap > div {width:100%; float:none; box-sizing:border-box}
+        .solution-visual-area .kv_btn_wrap > div {padding:10px 20px 20px; width:100%; float:none; margin-bottom:0;}
+        .solution-visual-area .kv_btn_wrap > div.kv_btn_box1 {padding:20px 20px 10px}
+        .solution-visual-area .kv_btn_wrap > div > button {width:100%}
+        .solution-visual-area .kv_btn_wrap > div > a {display:block; margin-right:0; text-align:center}
+        .solution-visual-area .kv_btn_wrap a,         .solution-visual-area .kv_btn_wrap button {float:none; margin-top:10px; margin-bottom:0;}
+        .solution-visual-area .kv_btn_wrap .btn-type1.call:after {line-height:19px}
+        .solution-visual-area .kv_btn_wrap .btn-type1.email:after {margin-top:-1px; font-size:13px}
+    }
+.key-visual .ctl-carousel {margin:0 auto; position:absolute; left:0; right:0; bottom:20px; text-align:center}  /* max-width:1366px;  */
+.key-visual .ctl-carousel .prev, .key-visual .ctl-carousel .next, .key-visual .ctl-carousel ul, .key-visual .ctl-carousel li{display:inline-block;vertical-align:top}
+    .ie7 .key-visual .ctl-carousel .prev,     .ie7 .key-visual .ctl-carousel .next,     .ie7 .key-visual .ctl-carousel ul,     .ie7 .key-visual .ctl-carousel li{display:inline;}
+.key-visual .ctl-carousel button{width:28px;height:25px;vertical-align:top; background:url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/btn_carousel.png) no-repeat 0 0}
+.key-visual .ctl-carousel .next{background-position:-90px 0}
+.key-visual .ctl-carousel .pause{background-position:-60px 0}
+.key-visual .ctl-carousel .play{background-position:-30px 0}
+.key-visual .ctl-carousel li button{width:20px;background-position:-140px 0}
+.key-visual .ctl-carousel li.current button{background-position:-121px 0}
+@media(min-width:1024px) {
+    .key-visual.home_kv .ctl-carousel .prev {margin-left:0%}
+    .key-visual .ctl-carousel .prev {margin-left:35%}
+    .key-visual.short-type .ctl-carousel {height:25px; z-index:0;}
+    .key-visual.index_kv .ctl-carousel{margin-left:0; top:auto !important; bottom:20px; text-align:center}/* index용 키비쥬얼 추가 css */
+}
+@media(min-width:768px) and (max-width:1023px){
+    .key-visual .ctl-carousel{margin-left:0; top:420px; bottom:auto; text-align:center}
+    .key-visual.index_kv .ctl-carousel{margin-left:0; top:auto !important; bottom:20px; text-align:center}/* index용 키비쥬얼 추가 css */
+}
+@media (max-width:767px){
+    .key-visual .ctl-carousel{width:100%; height:25px; margin-left:0; bottom:auto; top:0; padding-top:47%;}
+    .key-visual .ctl-carousel .prev,.key-visual .ctl-carousel .next { display:none;}
+    .key-visual.home_kv .ctl-carousel{margin-left:0; top:380px; bottom:auto; text-align:center; padding: 0;}/* index용 키비쥬얼 추가 css */
+}
+.legacy-ie .key-visual, .legacy-ie .key-visual [data-role="ui-flick-container"]{height:390px !important;}
+.legacy-ie .key-visual.home_kv, .legacy-ie .key-visual.home_kv [data-role="ui-flick-container"]{height:600px !important;}
+.legacy-ie .key-visual .screen{height:390px;padding-bottom:0}
+.legacy-ie .key-visual.home_kv .screen{height:600px;padding-bottom:0}
+.legacy-ie .key-visual .screen>div{margin:0 auto;max-width:1366px;height:100%;position:relative}
+.legacy-ie .key-visual .ctl-carousel .prev {margin-left:0}
+/*layer popup (common)*/
+.ui-layer-content a.btn-close{display:block; position:absolute; padding:10px; top:10px; right:10px; font-size:27px; z-index:1}
+.ui-layer-content a.btn-close:after {font-family:'samsungIcon'; content:"\33"; font-size:30px;}
+.ui-layer-content a.btn-close:active {background:none}
+.ui-layer-scope{position:fixed; left: 0px; top: 0px; width: 100%; height: 100%; z-index: 10000000; overflow:auto;}
+.ui-layer-cover{position:fixed;left:0;right:0;top:0;bottom:0;opacity: 0.5; pointer-events: none; background-color: rgb(0, 0, 0);}
+.legacy-ie .ui-layer-cover{-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";filter: alpha(opacity=50);}
+.ui-layer-container{position:relative;width:100%; height:100%; top:0; display:table; vertical-align:middle}
+.ui-layer-container > .ui-layer-content > div {position:relative; padding:30px 30px 50px; background:#fff; border:4px solid #ececec; box-sizing:border-box}
+.ui-layer-container.sampleimage > .ui-layer-content > div {position:relative; padding:0; background:#fff; border:none; box-sizing:border-box}
+.ui-layer-container.share {height:auto}
+.ui-layer-container.find-device {height:auto}
+.ui-layer-container .ui-layer-content{display:table-cell; vertical-align:middle}
+.ui-layer-container .ui-layer-content a.btn-close{top:0}
+.ui-layer-container.multi-movie {width:60%; min-width:300px; margin:0 auto}
+.ui-layer-container.multi-movie > .ui-layer-content {background:none !important}
+.ui-layer-container.multi-movie > .ui-layer-content > div {padding:0; border:0}
+/* video layer */
+div.vm-player-layer{width:100%; background:#000; position:absolute; top:0; left:0;  z-index:10000000; display:none;}
+.ui-layer-container.movie{display:block;position: fixed; left: 50%; top: 0px; width: 60%; min-width:300px; height: 100%; z-index: 1000;}
+.ui-layer-container.movie .ui-layer-content{display:block; padding-bottom:56.25%;top:46.5%;margin:-28.125% auto 0;left:-50%;position:relative;background:black}
+.ui-layer-container.movie .ui-layer-content iframe, .ui-layer-container.movie .ui-layer-content object{position:absolute;left:0;top:40px;width:100%;height:100%;}
+.ui-layer-container.movie .ui-layer-content a.btn-close2 {color:#fff;top:10px}
+
+/* contact us (only pl) */
+.mailContactUsPl .ui-layer-mail {width:682px;}
+.mailContactUsPl .ui-layer-mail iframe {height:660px;}
+@media (max-width:767px){
+    .mailContactUsPl .ui-layer-mail {width:100%;}
+}
+
+
+@media (min-width:1024px){
+/* .site-map .support_height{min-height:518px;}*/
+}
+@media (min-width:768px) and (max-width:1023px) {
+    .cont-top .title-area h1 {font-size:28px}
+    .site-map .grid-row {padding:0 10px}
+    .site-map .grid-row .grid-col h2 {font-size:24px}
+    .site-map .grid-row .grid-col {float:none; display:inline-block; width:33%; vertical-align:top;}
+}
+@media (max-width:767px) {
+    .cont-top .title-area h1 {font-size:24px}
+    .site-map .grid-row {padding:0 10px}
+    .site-map .grid-row .grid-col {float:inherit; width:100%}
+    .site-map .grid-row .grid-col .col-inner {margin:0}
+    .site-map .grid-row .grid-col h2 {font-size:20px}
+    .site-map .grid-row .grid-col .tit span {height:1.13em; line-height:1.13em; word-break:break-word; }
+}
+/* legal */
+.txt-block {max-width:1310px; margin:0 auto; margin-bottom:40px; padding:0 28px}
+.txt-block h2 {font-size:28px}
+.txt-block .txt-cont {margin-top:10px}
+.txt-block .txt-cont p + p {margin-top:15px}
+.txt-block .txt-cont ul {margin:15px 0}
+.txt-block .txt-cont.number {padding-left:25px; text-indent:-25px}
+.txt-block .txt-cont.number ul {padding-left:25px}
+.ipredirection-conts .title-area {margin-bottom:40px; padding:10px 0; text-align:center;}
+.ipredirection-conts .title-area h1 {color:#fff; font-size:32px}
+.site-container {max-width: 1310px; margin: 0 auto; padding:0 28px 50px}
+.site-container .sub-title {margin-bottom:30px; font-size:28px}
+.siteList:after {display:block; content:""; clear:both}
+.siteList ul {float:left; width:16.6%; min-width:210px}
+.siteList ul li {margin-top:0}
+.siteList ul li a {font-size:13px}
+.siteList ul li a img {display:inline-block; margin-right:10px; vertical-align:middle}
+@media (min-width:768px) and (max-width:1023px) {
+    .txt-block {padding:0 10px}
+    .txt-block h2 {font-size:24px}
+    .ipredirection-conts .title-area h1 {font-size:28px}
+    .site-container .sub-title {margin-bottom:20px; font-size:24px}
+}
+@media (max-width:767px){
+    .txt-block {padding:0 10px}
+    .txt-block h2 {font-size:20px}
+    .ipredirection-conts .title-area h1 {font-size:24px}
+    .site-container .sub-title {margin-bottom:15px;font-size:20px}
+}
+.module.sec-board-box .event_ds {margin-top:10px; max-height:3.8em; line-height:1.2; display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:3; text-overflow:ellipsis; overflow: hidden;}
+div.btn-go-top{display:none; position:fixed; right:20px; bottom:20px; width:40px; height:40px; border-radius:5px; line-height:40px; text-align:center; font-size:16px; background:#e1e3e5; opacity:0.6; z-index:1000000; overflow:hidden}
+div.btn-go-top a {display:block}
+div.btn-go-top a:after {display:block; position:absolute; top:0; left:0; width:40px; height:40px; line-height:40px; font-family:'samsungIcon'; content:"\2f"; text-align:center}
+div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;top:-9999px;width:0;height:0;font-size:0;line-height:0}
+/* acc-help */
+.ie7 .tab.type3 li {margin-left:-2px}
+/* advanced search */
+.result-head {position:relative; padding-top:45px;}
+.result-head h1 {padding-right:50px; line-height:40px; padding-top:0;}
+.result-head .btn-ad-search {display:block; position:absolute; top:50px; right:0; height:50px; line-height:50px; padding:0 15px; color:#000; background-color:#f1f1f1}
+.result-head .btn-ad-search:after {content:'\e60b'; font-size:20px; margin-left:5px}
+.advanced-box {padding:28px 40px; background:#f1f1f1;}
+.advanced-box ul {clear:both; display:block;}
+.advanced-box ul li {display:block; margin-bottom:10px;}
+.advanced-box ul li span {display:inline-block; width:15%; padding-right:15px; box-sizing:border-box; vertical-align:middle}
+.advanced-box ul li .frm {display:inline-block; position:relative; width:84%; vertical-align:middle}
+.advanced-box ul li .frm input[type=text] {width:100%; height:30px; padding:6px 10px; font-size:16px; line-height:18px}
+.advanced-box ul li .frm .txt_del {display:none; position:absolute;  top:8px; right:10px; line-height:0;}
+.advanced-box ul li .frm .txt_del.active {display:block}
+.result-count .grid-row {overflow:inherit}
+.radio-cont {display:inline-block; vertical-align:middle}
+.radio-cont .radio-box {display:inline-block}
+.radio-cont .radio-box + .radio-box {margin-left:15px}
+.radio-cont .radio-box input[type=radio]:checked+label:before {background:url('/global/business/semiconductor/minisite/SSD/global/common/img/ico/ico_radio_blue.png') no-repeat right center;}
+.btn-advanced-cls {display: block; padding: 0 30px 0 12px; position:absolute; right:-1px; bottom:-30px; height: 30px;line-height: 30px; background-color: #707070; text-align: center; font-size: 14px; color: #fff;}
+.btn-advanced-cls:after {margin-top: 4px; position: absolute; padding-left: 5px; font-size: 8px; line-height: 22px; font-family: 'samsungIcon'; content: "\2f";}
+.btn-area.right {text-align:right;}
+.advanced-box .btn-area.right {text-align:right}
+@media (max-width:1023px) and (min-width:768px) {
+    .advanced-box ul li span {width:20%;}
+    .advanced-box ul li .frm {width:79%;}
+}
+@media (max-width:767px) {
+    .advanced-box {padding:20px;}
+    .advanced-box ul li span {display:block; float:none; width:100%; margin-bottom:10px}
+    .advanced-box ul li .frm {display:block; float:none; width:100%}
+    .advanced-box .btn-clear-all {padding-right:0;}
+    .radio-cont .radio-box {display:block}
+    .radio-cont .radio-box + .radio-box {margin-top:10px; margin-left:0}
+    .result-head {padding-top:35px;}
+    .result-head .btn-ad-search {top:35px; width:50px; height:40px; padding:0; text-align:center}
+    .result-head .btn-ad-search:after {margin:0; margin-top:-15px}
+    .result-head .btn-ad-search .blind-txt {overflow:hidden;position:absolute;left:-9999px;top:-9999px;width:0;height:0;font-size:0;line-height:0}
+    .btn-advanced-cls {right:0}
+}
+.skip-menu a{position:absolute; top:-999999px; background:#333; color:#fff; width:100%; padding:10px 0; text-align:center; text-decoration:none; z-index:10001;}
+.skip-menu a:first-letter {text-transform:uppercase;}
+.skip-menu a:hover, .skip-menu a:focus, .skip-menu a:active {display:block; top:0;}
+#content {width:100%;}
+.body-wrap{margin:0 auto;max-width:1920px; -webkit-transform:none !important;transform:none !important}
+    .legacy-ie .body-wrap{min-width:1366px}
+.header-wrap{background-color:#1428A0; position:relative;z-index:10000}
+.header-wrap:after {display:block; content:""; clear:both;}
+.header-wrap .browser-notice {padding:5px 20px;background:#00AFEF;color:#fff;position:relative;display:none; text-align:center}
+.header-wrap .browser-notice span{max-width:1286px;padding-right:10px;text-align:center; vertical-align:middle; line-height:16px;}
+.header-wrap .browser-notice button {display:inline-block; width:16px;height:16px; line-height:16px; background:url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/btn_top_close2.png) no-repeat 0 0; vertical-align:middle}
+.header-wrap .cookie-notice{display:none; position:relative; padding:5px 20px; text-align:center; color:#d2d2d2; background:#52565a;}
+.header-wrap .cookie-notice span{text-align:center}
+.header-wrap .cookie-notice span a{margin:0 10px; color:#fff}
+.header-wrap .cookie-notice button {display:inline-block; width:16px;height:16px; line-height:16px; background:url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/btn_top_close2.png) no-repeat 0 0; vertical-align:middle}
+.welcome {position:relative; padding:5px 0; background:#f8f8f8; text-align:center; display:none}
+.welcome p {display:inline-block; *display:inline; *zoom:1; padding-right:10px;}
+.welcome button {display:inline-block; width:16px;height:16px; line-height:16px; background:url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/btn_top_close.png) no-repeat 0 0; vertical-align:middle}
+.welcome .btn-close02 {display:block; position:absolute; top:50%; right:15px; width:15px; height:19px; margin-top:-9px; background:url(/global/business/semiconductor/minisite/SSD/global/common/img/layout/btn_close_02.png) no-repeat;}
+.header-wrap .space{display:block;height:30px;background-color: #fff;}
+.header-wrap .header{margin:0 auto;max-width:1310px;padding:0 28px;height:50px;position:relative}
+.header-wrap .header:after {content:""; display:block; clear:both}
+.header-wrap .logo {float:left;color:#fff; margin:0 17px 0 0; position:relative; top: 14px; width: 139px;}
+.header-wrap .logo a {display:block; width: 139px; height: 22px; background:url(/global/business/semiconductor/minisite/SSD/global/common/img/layout/logo-samsung-2x.png) no-repeat 0 0; background-size: 139px 21px;}
+.legacy-ie .header-wrap .logo a {background:url(/global/business/semiconductor/minisite/SSD/global/common/img/layout/samsung-semiconductor-logo.png) no-repeat 0 0;}
+.header-wrap .logo a > span{display:block;position:absolute;left:0;top:-45px;white-space:nowrap;color:#0057a4;font-size:12px;line-height:30px; text-transform:uppercase; font-family: 'SamsungIFBd';}
+.header-wrap .logo > p {display:none}
+.header-wrap .nav{float:left;height:100%}
+.header-wrap .nav a{display:block;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+.header-wrap .nav ul a {text-transform:uppercase}
+.header-wrap .nav ul ul a {text-transform:none}
+.header-wrap .nav a span {display:inline-block; margin-left:5px}
+.header-wrap .nav a span img {vertical-align:middle}
+.header-wrap .ctl-nav{display:none;width:100%;height:100%;color:#fff;margin-left:2px;}
+.header-wrap .local-menu{font-size:14px;color:#fff;float:left;overflow:hidden;margin:0 16px 0 0;text-transform:uppercase;height:100%;}
+    .ie7 .header-wrap .local-menu>li>a{color:#fff;}
+.header-wrap .local-menu>li{float:left;height:100%;}
+.header-wrap .local-menu>li>a{padding:16px 10px;height:100%;}
+    .ie7 .header-wrap .local-menu>li>a{height:22px;}
+.header-wrap .local-menu>li:hover, .header-wrap .local-menu>li.on, .header-wrap .local-menu>li.active{background:#b8d8ee !important;}
+.header-wrap .local-menu>li > a:hover, .header-wrap .local-menu>li.on, .header-wrap .local-menu>li.active > a {color:#000;}
+.header-wrap .local-menu>li.sub>a{padding-right:30px;}
+.header-wrap .local-menu>li.sub>a:after{position:absolute;padding-left:5px;font-size:12px;line-height:20px;font-family:'samsungIcon';content:"\36";}
+.submenu-container{position:absolute;display:none;z-index:3;color:#000}
+    .ie7 .submenu-container{display:block;visibility:hidden}
+    .legacy-ie .submenu-container a{color:#000}
+.submenu-container>ul{width:257px;background:#f5f5f5; display:block}
+.submenu-container>ul>li{border-top:1px solid #e9e9e9;padding:14px 50px 14px 10px;border-right:1px solid #e9e9e9}
+.submenu-container>ul>li:hover{background:#fff;border-right-color:#fff}
+.submenu-container a.outlink:after {margin:0 0 1px 5px; font-family:'samsungIcon'; font-size:12px; content:'\e60e'}
+.submenu-container ul li:first-child{border-top:0}
+.submenu-container li.sub>a:after{content:"\32";font-family:'samsungIcon';font-size:10px; position:absolute; right:20px; line-height:20px;}
+.submenu-container li.sub>a.outlink:before{content:"\32";font-family:'samsungIcon';font-size:10px; position:absolute; right:20px; line-height:20px;}
+.submenu-container .flyout{display:none;position:absolute;left:257px; width:257px;  background:#fff;top:0;min-height:100%}
+.submenu-container .flyout.add_hero{width:400px;}
+.submenu-container .flyout li:first-child{margin-top:5px}
+.submenu-container .flyout a{padding:10px 20px 10px 22px}
+.submenu-container .flyout a:hover{color:#0057a4; text-decoration:underline}
+.submenu-container  li a.outlink:after{position: relative; width:14px; font-family:'samsungIcon'; font-size:12px; content:"\e60e"; right:0;}
+@media (min-width:1040px){
+.submenu-container .flyout ul{float:left}
+.submenu-container .flyout .hero_area{float:right; padding:10px ;width:200px;  }
+.submenu-container .flyout .hero_area img{width:100%; height:auto;}
+.submenu-container .flyout .hero_area dl{padding:30px 10px 0 0;line-height:20px;text-align:right;}
+.submenu-container .flyout .hero_area dt{text-align:right;}
+.submenu-container .flyout .hero_area dt a {padding:0;}
+.submenu-container .flyout .hero_area dt a:hover{text-decoration:none; color:#000; cursor:default;}
+.submenu-container .flyout .hero_area dd{text-align:right; color:#666; font-size:16px;}
+.submenu-container .flyout .hero_area dd.btn_buy{margin-top:5px;}
+.submenu-container .flyout .hero_area dd.btn_buy a{padding:0; color:#20a2ff;font-size:16px;}
+.submenu-container .flyout .hero_area dd.btn_buy .btn-type2{ padding:0; font-size:16px; position:relative; left:5px; text-transform:none; height:20px;}
+.submenu-container .flyout .hero_area dd.btn_buy .btn-type2.link:after{position:relative;top:-1px; margin-right:0; padding:0;}
+}
+@media (max-width:1039px){
+.submenu-container .flyout{width:auto;}
+.submenu-container .flyout ul{float:none}
+.submenu-container .flyout .hero_area .hero_img{display:none;}
+.submenu-container .flyout .hero_area dd{display:none;}
+.submenu-container .flyout.add_hero{width:100%;}
+.submenu-container .flyout .hero_area dt a{ color:#0071bf;}
+.submenu-container .flyout .hero_area dt a:hover{text-decoration:underline; color:#0071bf; cursor:pointer;}
+.submenu-container .flyout .hero_area dt a:after{margin:0 0 0px 2px; font-family:'samsungIcon'; display:inline-block; vertical-align:middle; font-size:0.9rem; margin-bottom:1px; content:"\34";}
+}
+.header-wrap .local-menu>li.sub.on>div, .ie7 .header-wrap .local-menu>li.sub:hover>div{display:block;top:100%;margin-left:0;}        /*.submenu-container*/
+.submenu-container li.sub.on .flyout, .ie7 .submenu-container li.sub:hover .flyout{display:block}        /*.flyout*/
+.header-wrap .nav ul.direct{color:#0057a4;font-size:14px;line-height:30px;position:absolute;right:28px;top:-30px;}
+.header-wrap .nav ul.direct a{font-size:12px;line-height:30px; letter-spacing: -0.5px;font-family: 'SamsungIFBd'; }
+.header-wrap .nav ul.direct a:hover{color:#b8d8ee !important}
+.header-wrap .nav ul.direct a:after{font-size:12px}
+.header-wrap .nav ul.direct a.link:after {margin-top:-2px; margin-bottom:0}
+.header-wrap .nav ul.direct a.outlink:after {margin-left:5px; margin-bottom:1px; content:'\e60e'}
+.header-wrap .nav ul.direct>li{float:left;padding-left:8px}
+    .ie7 .header-wrap .nav ul.direct a{color:#0057a4}
+.header-wrap .util-menu{height:100%;float:right;position:relative;color:#fff;}
+.header-wrap .util-menu a:hover, .header-wrap .util-menu button:hover{color:#666}
+    .ie7 .header-wrap .util-menu{zoom:1}
+.header-wrap .util-menu:after{content:"";display:block;clear:both;visibility:hidden;}
+.header-wrap .util-menu button{height:100%;text-align:center;}
+.header-wrap .util-menu .sch{float:left;width:285px;background:#fff;height:30px;padding:0 30px 0 0;margin:10px 0 0 0;position:relative}
+.header-wrap .util-menu .sch form{height:100%;}
+.header-wrap .util-menu .sch.active .ctl-frm{background:#5a5a5a;color:#fff}
+.header-wrap .util-menu .ctl-frm{display:none;width:34px;height:50px;text-align:center;}
+.header-wrap .util-menu .sch input[type=search], .header-wrap .util-menu .sch input[type=text]{float:left;width:100%;height:100%; font-size:18px; line-height:20px; padding:5px 25px 5px 10px;-khtml-border-radius:0; -moz-border-radius:0; -webkit-border-radius:0; border-radius:0; -webkit-appearance:none}
+    .ie7 .header-wrap .util-menu .sch input[type=text]{width:265px;height:30px}
+.header-wrap .util-menu .txt_del {display:none; position:absolute; top:8px; right:35px; height:13px; line-height:0}
+.header-wrap .util-menu .submit-sch{float:left;margin:0 -30px 0 0;width:30px;height:100%;background:#fff;color:#000}
+.header-wrap .btn-ico:before{font-size:18px;line-height:50px;}
+.header-wrap .ctl-nav:before{content:"\2b"}
+.header-wrap .util-menu .ctl-frm:before{content:"\e013";}
+.header-wrap .util-menu .submit-sch:before{content:"\e013";line-height:30px;height:30px}
+.header-wrap .btn-signin {margin-left:10px; float:left; width:34px}
+.header-wrap .btn-signin:after {font-family:'samsungIcon'; font-size:22px; content:'\29'}
+.header-wrap .btn-signin.on:after {content:"\e618"; font-size:28px}
+
+.header-wrap .call-smartfinder {margin-left:10px; float:left; width:34px}
+.header-wrap .call-smartfinder:after {display:block; content:'\e600'; font-size:26px; font-family: 'samsungIcon'}
+.header-wrap .call-smartfinder.active {background-color:#0071bf}
+
+.header-wrap .call-personalHistory {margin-left:10px; float:left; width:34px;}
+.header-wrap .call-personalHistory:after {display:block; content:'';  font-size:26px; font-family: 'samsungIcon';  background:url(/global/business/semiconductor/minisite/SSD/global/common/img/layout/ico_history.png) no-repeat 50% 0; background-size:29px 25px; width:34px; height:25px}
+.header-wrap .call-personalHistory.active {background-color:#e5eef6; color:#1428a0;}
+.header-wrap .call-personalHistory:hover:after{background:url(/global/business/semiconductor/minisite/SSD/global/common/img/layout/ico_history_over.png) no-repeat 50% 0;background-size:29px 25px;}/* 조재영 history 임의 이미지 */
+
+.header-wrap .header:after, .header-wrap .nav:after, .header-wrap .local-menu:after{content:"";display:block;clear:both;visibility:hidden}
+.header-wrap a.retial-mobile-btn, .header-wrap a.retail-mobile-btn {display:none}
+@media (min-width:1024px) and (max-width:1280px) {
+    /* search input box hide */
+    .header-wrap .util-menu{position:static}
+    .header-wrap .util-menu .sch{position:absolute;left:0px;right:0px;top:100%;z-index:2;background:#5a5a5a;float:none;clear:both;width:auto;margin:0;height:0}
+    .header-wrap .util-menu .sch .txt_del {display:none; position:absolute; top:20px; right:45px}
+    .header-wrap .util-menu .sch form {display:none}
+    .header-wrap .util-menu .sch.active{height:30px;padding:10px 40px 10px 10px}
+    .header-wrap .util-menu .sch.active form {display:block}
+    .header-wrap .util-menu .ctl-frm{display:block;position:absolute;right:66px;top:-50px}
+    .header-wrap .util-menu .sch input[type=text] {font-size:16px}
+}
+.overlay{position:fixed;z-index:9999999;background:#000;opacity:.85;right:0;top:0;-moz-transition:right ease-in .3s;-ms-transition:right ease-in .3s;-o-transition:right ease-in .3s;-webkit-transition:right ease-in .3s;transition:right ease-in .3s }
+@media (min-width:540px) and (max-width:1023px){
+    .body-wrap.nav-on{left:-70%;}
+    .body-wrap.nav-on .overlay{right:70%;}
+    .body-wrap .nav{right:-100%;width:70%;}
+    .body-wrap.nav-on .ctl-nav {right:70%}
+    .body-wrap.nav-on .ctl-nav {position:absolute; right:0; top:0}
+}
+@media (max-width:539px){
+    .body-wrap.nav-on{left:-80%;}
+    .body-wrap.nav-on .overlay{right:80%;}
+    .body-wrap .nav{right:-100%;width:80%;}
+    .body-wrap.nav-on .ctl-nav {right:80% !important}
+}
+@media (max-width:1023px){
+    .body-wrap{position:relative;width:100%;left:0;-moz-transition:left ease-in .3s;-ms-transition:left ease-in .3s;-o-transition:left ease-in .3s;-webkit-transition:left ease-in .3s;transition:left ease-in .3s !important}
+    .body-wrap.nav-on .overlay{left:0;bottom:0;z-index:999999}
+    .header-wrap{padding-top:0;}
+    .header-wrap:before{height:0px}
+
+    .header-wrap .space{display:none}
+    .header-wrap .ctl-nav{float:right;width:36px;height:100%}
+    .body-wrap.nav-on .header-wrap .ctl-nav{background:#666}
+    .body-wrap.nav-on .header-wrap .ctl-nav:before {line-height:50px;}
+    .header-wrap .nav{display:none; position:fixed;top:0;bottom:0;background:#fff;color:#000;float:none;overflow:auto;margin:0}
+    .header-wrap .nav:before{content:"";display:block;height:30px}
+    .body-wrap.nav-on .header-wrap .nav{display: block; right:0}
+    .header-wrap .local-menu,     .header-wrap .nav ul.direct>li a{line-height:1.365;}
+    .header-wrap .local-menu a,     .header-wrap .nav ul.direct>li a{padding-top:15px !important;padding-bottom:15px !important;}
+    .header-wrap .local-menu>li>a{padding-left:30px !important;padding-right:72px !important;}
+    .header-wrap .local-menu{margin:0;color:#000;float:none;height:auto;background:#f5f5f5}
+    .header-wrap .local-menu>li{float:none;border-top:1px solid #e1e1e1;height:auto}
+    .header-wrap .local-menu>li>a{margin-right:0;height:auto;color:#0057a4}
+    .submenu-container{position:static}
+    .header-wrap .local-menu>li:hover,     .header-wrap .local-menu>li.on{background:transparent}
+    .submenu-container>ul{width:auto;background:#e9e9e9;border-top:1px solid #e1e1e1}
+    .submenu-container>ul>li:hover{background:inherit}
+    .submenu-container>ul>li{border-top:1px solid #ccc; border-right:0; padding:0}
+    .submenu-container>ul>li>a{padding-left:40px;padding-right:72px}
+    .submenu-container>ul>li:first-child{border-top:0}
+    .submenu-container .flyout{position:static;width:auto; min-height:auto; background:#fff}
+    .submenu-container .flyout li:first-child{margin-top:0}
+    .submenu-container .flyout a{padding-left:50px;padding-right:72px}
+    .header-wrap .nav button,     .header-wrap .ctl-nav{display:block;position:relative;z-index:9999999}
+    .body-wrap.nav-on .ctl-nav {position:fixed; right:70%; top:31px; height:50px}
+    .header-wrap .nav ul.direct{color:#000;position:static;border-bottom:1px solid #e1e1e1}
+    .header-wrap .nav ul.direct>li{float:none;padding:0;border-top:1px solid #e1e1e1}
+    .header-wrap .nav ul.direct>li a{padding-left:30px;padding-right:72px; color:#0057a4}
+    .header-wrap .nav ul.direct>li a:hover{color:#000 !important}
+    .header-wrap a.btn.link:after{content:""}
+    .header-wrap .nav a{position:relative;}
+    .header-wrap .local-menu>li.sub>a:after,     .submenu-container li.sub>a:after{content:"+";font-family:'SamsungIFRg';right:25px;top:50%;margin-top:-10px;width:20px;height:20px;text-align:center;font-size:20px;line-height:20px;}
+    .submenu-container li.sub>a.outlink:after{position: relative; width:14px; font-family:'samsungIcon'; font-size:12px; content:"\e60e"; right:0; top:auto; margin-top:0px;height:auto;text-align:center;}
+    .submenu-container li.sub>a.outlink:before{content:"\e60e";font-family:'samsungIcon';font-size:12px; position:absolute; right:20px; line-height:20px;}
+    .header-wrap .local-menu>li.sub.on>a:after,     .submenu-container li.sub.on>a:after{content:"-"}
+    .submenu-container li.sub.on>a.outlink:before{content:"\e60e"}
+    .submenu-container li.sub>a.outlink:after{content:""; position: relative; width:14px; font-family:'samsungIcon'; font-size:12px; content:"\e60e"; right:0; top:auto; margin-top:0px;height:auto;text-align:center;}
+    .submenu-container li.sub.on>a.outlink:after{content:"";position: relative; width:14px; font-family:'samsungIcon'; font-size:12px; content:"\e60e"; right:0; top:auto; margin-top:0px;height:auto;text-align:center;}
+    .header-wrap .nav ul ul li.sub {position:relative}
+    .header-wrap a.retial-mobile-btn,     .header-wrap a.retail-mobile-btn {display:block; width:100%; height:50px}
+    .header-wrap a.retail-link {position:absolute; left:0; top:0; padding:15px 40px}
+    .header-wrap a.retail-link:after {display:none}
+    .header-wrap .util-menu .sch .txt_del {position:absolute; top:8px; right:35px}
+}
+@media (min-width:768px) and (max-width:1023px){
+    .header-wrap .header{padding:0 15px}
+    .header-wrap .call-smartcase{right:38px;margin-right:0}
+    .header-wrap .call-sign-in{right:76px}
+}
+@media (max-width:767px){
+    .header-wrap .header{padding:0 10px}
+    .header-wrap .call-smartcase{margin-right:0}
+    .header-wrap .btn-signin {margin:0}
+    .header-wrap .ctl-nav{margin-left:0}
+    .header-wrap .util-menu button {margin-left:0}
+    /* search input box hide */
+    .header-wrap .util-menu{position:static}
+    .header-wrap .util-menu .sch{position:absolute;left:0px;right:0px;top:100%;z-index:2;background:#5a5a5a;float:none;clear:both;width:auto;margin:0;height:0}
+    .header-wrap .util-menu .sch.active{height:30px; padding:10px 40px 10px 10px}
+    .header-wrap .util-menu .sch form {display:none}
+    .header-wrap .util-menu .sch.active form {display:block}
+    .header-wrap .util-menu .ctl-frm{display:block;position:absolute;right:80px;bottom:100%;}
+    .header-wrap .call-sign-in{right:38px}
+    .header-wrap .call-smartcase{right:0px}
+    .header-wrap .util-menu .sch input[type=text] {font-size:16px; line-height: 16px}
+    .header-wrap .util-menu .sch .txt_del {position:absolute; top:20px; right:45px}
+}
+.footer-row .grid-row {position:relative}
+.footer-row .grid-row .col-inner{overflow:hidden; margin-top:0;}
+.footer-row.bottom .col-inner > ul > li a.outlink:after {margin-left:5px; margin-bottom:1px; font-family:'samsungIcon'; content:'\e60e'}
+.footer .info{background:#dbebf6;padding:20px 0 20px;}
+.footer .info .contact, .footer .info .entermail, .footer .info .social{position:relative}
+.footer .info h2{text-transform:uppercase;font-size:24px}
+.footer .info p{padding:3px 10px 22px 0;line-height:1.3125; font-size:16px}
+.footer .info .contact{float:left;width:50%;overflow:hidden; padding:10px 0;}
+.footer .info .contact .act{float:left;padding-right:20px;display:block}
+.footer .info .contact ul{line-height:1.125;overflow:hidden;padding:3px 20px 0 0}
+.footer .info .contact li{float:left;padding:0 50px 0 0}
+.footer .info .contact li:last-child{padding-right:0}
+.footer .info .contact h3{font-size:14px;text-transform:uppercase}
+.footer .info .contact li strong{display:block;font-weight:normal; font-family:'SamsungIFBd';font-size:18px}
+.footer .info .entermail{float:right;width:50%;padding:10px 0;}
+.footer .info .entermail .col-inner>div{overflow:hidden}
+.footer .info .entermail .entermail-content {*zoom:1}
+.footer .info .entermail .entermail-content:after {display:block; content:""; clear:both}
+.footer .info .entermail .frm .choose label {font-size:16px}
+.footer .info .entermail .frm{float:left;width:100%;*zoom:1}
+.footer .info .entermail .frm:after {display:block; content:""; clear:both}
+.footer .info .entermail .frm .input{max-width:175px; padding:0 175px 40px 0;}
+.footer .info .entermail .frm .input input[type=text]{float:left;width:100%;height:38px;background:#fff;border:1px solid #dbdfe1;border-radius:3px 0 0 3px;border-right-width:0;padding:0 10px; *width:92%;}
+.legacy-ie .footer .info .entermail .frm .input input[type=text] {line-height:38px}
+.footer .info .entermail .frm .input .btn-small{float:left;margin-right:-100%;padding:0 20px;border:1px solid #dadee1;border-left-width:0;max-width:175px;height:38px; line-height:1.1;box-sizing:border-box;background:#1765aa}
+.footer .info .entermail .frm .input .btn-small {border-radius:3px}
+.footer .info .entermail .frm .input input + .btn-small  {border-radius:0 3px 3px 0}
+.footer .info .entermail .frm .choose{margin:10px 0}
+.footer .info .entermail .frm .choose a{color:#0057a4}
+.footer .info input[type=checkbox]+label:before{display:block;top:1px;width:18px;height:18px; line-height:18px; border:1px solid #bdc1c4;border-radius:2px}
+.footer .info input[type=checkbox]:checked+label:before{background-color:#fff;background-image:url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/ico_checked.png);background-position:-1px -1px}
+    .legacy-ie .footer .info input[type=checkbox]{position:static;float:left;margin:3px 0 0}
+    .legacy-ie .footer .info input[type=checkbox]+label:before{display:none}
+.footer .info .entermail .opt{width:210px;float:left;margin-right:-210px;font-size:0.875em;color:#0057a4}
+.footer .info .entermail .opt .txt{display:inline-block;padding:0 22px;color:#212427}
+.footer .info .social{margin:10px 30px 0 0px; padding-top:20px;}
+.footer .info .social ul{overflow:hidden;padding:10px 0 0}
+.footer .info .social li{float:left;padding-right:15px}
+.footer .info .social li button{width:40px;height:40px;border-radius:50%;background:#0057a4;color:#fff;margin:0 0 10px;vertical-align:top;font-size:18px;line-height:32px}
+.footer .info .social li a {display:block; width:39px;height:39px;border-radius:50%; color:#fff;margin:0;vertical-align:top;font-size:18px;line-height:32px}
+.footer .info .social li a img {width:100%; height:100%}
+.footer .info .social li a:hover {background:none !important;}
+.footer .bottom .util-menu li a {height:20px; line-height:20px; font-size:14px;}
+.footer .bottom .util-menu li a.outlink:after {vertical-align:bottom; font-size:0.9rem}
+.footer .bottom2 .copyright {font-size:14px}
+.footer .sec-next-step .col-inner h2 {padding:0; margin-bottom:10px}
+.footer .sec-next-step .col-inner h2 strong.step {margin:0; padding:0 0 10px; background:none !important}
+.footer .sec-next-step .col-inner h2 span {display:block; margin:0 0 10px; font-size:16px}
+.footer .sec-next-step .act {position:relative !important; top:0}
+.footer .info .email-form .email-input{ background-color:#fff; border:1px solid #e1e3e6; height:38px; line-height:38px; padding:0 15px; color:#2f3133; vertical-align:middle; width:210px; border-right:0; border-radius:2px 0 0 2px; font-size:16px;}
+.footer .info .email-form p{padding:0; padding-bottom:15px;}
+.footer .info .email-form p.address-input{padding:0; padding-bottom:20px;}
+.footer .info .email-form a{ color:#0057a4;}
+.footer .info .grid-col3 .col-inner{ padding-right:10px;}
+.footer .info .grid-col3 .network{background:url(/global/business/semiconductor/minisite/SSD/global/common/img/layout/bg_subscription01.png) no-repeat right 0;}
+.footer .info .grid-col3 .workplace{margin-top:25px; padding-top:25px;background:url(/global/business/semiconductor/minisite/SSD/global/common/img/layout/bg_subscription02.png) no-repeat right 25px;}
+.footer .info .scription_box{float:left; width:66.66%;}
+.footer .info .grid-col3.contact-us,.footer .info .grid-col3.subscription,.footer .info .grid-col3.sales{box-sizing:border-box; padding-left:18px;}
+.footer .info .grid-col3.subscription{width:50%; padding-left:0; min-height:0;}
+.footer .info .grid-col3.contact-us{ width:50%;}
+.footer .info .grid-col3.sales{ border-right:0; float:left; width:33%;}
+.footer .info .grid-col3.sales p{padding-bottom:15px;}
+.footer .info .grid-col3.sales a.link-outlink:after {margin:0 0 0px 2px; font-family:'samsungIcon'; display:inline-block; vertical-align:middle; font-size:0.9rem; margin-bottom:1px; content:"\34";}
+@media (max-width:1023px){
+    .footer .info .entermail .col-inner>div{padding-right:0}
+    .footer .info .entermail p{margin-right:0}
+    .footer .info .entermail .frm{float:none;width:auto;font-size:1em;max-width:none;padding-bottom:10px}
+    .footer .info .entermail .frm .choose a{display:inline}
+    .footer .info .entermail .opt{width:auto;float:none;margin-right:0;position:relative;padding:40px 0 0}
+    .footer .info .entermail .opt:before{content:"";position:absolute;top:20px;height:1px;background:#5a5a5a;left:0;width:100%;}
+    .footer .info .entermail .opt .txt{display:inline-block;height:40px;text-align:center;line-height:40px;padding:0 10px;margin:0 auto;position:absolute;left:50%;margin-left:-10px;top:0}
+    .footer .info .entermail .opt .btn-ico:before{width:48px;height:48px;line-height:48px}
+    .footer .info p,.footer .info .contact li strong {font-size:16px}
+
+}
+@media (min-width:768px) and (max-width:1023px){
+    .footer .info .contact .act{float:none;width:auto}
+    .footer .info .contact ul{font-family:inherit}
+    .footer .info .contact li{width:auto;padding-right:7%}
+    .footer .info .contact h3{padding-top:17px}
+    .footer .info .entermail .frm .choose{font-size:14px}
+    .footer .info .entermail .opt .txt{background:#e6e6e5;}
+    .footer .info .social{margin:10px 30px 0 10px; padding-top:25px;}
+    .footer .info .social .col-inner{margin-left:0px;}
+    .footer .info .social li button{width:75px;height:75px;border-radius:37.5px}
+    .footer .info .social li a {width:75px;height:75px;}
+    .footer .info .social li{width:auto;}
+    .footer .info .social li button{width:36px;height:36px;border-radius:18px}
+    .footer .info .social li a{width:36px;height:36px}
+.footer .info .email-form .email-input{ background-color:#fff; border:1px solid #e1e3e6; height:38px; line-height:38px; padding:0 15px; color:#2f3133; vertical-align:middle; width:210px; border-right:0; border-radius:2px 0 0 2px; font-size:16px;}
+.footer .info .email-form p{padding:0; padding-bottom:15px;}
+.footer .info .email-form p.address-input{padding:0; padding-bottom:38px;}
+.footer .info .grid-col3{padding:0;}
+.footer .info .scription_box{border-right:0; float:none; width:100%;}
+.footer .info .grid-col3.subscription, .footer .info .grid-col3.contant-us{width:50%;}
+.footer .info .grid-col3.contact-us{ border-right:0; min-height:0;}
+.footer .info .grid-col3 .workplace{border-top:0; margin-top:0px; padding-top:0px;}
+.footer .info .grid-col3.subscription{ padding-left:14px;}
+.footer .info .grid-col3.sales{width:100%; border:none; box-sizing:border-box; min-height:0px; padding-left:0px; padding-top:0px; margin:0;}
+.footer .info .grid-col3.sales .network{ width:50%; float:left; box-sizing:border-box; padding-left:24px;  padding-right:0; margin-left:0; padding-top:30px; padding-bottom:10px; background-position:90% 45px; background-size:120px auto;}
+.footer .info .grid-col3.sales .workplace{width:50%; float:left; box-sizing:border-box; padding-left:28px;padding-right:0; margin-left:0; padding-top:30px; padding-bottom:10px;background-position:right 45px;background-size:120px auto;}
+}
+@media (max-width:767px){
+    .footer .info h2{font-size:20px; color:#777}
+    .footer .info h2.tit-accordion strong.step {color:#777 !important}
+    .footer .info{padding:0;background:#fff}
+    .footer .info .grid-row .col-inner.active{border-top:1px solid black}
+    .footer .info .contact,     .footer .info .entermail,     .footer .info .social{float:none;width:auto;border-top:1px solid #ccc; margin:0; padding:0}
+    .footer .info .contact .act{float:none;padding-right:0}
+    .footer .info .contact .act button{width:100%}
+    .footer .info .contact ul{font-family:inherit;padding-top:25px}
+    .footer .info .contact h3{font-size:12px;font-family:'SamsungIFBd';}
+    .footer .info .entermail .frm .input{padding-right:140px}
+    .footer .info .entermail .frm .input .btn-small{min-width:140px; padding:0 15px}
+    .footer .info .social ul {padding:0;}
+    .footer .info .social li button{width:75px;height:75px;border-radius:37.5px}
+    .footer .info .social .tit-accordion {height:48px !important}
+    .footer .info .social .tit-accordion span {vertical-align:middle}
+    .footer .info .entermail .opt .txt{background:#fff}
+    .footer .info p {font-size:14px}
+    .footer .info .contact li strong {font-size:14px}
+    .footer .info .entermail .frm .choose label {font-size:14px}
+    .footer .sec-next-step .col-inner h2.tit-accordion strong.step {padding:0 20px 0 0; display:table-cell; vertical-align:middle}
+.footer .info .email-form .email-input{ background-color:#fff; border:1px solid #e1e3e6; height:38px; line-height:38px; padding:0 15px; color:#2f3133; vertical-align:middle; width:210px; border-right:0; border-radius:2px 0 0 2px; font-size:16px;}
+.footer .info .email-form p{padding:0; padding-bottom:15px;}
+.footer .info .email-form p.address-input{padding:0; padding-bottom:15px; position:relative; padding-right:30%;}
+.footer .info .email-form p.address-input input{ width:100%;}
+.footer .info .email-form p.address-input button{ position:absolute; right:0; top:0; width:30%;}
+.footer .info .scription_box{border-right:0; float:none; width:100%;}
+.footer .info .grid-col3.subscription{border-right:0; width:100%; padding-left:0; min-height:0;}
+.footer .info .grid-col3.contact-us{ width:100%;}
+.footer .info .grid-col3.sales{ border-right:0; float:none; width:100%;}
+.footer .info .grid-col3{padding:0;border-top:1px solid #e2e2e2; border-right:0 !important;}
+.footer .info .grid-col3 .col-inner{padding-bottom:15px;}
+.footer .info .grid-col3.subscription .col-inner{padding-bottom:0px;}
+.footer .info .grid-col3 .network{ border-top:1px solid #e2e2e2; margin-top:0px; padding-top:0px; background-position:95% 25px; background-size:120px auto;}
+.footer .info .grid-col3 .workplace{ border-top:1px solid #e2e2e2; margin-top:0px; padding-top:0px;background-position:95% 25px; background-size:120px auto;}
+.footer .info .grid-col3.contact-us,.footer .info .grid-col3.sales{border-left:0; box-sizing:border-box; padding-left:0px; min-height:0;}
+.footer .info .grid-col3.contact-us button{ width:100%;}
+}
+.footer .sitemap{background:#5a5a5a;color:#fff;font-size:14px}
+.footer .sitemap h3{text-transform:uppercase;padding:28px 0 10px;font-family:'SamsungIFBd';line-height:1; height:30px; font-size:16px; vertical-align:middle; color:#fff;border-bottom:1px solid #d8d8d8}
+.footer .sitemap h3 span {display:inline-block}
+.footer .sitemap h3:after {display:inline-block; content:""; width:1px; height:30px; vertical-align:middle}
+.footer-row.sitemap .grid-row{padding-bottom:38px}
+.footer .sitemap .grid-col{float:left}
+.footer .sitemap .grid-col.left{width:25%;}
+.footer .sitemap .grid-col.center{width:50%;}
+.footer .sitemap .grid-col.right{width:25%;}
+.footer .sitemap .grid-col.center .col-inner>ul>li{float:left;width:50%}
+.footer .sitemap .col-inner>ul{padding:14px 0 0;overflow:hidden}
+.footer .sitemap .col-inner>ul>li>a{display:inline-block;padding:2px 0 1px 0px; color:#fff; font-size:14px}
+.footer .sitemap .col-inner ul ul{padding:2px 0 5px 15px}
+.footer .sitemap .col-inner ul ul a{display:inline-block;padding:1px 0 0 7px; color:#fff; background:url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/ico_sitemap_sub.png) no-repeat 0 8px;position:relative; font-size:14px} /* 2014-08-24 */
+.footer .sitemap .col-inner>ul>li a.outlink:after {margin-left:5px; margin-bottom:1px; font-family:'samsungIcon'; content:'\e60e'; font-size:0.9rem}
+.footer .sitemap .frm{position:relative; margin-top:38px;padding-right:35px;overflow:hidden;height:37px}
+.footer .sitemap .frm input[type=search], .footer .sitemap .frm input[type=text]{display:inline-block; float:left;width:100%; height:37px; line-height:19px; padding:8px 10px; padding-right:25px; background:#fff; -khtml-border-radius:3px 0 0 3px; -moz-border-radius:3px 0 0 3px; -webkit-border-radius:3px 0 0 3px; border-radius:3px 0 0 3px; -moz-background-clip:padding; -webkit-background-clip:padding-box; background-clip:padding-box; border:1px solid #dadee1; border-right-width:0; -webkit-appearance:none; font-size:18px}
+.footer .sitemap .frm .submit-sch{background:#fff;color:#000;width:35px;height:100%;font-size:1.5em;line-height:35px;float:right;margin-right:-35px;border-radius:0 3px 3px 0;border:1px solid #dadee1;border-left-width:0}
+.footer .sitemap .frm .txt_del {display:none; position:absolute; top:11px; right:40px; margin:0; line-height:1;}
+.sitemap .grid-col{ width:25%;}
+.sitemap .grid-col.product_area{ width:50%;}
+.sitemap .grid-col.product_area ul.map_product{ width:50%; float:left;}
+@media (max-width:767px){
+    .footer .sitemap h3{font-size:16px}
+    .footer .sitemap .grid-col,     .footer .sitemap .grid-col ul li{float:none !important;width:100% !important}
+    .footer .sitemap .col-inner a{display:block}
+    .footer .sitemap .col-inner{border-top:1px solid #777}
+    .footer .sitemap .frm{margin-top:0;padding:20px 60px 20px 10px;height:40px}
+    .footer .sitemap .frm .submit-sch{width:50px;line-height:37px;margin-right:-50px;}
+    .footer .sitemap .col-inner>ul>li>a{padding:10px 0 10px;display:block}
+    .footer .sitemap .col-inner>ul{padding:0 0 15px 15px}
+    .footer .sitemap .col-inner ul ul a{background:none;padding:4px 0 2px 10px; font-size:12px}
+    .footer .sitemap .col-inner ul ul a:before{content:"";display:block;position:absolute;left:0;top:11px;width:5px;height:1.5px;background:#fff}
+    .footer .sitemap h3 {font-size:14px; line-height:50px}
+    .footer .sitemap .frm input[type=search],     .footer .sitemap .frm input[type=text] {height:40px; padding:10px; padding-right:20px; line-height:20px; font-size:16px}
+    .footer .sitemap .frm .txt_del {top:32px; right:60px}
+    .footer-row.sitemap .grid-row{padding-bottom:0}
+}
+@media (min-width:768px){
+    .footer .sitemap ul ul{display:block !important}
+}
+.footer .bottom{background:#292929;color:#e5e5e5;font-size:12px}
+.footer .bottom .grid-row{padding-bottom:0}
+.footer .bottom .col-inner{margin-top:0; *zoom:1}
+.footer .bottom .col-inner:after {display:block; content:""; clear:both}
+.footer .bottom .util-menu{float:left;overflow:hidden;padding:21px 0;margin-left:-20px}
+.footer .bottom .util-menu li{float:left;padding-left:20px}
+.footer .bottom .language{display:block; height:auto; line-height:19px; padding:20px 0 20px; float:right;}
+.footer .bottom .language a{ color:#fff;}
+
+.footer .bottom2{padding:10px 0;font-size:12px;}
+.footer .bottom2 .copyright{float:left; margin-top:10px; line-height:18px;}
+.footer .bottom2 .copyright span {margin-top:20px; display:block}
+.footer .bottom2 .btn{float:right; margin-top:10px; line-height:18px; font-size:14px}
+.footer .bottom2 .notice{clear:both;padding:11px 0}
+@media (max-width:767px){
+.footer .bottom{background:none; font-size:14px}
+.footer .bottom .grid-row,.footer .bottom .util-menu li{padding:0}
+.footer .bottom .col-inner{margin:0}
+.footer .bottom .util-menu{float:none;margin-left:0;background:#000}
+.footer .bottom .util-menu li a{display:block; padding:5px 0 5px 10px}
+.footer .bottom .language{float:none; padding:10px; background:#000; color:#fff; border-top:1px solid #333;}
+.footer .bottom .language a{ color:#fff; display:block; padding:5px 0;}
+.footer .bottom .mark{float:none; padding:0 10px; background:#000; color:#fff; border-top:1px solid #333}
+.footer .bottom2{font-size:14px}
+.footer .sitemap .col-inner>ul>li>a {font-size:12px}
+.footer .bottom2 .copyright {font-size:12px}
+.footer .bottom .util-menu {padding:10px 0}
+.footer .bottom .util-menu li a {color:#fff}
+.footer .bottom .mark.uk {position:relative; overflow:hidden;}
+.footer .bottom .mark.uk:after {position:absolute; left:0; top:60px; display:block; width:100%; height:0; border-bottom:1px solid #333; content:"";}
+.footer .bottom .mark li img {width:90%;}
+.footer .bottom .mark li.country {float:left; width:100%; margin:0; padding:15px 0}
+}
+
+/* module */
+.module .thumb img{vertical-align:top;}
+.module .cat, .module .act, .grid-outer .cat, .grid-outer .act{display:block}
+.sec-board-box .meta {font-size:14px}
+@media (min-width:768px){
+    .module .grid-col .box .txt,     .module .grid-col2 .box .txt,     .module .grid-col3 .box .txt,     .module .grid-col4 .box .txt,     .grid-outer .grid-col .box .txt,     .grid-outer .grid-col2 .box .txt,     .grid-outer .grid-col3 .box .txt,     .grid-outer .grid-col4 .box .txt {padding-top:16px;padding-bottom:50px}
+    .module .grid-col .box .act,     .module .grid-col2 .box .act,     .module .grid-col3 .box .act,     .module .grid-col4 .box .act,     .grid-outer .grid-col .box .act,     .grid-outer .grid-col2 .box .act,     .grid-outer .grid-col3 .box .act,     .grid-outer .grid-col4 .box .act {position:absolute;bottom:14px}
+}
+@media (max-width:767px){
+    .module .txt,     .grid-outer .txt{padding-top:15px;padding-bottom:10px}
+    .module .grid-col .box .act,     .module .grid-col1 .box .act,     .module .grid-col2 .box .act,     .module .grid-col3 .box .act,     .module .grid-col4 .box .act,     .grid-outer .grid-col .box .act,     .grid-outer .grid-col1 .box .act,     .grid-outer .grid-col2 .box .act,     .grid-outer .grid-col3 .box .act,     .grid-outer .grid-col4 .box .act{padding-top:8px}
+    .module .box  .sub~.act,     .grid-outer .box  .sub~.act{padding-top:20px}
+    .module.card-list .box .sub~.act {padding-top:10px;}
+}
+.legacy-ie .module .grid-col .box .txt, .legacy-ie .module .grid-col2 .box .txt, .legacy-ie .module .grid-col3 .box .txt, .legacy-ie .module .grid-col4 .box .txt, .legacy-ie .grid-outer .grid-col .box .txt, .legacy-ie .grid-outer .grid-col2 .box .txt, .legacy-ie .grid-outer .grid-col3 .box .txt, .legacy-ie .grid-outer .grid-col4 .box .txt{padding-top:16px;padding-bottom:73px}
+.legacy-ie .module .grid-col .box .act, .legacy-ie .module .grid-col2 .box .act, .legacy-ie .module .grid-col3 .box .act, .legacy-ie .module .grid-col4 .box .act, .legacy-ie .grid-outer .grid-col .box .act, .legacy-ie .grid-outer .grid-col2 .box .act, .legacy-ie .grid-outer .grid-col3 .box .act, .legacy-ie .grid-outer .grid-col4 .box .act{position:absolute;bottom:14px}
+
+/* news and events (normal, has image, has video)*/
+.sec-board-box .board-box-sple, .sec-board-box .board-box-banner{float:left;width:50%}
+.sec-board-box .board-box-sple .grid-col{float:left;width:50%}
+.sec-board-box .grid-row > div > ul, .sec-board-box .grid-row > div > a, .sec-board-box .grid-row > div > a .thumb img, .sec-board-box .grid-row > div > div.type-video, .sec-board-box .grid-row > div > div.type-video .thumb img {overflow:hidden;position:relative; height:170px}
+.sec-board-box .grid-row > div > div.type-video {margin-top: 10px;}
+.sec-board-box .grid-row > div > div.type-video .thumb {position: relative;}
+.sec-board-box .grid-row .thumb{position: relative;}
+.sec-board-box .grid-col.type1 {float:left; width:50%}
+.sec-board-box .grid-col.type1 .col-inner {margin-left:0}
+.sec-board-box .grid-col.type1:first-child .col-inner {margin-left:10px}
+.sec-board-box .grid-col.type1 .meta{position:absolute; bottom:15px; line-height:1.2; margin-top:20px; max-height:4rem; overflow:hidden; display: -webkit-box;
+-webkit-box-orient: vertical; text-overflow: ellipsis; -webkit-line-clamp:3}
+.sec-board-box .board-box-sple a {display:block; overflow:hidden}
+.sec-board-box .board-box-sple a:hover{ background-color: #0071bf;}
+.sec-board-box .board-box-sple a:hover h3.tit{ color:#fff; }
+.sec-board-box .board-box-sple a:hover .meta{color:#fff;}
+.sec-board-box .board-box-sple .event-list a{background-color: #f1f1f1;}
+.sec-board-box .board-box-sple .event-list a:hover{ background-color: #0071bf;}
+.event .grid-row .grid-col .meta {font-size:18px}
+/* news and events (no image)*/
+.sec-board-box.no-image .board-box-sple {width:75%}
+.sec-board-box.no-image .board-box-sple .grid-col {width:33.3333%}
+.sec-board-box.no-image .board-box-banner {width:25%}
+.sec-board-box.no-image .board-box-banner .grid-col {width:100%}
+/* news and events (only news)*/
+.sec-board-box.only-news .board-box-sple {float:none; width:100%}
+.sec-board-box.only-news .board-box-sple .grid-col {width:33.3333%}
+.sec-board-box .board-box-sple > ul {margin-top:10px}
+.sec-board-box .board-box-banner > a {margin-top:10px}
+.sec-board-box .grid-col {margin-top:0px}
+.sec-board-box .grid-col .col-inner {margin-top:0; height:170px; margin-bottom:0; padding-bottom:0}
+.sec-board-box .grid-col .col-inner:focus {margin-top:0px !important}
+@media (min-width:1024px){
+    .sec-board-box .board-box-sple .txt{padding-bottom:0 !important}
+}
+.sec-board-box .tit{line-height:1.1428; max-height:3.4289em; overflow:hidden;display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:3; text-overflow:ellipsis;}
+.sec-board-box .meta{position:absolute; bottom:15px; font-size:16px; color:#52565a; line-height:1.1428; max-height:2.4em; overflow:hidden;display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:2; text-overflow:ellipsis; padding-right:10px;}
+@media (max-width:1023px){
+    .sec-board-box .board-box-sple,
+    .sec-board-box .board-box-banner{float:none;width:100%}
+    .sec-board-box .board-box-sple .txt>div{position:static}
+    /* news and events (no image)*/
+    .sec-board-box.no-image .board-box-banner,     .sec-board-box.no-image .board-box-sple {float:inherit; width:100%}
+    .sec-board-box.no-image .board-box-sple .grid-col {width:33.3333%}
+    .sec-board-box.no-image .grid-row > div > a {height:auto}
+    .sec-board-box.no-image .board-box-banner .box .txt {padding:20px}
+    .sec-board-box.no-image .grid-col.type1 .meta {position:static}
+}
+@media (max-width:767px){
+    .sec-board-box .grid-row > div > ul,     .sec-board-box .grid-row > div > a,     .sec-board-box .grid-row > div > div.type-video {height:auto}
+    .sec-board-box .grid-row > div > a .thumb img,     .sec-board-box .grid-row > div > div.type-video .thumb img {height:auto}
+    .sec-board-box .board-box-sple > ul {margin-top:0}
+    .sec-board-box .board-box-sple .grid-col{float:none; width:auto; margin-top:10px}
+    .sec-board-box .board-box-banner > a {margin-top:0}
+    .sec-board-box .grid-col.type1 .meta{position:static; font-size:14px; margin-bottom:0}
+    .event .grid-row .grid-col .meta {font-size:14px}
+    .sec-board-box .meta{position:static; margin-top:20px; font-size:14px}
+    .sec-board-box .grid-col.type1 {float:none; width:100%}
+    .sec-board-box .grid-row > div > ul, .sec-board-box .grid-row > div > a {min-height:inherit}
+    .sec-board-box.no-image .board-box-sple .grid-col {float:inherit; width:100%}
+    .sec-board-box.only-news .board-box-sple {float:none; width:100%}
+    .sec-board-box.only-news .board-box-sple .grid-col {width:33.3333%}
+    /* news and events (only news)*/
+    .sec-board-box.only-news .board-box-sple {float:none; width:100%}
+    .sec-board-box.only-news .board-box-sple .grid-col {float:none; width:100%}
+    .sec-board-box.only-news .board-box-sple .grid-col {width:100%}
+     .sec-board-box .grid-col.type1 .col-inner,.sec-board-box .grid-col.type1:first-child .col-inner {margin-left:10px}
+}
+
+
+.list-col3 {overflow:hidden;}
+.list-col3 li {float:left; width:33.33%; box-sizing:border-box; padding:0 11px;}
+.list-col3 li:first-child {padding:0 22px 0 0; /*width:34%;*/}
+.list-col3 li:last-child {padding:0 0 0 22px;}
+.list-col3 img {width:100%;}
+.list-col3 p {padding-top:10px;}
+@media (max-width:767px) {
+    .list-col3 li {float:none; width:100% !important; padding:0 !important;}
+    .list-col3 li + li {margin-top:20px;}
+}
+
+
+/* home application area */
+.application-banner{margin-top:10px;}
+.application-banner .grid-row{ padding-top:15px;}
+.application-banner li a{ background-color:#fff; display:block; text-align:center; color:#125aba; font-size:19px; margin:0 0 15px 10px; padding:40px 0 25px 0;font-family:'SamsungIFRg'; background-position:center 40px; background-repeat:no-repeat;}
+.application-banner li a span{display:block; text-align:center;}
+.application-banner li a span img{ max-width:120px; height:auto;}
+@media (max-width:767px) {
+    .application-banner li a{font-size:16px;font-family:'SamsungIFRg'; padding:20px 0 15px 0;}
+    .application-banner li a span img{width:40%;}
+    .application-banner li.grid-col4{ width:50%;}
+}
+.video-banner {*zoom:1}
+.video-banner:after {content:""; display:block; clear:both}
+.video-banner .video-box {position:absolute; width:50%; left:0; top:0; bottom:0; box-sizing:border-box; margin-top:10px; padding:0 5px 0 18px; line-height:0;}
+.video-banner .video-box .grid-col {height:100%;}
+.video-banner .video-box .col-inner {height:100%; margin-top:0;}
+.video-banner .video-box .col-inner img {width:100%; height:100%;}
+.video-banner .video-box .col-inner .brightcove-player * {height:100%}
+.video-banner .banner-box {float:right; width:50%;}
+.video-banner .banner-box .col-inner .fluid-txt2 {left:0; box-sizing:border-box; width:100%; padding:0 20px; text-align:center}
+.video-banner .banner-box .col-inner .fluid-txt2 h2 {margin-bottom:5px; overflow:hidden; max-height:2.2em; line-height:1.1}
+.home-banner .video-banner .banner-box .col-inner .fluid-txt2 p {overflow:hidden; line-height:1.1; max-height:4.4em; -webkit-line-clamp:4;}
+.grid-row.video-banner{overflow:visible;}
+@media (min-width:1024px) and (max-width:1280px){
+    .video-banner .banner-box .col-inner .fluid-txt2 h2 {margin-bottom:12px}
+}
+@media (min-width:1280px){
+    .video-banner .banner-box .col-inner .fluid-txt2 h2 {margin-bottom:20px}
+}
+@media (max-width:1280px) {
+    .video-banner .banner-box .col-inner .fluid-txt2 h2 {padding:0}
+    .home-banner .video-banner .banner-box .col-inner .fluid-txt2 p {overflow:hidden; line-height:1.1; max-height:2.2em; -webkit-line-clamp:2;}
+}
+@media (min-width:768px) and (max-width:1023px) {
+    .video-banner .video-box {padding-left:5px;}
+    .video-banner .video-box .btn-ico.video {background-size:40px 40px}
+
+}
+@media (max-width:767px) {
+    .video-banner .video-box {float:none; width:100%;}
+    .video-banner .video-box {position:static; width:100%; padding:0; margin:0;}
+    .video-banner .video-box .grid-col,.video-banner .video-box .col-inner img {height:auto;}
+    .video-banner .video-box .col-inner {height:auto; margin-top:10px;}
+    .video-banner .banner-box {float:none; width:100%;}
+    .home-banner .video-banner .banner-box .col-inner .fluid-txt2 p {overflow: visible; line-height:1.1; max-height:4.4em; -webkit-line-clamp:auto;}
+}
+
