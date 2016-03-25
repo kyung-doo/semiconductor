@@ -1,0 +1,28 @@
+<div class="footer-row bottom">
+	<!-- grid row -->
+	<div class="grid-row">
+		<div class="col-inner">
+			<ul class="util-menu">
+				<li><a href="/semiconductor/common/sitemap/">Sitemap</a></li>
+				<li><a href="/semiconductor/common/privacy-legal/">Privacy/Legal</a></li>
+				<li><a href="/semiconductor/about-us/business-overview/">About Us</a></li>
+			</ul>
+			<p class="language">
+				<a href="/semiconductor" title=""><span class="uk"></span>English</a>
+			</p>
+		</div>
+	</div>
+	<!-- //grid row -->
+</div>
+<!-- //rows3 wrap -->
+<div class="footer-row bottom2">
+	<div class="grid-row">
+		<div class="col-inner">
+			<p class="copyright">
+				Copyright© 1995-2015 SAMSUNG All Rights Reserved.
+				<span>This website is best viewed using Internet Explorer 9 , Chrome , Safari and newer browsers.</span>
+			</p>
+			<a href="#header" class="btn top">Back to top</a>
+		</div>
+	</div>
+</div>

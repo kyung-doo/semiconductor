@@ -1,0 +1,310 @@
+<ul class="local-menu" data-role="ui-nav">
+					<li class="sub">
+						<a href="#">Products</a>
+						<div class="submenu-container">
+							<ul data-role="ui-nav-sub">
+								<li class="sub">
+									<a href="#">DRAM</a>
+									<div class="flyout"><!-- hero 영역 추가 카테고리에 add_hero 클래스 추가 -->
+										<ul>
+											<li><a href="#">Server DRAM</a></li>
+											<li><a href="#">PC DRAM</a></li>
+                                            <li><a href="#">Mobile DRAM</a></li>
+                                            <li><a href="#">Consumer DRAM</a></li>
+                                            <li><a href="#">Graphic DRAM</a></li>
+										</ul>
+										<div class="hero_area"><!-- hero area-->
+											<p class="hero_img"><img src="/semiconductor/common/img/layout/img_hero_dram.png" alt="DRAM"></p>
+											<dl>
+												<dt class="hero_txt"><a href="#">DRAM</a></dt><!-- 20150624 a 태그 추가 -->
+												<dd class="btn_buy"><button type="button" class="btn-type2 link">View more</button></dd>
+											</dl>
+										</div><!-- //hero area-->
+										
+									</div>
+								</li>
+								<li class="sub">
+									<a href="#">Flash Storage</a>
+									<div class="flyout">
+										<ul>
+											<li><a href="#">V-NAND</a></li>
+											<li><a href="#">Client SSD</a></li>
+                                            <li><a href="#">Enterprise SSD </a></li>
+                                            <li><a href="#">eMMC</a></li>
+                                            <li><a href="#">UFS</a></li>
+										</ul>
+										<div class="hero_area"><!-- hero area-->
+											<p class="hero_img"><img src="/semiconductor/common/img/layout/img_hero_flash.png" alt="Flash Storage"></p>
+											<dl>
+												<dt class="hero_txt"><a href="#">Flash Storage</a></dt>
+												<dd class="btn_buy"><button type="button" class="btn-type2 link">View more</button></dd>
+											</dl>
+										</div><!-- //hero area-->
+									</div>
+								</li>
+								<li class="sub">
+									<a href="#">MCP</a>
+									<div class="flyout">
+										<ul>
+											<li><a href="#">eMMC Based MCP</a></li>
+											<li><a href="#">ePOP</a></li>
+										</ul>
+										<div class="hero_area"><!-- hero area-->
+											<p class="hero_img"><img src="/semiconductor/common/img/layout/img_hero_mcp.png" alt="MCP"></p>
+											<dl>
+												<dt class="hero_txt"><a href="#">MCP</a></dt>
+												<dd class="btn_buy"><button type="button" class="btn-type2 link">View more</button></dd>
+											</dl>
+										</div><!-- //hero area-->
+									</div>
+								</li>
+                                <li class="sub">
+									<a href="#">Exynos Solution</a>
+									<div class="flyout">
+										<ul>
+											<li><a href="#">Application Processor</a></li>
+											<li><a href="#">ModAP</a></li>
+                                            <li><a href="#">Modem/RF</a></li>
+										</ul>
+										<div class="hero_area"><!-- hero area-->
+											<p class="hero_img"><img src="/semiconductor/common/img/layout/img_hero_exynos.png" alt="Exynos Solution"></p>
+											<dl>
+												<dt class="hero_txt"><a href="#">Exynos Solution</a></dt>
+												<dd class="btn_buy"><button type="button" class="btn-type2 link">View more</button></dd>
+											</dl>
+										</div><!-- //hero area-->
+									</div>
+								</li>
+								<li class="sub">
+									<a href="#">CMOS Image Sensor</a>
+									<div class="flyout">
+										<ul>
+											<li><a href="#">Mobile</a></li>
+											    <li><a href="#">Camera</a></li>
+											    <li><a href="#">Industry</a></li>
+										</ul>
+										<div class="hero_area"><!-- hero area-->
+											<p class="hero_img"><img src="/semiconductor/common/img/layout/img_hero_cmos.png" alt="CMOS Image Sensor"></p>
+											<dl>
+												<dt class="hero_txt"><a href="#">CMOS Image Sensor</a></dt>
+												<dd class="btn_buy"><button type="button" class="btn-type2 link">View more</button></dd>
+											</dl>
+										</div><!-- //hero area-->
+									</div>
+								</li>
+								<li class="sub">
+									<a href="#">Display Solution</a>
+									<div class="flyout">
+										<ul>
+											<li><a href="#">Mobile DDI</a></li>
+											<li><a href="#">Panel DDI</a></li>
+                                            <li><a href="#">Touch Controller</a></li>
+										</ul>
+									</div>
+								</li>
+                                <li class="sub">
+									<a href="#">Security Solution</a>
+									<div class="flyout">
+										<ul>
+											<li><a href="#">Smartcard</a></li>
+											<li><a href="#">NFC</a></li>
+										</ul>
+										<div class="hero_area"><!-- hero area-->
+											<p class="hero_img"><img src="/semiconductor/common/img/layout/img_hero_security.png" alt="Security Solution"></p>
+											<dl>
+												<dt class="hero_txt"><a href="#">Security Solution</a></dt>
+												<dd class="btn_buy"><button type="button" class="btn-type2 link">View more</button></dd>
+											</dl>
+										</div><!-- //hero area-->
+									</div>
+								</li>
+                                <li>
+									<a href="#">Power IC</a>
+								</li>
+                                <li>
+									<a href="#">Bio-Processor</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="sub">
+						<a href="#">Application</a>
+						<div class="submenu-container has-flyout">
+							<ul data-role="ui-nav-sub">
+								<li class="sub">
+									<a href="#">Data Center</a>
+									<div class="flyout">
+										<ul>
+											<li><a href="#">Application Server</a></li>
+											<li><a href="#">Storage Server</a></li>
+											<li><a href="#">Web Server</a></li>
+											<li><a href="#">DB Server</a></li>
+										</ul>
+									</div>
+								</li>
+								<li class="sub">
+									<a href="#">Mobile Device</a>
+									<div class="flyout ">
+										<ul>
+											<li><a href="#">Smartphone</a></li>
+											<li><a href="#">Tablet</a></li>
+											<li><a href="#">Wearable</a></li>
+										</ul>
+									</div>
+								</li>
+								<li class="sub">
+									<a href="#">Consumer Device</a>
+									<div class="flyout ">
+										<ul>
+											<li><a href="#">Desktop</a></li>
+											<li><a href="#">Notebook</a></li>
+											<li><a href="#">DSC/DSLR</a></li>
+											<li><a href="#">Smart TV</a></li>
+											<li><a href="#">Game Console</a></li>
+										</ul>
+									</div>
+								</li>
+								<li class="sub">
+									<a href="#">Industry</a>
+									<div class="flyout ">
+										<ul>
+											<li><a href="#">Banking/ID</a></li>
+											<li><a href="#">Healthcare & Wellness</a></li>
+											<li><a href="#">Automotive</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="sub">
+						<a href="#">Foundry</a>
+						<div class="submenu-container has-flyout">
+							<ul data-role="ui-nav-sub">
+								<li>
+									<a href="#">About Samsung Foundry</a>
+								</li>
+								<li>
+									<a href="#">Manufacturing</a>
+								</li>
+								<li class="sub">
+									<a href="#">ProcessTechnology</a>
+									<div class="flyout">
+										<ul>
+											<li><a href="#">14nm</a></li>
+											<li><a href="#">32/28nm</a></li>
+											<li><a href="#">45nm</a></li>
+											<li><a href="#">65nm</a></li>
+										</ul>
+									</div>
+								</li>
+								<li class="sub">
+									<a href="#">Service</a>
+									<div class="flyout">
+										<ul>
+											<li><a href="#">Design Solution</a></li><!-- 20150623 ia 통합 -->
+											<li><a href="#">MPW Shuttle Service</a></li>
+											<li><a href="#">Mask Service</a></li>
+											<li><a href="#">Back-end Service</a></li>
+											<li><a href="#">E-service</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="#">INSIGHTS</a>
+					</li>
+					<li class="sub">
+						<a href="#" >SUPPORT</a>
+						<div class="submenu-container has-flyout">
+							<ul data-role="ui-nav-sub">
+								<li>
+									<a href="#">Selection Tool</a>
+								</li>
+								<li>
+									<a href="#">Technical Resource</a>
+								</li>
+								<li class="sub">
+									<a href="#">Tools&amp;Utillities</a>
+									<div class="flyout">
+										<ul>
+											<li><a href="#">Development Tools</a></li>
+											<li><a href="#">TCO Calculator</a></li><!-- 20150624 텍스트 수정 -->
+											<li><a href="#">Board Compatibility</a></li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<a href="#">Package Information</a>
+								</li>
+								<li>
+									<a href="#">Sales Network</a>
+								</li>
+								<li>
+									<a href="#">B2B Workplace</a>
+								</li>
+								<li>
+									<a href="#">MemoryLink</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="sub">
+						<a href="#" >ABOUT US</a>
+						<div class="submenu-container has-flyout">
+							<ul data-role="ui-nav-sub">
+								<li class="sub">
+									<a href="#">Business Overview</a>
+									<div class="flyout">
+										<ul>
+											<li><a href="#">Factsheet</a></li>
+											<li><a href="#">Location</a></li>
+											<li><a href="#">Executive Bio</a></li><!--  20150623 텍스트 수정-->
+											<li><a href="#">Business History</a></li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<a href="#">News</a>
+								</li>
+								<li>
+									<a href="#">Event</a>
+								</li>
+								<li class="sub">
+									<a href="#">Open Innovation</a>
+									<div class="flyout">
+										<ul>
+											<li><a href="#">Industry-Academia</a></li>
+											<li><a href="#">Research Centers</a></li>
+											<li><a href="#">Joining Consortia</a></li>
+										</ul>
+									</div>
+								</li>
+								<li class="sub">
+									<a href="#">Quality Assurance</a>
+									<div class="flyout">
+										<ul>
+											<li><a href="#">Quality management </a></li>
+											<li><a href="#">Evaluation System</a></li>
+											<li><a href="#">Customer Service</a></li>
+										</ul>
+									</div>
+								</li>
+								<li class="sub">
+									<a href="#">Global Citizenship</a>
+									<div class="flyout">
+										<ul>
+											<li><a href="#">Green Management</a></li>
+											<li><a href="#">Green Operation</a></li>
+											<li><a href="#">Eco Product</a></li>
+											<li><a href="#">CSR Activity</a></li>
+											<li><a href="#">Cooperation for a Better Cause</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+				</ul>

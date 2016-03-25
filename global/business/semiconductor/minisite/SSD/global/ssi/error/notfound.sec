@@ -1,0 +1,23 @@
+<div class="error_notavailable">
+	<span><img data-cdn="img" data-original="/semiconductor/common/img/error/error_img.png" alt="Error" /></span>
+	<h2 class="fg-main1">The page you requested is not available</h2>
+	<p>Sorry, we are having a problem executing your request.<br />The page you requested could not be found.</p>
+	<!-- <a href="javascript:void(0);" class="btn link">Go to Samsung.com Home</a> -->
+</div>
+<!--  sel_industry 
+<div class="sel_industry">
+	<div class="sel_inner">
+		<div class="sel_link">
+			<h1>Visit our Industry Pages</h1>
+			<p>Find out how Samsung products can help with your business.</p>
+			<ul>
+				<li><a href="javascript:void(0);" class="btn link">Education</a></li>
+				<li><a href="javascript:void(0);" class="btn link">Healthcare</a></li>
+				<li><a href="javascript:void(0);" class="btn link">Finance</a></li>
+				<li><a href="javascript:void(0);" class="btn link">Logistics &amp; Transportation</a></li>
+				<li><a href="javascript:void(0);" class="btn link">Hospitality</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+ // sel_industry -->
