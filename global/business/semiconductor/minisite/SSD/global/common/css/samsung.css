@@ -269,7 +269,7 @@ textarea{border:0;}
     .module>.sec-title{padding-left:10px}
     .grid-row.head-desc {margin-top:-10px; margin-bottom:25px;}
 }
-.module, .grid-outer{padding:0 0 40px 0}
+.module, .grid-outer{padding:0 0 50px 0}
 .grid-outer.bg-main5{margin-bottom:40px;padding-bottom:0}
 @media (max-width:767px){
     .article,     .module,     .grid-outer {padding-bottom:25px !important}
@@ -521,7 +521,7 @@ a.btn-jump span {text-transform:none}
 @media (min-width:1024px){
 .key-visual.home_kv .screen .focus-msg{position:relative;left:10px;top:10px;bottom:auto;width:440px;padding:0 1.4694%; background:none;color:#fff; line-height: 1.2;}
 .key-visual.home_kv .screen .focus-msg .category{font-size: 21px; padding-top: 105px;}
-.key-visual.home_kv .screen .focus-msg h1{padding-top:20px;overflow:hidden; font-size:52px; line-height:56px; font-family: 'SamsungIFBlk'; text-shadow:1px 1px 1px rgba(0,0,0,0.8);}
+.key-visual.home_kv .screen .focus-msg h1{padding-top:90px;overflow:hidden; font-size:52px; line-height:56px; font-family: 'SamsungIFBlk'; text-shadow:1px 1px 1px rgba(0,0,0,0.8);}
 .key-visual.home_kv .screen .focus-msg .txt{padding-top:15px; overflow:hidden;text-shadow:1px 1px 1px #000;text-shadow:1px 1px 1px rgba(0,0,0,0.8);font-size:21px; line-height: 30px;}
 .key-visual.home_kv .screen .focus-msg .act{position:relative;bottom:auto;display:block;overflow:hidden; margin-top:30px;}
 .key-visual.home_kv .screen .focus-msg .act a{font-size: 16px;text-shadow:1px 1px 1px rgba(0,0,0,0.8); background: none; line-height: auto; padding: 0; margin: 0; color:#fff; padding-left: 5px;}
@@ -1443,24 +1443,31 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 }
 
 
-/* home application area */
-.application-banner{margin-top:10px;}
-.application-banner .grid-row{ padding-top:15px;}
-.application-banner li a{ background-color:#fff; display:block; text-align:center; color:#125aba; font-size:19px; margin:0 0 15px 10px; padding:40px 0 25px 0;font-family:'SamsungIFRg'; background-position:center 40px; background-repeat:no-repeat;}
-.application-banner li a span{display:block; text-align:center;}
-.application-banner li a span img{ max-width:120px; height:auto;}
+/* home product area */
+.home_product .grid-row{ padding-top:15px;}
+.home_product li a{ background-color:#f8f8f8; display:block; text-align:center; color:#000; font-size:21px; margin:0 0 10px 10px; padding:60px 0 25px 0;font-family:'SamsungIFRg'; background-position:center 40px; background-repeat:no-repeat;}
+.home_product li a span{display:block; text-align:center; height: 160px;}
+.home_product li a.app01 span img{width: 250px;}
+.home_product li a.app02 span img{ width: 140px;}
+.home_product li a.app03 span img{ width: 140px;}
+
 @media (max-width:767px) {
-    .application-banner li a{font-size:16px;font-family:'SamsungIFRg'; padding:20px 0 15px 0;}
-    .application-banner li a span img{width:40%;}
-    .application-banner li.grid-col4{ width:50%;}
+    .home_product li a{font-size:16px;font-family:'SamsungIFRg'; padding:45px 0 15px 0;}
+    .home_product li a span{height:105px;}
+    .home_product li a span img{width:50%;}
+    .home_product li a.app01 span img{width:175px;}
+    .home_product li a.app02 span img{width:98px;}
+    .home_product li a.app03 span img{width:90px;}
 }
+
 .video-banner {*zoom:1}
 .video-banner:after {content:""; display:block; clear:both}
-.video-banner .video-box {position:absolute; width:50%; left:0; top:0; bottom:0; box-sizing:border-box; margin-top:10px; padding:0 5px 0 18px; line-height:0;}
-.video-banner .video-box .grid-col {height:100%;}
-.video-banner .video-box .col-inner {height:100%; margin-top:0;}
+.video-banner .video-box {left:0; top:0; bottom:0; box-sizing:border-box; margin-top:20px;}
+.video-banner .video-box .grid-col {height:100%; line-height: 0;}
+.video-banner .video-box .col-inner {height:100%; margin-top:0; position: relative;}
 .video-banner .video-box .col-inner img {width:100%; height:100%;}
 .video-banner .video-box .col-inner .brightcove-player * {height:100%}
+.video-banner .video-box .video_title{font-size: 21px; color: #fff; position: absolute; bottom: 20px; left: 20px; line-height: 20px;}
 .video-banner .banner-box {float:right; width:50%;}
 .video-banner .banner-box .col-inner .fluid-txt2 {left:0; box-sizing:border-box; width:100%; padding:0 20px; text-align:center}
 .video-banner .banner-box .col-inner .fluid-txt2 h2 {margin-bottom:5px; overflow:hidden; max-height:2.2em; line-height:1.1}
@@ -1468,17 +1475,21 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 .grid-row.video-banner{overflow:visible;}
 @media (min-width:1024px) and (max-width:1280px){
     .video-banner .banner-box .col-inner .fluid-txt2 h2 {margin-bottom:12px}
+
 }
 @media (min-width:1280px){
     .video-banner .banner-box .col-inner .fluid-txt2 h2 {margin-bottom:20px}
+
 }
-@media (max-width:1280px) {
+@media (max-width:1024px) {
     .video-banner .banner-box .col-inner .fluid-txt2 h2 {padding:0}
     .home-banner .video-banner .banner-box .col-inner .fluid-txt2 p {overflow:hidden; line-height:1.1; max-height:2.2em; -webkit-line-clamp:2;}
+    .video-banner .video-box .video_title{font-size:21px; color: #000; position: static; bottom:auto; left:auto;}
 }
 @media (min-width:768px) and (max-width:1023px) {
     .video-banner .video-box {padding-left:5px;}
-    .video-banner .video-box .btn-ico.video {background-size:40px 40px}
+    .video-banner .video-box .btn-ico.video {top:40%;}
+
 
 }
 @media (max-width:767px) {
@@ -1488,5 +1499,39 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
     .video-banner .video-box .col-inner {height:auto; margin-top:10px;}
     .video-banner .banner-box {float:none; width:100%;}
     .home-banner .video-banner .banner-box .col-inner .fluid-txt2 p {overflow: visible; line-height:1.1; max-height:4.4em; -webkit-line-clamp:auto;}
+    .video-banner .video-box .video_title{font-size:15px; color: #000; position: static; bottom:auto; left:auto;}
 }
 
+/* bright-cove */
+.pop-wrap.bright-cove {max-width:1260px; width:90%; margin:0 auto; margin-top:100px; padding:40px 10px 10px; border:0; background:#000}
+.pop-wrap.bright-cove .btn-close2 {top:10px;  right:10px;}
+.bright-main {position:relative; height:415px}
+.bright-main img {width:100%}
+.bright-list {margin-top:10px;}
+.bright-list:after {display:block; content:""; clear:both}
+.bright-list li {float:left; position:relative; width:20%; padding:5px; box-sizing:border-box}
+.bright-list li a {position: relative; display:block; width:100% font-size: 0; line-height: 0;}
+.bright-list li a img {width:100%}
+.bright-list li.active .active-cover {display:block; position:absolute; top:-5px; left:-5px; width:100%; height:100%; border:5px solid #01a8e0;  z-index:1}
+.btn-close2 {display:block; position:absolute; top:32px; right:12px; width:19px; height:20px; background:url(/global/business/semiconductor/minisite/SSD/global/common/img/layout/btn_close_03.png) no-repeat;}
+@media (max-width:1023px) {
+    .bright-main {position:relative; height:300px}
+}
+@media (max-width:767px) {
+    .bright-main {position:relative; height:230px}
+}
+
+/*SAMSUNG V-NAND SSD*/
+.grid-row.v_nand {}
+.grid-row.v_nand .grid-col4 {display: table-cell; float: none; width: 25% !important; vertical-align: top;}
+.grid-row.v_nand .grid-col4 .col-inner{border-left: 1px solid #e9e9e9; min-height: 210px; text-align: center; margin-top: 20px; padding-left: 35px; padding-right: 35px;}
+.grid-row.v_nand .grid-col4 .col-inner .img{ height: 135px; padding-top: 35px;}
+.grid-row.v_nand .grid-col4:first-child .col-inner{border: none;}
+.grid-row.v_nand .grid-col4 .col-inner figure{font-size: 16px;}
+@media (min-width:768px) and (max-width:1023px) {
+    .grid-row.v_nand .grid-col4 {width: 50%;}
+}
+@media (max-width:767px) {
+    .grid-row.v_nand .grid-col4 {width: 50%;}
+    .grid-row.v_nand .grid-col4 .col-inner{border:none; min-height: 210px; text-align: center; margin-top: 20px; padding-left: 10px; padding-right: 10px;}
+}
