@@ -315,7 +315,7 @@ button.ctl-accordion.expanded:after{content:"\28"}
 .key-visual+.floating-jumpmenu{margin-top:-40px}
 .key-visual+.floating-jumpmenu.active{margin-top:0}
 /* jumpmenu : base */
-.floating-jumpmenu {width:100%; background:url("/global/business/semiconductor/minisite/SSD/global/common/img/layout/bg-jump-default.png"); border-bottom:1px solid #989898; text-transform:uppercase; position:relative; font-size:1rem; line-height:1.666em; font-family:SamsungIFBd; color:#0057a4;}
+.floating-jumpmenu {width:100%; background:url("/global/business/semiconductor/minisite/SSD/global/common/img/layout/bg-jump-default.png"); border-bottom:1px solid #dcdcdc; text-transform:uppercase; position:relative; font-size:1rem; line-height:1.666em; font-family:'SamsungIFBlk'; color:#0057a4;}
 .acc-cont .floating-jumpmenu,.floating-jumpmenu li a.active:before {display:none;}
 .floating-jumpmenu.active{position:fixed;left:0;top:0;right:0;z-index:9;display:block !important;margin-top:0;z-index:9999999}
 .floating-jumpmenu.active>div{display:block}
@@ -323,13 +323,13 @@ button.ctl-accordion.expanded:after{content:"\28"}
     .legacy-ie .floating-jumpmenu.active + .grid-row.tab-theme .tab-content > div:first-child {padding-top:67px}
 .floating-jumpmenu>div, div.jump-module div.inner{position:relative; max-width:1366px;margin:0 auto; /*padding-right:140px;*/ overflow:hidden;text-align:center; box-sizing:border-box}
     .legacy-ie .floating-jumpmenu>div, .legacy-ie .floating-jumpmenu div.innner {width:1366px}
-.floating-jumpmenu .product-title, .floating-jumpmenu h2 {width:100%; height:80px; background:#fff; border-bottom:1px solid #c6c6c6}
+.floating-jumpmenu .product-title, .floating-jumpmenu h2 {width:100%; height:80px; background:#fff; border-bottom:1px solid #dcdcdc}
 .floating-jumpmenu .product-title span, .floating-jumpmenu h2 span {display:block; max-width:1326px; margin:0 auto; padding:30px 20px 20px; line-height:30px; font-family:'SamsungIFBlk'; font-size:28px; color:#292929}
 .floating-jumpmenu .product-title span {text-transform:none}
-.floating-jumpmenu ul {overflow:hidden; z-index:10;  border-left:1px solid #989898}
+.floating-jumpmenu ul {overflow:hidden; z-index:10;  border-left:1px solid #dcdcdc}
 .floating-jumpmenu ul:before, ul.jump-link:before {content:"";background:#e3e3e3;height:1px;position:absolute;left:0;right:0;top:56px;z-index:5}
 .floating-jumpmenu li, ul.jump-link li {float:left; /*position:relative*/} /*//20150803 mobile jellybean 4.2 에서 fixed 후, event 영역을 갱신하지 못하는 문제가 있어서 relative 를 제거함*/
-.floating-jumpmenu li a{display:table;width:100%; background:none; border-right:1px solid #989898; box-sizing:border-box}
+.floating-jumpmenu li a{display:table;width:100%; background:none; border-right:1px solid #dcdcdc; box-sizing:border-box}
     .ie7 .floating-jumpmenu li a {display:block; height:20px; padding:20px 0}
 .floating-jumpmenu ul.col5 li{overflow:hidden; width:20%; }
 .floating-jumpmenu ul.col4 li{overflow:hidden; width:25%; height:56px}
@@ -1538,4 +1538,273 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
     .grid-row.v_nand .grid-col4 {width: 50%;}
     .grid-row.v_nand .grid-col4 .col-inner{border:none; min-height: 210px; text-align: center; margin-top: 20px; padding-left: 10px; padding-right: 10px;}
     .grid-row.v_nand .grid-col4 .col-inner figure{font-size: 14px;}
+}
+
+
+/* feature module */
+div.bg-wrap{background:#f1f1f1}
+.feature-module {padding-top:50px; padding-bottom:10px;}
+.module.feature-module {padding-bottom:40px;}
+.feature-module + .feature-module {margin-top:30px; padding-top:0;}
+.module.feature-module + .feature-modulem.key-visual + .feature-module > .grid-row:first-child .col-inner {margin-top:0;}
+.feature-module.bg-main5 {padding-bottom:35px;}
+.feature-module + .feature-module.bg-main5 {padding-top:25px;}
+.feature-module .card-list {padding-bottom:30px !important;}
+.feature-module > * + .card-list {margin-top:-20px;}
+.feature-module > *:last-child {padding-bottom:0 !important;}
+.key-visual + .feature-module,.module.article2 + .module.article2.bg-main5 {padding-top:0;}
+.feature-module .grid-row:last-child .insection {margin-bottom:5px !important;}
+.feature-module.jump-contents .product-w-inner {padding-top:0; padding-bottom:0}
+.sec-title .tit-feature + .btn {margin-left:15px; vertical-align:baseline; text-transform:none;}
+.module.article2.bg-main5 {padding-top:20px; padding-bottom:30px !important;}
+.module.article2.bg-main5 + .module.article2.bg-main5 {padding-top:0; margin-top:-20px;}
+.module.article2.bg-main5 + .module.article-txt.card-list {padding-top:0; margin-top:-40px;}
+div.feature{position:relative;}
+div.feature.light{color:#fff; background-color:#000;}
+div.feature.full div.wrap .desc a.btn-type1 {background: #fff;color: #0057A4;font-family:'SamsungIFBd';line-height: 40px;padding-top: 10px;padding-bottom: 10px;text-transform: uppercase;}
+@media (min-width: 1281px){
+	div.feature.full div.wrap .desc {font-size: 16px; width: 50%;}
+}
+@media (max-width: 450px){
+	div.feature.full div.wrap .desc {font-size: 12px;}
+}
+div.feature div.wrap{position:absolute; padding:20px; width:50%; box-sizing:border-box; overflow: hidden;}
+div.feature div.wrap.left{top:0; left:0;}
+div.feature div.wrap.right{top:0; right:0; text-align:right;}
+div.feature div.wrap.center{top:0; left:0; width:95%;}
+div.feature div.wrap.left.bottom{left:0; bottom:0; top:inherit;}
+div.feature div.wrap.right.bottom{right:0; top:inherit; bottom:0;}
+div.feature div.wrap .title{font-size:24px; display:block; margin:0 0 10px;}
+div.feature div.wrap .desc{font-size:16px}
+div.feature div.image{line-height:0;}
+div.feature div.image img{width:100%;}
+div.feature .white{color:#fff;}
+div.feature .black{color:#000;}
+div.featurebox{width:100%; overflow:hidden}
+div.featurebox.col-inner {padding-right:10px; box-sizing:border-box; margin-top:0;}
+div.featurebox .insection {margin-bottom:20px !important; /*margin-bottom:35px !important;*/ overflow:hidden;}
+div.featurebox .insection.head-copy {margin-bottom:35px !important; }
+div.featurebox .insection.bg-main5 {padding:20px;}
+div.featurebox .insection.border {border:1px solid #e6e6e6;}
+div.featurebox .insection.image-only {margin-bottom:40px !important; }
+div.featurebox div.leftarea{float:left; width:50%; box-sizing:border-box; padding-right:10px;}
+div.featurebox div.rightarea{float:right; width:50%; box-sizing:border-box; padding-left:10px;}
+div.featurebox .thumb {max-width:100%;}
+div.featurebox .thumb .btn-ico.video {margin:-30px 0 0 -22px;}
+div.featurebox .img-area{width:100%; line-height:0; box-sizing:border-box;}
+div.featurebox .img-area.border {border:1px solid #e6e6e6;}
+div.featurebox .img-area img {width:100%;}
+div.featurebox .img-area + .info-txt, div.featurebox .info-txt + .img-area {float:left; margin-top:10px;}
+div.featurebox p + .img-area {margin-top:15px;}
+div.featurebox .info-txt + .image-only {margin-top:5px;}
+div.featurebox .info-txt .title {font-size:28px; /*color:#0057a4;*/ color:#000; padding-bottom:15px; }
+div.featurebox .info-txt .title .flag { vertical-align:baseline; width: 34px; height: 23px; margin-right:5px;}
+div.featurebox .image-only .title{font-size:28px; /*color:#0057a4;*/ color:#000; padding-bottom:15px; }
+div.featurebox .info-txt .subTitle{font-size:18px; /*color:#0057a4;*/ font-family:'SamsungIFBd'; color:#000; padding-bottom:10px}
+div.featurebox .img-area .subTitle{font-size:18px; line-height:1.365; /*color:#0057a4;*/ font-family:'SamsungIFBd'; color:#000; padding-bottom:20px}
+div.featurebox .img-area  + h4 {padding-top:20px;}
+div.featurebox .info-txt .des p + .subTitle  {padding-top:7px;}
+div.featurebox .info-txt .des .con-box + .subTitle { padding-top:20px;} 
+div.featurebox .info-txt .des .spec-list + .subTitle {padding-top:23px;}
+div.featurebox .info-txt .des .list-bullet + .subTitle, div.featurebox .info-txt .des .img-area + .subTitle  {padding-top:20px;}
+div.featurebox .info-txt .des h4 + .list-bullet {padding-top:10px;}
+div.featurebox .img-area + .img-area  {padding-top:20px;}
+div.featurebox .info-txt .des .list-bullet.depth2 + .subTitle  {padding-top:10px;}
+div.featurebox .info-txt .des .subTitle + .clip-center, div.featurebox .img-area .subTitle + .thumb {margin-top:5px;}
+div.featurebox .info-txt .des .footnote{padding-top:10px; font-size:14px; color:#666; }
+div.featurebox .info-txt .des p {padding:0 0 10px 0;}
+div.featurebox .info-txt .des .list-bullet + p {padding-top:7px;}
+div.featurebox .info-txt > .btn.link {margin-top:20px;}
+div.featurebox .horizon-left, div.featurebox .horizon-right {overflow:hidden; padding-bottom:20px;}
+div.featurebox .horizon-left + .horizon-right, div.featurebox .horizon-right + .horizon-left   {padding-top:10px;}
+div.featurebox .horizon-left .thumb {float:left; width:50%; box-sizing:border-box; padding-right:10px; }
+div.featurebox .horizon-left .info-txt {float:left; width:50%; box-sizing:border-box; padding-left:10px; }
+div.featurebox .horizon-right .thumb {float:right; width:50%; box-sizing:border-box; padding-left:10px; }
+div.featurebox .horizon-right .info-txt {float:left; width:50%; box-sizing:border-box; padding-right:10px; }
+div.featurebox > .image-only .thumb img {/*max-height:344px;*/ width:auto;}
+div.featurebox object {width:100%; height:320px;}
+div.fearture_details {display:table; width:100%; /*padding:10px 0 10px 0;*/ min-height:100px;}
+div.fearture_details > .icons,div.fearture_details > div  {display:table-cell; vertical-align:middle;}
+div.fearture_details.col1 .icons:first-child {width:95px;}
+div.fearture_details.col2 .icons:first-child {width:175px;}
+div.fearture_details.col3 .icons:first-child {width:260px;}
+div.featurebox .info-txt .des div.fearture_details p.icons {padding:0;}
+div.fearture_details .ico {float:left; width:80px; height:100px; text-indent:-9999px; background:url(/semiconductor/common/img/ico/ico_fearture_details.png) no-repeat left top;vertical-align:top;}
+div.fearture_details .ico.ico1 {background-position:0 center;} div.fearture_details .ico.ico2 {background-position:-80px center;} div.fearture_details .ico.ico3 {background-position:-160px center;} div.fearture_details .ico.ico4 {background-position:-240px center;} div.fearture_details .ico.ico5 {background-position:-320px center;} div.fearture_details .ico.ico6 {background-position:-400px center;} div.fearture_details .ico.ico7 {background-position:-480px center;} div.fearture_details .ico.ico8 {background-position:-560px center;} div.fearture_details .ico.ico9 {background-position:-640px center;} div.fearture_details .ico.ico10 {background-position:-720px center;} div.fearture_details .ico.ico11 {background-position:-800px center;} div.fearture_details .ico.ico12 {background-position:-880px center;} div.fearture_details .ico.ico13 {background-position:-960px center;} div.fearture_details .ico.ico14 {background-position:-1040px center;} div.fearture_details .ico.ico15 {background-position:-1120px center;} div.fearture_details .ico.ico16 {background-position:-1200px center;} div.fearture_details .ico.ico17 {background-position:-1280px center;} div.fearture_details .ico.ico18 {background-position:-1360px center;} div.fearture_details .ico.ico19 {background-position:-1440px center;} div.fearture_details .ico.ico20 {background-position:-1520px center;} div.fearture_details .ico.ico21 {background-position:-1600px center;} div.fearture_details .ico.ico22 {background-position:-1680px center;} div.fearture_details .ico.ico23 {background-position:-1760px center;} div.fearture_details .ico.ico24 {background-position:-1840px center;} div.fearture_details .ico.ico25 {background-position:-1920px center;} div.fearture_details .ico.ico26 {background-position:-2000px center;} div.fearture_details .ico.ico27 {background-position:-2080px center;} div.fearture_details .ico.ico28 {background-position:-2160px center;} div.fearture_details .ico.ico29 {background-position:-2240px center;} div.fearture_details .ico.ico30 {background-position:-2320px center;} div.fearture_details .ico.ico31 {background-position:-2400px center;} div.fearture_details .ico.ico32 {background-position:-2480px center;} div.fearture_details .ico.ico33 {background-position:-2560px center;} div.fearture_details .ico.ico34 {background-position:-2640px center;} div.fearture_details .ico.ico35 {background-position:-2720px center;} div.fearture_details .ico.ico36 {background-position:-2800px center;} div.fearture_details .ico.ico37 {background-position:-2880px center;} div.fearture_details .ico.ico38 {background-position:-2960px center;} div.fearture_details .ico.ico39 {background-position:-3040px center;} div.fearture_details .ico.ico40 {background-position:-3120px center;} div.fearture_details .ico.ico41 {background-position:-3200px center;} div.fearture_details .ico.ico42 {background-position:-3280px center;} div.fearture_details .ico.ico43 {background-position:-3360px center;} div.fearture_details .ico.ico44 {background-position:-3440px center;} div.fearture_details .ico.ico45 {background-position:-3520px center;} div.fearture_details .ico.ico46  {background-position:-3600px center;} div.fearture_details .ico.ico47 {background-position:-3680px center;} div.fearture_details .ico.ico48  {background-position:-3760px center;} div.fearture_details .ico.ico49 {background-position:-3840px center;} div.fearture_details .ico.ico50 {background-position:-3920px center;} div.fearture_details .ico.ico51 {background-position:-4000px center;} div.fearture_details .ico.ico52 {background-position:-4080px center;} div.fearture_details .ico.ico53 {background-position:-4160px center;}
+div.more-features {width:100%; overflow:hidden; clear:both; margin-bottom: 40px;}
+div.more-features div.feature{float:left; width:50%; margin-bottom: 0;}
+div.mgFeature{width:100%; overflow:hidden; padding:0 0 40px 0; font-size:16px;}
+div.mgFeature .title,div.keynote_row_group .title{text-align:left; padding:0 0 10px; font-family:'SamsungIFBd'; font-size:23px;}
+.keynote_large_wide{width:100%; overflow:hidden;}
+.keynote_large_wide img{width:38%; float:left; margin-right:2%;}
+.npc_hdmi {text-align: center;}
+.npc_hdmi img{max-width:100%; width: auto;}
+.grid-row .fluid-txt.bigger {padding:30px 20px;}
+.grid-row .fluid-txt.bigger .sub {font-size:21px;}
+@media (max-width: 1024px) and (min-width: 768px){
+	.grid-row .fluid-txt.bigger .sub {font-size:20px;}
+}
+@media (max-width: 767px){
+    div.featurebox .info-txt .des .footnote{padding-top:10px; font-size:12px; color:#666; }
+	div.fearture_details,div.fearture_details div {display:block; }	
+	div.fearture_details .icons:first-child {display:block; width:100%;  height:100px;}
+	div.fearture_details.col1 .icons:first-child {display:table-cell; width:95px;}
+	div.fearture_details.col1 div {display:table-cell;}
+	.grid-row .fluid-txt.bigger .sub {font-size:16px;}
+	div.featurebox .insection {margin-bottom:20px !important; overflow:hidden;}
+	div.featurebox .horizon-left .thumb, 	div.featurebox .horizon-right .thumb {float:none; width:100%; margin-left:0; margin-right:0; padding:0;}
+	div.featurebox .horizon-left, div.featurebox .horizon-right {overflow:hidden; padding-bottom:5px;}
+	div.featurebox .thumb + .info-txt, 	div.featurebox .video + .info-txt {width:100%; margin-top:5px; padding:0;}
+	div.featurebox .img-area + .info-txt, 	div.featurebox .info-txt + .img-area {float:left; margin-top:5px;}
+	div.featurebox .image-only .thumb img {height:auto !important; width:100% !important;}
+	div.featurebox .info-txt .subTitle, div.featurebox .img-area .subTitle{font-size:16px; padding-bottom:0;   line-height: 1.365;}
+	div.featurebox .info-txt .des p {padding:0 0 5px 0;}
+	div.featurebox .info-txt .des p + .subTitle {padding-top:0;}
+	div.featurebox .info-txt .des .list-bullet + .subTitle, 	div.featurebox .info-txt .des .img-area + .subTitle, 	div.featurebox .info-txt .des .list-box + .subTitle, 	div.featurebox .img-area + .img-area, 	div.featurebox .img-area  + h4    {padding-top:10px;}
+	div.featurebox .info-txt .des .list-bullet.depth2 + .subTitle  {padding-top:5px;}
+}
+div.keynote_row_group{width:100%; overflow:hidden; padding:0 0 15px; font-size:16px;}
+div.keynote_row_group .row_left{width:48%; float:left;}
+div.keynote_row_group .row_right{width:48%; float:right;}
+div.keynote_row_group .keynote_small_wide{width:100%; overflow:hidden; text-align:center; padding-bottom:20px;}
+div.keynote_row_group .keynote_small_wide .title{font-size:21px; text-align:left; padding-bottom:5px; font-family:'SamsungIFBd';}
+div.keynote_row_group .keynote_small_wide img{min-width:inherit; max-width:100%; margin:10px 0;}
+div.keynote_row_group .keynote_small_wide .description_pci{text-align:left; padding-bottom:5px;}
+div.keynote_row_group object{width:100%; height:320px;}
+div.keynote_row_group embed{width:100%; height:315px;}
+div.keynote_small{width:100%; overflow:hidden;padding-bottom:20px}
+div.keynote_small div.sum{float:left; min-width:inherit; max-width:47%; margin:0 20px 10px 0;}
+div.keynote_small .text{min-width:50%;}
+div.keynote_small .sum img{width:100%;}
+div.keynote_mini{width:100%; overflow:hidden; padding-bottom:20px;}
+div.keynote_mini .title{padding:0; font-size:21px;}
+div.keynote_mini .sum{float:left; padding:0 20px 10px 0;}
+.featurebox div.keynote_mini {padding:0;}
+.featurebox div.keynote_mini .title{padding:0 0 15px 0; font-size:28px;}
+.accShow{display:none;}
+div.keynote_rbox_small_group{width:100%; overflow:hidden; margin-bottom: 40px;}
+div.keynote_rbox_small_group .keynote_rbox_small{float:left; overflow:hidden; width:49%; border:#ebebeb 1px solid; border-radius:10px; margin:10px 0; font-size:16px;}
+div.keynote_rbox_small_group .keynote_rbox_small.right{float:right;}
+div.keynote_rbox_small_group .keynote_rbox_small .inbox{float:left; padding:2.5%; width:95%;}
+div.keynote_rbox_small_group .keynote_rbox_small .sum{float:left; font-size:0; line-height:0; margin-right:20px;}
+div.keynote_rbox_small_group .keynote_rbox_small .sum img{min-width:inherit; max-width:100%;}
+div.keynote_rbox_small_group .title{font-family:'SamsungIFBd'; font-size:20px;}
+div.keynote_rbox_small_group .keynote_rbox_small .text{width:auto;}
+@media (max-width:1023px){
+	div.feature div.wrap {width:100%}
+	div.featurebox .info-txt .title{font-size:24px}
+}
+@media (min-width:768px) and (max-width:1023px){
+	div.bg-wrap{background:none;}
+	div.more-features div.feature div.wrap {width:100%}
+}
+@media (max-width:767px){
+	 .featurebox div.keynote_mini .title {  font-size: 20px;  padding-bottom: 7px;}
+	 div.keynote_mini .sum{padding:0 10px 0 0;}
+	.grid-row .mobile-area{display:block;}
+	.grid-row .desktop-area{display:none;}
+	div.featurebox .info-txt{width:100%;}
+	div.bg-wrap{background:none;}
+	div.featurebox .info-txt .title {font-size:20px; padding-bottom:7px;}
+	div.more-features {margin-bottom: 25px;}
+	div.more-features div.feature div.wrap {width:50%}
+	div.feature div.wrap{padding:15px}
+	div.feature div.wrap .title{font-size:16px;}
+	div.feature div.wrap .desc{font-size:14px;}
+	div.feature .m-white{color:#fff;}
+	div.feature .m-black{color:#000;}
+	div.featurebox div.leftarea, 	div.featurebox div.rightarea {float:none; width:100%; padding:0}
+	div.featurebox div.rightarea div.insection {margin-left:0}
+	div.more-features div.feature{float:none; width:100%;}
+	div.keynote_large_wide img{width:100%; float:none; padding-bottom:10px;}
+	div.keynote_row_group{padding:0}
+	div.keynote_row_group .row_left,div.keynote_row_group .row_right{float:none; width:100%;}
+	div.keynote_small div.sum{float:none; text-align:center; margin:0 auto;}
+	div.keynote_small div.sum img{max-width:100%; width:100%; min-height:inherit; max-height:100%; margin:20px 0;}
+	div.keynote_rbox_small_group {margin-bottom: 25px;}
+	div.keynote_rbox_small_group .keynote_rbox_small,div.keynote_rbox_small_group .keynote_rbox_small.right{width:98%; margin:0 auto; float:none; margin:10px 0;}
+}
+@media (max-width:479px){
+	div.more-features div.feature div.wrap {width:100%}
+}
+div.feature div.wrap.left, div.feature div.wrap.right{text-align: left}
+div.featurebox .info-txt{width: auto;}
+div.featurebox .info-txt sup, div.feature div.wrap sup{font-size: 10px;}
+@media (min-width: 450px){
+	div.featurebox .info-txt .des, 	div.feature div.wrap .desc{font-size: 18px;	line-height: 1.4;}
+}
+@media (min-width: 767px){
+	div.featurebox .info-txt{padding-left: 0px;	padding-right: 0px;}
+	div.feature div.wrap {width: 96%;padding: 10px;}
+	
+}
+@media (min-width: 1281px){	
+	.more-features div.feature div.wrap{width: 90%;}
+	div.feature div.wrap {width: 50%;padding: 20px;}
+	div.feature div.wrap.right{text-align: right;}
+	div.feature div.wrap .title {font-size: 54px;}
+	div.feature div.wrap .desc {font-size: 16px;width: 40%;}
+	.more-features div.feature div.wrap .title {font-size: 24px;}
+	.more-features div.feature div.wrap .desc.fifty{width: 50%;}
+	.more-features div.feature div.wrap .desc.fourty {width: 40%;}
+	.more-features div.feature div.wrap .desc.fourtyfive {width: 45%;}
+	.more-features div.feature div.wrap .desc.seventyfive {width: 75%;}
+	.more-features div.feature div.wrap .desc.right, 	div.feature div.wrap .desc.right {float: right;}
+	div.feature div.wrap.center {width: 100%;text-align: center;}
+	div.feature div.wrap.center .desc{width: 100%;}
+}
+table.support-info{width:100%;  border-collapse: collapse;}
+table.support-info th,table.support-info td{padding:0; border-spacing:0px 0px; text-align:center; border-right:1px solid #ccc; border-bottom:1px solid #ccc; padding:10px 0;}
+table.support-info thead th{background:#5b5b5b; color:#fff; text-align:center; border-bottom:none; border-right:1px solid #5b5b5b; padding:8px 0;}
+table.support-info thead th:first-child{border-left:1px solid #5b5b5b;}
+table.support-info tbody th:first-child{border-left:1px solid #ccc;}
+table.support-info td img {vertical-align:middle;}
+table.support-info .img-ox {width:20px;}
+@media (max-width:767px){
+	table.support-info .img-ox {width:14px; height:14px;}
+	.table-scroll-wrap {overflow-x:auto;}
+	.table-scroll-wrap table.support-info {min-width:150%;}
+}
+.history_notification{width:100%; background-color: #0071bf;height: 65px;position:relative; }
+.history_notification a{color:#fff;   text-align:center; font-size:32px ; height: 65px; line-height: 65px; display:block; position:relative;  max-width:1320px; margin:0 auto;padding:0 28px 0 18px;}
+.history_notification a:after{display:block; content:""; width:19px; height:9px; background:url(/semiconductor/common/img/layout/ico_arrow.png) no-repeat; background-size:19px 9px; position:absolute; right:36px; top:-9px;}
+.legacy-ie .history_notification a:after{background:url(/semiconductor/common/img/layout/ico_arrow_ie.png) no-repeat;}
+@media (min-width:768px) and (max-width:1023px){
+.history_notification a:after{right:60px;}
+}
+@media (max-width: 767px){
+.history_notification{width:100%; background-color: #0071bf;height:40px;}
+.history_notification a{color:#fff;   text-align:center; font-size:16px ; height: 40px; line-height: 40px; display:block}
+.history_notification a:after{right:54px;}
+}
+@media (max-width: 400px){
+.history_notification a{color:#fff;   text-align:center; font-size:14px ; height: 40px; line-height: 40px; display:block}
+}
+.overview-info-wrap {position:relative;}
+.featurebox > .overview-info-wrap {margin-bottom:25px;}
+.overview-info-wrap:before {content:''; left:50%; position:absolute; width:1px; height:100%; background:#e6e6e6;}
+.overview-info-wrap:after {content:''; height:0; display:block; clear:both; overflow:hidden;}
+.insection + .overview-info-wrap {margin-top:-15px;}
+.overview-info-wrap > .overview-info:first-child {float:left; width:45%; max-width:420px;}
+.overview-info-wrap > .overview-info + .overview-info {float:right; width:48%;}
+.title + .overview-info {margin-top:10px;}
+.overview-info dt {font-family:'SamsungIFBd'; font-size:18px; padding-bottom:10px;}
+.overview-info dd + dt {padding-top:15px;}
+@media (max-width: 767px){
+	.overview-info-wrap:before {display:none;}
+	.overview-info-wrap > .overview-info:first-child, 	.overview-info-wrap > .overview-info + .overview-info {float:none; width:100%; max-width:100%;}
+	.overview-info-wrap > .overview-info + .overview-info {margin-top:10px;}
+	.overview-info dt {font-size:14px; padding-bottom:5px;}
+	.overview-info dd + dt {padding-top:10px;}
+}
+
+/*head-copy  :: new module */
+.head-copy {text-align:center; color:#010101; word-break:break-word;}
+.head-copy h2 {font-size:28px; font-family:'SamsungIFBlk'; margin:0 auto 15px; line-height:1;}
+.head-copy div {font-size:16px; margin:0 auto;}
+.head-copy h2, .head-copy div {max-width:1150px; padding:0 2%;}
+.head-copy  img {margin-top:45px;}
+@media (max-width:767px){
+	.head-copy  img {width:100%;}
+	.head-copy h2 {font-size:22px; margin: 0 auto 7px;}
 }
