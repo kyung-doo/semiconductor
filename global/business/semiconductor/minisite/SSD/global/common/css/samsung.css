@@ -266,7 +266,7 @@ textarea{border:0;}
     .grid-row[data-role="ui-accordion"] .col-inner{margin:0;padding:0 10px 0}
     .grid-row{padding:0 10px 0 0}
     .grid-row .col-inner{margin:10px 0 0 10px}
-    .module>.sec-title{padding-left:10px}
+    .module>.sec-title{padding-left:10px;font-size: 22px;}
     .grid-row.head-desc {margin-top:-10px; margin-bottom:25px;}
 }
 .module, .grid-outer{padding:0 0 50px 0}
@@ -518,6 +518,7 @@ a.btn-jump span {text-transform:none}
 .key-visual .screen .focus-msg .btn-type1:last-child {margin-right:0;}
 .key-visual .screen .focus-msg .btn-type1:hover {background-color:#0071bf !important; color:#fff !important}
 .key-visual .screen.movie iframe{position:absolute;left:0;right:0;top:0;bottom:0;}
+.key-visual.home_kv{margin-bottom: 50px;}
 @media (min-width:1024px){
 .key-visual.home_kv .screen .focus-msg{position:relative;left:10px;top:10px;bottom:auto;width:440px;padding:0 1.4694%; background:none;color:#fff; line-height: 1.2;}
 .key-visual.home_kv .screen .focus-msg .category{font-size: 21px; padding-top: 105px;}
@@ -594,6 +595,7 @@ a.btn-jump span {text-transform:none}
 }
 @media (max-width:767px){
     .key-visual {margin-bottom:30px}
+    .key-visual.home_kv{margin-bottom: 30px;}
     .key-visual.home_kv .screen{padding-top:420px;position:relative}
     .key-visual.home_kv .screen img{ height:420px; width: auto; }
     .key-visual .screen .focus-msg {padding:20px;}
@@ -1523,7 +1525,7 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 
 /*SAMSUNG V-NAND SSD*/
 .grid-row.v_nand {}
-.grid-row.v_nand .grid-col4 {display: table-cell; float: none; width: 25% !important; vertical-align: top;}
+.grid-row.v_nand .grid-col4 {}
 .grid-row.v_nand .grid-col4 .col-inner{border-left: 1px solid #e9e9e9; min-height: 210px; text-align: center; margin-top: 20px; padding-left: 35px; padding-right: 35px;}
 .grid-row.v_nand .grid-col4 .col-inner .img{ height: 135px; padding-top: 35px;}
 .grid-row.v_nand .grid-col4:first-child .col-inner{border: none;}
@@ -1532,6 +1534,8 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
     .grid-row.v_nand .grid-col4 {width: 50%;}
 }
 @media (max-width:767px) {
+    .grid-row.v_nand {}
     .grid-row.v_nand .grid-col4 {width: 50%;}
     .grid-row.v_nand .grid-col4 .col-inner{border:none; min-height: 210px; text-align: center; margin-top: 20px; padding-left: 10px; padding-right: 10px;}
+    .grid-row.v_nand .grid-col4 .col-inner figure{font-size: 14px;}
 }
