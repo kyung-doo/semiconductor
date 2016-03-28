@@ -21,11 +21,11 @@ input[placeholder],input[type=text]:-moz-placeholder,input[type=text]::-moz-plac
 @font-face { font-family: 'SamsungIFRg'; src: url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-400.eot"); src: url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-400.eot?#iefix") format("embedded-opentype"), url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-400.woff") format("woff"), url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-400.ttf") format("truetype"), url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-400.svg#SamsungOne-400") format("svg"); font-weight: normal; font-style: normal; }
 @font-face { font-family: 'samsungIcon'; src: url("/global/business/semiconductor/minisite/SSD/global/common/font/samsungIcon.eot"); src: url("/global/business/semiconductor/minisite/SSD/global/common/font/samsungIcon.eot?#iefix") format("embedded-opentype"), url("/global/business/semiconductor/minisite/SSD/global/common/font/samsungIcon.woff") format("woff"), url("/global/business/semiconductor/minisite/SSD/global/common/font/samsungIcon.ttf") format("truetype"), url("/global/business/semiconductor/minisite/SSD/global/common/font/samsungIcon.svg#samsungIcon") format("svg"); font-weight: normal; font-style: normal;}
 html{font-size:16px; line-height:1.365}
-h1,div.solution-visual-area div.inarea h1,.key-visual .screen .focus-msg h1,.sec-title {font-size:28px; font-family: 'SamsungIFBlk';}
+h1,div.solution-visual-area div.inarea h1,.key-visual .screen .focus-msg h1,.sec-title {font-size:32px; font-family: 'SamsungIFBlk';}
 .pop-tit {font-size:32px !important;}
 h2,     .tab-content .module .fluid-txt .tit,     .module .tit,     .grid-outer .tit,     .tab-theme .tab-tit {font-size:28px}
 h3,     .module .fluid-txt .tit,     .grid-outer .fluid-txt .tit,     .article-thumb2 .grid-col2 .tit,     .article-thumb2 .grid-col3 .tit,     .article-txt3 .grid-col2 .tit /* small h2 */ {font-size:24px}
-h4,     ul.sortby-list li a,     a.btn-filterby span,     a.btn-advanced span,     .list-thumb .fluid-txt .tit,     .tab-theme .tab-sub,     .key-visual .screen .focus-msg h1 em,     .grid-outer .cat {font-size:18px}
+h4,     ul.sortby-list li a,     a.btn-filterby span,     a.btn-advanced span,     .list-thumb .fluid-txt .tit,     .tab-theme .tab-sub,     .key-visual .screen .focus-msg h1 em,     .grid-outer .cat {font-size:16px}
 button {font-size:16px}
 div.select-product span.word,     .module .cat,     .article2 .no sub {font-size:14px}
 .grid-outer .cat + .tit, .sec-title2 {font-size:24px}
@@ -33,7 +33,7 @@ div.select-product span.word,     .module .cat,     .article2 .no sub {font-size
 .key-visual .screen .focus-msg .txt {font-size:21px}
 table th {font-weight:normal}
 @media (min-width:768px) and (max-width:1023px) {
-    h1,     div.solution-visual-area div.inarea h1,     .key-visual .screen .focus-msg h1,     .sec-title,     .module .tit {font-size:28px}
+    h1,     div.solution-visual-area div.inarea h1,     .key-visual .screen .focus-msg h1,     .sec-title,     .module .tit {font-size:32px}
     .pop-tit {font-size:28px !important}
     h2,     .tab-content .module .fluid-txt .tit,     .grid-outer .tit, .sec-title2     .tab-theme .tab-tit {font-size:24px}
     h3,     .module .fluid-txt .tit,     .grid-outer .fluid-txt .tit,     .article-thumb2 .grid-col2 .tit,     .article-thumb2 .grid-col3 .tit,     .article-txt3 .grid-col2 .tit {font-size:20px}
@@ -54,7 +54,7 @@ html{font-size:14px}
     .sec-board-box .tit {font-size:16px}
 }
 @media (min-width:1024px) and (max-width:1280px) {
-    .key-visual .screen .focus-msg h1 {font-size:26px}
+    .key-visual .screen .focus-msg h1 {font-size:30px}
     .key-visual .screen .focus-msg .txt {font-size:18px}
     .key-visual .screen .focus-msg h1 em {font-size:16px}
 }
@@ -315,7 +315,7 @@ button.ctl-accordion.expanded:after{content:"\28"}
 .key-visual+.floating-jumpmenu{margin-top:-40px}
 .key-visual+.floating-jumpmenu.active{margin-top:0}
 /* jumpmenu : base */
-.floating-jumpmenu {width:100%; background:url("/global/business/semiconductor/minisite/SSD/global/common/img/layout/bg-jump-default.png"); border-top:1px solid #989898; border-bottom:1px solid #989898; text-transform:uppercase; position:relative; font-size:1rem; line-height:1.666em; font-family:SamsungIFBd; color:#0057a4;}
+.floating-jumpmenu {width:100%; background:url("/global/business/semiconductor/minisite/SSD/global/common/img/layout/bg-jump-default.png"); border-bottom:1px solid #989898; text-transform:uppercase; position:relative; font-size:1rem; line-height:1.666em; font-family:SamsungIFBd; color:#0057a4;}
 .acc-cont .floating-jumpmenu,.floating-jumpmenu li a.active:before {display:none;}
 .floating-jumpmenu.active{position:fixed;left:0;top:0;right:0;z-index:9;display:block !important;margin-top:0;z-index:9999999}
 .floating-jumpmenu.active>div{display:block}
@@ -323,8 +323,8 @@ button.ctl-accordion.expanded:after{content:"\28"}
     .legacy-ie .floating-jumpmenu.active + .grid-row.tab-theme .tab-content > div:first-child {padding-top:67px}
 .floating-jumpmenu>div, div.jump-module div.inner{position:relative; max-width:1366px;margin:0 auto; /*padding-right:140px;*/ overflow:hidden;text-align:center; box-sizing:border-box}
     .legacy-ie .floating-jumpmenu>div, .legacy-ie .floating-jumpmenu div.innner {width:1366px}
-.floating-jumpmenu .product-title, .floating-jumpmenu h2 {width:100%; height:60px; background:#fff; border-bottom:1px solid #c6c6c6}
-.floating-jumpmenu .product-title span, .floating-jumpmenu h2 span {display:block; max-width:1326px; margin:0 auto; padding:15px 20px; line-height:30px; font-family:'SamsungIFRg'; font-size:28px; color:#292929}
+.floating-jumpmenu .product-title, .floating-jumpmenu h2 {width:100%; height:80px; background:#fff; border-bottom:1px solid #c6c6c6}
+.floating-jumpmenu .product-title span, .floating-jumpmenu h2 span {display:block; max-width:1326px; margin:0 auto; padding:30px 20px 20px; line-height:30px; font-family:'SamsungIFBlk'; font-size:28px; color:#292929}
 .floating-jumpmenu .product-title span {text-transform:none}
 .floating-jumpmenu ul {overflow:hidden; z-index:10;  border-left:1px solid #989898}
 .floating-jumpmenu ul:before, ul.jump-link:before {content:"";background:#e3e3e3;height:1px;position:absolute;left:0;right:0;top:56px;z-index:5}
@@ -462,7 +462,7 @@ a.btn-jump span {text-transform:none}
     .floating-jumpmenu .btn-only-wrap a:after {margin-left: 0; content: "\e60c"; font-size: 14px; line-height: 40px;}
 }
 /* key visual */
-.key-visual {max-width:1920px;margin:0 auto 55px;overflow:hidden;position:relative;height:auto !important; width:100%}
+.key-visual {max-width:1920px;margin:0 auto;overflow:hidden;position:relative;height:auto !important; width:100%}
 .key-visual.short-type .focus-msg {z-index:1;}
 .key-visual.with-filter {margin-bottom:20px}
 .key-visual ul[class*="item"]{position:relative;left:0;overflow:hidden;min-width:100%}
@@ -509,7 +509,7 @@ a.btn-jump span {text-transform:none}
 .key-visual .screen .focus-msg h1 a{display:block; position:relative; font-size:18px;overflow:hidden; text-transform:uppercase; /*color:#b8d8ee;*/ padding-left:24px; font-family:'SamsungIFRg';}
 .key-visual .screen .focus-msg h1 a:after {display:inline-block; position:absolute; top:0; left:0; content:"\e613"; font-family:'samsungIcon'}
 .key-visual .screen .focus-msg h1 span{display:block;text-transform:uppercase}
-.key-visual .screen .focus-msg h1 em {display:block; font-family:'SamsungIFRg'; overflow: hidden; text-overflow:ellipsis; white-space: nowrap;text-transform: none;}
+.key-visual .screen .focus-msg h1 em {display:block; font-family:'SamsungIFRg'; overflow: hidden; text-overflow:ellipsis; white-space: nowrap;text-transform: none;padding-bottom:1.5%}
 .key-visual .screen .focus-msg .txt{padding-top:3%; overflow:hidden;}
 .key-visual .screen .focus-msg .act{position:absolute;bottom:8.1081%;display:block;overflow:hidden}
 .key-visual .screen .focus-msg button[type=button], .key-visual .screen .focus-msg a.btn-type1{background:#fff;color:#0057A4;float:left;line-height:40px}

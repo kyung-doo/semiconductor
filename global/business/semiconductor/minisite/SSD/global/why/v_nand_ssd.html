@@ -1,0 +1,45 @@
+<?php include($_SERVER['DOCUMENT_ROOT'].'/global/business/semiconductor/minisite/SSD/global/sec/ssi/header/dochead_html5.sec')?>
+<!--#include virtual="/semiconductor/global/ssi/header/dochead_html5.sec"-->
+
+<!-- 페이지별 css link,js -->
+<script src="/global/business/semiconductor/minisite/SSD/global/common/js/page/home.js"></script>
+<!-- //페이지별 css link,js -->
+
+<title>Samsung Semiconductor</title>        <!-- unique한 페이지 title -->
+
+<?php include($_SERVER['DOCUMENT_ROOT'].'/global/business/semiconductor/minisite/SSD/global/sec/semi_header.sec')?>
+<!--#include virtual="/semiconductor/common/html/sec/semi_header.sec"-->
+
+<!-- contents wrapper -->
+<div class="content-wrap">
+    <div id="content">
+        <span class="blind">Content</span>
+    </div>
+    <!-- content -->
+    <?php include($_SERVER['DOCUMENT_ROOT'].'/global/business/semiconductor/minisite/SSD/global/sec/ssi/kv/why_landing_kv.sec')?>
+    <div class="module sec-board-box">
+        
+        <!-- fixed jump menu -->
+		<div class="floating-jumpmenu pdp lone" data-role="ui-jump">
+			<p class="product-title"><span>V-NAND Technology</span></p>
+			<button type="button" data-role="ui-tab-jump-btn">Overview</button><!-- 첫번째 section의 title -->
+			<!-- 
+			<span class="btn-jump-wrap">
+				<a href="javascript:;" class="btn-jump quote" data-role="ui-btn-quote"><span class="blind-txt">Contact us</span></a>
+			</span>
+			-->
+			<div class="second-jump" data-role="ui-jump-container"> <!-- 140904 class="second-jump" 추가 -->
+				<ul data-role="ui-jump-menu">
+					<li><a href="javascript:void(0);" data-role="ui-tab-jump-menu" class="on" data-eng-title="Overview"><span>Overview</span></a></li>
+					<li><a href="javascript:void(0);" data-role="ui-tab-jump-menu" data-eng-title="Videos" data-hash="Videos"><span>Videos</span></a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- //fixed jump menu -->
+
+    </div>
+    <!-- //content -->
+</div>
+<!-- //contents wrapper -->
+<?php include($_SERVER['DOCUMENT_ROOT'].'/global/business/semiconductor/minisite/SSD/global/sec/semi_footer.sec')?>
+<!--#include virtual="/semiconductor/common/html/sec/semi_footer.sec"-->
