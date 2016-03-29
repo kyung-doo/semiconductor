@@ -1838,13 +1838,7 @@ table.support-info .img-ox {width:20px;}
 }
 
 .products-list{margin-top:10px}
-<<<<<<< HEAD
-.products-list .col-inner.box{border:solid 1px #e9e9e9}
-.products-list .fluid-txt.txt{background-color:#f8f8f8}
-.products-list .fluid-txt.txt > p{min-height:105px}
-=======
 .products-list .col-inner{border:solid 1px #e9e9e9}
 .products-list .banner_title{background-color:#f8f8f8;padding:15px 0 5px 0}
 .products-list .banner_title h3 {font-size: 21px;color: #000;padding-left: 20px;padding-bottom: 5px;padding-right: 20px;}
 .products-list .banner_title p{padding:0 20px 15px 20px}
->>>>>>> 873a9339839bd99b808eb1a91ed4cad9d758e590
