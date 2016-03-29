@@ -60,7 +60,7 @@ html{font-size:14px}
 }
 /* heading */
 h1,h2,h3,h4,h5,h6{font-weight:normal; font-size:100%}
-.sec-title{line-height:1.1111; text-transform:uppercase; color:#000}
+.sec-title{line-height:1.1111; text-transform:uppercase; color:#000;margin-bottom:20px}
 .sec-title.sub{text-transform:none}
 .sec-title .flag {width:34px; height:23px;}
 .sec-title .category {color:#0057a4;}
@@ -285,14 +285,12 @@ textarea{border:0;}
 .legacy-ie .clip-center span {float:none;}
 img.media-tablet, img.media-mobile, span.media-table, span.media-mobile{visibility:hidden;display:none}
 @media (max-width:767px){
-    .clip-center img{height:auto;width:100%}
-    .clip-center span{display:block; width:100%; float:none;position:static;height:auto}
-    .clip-center span img{position:static; width:100%; height:auto !important}
-    span.media-desktop,     img.media-desktop,     span.media-tablet,     img.media-tablet{visibility:hidden;display:none !important}
-    span.media-mobile,     img.media-mobile{visibility:visible;display:inline-block}
+	.clip-center img{height:auto;width:100%}
+	.clip-center span{display:block; width:100%; float:none;position:static;height:auto}
+	.clip-center span img{position:static; width:100%; height:auto !important}
+	span.media-desktop, 	img.media-desktop, 	span.media-tablet, 	img.media-tablet{visibility:hidden;display:none !important}
+	span.media-mobile, 	img.media-mobile{visibility:visible;display:inline-block}
 }
-.tbl {display:table;width:100%}
-.tbl-cell{display:table-cell}
 /* accordion */
 button.ctl-accordion{display:none;position:absolute;left:0;width:100%;margin-top:-50px;height:50px;text-align:right}
 button.ctl-accordion:after{font-family:'samsungIcon';display:inline-block;margin-right:20px;width:25px;height:25px;text-align:right;line-height:25px}
@@ -321,7 +319,7 @@ button.ctl-accordion.expanded:after{content:"\28"}
 .floating-jumpmenu.active>div{display:block}
 .floating-jumpmenu.active+.tab-holder .tab-content.show{padding-top:100px}
     .legacy-ie .floating-jumpmenu.active + .grid-row.tab-theme .tab-content > div:first-child {padding-top:67px}
-.floating-jumpmenu>div, div.jump-module div.inner{position:relative; max-width:1366px;margin:0 auto; /*padding-right:140px;*/ overflow:hidden;text-align:center; box-sizing:border-box}
+.floating-jumpmenu>div, div.jump-module div.inner{position:relative; max-width:1326px;margin:0 auto; /*padding-right:140px;*/ overflow:hidden;text-align:center; box-sizing:border-box}
     .legacy-ie .floating-jumpmenu>div, .legacy-ie .floating-jumpmenu div.innner {width:1366px}
 .floating-jumpmenu .product-title, .floating-jumpmenu h2 {width:100%; height:80px; background:#fff; border-bottom:1px solid #dcdcdc}
 .floating-jumpmenu .product-title span, .floating-jumpmenu h2 span {display:block; max-width:1326px; margin:0 auto; padding:30px 20px 20px; line-height:30px; font-family:'SamsungIFBlk'; font-size:28px; color:#292929}
@@ -1540,7 +1538,7 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 /* feature module */
 div.bg-wrap{background:#f1f1f1}
 .feature-module {padding-top:50px; padding-bottom:10px;}
-.module.feature-module {padding-bottom:40px;}
+/*.module.feature-module {padding-bottom:40px;}*/
 .feature-module + .feature-module {margin-top:30px; padding-top:0;}
 .module.feature-module + .feature-modulem.key-visual + .feature-module > .grid-row:first-child .col-inner {margin-top:0;}
 .feature-module.bg-main5 {padding-bottom:35px;}
@@ -1593,9 +1591,9 @@ div.featurebox .img-area img {width:100%;}
 div.featurebox .img-area + .info-txt, div.featurebox .info-txt + .img-area {float:left; margin-top:10px;}
 div.featurebox p + .img-area {margin-top:15px;}
 div.featurebox .info-txt + .image-only {margin-top:5px;}
-div.featurebox .info-txt .title {font-size:28px; /*color:#0057a4;*/ color:#000; padding-bottom:15px; }
+div.featurebox .info-txt .title {font-size:26px; /*color:#0057a4;*/ color:#000; padding-bottom:15px;font-family:'SamsungIFBd' }
 div.featurebox .info-txt .title .flag { vertical-align:baseline; width: 34px; height: 23px; margin-right:5px;}
-div.featurebox .image-only .title{font-size:28px; /*color:#0057a4;*/ color:#000; padding-bottom:15px; }
+div.featurebox .image-only .title{font-size:26px; /*color:#0057a4;*/ color:#000; padding-bottom:15px; }
 div.featurebox .info-txt .subTitle{font-size:18px; /*color:#0057a4;*/ font-family:'SamsungIFBd'; color:#000; padding-bottom:10px}
 div.featurebox .img-area .subTitle{font-size:18px; line-height:1.365; /*color:#0057a4;*/ font-family:'SamsungIFBd'; color:#000; padding-bottom:20px}
 div.featurebox .img-area  + h4 {padding-top:20px;}
@@ -1608,7 +1606,8 @@ div.featurebox .img-area + .img-area  {padding-top:20px;}
 div.featurebox .info-txt .des .list-bullet.depth2 + .subTitle  {padding-top:10px;}
 div.featurebox .info-txt .des .subTitle + .clip-center, div.featurebox .img-area .subTitle + .thumb {margin-top:5px;}
 div.featurebox .info-txt .des .footnote{padding-top:10px; font-size:14px; color:#666; }
-div.featurebox .info-txt .des p {padding:0 0 10px 0;}
+div.featurebox .info-txt .des p {padding:0 0 15px 0;}
+div.featurebox .info-txt .des p:last-child{padding:0}
 div.featurebox .info-txt .des .list-bullet + p {padding-top:7px;}
 div.featurebox .info-txt > .btn.link {margin-top:20px;}
 div.featurebox .horizon-left, div.featurebox .horizon-right {overflow:hidden; padding-bottom:20px;}
@@ -1727,7 +1726,7 @@ div.feature div.wrap.left, div.feature div.wrap.right{text-align: left}
 div.featurebox .info-txt{width: auto;}
 div.featurebox .info-txt sup, div.feature div.wrap sup{font-size: 10px;}
 @media (min-width: 450px){
-	div.featurebox .info-txt .des, 	div.feature div.wrap .desc{font-size: 18px;	line-height: 1.4;}
+	div.featurebox .info-txt .des, 	div.feature div.wrap .desc{font-size: 16px;	line-height: 1.4;}
 }
 @media (min-width: 767px){
 	div.featurebox .info-txt{padding-left: 0px;	padding-right: 0px;}
