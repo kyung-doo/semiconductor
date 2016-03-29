@@ -48,7 +48,7 @@ html{font-size:14px}
     h2,     .tab-content .module .fluid-txt .tit,     .module .tit,     .grid-outer .tit, .sec-title2     .tab-theme .tab-tit {font-size:20px}
     h3,     .module .fluid-txt .tit,     .grid-outer .fluid-txt .tit,     .article-thumb2 .grid-col2 .tit,     .article-thumb2 .grid-col3 .tit,     .article-txt3 .grid-col2 .tit {font-size:16px}
     h4,     ul.sortby-list li a,     a.btn-filterby span,     .list-thumb .fluid-txt .tit,     .tab-theme .tab-sub,     .key-visual .screen .focus-msg .txt,     .grid-outer .cat {font-size:14px}
-    button {font-size:14px}
+    button {font-size:13px}
     div.select-product span.word,     .module .cat,     .article-thumb2 .grid-col1 .meta,     .article2 .no sub {font-size:12px}
     .grid-outer .cat + .tit {font-size:16px}
     .sec-board-box .tit {font-size:16px}
@@ -462,8 +462,8 @@ a.btn-jump span {text-transform:none}
 
 .floating-jumpmenu.lone {z-index:1;}
 @media (max-width:767px) {
-	.floating-jumpmenu.lone>button:after{right:15px;}
-	.floating-jumpmenu.lone>div {margin-right:0;}
+    .floating-jumpmenu.lone>button:after{right:15px;}
+    .floating-jumpmenu.lone>div {margin-right:0;}
 }
 
 /* key visual */
