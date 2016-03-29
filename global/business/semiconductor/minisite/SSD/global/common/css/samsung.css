@@ -33,7 +33,7 @@ div.select-product span.word,     .module .cat,     .article2 .no sub {font-size
 .key-visual .screen .focus-msg .txt {font-size:21px}
 table th {font-weight:normal}
 @media (min-width:768px) and (max-width:1023px) {
-    h1,     div.solution-visual-area div.inarea h1,     .key-visual .screen .focus-msg h1,     .sec-title,     .module .tit {font-size:32px}
+    h1,     div.solution-visual-area div.inarea h1,     .key-visual .screen .focus-msg h1,     .sec-title,     .module .tit {font-size:28px}
     .pop-tit {font-size:28px !important}
     h2,     .tab-content .module .fluid-txt .tit,     .grid-outer .tit, .sec-title2     .tab-theme .tab-tit {font-size:24px}
     h3,     .module .fluid-txt .tit,     .grid-outer .fluid-txt .tit,     .article-thumb2 .grid-col2 .tit,     .article-thumb2 .grid-col3 .tit,     .article-txt3 .grid-col2 .tit {font-size:20px}
@@ -1550,12 +1550,13 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 
 /*SAMSUNG bottom banner*/
 .grid-row.bottom_banner {}
-.grid-row.bottom_banner .grid-col2 {}
+
 .grid-row.bottom_banner .grid-col2 .col-inner .banner_title {border: 1px solid #e9e9e9; border-top: none; padding-top: 15px; padding-bottom:5px; clear: both;}
 .grid-row.bottom_banner .grid-col2 .col-inner .banner_title h3{font-size: 21px; color: #000; padding-left: 20px; padding-bottom: 5px; padding-right: 20px;}
 .grid-row.bottom_banner .grid-col2 .col-inner img{width: 100%;float: left;}
 
-@media (min-width:768px) and (max-width:1023px) {
+@media (min-width:1024px) {
+    .grid-row.bottom_banner .grid-col2 .col-inner {margin-top: 0;}
 
 }
 @media (max-width:767px) {
