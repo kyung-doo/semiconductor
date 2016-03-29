@@ -3,7 +3,7 @@
     <div class="grid-row" data-role="ui-accordion">
         <div class="grid-col">
             <div class="col-inner">
-                <h3 class="tit-accordion"><span>WHY SAMSUNG V-NAND SSD</span></h3>
+                <h3 class="tit-accordion"><span>V-NAND SSD</span></h3>
                 <button type="button" class="ctl-accordion closed" data-role="ui-accordion-btn"><span class="blind">WHY SAMSUNG V-NAND SSD layer open</span></button>
                 <ul data-role="ui-accordion-content">
                     <li><a href="#">V-NAND Technology</a></li>
@@ -12,7 +12,7 @@
         </div>
         <div class="grid-col">
             <div class="col-inner">
-                <h3 class="tit-accordion"><span>PRODUCTS</span></h3>
+                <h3 class="tit-accordion"><span>PRODUCT</span></h3>
                 <button type="button" class="ctl-accordion closed" data-role="ui-accordion-btn"><span class="blind">PRODUCTS layer open</span></button>
                 <ul data-role="ui-accordion-content">
                     <li><a href="#">Consumer SSD</a>
@@ -43,7 +43,7 @@
         </div>
         <div class="grid-col">
             <div class="col-inner">
-                <h3 class="tit-accordion"><span>DOWNLOAD CENTER</span></h3>
+                <h3 class="tit-accordion"><span>DOWNLOAD</span></h3>
                 <button type="button" class="ctl-accordion closed" data-role="ui-accordion-btn"><span class="blind">DOWNLOAD CENTER layer open</span></button>
                 <ul data-role="ui-accordion-content">
                     <li><a href="#">Overview</a></li>
@@ -65,7 +65,7 @@
         </div>
         <div class="grid-col">
             <div class="col-inner">
-                <h3 class="tit-accordion"><span>SUPPORTS &amp; Purchase</span></h3>
+                <h3 class="tit-accordion"><span>SUPPORT</span></h3>
                 <button type="button" class="ctl-accordion closed" data-role="ui-accordion-btn"><span class="blind">SUPPORTS &amp; Purchase layer open</span></button>
                 <ul data-role="ui-accordion-content">
                     <li><a href="#">Where to Buy</a></li>

@@ -37,7 +37,7 @@ table th {font-weight:normal}
     .pop-tit {font-size:28px !important}
     h2,     .tab-content .module .fluid-txt .tit,     .grid-outer .tit, .sec-title2     .tab-theme .tab-tit {font-size:24px}
     h3,     .module .fluid-txt .tit,     .grid-outer .fluid-txt .tit,     .article-thumb2 .grid-col2 .tit,     .article-thumb2 .grid-col3 .tit,     .article-txt3 .grid-col2 .tit {font-size:20px}
-    button,h4,     a.btn-filterby span,     .list-thumb .fluid-txt .tit,     .tab-theme .tab-sub,     .key-visual .screen .focus-msg .txt,     .grid-outer .cat{font-size:16px}
+    button,h4,     a.btn-filterby span,     .list-thumb .fluid-txt .tit,     .tab-theme .tab-sub,     .key-visual .screen .focus-msg .txt,     .grid-outer .cat{font-size:14px}
     div.select-product span.word,     .module .cat,     .article-thumb2 .grid-col1 .meta,     .article2 .no sub {font-size:14px}
     .grid-outer .cat + .tit,.sec-board-box .tit {font-size:20px}
     .key-visual .screen .focus-msg .txt {font-size:18px}
@@ -285,11 +285,11 @@ textarea{border:0;}
 .legacy-ie .clip-center span {float:none;}
 img.media-tablet, img.media-mobile, span.media-table, span.media-mobile{visibility:hidden;display:none}
 @media (max-width:767px){
-	.clip-center img{height:auto;width:100%}
-	.clip-center span{display:block; width:100%; float:none;position:static;height:auto}
-	.clip-center span img{position:static; width:100%; height:auto !important}
-	span.media-desktop, 	img.media-desktop, 	span.media-tablet, 	img.media-tablet{visibility:hidden;display:none !important}
-	span.media-mobile, 	img.media-mobile{visibility:visible;display:inline-block}
+    .clip-center img{height:auto;width:100%}
+    .clip-center span{display:block; width:100%; float:none;position:static;height:auto}
+    .clip-center span img{position:static; width:100%; height:auto !important}
+    span.media-desktop,     img.media-desktop,     span.media-tablet,     img.media-tablet{visibility:hidden;display:none !important}
+    span.media-mobile,     img.media-mobile{visibility:visible;display:inline-block}
 }
 /* accordion */
 button.ctl-accordion{display:none;position:absolute;left:0;width:100%;margin-top:-50px;height:50px;text-align:right}
@@ -504,7 +504,7 @@ a.btn-jump span {text-transform:none}
 }
 .key-visual .screen .focus-msg{position:absolute;left:10px;top:10px;bottom:10px;width:30.1%;padding:0 1.4694%; background:url(/global/business/semiconductor/minisite/SSD/global/common/img/layout/bg_kv_txt.png);color:#fff; line-height: 1.2;}
 .key-visual .screen .focus-msg h1{padding-top:5%;overflow:hidden; text-transform:uppercase;}
-.key-visual .screen .focus-msg h1 a{display:block; position:relative; font-size:18px;overflow:hidden; text-transform:uppercase; /*color:#b8d8ee;*/ padding-left:24px; font-family:'SamsungIFRg';}
+.key-visual .screen .focus-msg h1 a{display:block; position:relative; font-size:18px;overflow:hidden; text-transform:uppercase; /*color:#b8d8ee;*/ padding-left:24px; font-family:'SamsungIFBlk';}
 .key-visual .screen .focus-msg h1 a:after {display:inline-block; position:absolute; top:0; left:0; content:"\e613"; font-family:'samsungIcon'}
 .key-visual .screen .focus-msg h1 span{display:block;text-transform:uppercase}
 .key-visual .screen .focus-msg h1 em {display:block; font-family:'SamsungIFRg'; overflow: hidden; text-overflow:ellipsis; white-space: nowrap;text-transform: none;padding-bottom:1.5%}
@@ -521,6 +521,7 @@ a.btn-jump span {text-transform:none}
 .key-visual.home_kv .screen .focus-msg{position:relative;left:10px;top:10px;bottom:auto;width:440px;padding:0 1.4694%; background:none;color:#fff; line-height: 1.2;}
 .key-visual.home_kv .screen .focus-msg .category{font-size: 21px; padding-top: 105px;}
 .key-visual.home_kv .screen .focus-msg h1{padding-top:90px;overflow:hidden; font-size:52px; line-height:56px; font-family: 'SamsungIFBlk'; text-shadow:1px 1px 1px rgba(0,0,0,0.8);}
+    .key-visual.home_kv .screen .focus-msg h1 em{font-size: 21px;}
 .key-visual.home_kv .screen .focus-msg .txt{padding-top:15px; overflow:hidden;text-shadow:1px 1px 1px #000;text-shadow:1px 1px 1px rgba(0,0,0,0.8);font-size:21px; line-height: 30px;}
 .key-visual.home_kv .screen .focus-msg .act{position:relative;bottom:auto;display:block;overflow:hidden; margin-top:30px;}
 .key-visual.home_kv .screen .focus-msg .act a{font-size: 16px;text-shadow:1px 1px 1px rgba(0,0,0,0.8); background: none; line-height: auto; padding: 0; margin: 0; color:#fff; padding-left: 5px;}
@@ -533,10 +534,10 @@ a.btn-jump span {text-transform:none}
 .legacy-ie .key-visual.home_kv .screen .focus-msg .act{position:relative;bottom:auto;display:block;overflow:hidden; margin-top:25px;}
 .legacy-ie .key-visual.home_kv .screen .focus-msg .act a{font-size: 16px;text-shadow:1px 1px 1px rgba(0,0,0,0.8); background: none; line-height: auto; padding: 0; margin: 0; color:#fff;}
 .key-visual.home_kv .screen .focus-msg .act a:after {  margin-bottom:3px;  content: "\34"; margin: 0 0 0px 2px;  font-family: 'samsungIcon';  display: inline-block;  vertical-align: middle; font-size: 15px;}
-
 .key-visual.home_kv .screen .focus-msg.black_style{color:#000;}
 .key-visual.home_kv .screen .focus-msg.black_style h1{text-shadow:1px 1px 1px #fff;text-shadow:1px 1px 1px rgba(255,255,255,0.8);}
 .key-visual.home_kv .screen .focus-msg.black_style .txt{text-shadow:1px 1px 1px #fff;text-shadow:1px 1px 1px rgba(255,255,255,0.8); color:#000;}
+
 .key-visual.home_kv .screen .focus-msg.black_style .act{}
 .key-visual.home_kv .screen .focus-msg.black_style .act a{text-shadow:1px 1px 1px #fff;text-shadow:1px 1px 1px rgba(255,255,255,0.8); color:#000;}
 .key-visual.home_kv .screen .focus-msg.black_style .act a:after {  margin-bottom:3px;  content: "\34"; margin: 0 0 0px 2px;  font-family: 'samsungIcon';  display: inline-block;  vertical-align: middle; font-size: 15px;}
@@ -545,21 +546,17 @@ a.btn-jump span {text-transform:none}
 
 
 @media (min-width:1367px){
-    .key-visual.index_kv .screen{height:600px;padding-bottom:0;} /* index용 키비쥬얼 추가 css */
-    .key-visual.index_kv .screen img{ position:absolute;  top:0%; left:50%; margin-left:-960px; margin-top:0; height:600px; width:auto;}
     .key-visual .screen{height:390px;padding-bottom:0;}
-    .key-visual.home_kv .screen{height:600px;padding-bottom:0;}
     .key-visual .screen>div{margin:0 auto;max-width:1366px;height:100%;position:relative}
+    .key-visual.home_kv .screen{height:600px;padding-bottom:0;}
+
 }
 @media (min-width:1024px) and (max-width:1366px) {
-    .key-visual.index_kv .screen{height:600px;padding-bottom:0;} /* index용 키비쥬얼 추가 css */
-    .key-visual.index_kv .screen img{ position:absolute;  top:0%; margin-top:0; height:600px; width:auto;}
     .key-visual.home_kv  li .kv_desktop{height:auto;margin-right: -12%;}
-
 
 }
 @media(min-width:1023px){
-.key-visual.home_kv .screen{height:600px;padding-bottom:0;}
+    .key-visual.home_kv .screen{height:600px;padding-bottom:0;}
 }
 @media(max-width:1023px){
     .key-visual{background:#424242}
@@ -567,14 +564,16 @@ a.btn-jump span {text-transform:none}
     .key-visual .screen>div{position:relative; z-index:2}
     .key-visual .screen .focus-msg{display:block; position:static; width:auto; padding:20px 20px 60px; background:#424242}
     .key-visual .screen .focus-msg h1{padding:0}
-    .key-visual .screen .focus-msg .txt{margin:10px 0 15px; padding-top:0;}
+    .key-visual .screen .focus-msg .txt{margin:10px 0 15px; padding-top:0; line-height: 21px;}
     .key-visual .screen .focus-msg .act {bottom:20px}
-    .wrapper-act button {font-size:16px}
-    .key-visual.index_kv .screen{height:550px;padding-bottom:0;} /* index용 키비쥬얼 추가 css */
+
+    .wrapper-act button {font-size:14px}
     .key-visual.home_kv .screen .focus-msg .category{font-size: 14px; margin-bottom: 20px;}
+    .key-visual.home_kv .screen .focus-msg h1 em{font-size:14px;}
     .key-visual.home_kv .screen .focus-msg.black_style{color:#fff;}
     .key-visual.home_kv .screen .focus-msg.black_style h1{text-shadow:none;}
     .key-visual.home_kv .screen .focus-msg.black_style .txt{color:#fff;text-shadow:none;}
+    .key-visual.home_kv .screen .focus-msg .act a{font-size: 14px;}
 }
 @media (min-width:768px) and (max-width:1023px){
     .key-visual .screen .focus-msg h1 a{font-size:16px}
@@ -582,15 +581,6 @@ a.btn-jump span {text-transform:none}
     .key-visual.home_kv .screen{padding-top:470px;background-size:auto 292px;background-position:right -207px top 0}/* index용 키비쥬얼 추가 css */
     .key-visual.home_kv .screen img{ height: 470px;}
     .key-visual .btn-ico.video{top:146px}
-    .key-visual.index_kv .btn-ico.video{top:300px}/* index용 키비쥬얼 추가 css */
-.key-visual.index_kv .screen{height:550px;padding-bottom:0;} /* index용 키비쥬얼 추가 css */
-.key-visual.index_kv .screen .focus-msg{width:80%;}
-.key-visual.index_kv .screen .focus-msg h1{padding-top:5%;overflow:hidden; line-height:100%; font-family: 'SamsungIFRg'; text-shadow:1px 1px 1px #000; text-shadow:1px 1px 1px rgba(0,0,0,0.8);}
-.key-visual.index_kv .screen .focus-msg .txt{padding-top:1%; overflow:hidden;text-shadow:1px 1px 1px #000;text-shadow:1px 1px 1px rgba(0,0,0,0.8);}
-.key-visual.index_kv .screen .focus-msg .act{position:relative;bottom:auto;display:block;overflow:hidden; margin-top:30px;}
-.key-visual.index_kv .screen .focus-msg .act a{  font-size: 20px;text-shadow:1px 1px 1px #000;text-shadow:1px 1px 1px rgba(0,0,0,0.8);}
-.key-visual.index_kv .screen .focus-msg .act a:after {  margin-bottom:3px;  content: "\34"; margin: 0 0 0px 2px;  font-family: 'samsungIcon';  display: inline-block;  vertical-align: middle; font-size: 15px;}
-
 }
 @media (max-width:767px){
     .key-visual {margin-bottom:30px}
@@ -600,7 +590,7 @@ a.btn-jump span {text-transform:none}
     .key-visual .screen .focus-msg {padding:20px;}
     .key-visual .screen .focus-msg .act {position:static; margin-top:10px}
     .key-visual .screen{background-size:100% auto;padding-top:55.8%}
-    .key-visual .screen .focus-msg h1{font-size:24px; font-family:'SamsungIFBd';}
+    .key-visual .screen .focus-msg h1{font-size:24px; font-family:'SamsungIFBlk';}
     .key-visual .screen .focus-msg h1 a{font-size:14px}
     .key-visual .screen .act2{position:absolute;display:block;padding-top:55.8%;left:50%;top:0;}
     .key-visual .screen .act2 .btn-ico.video{left:0}
@@ -1553,7 +1543,7 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 .grid-row.bottom_banner {}
 .grid-row.bottom_banner .grid-col2 {}
 .grid-row.bottom_banner .grid-col2 .col-inner .banner_title {border: 1px solid #e9e9e9; border-top: none; padding-top: 15px; padding-bottom:5px; clear: both;}
-.grid-row.bottom_banner .grid-col2 .col-inner .banner_title h3{font-size: 21px; color: #000; padding-left: 20px; padding-bottom: 5px;}
+.grid-row.bottom_banner .grid-col2 .col-inner .banner_title h3{font-size: 21px; color: #000; padding-left: 20px; padding-bottom: 5px; padding-right: 20px;}
 .grid-row.bottom_banner .grid-col2 .col-inner img{width: 100%;float: left;}
 
 @media (min-width:768px) and (max-width:1023px) {
