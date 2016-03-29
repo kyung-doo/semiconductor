@@ -1471,10 +1471,11 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 .video-banner:after {content:""; display:block; clear:both}
 .video-banner .video-box {left:0; top:0; bottom:0; box-sizing:border-box; margin-top:20px;}
 .video-banner .video-box .grid-col {height:100%; line-height: 0;}
+.video-banner .video-box .grid-col2 { position: relative;}
 .video-banner .video-box .col-inner {height:100%; margin-top:0; position: relative;}
 .video-banner .video-box .col-inner img {width:100%; height:100%;}
 .video-banner .video-box .col-inner .brightcove-player * {height:100%}
-.video-banner .video-box .video_title{font-size: 21px; color: #fff; position: absolute; bottom: 20px; left: 20px; line-height: 28px;}
+.video-banner .video-box .video_title{font-size: 21px; color: #fff; position: absolute; bottom: 20px; left: 30px; line-height: 28px;}
 .video-banner .banner-box {float:right; width:50%;}
 .video-banner .banner-box .col-inner .fluid-txt2 {left:0; box-sizing:border-box; width:100%; padding:0 20px; text-align:center}
 .video-banner .banner-box .col-inner .fluid-txt2 h2 {margin-bottom:5px; overflow:hidden; max-height:2.2em; line-height:1.1}
@@ -1491,7 +1492,7 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 @media (max-width:1024px) {
     .video-banner .banner-box .col-inner .fluid-txt2 h2 {padding:0}
     .home-banner .video-banner .banner-box .col-inner .fluid-txt2 p {overflow:hidden; line-height:1.1; max-height:2.2em; -webkit-line-clamp:2;}
-    .video-banner .video-box .video_title{font-size:21px; color: #000; position: static; bottom:auto; left:auto;}
+    .video-banner .video-box .video_title{font-size:21px; color: #000; position: static; bottom:auto; left:auto; margin-left: 10px;}
 }
 @media (min-width:768px) and (max-width:1023px) {
     .video-banner .video-box {padding-left:5px;}
