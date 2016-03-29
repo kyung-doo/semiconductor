@@ -245,19 +245,11 @@ var showHideJump = {
 function init_same_height() {
     $(window).resize(function ( e )
     {
-        var pc = $("[data-role*='pc']").length;
-        var tablet_a = $("[data-role*='tablet_a']").length;
-        var tablet_b = $("[data-role*='tablet_b']").length;
-        var mobile = $("[data-role*='mobile']").length;
-
-
 
         $("[data-role^='s_height']").each(function( i )
         {
-<<<<<<< HEAD
-=======
+
             var data = $(this).attr("data-role").split(" ");
->>>>>>> 873a9339839bd99b808eb1a91ed4cad9d758e590
 
             var height = checkHeight($(this));
             if($.inArray("pc", data)>0)
@@ -300,27 +292,6 @@ function init_same_height() {
             else
             {
                 if(String(_common.is_mode()).toUpperCase() == "TABLET_B")
-                {
-                    $(this).find(".s_height_inner").css({height:""});
-                }
-            }
-
-<<<<<<< HEAD
-
-
-            if(mobile>0)
-=======
-            if($.inArray("mobile", data)>0)
->>>>>>> 873a9339839bd99b808eb1a91ed4cad9d758e590
-            {
-                if(String(_common.is_mode()).toUpperCase() == "MOBILE")
-                {
-                    $(this).find(".s_height_inner").css({height:height});
-                }
-            }
-            else
-            {
-                if(String(_common.is_mode()).toUpperCase() == "MOBILE")
                 {
                     $(this).find(".s_height_inner").css({height:""});
                 }
