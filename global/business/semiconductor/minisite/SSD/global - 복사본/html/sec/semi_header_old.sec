@@ -1,0 +1,529 @@
+</head>
+<!--[if IE 7]><body class="legacy-ie ie7"><![endif]-->
+<!--[if IE 8]><body class="legacy-ie ie8"><![endif]-->
+<!--[if IE 9]><body class="ie9"><![endif]-->
+<!--[if gte IE 10]><!--><body><!--<![endif]-->
+<!-- common skip menu -->
+<div class="skip-menu">
+	<a href="#content">skip to content</a>
+</div>
+<!-- //semiconductor/common skip menu -->
+
+<div class="body-wrap" data-role="ui-nav-wrap">
+	<!-- header -->
+	<div class="header-wrap">
+		<!-- 
+			<div class="browser-notice">
+				<span>This website is best viewed using Internet Explorer 9 , Chrome , Firefox and newer browsers.</span>
+				<button type="button">
+			</div>
+			<div class="cookie-notice">
+				<span>
+					This site uses cookies. By continuing to browse the site you are agreeing to our use of cookies.
+					<a title="Read our privacy policy" href="#">Find out more here</a>
+				</span>
+				<button type="button">
+			</div>
+		 
+		 <div class="cookie-notice" data-role="ui-ph-notice">
+			<span>
+				personal history personal history personal history personal history personal history
+			</span>
+			<button type="button">
+		</div>
+		-->
+		<div class="space"></div>
+    	<div class="header">
+        	<div class="logo">
+				<h1><a href="/semiconductor/common/html/home/home.html"><span class="blind">SAMSUNG BUSINESS</span></a></h1>
+   			</div>
+            <button type="button" class="btn-ico ctl-nav" data-role="ui-nav-btn"><span class="label">Open Menu</span></button>
+			<div class="overlay"></div>	<!-- dimed layer -->
+			<div class="nav">
+				<!-- GNB -->
+				<ul class="local-menu" data-role="ui-nav">
+					<li class="sub">
+						<a href="#">Products</a>
+						<div class="submenu-container">
+							<ul data-role="ui-nav-sub">
+								<li class="sub">
+									<a href="javascript:void(0);" class="retial-mobile-btn"></a><!-- 모바일 링크 이동 방지 a 태그 추가 -->
+									<a href="http://www.naver.com" class="retail-link">DRAM</a> <!-- 모바일 링크 이동 방지 class="retail-link" 추가 -->
+									<div class="flyout"><!-- hero 영역 추가 카테고리에 add_hero 클래스 추가 -->
+										<ul>
+											<li><a href="#">Server DRAM</a></li>
+											<li><a href="#">PC DRAM</a></li>
+                                            <li><a href="#">Mobile DRAM</a></li>
+                                            <li><a href="#">Consumer DRAM</a></li>
+                                            <li><a href="#">Graphic DRAM</a></li>
+										</ul>
+										<div class="hero_area"><!-- hero area-->
+											<p class="hero_img"><img src="/semiconductor/common/img/layout/img_hero_dram.png" alt="DRAM"></p>
+											<dl>
+												<dt class="hero_txt"><a href="#">DRAM</a></dt><!-- 20150624 a 태그 추가 -->
+												<dd class="btn_buy"><button type="button" class="btn-type2 link">View more</button></dd>
+											</dl>
+										</div><!-- //hero area-->
+										
+									</div>
+								</li>
+								<li class="sub">
+									<a href="javascript:void(0);" class="retial-mobile-btn"></a>
+									<a href="http://www.naver.com"  class="retail-link">Flash Storage</a>
+									<div class="flyout">
+										<ul>
+											<li><a href="#">V-NAND</a></li>
+											<li><a href="#">Client SSD</a></li>
+                                            <li><a href="#">Enterprise SSD </a></li>
+                                            <li><a href="#">eMMC</a></li>
+                                            <li><a href="#">UFS</a></li>
+										</ul>
+										<div class="hero_area"><!-- hero area-->
+											<p class="hero_img"><img src="/semiconductor/common/img/layout/img_hero_flash.png" alt="Flash Storage"></p>
+											<dl>
+												<dt class="hero_txt"><a href="#">Flash Storage</a></dt>
+												<dd class="btn_buy"><button type="button" class="btn-type2 link">View more</button></dd>
+											</dl>
+										</div><!-- //hero area-->
+									</div>
+								</li>
+								<li class="sub">
+									<a href="javascript:void(0);" class="retial-mobile-btn"></a>
+									<a href="#"  class="retail-link">MCP</a>
+									<div class="flyout">
+										<ul>
+											<li><a href="#">eMMC Based MCP</a></li>
+											<li><a href="#">ePOP</a></li>
+										</ul>
+										<div class="hero_area"><!-- hero area-->
+											<p class="hero_img"><img src="/semiconductor/common/img/layout/img_hero_mcp.png" alt="MCP"></p>
+											<dl>
+												<dt class="hero_txt"><a href="#">MCP</a></dt>
+												<dd class="btn_buy"><button type="button" class="btn-type2 link">View more</button></dd>
+											</dl>
+										</div><!-- //hero area-->
+									</div>
+								</li>
+								<li class="sub">
+									<a href="javascript:void(0);" class="retial-mobile-btn"></a>
+									<a href="#"  class="retail-link">Exynos Solution</a>
+									<div class="flyout">
+										<ul>
+											<li><a href="#">Application Processor</a></li>
+											<li><a href="#">ModAP</a></li>
+                                            <li><a href="#">Modem/RF</a></li>
+										</ul>
+										<div class="hero_area"><!-- hero area-->
+											<p class="hero_img"><img src="/semiconductor/common/img/layout/img_hero_exynos.png" alt="Exynos Solution"></p>
+											<dl>
+												<dt class="hero_txt"><a href="#">Exynos Solution</a></dt>
+												<dd class="btn_buy"><button type="button" class="btn-type2 link">View more</button></dd>
+											</dl>
+										</div><!-- //hero area-->
+									</div>
+								</li>
+								<li class="sub">
+									<a href="javascript:void(0);" class="retial-mobile-btn"></a>
+									<a href="#" class="retail-link">CMOS Image Sensor</a>
+									<div class="flyout">
+										<ul>
+											<li><a href="#">Mobile</a></li>
+											    <li><a href="#">Camera</a></li>
+											    <li><a href="#">Industry</a></li>
+										</ul>
+										<div class="hero_area"><!-- hero area-->
+											<p class="hero_img"><img src="/semiconductor/common/img/layout/img_hero_cmos.png" alt="CMOS Image Sensor"></p>
+											<dl>
+												<dt class="hero_txt"><a href="#">CMOS Image Sensor</a></dt>
+												<dd class="btn_buy"><button type="button" class="btn-type2 link">View more</button></dd>
+											</dl>
+										</div><!-- //hero area-->
+									</div>
+								</li>
+								<li class="sub">
+									<a href="javascript:void(0);" class="retial-mobile-btn"></a>
+									<a href="#" class="retail-link">Display Solution</a>
+									<div class="flyout">
+										<ul>
+											<li><a href="#">Mobile DDI</a></li>
+											<li><a href="#">Panel DDI</a></li>
+                                            <li><a href="#">Touch Controller</a></li>
+										</ul>
+									</div>
+								</li>
+				                                <li class="sub">
+									<a href="javascript:void(0);" class="retial-mobile-btn"></a>
+									<a href="#" class="retail-link">Security Solution</a>
+									<div class="flyout">
+										<ul>
+											<li><a href="#">Smartcard</a></li>
+											<li><a href="#">NFC</a></li>
+										</ul>
+										<div class="hero_area"><!-- hero area-->
+											<p class="hero_img"><img src="/semiconductor/common/img/layout/img_hero_security.png" alt="Security Solution"></p>
+											<dl>
+												<dt class="hero_txt"><a href="#">Security Solution</a></dt>
+												<dd class="btn_buy"><button type="button" class="btn-type2 link">View more</button></dd>
+											</dl>
+										</div><!-- //hero area-->
+									</div>
+								</li>
+				                                <li>
+									<a href="#">Power IC</a>
+								</li>
+				                                <li>
+									<a href="#">Bio-Processor</a>
+								</li>
+								<li class="sub">
+									<a href="javascript:void(0);" class="retial-mobile-btn"></a>
+									<a href="http://www.naver.com" class="outlink retail-link">Out link</a><!-- 20150708 outlink 아이콘 추가 -->
+									<div class="flyout">
+										<ul>
+											<li><a href="#" class="outlink">Out link</a></li><!-- 20150708 outlink 아이콘 추가 -->
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="sub">
+						<a href="#">Application</a>
+						<div class="submenu-container has-flyout">
+							<ul data-role="ui-nav-sub">
+								<li class="sub">
+									<a href="javascript:void(0);" class="retial-mobile-btn"></a>
+									<a href="#" class="retail-link">Data Center</a>
+									<div class="flyout">
+										<ul>
+											<li><a href="#">Application Server</a></li>
+											<li><a href="#">Storage Server</a></li>
+											<li><a href="#">Web Server</a></li>
+											<li><a href="#">DB Server</a></li>
+										</ul>
+									</div>
+								</li>
+								<li class="sub">
+									<a href="javascript:void(0);" class="retial-mobile-btn"></a>
+									<a href="#" class="retail-link">Mobile Device</a>
+									<div class="flyout ">
+										<ul>
+											<li><a href="#">Smartphone</a></li>
+											<li><a href="#">Tablet</a></li>
+											<li><a href="#">Wearable</a></li>
+										</ul>
+									</div>
+								</li>
+								<li class="sub">
+									<a href="javascript:void(0);" class="retial-mobile-btn"></a>
+									<a href="#" class="retail-link">Consumer Device</a>
+									<div class="flyout ">
+										<ul>
+											<li><a href="#">Desktop</a></li>
+											<li><a href="#">Notebook</a></li>
+											<li><a href="#">DSC/DSLR</a></li>
+											<li><a href="#">Smart TV</a></li>
+											<li><a href="#">Game Console</a></li>
+										</ul>
+									</div>
+								</li>
+								<li class="sub">
+									<a href="javascript:void(0);" class="retial-mobile-btn"></a>
+									<a href="#" class="retail-link">Industry</a>
+									<div class="flyout ">
+										<ul>
+											<li><a href="#">Banking/ID</a></li>
+											<li><a href="#">Healthcare & Wellness</a></li>
+											<li><a href="#">Automotive</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="sub">
+						<a href="#">Foundry</a>
+						<div class="submenu-container has-flyout">
+							<ul data-role="ui-nav-sub">
+								<li>
+									<a href="#">About Samsung Foundry</a>
+								</li>
+								<li>
+									<a href="#">Manufacturing</a>
+								</li>
+								<li class="sub">
+									<a href="javascript:void(0);" class="retial-mobile-btn"></a>
+									<a href="#" class="retail-link">ProcessTechnology</a>
+									<div class="flyout">
+										<ul>
+											<li><a href="#">14nm</a></li>
+											<li><a href="#">32/28nm</a></li>
+											<li><a href="#">45nm</a></li>
+											<li><a href="#">65nm</a></li>
+										</ul>
+									</div>
+								</li>
+								<li class="sub">
+									<a href="javascript:void(0);" class="retial-mobile-btn"></a>
+									<a href="#" class="retail-link">Service</a>
+									<div class="flyout">
+										<ul>
+											<li><a href="#">Design Solution</a></li><!-- 20150623 ia 통합 -->
+											<li><a href="#">MPW Shuttle Service</a></li>
+											<li><a href="#">Mask Service</a></li>
+											<li><a href="#">Back-end Service</a></li>
+											<li><a href="#">E-service</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<a href="#">INSIGHTS</a>
+					</li>
+					<li class="sub">
+						<a href="#" >SUPPORT</a>
+						<div class="submenu-container has-flyout">
+							<ul data-role="ui-nav-sub">
+								<li>
+									<a href="#">Selection Tool</a>
+								</li>
+								<li>
+									<a href="#">Technical Resource</a>
+								</li>
+								<li class="sub">
+									<a href="javascript:void(0);" class="retial-mobile-btn"></a>
+									<a href="#" class="retail-link">Tools&amp;Utillities</a>
+									<div class="flyout">
+										<ul>
+											<li><a href="#">Development Tools</a></li>
+											<li><a href="#">TCO Calculator</a></li><!-- 20150624 텍스트 수정 -->
+											<li><a href="#">Board Compatibility</a></li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<a href="#">Package Information</a>
+								</li>
+								<li>
+									<a href="#">Sales Network</a>
+								</li>
+								<li>
+									<a href="#">B2B Workplace</a>
+								</li>
+								<li>
+									<a href="#">MemoryLink</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="sub">
+						<a href="#" >ABOUT US</a>
+						<div class="submenu-container has-flyout">
+							<ul data-role="ui-nav-sub">
+								<li class="sub">
+									<a href="javascript:void(0);" class="retial-mobile-btn"></a>
+									<a href="#" class="retail-link">Business Overview</a>
+									<div class="flyout">
+										<ul>
+											<li><a href="#">Factsheet</a></li>
+											<li><a href="#">Location</a></li>
+											<li><a href="#">Executive Bio</a></li><!--  20150623 텍스트 수정-->
+											<li><a href="#">Business History</a></li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<a href="#">News</a>
+								</li>
+								<li>
+									<a href="#">Event</a>
+								</li>
+								<li class="sub">
+									<a href="javascript:void(0);" class="retial-mobile-btn"></a>
+									<a href="#" class="retail-link">Open Innovation</a>
+									<div class="flyout">
+										<ul>
+											<li><a href="#">Industry-Academia</a></li>
+											<li><a href="#">Research Centers</a></li>
+											<li><a href="#">Joining Consortia</a></li>
+										</ul>
+									</div>
+								</li>
+								<li class="sub">
+									<a href="javascript:void(0);" class="retial-mobile-btn"></a>
+									<a href="#" class="retail-link">Quality Assurance</a>
+									<div class="flyout">
+										<ul>
+											<li><a href="#">Quality management </a></li>
+											<li><a href="#">Evaluation System</a></li>
+											<li><a href="#">Customer Service</a></li>
+										</ul>
+									</div>
+								</li>
+								<li class="sub">
+									<a href="javascript:void(0);" class="retial-mobile-btn"></a>
+									<a href="#" class="retail-link">Global Citizenship</a>
+									<div class="flyout">
+										<ul>
+											<li><a href="#">Green Management</a></li>
+											<li><a href="#">Green Operation</a></li>
+											<li><a href="#">Eco Product</a></li>
+											<li><a href="#">CSR Activity</a></li>
+											<li><a href="#">Cooperation for a Better Cause</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+				<!-- //GNB -->
+				<ul class="direct">
+					<!--<li><a href="#" class="btn" data-role="sign-in" data-type="signin">Sign In</a></li>-->
+					<!--<li><a href="#" class="btn">MY Business</a></li>-->
+					<li><a href="#" class="btn outlink">B2B WORKPLACE</a></li>
+					<li><a href="#" class="btn outlink">MEMORY LINK</a></li>
+					<li><a href="#" class="btn outlink">EXYNOS</a></li>
+				</ul>
+			</div>
+            <div class="util-menu">
+                <div class="sch" data-role="ui-globalsearch">
+					<button type="button" class="btn-ico ctl-frm" data-role="ui-btn-search"><span class="label">Open Search Form</span></button>
+					<form onsubmit="return false;">
+						<label for="p-schkwd" class="blind">Search Keyword</label>
+						<input id="p-schkwd" type="text" placeholder="Search" data-role="ui-search-input" maxlength="100" autocomplete="off">
+						<a href="javascript:void(0);" class="txt_del" data-role="ui-search-btn-del" style="display: inline;"><img src="/semiconductor/common/img/ico/ico_search_close.png" alt="Text Delete"></a>
+						<div class="auto-complete">
+							<div class="auto-complete-wrap">
+								<h3 class="blind">autocomplete search layer</h3>
+								<p class="ac-message">Hmm, we couldn't find that in our records. Try again?</p>
+								
+								<div class="recently-viewed">
+									<h4>Recent</h4>
+									<ul data-role="ul-globalsearch-recent-list"></ul>
+								</div>
+							</div>
+							<ul class="autocomplete-list" data-role="ui-globalsearch-autocomplete-list"></ul>
+						</div>
+						<button type="submit" class="btn-ico submit-sch"><span class="label">search</span></button>
+					</form>
+                </div>
+                <button type="button" class="btn-ico call-personalHistory" data-role="ui-btn-personalhistory"><span class="label">personalhistory</span></button>
+            </div>
+		</div>
+	<div class="history_notification" style="display:none">
+		
+		<a href="#"  data-role="ui-personalhistory-notification">CHECK OUT NOW THAT HISTORY IS CREATED!</a>
+		
+	</div>
+    </div>
+	<!-- //header -->
+	<!-- personal history -->
+	<div class="history_area" data-role="ui-personalhistory" style="display:none">
+		<script>
+			function setPHData(){
+				var productData = new Array();
+				
+				productData.push('DRAM');
+				productData.push('DRAM > Consumer DRAM > K4A4G085WD');
+				productData.push('DRAM > Consumer DRAM');
+				productData.push('Exynos Solution');
+				productData.push('Exynos Solution > Application Processor');
+				productData.push('Exynos Solution > Application Processor > Exynos 5 Dual');
+				productData.push('Flash Storage');
+				productData.push('Flash Storage > eMMC');
+				productData.push('Flash Storage > KLMBG4WE4A');
+				productData.push('DRAM > Mobile DRAM');
+				
+				for(var i = productData.length; i >= 0; i--){
+					_common._ph.addCookieData('p', { 'content': productData[i], 'url': 'http://p4.samsung.com/semiconductor/common/html/products/type_landing.html1' });
+				}
+				
+				var contentData = '';
+				
+				contentData = 'Whitepaper: DDR4 LRDIMMS';
+				_common._ph.addCookieData('c', { 'content': contentData, 'kind': 'p'});
+				
+				contentData = 'Brochure:Samsung Emmc Brochure';
+				_common._ph.addCookieData('c', { 'content': contentData, 'kind': 'p'});
+				
+				contentData = 'Whitepaper: DDR4 LRDIMMS';
+				_common._ph.addCookieData('c', { 'content': contentData, 'kind': 'p'});
+				
+				contentData = 'Brochure:Samsung Emmc Brochure';
+				_common._ph.addCookieData('c', { 'content': contentData, 'kind': 'p'});
+				
+				contentData = 'Ambassadors Bloomsbury Transforming Hotel';
+				_common._ph.addCookieData('c', { 'content': contentData, 'kind': 'p'});
+				
+				contentData = 'At CES 2014 WITH Samsung Electronics';
+				_common._ph.addCookieData('c', { 'content': contentData, 'kind': 'r', 'url': 'http://www.samsung.com/uk/business/insights/news/recharge-with-samsung-galaxy-s6-and-s6-edge-at-londons-canary-wharf-and-finsbury-avenue-square?group=insights&type=insights-landing'});
+				
+				contentData = 'What’s Next for the Internet of Things?';
+				_common._ph.addCookieData('c', { 'content': contentData, 'kind': 'r', 'url': 'http://www.samsung.com/uk/business/insights/news/recharge-with-samsung-galaxy-s6-and-s6-edge-at-londons-canary-wharf-and-finsbury-avenue-square?group=insights&type=insights-landing'});
+				
+				contentData = 'Whitepaper: DDR4 LRDIMMS';
+				_common._ph.addCookieData('c', { 'content': contentData, 'kind': 'p', 'url': '/semiconductor/global/support/tools-utilities/board-compatibility-chk/forwardDramBoardResultExcel', 'param':{'boardMaker':'abc', 'boardNm':'E340'} });
+				
+				contentData = 'Whitepaper: DDR4 LRDIMMS';
+				_common._ph.addCookieData('c', { 'content': contentData, 'kind': 'v', 'videoType': 'y', 'videoId': 'e3jvp0m4ySk' });
+				
+				contentData = 'Whitepaper: DDR4 LRDIMMS';
+				_common._ph.addCookieData('c', { 'content': contentData, 'kind': 'r', 'url': 'http://www.samsung.com/uk/business/insights/news/recharge-with-samsung-galaxy-s6-and-s6-edge-at-londons-canary-wharf-and-finsbury-avenue-square?group=insights&type=insights-landing'});
+				
+			};
+			
+			function clearPHCookie(){
+				$.cookie('ph_product', JSON.stringify([]), {expires: 90, path: '/semiconductor/'});
+				$.cookie('ph_content', JSON.stringify([]), {expires: 90, path: '/semiconductor/'});
+				
+				_common._ph.drawCookieData();
+			};
+		</script>
+		
+		<a href="javascript:setPHData()" data-role="ui-btn-test2" style="border:1px solid #000; margin-right:20px">쿠키생성</a>
+		<a href="javascript:clearPHCookie()" data-role="ui-btn-test2" style="border:1px solid #000; margin-right:20px">쿠키삭제</a>
+		<a href="javascript:_common._ph.addCookieData('p', { 'content': 'Exynos Solution &gt; Application Processor', 'url': 'http://p4.samsung.com/semiconductor/common/html/products/type_landing.html' })" data-role="ui-btn-test2" style="border:1px solid #000; margin-right:20px">Product 추가</a>
+		<a href="javascript:_common._ph.addCookieData('c', { 'content': 'Brochure:Samsung Emmc Brochure', 'kind': 'p', 'url': '/semiconductor/global/support/tools-utilities/board-compatibility-chk/forwardDramBoardResultExcel', 'param':{'boardMaker':'abc', 'boardNm':'E340'} });" data-role="ui-btn-test3" style="border:1px solid #000; margin-right:20px">Content 추가</a>
+		<a href="javascript:_common._ph.addCookieData('c', { 'content': 'Brochure:Samsung Emmc Brochure', 'kind': 'v', 'videoType':'y', 'videoId': 'e3jvp0m4ySk'})" data-role="ui-btn-test3" style="border:1px solid #000; margin-right:20px">Content 추가</a>
+		<div class="history_con clearfix">
+			<h2 class="blind">Customer History</h2>
+			<p class="notice">History can keep up to 10 products and contents, respectively. (You can fix to each of up to 5 pin.)</p>
+			<dl class="history_list my_product">
+            	<dt data-role="ui-personalhistory-title">My Products</dt>
+                <dd>
+			<p class="no_history" style="display:none">No Products in your history</p>
+                	<ul data-role="ui-personalhistory-products">
+			</ul>
+                </dd>
+            </dl>
+            <dl class="history_list">
+            	<dt data-role="ui-personalhistory-title">My Contents</dt>
+                <dd>
+			<p class="no_history" style="display:none">No Contents in your history</p>
+                	<ul data-role="ui-personalhistory-contents">
+                    </ul>
+                </dd>
+            </dl>
+		</div>
+        <p class="btn_layer_close"><a href="#" class="btn_close" data-role="ui-btn-close-personalhistory">Close</a></p>
+	</div>
+	<!-- noresult popup -->
+	<div class="pop-wrap personal_comp" data-role="ui-layer-noresult" style="display:none;">
+		<h2 class="pop-tit">ERROR</h2>
+		<p class="caution">Sorry, no results found.</p>
+		<a href="#" class="btn-close" data-role="ui-close-noresult"><span class="blind">Close Layer</span></a>
+	</div>
+	<!-- //noresult popup -->
+	
+	<!-- 5 products popup -->
+	<div class="pop-wrap personal_comp" data-role="ui-layer-overpin" style="display:none;">
+		<h2 class="pop-tit">ERROR</h2>
+		<p class="caution">You can pin up to 5 <span data-role="ui-msg-type"></span>.</p>
+		<a href="#" class="btn-close" data-role="ui-close-overpin"><span class="blind">Close Layer</span></a>
+	</div>
+	<!-- //5 products popup -->
+		
+		
+

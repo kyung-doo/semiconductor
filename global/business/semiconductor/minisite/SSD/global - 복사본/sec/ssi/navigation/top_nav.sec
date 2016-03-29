@@ -1,0 +1,85 @@
+<ul class="local-menu" data-role="ui-nav">
+    <li class="sub">
+        <a href="#">WHY SAMSUNG V-NAND SSD</a>
+        <div class="submenu-container">
+            <ul data-role="ui-nav-sub">
+                <li><a href="#">V-NAND SSD Technology</a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="sub">
+        <a href="#">PRODUCTS</a>
+        <div class="submenu-container has-flyout">
+            <ul data-role="ui-nav-sub">
+                <li class="sub">
+                    <a href="#">Consumer SSD</a>
+                    <div class="flyout">
+                        <ul>
+                            <li><a href="#">Overview</a></li>
+                            <li><a href="#">950 PRO</a></li>
+                            <li><a href="#">850 PRO</a></li>
+                            <li><a href="#">850 EVO</a></li>
+                            <li><a href="#">750 EVO</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="sub">
+                    <a href="#">Portable SSD</a>
+                    <div class="flyout ">
+                        <ul>
+                            <li><a href="#">Overview</a></li>
+                            <li><a href="#">T3</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="sub">
+                    <a href="#">Enterprise SSD</a>
+                    <div class="flyout ">
+                        <ul>
+                            <li><a href="#">Overview</a></li>
+                            <li><a href="#">SM863</a></li>
+                            <li><a href="#">PM863</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </li>
+    <li class="sub">
+        <a href="#">DOWNLOAD CENTER</a>
+        <div class="submenu-container has-flyout">
+            <ul data-role="ui-nav-sub">
+                <li><a href="#">Overview</a></li>
+                <li class="sub">
+                    <a href="#">By Type</a>
+                    <div class="flyout">
+                        <ul>
+                            <li><a href="#">Tools &amp; Software</a></li>
+                            <li><a href="#">Documents</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="sub">
+                    <a href="#">By Product</a>
+                    <div class="flyout">
+                        <ul>
+                            <li><a href="#">Consumer SSD</a></li>
+                            <li><a href="#">Portable SSD</a></li>
+                            <li><a href="#">Enterprise SSD</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </li>
+    <li class="sub">
+        <a href="#">SUPPORTS &amp; Purchase</a>
+        <div class="submenu-container has-flyout">
+            <ul data-role="ui-nav-sub">
+                <li><a href="#">Where to Buy</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Customer Service</a></li>
+            </ul>
+        </div>
+    </li>
+</ul>
