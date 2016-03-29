@@ -21,7 +21,7 @@ input[placeholder],input[type=text]:-moz-placeholder,input[type=text]::-moz-plac
 @font-face { font-family: 'SamsungIFRg'; src: url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-400.eot"); src: url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-400.eot?#iefix") format("embedded-opentype"), url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-400.woff") format("woff"), url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-400.ttf") format("truetype"), url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-400.svg#SamsungOne-400") format("svg"); font-weight: normal; font-style: normal; }
 @font-face { font-family: 'samsungIcon'; src: url("/global/business/semiconductor/minisite/SSD/global/common/font/samsungIcon.eot"); src: url("/global/business/semiconductor/minisite/SSD/global/common/font/samsungIcon.eot?#iefix") format("embedded-opentype"), url("/global/business/semiconductor/minisite/SSD/global/common/font/samsungIcon.woff") format("woff"), url("/global/business/semiconductor/minisite/SSD/global/common/font/samsungIcon.ttf") format("truetype"), url("/global/business/semiconductor/minisite/SSD/global/common/font/samsungIcon.svg#samsungIcon") format("svg"); font-weight: normal; font-style: normal;}
 html{font-size:16px; line-height:1.365}
-h1,div.solution-visual-area div.inarea h1,.key-visual .screen .focus-msg h1,.sec-title {font-size:32px; font-family: 'SamsungIFBlk';}
+h1,div.solution-visual-area div.inarea h1,.key-visual .screen .focus-msg h1,.sec-title {font-size:28px; font-family: 'SamsungIFBlk';}
 .pop-tit {font-size:32px !important;}
 h2,     .tab-content .module .fluid-txt .tit,     .module .tit,     .grid-outer .tit,     .tab-theme .tab-tit {font-size:28px}
 h3,     .module .fluid-txt .tit,     .grid-outer .fluid-txt .tit,     .article-thumb2 .grid-col2 .tit,     .article-thumb2 .grid-col3 .tit,     .article-txt3 .grid-col2 .tit /* small h2 */ {font-size:24px}
@@ -195,7 +195,7 @@ a.box-btn span.btn.link:after{content:"\34"}
 }
 /* equal height box */
 @media (min-width:768px){
-    .grid-row .col-inner.box{margin-bottom:-999999px;padding-bottom:999999px}
+    /*.grid-row .col-inner.box{margin-bottom:-999999px;padding-bottom:999999px}*/
 }
 .legacy-ie .grid-row .col-inner.box{margin-bottom:-999999px;padding-bottom:999999px}
 .legacy-ie .grid-col2 .col-inner.box{width:650px}
@@ -1566,7 +1566,7 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 div.bg-wrap{background:#f1f1f1}
 .feature-module {padding-top:50px; padding-bottom:10px;}
 /*.module.feature-module {padding-bottom:40px;}*/
-.feature-module + .feature-module {margin-top:30px; padding-top:0;}
+.feature-module + .feature-module {margin-top:40px; padding-top:0;}
 @media (max-width:767px) {
     .feature-module + .feature-module{margin-top:0}
 }
@@ -1611,6 +1611,7 @@ div.featurebox .insection.head-copy {margin-bottom:45px !important; }
 div.featurebox .insection.bg-main5 {padding:20px;}
 div.featurebox .insection.border {border:1px solid #e6e6e6;}
 div.featurebox .insection.image-only {margin-bottom:40px !important; }
+div.featurebox .insection.text-only{margin-bottom:50px !important}
 div.featurebox div.leftarea{float:left; width:50%; box-sizing:border-box; padding-right:10px;}
 div.featurebox div.rightarea{float:right; width:50%; box-sizing:border-box; padding-left:10px;}
 div.featurebox .thumb {max-width:100%;}
@@ -1756,7 +1757,7 @@ div.feature div.wrap.left, div.feature div.wrap.right{text-align: left}
 div.featurebox .info-txt{width: auto;}
 div.featurebox .info-txt sup, div.feature div.wrap sup{font-size: 10px;}
 @media (min-width: 450px){
-    div.featurebox .info-txt .des,     div.feature div.wrap .desc{font-size: 18px;    line-height: 1.4;}
+    div.featurebox .info-txt .des,     div.feature div.wrap .desc{font-size: 16px;    line-height: 1.4;}
 }
 @media (min-width: 767px){
     div.featurebox .info-txt{padding-left: 0px;    padding-right: 0px;}
@@ -1833,3 +1834,8 @@ table.support-info .img-ox {width:20px;}
     .head-copy  img {width:100%;}
     .head-copy h2 {font-size:22px; margin: 0 auto 7px;}
 }
+
+.products-list{margin-top:10px}
+.products-list .col-inner.box{border:solid 1px #e9e9e9}
+.products-list .fluid-txt.txt{background-color:#f8f8f8}
+.products-list .fluid-txt.txt > p{min-height:105px}
