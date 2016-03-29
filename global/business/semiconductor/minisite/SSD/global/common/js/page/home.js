@@ -296,15 +296,24 @@ function init_same_height() {
                     $(this).find(".s_height_inner").css({height:""});
                 }
             }
-        });
-        /*
-        $(".s_height_all").each(function( i )
-        {
-            var height = checkHeight( $(this) );
-            $(this).find(".s_height_inner").css({height:height});
+            
+            if($.inArray("mobile", data)>0)
+            {
+                if(String(_common.is_mode()).toUpperCase() == "MOBILE")
+                {
+                    $(this).find(".s_height_inner").css({height:height});
 
+                }
+            }
+            else
+            {
+                if(String(_common.is_mode()).toUpperCase() == "MOBILE")
+                {
+                    $(this).find(".s_height_inner").css({height:""});
+                }
+            }
         });
-        */
+        
     });
     $(window).resize();
     $(window).load(function ()
