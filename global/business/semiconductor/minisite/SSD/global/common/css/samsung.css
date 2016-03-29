@@ -21,7 +21,7 @@ input[placeholder],input[type=text]:-moz-placeholder,input[type=text]::-moz-plac
 @font-face { font-family: 'SamsungIFRg'; src: url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-400.eot"); src: url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-400.eot?#iefix") format("embedded-opentype"), url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-400.woff") format("woff"), url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-400.ttf") format("truetype"), url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-400.svg#SamsungOne-400") format("svg"); font-weight: normal; font-style: normal; }
 @font-face { font-family: 'samsungIcon'; src: url("/global/business/semiconductor/minisite/SSD/global/common/font/samsungIcon.eot"); src: url("/global/business/semiconductor/minisite/SSD/global/common/font/samsungIcon.eot?#iefix") format("embedded-opentype"), url("/global/business/semiconductor/minisite/SSD/global/common/font/samsungIcon.woff") format("woff"), url("/global/business/semiconductor/minisite/SSD/global/common/font/samsungIcon.ttf") format("truetype"), url("/global/business/semiconductor/minisite/SSD/global/common/font/samsungIcon.svg#samsungIcon") format("svg"); font-weight: normal; font-style: normal;}
 html{font-size:16px; line-height:1.365}
-h1,div.solution-visual-area div.inarea h1,.key-visual .screen .focus-msg h1,.sec-title {font-size:32px; font-family: 'SamsungIFBlk';}
+h1,div.solution-visual-area div.inarea h1,.key-visual .screen .focus-msg h1,.sec-title {font-size:28px; font-family: 'SamsungIFBlk';}
 .pop-tit {font-size:32px !important;}
 h2,     .tab-content .module .fluid-txt .tit,     .module .tit,     .grid-outer .tit,     .tab-theme .tab-tit {font-size:28px}
 h3,     .module .fluid-txt .tit,     .grid-outer .fluid-txt .tit,     .article-thumb2 .grid-col2 .tit,     .article-thumb2 .grid-col3 .tit,     .article-txt3 .grid-col2 .tit /* small h2 */ {font-size:24px}
@@ -269,7 +269,7 @@ textarea{border:0;}
     .module>.sec-title{padding-left:10px;font-size: 22px;}
     .grid-row.head-desc {margin-top:-10px; margin-bottom:25px;}
 }
-.module, .grid-outer{padding:0 0 80px 0}
+.module, .grid-outer{padding:0 0 50px 0}
 .grid-outer.bg-main5{margin-bottom:40px;padding-bottom:0}
 @media (max-width:767px){
     .article,     .module,     .grid-outer {padding-bottom:20px !important}
@@ -1529,7 +1529,7 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 /*SAMSUNG V-NAND SSD*/
 .grid-row.v_nand {margin-bottom: 10px;}
 .grid-row.v_nand .grid-col4 {}
-.grid-row.v_nand .grid-col4 .col-inner{border-left: 1px solid #e9e9e9; min-height: 210px; text-align: center; margin-top: 20px; padding-left: 35px; padding-right: 35px;}
+.grid-row.v_nand .grid-col4 .col-inner{border-left: 1px solid #e9e9e9; text-align: center; margin-top: 20px; padding-left: 35px; padding-right: 35px;}
 .grid-row.v_nand .grid-col4 .col-inner .img{ height: 135px; padding-top: 35px;}
 .grid-row.v_nand .grid-col4:first-child .col-inner{border: none;}
 .grid-row.v_nand .grid-col4 .col-inner figcaption{font-size: 16px;}
@@ -1540,7 +1540,7 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 @media (max-width:767px) {
     .grid-row.v_nand {margin-bottom: 0;}
     .grid-row.v_nand .grid-col4 {width: 50%;}
-    .grid-row.v_nand .grid-col4 .col-inner{border:none; height: 200px; text-align: center; margin-top:20px; padding-left: 10px; padding-right: 10px; min-height: auto;}
+    .grid-row.v_nand .grid-col4 .col-inner{border:none; text-align: center; margin-top:20px; padding-left: 10px; padding-right: 10px; min-height: auto;}
     .grid-row.v_nand .grid-col4 .col-inner .img{height: 110px; padding-top:10px;}
     .grid-row.v_nand .grid-col4 .col-inner .img img{ width: 110px;}
     .grid-row.v_nand .grid-col4 .col-inner figcaption{font-size: 14px;}

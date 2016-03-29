@@ -245,20 +245,90 @@ var showHideJump = {
 function init_same_height() {
     $(window).resize(function ( e )
     {
-        $(".s_height").each(function( i )
+        var pc = $("[data-role*='pc']").length;
+        var tablet_a = $("[data-role*='tablet_a']").length;
+        var tablet_b = $("[data-role*='tablet_b']").length;
+        var mobile = $("[data-role*='mobile']").length;
+
+
+
+        $("[data-role*='s_height']").each(function( i )
         {
-            if(String(_common.is_mode()).toUpperCase() == "MOBILE")
+            var height = checkHeight($(this));
+            if(pc>0)
             {
-                $(this).find(".s_height_inner").css({height:""});
+                if(String(_common.is_mode()).toUpperCase() == "PC")
+                {
+                    $(this).find(".s_height_inner").css({height:height});
+                }
             }
             else
             {
-                var height = checkHeight( $(this) );
-                $(this).find(".s_height_inner").css({height:height});
+                if(String(_common.is_mode()).toUpperCase() == "PC")
+                {
+                    $(this).find(".s_height_inner").css({height:""});
+                }
+            }
+            if(tablet_a>0)
+            {
+                if(String(_common.is_mode()).toUpperCase() == "TABLET_A")
+                {
+                    $(this).find(".s_height_inner").css({height:height});
+                }
+            }
+            else
+            {
+                if(String(_common.is_mode()).toUpperCase() == "TABLET_A")
+                {
+                    $(this).find(".s_height_inner").css({height:""});
+                }
+            }
+
+            if(tablet_b>0)
+            {
+                if(String(_common.is_mode()).toUpperCase() == "TABLET_B")
+                {
+                    $(this).find(".s_height_inner").css({height:height});
+
+                }
+            }
+            else
+            {
+                if(String(_common.is_mode()).toUpperCase() == "TABLET_B")
+                {
+                    $(this).find(".s_height_inner").css({height:""});
+                }
+            }
+
+            if(mobile>0)
+            {
+                if(String(_common.is_mode()).toUpperCase() == "MOBILE")
+                {
+                    $(this).find(".s_height_inner").css({height:height});
+                }
+            }
+            else
+            {
+                if(String(_common.is_mode()).toUpperCase() == "MOBILE")
+                {
+                    $(this).find(".s_height_inner").css({height:""});
+                }
             }
         });
+        /*
+        $(".s_height_all").each(function( i )
+        {
+            var height = checkHeight( $(this) );
+            $(this).find(".s_height_inner").css({height:height});
+
+        });
+        */
     });
     $(window).resize();
+    $(window).load(function ()
+    {
+        $(window).resize();
+    });
     function checkHeight( obj )
     {
         var h = 0;
