@@ -5,6 +5,7 @@ function initPage(){
 	init_flick();
 	init_more();
 	init_jump_basic();
+    init_jump();
 	init_mode();
 };
 
@@ -102,3 +103,136 @@ function init_jump_basic(){
 		$(this).data('JumpBasic',new JumpBasicUI($(this),$('*[data-role=ui-flick]')));
 	});
 };
+
+/****************************************************************************************
+* METHOD:JUMP
+****************************************************************************************/
+function init_jump() {
+	$('*[data-role=ui-jump]').each(function() {
+		$(this).data('jump', new JumpUI($(this)));
+	});
+}
+
+
+/********************************************************************************************************
+ * METHOD: ShowHideJump - smart memory
+ ********************************************************************************************************/
+var showHideJump = {
+	options:{
+		scroll_top:'0',
+		container:"[data-role='ui-showHide-jump']",
+		tab:"[data-role='ui-showHide-tab']",
+		menu:"*[data-role='ui-showHide-menu']",
+		btn:"*[data-role='ui-showHide-btn']",
+		mode:'',
+		init_tab_top:''
+	},
+	init:function(){
+		if($(showHideJump.options.container).length > 0){
+			showHideJump.set_init_state();
+			
+			$(window).on({
+				resize:function(){
+					showHideJump.set_init_state();						
+				},
+				scroll:function(){
+					showHideJump.options.mode = _common.is_mode();
+					
+					if ($(showHideJump.options.container).data("jump"))
+					{
+						showHideJump.float_Jump(showHideJump.options.mode);
+					}				
+				}
+			});	
+		}	
+	},
+	set_init_state:function(){
+		showHideJump.options.init_tab_top = showHideJump.get_offset();
+		showHideJump.options.mode = _common.is_mode();
+
+		showHideJump.active_menu();
+		showHideJump.show_jump(showHideJump.options.mode);
+
+		if (showHideJump.options.mode != 'MOBILE')
+		{
+			$(showHideJump.options.menu).show();	
+		}else{
+			$(showHideJump.options.menu).hide();	
+		}
+	},
+	get_offset:function(){
+		return $(showHideJump.options.tab).offset().top;
+	},
+	get_scrollTop:function(){
+		return $(document).scrollTop();
+	},
+	float_Jump:function(mode){
+		showHideJump.options.scroll_top = showHideJump.get_scrollTop();
+
+		if (showHideJump.options.scroll_top >=  showHideJump.options.init_tab_top )
+		{
+			$(showHideJump.options.tab).addClass("float");
+		}else {
+			$(showHideJump.options.tab).removeClass("float");
+			$("[data-role='showHideJump-contents']").css({
+				marginTop:"0"
+			});
+		}
+	},	
+	active_menu:function(){
+		$("[data-role='ui-showHide-link']", $(showHideJump.options.container)).each(function(){
+			$(this).click(function(){
+				showHideJump.options.mode = _common.is_mode();
+
+				$("> li", $(showHideJump.options.menu)).each(function(){
+					$(this).removeClass("active");
+					$("[data-role='showHideJump-contents']").css({margin:'0'}).hide();
+				});
+				
+				var $this_con = $(this).data("packageid");
+				$("a[data-packageId='"+$this_con+"']", $(showHideJump.options.menu)).parent().addClass("active");
+				$("[data-content='"+$this_con+"']").show();
+				$(showHideJump.options.btn).text($this_con);
+
+				if (showHideJump.options.mode == 'MOBILE')
+				{
+					$(showHideJump.options.menu).hide();					
+				}
+
+				if ($(showHideJump.options.tab).hasClass("float")){
+					showHideJump.scroll_content(showHideJump.options.mode);
+				}
+			});
+		});
+	},
+	show_jump:function(mode){		
+		$(showHideJump.options.btn).click(function(){
+			if (mode == 'MOBILE')
+			{
+				$(showHideJump.options.menu).show();					
+			}
+		});
+	},
+	scroll_content:function(mode){			
+
+		var menuheight, extraMargin;		
+
+		var con_top =  $("[data-role='showHideJump-contents']:visible").offset().top;
+
+		if (mode == 'MOBILE')
+		{
+			menuheight = parseInt($(showHideJump.options.btn).height());
+			extraMargin = 15;
+		}else {
+			menuheight = parseInt($(showHideJump.options.menu).height());
+			extraMargin = 30;
+		}
+
+		$("[data-role='showHideJump-contents']:visible").css({
+			marginTop:((menuheight)+extraMargin) + "px"
+		});	
+
+		$("html, body").stop().animate({scrollTop : con_top}, 500, 'swing');		
+	
+	}
+}
