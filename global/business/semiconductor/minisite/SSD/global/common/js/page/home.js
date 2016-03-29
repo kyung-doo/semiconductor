@@ -252,10 +252,12 @@ function init_same_height() {
 
 
 
-        $("[data-role*='s_height']").each(function( i )
+        $("[data-role^='s_height']").each(function( i )
         {
+            var data = $(this).attr("data-role").split(" ");
+
             var height = checkHeight($(this));
-            if(pc>0)
+            if($.inArray("pc", data)>0)
             {
                 if(String(_common.is_mode()).toUpperCase() == "PC")
                 {
@@ -269,7 +271,7 @@ function init_same_height() {
                     $(this).find(".s_height_inner").css({height:""});
                 }
             }
-            if(tablet_a>0)
+            if($.inArray("tablet_a", data)>0)
             {
                 if(String(_common.is_mode()).toUpperCase() == "TABLET_A")
                 {
@@ -284,7 +286,7 @@ function init_same_height() {
                 }
             }
 
-            if(tablet_b>0)
+            if($.inArray("tablet_b", data)>0)
             {
                 if(String(_common.is_mode()).toUpperCase() == "TABLET_B")
                 {
@@ -300,7 +302,7 @@ function init_same_height() {
                 }
             }
 
-            if(mobile>0)
+            if($.inArray("mobile", data)>0)
             {
                 if(String(_common.is_mode()).toUpperCase() == "MOBILE")
                 {
