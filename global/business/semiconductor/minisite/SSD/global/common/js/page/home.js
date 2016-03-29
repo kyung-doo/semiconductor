@@ -254,6 +254,7 @@ function init_same_height() {
 
         $("[data-role*='s_height']").each(function( i )
         {
+
             var height = checkHeight($(this));
             if(pc>0)
             {
@@ -299,6 +300,8 @@ function init_same_height() {
                     $(this).find(".s_height_inner").css({height:""});
                 }
             }
+
+
 
             if(mobile>0)
             {

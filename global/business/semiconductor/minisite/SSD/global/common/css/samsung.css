@@ -141,6 +141,8 @@ a.ico.google{background-image:url(/global/business/semiconductor/minisite/SSD/gl
 .product-col .wrapper-act {padding:0 5px 0}
 .wrapper-act button, .wrapper-act a{margin:25px 14px 0}
 .wrapper-act button {font-size:14px}
+.wrapper-ssd{text-align: center;}
+.wrapper-ssd button {margin: 0;}
 .wrapper-act .btn-type2.show {position:relative; box-sizing:border-box; width:100%; padding:0; margin:10px 0 0; background:#f1f1f1}
 .legacy-ie a:active {background:none}
 .wrapper-act.home-type{ text-align:left;}
@@ -1458,8 +1460,8 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
     .home_product li a span{height:105px;}
     .home_product li a span img{width:50%;}
     .home_product li a.app01 span img{width:175px;}
-    .home_product li a.app02 span img{width:98px;}
-    .home_product li a.app03 span img{width:90px;}
+    .home_product li a.app02 span img{width:90px;}
+    .home_product li a.app03 span img{width:98px;}
     .home_product li a dl{background-color: #f8f8f8; height:auto; padding-bottom: 15px;}
     .home_product li a dt{padding-top: 15px;}
     .home_product li a dd{font-size: 14px; padding-top: 10px;}
@@ -1472,7 +1474,7 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 .video-banner .video-box .col-inner {height:100%; margin-top:0; position: relative;}
 .video-banner .video-box .col-inner img {width:100%; height:100%;}
 .video-banner .video-box .col-inner .brightcove-player * {height:100%}
-.video-banner .video-box .video_title{font-size: 21px; color: #fff; position: absolute; bottom: 20px; left: 20px; line-height: 20px;}
+.video-banner .video-box .video_title{font-size: 21px; color: #fff; position: absolute; bottom: 20px; left: 20px; line-height: 28px;}
 .video-banner .banner-box {float:right; width:50%;}
 .video-banner .banner-box .col-inner .fluid-txt2 {left:0; box-sizing:border-box; width:100%; padding:0 20px; text-align:center}
 .video-banner .banner-box .col-inner .fluid-txt2 h2 {margin-bottom:5px; overflow:hidden; max-height:2.2em; line-height:1.1}
