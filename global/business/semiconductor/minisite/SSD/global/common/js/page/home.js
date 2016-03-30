@@ -7,7 +7,8 @@ function initPage(){
     init_jump_basic();
     init_jump();
     init_mode();
-    init_same_height()
+    init_same_height();
+    init_dotdotdot();
 };
 
 /********************************************************************************************************
@@ -330,4 +331,15 @@ function init_same_height() {
         });
         return h;
     }
+}
+
+
+/****************************************************************************************
+* METHOD:RESIZE
+****************************************************************************************/
+function init_dotdotdot() {
+	$(window).resize( function(e) {
+		$('*[data-ui-textoverflow="true"]').dotdotdot();
+        console.log("???");
+	});
 }
