@@ -1878,12 +1878,14 @@ table.support-info .img-ox {width:20px;}
 /* product-visual */
 .product-visual{text-align:center;padding-top:100px;max-width:1320px;margin:0 auto}
 .product-visual .title{font-size:84px;font-family:"samsungifblk";line-height:1em;margin:0 auto}
-.product-visual.type1 .title{width:1200px}
-.product-visual.type2 .title{width:880px}
 .product-visual .txt{font-size:21px;line-height:1.7em;margin:25px auto 0 auto}
 .product-visual .txt em{font-size:14px;display:block;line-height:1.5em;margin-top:5px}
+.product-visual.type1 .title{width:1200px}
+.product-visual.type2 .title{width:880px}
+.product-visual.type3 .title{width:810px}
 .product-visual.type1 .txt{width:900px}
 .product-visual.type2 .txt{width:880px}
+.product-visual.type3 .txt{width:810px}
 .product-visual .vi{margin-top:45px}
 .product-visual .vi img{width:100%;max-width:100%}
 
@@ -1895,19 +1897,13 @@ table.support-info .img-ox {width:20px;}
 
 @media (max-width: 1024px) and (min-width:768px)
 {
-    .product-visual.type1 .title{width:700px}
-    .product-visual.type1 .txt{width:700px}
-    .product-visual.type2 .title{width:700px}
-    .product-visual.type2 .txt{width:700px}
+    .product-visual .title{width:700px !important}
+    .product-visual .txt{width:700px !important}
 }
 
 @media (max-width:767px){
-   .product-visual .title{font-size:42px}
-   .product-visual .txt{font-size:15px} 
-   .product-visual.type1 .title{width:300px}
-   .product-visual.type1 .txt{width:300px}
-   .product-visual.type2 .title{width:300px}
-   .product-visual.type2 .txt{width:300px}
+   .product-visual .title{font-size:42px;width:300px !important}
+   .product-visual .txt{font-size:15px;width:300px !important} 
    .product-visual .txt em{font-size:13px}
 }
 
