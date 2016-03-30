@@ -274,7 +274,7 @@ textarea{border:0;}
 .module, .grid-outer{padding:0 0 50px 0}
 .grid-outer.bg-main5{margin-bottom:40px;padding-bottom:0}
 @media (max-width:767px){
-    .article,     .module,     .grid-outer {padding-bottom:20px !important}
+    .article,     .module,     .grid-outer {padding-bottom:30px !important}
     .grid-outer.bg-main5{margin-bottom:25px}
 }
 .module-bg1{background:#0071bf}
@@ -1853,8 +1853,10 @@ table.support-info .img-ox {width:20px;}
 .products-list{margin-top:10px}
 .products-list .col-inner{border:solid 1px #e9e9e9}
 .products-list .banner_title{background-color:#f8f8f8;padding:15px 0 5px 0}
+.products-list .banner_title.white{background-color:#fff}
 .products-list .banner_title h3 {font-size: 21px;color: #000;padding-left: 20px;padding-bottom: 5px;padding-right: 20px;}
 .products-list .banner_title p{padding:0 20px 15px 20px}
+.products-list .banner_title p.date_txt{margin-top:15px}
 @media (min-width:768px) and (max-width:1023px){
     .products-list .grid-col4{width:33.3333%}
     .products-list .grid-col4:nth-child(4){display:none} 
@@ -1862,7 +1864,10 @@ table.support-info .img-ox {width:20px;}
 }
 @media (max-width:767px){
    .products-list .grid-col4{width:50% !important}
-   .products-list .banner_title p{height:65px}
+   .products-list .banner_title p{height:65px;padding-bottom:0;padding-left:10px;padding-right:10px}
+   .products-list .banner_title p.date_txt{height:auto;margin-top:5px}
+   .products-list .banner_title h3{font-size:15px;padding-left:10px;padding-right:10px}
+   .products-list .banner_title button{padding:0 10px}
    .products-list .grid-col4:nth-child(3){display:none}
    .products-list .grid-col4:nth-child(4){display:none} 
 }
