@@ -18,10 +18,12 @@ function init_mode(){
     var owner=this;
 
     owner.change_kv(_common.is_mode());
+    owner.change_img(_common.is_mode());
 
     $(window).resize( function() {
         var mode = _common.is_mode();
         owner.change_kv(mode);
+        owner.change_img(_common.is_mode());
     });
 };
 
@@ -340,6 +342,31 @@ function init_same_height() {
 function init_dotdotdot() {
 	$(window).resize( function(e) {
 		$('*[data-ui-textoverflow="true"]').dotdotdot();
-        console.log("???");
 	});
 }
+
+
+/********************************************************************************************************
+ * METHOD:CHANGE_IMG
+ ********************************************************************************************************/
+function change_img(mode) {
+	var img_url = '';
+	$('img.responsive').each(function() {
+		var $this = $(this);
+        
+      
+		
+		switch(String(mode).toUpperCase()) {
+			case 'MOBILE':
+				img_url = $this.attr('data-media-mobile');
+				break;
+			case 'PC':
+			case 'TABLET_B':
+			case 'TABLET_A':
+				img_url = $this.attr('data-media-desktop');
+				break;
+		};
+		
+		$this.attr('src', img_url);
+	});
+};
