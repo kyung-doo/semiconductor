@@ -1,0 +1,113 @@
+<?php include($_SERVER['DOCUMENT_ROOT'].'/global/business/semiconductor/minisite/SSD/global/sec/ssi/header/dochead_html5.sec')?>
+<!--#include virtual="/semiconductor/global/ssi/header/dochead_html5.sec"-->
+
+<!-- 페이지별 css link,js -->
+<script src="/global/business/semiconductor/minisite/SSD/global/common/js/page/home.js"></script>
+<!-- //페이지별 css link,js -->
+
+<title>Samsung Semiconductor</title>        <!-- unique한 페이지 title -->
+
+<?php include($_SERVER['DOCUMENT_ROOT'].'/global/business/semiconductor/minisite/SSD/global/sec/semi_header.sec')?>
+<!--#include virtual="/semiconductor/common/html/sec/semi_header.sec"-->
+
+<!-- contents wrapper -->
+<div class="content-wrap">
+    <div id="content">
+        <span class="blind">Content</span>
+    </div>
+    <!-- content -->
+
+    <!-- key visual -->
+    <div class="key-visual" data-role="ui-flick" data-autoplay="Y">
+        <div data-role="ui-flick-container">
+            <ul class="item4"  data-role="ui-flick-content">        <!-- class:"item"+slide item sum -->
+                <li>
+                    <div class="screen movie">
+                        <img alt="" data-media-mobile="/global/business/semiconductor/minisite/SSD/global/common/img/kv/kv_whereTobuy_767.jpg.jpg" data-media-desktop="/global/business/semiconductor/minisite/SSD/global/common/img/kv/kv_whereTobuy_1920.jpg" class="kv_desktop" />
+                        <div>
+                            <div class="focus-msg">
+                                <h1 class="tit">
+                                    <em>Where to Buy</em>
+                                    YOUR COMPUTING LIFE
+                                    UPGRADED WITH SAMSUNG
+                                    V-NAND SSD
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- //key visual -->
+
+
+    <div class="module sec-board-box">
+
+        <!-- fixed jump menu -->
+        <div class="floating-jumpmenu pdp lone" data-role="ui-jump">
+            <p class="product-title"><span>Where to Buy</span></p>
+            <button type="button" data-role="ui-tab-jump-btn">Overview</button><!-- 첫번째 section의 title -->
+            <!--
+            <span class="btn-jump-wrap">
+                <a href="javascript:;" class="btn-jump quote" data-role="ui-btn-quote"><span class="blind-txt">Contact us</span></a>
+            </span>
+            -->
+            <div class="second-jump" data-role="ui-jump-container"> <!-- 140904 class="second-jump" 추가 -->
+                <ul data-role="ui-jump-menu">
+                    <li><a href="javascript:void(0);" data-role="ui-tab-jump-menu" class="on" data-eng-title="AMERICA"><span>AMERICA</span></a></li>
+                    <li><a href="javascript:void(0);" data-role="ui-tab-jump-menu" data-eng-title="ASIA" data-hash="Products"><span>ASIA</span></a></li>
+                    <li><a href="javascript:void(0);" data-role="ui-tab-jump-menu" data-eng-title="EUROPE" data-hash="Videos"><span>EUROPE</span></a></li>
+                    <li><a href="javascript:void(0);" data-role="ui-tab-jump-menu" data-eng-title="BUSINESS SERVICE" data-hash="Review & Awards"><span>BUSINESS SERVICE</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- //fixed jump menu -->
+        <div class="buy_contents">
+        <!-- overview -->
+            <div data-role="ui-jump-target" class="module feature-module">
+                <div class="grid-row">
+                    <div class="col-inner">
+                        <h2>AMERICA</h2>
+                        <h3><img src="../common/img/support/flag_usa.png" alt=""> <a class="btn link-outlink">USA</a></h3>
+                    </div>
+                </div>
+            </div>
+            <!-- //overview -->
+
+            <!-- overview -->
+            <div data-role="ui-jump-target" class="module feature-module">
+                <div class="grid-row">
+                    <div class="col-inner">
+                        <h2>ASIA</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- //overview -->
+
+            <!-- Products -->
+            <div data-role="ui-jump-target" class="module feature-module">
+                <div class="grid-row">
+                    <div class="col-inner">
+                        <h2>EUROPE</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- //Products -->
+
+            <!-- video -->
+            <div data-role="ui-jump-target" class="module feature-module">
+                <div class="grid-row">
+                    <div class="col-inner">
+                        <h2>BUSINESS SERVICE</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- //video -->
+        </div>
+
+    </div>
+    <!-- //content -->
+</div>
+<!-- //contents wrapper -->
+<?php include($_SERVER['DOCUMENT_ROOT'].'/global/business/semiconductor/minisite/SSD/global/sec/semi_footer.sec')?>

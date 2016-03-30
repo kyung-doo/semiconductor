@@ -21,7 +21,7 @@ input[placeholder],input[type=text]:-moz-placeholder,input[type=text]::-moz-plac
 @font-face { font-family: 'SamsungIFRg'; src: url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-400.eot"); src: url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-400.eot?#iefix") format("embedded-opentype"), url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-400.woff") format("woff"), url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-400.ttf") format("truetype"), url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-400.svg#SamsungOne-400") format("svg"); font-weight: normal; font-style: normal; }
 @font-face { font-family: 'samsungIcon'; src: url("/global/business/semiconductor/minisite/SSD/global/common/font/samsungIcon.eot"); src: url("/global/business/semiconductor/minisite/SSD/global/common/font/samsungIcon.eot?#iefix") format("embedded-opentype"), url("/global/business/semiconductor/minisite/SSD/global/common/font/samsungIcon.woff") format("woff"), url("/global/business/semiconductor/minisite/SSD/global/common/font/samsungIcon.ttf") format("truetype"), url("/global/business/semiconductor/minisite/SSD/global/common/font/samsungIcon.svg#samsungIcon") format("svg"); font-weight: normal; font-style: normal;}
 html{font-size:16px; line-height:1.365}
-h1,div.solution-visual-area div.inarea h1,.key-visual .screen .focus-msg h1,.sec-title {font-size:28px; font-family: 'SamsungIFBlk';}
+h1,div.solution-visual-area div.inarea h1,.key-visual .screen .focus-msg h1,.sec-title {font-size:32px; font-family: 'SamsungIFBlk';}
 .pop-tit {font-size:32px !important;}
 h2,     .tab-content .module .fluid-txt .tit,     .module .tit,     .grid-outer .tit,     .tab-theme .tab-tit {font-size:28px}
 h3,     .module .fluid-txt .tit,     .grid-outer .fluid-txt .tit,     .article-thumb2 .grid-col2 .tit,     .article-thumb2 .grid-col3 .tit,     .article-txt3 .grid-col2 .tit /* small h2 */ {font-size:24px}
@@ -393,8 +393,8 @@ a.btn-jump span {text-transform:none}
     .floating-jumpmenu.pdp.active>div {padding-right:57px}
     .floating-jumpmenu.pdp .btn-jump-wrap{top:51px}
     .floating-jumpmenu>div,     div.jump-module div.inner,     .floating-jumpmenu.share>div,     .sec-theme .floating-jumpmenu>div {margin:0 auto; /*padding-right:55px*/}
-    .floating-jumpmenu .product-title,     .floating-jumpmenu h2 {height:50px}
-    .floating-jumpmenu .product-title span,     .floating-jumpmenu h2 span {padding:10px 20px; font-size:24px}
+    .floating-jumpmenu .product-title,     .floating-jumpmenu h2 {}
+    .floating-jumpmenu .product-title span,     .floating-jumpmenu h2 span {}
     .floating-jumpmenu ul:before, ul.jump-link:before {top:56px}
     .floating-jumpmenu .btn-jump-wrap a {width: 55px; height:56px; padding: 0;}
     .floating-jumpmenu .btn-jump-wrap a.share {width: 55px;}
@@ -1859,7 +1859,7 @@ table.support-info .img-ox {width:20px;}
 .products-list .banner_title p.date_txt{margin-top:15px}
 @media (min-width:768px) and (max-width:1023px){
     .products-list .grid-col4{width:33.3333%}
-    .products-list .grid-col4:nth-child(4){display:none} 
+    .products-list .grid-col4:nth-child(4){display:none}
     .products-list .grid-col4:nth-of-type(2n+1) {clear: none;}
 }
 @media (max-width:767px){
@@ -1869,7 +1869,15 @@ table.support-info .img-ox {width:20px;}
    .products-list .banner_title h3{font-size:15px;padding-left:10px;padding-right:10px}
    .products-list .banner_title button{padding:0 10px}
    .products-list .grid-col4:nth-child(3){display:none}
-   .products-list .grid-col4:nth-child(4){display:none} 
+   .products-list .grid-col4:nth-child(4){display:none}
 }
 
+/* where to buy */
+.buy_contents h2{border-bottom: 1px solid #dcdcdc; padding-bottom:17px; font-size: 28px; color: #000; font-family: 'samsungifblk';}
+
+
+
+@media (max-width:767px) {
+    .buy_contents h2{font-size: 22px; padding-bottom:7px;}
+}
 
