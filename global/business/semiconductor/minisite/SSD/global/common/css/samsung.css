@@ -1905,7 +1905,7 @@ table.support-info .img-ox {width:20px;}
 
 @media (max-width:767px){
    .product-visual .title{font-size:42px}
-   .product-visual .txt{font-size:15px} 
+   .product-visual .txt{font-size:15px}
    .product-visual.type1 .title{width:300px}
    .product-visual.type1 .txt{width:300px}
    .product-visual.type2 .title{width:300px}
@@ -1917,9 +1917,9 @@ table.support-info .img-ox {width:20px;}
 
 
 /* where to buy */
-.buy_contents {}
-.buy_contents .grid-row{margin-bottom: 10px;}
-.buy_contents h2{border-bottom: 1px solid #dcdcdc; padding-bottom:17px; font-size: 28px; color: #000; font-family: 'samsungifblk'; margin-top:30px;}
+.buy_contents {padding-top: 40px;}
+.buy_contents .grid-row{margin-bottom: 40px;}
+.buy_contents h2{border-bottom: 1px solid #dcdcdc; padding-bottom:17px; font-size: 28px; color: #000; font-family: 'samsungifblk';}
 .buy_contents h3 { margin-top: 40px; margin-bottom: 20px;}
 .buy_contents h3 img{vertical-align: middle;}
 .buy_contents h3 {font-size: 26px; font-family: 'SamsungIFBd'; vertical-align: middle; line-height: 26px; margin-left: 5px;}
@@ -1943,6 +1943,7 @@ table.support-info .img-ox {width:20px;}
 }
 
 @media (max-width:767px) {
+    .buy_contents .grid-row{margin-bottom: 20px;}
     .buy_contents h2{font-size: 22px; padding-bottom:7px;}
     .buy_contents h3 { margin-top:20px; margin-bottom: 10px;}
     .buy_contents .company_list{padding: 10px; padding-bottom: 5px;}
