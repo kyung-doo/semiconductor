@@ -274,7 +274,7 @@ textarea{border:0;}
 .module, .grid-outer{padding:0 0 50px 0}
 .grid-outer.bg-main5{margin-bottom:40px;padding-bottom:0}
 @media (max-width:767px){
-    .article,     .module,     .grid-outer {padding-bottom:20px !important}
+    .article,     .module,     .grid-outer {padding-bottom:30px !important}
     .grid-outer.bg-main5{margin-bottom:25px}
 }
 .module-bg1{background:#0071bf}
@@ -340,7 +340,7 @@ button.ctl-accordion.expanded:after{content:"\28"}
 .floating-jumpmenu li span {display:table-cell;vertical-align:middle;padding:0 20px; height:56px}
 .floating-jumpmenu.filter_by li span {text-align:left;}
 .floating-jumpmenu li .active, .floating-jumpmenu li .on{width:100%; background:#0071bf;color:#fff;position:relative;z-index:1}
-.floating-jumpmenu>button{width:100%;height:40px;line-height: 1.4;display:none;padding:0 13px;font-family:inherit;color:inherit;text-align:left;position:relative;z-index:5;}
+.floating-jumpmenu>button{width:100%;height:45px;line-height: 1.4;display:none;padding:0 13px;font-family:inherit;color:inherit;text-align:left;position:relative;z-index:5;}
 .floating-jumpmenu>button:after{content:"\27";display:block;font-family:'samsungIcon';position:absolute;right:13px;top:0;line-height:40px;font-size:1rem;font-weight:bold}
 .floating-jumpmenu.expand>button:after{content:"\28"}
 /* jumpmenu : btn */
@@ -592,7 +592,7 @@ a.btn-jump span {text-transform:none}
     .key-visual .btn-ico.video{top:146px}
 }
 @media (max-width:767px){
-    .key-visual {margin-bottom:30px}
+    .key-visual {margin-bottom:20px}
     .key-visual.home_kv{margin-bottom: 30px;}
     .key-visual.home_kv .screen{padding-top:420px;position:relative}
     .key-visual.home_kv .screen img{ height:420px; width: auto; }
@@ -604,7 +604,7 @@ a.btn-jump span {text-transform:none}
     .key-visual .screen .act2{position:absolute;display:block;padding-top:55.8%;left:50%;top:0;}
     .key-visual .screen .act2 .btn-ico.video{left:0}
     .wrapper-act button {font-size:14px}
-    .floating-jumpmenu .product-title {height:40px; padding:5px 0; /*text-align:center;*/ overflow:hidden}
+    .floating-jumpmenu .product-title {height:42px; padding:5px 0; /*text-align:center;*/ overflow:hidden}
     .floating-jumpmenu .product-title:after {display:inline-block; width:0.001%; height:40px; content:""; vertical-align:middle}
     .floating-jumpmenu .product-title span {box-sizing:border-box; display:inline-block; width:99.999%; max-height:40px; line-height:1.4em; padding:0 10px; /*text-align:center;*/ vertical-align:middle; text-overflow:ellipsis; overflow:hidden}
     .key-visual.index_kv .screen .focus-msg{ width:auto; padding: 20px; position: static;}
@@ -1580,6 +1580,7 @@ div.bg-wrap{background:#f1f1f1}
 .feature-module + .feature-module {margin-top:40px; padding-top:0;}
 @media (max-width:767px) {
     .feature-module + .feature-module{margin-top:0}
+    .feature-module {padding-top:30px}
 }
 .module.feature-module + .feature-modulem.key-visual + .feature-module > .grid-row:first-child .col-inner {margin-top:0;}
 .feature-module.bg-main5 {padding-bottom:35px;}
@@ -1623,6 +1624,9 @@ div.featurebox .insection.bg-main5 {padding:20px;}
 div.featurebox .insection.border {border:1px solid #e6e6e6;}
 div.featurebox .insection.image-only {margin-bottom:40px !important; }
 div.featurebox .insection.text-only{margin-bottom:50px !important}
+@media (max-width: 767px){
+    div.featurebox .insection.text-only{margin-bottom:30px !important}
+}
 div.featurebox div.leftarea{float:left; width:50%; box-sizing:border-box; padding-right:10px;}
 div.featurebox div.rightarea{float:right; width:50%; box-sizing:border-box; padding-left:10px;}
 div.featurebox .thumb {max-width:100%;}
@@ -1849,13 +1853,24 @@ table.support-info .img-ox {width:20px;}
 .products-list{margin-top:10px}
 .products-list .col-inner{border:solid 1px #e9e9e9}
 .products-list .banner_title{background-color:#f8f8f8;padding:15px 0 5px 0}
+.products-list .banner_title.white{background-color:#fff}
 .products-list .banner_title h3 {font-size: 21px;color: #000;padding-left: 20px;padding-bottom: 5px;padding-right: 20px;}
 .products-list .banner_title p{padding:0 20px 15px 20px}
-
-
-
-
-
+.products-list .banner_title p.date_txt{margin-top:15px}
+@media (min-width:768px) and (max-width:1023px){
+    .products-list .grid-col4{width:33.3333%}
+    .products-list .grid-col4:nth-child(4){display:none}
+    .products-list .grid-col4:nth-of-type(2n+1) {clear: none;}
+}
+@media (max-width:767px){
+   .products-list .grid-col4{width:50% !important}
+   .products-list .banner_title p{height:65px;padding-bottom:0;padding-left:10px;padding-right:10px}
+   .products-list .banner_title p.date_txt{height:auto;margin-top:5px}
+   .products-list .banner_title h3{font-size:15px;padding-left:10px;padding-right:10px}
+   .products-list .banner_title button{padding:0 10px}
+   .products-list .grid-col4:nth-child(3){display:none}
+   .products-list .grid-col4:nth-child(4){display:none}
+}
 
 /* where to buy */
 .buy_contents h2{border-bottom: 1px solid #dcdcdc; padding-bottom:17px; font-size: 28px; color: #000; font-family: 'samsungifblk';}
@@ -1865,8 +1880,4 @@ table.support-info .img-ox {width:20px;}
 @media (max-width:767px) {
     .buy_contents h2{font-size: 22px; padding-bottom:7px;}
 }
-
-
-
-
 
