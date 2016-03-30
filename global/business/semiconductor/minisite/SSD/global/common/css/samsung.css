@@ -1904,17 +1904,8 @@ table.support-info .img-ox {width:20px;}
 }
 
 @media (max-width:767px){
-<<<<<<< HEAD
-   .product-visual .title{font-size:42px}
-   .product-visual .txt{font-size:15px}
-   .product-visual.type1 .title{width:300px}
-   .product-visual.type1 .txt{width:300px}
-   .product-visual.type2 .title{width:300px}
-   .product-visual.type2 .txt{width:300px}
-=======
    .product-visual .title{font-size:42px;width:300px !important}
-   .product-visual .txt{font-size:15px;width:300px !important} 
->>>>>>> a22084d133dde546b4684095344d71d8ce006568
+   .product-visual .txt{font-size:15px;width:300px !important}
    .product-visual .txt em{font-size:13px}
 }
 
