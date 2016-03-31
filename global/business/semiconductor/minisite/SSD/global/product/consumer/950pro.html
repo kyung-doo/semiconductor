@@ -4,7 +4,16 @@
 <!-- 페이지별 css link,js -->
 <script src="/global/business/semiconductor/minisite/SSD/global/common/js/page/home.js"></script>
 <!-- //페이지별 css link,js -->
+<script type="text/javascript">
+$(function ()
+{
+    $(window).resize(function ( e )
+    {
+        $(".v-line").css({height:$(".v-line").parent().height()-45});
+    });    
+});
 
+</script>
 <title>Samsung Semiconductor</title>        <!-- unique한 페이지 title -->
 
 <?php include($_SERVER['DOCUMENT_ROOT'].'/global/business/semiconductor/minisite/SSD/global/sec/semi_header.sec')?>
@@ -326,6 +335,7 @@
                             </div>
                         </div>
                         <!-- //item -->
+                        <span class="v-line"></span>
                     </div>
                     
                 </div>

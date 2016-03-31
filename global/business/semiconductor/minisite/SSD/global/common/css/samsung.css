@@ -1944,17 +1944,18 @@ table.support-info .img-ox {width:20px;}
 }
 
 /* download-file-list */
+.download-file-list{position:relative}
 .download-file-list .download-file > p{padding:10px 0;width:90%}
 .download-file-list .download-file > p > span{position:relative;display:inline-block;width:93%;padding-left:8px}
 .download-file-list .download-file > p > span:before{content:"";position:absolute;top:50%;left:0;display:inline-block;width:2px;height:2px;background-color:#000;margin-top:-2px}
 .download-file-list .download-file > p > a{margin-top:0}
 .download-file-list .download-file.down2{padding-left:30px}
 .download-file-list .grid-col2{position:relative}
-.download-file-list .grid-col2:first-child:before{content:"";position:absolute;top:15%;right:0;width:1px;height:70%;background-color:#dcdcdc;display:inline-block}
+.download-file-list .v-line{position:absolute;top:25px;right:50%;width:1px;height:100%;background-color:#dcdcdc;display:inline-block}
 @media (max-width:767px){
   .download-file-list .download-file > p{width:100%}
-  .download-file-list .grid-col2:first-child:before{display:none}
   .download-file-list .download-file.down2{padding-left:0}
+  .download-file-list .v-line{display:none}
 }
 
 /* where to buy */
