@@ -2,6 +2,8 @@
  * METHOD:PAGE
  ********************************************************************************************************/
 function initPage(){
+    
+    init_scripts();
     init_flick();
     init_more();
     init_jump_basic();
@@ -9,6 +11,16 @@ function initPage(){
     init_mode();
     init_same_height();
     init_dotdotdot();
+    init_data_table();
+   
+};
+
+/********************************************************************************************************
+ * METHOD: INIT_SCRIPTS
+ ********************************************************************************************************/
+function init_scripts(){
+    
+	//$.cachedScript('/global/business/semiconductor/minisite/SSD/global/common/js/lib/datatables.js');
 };
 
 /********************************************************************************************************
@@ -369,4 +381,27 @@ function change_img(mode) {
 		
 		$this.attr('src', img_url);
 	});
+};
+
+
+/********************************************************************************************************
+ * METHOD:DATA TABLE
+ ********************************************************************************************************/
+function init_data_table(){
+    
+    $('*[data-role=data-table]').each(function()
+    {
+        var table = $(this).DataTable(
+        {
+           scrollX:true,
+           scrollCollapse:true,
+           paging:false,
+           searching:false,
+           info:false,
+           retrieve:true,
+           fixedColumns: {
+                leftColumns:1
+            }
+        });
+    });
 };

@@ -109,7 +109,6 @@ var _common = {
 	trace : function() {
 		try {
 			if ( typeof (window.console) != 'undefined' && window.console && window.console.log) {
-				console.log.apply(console, arguments);
 			}
 		} catch(e) {
 		}
@@ -390,4 +389,10 @@ if(typeof sendClickCode === 'undefined'){
 	function sendClickCode(a, b){
 		_common.trace(a + " | " + b);
 	}
+};
+
+jQuery.cachedScript=function(b,a)
+{
+    a=$.extend(a||{},{dataType:"script",cache:true,url:b});
+    return jQuery.ajax(a);
 };
