@@ -1943,7 +1943,18 @@ table.support-info .img-ox {width:20px;}
   .show-more-spec div.inarea .data-table table td{padding:0 15px}
 }
 
-
+/* download-file-list */
+.download-file-list .download-file > p{padding:10px 0;width:90%}
+.download-file-list .download-file > p > span{display:inline-block;width:93%}
+.download-file-list .download-file > p > a{margin-top:0}
+.download-file-list .download-file.down2{padding-left:30px}
+.download-file-list .grid-col2{position:relative}
+.download-file-list .grid-col2:first-child:before{content:"";position:absolute;top:15%;right:0;width:1px;height:70%;background-color:#dcdcdc;display:inline-block}
+@media (max-width:767px){
+    .download-file-list .download-file > p{width:100%}
+  .download-file-list .grid-col2:first-child:before{display:none}
+  .download-file-list .download-file.down2{padding-left:0}
+}
 
 /* where to buy */
 .buy_contents {padding-top: 40px;}
