@@ -1885,9 +1885,11 @@ table.support-info .img-ox {width:20px;}
 .product-visual.type1 .title{width:1200px}
 .product-visual.type2 .title{width:880px}
 .product-visual.type3 .title{width:810px}
+.product-visual.type4 .title{width:800px}
 .product-visual.type1 .txt{width:900px}
 .product-visual.type2 .txt{width:880px}
 .product-visual.type3 .txt{width:810px}
+.product-visual.type4 .txt{width:1100px}
 .product-visual .vi{margin-top:45px}
 .product-visual .vi img{width:100%;max-width:100%}
 
@@ -1895,6 +1897,7 @@ table.support-info .img-ox {width:20px;}
 {
     .product-visual.type1 .title{width:900px}
     .product-visual.type1 .txt{width:900px}
+    .product-visual.type4 .txt{width:900px}
 }
 
 @media (max-width: 1024px) and (min-width:768px)
@@ -1909,6 +1912,34 @@ table.support-info .img-ox {width:20px;}
    .product-visual .txt em{font-size:13px}
 }
 
+/* specifi-list */
+.specifi-list{margin-top:15px}
+.specifi-list .specifi > h4{font-size:18px;font-family:'SamsungIFBlk';padding:10px 0;border-bottom:solid 1px #dcdcdc}
+.specifi-list .specifi > p{font-size:16px;font-family:'SamsungIFRg';padding:10px 0}
+.specifi-list .info{font-size:14px;margin-top:10px}
+@media (max-width:767px){
+   .specifi-list{margin-top:5px}
+   .specifi-list .specifi > h4{font-size:14px;padding:5px 0}
+   .specifi-list .specifi > p{padding:5px 0}
+}
+
+/* show-more-spec */
+.show-more-spec {margin-top:40px}
+.show-more-spec .show_btn{position:relative;display:block;color:#0057a4;padding:20px;background-color:#f8f8f8;border-top:solid 1px #cdcdcd;border-bottom:solid 1px #dcdcdc;text-transform: uppercase;}
+.show-more-spec .show_btn.close:after{content:"\27";font-family:"samsungIcon";vertical-align:middle;margin-left:8px}
+.show-more-spec .show_btn.expanded:after{content:"\28";font-family:"samsungIcon";vertical-align:middle;margin-left:8px}
+.show-more-spec div.inarea{margin-top:25px;display:none}
+.show-more-spec div.inarea table{border-collapse:collapse;min-width:100%}
+.show-more-spec div.inarea table th{height:50px;padding-left:40px;text-align:center;background-color:#0071bf;color:#fff;border-top:solid 1px #dcdcdc;border-bottom:solid 1px #dcdcdc;white-space:nowrap}
+.show-more-spec div.inarea table th:first-child{text-align:left;border-right:solid 1px #dcdcdc}
+.show-more-spec div.inarea table td{height:50px;padding-left:40px;text-align:left;background-color:#fff;border-top:solid 1px #dcdcdc;border-bottom:solid 1px #dcdcdc;white-space:nowrap;border-left:solid 1px #dcdcdc}
+.show-more-spec div.inarea table td.c{text-align:center;padding:0}
+.show-more-spec div.inarea table td:first-child{border-right:solid 1px #dcdcdc;border-left:none;color:#0071bf}
+
+@media (max-width:767px){
+  .show-more-spec div.inarea table th{padding-left:10px}
+  .show-more-spec div.inarea table td{padding-left:10px}
+}
 
 
 

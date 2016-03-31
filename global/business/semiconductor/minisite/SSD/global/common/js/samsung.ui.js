@@ -960,7 +960,7 @@ var CommonUI = Class.extend({
 });
 
 
-﻿/*!
+/*!
  * @class	{Class} NavUI
  */
 var NavUI = Class.extend({
@@ -1447,11 +1447,13 @@ var AccordionUI = Class.extend({
 		var owner = this;
 
 		this._content.off('click').on('click', function(e) {
+            
 			if (!$(this).data('content').hasClass('active')) {
 				owner.active_item($(this));
 			} else {
 				owner.deActive_item($(this));
 			}
+            
 		});
 	},
 
