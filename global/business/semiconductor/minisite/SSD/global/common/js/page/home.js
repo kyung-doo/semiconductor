@@ -391,6 +391,8 @@ function init_data_table(){
     
     $('*[data-role=data-table]').each(function()
     {
+        var target = $(this).parent();
+        target.css({height:$(this).height()+1});
         var table = $(this).DataTable(
         {
            scrollX:true,
@@ -402,6 +404,8 @@ function init_data_table(){
            fixedColumns: {
                 leftColumns:1
             }
-        });
+        }); 
+        
+        setTimeout(function (){target.css({display:"none"})}, 1);
     });
 };

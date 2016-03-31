@@ -306,7 +306,7 @@ button.ctl-accordion.expanded:after{content:"\28"}
 @media (max-width:767px){
     .tit-accordion{font-family:'SamsungIFBd'; padding:0 !important;display:table;width:100%;height:50px !important;border:0 !important;margin:0 !important}
     .tit-accordion>span{display:table-cell;vertical-align:middle}
-    [data-role="ui-accordion"] [data-role="ui-accordion-content"] {display:none;padding-bottom:25px}
+    [data-role="ui-accordion"] [data-role="ui-accordion-content"] {padding-bottom:25px}
     button.ctl-accordion{display:block}
     button.ctl-accordion:after{margin-right:10px}
 }
@@ -1928,7 +1928,7 @@ table.support-info .img-ox {width:20px;}
 .show-more-spec .show_btn{position:relative;display:block;color:#0057a4;padding:20px;background-color:#f8f8f8;border-top:solid 1px #cdcdcd;border-bottom:solid 1px #dcdcdc;text-transform: uppercase;}
 .show-more-spec .show_btn.close:after{content:"\27";font-family:"samsungIcon";vertical-align:middle;margin-left:8px}
 .show-more-spec .show_btn.expanded:after{content:"\28";font-family:"samsungIcon";vertical-align:middle;margin-left:8px}
-.show-more-spec div.inarea{margin-top:25px;display:none}
+.show-more-spec div.inarea{margin-top:25px}
 .show-more-spec div.inarea table{border-collapse:collapse;min-width:100%}
 .show-more-spec div.inarea table th{height:50px;padding-left:40px;text-align:center;background-color:#0071bf;color:#fff;border-top:solid 1px #dcdcdc;border-bottom:solid 1px #dcdcdc;white-space:nowrap}
 .show-more-spec div.inarea table th:first-child{text-align:left;border-right:solid 1px #dcdcdc}
