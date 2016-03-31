@@ -2,6 +2,7 @@
 
 /*@import url("pdp.css");*/
 
+ul.support-list-type {border-top:1px solid #ccc;}
 ul.support-list-type li{border-bottom:1px solid #ccc;}
 ul.support-list-type li a{}
 ul.support-list-type li a.close{position:relative; display:block; color:#0057a4; padding:20px;}
@@ -17,7 +18,7 @@ ul.support-list-type li a.tooltipbox{display:inline-block; padding:0; margin-lef
 .catalogue > li > a {position:relative; display:block; padding:20px; font-size:18px; font-family: 'SamsungIFBd';}
 .catalogue > li > a.close:after {position: absolute; top: 30%;  right: 25px;  width: 14px; height: 20px;content: "\27"; color:#0057a4;  font-family: 'samsungIcon'; }
 .catalogue > li > a.expanded:after {position: absolute; top: 30%; right: 25px; width: 14px;  height: 20px; content: "\28"; color:#0057a4;  font-family: 'samsungIcon'; }
-.catalogue > li > div {padding:31px 0 20px 19px; overflow:hidden; background:#f1f1f1;} 
+.catalogue > li > div {padding:31px 0 20px 19px; overflow:hidden; background:#f1f1f1;}
 
 .catalogue .type { position:relative; padding:20px 10px 10px 20px; margin-right:9px; overflow:hidden; background:#fff; border:1px solid #dbdbdb; }
 .catalogue .type > li {float:left; width:25%;}
@@ -87,7 +88,7 @@ ul.support-list-type li a.tooltipbox{display:inline-block; padding:0; margin-lef
 .catalogue .para_wrap>div> a {position:relative; display:block; padding:20px; font-size:18px; font-family: 'SamsungIFBd';border-bottom:1px solid #ccc;}
 .catalogue .para_wrap>div> a.close:after {position: absolute; top: 30%;  right: 25px;  width: 14px; height: 20px;content: "\27"; color:#0057a4;  font-family: 'samsungIcon'; }
 .catalogue .para_wrap>div> a.expanded:after {position: absolute; top: 30%; right: 25px; width: 14px;  height: 20px; content: "\28"; color:#0057a4;  font-family: 'samsungIcon'; }
-.catalogue .para_wrap>div> div {padding:31px 0 20px 19px; overflow:hidden; background:#fff;} 
+.catalogue .para_wrap>div> div {padding:31px 0 20px 19px; overflow:hidden; background:#fff;}
 
 .catalogue.product-cat-list .para_wrap > a {position:relative; display:block; padding:20px; font-size:18px; font-family: 'SamsungIFBd';}
 /*new cataglogue add:end*/
@@ -106,7 +107,7 @@ ul.support-list-type li a.tooltipbox{display:inline-block; padding:0; margin-lef
 .tableType1{border-collapse:collapse; min-width:100%;}
 .tableType1 th {height:40px; padding:0 15px; color:#fff;  white-space: nowrap;  background:#5b5b5b; border-left:1px solid #606060; cursor:pointer;  box-sizing:border-box;}
 .tableType1 th span:after{font-family: "samsungIcon";  content:"▼"; color:#fff; position:relative; top:-3px; vertical-align:middle; margin-left:3px; font-size:11px;}
-.tableType1 thead tr th:first-child {min-width:65px;} 
+.tableType1 thead tr th:first-child {min-width:65px;}
 .tableType1 th.sorting_asc span:after{content:"▲"; }
 .tableType1 th.sorting_desc span:after{content:"▼"; }
 .tableType1 th:first-child {border-left:none;}
@@ -115,87 +116,87 @@ ul.support-list-type li a.tooltipbox{display:inline-block; padding:0; margin-lef
 .tableType1 td:first-child {border-left:none; }
 
 .DTFC_LeftHeadWrapper .tableType1 th {background:#5b5b5b;  box-sizing:border-box;}
-.DTFC_LeftHeadWrapper .tableType1 thead tr th:first-child {min-width:65px;} 
+.DTFC_LeftHeadWrapper .tableType1 thead tr th:first-child {min-width:65px;}
 .DTFC_LeftBodyWrapper .tableType1 {border-right:1px solid #e3e2e2; }
 .DTFC_LeftBodyWrapper .tableType1 td:first-child  {background:#fff url(/semiconductor/common/img/layout/bg_table_line.png) repeat-x left bottom; box-sizing:border-box;}
 
 
 
 @media (min-width:768px) and (max-width:1023px) {
-	.catalogue .type > li {float:left; width:50%;}
-	.catalogue .type > li div.sub ul {padding-left:0; padding-right:0;}
-	.catalogue .type > li div.sub ul li {width:49%;}
+    .catalogue .type > li {float:left; width:50%;}
+    .catalogue .type > li div.sub ul {padding-left:0; padding-right:0;}
+    .catalogue .type > li div.sub ul li {width:49%;}
 }
 
 @media (max-width:767px){
-	
-	.catalogue > li > div {padding:10px 0 10px 10px; overflow:hidden; background:#f1f1f1;} 
-	.catalogue .type li a {padding:10px; margin-right:0;}
-	.catalogue .type {padding:10px 10px 0 10px;}
-	.catalogue .type > li {float:left; width:100%;}
-	.catalogue .type > li div.sub {position:static; margin:-28px 0 10px 0; width:100%;}
-	.catalogue .type > li div.sub ul {padding:0 10px;}
-	.catalogue .type > li div.sub ul li {float:none; border:none; width:100%; margin:0; text-align:left; border:none;border-top:1px solid #dbdbdb;}	
-	.catalogue .type > li div.sub ul li:first-child {border:none;}
-	.catalogue .type > li div.sub ul li a {line-height:25px; }
-	.catalogue .type > li div.sub ul li a p {line-height:25px; }
-	.catalogue .detail {height:317px; margin-right:9px;}
-	.catalogue .para ul {height:317px; margin:0;}
-	.catalogue .para ul li {margin:0 10px; border-bottom:1px solid #ccc;} 
-	.catalogue .para ul li:last-child {border:none;}
-	
-	.catalogue .value > ul {padding:0 10px;}
-	.catalogue .value > ul li  {height:auto; padding:16px 15px; border-bottom:1px solid #ccc;}
-	.catalogue .value > ul li input[type=checkbox]+label:before {width:22px; height:22px;}
-	.catalogue .slideArea {position:relative; padding:14px 0 0 22px}
-	.catalogue ul.sliderLabel {position:absolute; left:40px; top:8px; padding:0;}
-	.catalogue div.sliderChk {position:relative; left:-10px; padding:20px 0 0 0;}
-	.catalogue div.sliderChk p {width:100%;}
-	.catalogue div.sliderChk p em {margin:0 10px;}
-	.catalogue div.sliderChk p span {position:relative; top:4px;}
-	.catalogue div.sliderChk button {clear:both; width:100%; margin:5px 0 0 0;}
-	
-	/*new cataglogue add:start*/
-	.catalogue.product-cat-list > li > div {padding:10px 0 10px 10px; overflow:hidden; background:#f1f1f1;} 
-	.catalogue.product-cat-list .type li a {padding:10px; margin-right:0;}
-	.catalogue.product-cat-list .type {padding:10px 10px 0 10px;}
-	.catalogue.product-cat-list .type > li {float:left; width:100%;}
-	.catalogue.product-cat-list .type > li div.sub {position:static; margin:-28px 0 10px 0; width:100%;}
-	.catalogue.product-cat-list .type > li div.sub ul {padding:0 10px;}
-	.catalogue.product-cat-list .type > li div.sub ul li {float:none; border:none; width:100%; margin:0; text-align:left; border:none;border-top:1px solid #dbdbdb;}	
-	.catalogue.product-cat-list .type > li div.sub ul li:first-child {border:none;}
-	.catalogue.product-cat-list .type > li div.sub ul li a {line-height:25px; }
-	.catalogue.product-cat-list .type > li div.sub ul li a p {line-height:25px; }
-	.catalogue.product-cat-list .detail {height:317px; margin-right:9px;}
-	.catalogue.product-cat-list .para ul {height:317px; margin:0;}
-	.catalogue.product-cat-list .para ul li {margin:0 10px; border-bottom:1px solid #ccc;} 
-	.catalogue.product-cat-list .para ul li:last-child {border:none;}
-	
-	.catalogue .value > ul {padding:0 10px;}
-	.catalogue .value > ul li  {height:auto; padding:16px 15px; border-bottom:1px solid #ccc;}
-	.catalogue .value > ul li input[type=checkbox]+label:before {width:22px; height:22px;}
-	.catalogue .slideArea {position:relative; padding:14px 0 0 22px}
-	.catalogue ul.sliderLabel {position:absolute; left:40px; top:8px; padding:0;}
-	.catalogue div.sliderChk {position:relative; left:-10px; padding:20px 0 0 0;}
-	.catalogue div.sliderChk p {width:100%;}
-	.catalogue div.sliderChk p em {margin:0 10px;}
-	.catalogue div.sliderChk p span {position:relative; top:4px;}
-	.catalogue div.sliderChk button {clear:both; width:100%; margin:5px 0 0 0;}
-	/*new cataglogue add:end*/
 
-	.catalogue .selected {margin-right:9px;}
-	.catalogue .selected div {padding: 14px 19px 14px 19px;  border-bottom:1px solid #ccc;}
-	.catalogue .selected .btn-clear-all {position:static; display:block; padding: 14px 19px 14px 19px;  text-align:right;}
+    .catalogue > li > div {padding:10px 0 10px 10px; overflow:hidden; background:#f1f1f1;}
+    .catalogue .type li a {padding:10px; margin-right:0;}
+    .catalogue .type {padding:10px 10px 0 10px;}
+    .catalogue .type > li {float:left; width:100%;}
+    .catalogue .type > li div.sub {position:static; margin:-28px 0 10px 0; width:100%;}
+    .catalogue .type > li div.sub ul {padding:0 10px;}
+    .catalogue .type > li div.sub ul li {float:none; border:none; width:100%; margin:0; text-align:left; border:none;border-top:1px solid #dbdbdb;}
+    .catalogue .type > li div.sub ul li:first-child {border:none;}
+    .catalogue .type > li div.sub ul li a {line-height:25px; }
+    .catalogue .type > li div.sub ul li a p {line-height:25px; }
+    .catalogue .detail {height:317px; margin-right:9px;}
+    .catalogue .para ul {height:317px; margin:0;}
+    .catalogue .para ul li {margin:0 10px; border-bottom:1px solid #ccc;}
+    .catalogue .para ul li:last-child {border:none;}
 
-	.dataTable td {height:40px;} 
-	.catalogueResult .tableType1 input[type=checkbox]+label {width:15px; height:15px;}
+    .catalogue .value > ul {padding:0 10px;}
+    .catalogue .value > ul li  {height:auto; padding:16px 15px; border-bottom:1px solid #ccc;}
+    .catalogue .value > ul li input[type=checkbox]+label:before {width:22px; height:22px;}
+    .catalogue .slideArea {position:relative; padding:14px 0 0 22px}
+    .catalogue ul.sliderLabel {position:absolute; left:40px; top:8px; padding:0;}
+    .catalogue div.sliderChk {position:relative; left:-10px; padding:20px 0 0 0;}
+    .catalogue div.sliderChk p {width:100%;}
+    .catalogue div.sliderChk p em {margin:0 10px;}
+    .catalogue div.sliderChk p span {position:relative; top:4px;}
+    .catalogue div.sliderChk button {clear:both; width:100%; margin:5px 0 0 0;}
+
+    /*new cataglogue add:start*/
+    .catalogue.product-cat-list > li > div {padding:10px 0 10px 10px; overflow:hidden; background:#f1f1f1;}
+    .catalogue.product-cat-list .type li a {padding:10px; margin-right:0;}
+    .catalogue.product-cat-list .type {padding:10px 10px 0 10px;}
+    .catalogue.product-cat-list .type > li {float:left; width:100%;}
+    .catalogue.product-cat-list .type > li div.sub {position:static; margin:-28px 0 10px 0; width:100%;}
+    .catalogue.product-cat-list .type > li div.sub ul {padding:0 10px;}
+    .catalogue.product-cat-list .type > li div.sub ul li {float:none; border:none; width:100%; margin:0; text-align:left; border:none;border-top:1px solid #dbdbdb;}
+    .catalogue.product-cat-list .type > li div.sub ul li:first-child {border:none;}
+    .catalogue.product-cat-list .type > li div.sub ul li a {line-height:25px; }
+    .catalogue.product-cat-list .type > li div.sub ul li a p {line-height:25px; }
+    .catalogue.product-cat-list .detail {height:317px; margin-right:9px;}
+    .catalogue.product-cat-list .para ul {height:317px; margin:0;}
+    .catalogue.product-cat-list .para ul li {margin:0 10px; border-bottom:1px solid #ccc;}
+    .catalogue.product-cat-list .para ul li:last-child {border:none;}
+
+    .catalogue .value > ul {padding:0 10px;}
+    .catalogue .value > ul li  {height:auto; padding:16px 15px; border-bottom:1px solid #ccc;}
+    .catalogue .value > ul li input[type=checkbox]+label:before {width:22px; height:22px;}
+    .catalogue .slideArea {position:relative; padding:14px 0 0 22px}
+    .catalogue ul.sliderLabel {position:absolute; left:40px; top:8px; padding:0;}
+    .catalogue div.sliderChk {position:relative; left:-10px; padding:20px 0 0 0;}
+    .catalogue div.sliderChk p {width:100%;}
+    .catalogue div.sliderChk p em {margin:0 10px;}
+    .catalogue div.sliderChk p span {position:relative; top:4px;}
+    .catalogue div.sliderChk button {clear:both; width:100%; margin:5px 0 0 0;}
+    /*new cataglogue add:end*/
+
+    .catalogue .selected {margin-right:9px;}
+    .catalogue .selected div {padding: 14px 19px 14px 19px;  border-bottom:1px solid #ccc;}
+    .catalogue .selected .btn-clear-all {position:static; display:block; padding: 14px 19px 14px 19px;  text-align:right;}
+
+    .dataTable td {height:40px;}
+    .catalogueResult .tableType1 input[type=checkbox]+label {width:15px; height:15px;}
 }
 
 .noteArea {clear:both; background:#f2f2f2; overflow:hidden; margin:20px 0 0 10px;}
-.noteArea h1 {font-size:24px; color:#666; padding:25px 0 0 50px; background:url("/semiconductor/common/img/ico/ico_note.png") no-repeat 20px 30px; } 
+.noteArea h1 {font-size:24px; color:#666; padding:25px 0 0 50px; background:url("/semiconductor/common/img/ico/ico_note.png") no-repeat 20px 30px; }
 .noteArea > div {line-height:24px;}
 .noteArea .grid-col1, .noteArea .grid-col2, .noteArea .grid-col3 {float:none; display:table; width:100%; table-layout:fixed; border-spacing:0 15px; width:100%; overflow:hidden; }
-.noteArea .col {height:100%; display:table-cell; padding:0 0 15px 0;  border-left:1px solid #adadad; } 
+.noteArea .col {height:100%; display:table-cell; padding:0 0 15px 0;  border-left:1px solid #adadad; }
 .noteArea .col  > div {height:100%;  padding:0 15px; }
 .noteArea .col:first-child {border:none;}
 .noteArea .grid-col1 .col {width:100%; }
@@ -205,9 +206,9 @@ ul.support-list-type li a.tooltipbox{display:inline-block; padding:0; margin-lef
 .noteArea  .tableType1 th {white-space:normal;}
 
 @media (max-width:767px){
-	.noteArea h1{padding-bottom:5px; }
-	.noteArea .grid-col1, .noteArea .grid-col2, .noteArea .grid-col3 {display:block; padding:0;}
-	.noteArea .grid-col1 .col, .noteArea .grid-col2 .col, .noteArea .grid-col3 .col  {display:block; width:100%; border:none;}
-	.noteArea .grid-col1 .col > div, .noteArea .grid-col2 .col > div, .noteArea .grid-col3 .col  > div { padding:15px 0; margin:0 15px; border:none; border-top:1px solid #adadad;}
-	.noteArea .col:first-child div {border:none; padding-top:0;}
+    .noteArea h1{padding-bottom:5px; }
+    .noteArea .grid-col1, .noteArea .grid-col2, .noteArea .grid-col3 {display:block; padding:0;}
+    .noteArea .grid-col1 .col, .noteArea .grid-col2 .col, .noteArea .grid-col3 .col  {display:block; width:100%; border:none;}
+    .noteArea .grid-col1 .col > div, .noteArea .grid-col2 .col > div, .noteArea .grid-col3 .col  > div { padding:15px 0; margin:0 15px; border:none; border-top:1px solid #adadad;}
+    .noteArea .col:first-child div {border:none; padding-top:0;}
 }
