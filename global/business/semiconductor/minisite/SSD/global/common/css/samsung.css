@@ -1933,19 +1933,34 @@ table.support-info .img-ox {width:20px;}
 .show-more-spec .show_btn.close:after{content:"\27";font-family:"samsungIcon";vertical-align:middle;margin-left:8px}
 .show-more-spec .show_btn.expanded:after{content:"\28";font-family:"samsungIcon";vertical-align:middle;margin-left:8px}
 .show-more-spec div.inarea{margin-top:25px;display:none}
-.show-more-spec div.inarea table{border-collapse:collapse;min-width:100%}
-.show-more-spec div.inarea table th{height:50px;padding-left:40px;text-align:center;background-color:#0071bf;color:#fff;border-top:solid 1px #dcdcdc;border-bottom:solid 1px #dcdcdc;white-space:nowrap}
-.show-more-spec div.inarea table th:first-child{text-align:left;border-right:solid 1px #dcdcdc}
-.show-more-spec div.inarea table td{height:50px;padding-left:40px;text-align:left;background-color:#fff;border-top:solid 1px #dcdcdc;border-bottom:solid 1px #dcdcdc;white-space:nowrap;border-left:solid 1px #dcdcdc}
-.show-more-spec div.inarea table td.c{text-align:center;padding:0}
-.show-more-spec div.inarea table td:first-child{border-right:solid 1px #dcdcdc;border-left:none;color:#0071bf}
+.show-more-spec div.inarea .data-table{overflow-x:auto}
+.show-more-spec div.inarea .data-table table{border-collapse:collapse;min-width:100%}
+.show-more-spec div.inarea .data-table table th{height:50px;padding:0 30px;text-align:center;background-color:#0071bf;color:#fff;border-top:solid 1px #dcdcdc;border-bottom:solid 1px #dcdcdc;white-space:nowrap}
+.show-more-spec div.inarea .data-table table th:first-child{text-align:left;border-right:solid 1px #dcdcdc}
+.show-more-spec div.inarea .data-table table td{height:50px;padding:0 30px;text-align:left;background-color:#fff;border-top:solid 1px #dcdcdc;border-bottom:solid 1px #dcdcdc;white-space:nowrap;border-left:solid 1px #dcdcdc}
+.show-more-spec div.inarea .data-table table td.c{text-align:center;padding:0}
+.show-more-spec div.inarea .data-table table td:first-child{border-right:solid 1px #dcdcdc;border-left:none;color:#0071bf}
+.show-more-spec .info{margin-top:20px}
 
 @media (max-width:767px){
-  .show-more-spec div.inarea table th{padding-left:10px}
-  .show-more-spec div.inarea table td{padding-left:10px}
+  .show-more-spec div.inarea .data-table table th{padding:0 15px}
+  .show-more-spec div.inarea .data-table table td{padding:0 15px}
 }
 
-
+/* download-file-list */
+.download-file-list{position:relative}
+.download-file-list .download-file > p{padding:10px 0;width:90%}
+.download-file-list .download-file > p > span{position:relative;display:inline-block;width:93%;padding-left:8px}
+.download-file-list .download-file > p > span:before{content:"";position:absolute;top:50%;left:0;display:inline-block;width:2px;height:2px;background-color:#000;margin-top:-2px}
+.download-file-list .download-file > p > a{margin-top:0}
+.download-file-list .download-file.down2{padding-left:30px}
+.download-file-list .grid-col2{position:relative}
+.download-file-list .v-line{position:absolute;top:25px;right:50%;width:1px;height:100%;background-color:#dcdcdc;display:inline-block}
+@media (max-width:767px){
+  .download-file-list .download-file > p{width:100%}
+  .download-file-list .download-file.down2{padding-left:0}
+  .download-file-list .v-line{display:none}
+}
 
 /* where to buy */
 .buy_contents {padding-top: 40px;}

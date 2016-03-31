@@ -4,7 +4,16 @@
 <!-- 페이지별 css link,js -->
 <script src="/global/business/semiconductor/minisite/SSD/global/common/js/page/home.js"></script>
 <!-- //페이지별 css link,js -->
+<script type="text/javascript">
+$(function ()
+{
+    $(window).resize(function ( e )
+    {
+        $(".v-line").css({height:$(".v-line").parent().height()-45});
+    });    
+});
 
+</script>
 <title>Samsung Semiconductor</title>        <!-- unique한 페이지 title -->
 
 <?php include($_SERVER['DOCUMENT_ROOT'].'/global/business/semiconductor/minisite/SSD/global/sec/semi_header.sec')?>
@@ -197,37 +206,88 @@
                 <div class="show-more-spec">
                     <div class="grid-row">
                        <div class="col-inner">
+                           
                            <div data-role="ui-accordion">
                                <a href="#" class="show_btn close closed" data-role="ui-accordion-btn">Show More Specs</a>
                                <div class="inarea" data-role="ui-accordion-content">
-                                   <table data-role="data-table">
-                                       <thead>
-                                           <tr>
-                                               <th>Model Name</th>
-                                               <th>MU-PT250B</th>
-                                               <th>MU-PT500B</th>
-                                               <th>MU-PT1T0B</th>
-                                               <th>MU-PT2T0B</th>
-                                           </tr>
-                                       </thead>  
-                                       <tbody>
-                                           <tr>
-                                               <td>Capacity*</td>
-                                               <td class="c">250GB</td>
-                                               <td class="c">500GB</td>
-                                               <td class="c">1TB</td>
-                                               <td class="c">2TB</td>
-                                           </tr>
-                                            <tr>
-                                               <td>Capacity*</td>
-                                               <td colspan="4">Compatible with USB 3.1(Gen.1, 5Gbps), 3.0, 2.0</td>
-                                           </tr>
-                                       </tbody>   
-                                   </table>
+                                   <div class="data-table" data-role="data-table">
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>Model Name</th>
+                                                    <th>MU-PT250B</th>
+                                                    <th>MU-PT500B</th>
+                                                    <th>MU-PT1T0B</th>
+                                                    <th>MU-PT2T0B</th>
+                                                </tr>
+                                            </thead>  
+                                            <tbody>
+                                                <tr>
+                                                    <td>Capacity*</td>
+                                                    <td class="c">250GB</td>
+                                                    <td class="c">500GB</td>
+                                                    <td class="c">1TB</td>
+                                                    <td class="c">2TB</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Interface*</td>
+                                                    <td colspan="4">Compatible with USB 3.1(Gen.1, 5Gbps), 3.0, 2.0</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Dimension (WxHxD)</td>
+                                                    <td colspan="4">74 x 58 x 10.5 mm</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Weight**</td>
+                                                    <td colspan="4">51g</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Transfer Speed***</td>
+                                                    <td colspan="4">Up to 450MB/sec</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>UASP Mode</td>
+                                                    <td colspan="4">Support</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Encryption</td>
+                                                    <td colspan="4">AES 256-bit hardware encryption</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Security****</td>
+                                                    <td colspan="4">Password setting (Optional) Requires Windows 7 or higher, Mac OS 10.7 or higher and Android KitKat (version 4.4) or higher.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Certification</td>
+                                                    <td colspan="4">CE, BSMI, KC, VCCI, C-tick, FCC, IC, UL, TUV, CB, EAC</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>RoHS Compliance</td>
+                                                    <td colspan="4">RoHS2</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Warranty</td>
+                                                    <td colspan="4">Limited 3-year</td>
+                                                </tr>
+                                            </tbody>   
+                                        </table>
+                                   </div>
+                                   
+                                   <div class="info">
+                                       * Actual usable capacity may vary based on system settings. 1GB=1,000,000,000 bytes, 1TB=1,000,000,000,000 bytes<br />
+                                       ** The exact weight of the product may vary depending on each capacity model.<br />
+                                       *** Performance may vary depending on host configuration and user system environment.<br />
+                                       **** User can set password when it is necessary.
+                                   </div>
+                                   
                                </div>
                            </div>
+                           
                        </div>
                     </div>
+                    
+                    
+                    
                 </div>
                 <!-- //show-more-spec -->
                 
@@ -235,7 +295,57 @@
             </div>
         </div>
         <!-- //Specifications -->
-
+        
+        <!-- Download files -->
+        <div data-role="ui-jump-target">
+            <div class="module">
+                <h2 class="sec-title">Download files</h2>
+                <!-- download-file-list -->
+                <div class="download-file-list">
+                    <div class="grid-row">
+                        <!-- item -->
+                        <div class="grid-col2">
+                            <div class="col-inner download-file">
+                                <p>
+                                    <span>Data Sheet</span>
+                                    <a class="btn down" href="javascript:void();"></a>
+                                </p>
+                                <p>
+                                    <span>White Paper</span>
+                                    <a class="btn down" href="javascript:void();"></a>
+                                </p>
+                                <p>
+                                    <span>Magician Software – Installation Guide</span>
+                                    <a class="btn down" href="javascript:void();"></a>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- //item -->
+                        <!-- item -->
+                        <div class="grid-col2">
+                            <div class="col-inner download-file down2">
+                                 <p>
+                                    <span>Brochure</span>
+                                    <a class="btn down" href="javascript:void();"></a>
+                                </p>
+                                <p>
+                                    <span>Magician Software</span>
+                                    <a class="btn down" href="javascript:void();"></a>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- //item -->
+                        <span class="v-line"></span>
+                    </div>
+                    
+                </div>
+                <!-- //download-file-list -->
+                
+                <div class="wrapper-act">
+                    <a href="/semiconductor/about-us/executive-bio/index.html" class="btn link" target="_blank">Find more download files</a>
+                </div>
+        </div>
+        <!-- //Download files -->
         
 
 

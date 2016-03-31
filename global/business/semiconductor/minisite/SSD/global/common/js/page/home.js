@@ -389,19 +389,5 @@ function change_img(mode) {
  ********************************************************************************************************/
 function init_data_table(){
     
-    $('*[data-role=data-table]').each(function()
-    {
-        var table = $(this).DataTable(
-        {
-           scrollX:true,
-           scrollCollapse:true,
-           paging:false,
-           searching:false,
-           info:false,
-           retrieve:true,
-           fixedColumns: {
-                leftColumns:1
-            }
-        });
-    });
+    
 };
