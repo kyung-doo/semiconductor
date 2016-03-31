@@ -314,8 +314,10 @@ button.ctl-accordion.expanded:after{content:"\28"}
 .tab-content{display:none;padding-top:0;}
 .tab-content.show{display:block}
 /* jumpmenu */
+/*
 .key-visual+.floating-jumpmenu{margin-top:-40px}
 .key-visual+.floating-jumpmenu.active{margin-top:0}
+*/
 /* jumpmenu : base */
 .floating-jumpmenu {width:100%; background:url("/global/business/semiconductor/minisite/SSD/global/common/img/layout/bg-jump-default.png"); border-bottom:1px solid #dcdcdc; text-transform:uppercase; position:relative; font-size:1rem;  font-family:'SamsungIFBd'; color:#0057a4;}
 .acc-cont .floating-jumpmenu,.floating-jumpmenu li a.active:before {display:none;}
@@ -406,6 +408,8 @@ a.btn-jump span {text-transform:none}
     .floating-jumpmenu .btn-jump-wrap a.request:after,     .floating-jumpmenu .btn-jump-wrap a.quote:after {font-size:20px;}
     .floating-jumpmenu.share>div em {padding-left:10px; font-size:20px}
     .floating-jumpmenu .btn-only-wrap em {font-size:24px}
+    .acc-help-container .floating-jumpmenu li span{padding-left: 10px; padding-right: 10px;}
+    .floating-jumpmenu li a{line-height: 16px; font-size: 14px;}
 }
 @media (max-width:767px) {
     .floating-jumpmenu.expand {border-bottom:0;}
@@ -417,7 +421,7 @@ a.btn-jump span {text-transform:none}
     .floating-jumpmenu {height:40px}
     .floating-jumpmenu>div{display:none;padding:0;text-align:left; /*margin-right:41px;*/ background:url(/global/business/semiconductor/minisite/SSD/global/common/img/layout/bg-jump-default.png)}
     .floating-jumpmenu .product-title,     .floating-jumpmenu h2 {height:50px}
-    .floating-jumpmenu .product-title span,     .floating-jumpmenu h2 span {padding:15px 10px; line-height:20px; font-size:22px}
+    .floating-jumpmenu .product-title span,     .floating-jumpmenu h2 span {padding:15px 10px; line-height:20px; font-size: 22px;}
     .floating-jumpmenu>button{display:block; padding:0 55px 0 10px; border-left:1px solid #989898;}
     .floating-jumpmenu>button:after{right:65px}
     .floating-jumpmenu>button.industry_jump:after {content:''}
@@ -1994,8 +1998,7 @@ table.support-info .img-ox {width:20px;}
 .ssd_module.faq_container .grid-row{margin-bottom:50px;}
 .ssd_module h2{border-bottom: 1px solid #dcdcdc; padding-bottom:17px; font-size: 28px; color: #000; font-family: 'SamsungIFBlk';}
 .ssd_module.faq_container h2{padding-bottom: 10px;}
-.buy_contents .grid-row{margin-bottom: 40px;}
-.buy_contents h2{border-bottom: 1px solid #dcdcdc; padding-bottom:17px; font-size: 28px; color: #000; font-family: 'samsungifblk';}
+
 .ssd_module h2.faq_title{border-bottom: none; padding-left: 10px;}
 .ssd_module h3 {margin-bottom: 20px;font-size: 26px; font-family: 'SamsungIFBd'; vertical-align: middle; line-height: 26px; margin-left: 10px;}
 .col-inner.faq_select {margin-left: 0;}
@@ -2008,7 +2011,7 @@ table.support-info .img-ox {width:20px;}
 ul.support-list-type {border-top:1px solid #ccc;}
 ul.support-list-type>li{border-bottom:1px solid #ccc;}
 ul.support-list-type>li a{}
-ul.support-list-type>li a.close{position:relative; display:block; color:#0057a4; padding:20px;}
+ul.support-list-type>li a.close{position:relative; display:block; color:#0057a4; padding:20px;    padding-right: 60px;}
 ul.support-list-type>li a.close:after{content:"\27"; font-family:'samsungIcon'; position:absolute; top:30%; right:25px; width:14px; height:20px;}
 ul.support-list-type>li a.expanded{background:#0071bf; color:#fff; border-bottom:1px solid #ccc;}
 ul.support-list-type>li a.expanded:after{content:"\28"; font-family:'samsungIcon'; position:absolute; top:30%; right:25px; width:14px; height:20px; color:#fff;}
@@ -2022,6 +2025,8 @@ ul.support-list-type>li a.tooltipbox{display:inline-block; padding:0; margin-lef
 .faq_contents .sub_list li .indent{padding-left: 20px;}
 .faq_contents .sub_list li .indent:before{content: ">"; width: 10px; display: inline-block; margin-left: -10px; font-size: 12px; vertical-align: middle; position: relative; top: -1px;}
 .faq_contents a{color: #0057a4;}
+.ssd-title{width:100%; height:70px; background:#fff; border-bottom:1px solid #dcdcdc}
+.ssd-title span{display:block; max-width:1311px; margin:0 auto; padding:25px 20px 15px 20px; line-height:30px; font-family:'SamsungIFBlk'; font-size:28px; color:#292929}
 
 @media (min-width:768px) and (max-width:1023px){
     .ssd_module{padding-left: 10px; padding-right: 10px;}
@@ -2046,6 +2051,8 @@ ul.support-list-type>li a.tooltipbox{display:inline-block; padding:0; margin-lef
     ul.support-list-type>li a.close{padding-right: 45px;}
     ul.support-list-type>li div.inarea{padding:15px 15px; display:none;}
     ul.support-list-type>li a.close:after,ul.support-list-type>li a.expanded:after{right:15px;}
+    .ssd_module h2{font-size: 22px;}
+    .ssd_module.faq_container{padding-top:10px;}
 }
 
 /* tab */
