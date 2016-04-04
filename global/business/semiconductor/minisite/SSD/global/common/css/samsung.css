@@ -18,10 +18,10 @@ input {-webkit-border-radius:0; -webkit-appearance:none;}
 input[type=text]::-ms-clear {display:none}
 input[type=text]::-webkit-input-placeholder,input[type=text]:-ms-input-placeholder,textarea::-webkit-input-placeholder,textarea:-ms-input-placeholder {color:#666}
 input[placeholder],input[type=text]:-moz-placeholder,input[type=text]::-moz-placeholder,textarea[placeholder],textarea:-moz-placeholder,textarea::-moz-placeholder {color:#666; opacity:1}
-@font-face { font-family: 'SamsungIFBlk'; src: url("../../common/font/SamsungOne-800.eot"); src: url("../../common/font/SamsungOne-800.eot?#iefix") format("embedded-opentype"), url("../../common/font/SamsungOne-800.woff") format("woff"), url("../../common/font/SamsungOne-800.ttf") format("truetype"), url("../../common/font/SamsungOne-800.svg#SamsungOne-800") format("svg"); font-weight: normal; font-style: normal; }
-@font-face { font-family: 'SamsungIFBd'; src: url("../../common/font/SamsungOne-600.eot"); src: url("../../common/font/SamsungOne-600.eot?#iefix") format("embedded-opentype"), url("../../common/font/SamsungOne-600.woff") format("woff"), url("../../common/font/SamsungOne-600.ttf") format("truetype"), url("../../common/font/SamsungOne-600.svg#SamsungOne-600") format("svg"); font-weight: normal; font-style: normal; }
-@font-face { font-family: 'SamsungIFRg'; src: url("../../common/font/SamsungOne-400.eot"); src: url("../../common/font/SamsungOne-400.eot?#iefix") format("embedded-opentype"), url("../../common/font/SamsungOne-400.woff") format("woff"), url("../../common/font/SamsungOne-400.ttf") format("truetype"), url("../../common/font/SamsungOne-400.svg#SamsungOne-400") format("svg"); font-weight: normal; font-style: normal; }
-@font-face { font-family: 'samsungIcon'; src: url("../../common/font/samsungIcon.eot"); src: url("../../common/font/samsungIcon.eot?#iefix") format("embedded-opentype"), url("../../common/font/samsungIcon.woff") format("woff"), url("../../common/font/samsungIcon.ttf") format("truetype"), url("../../common/font/samsungIcon.svg#samsungIcon") format("svg"); font-weight: normal; font-style: normal;}
+@font-face { font-family: 'SamsungIFBlk'; src: url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-800.eot"); src: url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-800.eot?#iefix") format("embedded-opentype"), url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-800.woff") format("woff"), url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-800.ttf") format("truetype"), url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-800.svg#SamsungOne-800") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'SamsungIFBd'; src: url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-600.eot"); src: url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-600.eot?#iefix") format("embedded-opentype"), url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-600.woff") format("woff"), url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-600.ttf") format("truetype"), url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-600.svg#SamsungOne-600") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'SamsungIFRg'; src: url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-400.eot"); src: url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-400.eot?#iefix") format("embedded-opentype"), url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-400.woff") format("woff"), url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-400.ttf") format("truetype"), url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-400.svg#SamsungOne-400") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'samsungIcon'; src: url("/global/business/semiconductor/minisite/SSD/global/common/font/samsungIcon.eot"); src: url("/global/business/semiconductor/minisite/SSD/global/common/font/samsungIcon.eot?#iefix") format("embedded-opentype"), url("/global/business/semiconductor/minisite/SSD/global/common/font/samsungIcon.woff") format("woff"), url("/global/business/semiconductor/minisite/SSD/global/common/font/samsungIcon.ttf") format("truetype"), url("/global/business/semiconductor/minisite/SSD/global/common/font/samsungIcon.svg#samsungIcon") format("svg"); font-weight: normal; font-style: normal;}
 html{font-size:16px; line-height:1.365}
 h1,div.solution-visual-area div.inarea h1,.key-visual .screen .focus-msg h1,.sec-title {font-size:32px; font-family: 'SamsungIFBlk';}
 .pop-tit {font-size:32px !important;}
@@ -124,15 +124,15 @@ button>.label{position:fixed; top:-999999em; left:-999999em; display:block; text
 a.btn-type1 {display:inline-block; height:40px; line-height:40px; padding:0 20px; color:#fff; vertical-align:middle; background: #0057A4;}
 a.btn-type1.link:after {display: inline-block; content: "\34"; margin: 0 0 0px 2px; margin-bottom: 1px; font-family:'samsungIcon'; vertical-align: middle; font-size: 0.9rem;}
 a.ico.facebook, a.ico.linkedin, a.ico.tw, a.ico.google{width:33px;height:32px;background-repeat:no-repeat;background-position:0 0;display:inline-block; font-size:14px}
-a.ico.facebook{background-image:url(../../common/img/ico/ico_social_facebook.png);}
-a.ico.linkedin{background-image:url(../../common/img/ico/ico_social_linkedin.png);}
-a.ico.tw{background-image:url(../../common/img/ico/ico_social_twitter.png);}
-a.ico.google{background-image:url(../../common/img/ico/ico_social_google.png)}
-.btn-ico.video{background:transparent url(../../common/img/ico/btn_video.png) no-repeat 0 0; width:60px; height:60px; background-size:60px auto;position:absolute;left:50%;top:50%;margin:-30px 0 0 -30px}
-.legacy-ie .btn-ico.video {width:68px; height:68px; background:url(../../common/img/ico/btn_video.png) no-repeat 0 0; margin:-34px 0 0 -34px}
+a.ico.facebook{background-image:url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/ico_social_facebook.png);}
+a.ico.linkedin{background-image:url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/ico_social_linkedin.png);}
+a.ico.tw{background-image:url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/ico_social_twitter.png);}
+a.ico.google{background-image:url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/ico_social_google.png)}
+.btn-ico.video{background:transparent url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/btn_video.png) no-repeat 0 0; width:60px; height:60px; background-size:60px auto;position:absolute;left:50%;top:50%;margin:-30px 0 0 -30px}
+.legacy-ie .btn-ico.video {width:68px; height:68px; background:url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/btn_video.png) no-repeat 0 0; margin:-34px 0 0 -34px}
 .btn-ico.video:after{display:none;}
 .btn-ico.video.type02 {left:25%}
-.btn-ico.video:hover {background-color:transparent !important; background-image:url(../../common/img/ico/btn_video_hover.png)}
+.btn-ico.video:hover {background-color:transparent !important; background-image:url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/btn_video_hover.png)}
 .btn-ico.submit-sch:before{content:"\e013"}
 .btn-area{text-align:center}
 .btn-area .btn-type1 + .btn-type1 {*margin-left:3px}
@@ -215,7 +215,7 @@ input[type=text], input[type=search], textarea, select{-moz-box-sizing:border-bo
 input[type=checkbox]{position:absolute;opacity:0}
 input[type=checkbox]+label{display:inline-block;padding-left:30px;position:relative}
 input[type=checkbox]+label:before{content:"";overflow:hidden;position:absolute;display:inline-block;width:24px;height:24px;left:0;border:1px solid #ccc;box-sizing:border-box;background-color:#fff;background-repeat:no-repeat;background-size:auto 100%;}
-input[type=checkbox]:checked+label:before{border-width:0;background-color:#0071bf;background-image:url(../../common/img/ico/ico_checked3.png);}
+input[type=checkbox]:checked+label:before{border-width:0;background-color:#0071bf;background-image:url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/ico_checked3.png);}
 input[type=checkbox]:checked+label.inpart:before{color:#fff; background-position:-50.545454px 0;background-color:#fff;border-width:1px}
     .legacy-ie input[type=checkbox]{position:static;margin:3px 0 0}
     .legacy-ie input[type=checkbox]+label{padding-left:6px}
@@ -225,12 +225,12 @@ input[disabled=disabled]+label:before{color:#5d5d5d; border-width:0;background-c
 input[type=checkbox]:focus + label:before,input[type=checkbox]:checked:focus + label:before {outline:1px dotted #000}
 input[type=radio]{position:absolute;opacity:0}
 input[type=radio]+label{display:inline-block;padding-left:24px;position:relative}
-input[type=radio]+label:before{content:"";overflow:hidden;position:absolute;display:inline-block;width:17px;height:17px;left:0;top:4px;background:url(../../common/img/ico/ico_radio.png) no-repeat 0 0}
+input[type=radio]+label:before{content:"";overflow:hidden;position:absolute;display:inline-block;width:17px;height:17px;left:0;top:4px;background:url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/ico_radio.png) no-repeat 0 0}
 input[type=radio]:checked+label:before{background-position:-20px 0}
     .legacy-ie input[type=radio]{position:static;margin:3px 0 0}
     .legacy-ie input[type=radio]+label{padding-left:6px}
     .legacy-ie input[type=radio]+label:before{display:none !important}
-select{font-size:18px;font-size:1rem; height:38px; line-height:38px; padding-left:7px;border:0;border-radius:0;-webkit-appearance:none; background:#fff url(../../common/img/ico/ico_select.png) no-repeat right 5px center}
+select{font-size:18px;font-size:1rem; height:38px; line-height:38px; padding-left:7px;border:0;border-radius:0;-webkit-appearance:none; background:#fff url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/ico_select.png) no-repeat right 5px center}
 .ie8 select {height:38px}
     .legacy-ie select{height:auto}
 textarea{border:0;}
@@ -319,7 +319,7 @@ button.ctl-accordion.expanded:after{content:"\28"}
 .key-visual+.floating-jumpmenu.active{margin-top:0}
 */
 /* jumpmenu : base */
-.floating-jumpmenu {width:100%; background:url("../../common/img/layout/bg-jump-default.png"); border-bottom:1px solid #dcdcdc; text-transform:uppercase; position:relative; font-size:1rem;  font-family:'SamsungIFBd'; color:#0057a4;}
+.floating-jumpmenu {width:100%; background:url("/global/business/semiconductor/minisite/SSD/global/common/img/layout/bg-jump-default.png"); border-bottom:1px solid #dcdcdc; text-transform:uppercase; position:relative; font-size:1rem;  font-family:'SamsungIFBd'; color:#0057a4;}
 .acc-cont .floating-jumpmenu,.floating-jumpmenu li a.active:before {display:none;}
 .floating-jumpmenu.active{position:fixed;left:0;top:0;right:0;z-index:9;display:block !important;margin-top:0;z-index:9999999}
 .floating-jumpmenu.active>div{display:block}
@@ -419,7 +419,7 @@ a.btn-jump span {text-transform:none}
     .floating-jumpmenu.pdp>button {padding-right:80px;}
     .floating-jumpmenu.pdp .btn-jump-wrap {top:51px}
     .floating-jumpmenu {height:40px}
-    .floating-jumpmenu>div{display:none;padding:0;text-align:left; /*margin-right:41px;*/ background:url(../../common/img/layout/bg-jump-default.png)}
+    .floating-jumpmenu>div{display:none;padding:0;text-align:left; /*margin-right:41px;*/ background:url(/global/business/semiconductor/minisite/SSD/global/common/img/layout/bg-jump-default.png)}
     .floating-jumpmenu .product-title,     .floating-jumpmenu h2 {height:50px}
     .floating-jumpmenu .product-title span,     .floating-jumpmenu h2 span {padding:15px 10px; line-height:20px; font-size: 22px;}
     .floating-jumpmenu>button{display:block; padding:0 55px 0 10px; border-left:1px solid #989898;}
@@ -517,7 +517,7 @@ a.btn-jump span {text-transform:none}
     .key-visual.home_kv li .kv_desktop {width:1920px; height:600px; right:50%; margin-right:-960px}
     .key-visual li .kv_mobile {display:none}
 }
-.key-visual .screen .focus-msg{position:absolute;left:10px;top:10px;bottom:10px;width:30.1%;padding:0 1.4694%; background:url(../../common/img/layout/bg_kv_txt.png);color:#fff; line-height: 1.2;}
+.key-visual .screen .focus-msg{position:absolute;left:10px;top:10px;bottom:10px;width:30.1%;padding:0 1.4694%; background:url(/global/business/semiconductor/minisite/SSD/global/common/img/layout/bg_kv_txt.png);color:#fff; line-height: 1.2;}
 .key-visual .screen .focus-msg h1{padding-top:5%;overflow:hidden; text-transform:uppercase;}
 .key-visual .screen .focus-msg h1 a{display:block; position:relative; font-size:18px;overflow:hidden; text-transform:uppercase; /*color:#b8d8ee;*/ padding-left:24px; font-family:'SamsungIFBlk';}
 .key-visual .screen .focus-msg h1 a:after {display:inline-block; position:absolute; top:0; left:0; content:"\e613"; font-family:'samsungIcon'}
@@ -626,17 +626,17 @@ a.btn-jump span {text-transform:none}
     .key-visual .screen .focus-msg button[type=button]~button[type=button],     .key-visual .screen .focus-msg a.btn-type1 ~ button[type=button] {margin:10px 0 0 }
 }
 /* static type skin */
-.key-visual .screen.contact-skin{background-image:url(../../common/img/skin/vi_contact.png);}
-.key-visual .screen.solution-detail-skin{background-image:url(../../common/img/skin/vi_solution.png);}
+.key-visual .screen.contact-skin{background-image:url(/global/business/semiconductor/minisite/SSD/global/common/img/skin/vi_contact.png);}
+.key-visual .screen.solution-detail-skin{background-image:url(/global/business/semiconductor/minisite/SSD/global/common/img/skin/vi_solution.png);}
 @media (max-width:767px){
-    .key-visual .screen.contact-skin{background-image:url(../../common/img/skin/vi_contact_m.png)}
+    .key-visual .screen.contact-skin{background-image:url(/global/business/semiconductor/minisite/SSD/global/common/img/skin/vi_contact_m.png)}
 }
-a.btn-clip-square {display:inline-block; position:absolute; right:5px; top:5px; width:25px; height:25px; vertical-align:middle; background: url(../../common/img/ico/btn-kv-sns.png) no-repeat 0 0; border-radius:5px}
+a.btn-clip-square {display:inline-block; position:absolute; right:5px; top:5px; width:25px; height:25px; vertical-align:middle; background: url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/btn-kv-sns.png) no-repeat 0 0; border-radius:5px}
 a.btn-clip-square:after {content:"\e612"; font-family:'samsungIcon'; display:inline-block; width:25px; height:25px; text-align:center; line-height:25px; font-size:16px; color:#fff}
 .act-sns{position:absolute;max-width:1366px;left:0;top:0;width:100%; height:10px}
 .legacy-ie .act-sns {width:1366px; left:50%; margin-left:-683px}
 .act-sns>div{position:absolute;right:10px;top:10px;overflow:hidden}
-.act-sns a{position:relative; float:right; display:block; width:33px; height:33px; margin-top:10px; margin-right:28px; background:url(../../common/img/ico/btn-kv-sns.png) no-repeat 0 0; border-radius:5px}
+.act-sns a{position:relative; float:right; display:block; width:33px; height:33px; margin-top:10px; margin-right:28px; background:url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/btn-kv-sns.png) no-repeat 0 0; border-radius:5px}
 .act-sns a:after {position:absolute; right:0; top:0; display:inline-block; width:33px; height:33px; text-align:center; line-height:33px; content:'\48'; font-family:'samsungIcon'; font-size:22px; color:#fff}
 @media (max-width:1023px){
     .act-sns a {margin-right:15px}
@@ -724,7 +724,7 @@ div.top-visual-area.short-type {min-height:150px; height:auto;}
     div.solution-visual-area a.btn-type1 {display:inline-block; margin-right:5px; background:#fff;color:#0057A4; line-height:40px}
     .solution-visual-area .kv_btn_wrap {padding: 0 10px; margin:0 auto; max-width:1346px; *zoom:1; margin-bottom:10px; overflow:hidden;}
     .solution-visual-area .kv_btn_wrap:after {display:block; clear:both; content:''}
-    .solution-visual-area .kv_btn_wrap > div {box-sizing:border-box; width:49.7%; padding:20px; background:url('../../common/img/layout/bg_kv_txt.png'); margin-bottom:-9999px; padding-bottom:9999px;}
+    .solution-visual-area .kv_btn_wrap > div {box-sizing:border-box; width:49.7%; padding:20px; background:url('/global/business/semiconductor/minisite/SSD/global/common/img/layout/bg_kv_txt.png'); margin-bottom:-9999px; padding-bottom:9999px;}
         .legacy-ie .solution-visual-area .kv_btn_wrap > div {float:left; width:667px}
     .legacy-ie .solution-visual-area .kv_btn_wrap > div:first-child {margin-right:10px}
     .solution-visual-area .kv_btn_wrap p {height:55px; line-height: 1.1; font-size:28px; color:#fff; margin-bottom:10px;}
@@ -761,7 +761,7 @@ div.top-visual-area.short-type {min-height:150px; height:auto;}
 .key-visual .ctl-carousel {margin:0 auto; position:absolute; left:0; right:0; bottom:20px; text-align:center}  /* max-width:1366px;  */
 .key-visual .ctl-carousel .prev, .key-visual .ctl-carousel .next, .key-visual .ctl-carousel ul, .key-visual .ctl-carousel li{display:inline-block;vertical-align:top}
     .ie7 .key-visual .ctl-carousel .prev,     .ie7 .key-visual .ctl-carousel .next,     .ie7 .key-visual .ctl-carousel ul,     .ie7 .key-visual .ctl-carousel li{display:inline;}
-.key-visual .ctl-carousel button{width:28px;height:25px;vertical-align:top; background:url(../../common/img/ico/btn_carousel.png) no-repeat 0 0}
+.key-visual .ctl-carousel button{width:28px;height:25px;vertical-align:top; background:url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/btn_carousel.png) no-repeat 0 0}
 .key-visual .ctl-carousel .next{background-position:-90px 0}
 .key-visual .ctl-carousel .pause{background-position:-60px 0}
 .key-visual .ctl-carousel .play{background-position:-30px 0}
@@ -890,7 +890,7 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 .radio-cont {display:inline-block; vertical-align:middle}
 .radio-cont .radio-box {display:inline-block}
 .radio-cont .radio-box + .radio-box {margin-left:15px}
-.radio-cont .radio-box input[type=radio]:checked+label:before {background:url('../../common/img/ico/ico_radio_blue.png') no-repeat right center;}
+.radio-cont .radio-box input[type=radio]:checked+label:before {background:url('/global/business/semiconductor/minisite/SSD/global/common/img/ico/ico_radio_blue.png') no-repeat right center;}
 .btn-advanced-cls {display: block; padding: 0 30px 0 12px; position:absolute; right:-1px; bottom:-30px; height: 30px;line-height: 30px; background-color: #707070; text-align: center; font-size: 14px; color: #fff;}
 .btn-advanced-cls:after {margin-top: 4px; position: absolute; padding-left: 5px; font-size: 8px; line-height: 22px; font-family: 'samsungIcon'; content: "\2f";}
 .btn-area.right {text-align:right;}
@@ -922,21 +922,21 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 .header-wrap:after {display:block; content:""; clear:both;}
 .header-wrap .browser-notice {padding:5px 20px;background:#00AFEF;color:#fff;position:relative;display:none; text-align:center}
 .header-wrap .browser-notice span{max-width:1286px;padding-right:10px;text-align:center; vertical-align:middle; line-height:16px;}
-.header-wrap .browser-notice button {display:inline-block; width:16px;height:16px; line-height:16px; background:url(../../common/img/ico/btn_top_close2.png) no-repeat 0 0; vertical-align:middle}
+.header-wrap .browser-notice button {display:inline-block; width:16px;height:16px; line-height:16px; background:url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/btn_top_close2.png) no-repeat 0 0; vertical-align:middle}
 .header-wrap .cookie-notice{display:none; position:relative; padding:5px 20px; text-align:center; color:#d2d2d2; background:#52565a;}
 .header-wrap .cookie-notice span{text-align:center}
 .header-wrap .cookie-notice span a{margin:0 10px; color:#fff}
-.header-wrap .cookie-notice button {display:inline-block; width:16px;height:16px; line-height:16px; background:url(../../common/img/ico/btn_top_close2.png) no-repeat 0 0; vertical-align:middle}
+.header-wrap .cookie-notice button {display:inline-block; width:16px;height:16px; line-height:16px; background:url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/btn_top_close2.png) no-repeat 0 0; vertical-align:middle}
 .welcome {position:relative; padding:5px 0; background:#f8f8f8; text-align:center; display:none}
 .welcome p {display:inline-block; *display:inline; *zoom:1; padding-right:10px;}
-.welcome button {display:inline-block; width:16px;height:16px; line-height:16px; background:url(../../common/img/ico/btn_top_close.png) no-repeat 0 0; vertical-align:middle}
-.welcome .btn-close02 {display:block; position:absolute; top:50%; right:15px; width:15px; height:19px; margin-top:-9px; background:url(../../common/img/layout/btn_close_02.png) no-repeat;}
+.welcome button {display:inline-block; width:16px;height:16px; line-height:16px; background:url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/btn_top_close.png) no-repeat 0 0; vertical-align:middle}
+.welcome .btn-close02 {display:block; position:absolute; top:50%; right:15px; width:15px; height:19px; margin-top:-9px; background:url(/global/business/semiconductor/minisite/SSD/global/common/img/layout/btn_close_02.png) no-repeat;}
 .header-wrap .space{display:block;height:30px;background-color: #fff;}
 .header-wrap .header{margin:0 auto;max-width:1310px;padding:0 28px;height:50px;position:relative}
 .header-wrap .header:after {content:""; display:block; clear:both}
 .header-wrap .logo {float:left;color:#fff; margin:0 17px 0 0; position:relative; top: 14px; width: 139px;}
-.header-wrap .logo a {display:block; width: 139px; height: 22px; background:url(../../common/img/layout/logo-samsung-2x.png) no-repeat 0 0; background-size: 139px 21px;}
-.legacy-ie .header-wrap .logo a {background:url(../../common/img/layout/samsung-semiconductor-logo.png) no-repeat 0 0;}
+.header-wrap .logo a {display:block; width: 139px; height: 22px; background:url(/global/business/semiconductor/minisite/SSD/global/common/img/layout/logo-samsung-2x.png) no-repeat 0 0; background-size: 139px 21px;}
+.legacy-ie .header-wrap .logo a {background:url(/global/business/semiconductor/minisite/SSD/global/common/img/layout/samsung-semiconductor-logo.png) no-repeat 0 0;}
 .header-wrap .logo a > span{display:block;position:absolute;left:0;top:-45px;white-space:nowrap;color:#0057a4;font-size:12px;line-height:30px; text-transform:uppercase; font-family: 'SamsungIFBd';}
 .header-wrap .logo > p {display:none}
 .header-wrap .nav{float:left;height:100%}
@@ -1031,9 +1031,9 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 .header-wrap .call-smartfinder.active {background-color:#0071bf}
 
 .header-wrap .call-personalHistory {margin-left:10px; float:left; width:34px;}
-.header-wrap .call-personalHistory:after {display:block; content:'';  font-size:26px; font-family: 'samsungIcon';  background:url(../../common/img/layout/ico_history.png) no-repeat 50% 0; background-size:29px 25px; width:34px; height:25px}
+.header-wrap .call-personalHistory:after {display:block; content:'';  font-size:26px; font-family: 'samsungIcon';  background:url(/global/business/semiconductor/minisite/SSD/global/common/img/layout/ico_history.png) no-repeat 50% 0; background-size:29px 25px; width:34px; height:25px}
 .header-wrap .call-personalHistory.active {background-color:#e5eef6; color:#1428a0;}
-.header-wrap .call-personalHistory:hover:after{background:url(../../common/img/layout/ico_history_over.png) no-repeat 50% 0;background-size:29px 25px;}/* 조재영 history 임의 이미지 */
+.header-wrap .call-personalHistory:hover:after{background:url(/global/business/semiconductor/minisite/SSD/global/common/img/layout/ico_history_over.png) no-repeat 50% 0;background-size:29px 25px;}/* 조재영 history 임의 이미지 */
 
 .header-wrap .header:after, .header-wrap .nav:after, .header-wrap .local-menu:after{content:"";display:block;clear:both;visibility:hidden}
 .header-wrap a.retial-mobile-btn, .header-wrap a.retail-mobile-btn {display:none}
@@ -1165,7 +1165,7 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 .footer .info .entermail .frm .choose{margin:10px 0}
 .footer .info .entermail .frm .choose a{color:#0057a4}
 .footer .info input[type=checkbox]+label:before{display:block;top:1px;width:18px;height:18px; line-height:18px; border:1px solid #bdc1c4;border-radius:2px}
-.footer .info input[type=checkbox]:checked+label:before{background-color:#fff;background-image:url(../../common/img/ico/ico_checked.png);background-position:-1px -1px}
+.footer .info input[type=checkbox]:checked+label:before{background-color:#fff;background-image:url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/ico_checked.png);background-position:-1px -1px}
     .legacy-ie .footer .info input[type=checkbox]{position:static;float:left;margin:3px 0 0}
     .legacy-ie .footer .info input[type=checkbox]+label:before{display:none}
 .footer .info .entermail .opt{width:210px;float:left;margin-right:-210px;font-size:0.875em;color:#0057a4}
@@ -1189,8 +1189,8 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 .footer .info .email-form p.address-input{padding:0; padding-bottom:20px;}
 .footer .info .email-form a{ color:#0057a4;}
 .footer .info .grid-col3 .col-inner{ padding-right:10px;}
-.footer .info .grid-col3 .network{background:url(../../common/img/layout/bg_subscription01.png) no-repeat right 0;}
-.footer .info .grid-col3 .workplace{margin-top:25px; padding-top:25px;background:url(../../common/img/layout/bg_subscription02.png) no-repeat right 25px;}
+.footer .info .grid-col3 .network{background:url(/global/business/semiconductor/minisite/SSD/global/common/img/layout/bg_subscription01.png) no-repeat right 0;}
+.footer .info .grid-col3 .workplace{margin-top:25px; padding-top:25px;background:url(/global/business/semiconductor/minisite/SSD/global/common/img/layout/bg_subscription02.png) no-repeat right 25px;}
 .footer .info .scription_box{float:left; width:66.66%;}
 .footer .info .grid-col3.contact-us,.footer .info .grid-col3.subscription,.footer .info .grid-col3.sales{box-sizing:border-box; padding-left:18px;}
 .footer .info .grid-col3.subscription{width:50%; padding-left:0; min-height:0;}
@@ -1288,7 +1288,7 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 .footer .sitemap .col-inner>ul{padding:14px 0 0;overflow:hidden}
 .footer .sitemap .col-inner>ul>li>a{display:inline-block;padding:2px 0 1px 0px; color:#fff; font-size:14px}
 .footer .sitemap .col-inner ul ul{padding:2px 0 5px 15px}
-.footer .sitemap .col-inner ul ul a{display:inline-block;padding:1px 0 0 7px; color:#fff; background:url(../../common/img/ico/ico_sitemap_sub.png) no-repeat 0 8px;position:relative; font-size:14px} /* 2014-08-24 */
+.footer .sitemap .col-inner ul ul a{display:inline-block;padding:1px 0 0 7px; color:#fff; background:url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/ico_sitemap_sub.png) no-repeat 0 8px;position:relative; font-size:14px} /* 2014-08-24 */
 .footer .sitemap .col-inner>ul>li a.outlink:after {margin-left:5px; margin-bottom:1px; font-family:'samsungIcon'; content:'\e60e'; font-size:0.9rem}
 .footer .sitemap .frm{position:relative; margin-top:38px;padding-right:35px;overflow:hidden;height:37px}
 .footer .sitemap .frm input[type=search], .footer .sitemap .frm input[type=text]{display:inline-block; float:left;width:100%; height:37px; line-height:19px; padding:8px 10px; padding-right:25px; background:#fff; -khtml-border-radius:3px 0 0 3px; -moz-border-radius:3px 0 0 3px; -webkit-border-radius:3px 0 0 3px; border-radius:3px 0 0 3px; -moz-background-clip:padding; -webkit-background-clip:padding-box; background-clip:padding-box; border:1px solid #dadee1; border-right-width:0; -webkit-appearance:none; font-size:18px}
@@ -1534,7 +1534,7 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 .bright-list li a {position: relative; display:block; width:100% font-size: 0; line-height: 0;}
 .bright-list li a img {width:100%}
 .bright-list li.active .active-cover {display:block; position:absolute; top:-5px; left:-5px; width:100%; height:100%; border:5px solid #01a8e0;  z-index:1}
-.btn-close2 {display:block; position:absolute; top:32px; right:12px; width:19px; height:20px; background:url(../../common/img/layout/btn_close_03.png) no-repeat;}
+.btn-close2 {display:block; position:absolute; top:32px; right:12px; width:19px; height:20px; background:url(/global/business/semiconductor/minisite/SSD/global/common/img/layout/btn_close_03.png) no-repeat;}
 @media (max-width:1023px) {
     .bright-main {position:relative; height:300px}
 }
@@ -1991,7 +1991,7 @@ table.support-info .img-ox {width:20px;}
 .business_service li p{display: block; border: 1px solid #e9e9e9; font-size: 21px; padding: 20px; line-height: 22px; height: 22px; position: relative; padding-right: 50px;}
 .business_service li p:after{content: ""; clear: both; display: block;}
 .business_service li p span{float: left; display: block;white-space:nowrap; overflow:hidden; word-break:break-all; text-overflow:ellipsis; -o-text-overflow: ellipsis; /*-moz-binding: url('ellipsis.xml#ellipsis');*/ vertical-align:middle; display:inline-block; width: 100%;}
-.business_service li p a{float: right; display: block; width: 22px; height: 22px; background: url(../../common/img/ico/ico_mail.png) no-repeat 50% 50%; text-indent: -9999px; overflow: hidden; position: absolute; right: 20px;top: 20px;}
+.business_service li p a{float: right; display: block; width: 22px; height: 22px; background: url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/ico_mail.png) no-repeat 50% 50%; text-indent: -9999px; overflow: hidden; position: absolute; right: 20px;top: 20px;}
 .business_service li p img{ vertical-align: top; margin-right: 2px;}
 
 @media (min-width:768px) and (max-width:1023px){
