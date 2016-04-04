@@ -1972,9 +1972,10 @@ table.support-info .img-ox {width:20px;}
 .download-file-list .v-line{position:absolute;top:25px;right:50%;width:1px;height:100%;background-color:#dcdcdc;display:inline-block}
 
 @media (max-width:767px){
-  .download-file-list .download-file > p{border-bottom:solid 1px #dcdcdc}
+  .download-file-list .download-file > p{border-bottom:solid 1px #dcdcdc;padding-left:15px}
   .download-file-list .download-file > p:first-child{border-top:solid 1px #dcdcdc}
   .download-file-list .download-file > p > span{width:50%}
+  .download-file-list .download-file > p > a{right:15px}
   .download-file-list .download-file.down2{padding-left:0;margin-top:0}
   .download-file-list .download-file.down2 p{border-top:none}
   .download-file-list .v-line{display:none}
