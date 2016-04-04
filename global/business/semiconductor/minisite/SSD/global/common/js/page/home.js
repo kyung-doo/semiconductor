@@ -378,7 +378,6 @@ function change_img(mode) {
 				img_url = $this.attr('data-media-desktop');
 				break;
 		};
-		
 		$this.attr('src', img_url);
 	});
 };

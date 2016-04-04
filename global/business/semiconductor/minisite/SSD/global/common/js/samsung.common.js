@@ -225,6 +225,8 @@ var _common = {
 	 *
 	 */
 	change_img : function(mode) {
+        
+        
 		var kv_url = '';
 
 		$('*[data-role=ui-flick]').not('.key-visual').find('>div>ul>li>div:not([data-role=not-responsive])').each(function() {
@@ -238,7 +240,6 @@ var _common = {
 					kv_url = typeof $(this).attr('data-media-desktop') !== 'undefined' ? $(this).attr('data-media-desktop') : $(this).css('backbround-image');
 					break;
 			}
-
 			$(this).css('background-image', 'url(\"' + kv_url + '\")');
 		});
 	},
