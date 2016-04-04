@@ -1914,6 +1914,9 @@ table.support-info .img-ox {width:20px;}
    .product-visual .title{font-size:42px;width:300px !important}
    .product-visual .txt{font-size:15px;width:300px !important}
    .product-visual .txt em{font-size:13px}
+   .product-visual{padding-top:70px}
+   .product-visual:first-child{padding-top:35px}
+   .product-visual .vi{margin-top:15px}
 }
 
 /* specifi-list */
@@ -1954,20 +1957,26 @@ table.support-info .img-ox {width:20px;}
   .show-more-spec div.inarea .data-table table td{padding:0 15px}
   .fix-table table th{padding:0 15px}
   .fix-table table td{padding:0 15px}
+  .show-more-spec{margin-top:10px}
+  .show-more-spec .show_btn{padding:15px}
 }
 
 /* download-file-list */
 .download-file-list{position:relative}
-.download-file-list .download-file > p{padding:10px 0;width:90%}
+.download-file-list .download-file > p{position:relative;padding:10px 0}
 .download-file-list .download-file > p > span{position:relative;display:inline-block;width:90%;padding-left:8px}
-.download-file-list .download-file > p > span:before{content:"";position:absolute;top:50%;left:0;display:inline-block;width:2px;height:2px;background-color:#000;margin-top:-2px}
-.download-file-list .download-file > p > a{margin-top:0}
+.download-file-list .download-file > p > span:before{content:"";position:absolute;top:10px;left:0;display:inline-block;width:2px;height:2px;background-color:#000;margin-top:-2px}
+.download-file-list .download-file > p > a{margin-top:0;position:absolute;top:9px;right:75px}
 .download-file-list .download-file.down2{padding-left:30px}
 .download-file-list .grid-col2{position:relative}
 .download-file-list .v-line{position:absolute;top:25px;right:50%;width:1px;height:100%;background-color:#dcdcdc;display:inline-block}
+
 @media (max-width:767px){
-  .download-file-list .download-file > p{width:100%}
-  .download-file-list .download-file.down2{padding-left:0}
+  .download-file-list .download-file > p{border-bottom:solid 1px #dcdcdc}
+  .download-file-list .download-file > p:first-child{border-top:solid 1px #dcdcdc}
+  .download-file-list .download-file > p > span{width:50%}
+  .download-file-list .download-file.down2{padding-left:0;margin-top:0}
+  .download-file-list .download-file.down2 p{border-top:none}
   .download-file-list .v-line{display:none}
 }
 
