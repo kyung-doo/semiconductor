@@ -1857,6 +1857,22 @@ table.support-info .img-ox {width:20px;}
 }
 
 
+/* quick-download */
+.quick-download .donwload-con{position:relative;padding:25px;background-color:#f1f1f1}
+.quick-download .donwload-con h4{font-size:26px;font-family:"SamsungIFBd";padding-bottom:15px;border-bottom:solid 1px #dcdcdc}
+.quick-download .donwload-con p{position:relative;padding-top:15px}
+.quick-download .donwload-con p > span{position:relative;padding-left:8px}
+.quick-download .donwload-con p > span:before{content:"";position:absolute;top:10px;left:0;display:inline-block;width:2px;height:2px;background-color:#000;margin-top:-2px}
+.quick-download .donwload-con p > span > em{margin-left:10px;color:#9c9c9c}
+.quick-download .donwload-con p .btn{position:absolute;top:15px;right:0;margin-top:0 !important}
+@media (max-width:767px){
+    .quick-download .donwload-con{padding:15px}
+    .quick-download .donwload-con h4{font-size:19px;padding-bottom:10px}
+    .quick-download .donwload-con p{font-size:14px;padding-top:10px;}
+    .quick-download .donwload-con p .btn{top:10px}
+    
+}
+
 
 /* products-list */
 .products-list{margin-top:10px}
