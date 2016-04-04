@@ -1,0 +1,690 @@
+<?php include($_SERVER['DOCUMENT_ROOT'].'/global/business/semiconductor/minisite/SSD/global/sec/ssi/header/dochead_html5.sec')?>
+
+<!-- 페이지별 css link,js -->
+<script src="/global/business/semiconductor/minisite/SSD/global/common/js/page/home.js"></script>
+<script src="/global/business/semiconductor/minisite/SSD/global/common/js/page/aboutus.js"></script>
+<link rel="stylesheet" type="text/css" media="all" href="/global/business/semiconductor/minisite/SSD/global/common/css/pages/pdp.css">
+<!-- //페이지별 css link,js -->
+
+<title>Samsung Semiconductor</title>        <!-- unique한 페이지 title -->
+
+<?php include($_SERVER['DOCUMENT_ROOT'].'/global/business/semiconductor/minisite/SSD/global/sec/semi_header.sec')?>
+
+<!-- contents wrapper -->
+<div class="content-wrap">
+    <div id="content">
+        <span class="blind">Content</span>
+    </div>
+    <!-- content -->
+
+    <!-- key visual -->
+    <div class="key-visual" data-role="ui-flick" data-autoplay="Y">
+        <div data-role="ui-flick-container">
+            <ul class="item4"  data-role="ui-flick-content">        <!-- class:"item"+slide item sum -->
+                <li>
+                    <div class="screen movie">
+                        <img alt="" data-media-mobile="/global/business/semiconductor/minisite/SSD/global/common/img/kv/kv_whereTobuy_767.jpg" data-media-desktop="/global/business/semiconductor/minisite/SSD/global/common/img/kv/kv_whereTobuy_1920.jpg" class="kv_desktop" />
+                        <div>
+                            <div class="focus-msg">
+                                <h1 class="tit">
+                                    <em>FAQs</em>
+                                    YOUR COMPUTING LIFE
+                                    UPGRADED WITH SAMSUNG
+                                    V-NAND SSD
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- //key visual -->
+    <div class="acc-help-container ssd_module faq_container">
+        <!-- tab-menu -->
+        <div class="grid-row">
+            <div class="grid-col">
+                <h2 class="faq_title">All SSD</h2>
+                <div class="col-inner">
+
+                    <ul class="tab type5" data-role="ui-btn-1depth">
+                        <li class=""><a href="FAQs_Install_01.html">INSTALL &amp; UPGRADE</a></li>
+                        <li class=""><a href="FAQs_Install_02.html">TROUBLESHOOTING</a></li>
+                        <li class="active"><a href="FAQs_Install_03.html">ENHANCE PERFORMANCE &amp; MAINTAIN</a></li>
+                        <li class=""><a href="FAQs_Install_04.html">RESOURCES &amp; UTILITIES</a></li>
+                        <li class=""><a href="FAQs_Install_05.html">SERVICE &amp; WARRANTY</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- //tab-menu -->
+        <!-- tab-content -->
+        <div class="acc-cont" data-role="ui-tab-1depth" style="display: block;">
+            <!-- fixed tab menu -->
+            <div class="floating-jumpmenu lone" data-role="ui-tab-jump">
+                <button type="button" data-role="ui-tab-jump-btn"><span>CERTIFICATIONS</span></button>
+                <div class="second-jump">
+                    <ul class="col5">
+                        <li><a href="FAQs_Install_01.html" data-role="ui-tab-jump-menu" class=""><span>INSTALL &amp; UPGRADE</span></a></li>
+                        <li><a href="FAQs_Install_02.html" data-role="ui-tab-jump-menu" class=""><span>TROUBLESHOOTING</span></a></li>
+                        <li><a href="FAQs_Install_03.html" data-role="ui-tab-jump-menu" class="active"><span>ENHANCE PERFORMANCE &amp; MAINTAIN</span></a></li>
+                        <li><a href="FAQs_Install_04.html" data-role="ui-tab-jump-menu" class=""><span>RESOURCES &amp; UTILITIES</span></a></li>
+                        <li><a href="FAQs_Install_05.html" data-role="ui-tab-jump-menu" class=""><span>SERVICE &amp; WARRANTY</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- //fixed tab menu -->
+            <div data-role="ui-tab-content">
+                <div class="grid-row">
+                    <div class="col-inner">
+                    <ul class="support-list-type" data-role="ui-accordion">
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">What is AHCI? </a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">AHCI stands for Advanced Host Controller Interface. <br>This specification enables communication with an attached storage device.<br>Think of it as a translator, allowing two devices (your host machine and the attached storage device) that speak slightly different languages to understand each other.<br>AHCI mode must be enabled to use Native Command Queuing (NCQ) or Hot Plugging (aka Hot Swapping) functionality as well as Power Management in SATA storage devices.<br><br>The Advanced Host Controller Interface (AHCI) is a technical standard defined by Intel that specifies the operation of Serial ATA (SATA) host bus adapters in a non-implementation-specific manner.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">What kind of encryption method does each Samsung SSD model provide? </a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">Samsung SSD provides internal hardware encryption and management of all data stored on the SSD, including the operating system. <br>
+                                        Data is decrypted through a preboot authentication process.<br>
+                                        Because all user data is encrypted, private information is protected against loss or theft.<br>
+                                        Encryption is done by hardware, which provides a safer environment without sacrificing performance.<br><br>
+
+                                        The encryption method provided by each model is as follows. You cannot use more than one method simultaneously.<br>
+                                        AES, TCG/OPAL, and eDrive cannot be activated simultaneously; to enable one, you must disable the others.<br>
+                                    </p>
+                                    <ul class="sub_list">
+                                        <li>AES(Advanced Encryption Standard, Class0 SED) : 850 PRO, 840/840 PRO/840 EVO</li>
+                                        <li>TCG OPAL :840 EVO , 850 PRO</li>
+                                        <li>e-DRIVE : 840 EVO, 850 PRO</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">What is AES (Class 0 SED), and how do I use it? </a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">AES (Advanced Encryption Standard, Class0 SED) technology is the standard algorithm of the United States that was designed to protect computer data. <br>
+                                        The AES technology applied to the SSD employs hardware-based controller and encryption technology, which minimizes the loss of performance and encrypts data to protect the stored information against external access.
+
+                                    </p>
+                                    <ul class="sub_list">
+                                        <li>Some Samsung SSD models (840, 840 Pro, 840 Evo, 850 PRO) support AES-256bit. 256bit refers to the length of the key used for data encryption. The larger the bit number, the more powerful the encryption becomes.</li>
+                                        <li>If you enable the HDD Password in BIOS, SED using the Class0 mode will be enabled, and you don't need to install separate software. <br>
+                                            Some systems or BIOS may not support this feature.</li>
+                                        <li>How to set up AES encryption:
+                                            <p class="indent">In BIOS, Security > Password on boot > HDD Password (※May differ depending on the BIOS)</p>
+                                        </li>
+                                        <li>The encryption key set for the AES is stored in the NAND of the SSD. If the key is lost, you can only reset the encryption key by performing a Secure Erase. If you do so, all existing data will be lost.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">What is TCG OPAL, and how do I use it? </a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">TCG Opal (840EVO, 850 PRO) : It is an authentication method that employs the protocol specified by the TCG (Trusted Computing Group). <br>
+                                        You need to install TCG software supplied by a TCG OPAL software development company.<br>
+                                        User authentication is done by Preboot Authentication provided by the software.<br>
+                                        For more detailed information and instructions, please contact a TCG software company.<br>
+                                        In addition, TCG/opal can only be enabled/disabled by using special security software.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">What is e-DRIVE, and how do I use it? </a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">eDrive (available for 840 EVO and 850 PRO): <br>
+                                        eDrvie linked with BitLocker software is a technology to improve the security performance of BitLocker, which is provided by the Microsoft Windows operating system.<br>
+                                        BitLocker uses software-handled encryption, but when it is linked with a storage device that supports eDrive, it can perform hardware-based encryption, thereby improving both security and performance while minimizing CPU usage.<br>
+                                        After installing an operating system on a storage device that supports eDrive, run BitLocker, which will automatically link the two. Among Samsung SSD models, 840 EVO supports eDRIVE.
+                                    </p>
+                                    <dl class="sub_dl">
+                                        <dt>How to set up e-DRIVE:</dt>
+                                        <dd>You can convert e-Drive to “Ready to enable” by using Magician software. Then, the e-Drive is automatically enabled when a clean installation of an eDrive-compatible OS is performed. </dd>
+                                        <dd>When e-Drive is Enabled, you cannot use Magician to manually change the status to Disabled or Ready to enable. For more information, please contact customer service or your OS provider (Microsoft).</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">What should I watch out for when using e-DRIVE?</a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">When using e-DRIVE, pay attention to the following information.</p>
+                                    <ul class="sub_list">
+                                        <li>It can be used only with Windows8 and Windows Server 2012.</li>
+                                        <li>All Encrypted Hard Drives must be attached to non-RAID controllers to function properly in Windows 8 or Windows Server 2012.</li>
+                                        <li>For Encrypted Hard Drives used as data drives:
+                                            <p class="indent">The drive must be in an uninitialized state.</p>
+                                            <p class="indent">The drive must be in a security inactive state.</p>
+                                        </li>
+                                        <li>For Encrypted Hard Drives used as startup drives:
+                                            <p class="indent">The drive must be in an uninitialized state.</p>
+                                            <p class="indent">The drive must be in a security inactive state.</p>
+                                            <p class="indent">The computer must be UEFI 2.3.1 based and have the EFI_STORAGE_SECURITY_COMMAND_PROTOCOL defined. <br>(This protocol is used to allow programs running in the EFI boot services environment to send security protocol commands to the drive).</p>
+                                            <p class="indent">The computer must have the Compatibility Support Module (CSM) disabled in UEFI.</p>
+                                            <p class="indent">The computer must always boot natively from UEFI.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">Why is the capacity of my Samsung Solid State Drive displayed differently from the actual capacity?</a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">Samsung SSDs conform to the International Disk Drive Equipment and Materials (IDEMA) standard, which classifies approximately 93 percent of their actual physical memory capacity as usable space for storage. <br><br>
+
+                                        To make calculations easier for consumers, manufactures rate drive capacity based on the assumption that 1 GB is equal to 1,000 Megabytes (MB) rather than 1,024 MB.
+                                        When calculating capacity, the OS uses the more accurate 1,024MB, resulting in the discrepancy you notice when looking at the reported capacity versus the actual capacity.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">How can I check the performance of my SSD?</a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">You can check the performance of your Samsung SSD by using the Samsung SSD Magician tool available from the www.samsung.com/samsungssd website. <br>
+                                        There are also a number of 3rd party tools available. Performance results may vary depending on which benchmarking tool is used.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">Will defragmentation improve my Samsung Solid State Drive’s performance? </a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">No, Solid State Drives do not need defragmentation because they have no moving parts and can access any location on the drive equally fast. <br>
+                                        Please disable any defragmentation utilities on your computer because they will only wear down the performance of your SSD.
+                                        Visit the OS Optimization section of Samsung SSD Magician for help doing this.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">What is Write Cache? </a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">Write cache is volatile memory that allows the SSD to improve performance by sending write requests from the OS to a queue, allowing writes to happen later rather than making the OS wait for the write to complete.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">How do I set up Write Cache? </a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <ul class="sub_list_num alone">
+                                        <li><span>1.</span>Run Control Panel > System > Device Manager.</li>
+                                        <li><span>2.</span>In the Disk Drive menu, click Properties of the SSD.</li>
+                                        <li><span>3.</span>In the "Policy" tab, check "Enable write caching on the device (W)".</li>
+
+                                    </ul>
+                                    <p class="text">This procedure is already described in the OS optimization methods section of the manual, but it is mentioned here again for those who are specifically interested in Write Cache</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">Do Samsung SSDs have a write cache? </a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">Yes, all Samsung Solid State Drives have a write cache.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">Is it possible to connect my Samsung SSD via IDE? Is this advisable? </a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">There is a third-party adapter on the market to convert from SATA to IDE. <br>
+                                        However, Samsung does not recommend that you to use this type of converter and cannot guarantee that your SSD will be fully functional using such a device.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">Do Samsung SSDs work in both laptops and netbooks? </a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">Yes, Samsung SSDs work in both laptops and netbooks, as long as the machine supports a standard SATA 6Gb/s (SATA III) interface and has a 2.5” storage bay.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">Does Windows XP support the TRIM feature? </a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">No, only Windows 7 and above supports the TRIM feature. <br>
+                                        The Samsung SSD Magician software enables you to manually use TRIM on both Windows XP and Windows Vista.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">What are the main components in a Solid State Drive? </a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">Your SSD is comprised of NAND flash memory, dynamic random access memory (DRAM), and a controller microchip. <br>
+                                        The NAND memory is where the data that you place on the SSD is stored. The DRAM is the SSD's cache. <br>
+                                        The controller is a micro processor that coordinates NAND memory and host interface.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">What’s the difference between Solid State Drives and Hard Disk Drives? </a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">Solid State Drives store data on flash memory chips, while Hard Disk Drives store data on rapidly spinning disks with magnetic surfaces. <br>
+                                        Because solid state drives do not use moving parts, they are significantly faster, more reliable, and less power hungry than traditional hard drives.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">What’s the difference between Solid State Drives and Hard Disk Drives? </a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <ul class="sub_list_num alone">
+                                        <li><span>1.</span>SSDs offer incredible performance in terms of both Random and Sequential Reads and Writes. <br>
+                                            This means incredibly fast boot ups, shut downs, and application loads in addition to faster multimedia file editing, data searches, and web browsing. <br>Overall, machines equipped with an SSD feel more responsive than their HDD-equipped counterparts.
+                                        </li>
+                                        <li><span>2.</span> Because SSDs are based on NAND flash memory, which has no moving parts, they benefit from very high levels of reliability and durability. <br>Additionally, the lack of mechanical components also results in lower power consumption, which means longer battery life for notebook users.
+                                        </li>
+                                        <li><span>3.</span>SSDs can fit into much smaller form factors, making them suitable for use in the latest ultra-portable machines that are on the market
+                                            <p class="indent">and less bulk and fewer components also means less weight.</p>
+                                        </li>
+                                        <li><span>4.</span>SSDs, unhindered by the limitation of a mechanical drive head, excel at multitasking. <br>
+                                            This means that you can run more programs at one time without sacrificing speed or productivity.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">What’s the difference between SLC , MLC and V-NAND? </a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">Multi-level cell (MLC) and single-level cell (SLC) refer to how NAND flash memory chips store data. <br>
+                                        In an SLC chip, one cell stores one electrical charge representing one bit of information.<br>
+                                        The MLC chips take this a step further.<br>
+                                        They vary their voltage levels to store up to 2 bits of information in one cell. <br> <br>
+                                        V in 3D V-NAND stands for vertical. <br>
+                                        It is newest technology of NANF Flash memory with stacking cells vertically. <br>
+                                        It improves performance and endurance than conventional 2D Planar NAND.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">What is Endurance? </a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">Endurance refers to the finite, expected lifespan of the SSD. <br>Every SSD has a limited number of program/erase (P/E) cycles that it can endure.<br>This number is influenced by certain conditions, such as the data retention period the NAND is designed for, the operating temperature, the storage temperature, etc.<br>Because typical PC usage patterns are often less demanding than those in the lab and because SSD wear leveling techniques continue to advance, SSDs may last much longer than users expect or even than the manufacturer’s warranty period.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">What is ESD and why is it important? </a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">Electrostatic discharge (ESD) occurs when a static electric charge builds up in an object and then is suddenly transferred to another object with the opposite polarity charge (think of what happens when you drag your socks across the carpet and touch a metal object or another person). <br>
+                                        Strong electrostatic discharges may result in a visible or audible spark, but even weaker discharges can damage your SSD and other electronic equipment.<br>
+                                        To minimize the chance of ESD damage, use a grounded wrist strap when installing your solid state drive.<br>
+                                        For SSD storage, use the static-resistant package that the product comes wrapped in.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">What is Garbage Collection? </a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">Data is written to the flash memory in units called pages. However, the memory can only be erased in larger units called blocks. <br>
+                                        If the data in some of the pages of the block are no longer needed (also called stale pages), only the pages with good data in that block are read and re-written into another previously erased empty block.<br>
+                                        Then the free pages left by not moving the stale data are available for new data.<br>
+                                        This is a process called garbage collection (GC).
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">What is Over Provisioning? </a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">Over-provisioning comes from known free space on the drive, gaining endurance and performance at the expense of reporting unused portions, and/or at the expense of current or future capacity. <br>
+                                        Some SSDs provide a utility that permit the end user to select additional over-provisioning.<br>
+                                        Furthermore, if any SSD is set up with an overall partitioning layout smaller than 100% of the available space, that unpartitioned space will be automatically used by the SSD as over-provisioning as well.<br>
+                                        Over-provisioning often takes away from user capacity, either temporarily or permanently, but it gives back reduced write amplification, increased endurance, and increased performance.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">How do I set up Over Provisioning? </a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <ul class="sub_list_num alone">
+                                        <li><span>1.</span> In Magician Home, enable Over Provisioning to configure its settings.
+                                            <ul class="sub_list alone">
+                                                <li>You may select the OP size as desired.
+                                                    <p class="indent">Recommended : Default setting, 10% of available space</p>
+                                                    <p class="indent">Custom : Enter the percentage desired </p>
+                                                </li>
+                                                <li>Use Set OP / Clear OP button to enable or disable OP.</li>
+                                                <li>If the disk does not support Volume Span/Shrink, this feature is not available. <br>
+                                                    (You can check by right clicking 'Management - Disk Management')
+                                                </li>
+                                            </ul>
+
+                                        </li>
+                                        <li><span>2.</span> If you try using Magician and fail, you can create the same effect using volume shrink in Disk Management of the operating system.
+                                            <ul class="sub_list alone">
+                                                <li>Run Disk Defragmenter</li>
+                                                <li>Volume shrink <br>Due to the physical characteristics of the SSD, please disable scheduled defragmenting.</li>
+                                            </ul>
+                                      </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">What is RAPID, and how do I use it? </a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">RAPID (Real Time Acceleration Processing of I/O data) Mode <br>
+                                        uses the DRAM caching technique provided by Samsung Magician to enhance the performance of the SSD. <br>How to use RAPID Mode:
+                                    </p>
+                                    <ul class="sub_list_num">
+                                        <li><span>1.</span> Click Enable / Disable buttons to enable or disable RAPID mode.</li>
+                                        <li><span>2.</span> Reboot the computer (when the rebooting message pops up, click the OK button).</li>
+                                        <li><span>3.</span> Click the Enable button. Reboot the computer and start the RAPID mode in 45 seconds. <br>(In Task Manager - Performance - Memory tab, verify that the size of non-paged pool has increased). <br>
+
+
+                                            - The increased size of non-paged pool indicates that RAPID mode has started <br>
+                                            - For 4GB RAM, in 45 seconds it will increase to about 700MB
+
+
+                                        </li>
+                                    </ul>
+                                    <p class="text">For further details, please visit website below and refer to white paper on RAPID <br> <a href="www.samsung.com/samsungssd"> - www.samsung.com/samsungssd</a></p>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">What do I need to watch out for when using RAPID? </a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">Restrictions for RAPID (Real Time Acceleration Processing of I/O data)</p>
+                                    <ul class="sub_list_num">
+                                        <li><span>1.</span> Even if you have more than one 840 EVO SSD connected to the system, only one of them can use RAPID Mode</li>
+                                        <li><span>2.</span> RAID mode is not supported </li>
+                                        <li><span>3.</span> NVIDIA Storage controller is not supported </li>
+                                        <li><span>4.</span> A RAPID Mode enabled SSD does not support firmware update or Secure Erase (you must disable RAPID Mode to perform these tasks)</li>
+                                        <li><span>5.</span> If fast startup is enabled in Windows 8, you must restart the system to enable/disable RAPID Mode (Fast startup is enabled by default in Windows 8. You cannot enable/disable RAPID Mode by shutting down the system)</li>
+                                        <li><span>6.</span> A Flush command by the OS or an application may result in performance variations (especially if Write-Cache Buffer Flushing is turned on)
+                                        </li>
+                                    </ul>
+                                    <p class="text">For further details, please visit website below and refer to white paper on RAPID <br> <a href="www.samsung.com/samsungssd"> - www.samsung.com/samsungssd</a></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">What is Secure Erase?</a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">Secure Erase permanently destroys all data stored on the SSD by erasing the data in all cells (by changing them to FF status). <br>
+                                        In addition, Secure Erase provides a way to reset the SSD to its factory default state if there is a problem with the performance or operation of the SSD.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">How do I perform Secure Erase in my OS environment? </a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <div class="text">Before running Secure Erase, make sure that the firmware of the SSD is updated to the latest version.
+                                        Also be aware that all data on the drive will be destroyed. <br><br>
+                                        Windows :
+                                        <p class="indent">Use Magician to run Secure Erase.</p>
+                                        <p class="indent">Download Magician at <a href="www.samsung.com/samsungssd"> - www.samsung.com/samsungssd</a></p>
+                                        <br>DOS  :
+                                        <p class="indent">Use the Windows Magician Tool to create a DOS boot disk (or USB, CD, DVD), and then use the boot disk to run Secure Erase. </p>
+                                        <p class="indent">Download Magician at <a href="www.samsung.com/samsungssd"> - www.samsung.com/samsungssd</a></p>
+                                        <br>Linux   :
+                                        <br>Proceed in DOS mode, or use the hdparm command, as shown below.
+                                        <ul class="sub_list_num">
+                                            <li><span>1.</span>Check the device (check the device you want to test now) <br>$ sudo fdisk -l</li>
+                                            <li><span>2.</span>Check device status (assuming that the test device is set at /dev/sdb in step 1)
+                                                <br>=> Must be "not frozen", otherwise Secure Erase cannot be run.
+                                                <br>$ sudo hdparm -I /dev/sdb
+                                            </li>
+                                            <li><span>3.</span>Set Password (the reference shown below recommends using NULL for password, so it is set as NULL)
+                                                <br>$ sudo hdparm --security-set-pass NULL /dev/sdb
+                                            </li>
+                                            <li><span>4.</span>Run Secure Erase
+                                                <br>$ sudo hdparm --security-erase NULL /dev/sdb
+                                            </li>
+                                        </ul>
+                                        <p class="text">[ Reference ] <br>
+                                            <a href="http://linux.die.net/man/8/hdparm">- http://linux.die.net/man/8/hdparm</a> <br>
+                                            <a href="http://tinyapps.org/docs/wipe_drives_hdparm.html">- http://tinyapps.org/docs/wipe_drives_hdparm.html</a>
+                                        </p>
+                                        <br>MAC :
+                                        <br>The OS provides an internal utility for secure-erasing; please refer to the Apple website.
+                                        <br><a href="http://support.apple.com/kb/TA24002">- http://support.apple.com/kb/TA24002</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">What is TRIM? </a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">TRIM is a facility by which the OS can notify the SSD when data is either marked for erase or no longer valid. <br>
+                                        TRIM helps to make Garbage Collection more efficient by preparing invalid data for deletion. When the OS “deletes” data, the data does not actually go anywhere.<br>
+                                        The space in which it resides is simply marked as “free space” that may be used later.<br>
+                                        By default, the OS doesn't let the SSD know which data is now free.<br>
+                                        TRIM allows the OS to inform the SSD which data is no longer valid, allowing the SSD to skip over invalid data when performing Garbage Collection.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">How do I use TRIM? </a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">XP/ Vista :</p>
+                                    <p class="indent">OS does not support Trim command.</p>
+                                    <p class="indent">Run Performance Optimization using Magician (once every week, or twice a month</p>
+                                    <br>
+                                    <p class="text">Win7/Win server 2008 or later version :</p>
+                                        <p class="indent">FAT32 is not supported; NTFS is supported</p>
+                                        <p class="indent">TRIM cannot be done, but Enable/Disable is possible.</p>
+                                        <p class="indent">Enable TRIM in Windows : fsutil command <br>
+                                            a. Go to All programs > Accessories > Right-click Command Prompt, and then run with administrator privileges.<br>
+                                            b. Enter fsutil behavior query DisableDeleteNotify, and press Enter -> "DisableDeleteNotify = 0" means Trim is enabled.<br>
+                                            If it is not working, enter fsutil behavior set DisableDeleteNotify 0, and then press Enter to make it work.
+
+                                        </p>
+                                        <br>
+                                    <p class="text">Linux :</p>
+                                    <p class="indent">Using the fstrim command is recommended, but since it may differ for each Linux version, please refer to Linux websites for details.</p>
+                                    <br>
+                                    <p class="text">Mac OS :</p>
+                                    <p class="indent">Please contact the manufacturer.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">Do all Samsung SSDs offer TRIM support? </a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">Yes, all Samsung Solid State Drives offer TRIM support.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">Will TRIM still operate properly if my SSD is part of a RAID configuration? </a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">In general, most modern RAID controllers do not support the TRIM command yet. <br>
+                                        There are, however, some limited controllers or PC chipsets that support RAID.<br>
+                                        Please check with the manufacturer of your particular RAID controller to determine if TRIM is supported.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">What is Turbo Write? </a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">840 EVO employs Turbo Write technology, which increases the write speed of low-capacity 3Bit MLC SSD by using internal SLC buffering to improve performance. <br>
+                                        The technology does not write directly into 3Bit MLC. <br>
+                                        instead, it writes to the SLC Buffering area. <br>
+                                        Data is moved to 3Bit MLC when the SSD is not writing/reading, freeing up space in the SLC Buffering area. <br> <br>
+
+                                        Analysis of the usage pattern of actual users revealed that about 1.17GB is written per hour on average. <br>
+                                        Since most users write less than 3GB per hour, which 840 EVO is capable of, a decrease in writing performance caused by insufficient SLC Buffering area does not occur.<br>
+                                        (Size of the SLC area differs for each model, but ample space is provided, ranging from 3 to 12GB.)<br><br>
+
+                                        For further details, please visit the website below and refer to the white paper on Turbo Write<br>
+                                        <a href="www.samsung.com/samsungssd">- www.samsung.com/samsungssd</a>
+
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">What is wear leveling? </a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">Wear leveling is a technique by which the SSD controller attempts to prolong the lifespan of the SSD by ensuring that data writes are distributed evenly among available cells. <br>
+                                        Because each cell can only endure a finite number of writes/erasures, it is possible that, without wear leveling, some cells would be unevenly stressed, which would prematurely end the life of the entire SSD.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">Do SSDs require defragmentation? </a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">No. Defragmentation is not required. <br>
+                                        Because SSDs have no moving parts, they can access any data location equally fast.<br>
+                                        You should disable automatic defragmentation on your computer.<br>
+                                        Frequently defragmenting your SSD will reduce its lifespan.<br>
+                                        Please visit the OS Optimization section of Samsung Magician for help disabling automatic defragmentation.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">Does partitioning affect the life of my SSD? </a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">No, Partitioning does not affect the life of your SSD.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">What is the Power Loss Protection feature for data centers? </a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">Generally, when the power is turned off, the host sends a STANDBY command to the storage and guarantees a certain amount of time for the storage to maintain data consistency. <br>
+                                        However, when the power is turned off due to exceptional causes, such as the power cable suddenly being unplugged by the user or removal of battery, the SSD may encounter an unexpected power failure.<br>
+                                        In such case, the SSD must maintain consistency of the stored data.<br>
+                                        In case of an unexpected power failure, the user data recorded in the volatile memory - DRAM - within the SSD may be lost.<br>
+                                        To prevent data loss, the PLP (Power Loss Protection) feature is implemented to safely store the user data onto NAND flash in case of unexpected power failures.<br>
+                                        The Tantalum capacitor within the SSD stores a certain amount of electricity while the power is being supplied.<br>
+                                        This electricity is used to safely store user data on the volatile memory within the SSD onto the NAND flash when the power is cut off to prevent the loss of user data.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">What is QoS (Quality of Service)? </a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">QoS (also referred to as Storage QoS) shows performance consistency of the storage and it is a key performance index that determines the performance and quality of a data center. <br>
+                                        Therefore, SSDs for data center environments must be engineered to always provide a consistent performance without fluctuations.<br>
+                                        QoS is an index for determining the data center's performance, and refers to the SSD's response time distribution.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">What is the Thermal Throttling feature for data centers? </a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">Generally, data centers utilize cooling systems to prevent the internal temperature of the servers rising from the heat generated by the equipment. <br>
+                                        However, if the temperature of the SSD exceeds the permitted conditions as a result of constantly processing I/O at high speeds, it may result in damaging the internal hardware of the SSD and causing data loss. <br>
+                                        To prevent such loss, SSDs for data centers activate an automatic temperature control feature to prevent hardware damage and user data loss from increasing temperatures. <br>
+                                        If the temperature exceeds the permitted range, SSDs for data centers force the I/O processing to be delayed to drop the heat generated by the SSD to protect the hardware and user data.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">What is the Device Sleep feature in 850 PRO? </a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">When the PC is not being used, the SSD enters an idle state. <br>
+                                        Depending on the time it remains idle, the SSD enters the Device Sleep state to minimize standby power.<br>
+                                        This new technology makes it possible to maximize the operating time per battery charge of the system (such as laptops).</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">Do all systems support the Device Sleep feature in 850 PRO? </a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">Generally, desktop PCs do not support Device Sleep, but it is supported in battery-powered laptop PCs with a Haswell CPU or later. <br>
+                                        It requires hardware support from the laptop manufacturer. <br>
+                                        It requires the Windows 8 operating system or higher. <br>
+                                        When using IRST, version 12 or higher must be installed or it must be in inbox state without IRST installed.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">The text is corrupted when performing Secure Erase after booting from a CD or USB. </a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">The "/s" command line parameters must be used in the command to configure the default DOS font when using the DOS-based Secure Erase utility. <br>
+                                        The command is as follows.<br>
+                                        - Segui0 /s
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="grid-row">
+            <div class="col-inner">
+                <p class="link_t3">Here you can find answers to questions about <a href="#">Portable SSD T3.</a></p>
+            </div>
+        </div>
+        <!-- //tab-content -->
+    </div>
+
+
+    <!-- //content -->
+</div>
+<!-- //contents wrapper -->
+<?php include($_SERVER['DOCUMENT_ROOT'].'/global/business/semiconductor/minisite/SSD/global/sec/semi_footer.sec')?>
