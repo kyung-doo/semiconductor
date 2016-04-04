@@ -390,4 +390,9 @@ function change_img(mode) {
 function init_data_table(){
     
     
+    $("*[data-role='data-table']").each(function ()
+    {
+          var dataTable = new DataTable($(this));
+    });
+    
 };

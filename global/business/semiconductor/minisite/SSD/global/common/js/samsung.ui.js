@@ -1449,10 +1449,12 @@ var AccordionUI = Class.extend({
 		this._content.off('click').on('click', function(e) {
             
 			if (!$(this).data('content').hasClass('active')) {
+                setTimeout(function (){$(window).resize();},1);
 				owner.active_item($(this));
 			} else {
 				owner.deActive_item($(this));
 			}
+            
             
 		});
 	},
@@ -4012,7 +4014,7 @@ var GlobalSearchUI = Class.extend({
 	}
 });
 
-﻿/*!
+/*!
  * @class	{Class} JumpBasicUI
  */
 var JumpBasicUI = Class.extend({
@@ -6104,6 +6106,86 @@ var PersonalHistoryUI = Class.extend({
 			}
 		});
 	},
+});
+
+/*!
+ * @class	{Class} DdataTable
+ */
+var DataTable = Class.extend({
+	/**
+	 * initialize
+	 *
+	 * @constructs
+	 * @extends	{Class}
+	 * @requires	jquery.js
+	 * @classdesc
+	 * 
+	 *
+	 */
+	init : function(scope) {
+		this._scope = scope;
+        this._fixContainer;
+        this.reinit();
+	},
+
+	/**
+	 * re-initialize
+	 *
+	 * @private
+	 * @return		{void}
+	 */
+	reinit : function() {
+		this.createFixContainer();
+	},
+    
+    
+    /**
+	 * 더미컨테이너 추가
+	 * @return		{void}
+	 */
+    createFixContainer : function () {
+        
+       var owner = this;
+       var tableCon = owner._scope;
+       var append = "<div class='fix-table' data-role='fix-container'></div>";
+       owner._fixContainer = $(append);
+       owner._fixContainer.css({position:"absolute", top:0, left:0}); 
+       tableCon.parent().css({position:"relative"}).append(owner._fixContainer);
+      
+       var thead = tableCon.find("thead");
+       var tbody = tableCon.find("tbody");
+       var appendStr = "<table><thead>";
+       
+       thead.find("tr").each(function ( i )
+       {
+           appendStr += "<tr>";
+           appendStr += "<th>"+$(this).find("th").eq(0).html()+"</th>";
+           appendStr += "</tr>";
+       });
+       
+       appendStr += "</tr></thead><tbody>";
+       
+       tbody.find("tr").each(function ( i )
+       {
+           appendStr += "<tr>";
+           appendStr += "<td>"+$(this).find("td").eq(0).html()+"</td>";
+           appendStr += "</tr>";
+       });
+       
+       appendStr += "</tbody></table>";
+       owner._fixContainer.append(appendStr);
+       
+       $(window).resize(function ( e )
+       {
+           var paddingLeft = parseInt(tableCon.find("th").eq(0).css("padding-left"));
+           var paddingRight = parseInt(tableCon.find("th").eq(0).css("padding-right"));
+           owner._fixContainer.css({width:tableCon.find("th").eq(0).width()+paddingLeft+paddingRight+2});
+       }).resize();
+        
+    }
+    
+    
+    
 });
 
 
