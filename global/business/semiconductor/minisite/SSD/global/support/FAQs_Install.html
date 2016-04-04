@@ -79,43 +79,99 @@
                     <div class="col-inner">
                     <ul class="support-list-type" data-role="ui-accordion">
                         <li>
-                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">The software for setting the password on the T3 does not run. </a>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">Can Samsung install SSD’s for consumers?</a>
                             <div class="inarea" data-role="ui-accordion-content" style="display: none;">
                                 <div class="faq_contents">
-                                    <p class="text">The T3 Security Enabler software for using T3’s password protection feature requires a certain version of OS or higher. Please see below for supported OS versions.</p>
+                                    <p class="text">No, Samsung does not offer any type of SSD-installation service for customers.Please refer to the install guide in the user manual. If you have difficulty installing your SSD, you may seek assistance at a local PC store or independent service center.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">What are the differences between the Desktop PC Installation Kit, the Laptop PC Installation Kit, and the Basic package?</a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">Each package contains the same SSD but includes different accessories. Please refer to accessories list for each package design below.</p>
                                     <ul class="sub_list">
-                                        <li>Windows OS: Windows 7 or higher</li>
-                                        <li>Mac OS: Mac OS X 10.7 or higher</li>
+                                        <li>Desktop : Installation Guide, Warranty Statement Summary, USB to SATA cable, SATA Data cable, Screw, Bracket, CD(Data Migration Software, Magician Software, Warranty statement, One-Stop Install Navigator)</li>
+                                        <li>Laptop : Installation Guide, Warranty Statement Summary, USB 3.0 to SATA to cable, Drive Spacer, CD(Data Migration Software, Magician Software, Warranty statement, One-Stop Install Navigator)</li>
+                                        <li>Basic : Installation Guide, Warranty Statement Summary, CD(Data Migration Software, Magician Software, Warranty statement, One-Stop Install Navigator)</li>
                                     </ul>
                                 </div>
                             </div>
                         </li>
                         <li>
-                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">The LED indicator on the T3 remains on when my Windows PC is in power save mode or turned off. </a>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">Does my Samsung SSD support SATA 3Gb/s (SATA II) or SATA 1.5Gb/s (SATA I)? </a>
                             <div class="inarea" data-role="ui-accordion-content" style="display: none;">
                                 <div class="faq_contents">
-                                    <p class="text">It is normal that the LED indicator turns off when your Windows PC enters power save mode or turns off. But it may stay on, depending on USB charging settings in your PC’s BIOS.</p>
+                                    <p class="text">Yes, Samsung SSDs are backward compatible with SATA 3Gb/s (SATA II) and SATA 1.5Gb/s (SATA I).However, we do not recommend the usage in the condition of SATA 3Gb/s (SATA II) or SATA 1.5Gb/s (SATA I).If you are seeking the maximum performance, you may want to consider upgrading the motherboard on your system.</p>
                                 </div>
                             </div>
                         </li>
                         <li>
-                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">I am using Windows OS, and I cannot copy files to the T3.</a>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">Which Operating Systems support Samsung SSDs?</a>
                             <div class="inarea" data-role="ui-accordion-content" style="display: none;">
                                 <div class="faq_contents">
-                                    <p class="text">If the T3 loses power connection or if the T3 is unplugged in an unsafe way, Windows OS may prevent files from being copied to the T3. This is Windows OS’s restriction on the exFAT file system. It does not mean that the product has a problem. To resolve the issue, please follow the below steps.</p>
+                                    <p class="text">All operating systems support Samsung SSDs, but not all operating systems are optimized to keep SSDs working at the peak performance. <br>Older operating systems, such as Windows XP and Windows Vista, do not support certain SSD maintenance features like TRIM. <br>Windows XP and Windows Vista users can use Samsung SSD Magician to manually schedule and run SSD maintenance. <br>Samsung SSD Magician is not currently supported via Mac OS X or Linux.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">How do I configure AHCI settings?</a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <ul class="sub_list top">
+                                        <li>The best way to enable AHCI is to go to BIOS and enable AHCI mode, and then install the operating system.Boot the system, enter BIOS setup, and change SATA settings from IDE to AHCI.</li>
+                                        <li>Install the operating system.</li>
+                                    </ul>
+                                    <p class="text">When Windows is installed without enabling the AHCI mode in BIOS setup, an error may occur during the booting.Change the settings as shown below, or reinstall Windows.</p>
                                     <ul class="sub_list">
-                                        <li>Click the “Scan and Fix” notification that appears when you connect the T3 to your PC.</li>
-                                        <li>If you closed the notification window, select and right-click the T3 icon on the system tray (notification area) and use the ‘Run CHKDSK’ command.</li>
-                                        <li>If the T3 icon isn’t displayed on the system tray, open Explorer and select the T3 drive → Right-click → Properties → Tools → click Check.</li>
+                                        <li>Go to Start>Run, and then enter ""regedit"" in the Run window and press Enter to launch the Registry Editor.</li>
+                                        <li>HKEY_LOCAL_MACHINE > SYSTEM > CurrentControlSet > services > msahci In this menu, you will see an item named Start. Double-click it to change it to ""0""and then reboot.</li>
+                                        <li>
+                                            Enter BIOS setup, and change SATA settings from IDE to AHCI.
+                                            <p class="indent">ASUS Intel chipset : Main > Storage Configuration > Configure SATA as In this menu, select AHCI</p>
+                                            <p class="indent">ASUS AMD chipset : Main > Storage Configuration > SATA Mode Select In this menu, change to AHCI Mode</p>
+                                            <p class="indent">GIGABYTE Intel chipset : Integrated Peripherals > SATA RAID/AHCI Mode In this menu, select ""AHCI""</p>
+                                            <p class="indent">GIGABYTE AMD chipset : Integrated Peripherals > OnChip SATA Type In this menu, select AHCI</p>
+                                            <p class="indent">MSI Intel chipset/ AMD chipset : Integrated Peripherals > On-Chip ATA Devices > In RAID Mode, select AHCI</p>
+                                        </li>
+
                                     </ul>
                                 </div>
                             </div>
                         </li>
                         <li>
-                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">You cannot use security functions without installing the SAT driver in Mac OS X</a>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">I have a SATA 3Gb/s (SATA II) motherboard. Should I buy an expansion card to add SATA 6GB/s (SATA III) support? </a>
                             <div class="inarea" data-role="ui-accordion-content" style="display: none;">
                                 <div class="faq_contents">
-                                    <p class="text">The SAT (SCSI ATA Translation) driver is required to use the security functions of the T3 in Mac OS X. Please install the SAT driver in order to use the security features of Samsung Portable SSD and change its settings.</p>
+                                    <p class="text">Samsung SSD's peak performance is hardly reached with SATA III (6GB/s) expansion cards.We do not recommend the use of such expansion cards. If you are want the maximum performance, consider an upgrade to a motherboard which support SATA III.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">What is firmware? How do I update it?</a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">Firmware is a tiny software program stored in a semiconductor chip, such as a NAND chip.<br>It includes the software code and commands necessary for operating a device.<br>Firmware is designed to be updated via software updates so that manufacturers can improve performance and quality of the hardware.<br><br>Samsung SSD's Firmware can be updated via the Samsung SSD Magician software.<br>If you do not have the software CD came with the SSD, Magician can be downloaded from the Samsung website at <br> <a href="www.samsung.com/ssd">www.samsung.com/ssd</a> or <a href="www.samsung.com/samsungssd">www.samsung.com/samsungssd.</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">How do I update the Firmware Update? </a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">Samsung occasionally provides new firmware in order to improve SSD performance, compatibility, and user experience. Firmware update is recommended whenever a new version is released.<br>SSD drive and Model number are shown.<br>If you encounter any problem with the Live firmware Update feature and your SSD is 470 series, you can perform DOS-based firmware update utility via bootable CD/DVD/USB.<br></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">Does</a>
+                            <div class="inarea" data-role="ui-accordion-content" style="display: none;">
+                                <div class="faq_contents">
+                                    <p class="text">Yes</p>
                                 </div>
                             </div>
                         </li>

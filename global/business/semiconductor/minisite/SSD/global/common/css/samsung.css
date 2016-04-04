@@ -2035,6 +2035,7 @@ ul.support-list-type>li a.tooltipbox{display:inline-block; padding:0; margin-lef
 
 .faq_contents{padding: 10px 0; line-height: 24px;}
 .faq_contents .sub_list{margin-top:25px;}
+.faq_contents .sub_list.top{margin-top:0px; margin-bottom: 25px;}
 .faq_contents .sub_list li{line-height: 24px; padding-left: 10px; margin-bottom: 10px;}
 .faq_contents .sub_list li:before{content: "·";width: 10px; display: inline-block; margin-left: -10px;}
 .faq_contents .sub_list li .indent{padding-left: 20px;}
