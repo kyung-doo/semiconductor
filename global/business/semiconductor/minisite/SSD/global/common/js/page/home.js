@@ -2,25 +2,28 @@
  * METHOD:PAGE
  ********************************************************************************************************/
 function initPage(){
-    
+
     init_scripts();
     init_flick();
     init_more();
     init_jump_basic();
     init_jump();
+    init_toggle_tab();
     init_mode();
     init_same_height();
     init_dotdotdot();
     init_data_table();
-   
+
 };
+
+
 
 /********************************************************************************************************
  * METHOD: INIT_SCRIPTS
  ********************************************************************************************************/
 function init_scripts(){
-    
-	//$.cachedScript('/global/business/semiconductor/minisite/SSD/global/common/js/lib/datatables.js');
+
+    //$.cachedScript('/global/business/semiconductor/minisite/SSD/global/common/js/lib/datatables.js');
 };
 
 /********************************************************************************************************
@@ -253,6 +256,143 @@ var showHideJump = {
     }
 }
 
+/****************************************************************************************
+* METHOD:TOGGLE TAB
+****************************************************************************************/
+function init_toggle_tab(){
+
+    var isAnimateStop = true;
+    var tabJumpHeight = 56;
+
+
+    $(window).on({
+        'scroll':function(e){
+            if(isAnimateStop){
+                makeJump();
+            }
+        },
+
+        'resize':function(){
+        }
+    });
+
+    var makeJump = function(){
+        var scrollTop = $(window).scrollTop();
+        var curTab = $('*[data-role=ui-tab-1depth]:visible');
+        var curJump = curTab.find('*[data-role=ui-tab-jump]');
+        var content = curTab.find('*[data-role=ui-tab-content]');
+        var curButton = curTab.find('*[data-role=ui-tab-jump-btn]');
+
+        if(curJump.length === 0) return;
+
+        if(scrollTop >= Math.ceil(content.offset().top) - curJump.outerHeight(false)){
+            curJump.show();
+            curJump.css('position', 'fixed');
+            curJump.css('left', 0);
+            curJump.css('top', 0);
+            curJump.css('z-index', 1000);
+            curButton.find('span').text(curJump.find('.active span').text());
+        }
+        else{
+            curJump.hide();
+        }
+    };
+
+    $(window).resize(function() {//리사이즈 시
+        $(".toggleTab > ul > li").each(function(){
+            var resizeHeight = $(this).children(".desc").height()+35;//컨텐츠 height 계산
+            if($(this).children(".desc").is(":visible")){//컨텐츠 열린 상태일 때
+                $(this).css("padding-bottom",resizeHeight);//컨텐츠 height 만큼 하단 여백 넣기
+            }
+        });
+    });
+
+    $(".toggleTab > ul > li").each(function(){
+        var self = $(this);
+        var thisIndex = self.index();
+        var button = self.find(".overview > button");
+        var jump = self.parents(".toggleTab").find(".floating-jumpmenu");
+        var eqJump = jump.children(".second-jump").find("ul li:eq("+thisIndex+")").children("a");//리스트 인덱스와 동일한 점프메뉴
+        var desc = self.children(".desc");
+        var siblings = self.siblings();
+        var others = self.parents(".toggleTab").siblings(".toggleTab").children("ul").children("li");
+
+        function toggleHide(){
+            desc.hide();//컨텐츠 숨김
+            button.removeClass("hide").addClass("show").text("Expand");//버튼 클래스 및 텍스트 변경
+            self.css("padding-bottom","");//하단 여백 초기화
+        };
+
+        function toggleShow(){
+            desc.show();//컨텐츠 보임
+            eqJump.addClass("active").parent("li").siblings().children("a").removeClass("active");//점프메뉴 클래스 변경
+            jump.addClass("active").children("button").text(eqJump.text());//점프메뉴 모바일용 버튼 텍스트 변경
+            siblings.css("padding-bottom","").children(".desc").hide();//형제 하단 여백 초기화, 컨텐츠 숨김
+            others.css("padding-bottom","").children(".desc").hide();//멀티 형제 하단 여백 초기화, 컨텐츠 숨김
+            siblings.children(".overview").find("button").removeClass("hide").addClass("show").text("Expand");//형제 버튼 클래스 및 텍스트 변경
+            others.children(".overview").find("button").removeClass("hide").addClass("show").text("Expand");//멀티 형제 버튼 클래스 및 텍스트 변경
+            button.removeClass("show").addClass("hide").text("Close");//버튼 클래스 및 텍스트 변경
+            $("body,html").animate({scrollTop: button.offset().top}, 700);
+        };
+
+        button.click(function(){//Expand 버튼 클릭 시
+            var descHeight = desc.height()+35;//컨텐츠 height 계산
+            if(desc.is(":visible")){//컨텐츠 열린 상태일 때
+                toggleHide();
+            }
+            else {
+                toggleShow();
+                self.css("padding-bottom",descHeight);//컨텐츠 height 만큼 하단 여백 넣기
+            }
+        });
+
+        eqJump.click(function(){//점프메뉴 클릭 시
+            var descHeight = desc.height()+35;
+            if(desc.is(":visible")){//컨텐츠 열린 상태일 때
+                toggleHide();
+                $(this).removeClass("active").parents(".floating-jumpmenu").removeClass("active");
+            }
+            else {
+                toggleShow();
+                self.css("padding-bottom",descHeight);//컨텐츠 height 만큼 하단 여백 넣기
+            }
+        });
+    });
+
+    $(window).on("scroll resize", function (){
+        $(".toggleTab").each(function(){
+            if($(this).find(".desc:visible").length){//컨텐츠 열린 상태일 때
+                var descHeight = $(this).find(".desc:visible").height();
+                var scrollConTop = $(this).find(".desc:visible").offset().top;
+                var scrollConBottom = scrollConTop+descHeight;
+                if ($(window).scrollTop() > scrollConTop-55 && $(window).scrollTop() < scrollConBottom) {//스크롤영역일 때
+                    $(this).find(".floating-jumpmenu").addClass("active");//점프메뉴 보임
+                }
+                else {//스크롤영역 아닐 때
+                    $(this).find(".floating-jumpmenu").removeClass("active");//점프메뉴 숨김
+                }
+            }
+            else {
+                $(this).find(".floating-jumpmenu").removeClass("active");//점프메뉴 숨김
+            }
+        });
+
+        $(".toggleTab.col4").each(function(){
+            if($(window).width() < 1024 && $(window).width() > 767){//탭 사이즈일 때
+                if($(this).children("ul").children("li:lt(2)").find(".desc:visible").length){//1,2번 컨텐츠 열린 상태일 때
+                    $(this).find(".second-jump > ul > li:lt(2)").show().siblings("li:gt(-3)").hide();
+                }
+                else if($(this).children("ul").children("li:gt(-3)").find(".desc:visible").length){//3,4번 컨텐츠 열린 상태일 때
+                    $(this).find(".second-jump > ul > li:gt(-3)").show().siblings("li:lt(2)").hide();
+                }
+            }
+            else {
+                $(this).find(".second-jump > ul > li").css("display","");
+            }
+        });
+    });
+}
+
 
 /****************************************************************************************
 * METHOD:Same-Height
@@ -311,7 +451,7 @@ function init_same_height() {
                     $(this).find(".s_height_inner").css({height:""});
                 }
             }
-            
+
             if($.inArray("mobile", data)>0)
             {
                 if(String(_common.is_mode()).toUpperCase() == "MOBILE")
@@ -328,7 +468,7 @@ function init_same_height() {
                 }
             }
         });
-        
+
     });
     $(window).resize();
     $(window).load(function ()
@@ -352,9 +492,9 @@ function init_same_height() {
 * METHOD:RESIZE
 ****************************************************************************************/
 function init_dotdotdot() {
-	$(window).resize( function(e) {
-		$('*[data-ui-textoverflow="true"]').dotdotdot();
-	});
+    $(window).resize( function(e) {
+        $('*[data-ui-textoverflow="true"]').dotdotdot();
+    });
 }
 
 
@@ -362,24 +502,24 @@ function init_dotdotdot() {
  * METHOD:CHANGE_IMG
  ********************************************************************************************************/
 function change_img(mode) {
-	var img_url = '';
-	$('img.responsive').each(function() {
-		var $this = $(this);
-        
-      
-		
-		switch(String(mode).toUpperCase()) {
-			case 'MOBILE':
-				img_url = $this.attr('data-media-mobile');
-				break;
-			case 'PC':
-			case 'TABLET_B':
-			case 'TABLET_A':
-				img_url = $this.attr('data-media-desktop');
-				break;
-		};
-		$this.attr('src', img_url);
-	});
+    var img_url = '';
+    $('img.responsive').each(function() {
+        var $this = $(this);
+
+
+
+        switch(String(mode).toUpperCase()) {
+            case 'MOBILE':
+                img_url = $this.attr('data-media-mobile');
+                break;
+            case 'PC':
+            case 'TABLET_B':
+            case 'TABLET_A':
+                img_url = $this.attr('data-media-desktop');
+                break;
+        };
+        $this.attr('src', img_url);
+    });
 };
 
 
@@ -387,11 +527,11 @@ function change_img(mode) {
  * METHOD:DATA TABLE
  ********************************************************************************************************/
 function init_data_table(){
-    
-    
+
+
     $("*[data-role='data-table']").each(function ()
     {
           var dataTable = new DataTable($(this));
     });
-    
+
 };
