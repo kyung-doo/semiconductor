@@ -81,7 +81,7 @@ h1,h2,h3,h4,h5,h6{font-weight:normal; font-size:100%}
 .odd{background:#f9f9f9}
 .even{background:#f1f1f1}
 /* button */
-a.btn{color:#0057a4; vertical-align:middle; font-weight:normal; font-size:16px; line-height:1.5; display:inline-block; position:relative; -moz-transition:color ease-in-out .3s; -o-transition:color ease-in-out .3s; -webkit-transition:color ease-in-out .3s}
+a.btn{color:#0057a4; vertical-align:middle; font-weight:normal; font-size:14px; line-height:1.5; display:inline-block; position:relative; -moz-transition:color ease-in-out .3s; -o-transition:color ease-in-out .3s; -webkit-transition:color ease-in-out .3s}
 a.btn:after{font-family:'samsungIcon'; display:inline-block; vertical-align:middle; margin:0 0 4px 2px; font-size:0.9rem; position:relative}
 a.btn:before{font-family:'samsungIcon';display:inline-block; vertical-align:middle;font-size:0.9em;position:relative}
 a.btn.show:after{content:"\27"}
@@ -1944,13 +1944,14 @@ table.support-info .img-ox {width:20px;}
 .data-table table{border-collapse:collapse;min-width:100%}
 .data-table table th{height:50px;padding:0 30px;text-align:center;background-color:#0071bf;color:#fff;border-top:solid 1px #dcdcdc;border-bottom:solid 1px #dcdcdc;white-space:nowrap}
 .data-table table th:first-child{text-align:left;border-right:solid 1px #dcdcdc}
-.data-table table td{height:50px;padding:0 30px;text-align:left;background-color:#fff;border-top:solid 1px #dcdcdc;border-bottom:solid 1px #dcdcdc;white-space:nowrap;border-left:solid 1px #dcdcdc}
+.data-table table td{height:50px;padding:0 30px;text-align:left;background-color:#fff;border-top:solid 1px #dcdcdc;border-bottom:solid 1px #dcdcdc;white-space:nowrap;border-left:solid 1px #dcdcdc; word-break:break-all;}
+.data-table table td.c{text-align:center;padding:0}
 
 
 .fix-table table{border-collapse:collapse;min-width:100%}
 .fix-table table th{height:50px;padding:0 30px;text-align:center;background-color:#0071bf;color:#fff;border-top:solid 1px #dcdcdc;border-bottom:solid 1px #dcdcdc;white-space:nowrap;}
 .fix-table table th:first-child{text-align:left;border-right:solid 1px #dcdcdc}
-.fix-table table td{height:50px;padding:0 30px;text-align:left;background-color:#fff;border-top:solid 1px #dcdcdc;border-bottom:solid 1px #dcdcdc;white-space:nowrap;border-left:solid 1px #dcdcdc}
+.fix-table table td{height:50px;padding:0 30px;text-align:left;background-color:#fff;border-top:solid 1px #dcdcdc;border-bottom:solid 1px #dcdcdc;white-space:nowrap;border-left:solid 1px #dcdcdc; word-break:break-all;}
 .fix-table table td.c{text-align:center;padding:0}
 .fix-table table td:first-child{border-right:solid 1px #dcdcdc;border-left:none;color:#0071bf}
 .show-more-spec .info{margin-top:20px}
@@ -2029,7 +2030,7 @@ table.support-info .img-ox {width:20px;}
 /* faq */
 .single_title{width:100%; background:#fff; border-bottom:1px solid #dcdcdc}
 .single_title span {display:block; max-width:1311px; margin:0 auto; padding:25px 20px 15px 20px; line-height:30px; font-family:'SamsungIFBlk'; font-size:28px; color:#292929}
-.ssd_module{padding-top:40px;}
+.ssd_module{padding-top:50px;}
 .ssd_module.faq_container{padding-top:20px;}
 .ssd_module .grid-row{margin-bottom:60px;}
 .ssd_module.faq_container .grid-row{margin-bottom:50px;}
@@ -2073,8 +2074,14 @@ ul.support-list-type>li a.tooltipbox{display:inline-block; padding:0; margin-lef
 .faq_contents .sub_list_num li{line-height: 24px; margin-bottom: 10px; padding-left: 15px; position: relative;}
 .faq_contents .sub_list_num li:before{}
 .faq_contents .sub_list_num li span{ position: absolute; left: 0; top: 0; line-height: 24px;}
+.faq_contents .sub_list_num.wide li{padding-left:22px; }
 .faq_contents .top_mg{margin-top:20px;}
 .faq_contents .table_faq{ margin-top: 20px;}
+
+.faq_table{overflow-x:auto}
+.faq_table table{border-collapse:collapse;min-width:1270px;border-left:solid 1px #dcdcdc;}
+.faq_table table th{height:50px;padding:0 10px;text-align:center;background-color:#0071bf;color:#fff;border-right:solid 1px #dcdcdc;border-bottom:solid 1px #dcdcdc;}
+.faq_table table td{height:50px;padding:0 10px; background-color:#fff;border-right:solid 1px #dcdcdc;border-bottom:solid 1px #dcdcdc;border-left:solid 1px #dcdcdc; word-break:break-all;}
 
 .ssd-title{width:100%; height:70px; background:#fff; border-bottom:1px solid #dcdcdc}
 .ssd-title span{display:block; max-width:1311px; margin:0 auto; padding:25px 20px 15px 20px; line-height:30px; font-family:'SamsungIFBlk'; font-size:28px; color:#292929}
@@ -2126,4 +2133,26 @@ ul.tab.type5 li a {display:block; padding:9px 5px; vertical-align:middle; box-si
     ul.tab.type5 li:first-child {border-top:1px solid #ccc;border-right:1px solid #ccc;}
     ul.tab.type5 li.active {border:none; border-right:1px solid #00a8e0; border-bottom:1px solid #00a8e0}
     ul.tab.type5 li:first-child.active {border-left:none; border-top:none}
+}
+
+.service_information{ background-color: #f1f1f1; padding: 30px;}
+.service_information h3{margin-left: 0; border-bottom: 1px solid #dcdcdc; padding-bottom: 20px;}
+.service_information p{line-height: 24px; margin-bottom: 20px;}
+.col-inner.service_center{margin-left: 0px;}
+.col-inner.service_center .contact_info{border: 1px solid #e9e9e9; margin-left: 10px; padding: 20px; padding-bottom: 15px; min-height: 92px;}
+.col-inner.service_center .contact_info h4{line-height: 24px; font-size:21px;}
+.col-inner.service_center .contact_info h4 img{ border: 1px solid #cfcfcf; vertical-align: top;}
+.col-inner.service_center .contact_info dl{margin-top: 20px;color: #000; font-size: 16px;}
+.col-inner.service_center .contact_info dt{ font-family: "SamsungIFBlk"; margin-bottom: 5px;}
+.col-inner.service_center .contact_info dd b{font-family: "SamsungIFBlk";}
+.col-inner.service_center .contact_info dd .f_14{font-size: 14px;}
+@media (min-width:768px) and (max-width:1023px){
+    .col-inner.service_center .contact_info{margin-bottom: 10px;}
+}
+@media (max-width: 767px){
+    .col-inner.service_information{padding:15px;}
+    .col-inner.service_information h3{padding-bottom:10px;}
+    .col-inner.service_information p{line-height: 20px; margin-bottom:0px;}
+    .col-inner.service_center .contact_info{margin-bottom: 10px;}
+    .col-inner.service_center .contact_info{margin-right: 0px;}
 }
