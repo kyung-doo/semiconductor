@@ -25,8 +25,8 @@
             <div class="overlay"></div>    <!-- dimed layer -->
             <div class="nav">
                 <!-- GNB -->
-                <?php include($_SERVER['DOCUMENT_ROOT'].'/global/business/semiconductor/minisite/SSD/global/sec/ssi/navigation/top_nav.sec')?>
-                <!--#include virtual="/semiconductor/global/ssi/navigation/top_nav.sec"-->
+                <?php include('../sec/ssi/navigation/top_nav.sec')?>
+                <!--#include virtual="../sec/ssi/navigation/top_nav.sec"-->
                 <!-- //GNB -->
                 <!-- top utility -->
                 <ul class="direct">
