@@ -2012,9 +2012,24 @@ table.support-info .img-ox {width:20px;}
 
 /* down-overview */
 .down-overview{background-color:#f8f8f8;padding:30px 0}
-.down-overview .down-title{max-width:1310px;margin:0 auto;font-size:21px;font-family:"SamsungIFBd";padding-bottom:18px}
+.down-overview .down-title{max-width:1310px;margin:0 auto;font-size:21px;font-family:"SamsungIFBd";padding-bottom:5px;padding-left:28px;padding-right:28px;margin-top:25px}
+.down-overview .down-title:first-child{margin-top:0}
+.down-overview .down-list{position:relative;padding:18px;border-radius:3px;box-sizing:border-box;color:#fff}
+.down-overview .down-list.new{background-color:#4a4a4a}
+.down-overview .down-list.popular{background-color:#0071bf}
+.down-overview .down-list h4{font-size:16px;width:90%}
+.down-overview .down-list p{font-size:13px;width:90%;margin-top:7px}
+.down-overview .down-list a{position:absolute;top:50%;right:20px;margin-top:-13px;color:#fff}
+.down-overview .down-list.new a:hover{color:#0071bf !important}
+.down-overview .down-list.popular a:hover{color:#4a4a4a !important}
 
+@media (max-width: 1023px) and (min-width: 768px){
+    .down-overview .down-title{padding-left:15px}
+}
 
+@media (max-width:767px){
+    .down-overview .down-title{padding-left:10px}
+}
 
 /* where to buy */
 .buy_contents {padding-top: 40px;}
@@ -2187,3 +2202,4 @@ ul.tab.type5 li a {display:block; padding:9px 5px; vertical-align:middle; box-si
     .col-inner.service_center .contact_info{margin-bottom: 10px;}
     .col-inner.service_center .contact_info{margin-right: 0px;}
 }
+
