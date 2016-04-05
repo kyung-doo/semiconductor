@@ -542,7 +542,7 @@ function init_data_table(){
  ********************************************************************************************************/
 function loadReviewAwards( path )
 {
-    var loadNum = 8;
+    var loadNum = 12;
     var dataList;
     var startNum = 0;
     var endNum;
