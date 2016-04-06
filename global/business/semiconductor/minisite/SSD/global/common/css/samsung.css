@@ -2029,6 +2029,9 @@ table.support-info .img-ox {width:20px;}
 
 @media (max-width:767px){
     .down-overview .down-title{padding-left:10px}
+    .down-overview .down-list{padding:10px}
+    .down-overview .down-list h4{font-size:14px}
+    .down-overview .down-list p{font-size:11px;margin-top:5px}
 }
 
 /* where to buy */
