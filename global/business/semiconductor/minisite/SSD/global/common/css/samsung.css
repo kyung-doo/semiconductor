@@ -1871,7 +1871,7 @@ table.support-info .img-ox {width:20px;}
     .quick-download .donwload-con h4{font-size:19px;padding-bottom:10px}
     .quick-download .donwload-con p{font-size:14px;padding-top:10px;}
     .quick-download .donwload-con p .btn{top:10px}
-    
+
 }
 
 
@@ -1889,7 +1889,7 @@ table.support-info .img-ox {width:20px;}
     .products-list .grid-col4{width:33.3333%}
     .products-list .grid-col4:nth-child(4){display:none}
     .products-list .grid-col4:nth-of-type(2n+1) {clear: none;}
-    
+
 }
 @media (max-width:767px){
    .products-list .grid-col4{width:50% !important}
@@ -2108,7 +2108,7 @@ ul.support-list-type>li a.close{position:relative; display:block; color:#0057a4;
 ul.support-list-type>li a.close:after{content:"\27"; font-family:'samsungIcon'; position:absolute; top:30%; right:25px; width:14px; height:20px;}
 ul.support-list-type>li a.expanded{background:#0071bf; color:#fff; border-bottom:1px solid #ccc;}
 ul.support-list-type>li a.expanded:after{content:"\28"; font-family:'samsungIcon'; position:absolute; top:30%; right:25px; width:14px; height:20px; color:#fff;}
-ul.support-list-type>li div.inarea{padding:10px 20px; display:none;}
+ul.support-list-type>li div.inarea{padding:20px 20px; display:none;}
 ul.support-list-type>li a.tooltipbox{display:inline-block; padding:0; margin-left:5px;}
 
 .faq_contents{padding: 10px 0; line-height: 24px;}
@@ -2217,4 +2217,10 @@ ul.tab.type5 li a {display:block; padding:9px 5px; vertical-align:middle; box-si
     .col-inner.service_center .contact_info{margin-bottom: 10px;}
     .col-inner.service_center .contact_info{margin-right: 0px;}
 }
+
+
+
+/* download */
+.download_info{font-size: 14px; margin-bottom: 20px;}
+.down_caution{font-size: 14px; margin-top: 20px;}
 
