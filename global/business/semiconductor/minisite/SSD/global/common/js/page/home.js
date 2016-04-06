@@ -535,3 +535,61 @@ function init_data_table(){
     });
 
 };
+
+
+/********************************************************************************************************
+ * METHOD:loadReviewAwards
+ ********************************************************************************************************/
+function loadReviewAwards( path )
+{
+    var loadNum = 12;
+    var dataList;
+    var startNum = 0;
+    var endNum;
+    
+    var tmpl;
+    
+    $.getJSON(path, function ( data )
+    {
+        dataList = data.reviewsAwardsList;
+        endNum = dataList.length;
+        addList(4);
+        
+        if(startNum >= endNum)  $("button[data-role='ui-btn-awards']").hide();
+        
+        $("button[data-role='ui-btn-awards']").bind("click", function ( e )
+        {
+            if(!$("#data-tmpl-awards").is(".loaded"))
+            {
+               $("#data-tmpl-awards").addClass("loaded"); 
+            }
+            
+            addList(8);
+            
+            if(startNum >= endNum)
+            {
+                $(this).hide();
+            }
+        });
+        
+        
+    });
+    
+    function addList( len )
+    {
+       var list = new Array();
+        for(var i = startNum; i< startNum+len; i++)
+        {
+            if(i < endNum)
+            {
+                list.push( dataList[i] );     
+            }
+        }
+        tmpl = $("#tmpl-awards-inner").tmpl({"reviewsAwardsList":list});
+        tmpl.appendTo($("#data-tmpl-awards"));
+        startNum = startNum+len;
+        $(window).resize();
+    }
+    
+}
+
