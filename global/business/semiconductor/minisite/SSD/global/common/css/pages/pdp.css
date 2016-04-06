@@ -295,16 +295,16 @@ table.download-list td div.popover-content{padding:20px;}
 .down-list li {position:relative;}
 .down-list li .down-cont {/*position:relative; */width:39%}
 .down-list li .date {width:11%}
-.down-list li .version {width:15%; text-transform:uppercase}
 .down-list li .download {float:right; width:15%; text-align:right}
 .down-list li .download .btn {line-height:1}
 ul.support-list-type li .down-list li {border:0}
 
 /* make ssd */
-.down-list li .title_ssd {width:65%}
-.down-list li .language {width:10%; color: #9c9c9c;}
-.down-list li .size {width:10%; color: #9c9c9c;}
-.down-list li .download_ssd {float:right; width:15%; text-align:right}
+.down-list li .title_ssd {width:52%}
+.down-list li .language {width:20%; color: #9c9c9c; text-align: right;}
+.down-list li .size {width:10%; color: #9c9c9c; text-align: right;}
+.down-list li .version {width:12%; color: #9c9c9c; text-align: right;}
+.down-list li .download_ssd {float:right; width:5%; text-align:right}
 .down-list li .download_ssd a span{display: none;}
 
 @media (max-width:1023px) {
@@ -316,9 +316,9 @@ ul.support-list-type li .down-list li {border:0}
     .down-list li .download {float:none; width:100%; text-align:left}
     .down-list li .down-cont {width:100%}
     .down-list li .date {width:100%}
-    .down-list li .version {width:100%}
     .down-list li div + div {font-size:16px}
-
+    .down-list li .title_ssd {width:45%}
+    .down-list li .language {width:25%; color: #9c9c9c; text-align: right;}
 }
 @media (max-width:767px){
     table.download-list{}
@@ -343,14 +343,15 @@ ul.support-list-type li .down-list li {border:0}
     .down-list li .download {float:none; width:100%; text-align:left}
     .down-list li .down-cont {width:100%}
     .down-list li .date {width:100%}
-    .down-list li .version {width:100%}
+    .down-list li .version {width:100%; padding-left: 8px; text-align:left;}
     .down-list li {float:none; width:100%}
     /* make ssd */
     .down-list li .title_ssd { width:100%; margin-bottom: 5px;}
-    .down-list li .language { width:100%; padding-left: 8px;}
-    .down-list li .size { width:100%; padding-left: 8px;}
+    .down-list li .language { width:100%; padding-left: 8px; text-align:left;}
+    .down-list li .size { width:100%; padding-left: 8px; text-align:left;}
     .down-list li .download_ssd {position: absolute; right:0; top: 0; }
     .down-list li .download_ssd a{margin-top: 0;}
+    .down-list li > div {min-height:auto;}
 }
 /* //download */
 
