@@ -2226,3 +2226,8 @@ ul.tab.type5 li a {display:block; padding:9px 5px; vertical-align:middle; box-si
 .download_info{font-size: 14px; margin-bottom: 20px;}
 .down_caution{font-size: 14px; margin-top: 20px;}
 
+
+
+
+/* selection_wrap */
+.selection_wrap{margin-top:50px;padding:20px;background-color:#f1f1f1;border:solid 1px #dcdcdc}
