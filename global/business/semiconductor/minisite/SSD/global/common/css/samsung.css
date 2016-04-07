@@ -2230,4 +2230,33 @@ ul.tab.type5 li a {display:block; padding:9px 5px; vertical-align:middle; box-si
 
 
 /* selection_wrap */
-.selection_wrap{margin-top:50px;padding:20px;background-color:#f1f1f1;border:solid 1px #dcdcdc}
+.selection_wrap{position:relative;margin-top:50px;padding:10px;background-color:#f1f1f1;border:solid 1px #dcdcdc;overflow:hidden}
+.selection_wrap .selection_step{float:left;width:25%}
+.selection_wrap .selection_inner{padding:5px}
+.selection_wrap .selection_step .title{padding-top:10px;font-size:18px;font-family:"SamsungIFBd"}
+.selection_wrap .selection_step .title span{font-family:"SamsungIFRg"}
+.selection_wrap .selection_box{position:relative;height:413px;overflow:hidden}
+.selection_wrap .selection_box > ul{overflow-y:auto;height:375px;padding:10px;border:solid 1px #dcdcdc;margin-top:15px;background-color:#fff}
+.selection_wrap .selection_box > ul:after{display:block;text-align:center;padding-top:210px;background:url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/ico_selection.png) no-repeat center 130px #fff;font-family:"SamsungIFBd"}
+.selection_wrap .step2 .selection_box > ul:after{content:"Select a Usage"}
+.selection_wrap .step3 .selection_box > ul:after{content:"Select a Form Factor or Interface"}
+.selection_wrap .step4 .selection_box > ul:after{content:"Select a Capacity"}
+.selection_wrap .selection_box > ul.on:after{display:none}
+.selection_wrap .selection_box > ul li a{position:relative;display:block;padding:20px;border-bottom:solid 1px #e9e9e9}
+.selection_wrap .selection_box > ul li a span{display:inline-block;width:91%}
+.selection_wrap .selection_box > ul li.on a{background-color:#0f1790;color:#fff}
+.selection_wrap .selection_box > ul li a.link:after{content:"";display:inline-block;width:9px;height:13px;margin-top:-7px;position:absolute;top:50%;right:20px;background:url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/ico-list-arrow.png) no-repeat}
+@media (max-width: 767px){
+    .selection_wrap{padding:0}
+    .selection_wrap .selection_step{float:none;width:auto;border-top:solid 1px #dcdcdc;padding:15px;overflow:hidden}
+    .selection_wrap .selection_step:first-child{border-top:none}
+    .selection_wrap .selection_step .title{position:relative;padding-top:0;font-size:14px}
+    .selection_wrap .selection_step .title:after{content: "\27";font-family:'samsungIcon';position:absolute;right: 0;top: -2px;cursor:pointer}
+    .selection_wrap .selection_step .title.expanded:after{content:"\28"}
+    .selection_wrap .selection_step .title.dimmed{color:#ccc}
+    .selection_wrap .selection_box > ul li a{padding:17px;font-size:14px}
+    .selection_wrap .selection_box{height:auto}
+    .selection_wrap .selection_box > ul{height:auto}
+    .selection_wrap .selection_box > ul li:last-child a{border-bottom:none}
+    .selection_wrap .selection_box > ul:after{display:none}
+}

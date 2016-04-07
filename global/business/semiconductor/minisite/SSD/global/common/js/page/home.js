@@ -13,7 +13,7 @@ function initPage(){
     init_same_height();
     init_dotdotdot();
     init_data_table();
-
+    init_selection_Tool();
 };
 
 
@@ -593,3 +593,16 @@ function loadReviewAwards( path )
     
 }
 
+
+/********************************************************************************************************
+ * METHOD:init_selection_Tool
+ ********************************************************************************************************/
+
+function init_selection_Tool()
+{
+    $("*[data-role='selection-tool']").each(function ()
+    {
+        var selectionTool = new SelectionToo( $(this) );    
+    });
+    
+}
