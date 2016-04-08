@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+/* error page */
+
+.error_page {padding:165px 0; height:100%; padding-left:10px; padding-right:10px}
+.error_page h2 {margin-bottom:10px; font-size:34px; font-family:'SamsungIFBlk'; margin-top: 20px;}
+.error_page > div {text-align:center}
+.error_page .error404 span,
+.error_page .error500 span {margin-bottom:40px; display:inline-block}
+.error_page .error404 span img,
+/* .error_page .error500 span img {width:100%} */
+.error_page .error404 .first,
+.error_page .error500 .first {margin-bottom:20px; font-size:24px}
+.error_page .error404 span {max-width:446px}
+.error_page .service_regular,
+.error_page .browser_update {margin:0 auto; max-width:768px}
+.error_page .service_regular .info_box {text-align:left}
+.error_page .service_regular .info_box,
+.error_page .browser_update .info_box2 {margin-top:30px; padding:0 30px 30px 30px; background-color:#f1f1f1}
+
+.error_page .service_regular  h1 {margin-bottom:23px; color:#0057a4}
+.error_page .service_regular .info_box dt {padding-top:30px; font-family:SamsungIFBd; font-size:18px}
+.error_page a.link {color:#0057a4; margin-top: 30px; font-size: 14px;}
+
+.error_page .browser_update h1 {margin-bottom:10px; color:#0057a4}
+.error_page .browser_update .info_box2 > div {padding-top:20px; margin:0 auto; max-width:528px; text-align:center}
+.error_page .browser_update .info_box2 > div img {width:100%}
+.error_page .browser_update .info_box2 dl {margin-top:30px}
+.error_page .browser_update .info_box2 dt {margin-bottom:15px; font-family:'SamsungIFBd'; font-size:24px;}
+
+.error_notavailable a.link {margin-top:15px; margin-bottom:0; color:#0057a4}
+.error_notavailable {margin-bottom:40px}
+
+
+@media (min-width:768px) and (max-width:1280px) {
+    .error_page .browser_update .info_box2 dt,
+    .error_page .error404 .first,
+    .error_page .error500 .first {font-size:20px}
+    .error_page .service_regular .info_box dt {font-size:16px}
+    .error_page .service_regular .info_box,
+    .error_page .browser_update .info_box2 {padding:0 20px 30px}
+    .error_page h2 {font-size:24px}
+
+}
+@media (max-width:767px) {
+    .error_page {padding:75px 10px}
+    .error_page .browser_update .info_box2 dt,
+    .error_page .error404 .first,
+    .error_page .error500 .first {font-size:16px}
+    .error_page .service_regular .info_box dt {font-size:14px}
+    .error_page .service_regular .info_box,
+    .error_page .browser_update .info_box2 {padding:0 20px 30px}
+    .error_page h2 {font-size:24px; margin-top: 15px; }
+    .error_page a.link {margin-top: 15px; }
+    .error_page .error_ico img{ width:58px; }
+}
+
+

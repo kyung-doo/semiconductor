@@ -5,7 +5,7 @@ fieldset {min-width:0}
 img[src=''], img:not([src]) {opacity:0;}
 ul,ol{list-style:none}
 html{-webkit-text-size-adjust:none;-webkit-tap-highlight-color:transparent}
-html,input,table,textarea,select{font-family:'SamsungIFRg', Arial; word-wrap:break-word; color:#000;}
+html,input,table,textarea,select{font-family:'SamsungIFRg', Arial, 'メイリオ'; word-wrap:break-word; color:#000;}
 button{border-radius:0;background:transparent;text-transform:inherit;font-family:inherit;color:inherit}
 a{color:inherit;text-decoration:none}
 em{font-style:normal}
@@ -23,7 +23,7 @@ input[placeholder],input[type=text]:-moz-placeholder,input[type=text]::-moz-plac
 @font-face { font-family: 'SamsungIFRg'; src: url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-400.eot"); src: url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-400.eot?#iefix") format("embedded-opentype"), url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-400.woff") format("woff"), url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-400.ttf") format("truetype"), url("/global/business/semiconductor/minisite/SSD/global/common/font/SamsungOne-400.svg#SamsungOne-400") format("svg"); font-weight: normal; font-style: normal; }
 @font-face { font-family: 'samsungIcon'; src: url("/global/business/semiconductor/minisite/SSD/global/common/font/samsungIcon.eot"); src: url("/global/business/semiconductor/minisite/SSD/global/common/font/samsungIcon.eot?#iefix") format("embedded-opentype"), url("/global/business/semiconductor/minisite/SSD/global/common/font/samsungIcon.woff") format("woff"), url("/global/business/semiconductor/minisite/SSD/global/common/font/samsungIcon.ttf") format("truetype"), url("/global/business/semiconductor/minisite/SSD/global/common/font/samsungIcon.svg#samsungIcon") format("svg"); font-weight: normal; font-style: normal;}
 html{font-size:16px; line-height:1.365}
-h1,div.solution-visual-area div.inarea h1,.key-visual .screen .focus-msg h1,.sec-title {font-size:32px; font-family: 'SamsungIFBlk';}
+h1,div.solution-visual-area div.inarea h1,.key-visual .screen .focus-msg h1,.sec-title {font-size:28px; font-family: 'SamsungIFBlk'; line-height: 100%;}
 .pop-tit {font-size:32px !important;}
 h2,     .tab-content .module .fluid-txt .tit,     .module .tit,     .grid-outer .tit,     .tab-theme .tab-tit {font-size:28px}
 h3,     .module .fluid-txt .tit,     .grid-outer .fluid-txt .tit,     .article-thumb2 .grid-col2 .tit,     .article-thumb2 .grid-col3 .tit,     .article-txt3 .grid-col2 .tit /* small h2 */ {font-size:24px}
@@ -62,7 +62,7 @@ html{font-size:14px}
 }
 /* heading */
 h1,h2,h3,h4,h5,h6{font-weight:normal; font-size:100%}
-.sec-title{line-height:1.1111; text-transform:uppercase; color:#000;margin-bottom:20px}
+.sec-title{text-transform:uppercase;}
 .sec-title.sub{text-transform:none}
 .sec-title .flag {width:34px; height:23px;}
 .sec-title .category {color:#0057a4;}
@@ -273,7 +273,7 @@ textarea{border:0;}
     .module>.sec-title{padding-left:10px;font-size: 22px;}
     .grid-row.head-desc {margin-top:-10px; margin-bottom:25px;}
 }
-.module, .grid-outer{padding:0 0 75px 0}
+.module, .grid-outer{padding:0 0 50px 0}
 .grid-outer.bg-main5{margin-bottom:40px;padding-bottom:0}
 @media (max-width:767px){
     .article,     .module,     .grid-outer {padding-bottom:30px !important}
@@ -319,7 +319,7 @@ button.ctl-accordion.expanded:after{content:"\28"}
 .key-visual+.floating-jumpmenu.active{margin-top:0}
 */
 /* jumpmenu : base */
-.floating-jumpmenu {width:100%; background:url("/global/business/semiconductor/minisite/SSD/global/common/img/layout/bg-jump-default.png"); border-bottom:1px solid #dcdcdc; text-transform:uppercase; position:relative; font-size:1rem;  font-family:'SamsungIFBd'; color:#0057a4;}
+.floating-jumpmenu {width:100%; background:url("/global/business/semiconductor/minisite/SSD/global/common/img/layout/bg-jump-default.png"); border-bottom:1px solid #989898; text-transform:uppercase; position:relative; font-size:1rem;  font-family:'SamsungIFBd'; color:#0057a4;}
 .acc-cont .floating-jumpmenu,.floating-jumpmenu li a.active:before {display:none;}
 .floating-jumpmenu.active{position:fixed;left:0;top:0;right:0;z-index:9;display:block !important;margin-top:0;z-index:9999999}
 .floating-jumpmenu.active>div{display:block}
@@ -331,10 +331,10 @@ button.ctl-accordion.expanded:after{content:"\28"}
 .floating-jumpmenu .product-title span, .floating-jumpmenu h2 span {display:block; max-width:1311px; margin:0 auto; padding:25px 20px 15px 20px; line-height:30px; font-family:'SamsungIFBlk'; font-size:28px; color:#292929}
 .floating-jumpmenu .product-title span {text-transform:none}
 .floating-jumpmenu .product-title.download{border-bottom:none}
-.floating-jumpmenu ul {overflow:hidden; z-index:10;  border-left:1px solid #dcdcdc}
+.floating-jumpmenu ul {overflow:hidden; z-index:10;  border-left:1px solid #989898}
 .floating-jumpmenu ul:before, ul.jump-link:before {content:"";background:#e3e3e3;height:1px;position:absolute;left:0;right:0;top:56px;z-index:5}
 .floating-jumpmenu li, ul.jump-link li {float:left; /*position:relative*/} /*//20150803 mobile jellybean 4.2 에서 fixed 후, event 영역을 갱신하지 못하는 문제가 있어서 relative 를 제거함*/
-.floating-jumpmenu li a{display:table;width:100%; background:none; border-right:1px solid #dcdcdc; box-sizing:border-box}
+.floating-jumpmenu li a{display:table;width:100%; background:none; border-right:1px solid #989898; box-sizing:border-box}
     .ie7 .floating-jumpmenu li a {display:block; height:20px; padding:20px 0}
 .floating-jumpmenu ul.col5 li{overflow:hidden; width:20%; }
 .floating-jumpmenu ul.col4 li{overflow:hidden; width:25%; height:56px}
@@ -519,7 +519,7 @@ a.btn-jump span {text-transform:none}
     .key-visual li .kv_mobile {display:none}
 }
 .key-visual .screen .focus-msg{position:absolute;left:10px;top:10px;bottom:10px;width:30.1%;padding:0 1.4694%; background:url(/global/business/semiconductor/minisite/SSD/global/common/img/layout/bg_kv_txt.png);color:#fff; line-height: 1.2;}
-.key-visual .screen .focus-msg h1{padding-top:5%;overflow:hidden; text-transform:uppercase;}
+.key-visual .screen .focus-msg h1{padding-top:5%;overflow:hidden; text-transform:uppercase; font-family: 'メイリオ';}
 .key-visual .screen .focus-msg h1 a{display:block; position:relative; font-size:18px;overflow:hidden; text-transform:uppercase; /*color:#b8d8ee;*/ padding-left:24px; font-family:'SamsungIFBlk';}
 .key-visual .screen .focus-msg h1 a:after {display:inline-block; position:absolute; top:0; left:0; content:"\e613"; font-family:'samsungIcon'}
 .key-visual .screen .focus-msg h1 span{display:block;text-transform:uppercase}
@@ -532,13 +532,13 @@ a.btn-jump span {text-transform:none}
 .key-visual .screen .focus-msg .btn-type1:last-child {margin-right:0;}
 .key-visual .screen .focus-msg .btn-type1:hover {background-color:#0071bf !important; color:#fff !important}
 .key-visual .screen.movie iframe{position:absolute;left:0;right:0;top:0;bottom:0;}
-.key-visual.home_kv{margin-bottom: 50px;}
+.key-visual.home_kv{margin-bottom:60px;}
 @media (min-width:1024px){
-.key-visual.home_kv .screen .focus-msg{position:relative;left:10px;top:10px;bottom:auto;width:440px;padding:0 1.4694%; background:none;color:#fff; line-height: 1.2;}
+.key-visual.home_kv .screen .focus-msg{position:relative;left:10px;top:10px;bottom:auto;width:520px;padding:0 1.4694%; background:none;color:#fff; line-height: 1.2;}
 .key-visual.home_kv .screen .focus-msg .category{font-size: 21px; padding-top: 105px;}
-.key-visual.home_kv .screen .focus-msg h1{padding-top:90px;overflow:hidden; font-size:52px; line-height:56px; font-family: 'SamsungIFBlk'; text-shadow:1px 1px 1px rgba(0,0,0,0.8);}
-    .key-visual.home_kv .screen .focus-msg h1 em{font-size: 21px;}
-.key-visual.home_kv .screen .focus-msg .txt{padding-top:15px; overflow:hidden;text-shadow:1px 1px 1px #000;text-shadow:1px 1px 1px rgba(0,0,0,0.8);font-size:21px; line-height: 30px;}
+    .key-visual.home_kv .screen .focus-msg h1{padding-top:90px;overflow:hidden; font-size:52px; line-height:56px; text-shadow:1px 1px 1px rgba(0,0,0,0.8); font-weight:600;}
+    .key-visual.home_kv .screen .focus-msg h1 em{font-size: 21px; font-weight: normal;}
+    .key-visual.home_kv .screen .focus-msg .txt{padding-top:15px; overflow:hidden;text-shadow:1px 1px 1px #000;text-shadow:1px 1px 1px rgba(0,0,0,0.8);font-size:21px; line-height: 30px; width: 390px;}
 .key-visual.home_kv .screen .focus-msg .act{position:relative;bottom:auto;display:block;overflow:hidden; margin-top:30px;}
 .key-visual.home_kv .screen .focus-msg .act a{font-size: 16px;text-shadow:1px 1px 1px rgba(0,0,0,0.8); background: none; line-height: auto; padding: 0; margin: 0; color:#fff; padding-left: 5px;}
 .key-visual.home_kv .screen .focus-msg .act a:after {  margin-bottom:3px;  content: "\34"; margin: 0 0 0px 2px;  font-family: 'samsungIcon';  display: inline-block;  vertical-align: middle; font-size: 15px;}
@@ -1023,18 +1023,9 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 .header-wrap .ctl-nav:before{content:"\2b"}
 .header-wrap .util-menu .ctl-frm:before{content:"\e013";}
 .header-wrap .util-menu .submit-sch:before{content:"\e013";line-height:30px;height:30px}
-.header-wrap .btn-signin {margin-left:10px; float:left; width:34px}
-.header-wrap .btn-signin:after {font-family:'samsungIcon'; font-size:22px; content:'\29'}
-.header-wrap .btn-signin.on:after {content:"\e618"; font-size:28px}
-
-.header-wrap .call-smartfinder {margin-left:10px; float:left; width:34px}
-.header-wrap .call-smartfinder:after {display:block; content:'\e600'; font-size:26px; font-family: 'samsungIcon'}
-.header-wrap .call-smartfinder.active {background-color:#0071bf}
-
-.header-wrap .call-personalHistory {margin-left:10px; float:left; width:34px;}
-.header-wrap .call-personalHistory:after {display:block; content:'';  font-size:26px; font-family: 'samsungIcon';  background:url(/global/business/semiconductor/minisite/SSD/global/common/img/layout/ico_history.png) no-repeat 50% 0; background-size:29px 25px; width:34px; height:25px}
-.header-wrap .call-personalHistory.active {background-color:#e5eef6; color:#1428a0;}
-.header-wrap .call-personalHistory:hover:after{background:url(/global/business/semiconductor/minisite/SSD/global/common/img/layout/ico_history_over.png) no-repeat 50% 0;background-size:29px 25px;}/* 조재영 history 임의 이미지 */
+.header-wrap .util-menu .where{display: block; background-color: #fff; color: #0057a4; font-family: samsungifblk; width: 140px; height: 30px; line-height: 30px; border-radius: 15px; text-align: center; font-size: 14px; text-transform: uppercase; margin-top: 10px;}
+.header-wrap .util-menu .where:hover{color:#0057a4; }
+.header-wrap .util-menu .where span:after{content: "\34";    font-family: 'samsungIcon';    display: inline-block;    vertical-align: middle;    margin: 0 0 2px 2px;    position: relative;}
 
 .header-wrap .header:after, .header-wrap .nav:after, .header-wrap .local-menu:after{content:"";display:block;clear:both;visibility:hidden}
 .header-wrap a.retial-mobile-btn, .header-wrap a.retail-mobile-btn {display:none}
@@ -1077,7 +1068,7 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
     .header-wrap .nav:before{content:"";display:block;height:30px}
     .body-wrap.nav-on .header-wrap .nav{display: block; right:0}
     .header-wrap .local-menu,     .header-wrap .nav ul.direct>li a{line-height:1.365;}
-    .header-wrap .local-menu a,     .header-wrap .nav ul.direct>li a{padding-top:15px !important;padding-bottom:15px !important;}
+    .header-wrap .local-menu a,     .header-wrap .nav ul.direct>li a{padding-top:15px;padding-bottom:15px;}
     .header-wrap .local-menu>li>a{padding-left:30px !important;padding-right:72px !important;}
     .header-wrap .local-menu{margin:0;color:#000;float:none;height:auto;background:#f5f5f5}
     .header-wrap .local-menu>li{float:none;border-top:1px solid #e1e1e1;height:auto}
@@ -1096,7 +1087,7 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
     .body-wrap.nav-on .ctl-nav {position:fixed; right:70%; top:31px; height:50px}
     .header-wrap .nav ul.direct{color:#000;position:static;border-bottom:1px solid #e1e1e1}
     .header-wrap .nav ul.direct>li{float:none;padding:0;border-top:1px solid #e1e1e1}
-    .header-wrap .nav ul.direct>li a{padding-left:30px;padding-right:72px; color:#0057a4}
+    .header-wrap .nav ul.direct>li a{padding-left:30px;padding-right:72px; color:#0057a4; padding-top: 0;}
     .header-wrap .nav ul.direct>li a:hover{color:#000 !important}
     .header-wrap a.btn.link:after{content:""}
     .header-wrap .nav a{position:relative;}
@@ -1112,6 +1103,7 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
     .header-wrap a.retail-link {position:absolute; left:0; top:0; padding:15px 40px}
     .header-wrap a.retail-link:after {display:none}
     .header-wrap .util-menu .sch .txt_del {position:absolute; top:8px; right:35px}
+    .header-wrap .util-menu .where{display: none;}
 }
 @media (min-width:768px) and (max-width:1023px){
     .header-wrap .header{padding:0 15px}
@@ -1139,6 +1131,7 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 .footer-row .grid-row {position:relative}
 .footer-row .grid-row .col-inner{overflow:hidden; margin-top:0;}
 .footer-row.bottom .col-inner > ul > li a.outlink:after {margin-left:5px; margin-bottom:1px; font-family:'samsungIcon'; content:'\e60e'}
+.footer {padding-top: 50px;}
 .footer .info{background:#dbebf6;padding:20px 0 20px;}
 .footer .info .contact, .footer .info .entermail, .footer .info .social{position:relative}
 .footer .info h2{text-transform:uppercase;font-size:24px}
@@ -1200,6 +1193,7 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 .footer .info .grid-col3.sales p{padding-bottom:15px;}
 .footer .info .grid-col3.sales a.link-outlink:after {margin:0 0 0px 2px; font-family:'samsungIcon'; display:inline-block; vertical-align:middle; font-size:0.9rem; margin-bottom:1px; content:"\34";}
 @media (max-width:1023px){
+    .footer {padding-top: 0px;}
     .footer .info .entermail .col-inner>div{padding-right:0}
     .footer .info .entermail p{margin-right:0}
     .footer .info .entermail .frm{float:none;width:auto;font-size:1em;max-width:none;padding-bottom:10px}
@@ -1295,7 +1289,7 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 .footer .sitemap .frm input[type=search], .footer .sitemap .frm input[type=text]{display:inline-block; float:left;width:100%; height:37px; line-height:19px; padding:8px 10px; padding-right:25px; background:#fff; -khtml-border-radius:3px 0 0 3px; -moz-border-radius:3px 0 0 3px; -webkit-border-radius:3px 0 0 3px; border-radius:3px 0 0 3px; -moz-background-clip:padding; -webkit-background-clip:padding-box; background-clip:padding-box; border:1px solid #dadee1; border-right-width:0; -webkit-appearance:none; font-size:18px}
 .footer .sitemap .frm .submit-sch{background:#fff;color:#000;width:35px;height:100%;font-size:1.5em;line-height:35px;float:right;margin-right:-35px;border-radius:0 3px 3px 0;border:1px solid #dadee1;border-left-width:0}
 .footer .sitemap .frm .txt_del {display:none; position:absolute; top:11px; right:40px; margin:0; line-height:1;}
-.sitemap .grid-col{ width:25%;}
+.sitemap .grid-col{ width:20%;}
 .sitemap .grid-col.product_area{ width:50%;}
 .sitemap .grid-col.product_area ul.map_product{ width:50%; float:left;}
 @media (max-width:767px){
@@ -1326,6 +1320,10 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 .footer .bottom .language{display:block; height:auto; line-height:19px; padding:20px 0 20px; float:right;}
 .footer .bottom .language a{ color:#fff;}
 
+.footer .bottom .mark {float:right; *zoom:1; padding-top: 21px;}
+.footer .bottom .mark a {height:20px; line-height:20px; font-size:14px; font-family:'SamsungIFBlk'; text-transform: uppercase; display: block;}
+.footer .bottom .mark a:after{    content: "\34";font-family: 'samsungIcon'; display: inline-block; vertical-align: middle; margin: 0 0 2px 2px; position: relative;}
+
 .footer .bottom2{padding:10px 0;font-size:12px;}
 .footer .bottom2 .copyright{float:left; margin-top:10px; line-height:18px;}
 .footer .bottom2 .copyright span {margin-top:20px; display:block}
@@ -1339,16 +1337,13 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 .footer .bottom .util-menu li a{display:block; padding:5px 0 5px 10px}
 .footer .bottom .language{float:none; padding:10px; background:#000; color:#fff; border-top:1px solid #333;}
 .footer .bottom .language a{ color:#fff; display:block; padding:5px 0;}
-.footer .bottom .mark{float:none; padding:0 10px; background:#000; color:#fff; border-top:1px solid #333}
+.footer .bottom .mark{float:none; padding:15px 10px; background:#000; color:#fff; border-top:1px solid #333}
 .footer .bottom2{font-size:14px}
 .footer .sitemap .col-inner>ul>li>a {font-size:12px}
 .footer .bottom2 .copyright {font-size:12px}
 .footer .bottom .util-menu {padding:10px 0}
 .footer .bottom .util-menu li a {color:#fff}
-.footer .bottom .mark.uk {position:relative; overflow:hidden;}
-.footer .bottom .mark.uk:after {position:absolute; left:0; top:60px; display:block; width:100%; height:0; border-bottom:1px solid #333; content:"";}
-.footer .bottom .mark li img {width:90%;}
-.footer .bottom .mark li.country {float:left; width:100%; margin:0; padding:15px 0}
+
 }
 
 /* module */
@@ -1563,6 +1558,25 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
     .grid-row.v_nand .grid-col4 .col-inner figcaption{font-size: 14px;}
 }
 
+/*SAMSUNG V-NAND SSD*/
+.grid-row.supports {}
+.grid-row.supports .grid-col4 {}
+.grid-row.supports .grid-col4 .col-inner{text-align: center; margin-top: 20px; padding-left: 35px; padding-right: 35px; background-color: #f8f8f8; height: 200px;}
+.grid-row.supports .grid-col4 .col-inner .img{ height: 105px; padding-top: 45px;}
+.grid-row.supports .grid-col4 .col-inner figcaption{font-size: 21px; }
+@media (min-width:768px) and (max-width:1023px) {
+    .grid-row.supports .grid-col4 {width: 50%;}
+    .grid-row.supports .grid-col4:nth-child(3) .col-inner{border: none;}
+}
+@media (max-width:767px) {
+    .grid-row.supports {margin-bottom: 0;}
+    .grid-row.supports .grid-col4 {width: 50%;}
+    .grid-row.supports .grid-col4 .col-inner{border:none; text-align: center; margin-top:20px; padding-left: 10px; padding-right: 10px; min-height: auto; height: 118px;}
+    .grid-row.supports .grid-col4 .col-inner .img{height:65px; padding-top:20px;}
+    .grid-row.supports .grid-col4 .col-inner .img img{height: 55px;}
+    .grid-row.supports .grid-col4 .col-inner figcaption{font-size: 15px;}
+}
+
 /*SAMSUNG bottom banner*/
 .grid-row.bottom_banner {}
 
@@ -1576,7 +1590,8 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 }
 @media (max-width:767px) {
     .grid-row.bottom_banner .grid-col2 .col-inner .banner_title {padding-top: 7px; padding-bottom:0px;}
-    .grid-row.bottom_banner .grid-col2 .col-inner .banner_title h3{font-size:15px;padding-left: 20px; padding-bottom:0px;}
+    .grid-row.bottom_banner .grid-col2 .col-inner .banner_title h3{font-size:15px;padding-left: 10px; padding-bottom:0px;}
+    .grid-row.bottom_banner .grid-col2 .col-inner .btn-type2{padding: 0 10px;}
 }
 
 
@@ -2159,7 +2174,7 @@ ul.support-list-type>li a.tooltipbox{display:inline-block; padding:0; margin-lef
     .faq_select a{margin-bottom: 10px; font-size: 15px; height: 120px; padding-top: 35px; margin-right: 0;}
     .faq_select a span{height: 60px; margin-bottom: 15px;}
     .faq_select a span img{height: 100%; width: auto;}
-    
+
     .download_select a{margin-bottom: 10px; font-size: 15px; padding-top: 35px;padding-bottom: 35px; margin-right: 0;}
     .download_select a span{height: 60px; margin-bottom: 30px;}
     .download_select a span img{height: 100%; width: auto;}
@@ -2226,3 +2241,43 @@ ul.tab.type5 li a {display:block; padding:9px 5px; vertical-align:middle; box-si
 .download_info{font-size: 14px; margin-bottom: 20px;}
 .down_caution{font-size: 14px; margin-top: 20px;}
 
+/* toggle tab */
+.toggleTab {position:relative; padding-bottom:0px;}
+.toggleTab .floating-jumpmenu {display:none;}
+.toggleTab .floating-jumpmenu ul li {background:#fff;}
+.toggleTab.col4 .floating-jumpmenu ul li {width:25%;}
+.toggleTab > ul.grid-row {margin-top:10px; position:static; font-size:0; letter-spacing:-4px;}
+.toggleTab + .toggleTab > ul.grid-row {margin-top:0;}
+.toggleTab > ul:after {content:''; display:block; height:0; overflow:hidden; clear:both;}
+.toggleTab > ul > li {display:inline-block; vertical-align:top; font-size:16px; letter-spacing:0;}
+.toggleTab.col4 > ul > li {width:25%;}
+
+.toggleTab .overview {position:relative; margin-left:10px; padding:0 0 55px; box-sizing:border-box; }
+.toggleTab .overview figure img{border: 1px solid #e9e9e9; float: left; border-bottom: none;}
+.toggleTab .overview figure:after{content: ""; display: block; clear: both;}
+.toggleTab .overview figcaption{background-color: #0057a4; color: #fff; height: 55px; line-height: 55px; border-bottom: 1px solid #2f8bdd; padding-left: 20px; font-size: 21px; clear: both;}
+.toggleTab .overview button {position:absolute; width:100%; bottom:0; left:0; height:55px;}
+.toggleTab .overview button.hide:before {position:absolute; left:50%; bottom:0; display:block; width:0; height:12px; margin-left:-15px; border-color:transparent transparent #f1f1f1; border-width:15px; border-style:solid; content:'';}
+.toggleTab .desc {position:absolute; width:100%; left:0; background:#f1f1f1; padding:20px 0 15px; display:none;}
+.toggleTab .desc > * {max-width:1310px; margin:0 auto; padding:0 28px;}
+
+@media (min-width:768px) and (max-width:1023px) {
+    .toggleTab {padding-bottom:0;}
+    .toggleTab.col4 .floating-jumpmenu ul li {width:50%; display:none;}
+    .toggleTab > ul > li {margin-bottom:40px;}
+    .toggleTab.col4 > ul > li {width:50%;}
+}
+@media (max-width:767px) {
+    .toggleTab .floating-jumpmenu,     .toggleTab .floating-jumpmenu > button {height:50px;}
+    .toggleTab .floating-jumpmenu > button:after,     .toggleTab .floating-jumpmenu.expand > div {display:none;}
+    .toggleTab .floating-jumpmenu li {background:transparent;}
+    .toggleTab > ul.grid-row {padding-right:0;}
+    .toggleTab + .toggleTab {padding-bottom:30px;}
+    .toggleTab + .toggleTab > ul.grid-row {margin-top:-40px;}
+    .toggleTab > ul > li {font-size:14px; width:100% !important; display:block; margin-bottom:10px;}
+    .toggleTab .img,     .toggleTab .overview {height:auto !important; margin-left:0;}
+    .toggleTab .img {padding-bottom:0 !important;}
+    .toggleTab > ul .desc h4 {font-size:20px;}
+    .toggleTab .desc > * {padding:0 10px;}
+    .toggleTab .desc h5 {font-size:16px;}
+}

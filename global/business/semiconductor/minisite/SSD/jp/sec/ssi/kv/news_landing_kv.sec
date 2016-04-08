@@ -1,0 +1,27 @@
+<!-- key visual -->
+		<div class="key-visual" data-role="ui-flick" data-autoplay="Y">
+			<div data-role="ui-flick-container">
+				<ul class="item4"  data-role="ui-flick-content">		<!-- class:"item"+slide item sum -->
+					<li>
+						<div class="screen movie">
+                         <img alt="" data-media-mobile="/semiconductor/common/img/aboutus/kv/Visual_News_LV2_767.jpg" data-media-desktop="/semiconductor/common/img/aboutus/kv/Visual_News_LV2_1920.jpg" class="kv_desktop" src="/semiconductor/common/img/aboutus/kv/Visual_News_LV2_1920.jpg" />
+							<div>
+								<div class="focus-msg">
+									<h1 class="tit"><em>News</em>The Marvels of Semiconductor Technology</h1>
+									<div class="txt">
+										Join us in exploring the wonders of technology with our latest breakthroughs, emerging products, and special events as we continue to push the limits of what is possible.
+									</div>
+									<!-- 버튼영역 -->
+									<span class="act">
+										<a href="javascript:void(0);" class="btn-type1 link" tabindex="0" onclick="javascript:sendClickCode('pid','global b2bsemiconductor_news landing_kv1_DISCOVER THE WONDER OF SEMICONDUCTOR TECHNOLOGY_20150720');sendClickCode('content_click_count','kv1_find out more');">Find out more</a>
+									</span>
+									<!-- //버튼영역 -->
+								</div>
+							</div>
+							<span class="act2"></span>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- //key visual -->

@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+.detail_inner {padding:30px 0 40px 0; background-color:#f1f1f1; margin-top:-40px}
+.solution_detail .module.article2 {margin-top:-10px}
+.solution_detail .article2 .left .thumb {width:42%}
+.solution_detail .article2 .col-inner {margin-bottom:0; padding-bottom:0; background-color:#fff !important}
+.solution_detail .article2 .col-inner .thumb {background-color:#fff !important}
+.solution_detail .article2 .col-inner .thumb > div {height:283px; background-position:center; background-size:cover}
+.solution_detail .article2 .grid-col1.left .tit {padding-top:20px}
+.solution_detail .article2 .wrapper-act {padding:27px 0 0 15px; margin-left:-14px; text-align:left; clear:none}
+.solution_detail .article2 .wrapper-act button {margin:0 14px 0 0}
+.solution_detail .article2 .grid-row {position:static}
+
+.solution_detail .layer_pop .pop-wrap {margin:-237px 0 0 -369px; position:absolute; top:50%; left:50%; width:682px; z-index:100000;}
+.solution_detail .layer_pop .pop-wrap .ui-layer-content > .tit {font-family:SamsungIFBd; font-size:30px; text-align:center; border-bottom:1px solid #f1f1f1}
+.solution_detail .layer_pop .wrapper-act {text-align:center}
+.solution_detail .layer_pop .wrapper-act button {height:40px}
+.solution_detail .layer_pop .article2 .col-inner {margin:0 0 -999999px 0; background-color:#f1f1f1}
+.solution_detail .layer_pop .article2 .grid-row {padding:0}
+.solution_detail .layer_pop .article2 .fluid-txt {padding-top:0}
+.solution_detail .layer_pop .article2 .fluid-txt > p {padding-top:15px}
+.solution_detail .layer_pop .article2 .fluid-txt .act a {margin:26px 0 0 0}
+.solution_detail .layer_pop .grid-col1.left .tit {padding-top:0}
+
+.pop-wrap.pop-width.ui-layer-container.trial {max-width:682px}
+.ui-layer-trial p.tit {padding-bottom:10px; margin-bottom:20px; font-family:SamsungIFBd; font-size:30px; text-align:center; border-bottom:1px solid #f1f1f1}
+.ui-layer-trial .wrapper-act {text-align:center}
+.ui-layer-trial .wrapper-act button {height:40px}
+.ui-layer-trial .article2 .col-inner {margin:0 0 -999999px 0; background-color:#f1f1f1}
+.ui-layer-trial .article2 .grid-row {padding:0}
+.ui-layer-trial .article2 .fluid-txt {margin-left:52%}
+.ui-layer-trial .article2 .fluid-txt .sub {overflow:hidden; max-height:6.5em; line-height:1.3; padding-right:10px; text-overflow:ellipsis;  display:-webkit-box; -webkit-line-clamp:5; -webkit-box-orient: vertical}
+.ui-layer-trial .article2 .fluid-txt > p {padding-top:15px}
+.ui-layer-trial .article2 .fluid-txt .act a {display:none; margin:26px 0 0 0}
+.ui-layer-trial .grid-col1.left .tit {overflow:hidden; max-height:2.2666em; margin-bottom:19px; padding-top:0; padding-bottom:0}
+.ui-layer-trial .check-list {padding-left:0}
+.ie7 .solution_detail .layer_pop .pop-wrap  {height:740px}
+.ie7 .solution_detail .btn-close {background:url('/common/b2b4/img/ico/btn_pop_close.png') no-repeat right bottom}
+.ie7 .solution_detail .article2 .left .thumb {width:43%}
+.sec-feature {margin-bottom:40px}
+.solution-industrial,
+.solution-business,
+.solution-printing {margin-top:-10px}
+
+@media (max-width:1280px) {
+	.solution_detail .article2 .wrapper-act {margin-top:-17px;}
+}
+
+@media (min-width:768px) and (max-width:1280px) {
+	.solution_detail .article2 .wrapper-act button {margin-top:10px; min-width:40%}
+}
+
+@media (min-width:768px) {
+	.solution_detail .article2 .left .fluid-txt {margin-left:42%; padding-left:35px}
+}
+@media (max-width:767px) {
+	.detail_inner {margin-top:-30px; padding-bottom:10px}
+
+	.ui-layer-trial .article2 .col-inner {margin:0 0 -999999px 0; padding-bottom:999999px; background-color:#f1f1f1}
+	.solution_detail .layer_pop .article2 .col-inner {margin:35px 15px 0 0}
+	.solution_detail .layer_pop .pop-wrap {margin:0; top:0; left:0; box-sizing:border-box; width:100%}
+	.solution_detail .article2 .wrapper-act button {margin:17px 0 0 0; width:100%}
+	.ui-layer-trial .check-list {margin-left:0; padding-left:0}
+	.ui-layer-trial .article2 .fluid-txt {margin-left:0}
+}
+
+@media (max-width:768px) {
+	.sec-feature {margin-bottom:25px}
+}

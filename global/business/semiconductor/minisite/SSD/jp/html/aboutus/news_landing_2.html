@@ -1,0 +1,405 @@
+<!--#include virtual="/semiconductor/global/ssi/header/dochead_html5.sec"-->
+
+	<!-- 페이지별 css link,js -->
+	<link rel="stylesheet" type="text/css" media="all" href="/semiconductor/common/css/pages/insight.css"><!-- //20150706 css 경로 변경 -->
+	<script src="/semiconductor/common/js/page/aboutus.js"></script>
+	<script src="/semiconductor/common/js/page/aboutus_news.js"></script>
+	<!-- //페이지별 css link,js -->
+
+	<title>News | Samsung Semiconductor Global</title>		<!-- unique한 페이지 title -->
+
+	<meta name="title" content="News | Samsung Semiconductor Global"/>
+	<meta name="description" content="Rediscover the wonder of technology with our latest breakthroughs, products, and events as we continue to push limits of innovation"/>
+	<meta name="keywords" content="News, samsung, samsung.com, samsung electronics, semiconductor, samsung website"/>
+	<meta name="last-modified" content="날짜 입력 필요 (예:2015-07-02)" />
+
+<!--#include virtual="/semiconductor/common/html/sec/semi_header.sec"-->
+
+	<!-- contents wrapper -->
+	<div class="content-wrap">
+		<div id="content">
+        	<span class="blind">Content</span>
+        </div>
+		
+		<!--#include virtual="/semiconductor/global/ssi/page/news_landing_kv.sec"-->
+
+		<!-- filter -->
+		<form method="post" action="#" name="filter" class="refine toggle-content filter-news-area">
+			<!-- table,desktop -->
+			<div class="filter-by-area desktop-area">
+				<div class="filter-sort-module" data-role="ui-filter-list">
+					<div class="filterby-section" data-role="ui-filter-container">
+						<a href="#" class="btn-filterby link-toggled" data-role="ui-filter-toggle"><span>Filter by ( 219 )</span></a><!--선택 됐을 때 class link-toggled-->
+						<!-- 140819 추가 css[display=none] -->
+						<div class="product-depth-area" data-role="ui-filter-content" style="display:none;">
+							<!--one depth-->
+							<div class="ui-filter-menu" data-role="ui-filter-menu">
+								<ul class="menu"><!--탭갯수에 따라 class명 변경 2개일때 tab2, 4개일때 tab4, 5개일때 tab5, 6개일때 tab6, 7개일때 tab7-->
+									<li class="active"><a href="#">Category</a></li>
+									<li><a href="#">Period</a></li>
+								</ul>
+							</div>
+							<!--//one depth-->
+
+							<div class="filter-content" data-role="ui-filter-area">
+								<div class="product-listarea">
+									<!--two depth-->
+									<ul class="two-depth">
+										<li><input type="checkbox" id="p-twodepth"><label for="p-twodepth">DRAM</label></li>
+										<li><input type="checkbox" id="p-twodepth2"><label for="p-twodepth2">Flash Storage</label></li>
+										<li><input type="checkbox" id="p-twodepth3"><label for="p-twodepth3">Mobile Memory</label></li>
+										<li><input type="checkbox" id="p-twodepth4"><label for="p-twodepth4">Application Processor</label></li>
+										<li><input type="checkbox" id="p-twodepth5"><label for="p-twodepth5">CMOS Image Sensor</label></li>
+										<li><input type="checkbox" id="p-twodepth6"><label for="p-twodepth6">System LSI</label></li>
+										<li><input type="checkbox" id="p-twodepth7"><label for="p-twodepth7">Other Products</label></li>
+										<li><input type="checkbox" id="p-twodepth8"><label for="p-twodepth8">Corporate</label></li>
+										<li><input type="checkbox" id="p-twodepth9"><label for="p-twodepth9">Foundry Service</label></li>
+									</ul>
+
+									<!-- date filter -->
+									<div class="two-depth date-filter" style="display:none;" data-role="ui-filter-area-period">
+										<!-- select -->
+										<div class="period">
+											<!-- 20150714 Month, Year 위치변경 -->
+											
+											<!-- from month -->
+											<div>
+												<select data-role="ui-period-from-month">
+													<option value="">Month</option>
+													<option value="01">January</option>
+													<option value="02">February</option>
+													<option value="03">March</option>
+													<option value="04">April</option>
+													<option value="05">May</option>
+													<option value="06">June</option>
+													<option value="07">July</option>
+													<option value="08">August</option>
+													<option value="09">September</option>
+													<option value="10">October</option>
+													<option value="11">November</option>
+													<option value="12">December</option>
+												</select>
+											</div>
+											<!-- //from month -->
+											<!-- from year -->
+											<div>
+												<select data-role="ui-period-from-year">
+													<option>Year</option>
+													<option value="2015">2015</option>
+												</select>
+											</div>
+											<!-- //from year -->
+											
+											<span>~</span>
+											
+											<!-- to month -->
+											<div>
+												<select data-role="ui-period-to-month">
+													<option value="">Month</option>
+													<option value="01">January</option>
+													<option value="02">February</option>
+													<option value="03">March</option>
+													<option value="04">April</option>
+													<option value="05">May</option>
+													<option value="06">June</option>
+													<option value="07">July</option>
+													<option value="08">August</option>
+													<option value="09">September</option>
+													<option value="10">October</option>
+													<option value="11">November</option>
+													<option value="12">December</option>
+												</select>
+											</div>
+											<!-- //to month -->
+											<!-- to year -->
+											<div>
+												<select data-role="ui-period-to-year">
+													<option>Year</option>
+													<option value="2015">2015</option>
+												</select>
+											</div>
+											<!-- //to year -->
+											
+											<!-- //20150714 Month, Year 위치변경 -->
+										</div>
+										<!-- //select -->
+
+										<!-- btn -->
+										<button type="button" class="btn-type1" data-role="ui-btn-select-period">Select</button>
+										<!-- //btn -->
+									</div>
+									<!-- //date filter -->
+								
+								</div>
+							</div>
+							<!--select product list-->
+							<div class="select-product" data-role="ui-filter-result">
+							</div>
+							<!--//select product list-->
+
+							<div class="controll-area">
+								<a href="javascript:void(0);" class="btn-clear-all" data-role="btn-clear-all">Clear all</a>
+								<a href="javascript:void(0);" class="btn-filter-cls" data-role="btn-close-layer">Close</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--//table,desktop-->
+			
+			<!--mobile-->
+			<div class="filter-by-area mobile-area" data-role="ui-mfilter-list">
+				<!--select menu-->
+				<div class="sorting-area" data-role="ui-mfilter-menu">
+					<a href="#" class="filterby link-toggled" data-role="ui-mfilter-toggle"><span>Filter by</span><em></em></a>
+				</div>
+				<!--//select menu-->
+				<!--filterby menu-->
+				<div class="filterby-section" data-role="ui-mfilter-content" data-tab="true" style="display:none;">
+					<!--one depth-->
+					<ul class="m-onedepth">
+						<li>
+							<a href="#" class="filter-title" data-role="ui-mfilter-menu"><span>Category</span></a>
+							<!--two depth-->
+							<ul class="m-twodepth">
+								<li><input type="checkbox" id="p-mtwo"><label for="p-mtwo">DRAM</label></li>
+								<li><input type="checkbox" id="p-mtwo2"><label for="p-mtwo2">Flash Storage</label></li>
+								<li><input type="checkbox" id="p-mtwo3"><label for="p-mtwo3">Mobile Memory</label></li>
+								<li><input type="checkbox" id="p-mtwo4"><label for="p-mtwo4">Application Processor</label></li>
+								<li><input type="checkbox" id="p-mtwo5"><label for="p-mtwo5">CMOS Image Sensor</label></li>
+								<li><input type="checkbox" id="p-mtwo6"><label for="p-mtwo6">System LSI</label></li>
+								<li><input type="checkbox" id="p-mtwo7"><label for="p-mtwo7">Other Products</label></li>
+								<li><input type="checkbox" id="p-mtwo8"><label for="p-mtwo8">Corporate</label></li>
+								<li><input type="checkbox" id="p-mtwo9"><label for="p-mtwo9">Foundry Service</label></li>
+							</ul>
+							<!--//two depth-->
+						</li>
+					</ul>
+					<!--//one depth-->
+					<!--one depth-->
+					<ul class="m-onedepth">
+						<li>
+							<a href="#" class="filter-title m-btn-date-filter link-toggled" data-role="ui-mfilter-menu"><span>Period</span></a>
+							<!-- date filter -->
+							<div class="m-twodepth m-date-filter" style="display:none;" data-role="ui-filter-area-period">
+								<!-- from -->
+								<div class="period">
+									<!-- 20150714 Month, Year 위치변경 -->
+									
+									<select data-role="ui-period-from-month">
+										<option value="">Month</option>
+										<option value="01">January</option>
+										<option value="02">February</option>
+										<option value="03">March</option>
+										<option value="04">April</option>
+										<option value="05">May</option>
+										<option value="06">June</option>
+										<option value="07">July</option>
+										<option value="08">August</option>
+										<option value="09">September</option>
+										<option value="10">October</option>
+										<option value="11">November</option>
+										<option value="12">December</option>
+									</select>
+									<select data-role="ui-period-from-year">
+										<option>Year</option>
+										<option value="2015">2015</option>
+									</select>
+									
+									<!-- //20150714 Month, Year 위치변경 -->
+									
+								</div>
+								<!-- //from -->
+								<span>~</span>
+								<!-- to -->
+								<div class="period">
+								
+									<!-- 20150714 Month, Year 위치변경 -->
+									
+									<select data-role="ui-period-to-month">
+										<option value="">Month</option>
+										<option value="01">January</option>
+										<option value="02">February</option>
+										<option value="03">March</option>
+										<option value="04">April</option>
+										<option value="05">May</option>
+										<option value="06">June</option>
+										<option value="07">July</option>
+										<option value="08">August</option>
+										<option value="09">September</option>
+										<option value="10">October</option>
+										<option value="11">November</option>
+										<option value="12">December</option>
+									</select>
+									<select data-role="ui-period-to-year">
+										<option>Year</option>
+										<option value="2015">2015</option>
+									</select>
+									
+									<!-- //20150714 Month, Year 위치변경 -->
+									
+								</div>
+								<!-- //to -->
+
+								<!-- btn -->
+								<button type="button" class="btn-type1" data-role="ui-btn-select-period">Select</button>
+								<!-- //btn -->
+							</div>
+							<!-- //date filter -->
+						</li>
+					</ul>
+					<!--//one depth-->
+					<div class="controll-area">
+						<div class="select-product" data-role="ui-mfilter-result"></div>
+						<a href="javascript:void(0);" class="btn-clear-all" data-role="btn-clear-all">Clear all</a>
+						<a href="javascript:void(0);" class="btn-filter-cls" data-role="btn-close-layer">Close</a>
+					</div>
+				</div>
+				<!--//filterby menu-->
+			</div>
+			<!--//mobile-->
+
+		</form>
+		<!-- //filter -->
+
+		<!-- filter by jump menu  -->
+		<div class="floating-jumpmenu filter_by" data-role="ui-jump-basic"> 
+			<div>
+				<ul>
+					<li><a href="#" data-role="ui-jump-filter-filterby"><span class="btn" onclick="sendClickCode('jumpto','jump to:filter');">Filter by</span></a></li>  
+				</ul>
+			</div>
+		</div>
+		 <!-- //filter by jump menu -->
+
+		<!-- list -->
+		<div class="module">
+			<div class=" grid-row  insight-row-data news-wrap">
+				<ul class="depth1Area" data-tmpl="news">
+					<!-- item (news readmore only) -->
+					<li class="odd"> <!-- 홀수 줄일 경우: class="odd" -->
+						<a href="#">
+							<h2 class="title">Journey Back to the Ancient Ocean with David Attenborough</h2>
+							<p class="txt-zone">Launch of Samsung “Plus” lineup provides memory card solut ions with faster data transfer speeds, expanded capacities and 4K UHD support May 5, 2015 – Samsung Electronics Co., Ltd., a market leader in advanced memory technology and an innov Launch of Samsung “Plus” lineup provides memory card solut ions with faster data transfer speeds, expanded capacities and 4K UHD support May 5, 2015 – Samsung Electronics Co., Ltd., a market leader in advanced memory technology and an innovLaunch of Samsung “Plus” lineup provides memory card solut ions with faster data transfer speeds, expanded capacities and 4K UHD support May 5, 2015 – Samsung Electronics Co., Ltd., a market leader in advanced memory technology and an innovLaunch of Samsung “Plus” lineup provides memory card solut ions with faster data transfer speeds, expanded capacities and 4K UHD support May 5, 2015 – Samsung Electronics Co., Ltd., a market leader in advanced memory technology and an innov</p>
+							<p class="date">Seoul, Korea on May 5, 2015</p>
+						</a>
+					</li>
+					<li class="even"> <!-- 짝수일 경우: class="even" -->
+						<a href="#">
+							<h2 class="title">Journey Back to the Ancient Ocean with David Attenborough</h2>
+							<p class="txt-zone">Launch of Samsung “Plus” lineup provides memory card solut ions with faster data transfer speeds, expanded capacities and 4K UHD support May 5, 2015 – Samsung Electronics Co., Ltd., a market leader in advanced memory technology and an innov Launch of Samsung “Plus” lineup provides memory card solut ions with faster data transfer speeds, expanded capacities and 4K UHD support May 5, 2015 – Samsung Electronics Co., Ltd., a market leader in advanced memory technology and an innovLaunch of Samsung “Plus” lineup provides memory card solut ions with faster data transfer speeds, expanded capacities and 4K UHD support May 5, 2015 – Samsung Electronics Co., Ltd., a market leader in advanced memory technology and an innovLaunch of Samsung “Plus” lineup provides memory card solut ions with faster data transfer speeds, expanded capacities and 4K UHD support May 5, 2015 – Samsung Electronics Co., Ltd., a market leader in advanced memory technology and an innov</p>
+							<p class="date">Seoul, Korea on May 5, 2015</p>
+						</a>
+					</li>
+					<li class="horizon-right odd"> <!-- 이미지 있을경우: class="horizon-right"  홀수 줄일 경우: class="odd" -->
+						<a href="#">
+							<h2 class="title">Journey Back to the Ancient Ocean with David Attenborough</h2>
+							<div class="gallery">
+								<img src="/semiconductor/common/img/aboutus/news/aboutus_news_01.jpg" alt="Maintaining the Best Quality" />
+							</div>
+							<p class="txt-zone">Launch of Samsung “Plus” lineup provides memory card solut ions with faster data transfer speeds, expanded capacities and 4K UHD support May 5, 2015 – Samsung Electronics Co., Ltd., a market leader in advanced memory technology and an innov Launch of Samsung “Plus” lineup provides memory card solut ions with faster data transfer speeds, expanded capacities and 4K UHD support May 5, 2015 – Samsung Electronics Co., Ltd., a market leader in advanced memory technology and an innovLaunch of Samsung “Plus” lineup provides memory card solut ions with faster data transfer speeds, expanded capacities and 4K UHD support May 5, 2015 – Samsung Electronics Co., Ltd., a market leader in advanced memory technology and an innovLaunch of Samsung “Plus” lineup provides memory card solut ions with faster data transfer speeds, expanded capacities and 4K UHD support May 5, 2015 – Samsung Electronics Co., Ltd., a market leader in advanced memory technology and an innov</p>
+							<p class="date">Seoul, Korea on May 5, 2015</p>
+						</a>
+					</li>
+					<li class="horizon-right even"> <!-- 이미지 있을경우: class="horizon-right"  짝수 줄일 경우: even -->
+						<a href="#">
+							<h2 class="title">Journey Back to the Ancient Ocean with David Attenborough</h2>
+							<div class="gallery">
+								<img src="/semiconductor/common/img/aboutus/news/aboutus_news_02.jpg" alt="Maintaining the Best Quality" />
+							</div>
+							<p class="txt-zone">Launch of Samsung “Plus” lineup provides memory card solut ions with faster data transfer speeds, expanded capacities and 4K UHD support May 5, 2015 – Samsung Electronics Co., Ltd., a market leader in advanced memory technology and an innov Launch of Samsung “Plus” lineup provides memory card solut ions with faster data transfer speeds, expanded capacities and 4K UHD support May 5, 2015 – Samsung Electronics Co., Ltd., a market leader in advanced memory technology and an innovLaunch of Samsung “Plus” lineup provides memory card solut ions with faster data transfer speeds, expanded capacities and 4K UHD support May 5, 2015 – Samsung Electronics Co., Ltd., a market leader in advanced memory technology and an innovLaunch of Samsung “Plus” lineup provides memory card solut ions with faster data transfer speeds, expanded capacities and 4K UHD support May 5, 2015 – Samsung Electronics Co., Ltd., a market leader in advanced memory technology and an innov</p>
+							<p class="date">Seoul, Korea on May 5, 2015</p>
+						</a>
+					</li>
+					<li class="horizon-right odd"> <!-- 이미지 있을경우: class="horizon-right"  홀수 줄일 경우: class="odd" -->
+						<a href="#"><h2 class="title">Journey Back to the Ancient Ocean with David Attenborough</h2>
+							<div class="gallery">
+								<img src="/semiconductor/common/img/aboutus/news/aboutus_news_01.jpg" alt="Maintaining the Best Quality" />
+								<button type="button" class="btn-ico video" data-role="play-btn" data-video-type="youtube" data-video-id="GF6gB6sq7nk" data-view="1"><span class="blind">watch the video : [입력받은 대체텍스트]</span></button>
+							</div>
+							<p class="txt-zone">Launch of Samsung “Plus” lineup provides memory card solut ions with faster data transfer speeds, expanded capacities and 4K UHD support May 5, 2015 – Samsung Electronics Co., Ltd., a market leader in advanced memory technology and an innov Launch of Samsung “Plus” lineup provides memory card solut ions with faster data transfer speeds, expanded capacities and 4K UHD support May 5, 2015 – Samsung Electronics Co., Ltd., a market leader in advanced memory technology and an innovLaunch of Samsung “Plus” lineup provides memory card solut ions with faster data transfer speeds, expanded capacities and 4K UHD support May 5, 2015 – Samsung Electronics Co., Ltd., a market leader in advanced memory technology and an innovLaunch of Samsung “Plus” lineup provides memory card solut ions with faster data transfer speeds, expanded capacities and 4K UHD support May 5, 2015 – Samsung Electronics Co., Ltd., a market leader in advanced memory technology and an innov</p>
+							<p class="date">Seoul, Korea on May 5, 2015</p></a>
+					</li>
+					<li class="horizon-right even"> <!-- 이미지 있을경우: class="horizon-right"  짝수 줄일 경우: even -->
+						<h2 class="title">Journey Back to the Ancient Ocean with David Attenborough</h2>
+						<div class="gallery">
+							<img src="/semiconductor/common/img/aboutus/news/aboutus_news_02.jpg" alt="Maintaining the Best Quality" />
+						</div>
+						<p class="txt-zone">Launch of Samsung “Plus” lineup provides memory card solut ions with faster data transfer speeds, expanded capacities and 4K UHD support May 5, 2015 – Samsung Electronics Co., Ltd., a market leader in advanced memory technology and an innov Launch of Samsung “Plus” lineup provides memory card solut ions with faster data transfer speeds, expanded capacities and 4K UHD support May 5, 2015 – Samsung Electronics Co., Ltd., a market leader in advanced memory technology and an innovLaunch of Samsung “Plus” lineup provides memory card solut ions with faster data transfer speeds, expanded capacities and 4K UHD support May 5, 2015 – Samsung Electronics Co., Ltd., a market leader in advanced memory technology and an innovLaunch of Samsung “Plus” lineup provides memory card solut ions with faster data transfer speeds, expanded capacities and 4K UHD support May 5, 2015 – Samsung Electronics Co., Ltd., a market leader in advanced memory technology and an innov</p>
+						<p class="date">Seoul, Korea on May 5, 2015</p>
+						<p class="act align">
+							<a href="#" class="btn pdf_down" target="_blank">Download PDF</a>
+						</p>
+					</li>
+					<!-- //item (news readmore only) -->
+				</ul>
+			
+				<div class="wrapper-act depth1Area">
+					<button type="button" class="btn-type2 show" title="load more insights" data-role="ui-btn-news-loadmore" data-page="1">Load more</button>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/x-jquery-tmpl" id="tmpl-news-inner">
+		{{if mainModel}}
+			{{each mainModel.insightList}}
+			<li class="{{if imgUrl}}horizon-right{{/if}}">
+				<a href="${'$'}{contsUrl}" onclick="javascript:addMyContents_PersonalHistory('c', '${'$'}{contsTitle}', 'r', '${'$'}{contsUrl}', '', '');">
+					<h2 class="title">${'$'}{contsTitle}</h2>
+					{{if imgUrl}}
+					<div class="gallery">
+						<img src="${'$'}{imgUrl}" alt="${'$'}{imgDesc}" />
+						{{if videoUrl}}
+						<button type="button" class="btn-ico video" data-role="play-btn" data-video-type="{{if videoType == 'VID-YT'}}youtube{{else}}brightcove{{/if}}" data-video-id="${'$'}{videoUrl}" data-view="1" onclick="javascript:addMyContents_PersonalHistory('c', '${'$'}{contsTitle}', 'v', '', '${'$'}{videoType}', '${'$'}{videoUrl}'); ">
+							<span class="blind">watch the video : ${'$'}{vidTitle}</span>
+						</button>
+						{{/if}}
+					</div>
+					{{/if}}
+					<p class="txt-zone">${'$'}{contsDesc}</p>
+					<p class="date">${'$'}{validStYmd}</p>
+				</a>
+				{{if pdfUrl }}
+				<p class="act align">
+					<a href="${'$'}{pdfUrl}${'$'}{pdfFile}" class="btn pdf_down" target="_blank" onclick="javascript:addMyContents_PersonalHistory('c', '${'$'}{contsTitle}', 'p', '${'$'}{pdfUrl}${'$'}{pdfFile}', '', '');">Download PDF</a>
+				</p>
+				{{/if}}
+			</li>
+			{{/each}}
+		{{/if }}
+		</script>
+		<!-- //list -->
+		
+		<!-- year and month correctly popup -->
+		<div class="pop-wrap personal_comp" data-role="ui-layer-correctly" style="display:none;">
+			<h2 class="pop-tit">ERROR</h2>
+			<p class="caution"> Please choose month and year correctly <span data-role="ui-msg-type"></span>.</p>
+			<a href="#" class="btn-close" data-role="ui-close-correctly"><span class="blind">Close Layer</span></a>
+		</div>
+		<!-- //year and month correctly popup -->
+
+	</div>
+	<!-- //contents wrapper -->
+
+<!-- pathindicatorENG -->
+<p style="display:none" id="pathindicatorENG">
+	<a>Semiconductor</a>
+	<a>About us</a>
+	<a>News</a>
+</p>
+<!-- //pathindicatorENG -->
+<input id="pageTrack" name="pageTrack" type="hidden" value="semiconductor news landing"/>
+
+<input id="group" name="group" type="hidden"  value="" />
+<input id="type" name="type" type="hidden" value="" />
+<input id="subtype" name="subtype" type="hidden" value="" />
+<input id="subsubtype" name="subsubtype" type="hidden"value="" />
+
+<input id="product_id" name="product_id" type="hidden" value=" ">
+<input id="product_partnumber" name="product_display_name"  type="hidden" value="">
+<input id="product_display_name" name="product_display_name"  type="hidden" value="">
+
+<input id="insight_id" name="pvi_project_code" type="hidden" value="">
+<input id="insight_title" name="resource_id" type="hidden" value="">
+
+<!--#include virtual="/semiconductor/common/html/sec/semi_footer.sec"-->

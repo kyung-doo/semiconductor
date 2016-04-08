@@ -1,0 +1,108 @@
+<ul class="local-menu" data-role="ui-nav">
+    <li class="sub">
+        <a href="#">SSD</a>
+        <div class="submenu-container">
+            <ul data-role="ui-nav-sub">
+                <li><a href="#">Overview</a></li>
+                <li><a href="#">V-NAND Technology</a></li>
+                <li class="sub">
+                    <a href="#">Consumer SSD</a>
+                    <div class="flyout">
+                        <ul>
+                            <li><a href="#">Overview</a></li>
+                            <li><a href="#">950 PRO</a></li>
+                            <li><a href="#">850 PRO</a></li>
+                            <li><a href="#">850 EVO</a></li>
+                            <li><a href="#">750 EVO</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="sub">
+                    <a href="#">Enterprise SSD</a>
+                    <div class="flyout ">
+                        <ul>
+                            <li><a href="#">Overview</a></li>
+                            <li><a href="#">SM863</a></li>
+                            <li><a href="#">PM863</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </li>
+    <li class="sub">
+        <a href="#">Portable SSD</a>
+        <div class="submenu-container">
+            <ul data-role="ui-nav-sub">
+                <li><a href="#">Overview</a></li>
+                <li><a href="#">T3</a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="sub">
+        <a href="#">MEMORY CARD</a>
+        <div class="submenu-container has-flyout">
+            <ul data-role="ui-nav-sub">
+                <li><a href="#">Overview</a></li>
+                <li class="sub">
+                    <a href="#">microSD</a>
+                    <div class="flyout">
+                        <ul>
+                            <li><a href="#">PRO Plus</a></li>
+                            <li><a href="#">EVO Plus</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="sub">
+                    <a href="#">SD Card</a>
+                    <div class="flyout">
+                        <ul>
+                            <li><a href="#">PRO Plus</a></li>
+                            <li><a href="#">EVO Plus</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </li>
+    <li class="sub">
+        <a href="#">USB FLASH DRIVE</a>
+        <div class="submenu-container has-flyout">
+            <ul data-role="ui-nav-sub">
+                <li><a href="#">Overview</a></li>
+                <li><a href="#">BAR</a></li>
+                <li><a href="#">FIT</a></li>
+                <li><a href="#">DUO</a></li>
+            </ul>
+        </div>
+    </li>
+    <li class="sub">
+        <a href="#">SUPPORT</a>
+        <div class="submenu-container has-flyout">
+            <ul data-role="ui-nav-sub">
+                <li class="sub">
+                    <a href="#">Download by Type</a>
+                    <div class="flyout ">
+                        <ul>
+                            <li><a href="#">Tool &amp; Software</a></li>
+                            <li><a href="#">Documents</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="sub">
+                    <a href="#">Download by Product</a>
+                    <div class="flyout ">
+                        <ul>
+                            <li><a href="#">Consumer SSD</a></li>
+                            <li><a href="#">Portable SSD</a></li>
+                            <li><a href="#">Enterprise SSD</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">SSD Selection Guide</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </li>
+</ul>

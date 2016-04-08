@@ -1,0 +1,78 @@
+<div class="footer-row sitemap">
+    <h2 class="blind">Sitemap</h2>
+    <div class="grid-row" data-role="ui-accordion">
+        <div class="grid-col">
+            <div class="col-inner">
+                <h3 class="tit-accordion"><span>SSD</span></h3>
+                <button type="button" class="ctl-accordion closed" data-role="ui-accordion-btn"><span class="blind">V-NAND SSD layer open</span></button>
+                <ul data-role="ui-accordion-content">
+                    <li><a href="#">V-NAND Technology</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid-col">
+            <div class="col-inner">
+                <h3 class="tit-accordion"><span>PRODUCT</span></h3>
+                <button type="button" class="ctl-accordion closed" data-role="ui-accordion-btn"><span class="blind">PRODUCTS layer open</span></button>
+                <ul data-role="ui-accordion-content">
+                    <li><a href="#">Consumer SSD</a>
+                        <ul>
+                            <li><a href="#">Overview</a></li>
+                            <li><a href="#">950 PRO</a></li>
+                            <li><a href="#">850 PRO</a></li>
+                            <li><a href="#">850 EVO</a></li>
+                            <li><a href="#">750 EVO</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="#">Portable SSD</a>
+                        <ul>
+                            <li><a href="#">Overview</a></li>
+                            <li><a href="#">T3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Enterprise SSD</a>
+                        <ul>
+                            <li><a href="#">Overview</a></li>
+                            <li><a href="#">SM863</a></li>
+                            <li><a href="#">PM863</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid-col">
+            <div class="col-inner">
+                <h3 class="tit-accordion"><span>DOWNLOAD</span></h3>
+                <button type="button" class="ctl-accordion closed" data-role="ui-accordion-btn"><span class="blind">DOWNLOAD layer open</span></button>
+                <ul data-role="ui-accordion-content">
+                    <li><a href="#">Overview</a></li>
+                    <li><a href="#">By Type</a>
+                        <ul>
+                            <li><a href="#">Tools &amp; Software</a></li>
+                            <li><a href="#">Documents</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">By Product</a>
+                        <ul>
+                            <li><a href="#">Consumer SSD</a></li>
+                            <li><a href="#">Portable SSD</a></li>
+                            <li><a href="#">Enterprise SSD</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid-col">
+            <div class="col-inner">
+                <h3 class="tit-accordion"><span>SUPPORT</span></h3>
+                <button type="button" class="ctl-accordion closed" data-role="ui-accordion-btn"><span class="blind">SUPPORTS layer open</span></button>
+                <ul data-role="ui-accordion-content">
+                    <li><a href="#">Where to Buy</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Customer Service</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,214 @@
+@charset "utf-8";
+
+/*@import url("pdp.css");*/
+
+ul.support-list-type {border-top:1px solid #ccc;}
+ul.support-list-type li{border-bottom:1px solid #ccc;}
+ul.support-list-type li a{}
+ul.support-list-type li a.close{position:relative; display:block; color:#0057a4; padding:20px;}
+ul.support-list-type li a.close:after{content:"\27"; font-family:'samsungIcon'; position:absolute; top:30%; right:25px; width:14px; height:20px;}
+ul.support-list-type li a.expanded{background:#0071bf; color:#fff; border-bottom:1px solid #ccc;}
+ul.support-list-type li a.expanded:after{content:"\28"; font-family:'samsungIcon'; position:absolute; top:30%; right:25px; width:14px; height:20px; color:#fff;}
+ul.support-list-type li div.inarea{padding:10px 20px; display:none;}
+ul.support-list-type li a.tooltipbox{display:inline-block; padding:0; margin-left:5px;}
+
+/* catalouge list */
+.catalogue {padding:0 0 25px 0;}
+.catalogue > li {position:relative; margin-bottom:10px; border:1px solid #ccc;}
+.catalogue > li > a {position:relative; display:block; padding:20px; font-size:18px; font-family: 'SamsungIFBd';}
+.catalogue > li > a.close:after {position: absolute; top: 30%;  right: 25px;  width: 14px; height: 20px;content: "\27"; color:#0057a4;  font-family: 'samsungIcon'; }
+.catalogue > li > a.expanded:after {position: absolute; top: 30%; right: 25px; width: 14px;  height: 20px; content: "\28"; color:#0057a4;  font-family: 'samsungIcon'; }
+.catalogue > li > div {padding:31px 0 20px 19px; overflow:hidden; background:#f1f1f1;}
+
+.catalogue .type { position:relative; padding:20px 10px 10px 20px; margin-right:9px; overflow:hidden; background:#fff; border:1px solid #dbdbdb; }
+.catalogue .type > li {float:left; width:25%;}
+.catalogue .type > li > a {display:block; height:42px; padding:15px; margin:0 10px 10px 0;  text-align:center; color:#000; background:#b8d8ed;}
+.catalogue .type > li.active > a {background:#0071bf; color:#fff; }
+.catalogue .type > li > a p {}
+.catalogue .type > li > a span {display:block; font-family: 'SamsungIFBd'; }
+.catalogue .type > li div.sub {display:none; position:absolute; left:20px; top:60px; padding:17px 0 0 0;  background:url("/semiconductor/common/img/product/bg_catalogue_sub.png") no-repeat 50% top;}
+.catalogue .type > li.active div.sub {display:block;}
+.catalogue .type > li div.sub ul {padding:20px 0 20px 25px; overflow:hidden; background:#f1f1f1;}
+.catalogue .type > li div.sub ul li {float:left; width:16%; height:45px; margin:5px 0; text-align:center; border-left:1px solid #dbdbdb;}
+.catalogue .type > li div.sub ul li  a {display:block; height:100%; color:#222; margin:0 5px;}
+.catalogue .type > li div.sub ul li.active  a {color:#0071bf;}
+
+.catalogue .detail {height:311px; margin-right:19px; background:#fff; border:1px solid #ccc; overflow:hidden;}
+.catalogue .para {float:left; width:50%; height:311px; background:#fff; border-right:1px solid #ccc;}
+.catalogue .para ul {height:276px; margin:30px 20px 0 20px; overflow-y:auto; overflow-x:hidden;}
+.catalogue .para ul  li {line-height:16px; border-bottom:1px solid #ccc; }
+.catalogue .para ul  li a {display:block; padding:18px 15px; }
+.catalogue .para ul  li.active a {color:#fff; background:#0f1790}
+.catalogue .value {float:left; position:relative; width:49%; height:299px; }
+.catalogue .value .noti {content:""; min-height:130px; padding-top:190px; background:#fff url("/semiconductor/common/img/ico/ico_select_data.png") 50% 110px no-repeat; text-align:center; position:absolute; left:5px; top:0; right:5px; bottom:0; z-index:0;color:#666;}
+
+.catalogue .value ul {height:276px; margin:30px 20px 0 20px; overflow-y:auto; overflow-x:hidden;}
+.catalogue .value ul li {height:34px;}
+.catalogue .value ul li label {color:#000;}
+
+.catalogue .selected {position:relative; clear:both; min-height: 25px;  margin-right:19px; border:1px solid #ccc; border-top:none; background:#fff; }
+.catalogue .selected div {min-height:22px; padding: 14px 93px 14px 19px; }
+.catalogue .selected span.word {display: inline-block; margin-right: 30px; font-size:14px; }
+.catalogue .selected span.word em {display:inline-block; padding:0 0 0 5px; margin:0 0 0 5px; color:#0057a4; line-height:1;  border-left:1px solid #dbdbdb;}
+.catalogue .selected span.word em span {position:relative; top:4px;}
+.catalogue .selected span.word a{display: inline-block; position: relative;  bottom: auto;  right: auto; width: 14px; height: 14px; margin-left: 5px;  margin-top: -2px; vertical-align: middle; background: #666;}
+.catalogue .selected span.word a:after {position: absolute;  top: 0; left: 0; height: 14px; line-height: 14px; color: #fff; font-family: 'samsungIcon';  content: "\33"; font-size: 14px;}
+.catalogue .selected .btn-clear-all {position: absolute;  right: 0; bottom:15px;}
+.catalogue .selected .btn-clear-all:after {display: inline-block; margin-left: 3px;  font-size: 13px;  font-family: 'samsungIcon'; content: '\e610';}
+
+.catalogue .slideArea {position:relative; padding: 35px 0 0 35px}
+.catalogue .ui-slider {position: relative; text-align: left; width:4px; height:190px; background:#bcbcbc; }
+.catalogue .ui-slider .ui-slider-handle {position: absolute; left:-10px; z-index: 2; width:24px; height: 24px;  margin-left: 0; margin-bottom:-12px; cursor: default; -ms-touch-action: none; touch-action: none; background:url(/semiconductor/common/img/ico/btn_slide_handle.png) no-repeat left top; background-size:100% 100%;}
+.catalogue .ui-slider .ui-slider-range {position: absolute; left: 0; display: block; width:4px; z-index: 1; font-size: .7em;  border: 0;  background:#0057a4; }
+.catalogue .ui-slider-vertical .ui-slider-range-min {bottom: 0;}
+.catalogue .ui-slider-vertical .ui-slider-range-max {top: 0;}
+
+.catalogue ul.sliderLabel {position:absolute; left:55px; top:-6px; padding:0;}
+
+.catalogue div.sliderChk {position:relative; left:-10px; padding:25px 0 0 0;}
+.catalogue div.sliderChk p {float:left; width:160px; height:40px; line-height:40px; background:#f1f1f1; }
+.catalogue div.sliderChk p em {margin:0 10px;}
+.catalogue div.sliderChk p span {position:relative; top:4px;}
+.catalogue div.sliderChk button {float:left; }
+
+/*new cataglogue add:start*/
+.catalogue.product-cat-list .type > li > a span {display:block; font-family: 'SamsungIFRg'; }
+.catalogue.product-cat-list .type > li div.sub {display:none; position:absolute; left:20px; top:60px; padding:17px 0 0 0;  background:url("/semiconductor/common/img/product/bg_catalogue_sub_white.png") no-repeat 50% top;}
+.catalogue.product-cat-list{border:1px solid #ccc;background-color:#f1f1f1;padding-bottom:15px;}
+.catalogue.product-cat-list .type{border:none;background-color:transparent;}
+
+.catalogue.product-cat-list .type{margin-right:0;}
+.catalogue.product-cat-list .type > li div.sub ul {background:#fff;}
+.catalogue.product-cat-list .type > li div.sub ul li {float:left; width:16%; height:45px; margin:5px 0; text-align:center; border-left:1px solid #dbdbdb;}
+.catalogue.product-cat-list .type > li div.sub ul li  a {display:block; height:100%; color:#222; margin:0 5px;}
+.catalogue.product-cat-list .type > li div.sub ul li.active  a {color:#0071bf;}
+
+.catalogue .para_wrap{padding:0 20px 0 20px;}
+.catalogue .para_wrap>div {position:relative; margin-bottom:10px; border:1px solid #ccc;background-color:#fff;}
+.catalogue .para_wrap>div> a {position:relative; display:block; padding:20px; font-size:18px; font-family: 'SamsungIFBd';border-bottom:1px solid #ccc;}
+.catalogue .para_wrap>div> a.close:after {position: absolute; top: 30%;  right: 25px;  width: 14px; height: 20px;content: "\27"; color:#0057a4;  font-family: 'samsungIcon'; }
+.catalogue .para_wrap>div> a.expanded:after {position: absolute; top: 30%; right: 25px; width: 14px;  height: 20px; content: "\28"; color:#0057a4;  font-family: 'samsungIcon'; }
+.catalogue .para_wrap>div> div {padding:31px 0 20px 19px; overflow:hidden; background:#fff;}
+
+.catalogue.product-cat-list .para_wrap > a {position:relative; display:block; padding:20px; font-size:18px; font-family: 'SamsungIFBd';}
+/*new cataglogue add:end*/
+
+.catalogueResult p.sec-title {text-transform:inherit; font-size:24px; padding-bottom:4px;}
+.catalogueResult p.sec-title span {/*text-transform:uppercase;*/ color:#0057a4;}
+
+.catalogueResult .tableType1 input[type=checkbox] {position:static; display:none;}
+.catalogueResult .tableType1 input[type=checkbox]+label {position:static; display:inline-block; width:24px; height:24px; vertical-align:middle; padding:0; border:1px solid #ccc; background:#fff; cursor:pointer;}
+.catalogueResult .tableType1 input[type=checkbox]+label:before {display:none;}
+
+.catalogue-btns {padding:10px 0 0 10px; overflow:hidden;}
+.catalogue-btns button {float:right;}
+.catalogue-btns button:first-child {float:left;}
+
+.tableType1{border-collapse:collapse; min-width:100%;}
+.tableType1 th {height:40px; padding:0 15px; color:#fff;  white-space: nowrap;  background:#5b5b5b; border-left:1px solid #606060; cursor:pointer;  box-sizing:border-box;}
+.tableType1 th span:after{font-family: "samsungIcon";  content:"▼"; color:#fff; position:relative; top:-3px; vertical-align:middle; margin-left:3px; font-size:11px;}
+.tableType1 thead tr th:first-child {min-width:65px;}
+.tableType1 th.sorting_asc span:after{content:"▲"; }
+.tableType1 th.sorting_desc span:after{content:"▼"; }
+.tableType1 th:first-child {border-left:none;}
+.tableType1 td {height:40px;  text-align:center; white-space: nowrap;  box-sizing:border-box; background:#fff url(/semiconductor/common/img/layout/bg_table_line.png) repeat-x left bottom;  border-left:1px solid #e3e2e2; box-sizing:border-box;}
+.tableType1 td span {display:inline-block; padding:0 15px;}
+.tableType1 td:first-child {border-left:none; }
+
+.DTFC_LeftHeadWrapper .tableType1 th {background:#5b5b5b;  box-sizing:border-box;}
+.DTFC_LeftHeadWrapper .tableType1 thead tr th:first-child {min-width:65px;}
+.DTFC_LeftBodyWrapper .tableType1 {border-right:1px solid #e3e2e2; }
+.DTFC_LeftBodyWrapper .tableType1 td:first-child  {background:#fff url(/semiconductor/common/img/layout/bg_table_line.png) repeat-x left bottom; box-sizing:border-box;}
+
+
+
+@media (min-width:768px) and (max-width:1023px) {
+    .catalogue .type > li {float:left; width:50%;}
+    .catalogue .type > li div.sub ul {padding-left:0; padding-right:0;}
+    .catalogue .type > li div.sub ul li {width:49%;}
+}
+
+@media (max-width:767px){
+
+    .catalogue > li > div {padding:10px 0 10px 10px; overflow:hidden; background:#f1f1f1;}
+    .catalogue .type li a {padding:10px; margin-right:0;}
+    .catalogue .type {padding:10px 10px 0 10px;}
+    .catalogue .type > li {float:left; width:100%;}
+    .catalogue .type > li div.sub {position:static; margin:-28px 0 10px 0; width:100%;}
+    .catalogue .type > li div.sub ul {padding:0 10px;}
+    .catalogue .type > li div.sub ul li {float:none; border:none; width:100%; margin:0; text-align:left; border:none;border-top:1px solid #dbdbdb;}
+    .catalogue .type > li div.sub ul li:first-child {border:none;}
+    .catalogue .type > li div.sub ul li a {line-height:25px; }
+    .catalogue .type > li div.sub ul li a p {line-height:25px; }
+    .catalogue .detail {height:317px; margin-right:9px;}
+    .catalogue .para ul {height:317px; margin:0;}
+    .catalogue .para ul li {margin:0 10px; border-bottom:1px solid #ccc;}
+    .catalogue .para ul li:last-child {border:none;}
+
+    .catalogue .value > ul {padding:0 10px;}
+    .catalogue .value > ul li  {height:auto; padding:16px 15px; border-bottom:1px solid #ccc;}
+    .catalogue .value > ul li input[type=checkbox]+label:before {width:22px; height:22px;}
+    .catalogue .slideArea {position:relative; padding:14px 0 0 22px}
+    .catalogue ul.sliderLabel {position:absolute; left:40px; top:8px; padding:0;}
+    .catalogue div.sliderChk {position:relative; left:-10px; padding:20px 0 0 0;}
+    .catalogue div.sliderChk p {width:100%;}
+    .catalogue div.sliderChk p em {margin:0 10px;}
+    .catalogue div.sliderChk p span {position:relative; top:4px;}
+    .catalogue div.sliderChk button {clear:both; width:100%; margin:5px 0 0 0;}
+
+    /*new cataglogue add:start*/
+    .catalogue.product-cat-list > li > div {padding:10px 0 10px 10px; overflow:hidden; background:#f1f1f1;}
+    .catalogue.product-cat-list .type li a {padding:10px; margin-right:0;}
+    .catalogue.product-cat-list .type {padding:10px 10px 0 10px;}
+    .catalogue.product-cat-list .type > li {float:left; width:100%;}
+    .catalogue.product-cat-list .type > li div.sub {position:static; margin:-28px 0 10px 0; width:100%;}
+    .catalogue.product-cat-list .type > li div.sub ul {padding:0 10px;}
+    .catalogue.product-cat-list .type > li div.sub ul li {float:none; border:none; width:100%; margin:0; text-align:left; border:none;border-top:1px solid #dbdbdb;}
+    .catalogue.product-cat-list .type > li div.sub ul li:first-child {border:none;}
+    .catalogue.product-cat-list .type > li div.sub ul li a {line-height:25px; }
+    .catalogue.product-cat-list .type > li div.sub ul li a p {line-height:25px; }
+    .catalogue.product-cat-list .detail {height:317px; margin-right:9px;}
+    .catalogue.product-cat-list .para ul {height:317px; margin:0;}
+    .catalogue.product-cat-list .para ul li {margin:0 10px; border-bottom:1px solid #ccc;}
+    .catalogue.product-cat-list .para ul li:last-child {border:none;}
+
+    .catalogue .value > ul {padding:0 10px;}
+    .catalogue .value > ul li  {height:auto; padding:16px 15px; border-bottom:1px solid #ccc;}
+    .catalogue .value > ul li input[type=checkbox]+label:before {width:22px; height:22px;}
+    .catalogue .slideArea {position:relative; padding:14px 0 0 22px}
+    .catalogue ul.sliderLabel {position:absolute; left:40px; top:8px; padding:0;}
+    .catalogue div.sliderChk {position:relative; left:-10px; padding:20px 0 0 0;}
+    .catalogue div.sliderChk p {width:100%;}
+    .catalogue div.sliderChk p em {margin:0 10px;}
+    .catalogue div.sliderChk p span {position:relative; top:4px;}
+    .catalogue div.sliderChk button {clear:both; width:100%; margin:5px 0 0 0;}
+    /*new cataglogue add:end*/
+
+    .catalogue .selected {margin-right:9px;}
+    .catalogue .selected div {padding: 14px 19px 14px 19px;  border-bottom:1px solid #ccc;}
+    .catalogue .selected .btn-clear-all {position:static; display:block; padding: 14px 19px 14px 19px;  text-align:right;}
+
+    .dataTable td {height:40px;}
+    .catalogueResult .tableType1 input[type=checkbox]+label {width:15px; height:15px;}
+}
+
+.noteArea {clear:both; background:#f2f2f2; overflow:hidden; margin:20px 0 0 10px;}
+.noteArea h1 {font-size:24px; color:#666; padding:25px 0 0 50px; background:url("/semiconductor/common/img/ico/ico_note.png") no-repeat 20px 30px; }
+.noteArea > div {line-height:24px;}
+.noteArea .grid-col1, .noteArea .grid-col2, .noteArea .grid-col3 {float:none; display:table; width:100%; table-layout:fixed; border-spacing:0 15px; width:100%; overflow:hidden; }
+.noteArea .col {height:100%; display:table-cell; padding:0 0 15px 0;  border-left:1px solid #adadad; }
+.noteArea .col  > div {height:100%;  padding:0 15px; }
+.noteArea .col:first-child {border:none;}
+.noteArea .grid-col1 .col {width:100%; }
+.noteArea .grid-col2 .col {width:50%;}
+.noteArea .grid-col3 .col {width:33.3%;}
+.noteArea  h2 {font-size:18px; color:#000; font-family: 'SamsungIFBd';}
+.noteArea  .tableType1 th {white-space:normal;}
+
+@media (max-width:767px){
+    .noteArea h1{padding-bottom:5px; }
+    .noteArea .grid-col1, .noteArea .grid-col2, .noteArea .grid-col3 {display:block; padding:0;}
+    .noteArea .grid-col1 .col, .noteArea .grid-col2 .col, .noteArea .grid-col3 .col  {display:block; width:100%; border:none;}
+    .noteArea .grid-col1 .col > div, .noteArea .grid-col2 .col > div, .noteArea .grid-col3 .col  > div { padding:15px 0; margin:0 15px; border:none; border-top:1px solid #adadad;}
+    .noteArea .col:first-child div {border:none; padding-top:0;}
+}
