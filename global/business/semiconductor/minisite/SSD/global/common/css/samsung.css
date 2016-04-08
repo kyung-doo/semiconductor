@@ -519,11 +519,11 @@ a.btn-jump span {text-transform:none}
     .key-visual li .kv_mobile {display:none}
 }
 .key-visual .screen .focus-msg{position:absolute;left:10px;top:10px;bottom:10px;width:30.1%;padding:0 1.4694%; background:url(/global/business/semiconductor/minisite/SSD/global/common/img/layout/bg_kv_txt.png);color:#fff; line-height: 1.2;}
-.key-visual .screen .focus-msg h1{padding-top:5%;overflow:hidden; text-transform:uppercase; font-family: 'SamsungIFBlk','メイリオ';}
+.key-visual .screen .focus-msg h1{padding-top:5%;overflow:hidden; text-transform:uppercase; font-family: 'SamsungIFBlk','メイリオ';font-weight:bold;line-height:1.2em}
 .key-visual .screen .focus-msg h1 a{display:block; position:relative; font-size:18px;overflow:hidden; text-transform:uppercase; /*color:#b8d8ee;*/ padding-left:24px; font-family:'SamsungIFBlk';}
 .key-visual .screen .focus-msg h1 a:after {display:inline-block; position:absolute; top:0; left:0; content:"\e613"; font-family:'samsungIcon'}
 .key-visual .screen .focus-msg h1 span{display:block;text-transform:uppercase}
-.key-visual .screen .focus-msg h1 em {display:block; font-family:'SamsungIFRg'; overflow: hidden; text-overflow:ellipsis; white-space: nowrap;text-transform: none;padding-bottom:1.5%}
+.key-visual .screen .focus-msg h1 em {display:block; font-family:'SamsungIFRg'; overflow: hidden; text-overflow:ellipsis; white-space: nowrap;text-transform: none;padding-bottom:0}
 .key-visual .screen .focus-msg .txt{padding-top:3%; overflow:hidden;}
 .key-visual .screen .focus-msg .act{position:absolute;bottom:8.1081%;display:block;overflow:hidden}
 .key-visual .screen .focus-msg button[type=button], .key-visual .screen .focus-msg a.btn-type1{background:#fff;color:#0057A4;float:left;line-height:40px}
