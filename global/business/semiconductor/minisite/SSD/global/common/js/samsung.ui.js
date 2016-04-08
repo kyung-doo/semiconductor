@@ -193,10 +193,13 @@ var UIManager = Class.extend({
      * Initialize Accordion
      */
     init_accordion : function() {
+        
         var owner = this;
 
         if ($('*[data-role=ui-accordion]').length) {
+            
             if ( typeof $(this).attr('data-accordion-type') === 'undefined') {
+                
                 $('*[data-role=ui-accordion]').each(function() {
                     $(this).data('accordion', new AccordionUI($(this)));
                 });
@@ -1427,6 +1430,20 @@ var AccordionUI = Class.extend({
         this._type = this._scope.attr('data-accordion-type');
 
         this._content = this._scope.find('*[data-role=ui-accordion-btn]');
+        
+        this._content.on("active", function ( e )
+        {
+            setTimeout(function (){$(window).resize();},1);
+            owner.active_item($(this)); 
+        });
+        
+        this._content.on("deActive", function ( e )
+        {
+            owner._transition.speed = 0;
+            owner.deActive_item($(this));
+            owner._transition.speed = 300;
+        });
+        
         this._content.each(function() {
             var content = $(this).parent().find('*[data-role=ui-accordion-content]');
             $(this).data('content', content);
@@ -4460,8 +4477,12 @@ var JumpUI = Class.extend({
 
                 if(cnt !== undefined){
                     owner.active_item(owner._content.eq(cnt));
-
-                    var nowOmnitureTitle = owner._content.eq(cnt).data('engTitle').toLowerCase();
+                    try
+                    {
+                        var nowOmnitureTitle = owner._content.eq(cnt).data('engTitle').toLowerCase();    
+                    }
+                    catch(e){}
+                    
 
                     if(nowOmnitureTitle && owner._isOriginalEvent && owner._omnitureTitle !== nowOmnitureTitle){
                         owner._omnitureTitle = nowOmnitureTitle;
@@ -6188,4 +6209,155 @@ var DataTable = Class.extend({
 
 });
 
+var SelectionToo = Class.extend({
+    /**
+     * SelectionToo
+     *
+     * @constructs
+     * @extends    {Class}
+     * @requires    jquery.js
+     * @classdesc
+     *
+     *
+     */
+    init : function(scope) {
+        this._scope = scope;
+        this._dataUrl = "/global/business/semiconductor/minisite/SSD/global/common/json/selection_guide.json";
+        this._jsonData;
+        this.reinit();
+    },
 
+   
+    reinit : function() {
+        this.loadData();
+        
+        $(window).bind("resize", function ( e )
+        {
+            if(_common.is_mode() != 'MOBILE')
+            {
+                $("*[id^=selection_step").css({display:""});
+            }
+        });
+        
+    },
+    
+    
+    loadData : function ()
+    {
+        var owner = this;
+        $.getJSON(owner._dataUrl, function ( data )
+        {
+            owner._jsonData = data; 
+            owner.removeList(1);
+            owner.initList(); 
+        });
+    },
+    
+    
+    initList : function ()
+    {
+        var owner = this;
+        var list = owner._jsonData.selectionList;
+        var ar = new Array();
+        $(list).each(function ( i )
+        {
+            ar.push({"contsID":list[i].contsID, "contsTitle":list[i].contsTitle});
+        });
+        
+        var tmpl = $("#tmpl-selection_step1").tmpl({selectionList : ar});
+        tmpl.appendTo($("#selection_step1"));
+        
+        $("#selection_step1 li").each(function ()
+        {
+           $(this).bind("click", function ( e )
+           {
+               $("#selection_step1 li").removeClass("on");
+               $(this).addClass("on");   
+               var idx = $(this).index();
+               owner.addList(list[idx].contsID, list[idx].member); 
+           }); 
+        });
+    },
+    
+    
+    addList : function ( id, member )
+    {
+        var owner = this;
+        var step = id.length/2;
+        var ar = new Array();
+        
+        owner.removeList( step );
+        
+        if(member.length == 0) return;
+        
+        $(member).each(function ( i )
+        {
+            ar.push({"contsID":member[i].contsID, "contsTitle":member[i].contsTitle});
+        });
+        
+        var tmpl = $("#tmpl-selection_step"+(step+1)).tmpl({selectionList : ar});
+        tmpl.appendTo($("#selection_step"+(step+1)));
+        $("#selection_step"+(step+1)).addClass("on");
+        $("#selection_step"+(step+1)).parent().parent().find(".title").removeClass("dimmed");
+        if(_common.is_mode() == 'MOBILE')
+        {
+            $("#selection_step"+(step+1)).parent().parent().find(".title").trigger("active");
+        }
+        
+        
+
+        
+        $("#selection_step"+(step+1)+" li").each(function ( i )
+        {
+           $(this).bind("click", function ( e )
+           {
+               $("#selection_step"+(step+1)+" li").removeClass("on");
+               $(this).addClass("on");
+               var idx = $(this).index();
+               if(typeof member[idx].contsLink == "undefined")
+               {
+                   var idx = $(this).index();
+                   owner.addList(member[idx].contsID, member[idx].member);    
+               }   
+               else
+               {
+                   if($(this).find("a").is(".link"))
+                   {
+                       $(this).find("a").attr("href", member[idx].contsLink);   
+                   }
+                   else
+                   {
+                       $("#selection_step"+(step+1)+" li a").removeClass("link").attr("href", "javascript:void(0);");
+                       $(this).find("a").addClass("link");
+                   }
+               }
+                
+           }); 
+        });
+    },
+    
+    removeList : function ( step )
+    {
+        for(var i = 0; i < 4; i++)
+        {
+            if(i > step-1)
+            {
+                $("#selection_step"+(i+1)).empty();
+                $("#selection_step"+(i+1)).removeClass("on");
+                $("#selection_step"+(i+1)).parent().parent().find(".title").addClass("dimmed");
+                 if(_common.is_mode() == 'MOBILE')
+                {
+                    if($("#selection_step"+(i+1)).parent().parent().find(".title").is(".expanded"))
+                    {
+                        $("#selection_step"+(i+1)).parent().parent().find(".title").removeClass("expanded");
+                        $("#selection_step"+(i+1)).parent().parent().find(".title").trigger("deActive");
+                    }
+                }
+            }
+        }
+    }
+
+
+});
+
+ this._dataUrl = "/global/business/semiconductor/minisite/SSD/global/common/json/selection_guide.json";
