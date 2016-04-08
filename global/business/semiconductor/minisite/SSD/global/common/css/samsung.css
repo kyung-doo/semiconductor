@@ -2312,7 +2312,7 @@ ul.tab.type5 li a {display:block; padding:9px 5px; vertical-align:middle; box-si
 .selection_wrap .step4 .selection_box > ul:after{content:"Select a Capacity"}
 .selection_wrap .selection_box > ul.on:after{display:none}
 .selection_wrap .selection_box > ul li a{position:relative;display:block;padding:20px;border-bottom:solid 1px #e9e9e9}
-.selection_wrap .selection_box > ul li a span{display:inline-block;width:91%}
+.selection_wrap .selection_box > ul li a span{display:inline-block;width:93%}
 .selection_wrap .selection_box > ul li.on a{background-color:#0f1790;color:#fff}
 .selection_wrap .selection_box > ul li a.link:after{content:"";display:inline-block;width:9px;height:13px;margin-top:-7px;position:absolute;top:50%;right:20px;background:url(/global/business/semiconductor/minisite/SSD/global/common/img/ico/ico-list-arrow.png) no-repeat}
 @media (max-width: 767px){
