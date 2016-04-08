@@ -1430,6 +1430,20 @@ var AccordionUI = Class.extend({
         this._type = this._scope.attr('data-accordion-type');
 
         this._content = this._scope.find('*[data-role=ui-accordion-btn]');
+        
+        this._content.on("active", function ( e )
+        {
+            setTimeout(function (){$(window).resize();},1);
+            owner.active_item($(this)); 
+        });
+        
+        this._content.on("deActive", function ( e )
+        {
+            owner._transition.speed = 0;
+            owner.deActive_item($(this));
+            owner._transition.speed = 300;
+        });
+        
         this._content.each(function() {
             var content = $(this).parent().find('*[data-role=ui-accordion-content]');
             $(this).data('content', content);
@@ -6285,7 +6299,11 @@ var SelectionToo = Class.extend({
         tmpl.appendTo($("#selection_step"+(step+1)));
         $("#selection_step"+(step+1)).addClass("on");
         $("#selection_step"+(step+1)).parent().parent().find(".title").removeClass("dimmed");
-        //$("#selection_step"+(step+1)).parent().parent().find(".title").click();
+        if(_common.is_mode() == 'MOBILE')
+        {
+            $("#selection_step"+(step+1)).parent().parent().find(".title").trigger("active");
+        }
+        
         
 
         
@@ -6327,11 +6345,14 @@ var SelectionToo = Class.extend({
                 $("#selection_step"+(i+1)).empty();
                 $("#selection_step"+(i+1)).removeClass("on");
                 $("#selection_step"+(i+1)).parent().parent().find(".title").addClass("dimmed");
-                if($("#selection_step"+(i+1)).parent().parent().find(".title").is(".expanded"))
+                 if(_common.is_mode() == 'MOBILE')
                 {
-                    $("#selection_step"+(i+1)).parent().parent().find(".title").removeClass("expanded");
+                    if($("#selection_step"+(i+1)).parent().parent().find(".title").is(".expanded"))
+                    {
+                        $("#selection_step"+(i+1)).parent().parent().find(".title").removeClass("expanded");
+                        $("#selection_step"+(i+1)).parent().parent().find(".title").trigger("deActive");
+                    }
                 }
-                //$("#selection_step"+(i+1)).css({display:""});
             }
         }
     }
