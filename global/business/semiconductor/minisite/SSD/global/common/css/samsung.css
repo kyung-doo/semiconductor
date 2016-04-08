@@ -519,7 +519,7 @@ a.btn-jump span {text-transform:none}
     .key-visual li .kv_mobile {display:none}
 }
 .key-visual .screen .focus-msg{position:absolute;left:10px;top:10px;bottom:10px;width:30.1%;padding:0 1.4694%; background:url(/global/business/semiconductor/minisite/SSD/global/common/img/layout/bg_kv_txt.png);color:#fff; line-height: 1.2;}
-.key-visual .screen .focus-msg h1{padding-top:5%;overflow:hidden; text-transform:uppercase; font-family: 'メイリオ';}
+.key-visual .screen .focus-msg h1{padding-top:5%;overflow:hidden; text-transform:uppercase; font-family: 'SamsungIFBlk','メイリオ';}
 .key-visual .screen .focus-msg h1 a{display:block; position:relative; font-size:18px;overflow:hidden; text-transform:uppercase; /*color:#b8d8ee;*/ padding-left:24px; font-family:'SamsungIFBlk';}
 .key-visual .screen .focus-msg h1 a:after {display:inline-block; position:absolute; top:0; left:0; content:"\e613"; font-family:'samsungIcon'}
 .key-visual .screen .focus-msg h1 span{display:block;text-transform:uppercase}
@@ -2247,26 +2247,34 @@ ul.tab.type5 li a {display:block; padding:9px 5px; vertical-align:middle; box-si
 .toggleTab .floating-jumpmenu {display:none;}
 .toggleTab .floating-jumpmenu ul li {background:#fff;}
 .toggleTab.col4 .floating-jumpmenu ul li {width:25%;}
-.toggleTab > ul.grid-row {margin-top:10px; position:static; font-size:0; letter-spacing:-4px;}
+.toggleTab > ul.grid-row {margin-top:20px; position:static; font-size:0;}
 .toggleTab + .toggleTab > ul.grid-row {margin-top:0;}
 .toggleTab > ul:after {content:''; display:block; height:0; overflow:hidden; clear:both;}
 .toggleTab > ul > li {display:inline-block; vertical-align:top; font-size:16px; letter-spacing:0;}
 .toggleTab.col4 > ul > li {width:25%;}
 
-.toggleTab .overview {position:relative; margin-left:10px; padding:0 0 55px; box-sizing:border-box; }
-.toggleTab .overview figure img{border: 1px solid #e9e9e9; float: left; border-bottom: none;}
+.toggleTab .overview {position:relative; margin-left:10px; padding:0 0 54px; box-sizing:border-box; }
+.toggleTab .overview figure img{border: 1px solid #e9e9e9; float: left; border-bottom: none; width: 100%;}
 .toggleTab .overview figure:after{content: ""; display: block; clear: both;}
-.toggleTab .overview figcaption{background-color: #0057a4; color: #fff; height: 55px; line-height: 55px; border-bottom: 1px solid #2f8bdd; padding-left: 20px; font-size: 21px; clear: both;}
-.toggleTab .overview button {position:absolute; width:100%; bottom:0; left:0; height:55px;}
+.toggleTab .overview figcaption{background-color: #0057a4; color: #fff; height: 54px; line-height: 55px; border-bottom: 1px solid #2f8bdd; padding-left: 20px; font-size: 21px; clear: both;}
+.toggleTab .overview button {position:absolute; width:100%; bottom:0; left:0; height:54px; font-size: 16px;}
 .toggleTab .overview button.hide:before {position:absolute; left:50%; bottom:0; display:block; width:0; height:12px; margin-left:-15px; border-color:transparent transparent #f1f1f1; border-width:15px; border-style:solid; content:'';}
-.toggleTab .desc {position:absolute; width:100%; left:0; background:#f1f1f1; padding:20px 0 15px; display:none;}
-.toggleTab .desc > * {max-width:1310px; margin:0 auto; padding:0 28px;}
+.toggleTab .desc {position:absolute; width:100%; left:0; background:#f1f1f1; padding:20px 0 10px; display:none;}
+
+.toggleTab .storage_list{max-width:1320px; margin:0 auto; padding:0 28px 0 18px;}
+.toggleTab .storage_list li{float: left; margin-bottom: 10px;  width: 25%;}
+.toggleTab .storage_list li figure{margin-left: 10px;background-color: #fff; border: 1px solid #e9e9e9; text-align: center; padding-bottom: 15px;}
+.toggleTab .storage_list li figure p.img{padding-top: 30px; padding-bottom: 10px;}
+.toggleTab .storage_list li figure figcaption{font-size: 14px; color: #9c9c9c;}
+.toggleTab .storage_list li figure figcaption b{color: #000; font-weight: normal; font-family: samsungifbd;}
+
 
 @media (min-width:768px) and (max-width:1023px) {
     .toggleTab {padding-bottom:0;}
     .toggleTab.col4 .floating-jumpmenu ul li {width:50%; display:none;}
     .toggleTab > ul > li {margin-bottom:40px;}
     .toggleTab.col4 > ul > li {width:50%;}
+
 }
 @media (max-width:767px) {
     .toggleTab .floating-jumpmenu,     .toggleTab .floating-jumpmenu > button {height:50px;}
@@ -2279,8 +2287,12 @@ ul.tab.type5 li a {display:block; padding:9px 5px; vertical-align:middle; box-si
     .toggleTab .img,     .toggleTab .overview {height:auto !important; margin-left:0;}
     .toggleTab .img {padding-bottom:0 !important;}
     .toggleTab > ul .desc h4 {font-size:20px;}
-    .toggleTab .desc > * {padding:0 10px;}
-    .toggleTab .desc h5 {font-size:16px;}
+
+    .toggleTab .storage_list{padding:0 10px 0 0px;}
+    .toggleTab .storage_list li{ width: 50%;}
+        .toggleTab .storage_list li figure p.img{padding-top: 20px; padding-bottom: 10px;}
+
+    .toggleTab .storage_list li figure p.img img{ width:50%;}
 }
 
 
