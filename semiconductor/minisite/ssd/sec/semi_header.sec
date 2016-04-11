@@ -36,7 +36,7 @@
                 <!-- //top utility -->
             </div>
             <div class="util-menu">
-                <button type="button" class="btn-ico call-smartfinder" data-role="ui-btn-show-smartfinder" onClick="location.href='/semiconductor/minisite/ssd/selection/selectionGuide.html'"><span class="label">selection guide</span></button>
+                <button type="button" class="btn-ico call-smartfinder" data-role="ui-btn-show-smartfinder" onClick="location.href='/semiconductor/minisite/ssd/selection/selection-guide.html'"><span class="label">selection guide</span></button>
             </div>
         </div>
     <div class="history_notification" style="display:none">

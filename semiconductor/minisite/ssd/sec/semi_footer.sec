@@ -9,7 +9,7 @@
                         <h3 class="tit-accordion"><span>V-NAND SSD</span></h3>
                         <button type="button" class="ctl-accordion closed" data-role="ui-accordion-btn"><span class="blind">WHY SAMSUNG V-NAND SSD layer open</span></button>
                         <ul data-role="ui-accordion-content">
-                            <li><a href="/semiconductor/minisite/ssd/why/v_nand_ssd.html">V-NAND Technology</a></li>
+                            <li><a href="/semiconductor/minisite/ssd/why/v-nand-ssd.html">V-NAND SSD Technology</a></li>
                         </ul>
                     </div>
                 </div>
@@ -48,18 +48,18 @@
                         <h3 class="tit-accordion"><span>DOWNLOAD</span></h3>
                         <button type="button" class="ctl-accordion closed" data-role="ui-accordion-btn"><span class="blind">DOWNLOAD CENTER layer open</span></button>
                         <ul data-role="ui-accordion-content">
-                            <li><a href="#">Overview</a></li>
+                            <li><a href="/semiconductor/minisite/ssd/download/overview.html">Overview</a></li>
                             <li><a href="#">By Type</a>
                                 <ul>
-                                    <li><a href="/semiconductor/minisite/ssd/download/toolnSoftware.html">Tools &amp; Software</a></li>
+                                    <li><a href="/semiconductor/minisite/ssd/download/tool-n-software.html">Tools &amp; Software</a></li>
                                     <li><a href="/semiconductor/minisite/ssd/download/documents.html">Documents</a></li>
                                 </ul>
                             </li>
                             <li><a href="#">By Product</a>
                                 <ul>
-                                    <li><a href="/semiconductor/minisite/ssd/download/consumerSsd.html">Consumer SSD</a></li>
-                                    <li><a href="/semiconductor/minisite/ssd/download/portableSsd.html">Portable SSD</a></li>
-                                    <li><a href="/semiconductor/minisite/ssd/download/enterpriseSsd.html">Enterprise SSD</a></li>
+                                    <li><a href="/semiconductor/minisite/ssd/download/consumer-ssd.html">Consumer SSD</a></li>
+                                    <li><a href="/semiconductor/minisite/ssd/download/portable-ssd.html">Portable SSD</a></li>
+                                    <li><a href="/semiconductor/minisite/ssd/download/enterprise-ssd.html">Enterprise SSD</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -70,9 +70,9 @@
                         <h3 class="tit-accordion"><span>SUPPORT</span></h3>
                         <button type="button" class="ctl-accordion closed" data-role="ui-accordion-btn"><span class="blind">SUPPORTS &amp; Purchase layer open</span></button>
                         <ul data-role="ui-accordion-content">
-                            <li><a href="/semiconductor/minisite/ssd/support/whereToBuy.html">Where to Buy</a></li>
+                            <li><a href="/semiconductor/minisite/ssd/support/where-to-buy.html">Where to Buy</a></li>
                             <li><a href="/semiconductor/minisite/ssd/support/faqs.html">FAQs</a></li>
-                            <li><a href="/semiconductor/minisite/ssd/support/customerService.html">Customer Service</a></li>
+                            <li><a href="/semiconductor/minisite/ssd/support/customer-service.html">Customer Service</a></li>
                         </ul>
                     </div>
                 </div>
