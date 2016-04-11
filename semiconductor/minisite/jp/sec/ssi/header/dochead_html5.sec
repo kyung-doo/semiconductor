@@ -11,10 +11,10 @@
 
     <!-- common css,js link -->
     <link rel="stylesheet" type="text/css" media="all" href="/global/business/semiconductor/minisite/SSD/global/common/css/samsung.css">
-    
+
     <!-- jp css link -->
     <link rel="stylesheet" type="text/css" media="all" href="/global/business/semiconductor/minisite/SSD/jp/common/css/samsung.css">
-    
+
     <script src="/global/business/semiconductor/minisite/SSD/global/common/js/samsung.jquery.js"></script>
     <script src="/global/business/semiconductor/minisite/SSD/global/common/js/samsung.util.js"></script>
     <script src="/global/business/semiconductor/minisite/SSD/global/common/js/samsung.ui.js"></script>
@@ -22,5 +22,5 @@
     <script src="/global/business/semiconductor/minisite/SSD/global/common/js/lib/datatables.js"></script>
 
     <!-- //favicon, app icon -->
-    <link rel="shortcut icon" href="/global/business/semiconductor/minisite/SSD/jp/common/img/ico/favicon.ico" />
-    <link rel="apple-touch-icon" href="/global/business/semiconductor/minisite/SSD/jp/common/img/ico/app_ico.gif" />
+    <link rel="shortcut icon" href="/global/business/semiconductor/minisite/SSD/global/common/img/ico/favicon.ico" />
+    <link rel="apple-touch-icon" href="/global/business/semiconductor/minisite/SSD/global/common/img/ico/app_ico.gif" />

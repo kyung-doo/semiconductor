@@ -319,11 +319,14 @@ button.ctl-accordion.expanded:after{content:"\28"}
 .key-visual+.floating-jumpmenu.active{margin-top:0}
 */
 /* jumpmenu : base */
-.floating-jumpmenu {width:100%; background:url("/global/business/semiconductor/minisite/SSD/global/common/img/layout/bg-jump-default.png"); border-bottom:1px solid #989898; text-transform:uppercase; position:relative; font-size:1rem;  font-family:'SamsungIFBd'; color:#0057a4;}
+.floating-jumpmenu {width:100%; background:url("/global/business/semiconductor/minisite/SSD/global/common/img/layout/bg-jump-default.png"); border-bottom:1px solid #dcdcdc; text-transform:uppercase; position:relative; font-size:1rem;  font-family:'SamsungIFBd'; color:#0057a4;}
 .acc-cont .floating-jumpmenu,.floating-jumpmenu li a.active:before {display:none;}
-.floating-jumpmenu.active{position:fixed;left:0;top:0;right:0;z-index:9;display:block !important;margin-top:0;z-index:9999999}
+.floating-jumpmenu.active{position:fixed;left:0;top:0;right:0;z-index:9;display:block !important;margin-top:0;z-index:9999999;border-bottom:1px solid #989898;}
 .floating-jumpmenu.active>div{display:block}
 .floating-jumpmenu.active+.tab-holder .tab-content.show{padding-top:100px}
+.floating-jumpmenu.active li a{border-right:1px solid #989898;}
+.floating-jumpmenu.active ul {border-left:1px solid #989898}
+.floating-jumpmenu.active .product-title, .floating-jumpmenu.active h2 {border-bottom:1px solid #989898}
     .legacy-ie .floating-jumpmenu.active + .grid-row.tab-theme .tab-content > div:first-child {padding-top:67px}
 .floating-jumpmenu>div, div.jump-module div.inner{position:relative; max-width:1311px;margin:0 auto; /*padding-right:140px;*/ overflow:hidden;text-align:center; box-sizing:border-box}
     .legacy-ie .floating-jumpmenu>div, .legacy-ie .floating-jumpmenu div.innner {width:1366px}
@@ -331,10 +334,10 @@ button.ctl-accordion.expanded:after{content:"\28"}
 .floating-jumpmenu .product-title span, .floating-jumpmenu h2 span {display:block; max-width:1311px; margin:0 auto; padding:25px 20px 15px 20px; line-height:30px; font-family:'SamsungIFBlk'; font-size:28px; color:#292929}
 .floating-jumpmenu .product-title span {text-transform:none}
 .floating-jumpmenu .product-title.download{border-bottom:none}
-.floating-jumpmenu ul {overflow:hidden; z-index:10;  border-left:1px solid #989898}
+.floating-jumpmenu ul {overflow:hidden; z-index:10;  border-left:1px solid #dcdcdc}
 .floating-jumpmenu ul:before, ul.jump-link:before {content:"";background:#e3e3e3;height:1px;position:absolute;left:0;right:0;top:56px;z-index:5}
 .floating-jumpmenu li, ul.jump-link li {float:left; /*position:relative*/} /*//20150803 mobile jellybean 4.2 에서 fixed 후, event 영역을 갱신하지 못하는 문제가 있어서 relative 를 제거함*/
-.floating-jumpmenu li a{display:table;width:100%; background:none; border-right:1px solid #989898; box-sizing:border-box}
+.floating-jumpmenu li a{display:table;width:100%; background:none; border-right:1px solid #dcdcdc; box-sizing:border-box}
     .ie7 .floating-jumpmenu li a {display:block; height:20px; padding:20px 0}
 .floating-jumpmenu ul.col5 li{overflow:hidden; width:20%; }
 .floating-jumpmenu ul.col4 li{overflow:hidden; width:25%; height:56px}
@@ -1027,6 +1030,12 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 .header-wrap .util-menu .where:hover{color:#0057a4; }
 .header-wrap .util-menu .where span:after{content: "\34";    font-family: 'samsungIcon';    display: inline-block;    vertical-align: middle;    margin: 0 0 2px 2px;    position: relative;}
 
+.header-wrap .call-smartfinder {margin-left:10px; float:left; width:34px}
+.header-wrap .call-smartfinder:after {display:block; content:'\e600'; font-size:26px; font-family: 'samsungIcon'}
+.header-wrap .call-smartfinder.active {background-color:#0071bf}
+
+
+
 .header-wrap .header:after, .header-wrap .nav:after, .header-wrap .local-menu:after{content:"";display:block;clear:both;visibility:hidden}
 .header-wrap a.retial-mobile-btn, .header-wrap a.retail-mobile-btn {display:none}
 @media (min-width:1024px) and (max-width:1280px) {
@@ -1289,7 +1298,8 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 .footer .sitemap .frm input[type=search], .footer .sitemap .frm input[type=text]{display:inline-block; float:left;width:100%; height:37px; line-height:19px; padding:8px 10px; padding-right:25px; background:#fff; -khtml-border-radius:3px 0 0 3px; -moz-border-radius:3px 0 0 3px; -webkit-border-radius:3px 0 0 3px; border-radius:3px 0 0 3px; -moz-background-clip:padding; -webkit-background-clip:padding-box; background-clip:padding-box; border:1px solid #dadee1; border-right-width:0; -webkit-appearance:none; font-size:18px}
 .footer .sitemap .frm .submit-sch{background:#fff;color:#000;width:35px;height:100%;font-size:1.5em;line-height:35px;float:right;margin-right:-35px;border-radius:0 3px 3px 0;border:1px solid #dadee1;border-left-width:0}
 .footer .sitemap .frm .txt_del {display:none; position:absolute; top:11px; right:40px; margin:0; line-height:1;}
-.sitemap .grid-col{ width:20%;}
+.sitemap .grid-col{ width:25%;}
+.sitemap.jp .grid-col{ width:20%;}
 .sitemap .grid-col.product_area{ width:50%;}
 .sitemap .grid-col.product_area ul.map_product{ width:50%; float:left;}
 @media (max-width:767px){
@@ -2254,20 +2264,26 @@ ul.tab.type5 li a {display:block; padding:9px 5px; vertical-align:middle; box-si
 .toggleTab.col4 > ul > li {width:25%;}
 
 .toggleTab .overview {position:relative; margin-left:10px; padding:0 0 54px; box-sizing:border-box; }
-.toggleTab .overview figure img{border: 1px solid #e9e9e9; float: left; border-bottom: none; width: 100%;}
+.toggleTab .overview figure img{border: 1px solid #e9e9e9; float: left; border-bottom: none; width: 100%;    box-sizing: border-box;}
 .toggleTab .overview figure:after{content: ""; display: block; clear: both;}
-.toggleTab .overview figcaption{background-color: #0057a4; color: #fff; height: 54px; line-height: 55px; border-bottom: 1px solid #2f8bdd; padding-left: 20px; font-size: 21px; clear: both;}
-.toggleTab .overview button {position:absolute; width:100%; bottom:0; left:0; height:54px; font-size: 16px;}
+.toggleTab .overview figcaption{background-color: #707070; color: #fff; height: 54px; line-height: 55px; border-bottom: 1px solid #9b9b9b; padding-left: 20px; font-size: 21px; clear: both;}
+.toggleTab .overview button {position:absolute; width:100%; bottom:0; left:0; height:54px; font-size: 16px; background-color: #707070;}
 .toggleTab .overview button.hide:before {position:absolute; left:50%; bottom:0; display:block; width:0; height:12px; margin-left:-15px; border-color:transparent transparent #f1f1f1; border-width:15px; border-style:solid; content:'';}
 .toggleTab .desc {position:absolute; width:100%; left:0; background:#f1f1f1; padding:20px 0 10px; display:none;}
 
 .toggleTab .storage_list{max-width:1320px; margin:0 auto; padding:0 28px 0 18px;}
 .toggleTab .storage_list li{float: left; margin-bottom: 10px;  width: 25%;}
 .toggleTab .storage_list li figure{margin-left: 10px;background-color: #fff; border: 1px solid #e9e9e9; text-align: center; padding-bottom: 15px;}
-.toggleTab .storage_list li figure p.img{padding-top: 30px; padding-bottom: 10px;}
+.toggleTab .storage_list li figure p.img{padding-top: 30px; height: 90px;}
 .toggleTab .storage_list li figure figcaption{font-size: 14px; color: #9c9c9c;}
 .toggleTab .storage_list li figure figcaption b{color: #000; font-weight: normal; font-family: samsungifbd;}
 
+.toggleTab .overview.active figcaption{background-color: #0071bf;}
+.toggleTab .overview.active button {background-color: #0071bf;}
+.toggleTab .overview.active figcaption{border-bottom: 1px solid #4d9cd2;}
+.toggleTab .overview.default figcaption{background-color: #0057a4;}
+.toggleTab .overview.default button {background-color: #0057a4;}
+.toggleTab .overview.default figcaption{border-bottom: 1px solid #4d9cd2;}
 
 @media (min-width:768px) and (max-width:1023px) {
     .toggleTab {padding-bottom:0;}
@@ -2277,22 +2293,22 @@ ul.tab.type5 li a {display:block; padding:9px 5px; vertical-align:middle; box-si
 
 }
 @media (max-width:767px) {
-    .toggleTab .floating-jumpmenu,     .toggleTab .floating-jumpmenu > button {height:50px;}
+    .toggleTab .floating-jumpmenu,     .toggleTab .floating-jumpmenu > button {height:55px;}
     .toggleTab .floating-jumpmenu > button:after,     .toggleTab .floating-jumpmenu.expand > div {display:none;}
     .toggleTab .floating-jumpmenu li {background:transparent;}
     .toggleTab > ul.grid-row {padding-right:0;}
     .toggleTab + .toggleTab {padding-bottom:30px;}
     .toggleTab + .toggleTab > ul.grid-row {margin-top:-40px;}
     .toggleTab > ul > li {font-size:14px; width:100% !important; display:block; margin-bottom:10px;}
-    .toggleTab .img,     .toggleTab .overview {height:auto !important; margin-left:0;}
     .toggleTab .img {padding-bottom:0 !important;}
     .toggleTab > ul .desc h4 {font-size:20px;}
 
+    .toggleTab .overview {margin-left:0px;}
     .toggleTab .storage_list{padding:0 10px 0 0px;}
     .toggleTab .storage_list li{ width: 50%;}
-        .toggleTab .storage_list li figure p.img{padding-top: 20px; padding-bottom: 10px;}
+    .toggleTab .storage_list li figure p.img{padding-top: 20px; height: auto; min-height:60px; padding-left: 20px; padding-right: 20px;}
 
-    .toggleTab .storage_list li figure p.img img{ width:50%;}
+    .toggleTab .storage_list li figure p.img img{ width: 90%;}
 }
 
 

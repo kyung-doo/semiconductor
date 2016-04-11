@@ -31,12 +31,12 @@
                 <!-- top utility -->
                 <ul class="direct">
                     <li><a href="/uk" class="btn link outlink" target="_blank" title="New window" onclick="sendClickCode('gnb','b2b_utility menu:consumer section');">SAMSUNG OFFICIAL SITE</a></li>
-                    <li><a href="https://partnerportal.samsung.com/portal/app/main?redirectYN=Y&amp;targetSite=GB&amp;targetNation=GB" class="btn link outlink" target="_blank" title="New window" onclick="sendClickCode('gnb','b2b_utility menu:partner portal');">SAMSUNG SSD FACE BOOK</a></li>
+                    <li><a href="http://www.facebook.com/samsungSSD" class="btn link outlink" target="_blank" title="New window" onclick="sendClickCode('gnb','b2b_utility menu:partner portal');">SAMSUNG SSD FACE BOOK</a></li>
                 </ul>
                 <!-- //top utility -->
             </div>
             <div class="util-menu">
-                <button type="button" class="btn-ico call-smartfinder" data-role="ui-btn-show-smartfinder" onClick="location.href='/global/business/semiconductor/minisite/SSD/global/selection/selection_guide.html'"><span class="label">smartfinder</span></button>
+                <button type="button" class="btn-ico call-smartfinder" data-role="ui-btn-show-smartfinder" onClick="location.href='/global/business/semiconductor/minisite/SSD/global/selection/selection_guide.html'"><span class="label">selection guide</span></button>
             </div>
         </div>
     <div class="history_notification" style="display:none">

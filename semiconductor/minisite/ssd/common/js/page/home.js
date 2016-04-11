@@ -316,6 +316,7 @@ function init_toggle_tab(){
         var desc = self.children(".desc");
         var siblings = self.siblings();
         var others = self.parents(".toggleTab").siblings(".toggleTab").children("ul").children("li");
+        var overview = self.find(".overview");
 
         function toggleHide(){
             desc.hide();//컨텐츠 숨김
@@ -324,6 +325,8 @@ function init_toggle_tab(){
         };
 
         function toggleShow(){
+            overview.parent().siblings().find('.overview').removeClass('active').removeClass('default')
+            overview.removeClass('default').addClass('active')
             desc.show();//컨텐츠 보임
             eqJump.addClass("active").parent("li").siblings().children("a").removeClass("active");//점프메뉴 클래스 변경
             jump.addClass("active").children("button").text(eqJump.text());//점프메뉴 모바일용 버튼 텍스트 변경
@@ -339,10 +342,15 @@ function init_toggle_tab(){
             var descHeight = desc.height()+35;//컨텐츠 height 계산
             if(desc.is(":visible")){//컨텐츠 열린 상태일 때
                 toggleHide();
+                overview.removeClass('active')
+                overview.parent().siblings().find('.overview').removeClass('active').addClass('default')
+                overview.addClass('default')
             }
             else {
                 toggleShow();
                 self.css("padding-bottom",descHeight);//컨텐츠 height 만큼 하단 여백 넣기
+
+
             }
         });
 
@@ -546,35 +554,35 @@ function loadReviewAwards( path )
     var dataList;
     var startNum = 0;
     var endNum;
-    
+
     var tmpl;
-    
+
     $.getJSON(path, function ( data )
     {
         dataList = data.reviewsAwardsList;
         endNum = dataList.length;
         addList(4);
-        
+
         if(startNum >= endNum)  $("button[data-role='ui-btn-awards']").hide();
-        
+
         $("button[data-role='ui-btn-awards']").bind("click", function ( e )
         {
             if(!$("#data-tmpl-awards").is(".loaded"))
             {
-               $("#data-tmpl-awards").addClass("loaded"); 
+               $("#data-tmpl-awards").addClass("loaded");
             }
-            
+
             addList(8);
-            
+
             if(startNum >= endNum)
             {
                 $(this).hide();
             }
         });
-        
-        
+
+
     });
-    
+
     function addList( len )
     {
        var list = new Array();
@@ -582,7 +590,7 @@ function loadReviewAwards( path )
         {
             if(i < endNum)
             {
-                list.push( dataList[i] );     
+                list.push( dataList[i] );
             }
         }
         tmpl = $("#tmpl-awards-inner").tmpl({"reviewsAwardsList":list});
@@ -590,7 +598,7 @@ function loadReviewAwards( path )
         startNum = startNum+len;
         $(window).resize();
     }
-    
+
 }
 
 
@@ -602,7 +610,7 @@ function init_selection_Tool()
 {
     $("*[data-role='selection-tool']").each(function ()
     {
-        var selectionTool = new SelectionToo( $(this) );    
+        var selectionTool = new SelectionToo( $(this) );
     });
-    
+
 }
