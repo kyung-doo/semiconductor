@@ -23,7 +23,7 @@ function initPage(){
  ********************************************************************************************************/
 function init_scripts(){
 
-    //$.cachedScript('/global/business/semiconductor/minisite/SSD/global/common/js/lib/datatables.js');
+    //$.cachedScript('/semiconductor/minisite/ssd/common/js/lib/datatables.js');
 };
 
 /********************************************************************************************************

@@ -15,7 +15,7 @@
         <div class="header">
             <div class="logo">
 
-            <a href="/global/business/semiconductor/minisite/SSD/global">
+            <a href="/semiconductor/minisite/ssd/">
             <span class="blind">SAMSUNG BUSINESS</span>
             <span>V-NAND SSD</span>
 
@@ -25,7 +25,7 @@
             <div class="overlay"></div>    <!-- dimed layer -->
             <div class="nav">
                 <!-- GNB -->
-                <?php include($_SERVER['DOCUMENT_ROOT'].'/global/business/semiconductor/minisite/SSD/global/sec/ssi/navigation/top_nav.sec')?>
+                <?php include($_SERVER['DOCUMENT_ROOT'].'/semiconductor/minisite/ssd/sec/ssi/navigation/top_nav.sec')?>
                 <!--#include virtual="/semiconductor/global/ssi/navigation/top_nav.sec"-->
                 <!-- //GNB -->
                 <!-- top utility -->
@@ -36,7 +36,7 @@
                 <!-- //top utility -->
             </div>
             <div class="util-menu">
-                <button type="button" class="btn-ico call-smartfinder" data-role="ui-btn-show-smartfinder" onClick="location.href='/global/business/semiconductor/minisite/SSD/global/selection/selection_guide.html'"><span class="label">selection guide</span></button>
+                <button type="button" class="btn-ico call-smartfinder" data-role="ui-btn-show-smartfinder" onClick="location.href='/semiconductor/minisite/ssd/selection/selection_guide.html'"><span class="label">selection guide</span></button>
             </div>
         </div>
     <div class="history_notification" style="display:none">

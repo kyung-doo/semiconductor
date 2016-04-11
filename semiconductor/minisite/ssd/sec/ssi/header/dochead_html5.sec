@@ -10,13 +10,13 @@
     <meta property="og:country-name" content="GLOBAL"/>
 
     <!-- common css,js link -->
-    <link rel="stylesheet" type="text/css" media="all" href="/global/business/semiconductor/minisite/SSD/global/common/css/samsung.css">
-    <script src="/global/business/semiconductor/minisite/SSD/global/common/js/samsung.jquery.js"></script>
-    <script src="/global/business/semiconductor/minisite/SSD/global/common/js/samsung.util.js"></script>
-    <script src="/global/business/semiconductor/minisite/SSD/global/common/js/samsung.ui.js"></script>
-    <script src="/global/business/semiconductor/minisite/SSD/global/common/js/samsung.common.js"></script>
-    <script src="/global/business/semiconductor/minisite/SSD/global/common/js/lib/datatables.js"></script>
+    <link rel="stylesheet" type="text/css" media="all" href="/semiconductor/minisite/ssd/common/css/samsung.css">
+    <script src="/semiconductor/minisite/ssd/common/js/samsung.jquery.js"></script>
+    <script src="/semiconductor/minisite/ssd/common/js/samsung.util.js"></script>
+    <script src="/semiconductor/minisite/ssd/common/js/samsung.ui.js"></script>
+    <script src="/semiconductor/minisite/ssd/common/js/samsung.common.js"></script>
+    <script src="/semiconductor/minisite/ssd/common/js/lib/datatables.js"></script>
 
     <!-- //favicon, app icon -->
-    <link rel="shortcut icon" href="/global/business/semiconductor/minisite/SSD/global/common/img/ico/favicon.ico" />
-    <link rel="apple-touch-icon" href="/global/business/semiconductor/minisite/SSD/global/common/img/ico/app_ico.gif" />
+    <link rel="shortcut icon" href="/semiconductor/minisite/ssd/common/img/ico/favicon.ico" />
+    <link rel="apple-touch-icon" href="/semiconductor/minisite/ssd/common/img/ico/app_ico.gif" />
