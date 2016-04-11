@@ -210,66 +210,160 @@ $(function ()
                            <div data-role="ui-accordion">
                                <a href="#" class="show_btn close closed" data-role="ui-accordion-btn">Show More Specs</a>
                                <div class="inarea" data-role="ui-accordion-content">
-                                   <div class="data-table" data-role="data-table">
-                                        <table>
+                                   <div class="data-table">
+                                        <table class="specs">
+                                            <colgroup>
+                                                <col style="width:16%">
+                                                <col style="width:18%">
+                                                <col style="width:33%">
+                                                <col style="width:33%">
+                                            </colgroup>
                                             <thead>
                                                 <tr>
-                                                    <th>Model Name</th>
-                                                    <th>MU-PT250B</th>
-                                                    <th>MU-PT500B</th>
-                                                    <th>MU-PT1T0B</th>
-                                                    <th>MU-PT2T0B</th>
+                                                    <th colspan="2"></th>
+                                                    <th>MZ-VKV256</th>
+                                                    <th>MZ-VKV512</th>
                                                 </tr>
-                                            </thead>  
+                                            </thead>
                                             <tbody>
+                                                <!-- General Feature -->
                                                 <tr>
-                                                    <td>Capacity*</td>
-                                                    <td class="c">250GB</td>
-                                                    <td class="c">500GB</td>
-                                                    <td class="c">1TB</td>
-                                                    <td class="c">2TB</td>
+                                                    <td class="t" rowspan="9">General Feature</td>
+                                                    <td class="t">Application</td>
+                                                    <td colspan="2" class="cen">Client PCs</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Interface*</td>
-                                                    <td colspan="4">Compatible with USB 3.1(Gen.1, 5Gbps), 3.0, 2.0</td>
+                                                    <td class="t">Capacity<sup>1)</sup></td>
+                                                    <td>256 GB (1GB=1 Billionbyte by IDEMA)</td>
+                                                    <td>512 GB (1GB=1 Billionbyte by IDEMA)</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Dimension (WxHxD)</td>
-                                                    <td colspan="4">74 x 58 x 10.5 mm</td>
+                                                    <td>Form Factor</td>
+                                                    <td colspan="2" class="cen">M.2 (2280)<sup>2)</sup></td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Weight**</td>
-                                                    <td colspan="4">51g</td>
+                                                    <td>Interface</td>
+                                                    <td colspan="2" class="cen">PCIe 3.0 x4 (up to 32 Gb/s)  NVMe 1.1</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Transfer Speed***</td>
-                                                    <td colspan="4">Up to 450MB/sec</td>
+                                                    <td>Dimension (LxWxH)</td>
+                                                    <td colspan="2" class="cen">Max. 80.15 x 22.15 x 2.38 (mm)</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>UASP Mode</td>
-                                                    <td colspan="4">Support</td>
+                                                    <td>Weight</td>
+                                                    <td colspan="2" class="cen">Max. 10g (512GB)</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Encryption</td>
-                                                    <td colspan="4">AES 256-bit hardware encryption</td>
+                                                    <td>NAND Type</td>
+                                                    <td colspan="2" class="cen">Samsung V-NAND</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Security****</td>
-                                                    <td colspan="4">Password setting (Optional) Requires Windows 7 or higher, Mac OS 10.7 or higher and Android KitKat (version 4.4) or higher.</td>
+                                                    <td>Controller</td>
+                                                    <td colspan="2" class="cen">Samsung UBX controller</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Certification</td>
-                                                    <td colspan="4">CE, BSMI, KC, VCCI, C-tick, FCC, IC, UL, TUV, CB, EAC</td>
+                                                    <td>Cache Memory</td>
+                                                    <td colspan="2" class="cen">Samsung 512 MB Low Power DDR3 SDRAM</td>
+                                                </tr>
+                                                <!-- //General Feature -->
+                                                <!-- Special Feature -->
+                                                <tr>
+                                                    <td rowspan="5">Special Feature</td>
+                                                    <td>TRIM Support</td>
+                                                    <td colspan="2" class="cen">TRIM Supported (Required OS support)</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>RoHS Compliance</td>
-                                                    <td colspan="4">RoHS2</td>
+                                                    <td>S.M.A.R.T Support</td>
+                                                    <td colspan="2" class="cen">S.M.A.R.T Supported</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Warranty</td>
-                                                    <td colspan="4">Limited 3-year</td>
+                                                    <td>GC (Garbage Collection)</td>
+                                                    <td colspan="2" class="cen">Auto Garbage Collection Algorithm</td>
                                                 </tr>
-                                            </tbody>   
+                                                <tr>
+                                                    <td>Data Security</td>
+                                                    <td colspan="2" class="cen">AES 256-bit for User Data Encryption</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>WWN Support</td>
+                                                    <td colspan="2" class="cen">N/A</td>
+                                                </tr>
+                                                <!-- //Special Feature -->
+                                                <!-- Performance -->
+                                                <tr>
+                                                    <td rowspan="6">Performance<sup>3)</sup></td>
+                                                    <td>Sequential Read</td>
+                                                    <td>Up to 2,200 MB/sec</td>
+                                                    <td>Up to 2,500 MB/sec</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Sequential Write</td>
+                                                    <td>Up to 900 MB/sec</td>
+                                                    <td>Up to 1,500 MB/sec</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Random Read<br>(4 KB, QD 32, Thread 4)</td>
+                                                    <td>Up to 270,000 IOPS</td>
+                                                    <td>Up to 300,000 IOPS</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Random Write<br>(4 KB, QD 32, Thread 4)</td>
+                                                    <td>Up to 85,000 IOPS</td>
+                                                    <td>Up to 110,000 IOPS</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Random Read<br>(4 KB, QD 1, Thread 1)</td>
+                                                    <td>Up to 11,000 IOPS</td>
+                                                    <td>Up to 12,000 IOPS</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Random Write<br>(4 KB, QD 1, Thread 1)</td>
+                                                    <td>Up to 43,000 IOPS</td>
+                                                    <td>Up to 43,000 IOPS</td>
+                                                </tr>
+                                                <!-- //Performance -->
+                                                <!-- Environment -->
+                                                <tr>
+                                                    <td rowspan="6">Environment</td>
+                                                    <td>Power Consumption<sup>4)</sup></td>
+                                                    <td colspan="2" class="cen">Active average/maximum: 5.1 W/6.4 W (256 GB), 5.7 W/7.0 W (512 GB),<br>Idle : 70mW, DEVSLP(L1.2 mode) : 2.5mW</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Reliability (MTBF)</td>
+                                                    <td colspan="2" class="cen">1.5 Million Hours Reliability (MTBF)</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Operating Temperature</td>
+                                                    <td colspan="2" class="cen">0 °C to 70 °C (Measured by SMART Temperature. Proper airflow recommended)</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Humidity</td>
+                                                    <td colspan="2" class="cen">5% to 95%, non-condensing</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Vibration</td>
+                                                    <td colspan="2" class="cen">20~2000Hz, 20G</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Shock</td>
+                                                    <td colspan="2" class="cen">1500G , duration 0.5m sec, 3 axis</td>
+                                                </tr>
+                                                <!-- //Environment -->
+                                                <tr>
+                                                    <td>Software</td>
+                                                    <td>Management SW</td>
+                                                    <td colspan="2" class="cen">Magician Software for SSD management</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">Installation Kit</td>
+                                                    <td colspan="2" class="cen">Not Available</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">Warranty</td>
+                                                    <td>5 Year Limited Warranty or 200 TBW Limited Warranty<br>(Whichever comes first)</td>
+                                                    <td>5 Year Limited Warranty or 400 TBW Limited Warranty<br>(Whichever comes first)</td>
+                                                </tr>
+                                            </tbody>
                                         </table>
                                    </div>
                                    
@@ -307,15 +401,15 @@ $(function ()
                         <div class="grid-col2">
                             <div class="col-inner download-file">
                                 <p>
-                                    <span>Data Sheet</span>
+                                    <span>950 PRO Data Sheet</span>
                                     <a class="btn down" href="javascript:void();"></a>
                                 </p>
                                 <p>
-                                    <span>White Paper</span>
+                                    <span>950 PRO Brochure</span>
                                     <a class="btn down" href="javascript:void();"></a>
                                 </p>
                                 <p>
-                                    <span>Magician Software – Installation Guide</span>
+                                    <span>950 PRO White Paper</span>
                                     <a class="btn down" href="javascript:void();"></a>
                                 </p>
                             </div>
@@ -325,11 +419,11 @@ $(function ()
                         <div class="grid-col2">
                             <div class="col-inner download-file down2">
                                  <p>
-                                    <span>Brochure</span>
+                                    <span>Magician Software</span>
                                     <a class="btn down" href="javascript:void();"></a>
                                 </p>
                                 <p>
-                                    <span>Magician Software</span>
+                                    <span>Magician Software – Installation Guide</span>
                                     <a class="btn down" href="javascript:void();"></a>
                                 </p>
                             </div>
