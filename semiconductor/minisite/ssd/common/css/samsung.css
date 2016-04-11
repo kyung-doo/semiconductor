@@ -1986,17 +1986,14 @@ table.support-info .img-ox {width:20px;}
 .show-more-spec .show_btn.close:after{content:"\27";font-family:"samsungIcon";vertical-align:middle;margin-left:8px}
 .show-more-spec .show_btn.expanded:after{content:"\28";font-family:"samsungIcon";vertical-align:middle;margin-left:8px}
 .show-more-spec div.inarea{margin-top:25px;display:none}
-.show-more-spec div.inarea .data-table table td.c{text-align:center;padding:0}
-.show-more-spec div.inarea .data-table table td:first-child{border-right:solid 1px #dcdcdc;border-left:none;color:#0071bf}
 
 
 .data-table{overflow-x:auto}
-.data-table table{border-collapse:collapse;min-width:100%}
-.data-table table th{height:50px;padding:0 30px;text-align:center;background-color:#0071bf;color:#fff;border-top:solid 1px #dcdcdc;border-bottom:solid 1px #dcdcdc;white-space:nowrap}
+.data-table table{border-collapse:collapse;width:100%;min-width:1000px}
+.data-table table th{height:30px;padding:10px 30px;text-align:center;background-color:#0071bf;color:#fff;border-top:solid 1px #dcdcdc;border-bottom:solid 1px #dcdcdc}
 .data-table table th:first-child{text-align:left;border-right:solid 1px #dcdcdc}
-.data-table table td{height:50px;padding:0 30px;text-align:left;background-color:#fff;border-top:solid 1px #dcdcdc;border-bottom:solid 1px #dcdcdc;white-space:nowrap;border-left:solid 1px #dcdcdc; word-break:break-all;}
-.data-table table td.c{text-align:center;padding:0}
-
+.data-table table td{text-align:center;height:30px;padding:10px 30px;background-color:#fff;border-top:solid 1px #dcdcdc;border-bottom:solid 1px #dcdcdc;border-left:solid 1px #dcdcdc}
+.data-table table td.t{border-right:solid 1px #dcdcdc;border-left:none;color:#0071bf;text-align:left}
 
 .fix-table table{border-collapse:collapse;min-width:100%}
 .fix-table table th{height:50px;padding:0 30px;text-align:center;background-color:#0071bf;color:#fff;border-top:solid 1px #dcdcdc;border-bottom:solid 1px #dcdcdc;white-space:nowrap;}
@@ -2004,13 +2001,16 @@ table.support-info .img-ox {width:20px;}
 .fix-table table td{height:50px;padding:0 30px;text-align:left;background-color:#fff;border-top:solid 1px #dcdcdc;border-bottom:solid 1px #dcdcdc;white-space:nowrap;border-left:solid 1px #dcdcdc; word-break:break-all;}
 .fix-table table td.c{text-align:center;padding:0}
 .fix-table table td:first-child{border-right:solid 1px #dcdcdc;border-left:none;color:#0071bf}
+
 .show-more-spec .info{margin-top:20px}
+.show-more-spec .info li{margin-left:15px;text-indent:-15px}
+.show-more-spec .info li sup{position:relative;top:4px}
 
 @media (max-width:767px){
-  .data-table table th{padding:0 15px}
-  .data-table table td{padding:0 15px}
-  .fix-table table th{padding:0 15px}
-  .fix-table table td{padding:0 15px}
+  .data-table table th{padding:10px 15px;height:15px}
+  .data-table table td{padding:10px 15px;height:15px}
+  .fix-table table th{padding:10px 15px;height:15px}
+  .fix-table table td{padding:10px 15px;height:15px}
   .show-more-spec{margin-top:10px}
   .show-more-spec .show_btn{padding:15px}
 }
@@ -2018,7 +2018,7 @@ table.support-info .img-ox {width:20px;}
 /* download-file-list */
 .download-file-list{position:relative}
 .download-file-list .download-file > p{position:relative;padding:10px 0}
-.download-file-list .download-file > p > span{position:relative;display:inline-block;width:90%;padding-left:8px}
+.download-file-list .download-file > p > span{position:relative;display:inline-block;width:69%;padding-left:8px}
 .download-file-list .download-file > p > span:before{content:"";position:absolute;top:10px;left:0;display:inline-block;width:2px;height:2px;background-color:#000;margin-top:-2px}
 .download-file-list .download-file > p > a{margin-top:0;position:absolute;top:9px;right:75px}
 .download-file-list .download-file.down2{padding-left:30px}

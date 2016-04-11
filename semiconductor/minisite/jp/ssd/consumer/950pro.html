@@ -208,7 +208,8 @@ $(function ()
                            <div data-role="ui-accordion">
                                <a href="#" class="show_btn close closed" data-role="ui-accordion-btn">Show More Specs</a>
                                <div class="inarea" data-role="ui-accordion-content">
-                                   <div class="data-table" data-role="data-table">
+                                   <div class="data-table">
+                                       <!--
                                         <table>
                                             <thead>
                                                 <tr>
@@ -269,13 +270,187 @@ $(function ()
                                                 </tr>
                                             </tbody>   
                                         </table>
+                                        -->
+                                        
+                                        
+                                        <table class="data-table">
+                                            <colgroup>
+                                                <col style="width:15%">
+                                                <col style="width:21%">
+                                                <col style="width:33%">
+                                                <col style="width:33%">
+                                            </colgroup>
+                                            <thead>
+                                                <tr>
+                                                    <th colspan="2"></th>
+                                                    <th>MZ-VKV256</th>
+                                                    <th>MZ-VKV512</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <!-- General Feature -->
+                                                <tr>
+                                                    <td class="t" rowspan="9">一般的な特徴</td>
+                                                    <td class="t">アプリケーション</td>
+                                                    <td colspan="2" class="cen">クライアントPC向け</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="t">容量<sup>1)</sup></td>
+                                                    <td>256 GB (1GB=1 Billionbyte by IDEMA)</td>
+                                                    <td>512 GB (1GB=1 Billionbyte by IDEMA)</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="t">フォームファクタ</td>
+                                                    <td colspan="2" class="cen">M.2 (2280)<sup>2)</sup></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="t">インターフェイス</td>
+                                                    <td colspan="2" class="cen">PCIe 3.0 x4 (up to 32 Gb/s)  NVMe 1.1</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="t">外形寸法(L×W×H)</td>
+                                                    <td colspan="2" class="cen">最大 80.15×22.15×2.38(mm)</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="t">質量</td>
+                                                    <td colspan="2" class="cen">最大 10G(512GB)</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="t">NAND</td>
+                                                    <td colspan="2" class="cen">Samsung V-NAND</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="t">コントローラ</td>
+                                                    <td colspan="2" class="cen">Samsung UBX コントローラ</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="t">キャッシュメモリ</td>
+                                                    <td colspan="2" class="cen">Samsung 512 MB Low Power DDR3 SDRAM</td>
+                                                </tr>
+                                                <!-- //General Feature -->
+                                                <!-- Special Feature -->
+                                                <tr>
+                                                    <td class="t" rowspan="5">その他性能</td>
+                                                    <td class="t">TRIMサポート</td>
+                                                    <td colspan="2" class="cen">対応（OSが対応している場合）</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="t">S.M.A.R.T(自己診断機能)</td>
+                                                    <td colspan="2" class="cen">対応</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="t">ガベージコレクション</td>
+                                                    <td colspan="2" class="cen">対応</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="t">セキュリティ</td>
+                                                    <td colspan="2" class="cen">AES 256-bit for User Data Encryption<br>TCG Opal Family Spec and eDrive(IEEE1667) to be supported by FW update</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="t">WWN(World Wide Name)</td>
+                                                    <td colspan="2" class="cen">非対応</td>
+                                                </tr>
+                                                <!-- //Special Feature -->
+                                                <!-- Performance -->
+                                                <tr>
+                                                    <td class="t" rowspan="6">パフォーマンス<sup>3)</sup></td>
+                                                    <td class="t">シーケンシャル読み出し</td>
+                                                    <td>Up to 2,200 MB/sec</td>
+                                                    <td>Up to 2,500 MB/sec</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="t">シーケンシャル書き出し</td>
+                                                    <td>Up to 900 MB/sec</td>
+                                                    <td>Up to 1,500 MB/sec</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="t">4Kランダム(QD32)読み出し</td>
+                                                    <td>Up to 270,000 IOPS</td>
+                                                    <td>Up to 300,000 IOPS</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="t">4Kランダム(QD32)書き込み</td>
+                                                    <td>Up to 85,000 IOPS</td>
+                                                    <td>Up to 110,000 IOPS</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="t">4Kランダム(QD1)読み出し</td>
+                                                    <td>Up to 11,000 IOPS</td>
+                                                    <td>Up to 12,000 IOPS</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="t">4Kランダム(QD1)書き込み</td>
+                                                    <td>Up to 43,000 IOPS</td>
+                                                    <td>Up to 43,000 IOPS</td>
+                                                </tr>
+                                                <!-- //Performance -->
+                                                <!-- Environment -->
+                                                <tr>
+                                                    <td class="t" rowspan="6">環境</th>
+                                                    <td class="t">消費電力<sup>4)</sup></td>
+                                                    <td colspan="2">動作時　平均 / 最大: 5.1 W /6.4 W (256 GB), 5.7 W / 7.0 W (512 GB),<br>待機時:70mW デバイススリープモード時:2.5mW</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="t">MTBF(平均故障間隔)</td>
+                                                    <td colspan="2">1.5 Million Hours Reliability (MTBF)</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="t">温度範囲</td>
+                                                    <td colspan="2">0～70℃（動作時)</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="t">湿度範囲</td>
+                                                    <td colspan="2">5～95%(結露なきこと)</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="t">耐振動性</td>
+                                                    <td colspan="2" class="cen">20~2000Hz, 20G</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="t">耐衝撃性</td>
+                                                    <td colspan="2" class="cen">1500G , duration 0.5m sec, 3 axis</td>
+                                                </tr>
+                                                <!-- //Environment -->
+                                                <tr>
+                                                    <td class="t">ソフトウエア</td>
+                                                    <td class="t">ユーティリティソフトウェア</td>
+                                                    <td colspan="2" class="cen">Magician Software for SSD management</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="t">アクセサリ</td>
+                                                    <td class="t">添付品</td>
+                                                    <td colspan="2" class="cen">無し</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="t" colspan="2">保証期間</td>
+                                                    <td>5年間、もしくはTBW(Total Byte Written＝総書き込み容量)しきい値(200TB)に到達した日の、いずれか短い期間までとなります</td>
+                                                    <td>5年間、もしくはTBW(Total Byte Written＝総書き込み容量)しきい値(400TB)に到達した日の、いずれか短い期間までとなります</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        
+                                        
                                    </div>
                                    
                                    <div class="info">
-                                       * Actual usable capacity may vary based on system settings. 1GB=1,000,000,000 bytes, 1TB=1,000,000,000,000 bytes<br />
-                                       ** The exact weight of the product may vary depending on each capacity model.<br />
-                                       *** Performance may vary depending on host configuration and user system environment.<br />
-                                       **** User can set password when it is necessary.
+                                       <ul>
+                                           <li>
+                                               <sup>1)</sup>
+                                               1GB =1,000,000,000バイト容量の一部がシステム ファイルやメンテナンスに使用される可能性があるため、実際の容量は、製品ラベルの表示と異なる場合があります。
+                                           </li>
+                                            <li>
+                                               <sup>2)</sup>
+                                               M.2は、超薄型PC向けフォーム ファクターの仕様です。M.2規格では、幅12、16、22、30mmと長さ16、26、30、38、42、60、80、110mmが認められています。市販では、M.2は 幅22mmと長さ30、42、60、80、110mmが一般的です。Samsungでは、ユーザーの利便性を考慮して、最も一般的な22x80mmモデル(2280)を提供しています。
+                                           </li>
+                                           <li>
+                                               <sup>3)</sup>
+                                               シーケンシャル 性能測定はCrystalDiskMark 5.0.2、ランダム 性能測定は Iometer1.1.0を使用しています。パフォーマンスは、SSDのファームウェア バージョン、システム ハードウェアおよび構成によって異なる場合があります。テスト システム構成: Intel Core i5-6600K(3.5 GHz 動作)、DDR3 1,600 MHz 8 GB、OS: Windows10 x 64、Mainboard: MSI® (Skylake)モデル: Z170 KRAIT® Gaming
+                                           </li>
+                                           <li>
+                                               <sup>4)</sup>
+                                               Iometer1.1.0で測定した消費電力(Intel i7-4、770 K (Haswell、3.5 GHz)、DDR3 8 GB、ASRock® Z87 Extreme9/ac、APST)、OS: Windows7 Ultimate x64 SP1
+                                           </li>
+                                       </ul>
                                    </div>
                                    
                                </div>
@@ -305,15 +480,15 @@ $(function ()
                         <div class="grid-col2">
                             <div class="col-inner download-file">
                                 <p>
-                                    <span>Data Sheet</span>
+                                    <span>950 PRO Data Sheet</span>
                                     <a class="btn down" href="javascript:void();"></a>
                                 </p>
                                 <p>
-                                    <span>White Paper</span>
+                                    <span>950 PRO Brochure</span>
                                     <a class="btn down" href="javascript:void();"></a>
                                 </p>
                                 <p>
-                                    <span>Magician Software – Installation Guide</span>
+                                    <span>950 PRO White Paper</span>
                                     <a class="btn down" href="javascript:void();"></a>
                                 </p>
                             </div>
@@ -323,11 +498,11 @@ $(function ()
                         <div class="grid-col2">
                             <div class="col-inner download-file down2">
                                  <p>
-                                    <span>Brochure</span>
+                                    <span>Magician Software</span>
                                     <a class="btn down" href="javascript:void();"></a>
                                 </p>
                                 <p>
-                                    <span>Magician Software</span>
+                                    <span>Magician Software – Installation Guide</span>
                                     <a class="btn down" href="javascript:void();"></a>
                                 </p>
                             </div>
