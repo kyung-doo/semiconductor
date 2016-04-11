@@ -3,7 +3,7 @@
 /* error page */
 
 .error_page {padding:165px 0; height:100%; padding-left:10px; padding-right:10px}
-.error_page h2 {margin-bottom:10px; font-size:34px; font-family:'SamsungIFBlk'; margin-top: 20px;}
+.error_page h2 {margin-bottom:10px; font-size:34px; font-family:'SamsungIFBlk','メイリオ'; margin-top: 20px;}
 .error_page > div {text-align:center}
 .error_page .error404 span,
 .error_page .error500 span {margin-bottom:40px; display:inline-block}
