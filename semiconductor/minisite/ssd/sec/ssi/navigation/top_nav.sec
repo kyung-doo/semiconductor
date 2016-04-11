@@ -63,9 +63,9 @@
                     <a href="#">By Product</a>
                     <div class="flyout">
                         <ul>
-                            <li><a href="/semiconductor/minisite/ssd/download/consumer_ssd.html">Consumer SSD</a></li>
-                            <li><a href="/semiconductor/minisite/ssd/download/portable_ssd.html">Portable SSD</a></li>
-                            <li><a href="/semiconductor/minisite/ssd/download/enterprise_ssd.html">Enterprise SSD</a></li>
+                            <li><a href="/semiconductor/minisite/ssd/download/consumerSsd.html">Consumer SSD</a></li>
+                            <li><a href="/semiconductor/minisite/ssd/download/portableSsd.html">Portable SSD</a></li>
+                            <li><a href="/semiconductor/minisite/ssd/download/enterpriseSsd.html">Enterprise SSD</a></li>
                         </ul>
                     </div>
                 </li>
@@ -77,8 +77,8 @@
         <div class="submenu-container has-flyout">
             <ul data-role="ui-nav-sub">
                 <li><a href="/semiconductor/minisite/ssd/support/whereToBuy.html">Where to Buy</a></li>
-                <li><a href="/semiconductor/minisite/ssd/support/FAQs.html">FAQs</a></li>
-                <li><a href="/semiconductor/minisite/ssd/support/customer_service.html">Customer Service</a></li>
+                <li><a href="/semiconductor/minisite/ssd/support/faqs.html">FAQs</a></li>
+                <li><a href="/semiconductor/minisite/ssd/support/customerService.html">Customer Service</a></li>
             </ul>
         </div>
     </li>

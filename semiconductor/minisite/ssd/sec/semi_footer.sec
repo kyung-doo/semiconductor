@@ -9,36 +9,35 @@
                         <h3 class="tit-accordion"><span>V-NAND SSD</span></h3>
                         <button type="button" class="ctl-accordion closed" data-role="ui-accordion-btn"><span class="blind">WHY SAMSUNG V-NAND SSD layer open</span></button>
                         <ul data-role="ui-accordion-content">
-                            <li><a href="#">V-NAND Technology</a></li>
+                            <li><a href="/semiconductor/minisite/ssd/why/v_nand_ssd.html">V-NAND Technology</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="grid-col">
                     <div class="col-inner">
-                        <h3 class="tit-accordion"><span>PRODUCTS</span></h3>
+                        <h3 class="tit-accordion"><span>PRODUCT</span></h3>
                         <button type="button" class="ctl-accordion closed" data-role="ui-accordion-btn"><span class="blind">PRODUCTS layer open</span></button>
                         <ul data-role="ui-accordion-content">
                             <li><a href="#">Consumer SSD</a>
                                 <ul>
-                                    <li><a href="#">Overview</a></li>
-                                    <li><a href="#">950 PRO</a></li>
-                                    <li><a href="#">850 PRO</a></li>
-                                    <li><a href="#">850 EVO</a></li>
-                                    <li><a href="#">750 EVO</a></li>
-
+                                    <li><a href="/semiconductor/minisite/ssd/product/consumer/overview.html">Overview</a></li>
+                                    <li><a href="/semiconductor/minisite/ssd/product/consumer/950pro.html">950 PRO</a></li>
+                                    <li><a href="/semiconductor/minisite/ssd/product/consumer/850pro.html">850 PRO</a></li>
+                                    <li><a href="/semiconductor/minisite/ssd/product/consumer/850evo.html">850 EVO</a></li>
+                                    <li><a href="/semiconductor/minisite/ssd/product/consumer/750evo.html">750 EVO</a></li>
                                 </ul>
                             </li>
                             <li><a href="#">Portable SSD</a>
                                 <ul>
-                                    <li><a href="#">Overview</a></li>
-                                    <li><a href="#">T3</a></li>
+                                    <li><a href="/semiconductor/minisite/ssd/product/portable/overview.html">Overview</a></li>
+                                    <li><a href="/semiconductor/minisite/ssd/product/portable/t3.html">T3</a></li>
                                 </ul>
                             </li>
                             <li><a href="#">Enterprise SSD</a>
                                 <ul>
-                                    <li><a href="#">Overview</a></li>
-                                    <li><a href="#">SM863</a></li>
-                                    <li><a href="#">PM863</a></li>
+                                    <li><a href="/semiconductor/minisite/ssd/product/enterprise/overview.html">Overview</a></li>
+                                    <li><a href="/semiconductor/minisite/ssd/product/enterprise/sm863.html">SM863</a></li>
+                                    <li><a href="/semiconductor/minisite/ssd/product/enterprise/pm863.html">PM863</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -52,15 +51,15 @@
                             <li><a href="#">Overview</a></li>
                             <li><a href="#">By Type</a>
                                 <ul>
-                                    <li><a href="#">Tools &amp; Software</a></li>
-                                    <li><a href="#">Documents</a></li>
+                                    <li><a href="/semiconductor/minisite/ssd/download/toolnSoftware.html">Tools &amp; Software</a></li>
+                                    <li><a href="/semiconductor/minisite/ssd/download/documents.html">Documents</a></li>
                                 </ul>
                             </li>
                             <li><a href="#">By Product</a>
                                 <ul>
-                                    <li><a href="#">Consumer SSD</a></li>
-                                    <li><a href="#">Portable SSD</a></li>
-                                    <li><a href="#">Enterprise SSD</a></li>
+                                    <li><a href="/semiconductor/minisite/ssd/download/consumerSsd.html">Consumer SSD</a></li>
+                                    <li><a href="/semiconductor/minisite/ssd/download/portableSsd.html">Portable SSD</a></li>
+                                    <li><a href="/semiconductor/minisite/ssd/download/enterpriseSsd.html">Enterprise SSD</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -71,9 +70,9 @@
                         <h3 class="tit-accordion"><span>SUPPORT</span></h3>
                         <button type="button" class="ctl-accordion closed" data-role="ui-accordion-btn"><span class="blind">SUPPORTS &amp; Purchase layer open</span></button>
                         <ul data-role="ui-accordion-content">
-                            <li><a href="#">Where to Buy</a></li>
-                            <li><a href="#">FAQs</a></li>
-                            <li><a href="#">Customer Service</a></li>
+                            <li><a href="/semiconductor/minisite/ssd/support/whereToBuy.html">Where to Buy</a></li>
+                            <li><a href="/semiconductor/minisite/ssd/support/faqs.html">FAQs</a></li>
+                            <li><a href="/semiconductor/minisite/ssd/support/customerService.html">Customer Service</a></li>
                         </ul>
                     </div>
                 </div>
@@ -86,7 +85,7 @@
             <div class="grid-row">
                 <div class="col-inner">
                     <ul class="util-menu">
-                        <li><a href="/semiconductor/common/privacy-legal/">Privacy &amp; Legal</a></li>
+                        <li><a href="http://www.samsung.com/semiconductor/common/privacy-legal/" target="_blank">Privacy &amp; Legal</a></li>
                     </ul>
                 </div>
             </div>
