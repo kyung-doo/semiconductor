@@ -3,7 +3,7 @@
         <a href="#">V-NAND SSD</a>
         <div class="submenu-container">
             <ul data-role="ui-nav-sub">
-                <li><a href="/semiconductor/minisite/ssd/why/v-nand-ssd.html">V-NAND SSD Technology</a></li>
+                <li><a href="/semiconductor/minisite/ssd/why/v-nand.html">V-NAND SSD Technology</a></li>
             </ul>
         </div>
     </li>
@@ -54,7 +54,7 @@
                     <a href="#">By Type</a>
                     <div class="flyout">
                         <ul>
-                            <li><a href="/semiconductor/minisite/ssd/download/tool-n-software.html">Tools &amp; Software</a></li>
+                            <li><a href="/semiconductor/minisite/ssd/download/tools.html">Tools &amp; Software</a></li>
                             <li><a href="/semiconductor/minisite/ssd/download/documents.html">Documents</a></li>
                         </ul>
                     </div>
@@ -63,9 +63,9 @@
                     <a href="#">By Product</a>
                     <div class="flyout">
                         <ul>
-                            <li><a href="/semiconductor/minisite/ssd/download/consumer-ssd.html">Consumer SSD</a></li>
-                            <li><a href="/semiconductor/minisite/ssd/download/portable-ssd.html">Portable SSD</a></li>
-                            <li><a href="/semiconductor/minisite/ssd/download/enterprise-ssd.html">Enterprise SSD</a></li>
+                            <li><a href="/semiconductor/minisite/ssd/download/consumer.html">Consumer SSD</a></li>
+                            <li><a href="/semiconductor/minisite/ssd/download/portable.html">Portable SSD</a></li>
+                            <li><a href="/semiconductor/minisite/ssd/download/enterprise.html">Enterprise SSD</a></li>
                         </ul>
                     </div>
                 </li>
@@ -76,9 +76,9 @@
         <a href="#">SUPPORT</a>
         <div class="submenu-container has-flyout">
             <ul data-role="ui-nav-sub">
-                <li><a href="/semiconductor/minisite/ssd/support/where-to-buy.html">Where to Buy</a></li>
+                <li><a href="/semiconductor/minisite/ssd/support/buy.html">Where to Buy</a></li>
                 <li><a href="/semiconductor/minisite/ssd/support/faqs.html">FAQs</a></li>
-                <li><a href="/semiconductor/minisite/ssd/support/customer-service.html">Customer Service</a></li>
+                <li><a href="/semiconductor/minisite/ssd/support/cs.html">Customer Service</a></li>
             </ul>
         </div>
     </li>
