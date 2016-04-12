@@ -94,8 +94,8 @@
                                 <a href="#">Download by Type</a>
                                 <div>
                                     <ul>
-                                        <li><a href="#">Tool &amp; Software</a></li>
-                                        <li><a href="#">Documents</a></li>
+                                        <li><a href="/semiconductor/minisite/jp/support/tools.html">Tool &amp; Software</a></li>
+                                        <li><a href="/semiconductor/minisite/jp/support/documents.html">Documents</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -103,15 +103,15 @@
                                 <a href="#">Download by Product</a>
                                 <div>
                                     <ul>
-                                        <li><a href="#">Consumer SSD</a></li>
-                                        <li><a href="#">Portable SSD</a></li>
-                                        <li><a href="#">Enterprise SSD</a></li>
+                                        <li><a href="/semiconductor/minisite/jp/support/consumer.html">Consumer SSD</a></li>
+                                        <li><a href="/semiconductor/minisite/jp/support/portable.html">Portable SSD</a></li>
+                                        <li><a href="/semiconductor/minisite/jp/support/enterprise.html">Enterprise SSD</a></li>
                                     </ul>
                                 </div>
                             </li>
                             <li><a href="#">SSD Selection Guide</a></li>
                             <li><a href="#">FAQs</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="/semiconductor/minisite/jp/support/contact.html">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
