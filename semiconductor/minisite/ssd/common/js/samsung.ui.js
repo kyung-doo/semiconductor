@@ -193,13 +193,13 @@ var UIManager = Class.extend({
      * Initialize Accordion
      */
     init_accordion : function() {
-        
+
         var owner = this;
 
         if ($('*[data-role=ui-accordion]').length) {
-            
+
             if ( typeof $(this).attr('data-accordion-type') === 'undefined') {
-                
+
                 $('*[data-role=ui-accordion]').each(function() {
                     $(this).data('accordion', new AccordionUI($(this)));
                 });
@@ -434,89 +434,15 @@ var UIManager = Class.extend({
             })
         });
 
-        $(document).on('click', '*[data-role=ui-btn-email]', function() {
+        $(document).on('click', '*[data-role=ui-btn-term]', function() {
             $(this).data('manager', new LayerCommonUI($(this)));
             var $scope = $('div[data-role=ui-layer-email]');
-            $(".press_contact_btn button.btn_open").removeClass('hide');
-            $(".contact_info_area").hide();
-            //contact-popup 아코디언
-
-
-            var $selectProduct = $scope.find('select[data-role="ui-select-product"]');
-            var $selectProductSub = $scope.find('select[data-role="ui-select-product-sub"]');
-            var data01 = ['Please Select Sub Product','Server DRAM', 'PC DRAM', 'Mobile DRAM', 'Consumer DRAM', 'Graphic DRAM']
-            var data02 = ['Please Select Sub Product','V - NAND', 'Client SSD', 'Mobile DRAM', 'eMMC', 'UFS']
-            var data03 = ['Please Select Sub Product','eMMC Based MCP', 'ePOP']
-            var data04 = ['Please Select Sub Product','Application Processor', 'ModAP', 'Modem/RF']
-            var data05 = ['Please Select Sub Product','Mobile', 'Camera', 'Industry']
-            var data06 = ['Please Select Sub Product','Mobile DDI', 'Panel DDI', 'Touch Controller']
-            var data07 = ['Please Select Sub Product','Smartcard', 'NFC']
-//            var data08 = [' ']
-//            var data09 = [' ']
-
-            $selectProduct.change(function(){
-                var productVal = $(this).val();
-                if(productVal === 'Select'){
-                    $selectProductSub.empty();
-                    $selectProductSub.append("<option value='" + 'Please Select Product' + "'>" + 'Please Select Sub Product' + "</option>");
-                } else    if(productVal === 'DRAM'){
-                    $selectProductSub.empty();
-                    for(var i=0; i < data01.length; i++){
-                        $selectProductSub.append("<option value='" + data01[i] + "'>" + data01[i] + "</option>");
-                    }
-                } else if(productVal === 'Flash'){
-                    $selectProductSub.empty();
-                    for(var i=0; i < data02.length; i++){
-                        $selectProductSub.append("<option value='" + data02[i] + "'>" + data02[i] + "</option>");
-                    }
-                } else if(productVal === 'MCP'){
-                    $selectProductSub.empty();
-                    for(var i=0; i < data03.length; i++){
-                        $selectProductSub.append("<option value='" + data03[i] + "'>" + data03[i] + "</option>");
-                    }
-                } else if(productVal === 'Exynos'){
-                    $selectProductSub.empty();
-                    for(var i=0; i < data04.length; i++){
-                        $selectProductSub.append("<option value='" + data04[i] + "'>" + data04[i] + "</option>");
-                    }
-                } else if(productVal === 'CMOS'){
-                    $selectProductSub.empty();
-                    for(var i=0; i < data05.length; i++){
-                        $selectProductSub.append("<option value='" + data05[i] + "'>" + data05[i] + "</option>");
-                    }
-                } else if(productVal === 'Display'){
-                    $selectProductSub.empty();
-                    for(var i=0; i < data06.length; i++){
-                        $selectProductSub.append("<option value='" + data06[i] + "'>" + data06[i] + "</option>");
-                    }
-                } else if(productVal === 'Security'){
-                    $selectProductSub.empty();
-                    for(var i=0; i < data07.length; i++){
-                        $selectProductSub.append("<option value='" + data07[i] + "'>" + data07[i] + "</option>");
-                    }
-                } else if(productVal === 'Power'){
-                    $selectProductSub.empty();
-//                    for(var i=0; i < data08.length; i++){
-                        $selectProductSub.append("<option value='" + 'undefined' + "'>" + 'Power IC' + "</option>");
-//                    }
-                } else if(productVal === 'Bio'){
-                    $selectProductSub.empty();
-//                    for(var i=0; i < data09.length; i++){
-                        $selectProductSub.append("<option value='" + 'undefined' + "'>" + 'Bio-Processor' + "</option>");
-//                    }
-                }
-
-            });
-
-            //sendClickCode('content_click', 'make a request_write');
         });
+        $(document).on('click', '*[data-role=ui-btn-privacy]', function()
+        {
+            $(this).data('manager', new LayerCommonUI($(this)));
+            var $scope = $('div[data-role=ui-layer-privacy]');
 
-        // submit-button-event
-        $('*[data-role=ui-btn-submit]').off().on('click', function() {
-            $('*[data-role=ui-layer-scope]').find('a.btn-close').trigger('click');
-            $(this).data('manager', new LayerCommonUI($('*[data-role=ui-layer-ebc]'))); ( function(manager) {
-                manager._container.removeClass('pop-wrap');
-            }($(this).data('manager')));
         });
 
     },
@@ -1430,20 +1356,20 @@ var AccordionUI = Class.extend({
         this._type = this._scope.attr('data-accordion-type');
 
         this._content = this._scope.find('*[data-role=ui-accordion-btn]');
-        
+
         this._content.on("active", function ( e )
         {
             setTimeout(function (){$(window).resize();},1);
-            owner.active_item($(this)); 
+            owner.active_item($(this));
         });
-        
+
         this._content.on("deActive", function ( e )
         {
             owner._transition.speed = 0;
             owner.deActive_item($(this));
             owner._transition.speed = 300;
         });
-        
+
         this._content.each(function() {
             var content = $(this).parent().find('*[data-role=ui-accordion-content]');
             $(this).data('content', content);
@@ -4479,10 +4405,10 @@ var JumpUI = Class.extend({
                     owner.active_item(owner._content.eq(cnt));
                     try
                     {
-                        var nowOmnitureTitle = owner._content.eq(cnt).data('engTitle').toLowerCase();    
+                        var nowOmnitureTitle = owner._content.eq(cnt).data('engTitle').toLowerCase();
                     }
                     catch(e){}
-                    
+
 
                     if(nowOmnitureTitle && owner._isOriginalEvent && owner._omnitureTitle !== nowOmnitureTitle){
                         owner._omnitureTitle = nowOmnitureTitle;
@@ -6227,10 +6153,10 @@ var SelectionToo = Class.extend({
         this.reinit();
     },
 
-   
+
     reinit : function() {
         this.loadData();
-        
+
         $(window).bind("resize", function ( e )
         {
             if(_common.is_mode() != 'MOBILE')
@@ -6238,22 +6164,22 @@ var SelectionToo = Class.extend({
                 $("*[id^=selection_step").css({display:""});
             }
         });
-        
+
     },
-    
-    
+
+
     loadData : function ()
     {
         var owner = this;
         $.getJSON(owner._dataUrl, function ( data )
         {
-            owner._jsonData = data; 
+            owner._jsonData = data;
             owner.removeList(1);
-            owner.initList(); 
+            owner.initList();
         });
     },
-    
-    
+
+
     initList : function ()
     {
         var owner = this;
@@ -6263,38 +6189,38 @@ var SelectionToo = Class.extend({
         {
             ar.push({"contsID":list[i].contsID, "contsTitle":list[i].contsTitle});
         });
-        
+
         var tmpl = $("#tmpl-selection_step1").tmpl({selectionList : ar});
         tmpl.appendTo($("#selection_step1"));
-        
+
         $("#selection_step1 li").each(function ()
         {
            $(this).bind("click", function ( e )
            {
                $("#selection_step1 li").removeClass("on");
-               $(this).addClass("on");   
+               $(this).addClass("on");
                var idx = $(this).index();
-               owner.addList(list[idx].contsID, list[idx].member); 
-           }); 
+               owner.addList(list[idx].contsID, list[idx].member);
+           });
         });
     },
-    
-    
+
+
     addList : function ( id, member )
     {
         var owner = this;
         var step = id.length/2;
         var ar = new Array();
-        
+
         owner.removeList( step );
-        
+
         if(member.length == 0) return;
-        
+
         $(member).each(function ( i )
         {
             ar.push({"contsID":member[i].contsID, "contsTitle":member[i].contsTitle});
         });
-        
+
         var tmpl = $("#tmpl-selection_step"+(step+1)).tmpl({selectionList : ar});
         tmpl.appendTo($("#selection_step"+(step+1)));
         $("#selection_step"+(step+1)).addClass("on");
@@ -6303,10 +6229,10 @@ var SelectionToo = Class.extend({
         {
             $("#selection_step"+(step+1)).parent().parent().find(".title").trigger("active");
         }
-        
-        
 
-        
+
+
+
         $("#selection_step"+(step+1)+" li").each(function ( i )
         {
            $(this).bind("click", function ( e )
@@ -6317,13 +6243,13 @@ var SelectionToo = Class.extend({
                if(typeof member[idx].contsLink == "undefined")
                {
                    var idx = $(this).index();
-                   owner.addList(member[idx].contsID, member[idx].member);    
-               }   
+                   owner.addList(member[idx].contsID, member[idx].member);
+               }
                else
                {
                    if($(this).find("a").is(".link"))
                    {
-                       $(this).find("a").attr("href", member[idx].contsLink);   
+                       $(this).find("a").attr("href", member[idx].contsLink);
                    }
                    else
                    {
@@ -6331,11 +6257,11 @@ var SelectionToo = Class.extend({
                        $(this).find("a").addClass("link");
                    }
                }
-                
-           }); 
+
+           });
         });
     },
-    
+
     removeList : function ( step )
     {
         for(var i = 0; i < 4; i++)
