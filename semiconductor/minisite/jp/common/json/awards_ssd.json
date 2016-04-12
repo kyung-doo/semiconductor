@@ -1,0 +1,281 @@
+﻿{
+   
+    "reviewsAwardsList": [
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/ces.jpg",
+            "contsTitle": "CES 2016 Innovation Awards honoree - Samsung SSD 950 PRO 512GB",
+            "contsDate" : "",
+            "contsLinkUrl":"http://cesweb.org/Events-Experiences/CES-Innovation-Awards.aspx"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/ces.jpg",
+            "contsTitle": "CES 2016 Innovation Awards honoree - Samsung SSD 850 PRO 2TB",
+            "contsDate" : "",
+            "contsLinkUrl":"http://cesweb.org/Events-Experiences/CES-Innovation-Awards.aspx"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/ces.jpg",
+            "contsTitle": "CES 2016 Innovation Awards honoree - Samsung Portable SSD T3",
+            "contsDate" : "",
+            "contsLinkUrl":"http://cesweb.org/Events-Experiences/CES-Innovation-Awards.aspx"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/mynavi_book.jpg",
+            "contsTitle": "高速＋?量＋タフなSSDでMacの容量不足を解消！",
+            "contsDate" : "March 29, 2016",
+            "contsLinkUrl":"https://book.mynavi.jp/macfan/detail_summary/id=51884"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/pcper.jpg",
+            "contsTitle": "V-NAND Showdown - Samsung 850 EVO V1 and V2 Compared - 32 (V2) vs. 48 (V3) Layer Flash",
+            "contsDate" : "March 18, 2016",
+            "contsLinkUrl":"http://www.pcper.com/reviews/Storage/V-NAND-Showdown-Samsung-850-EVO-V1-and-V2-Compared-32-V2-vs-48-V3-Layer-Flash"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/srlogo.jpg",
+            "contsTitle": "Samsung 750 EVO SSD Review",
+            "contsDate" : "March 15, 2016",
+            "contsLinkUrl":"http://www.storagereview.com/samsung_750_evo_ssd_review"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/benchmark_reviews.jpg",
+            "contsTitle": "Samsung 950 PRO SSD RAID-0 Performance",
+            "contsDate" : "March 07, 2016",
+            "contsLinkUrl":"http://benchmarkreviews.com/35462/samsung-950-pro-ssd-raid0-performance-tests/"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/benchmark_reviews.jpg",
+            "contsTitle": "Samsung Portable SSD T3 Review",
+            "contsDate" : "February 22, 2016",
+            "contsLinkUrl":"http://benchmarkreviews.com/35063/samsung-portable-ssd-t3-review/"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/hothardware_approved.jpg",
+            "contsTitle": "Samsung Portable SSD T3 Review: Fast, Sleek USB-C Storage",
+            "contsDate" : "February 22, 2016",
+            "contsLinkUrl":"http://hothardware.com/reviews/samsung-t3-ssd-review-fast-portable-storage"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/pcpereditors_choice.jpg",
+            "contsTitle": "Samsung Portable SSD T3 2TB Review - 2TB In Your Pocket",
+            "contsDate" : "February 22, 2016",
+            "contsLinkUrl":"http://www.pcper.com/reviews/Storage/Samsung-Portable-SSD-T3-2TB-Review-2TB-Your-Pocket"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/srlogo.jpg",
+            "contsTitle": "Samsung Portable SSD T3 Review",
+            "contsDate" : "February 22, 2016",
+            "contsLinkUrl":"http://www.storagereview.com/samsung_portable_ssd_t3_review"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/the_ssd_review.jpg",
+            "contsTitle": "Samsung T3 Portable SSD Review (2TB) : Samsung Ups The Ante Yet Again",
+            "contsDate" : "February 22, 2016",
+            "contsLinkUrl":"http://www.thessdreview.com/our-reviews/samsung-t3-portable-ssd-review-2tb/"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/pcpergold.jpg",
+            "contsTitle": "Samsung 750 EVO 120GB and 250GB 2.5\" SATA SSD Full Review - The Return of 2D NAND",
+            "contsDate" : "February 16, 2016",
+            "contsLinkUrl":"http://www.pcper.com/reviews/Storage/Samsung-750-EVO-120GB-and-250GB-25-SATA-SSD-Full-Review-Return-2D-NAND"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/the_ssd_review.jpg",
+            "contsTitle": "Samsung 750 EVO SSD Review (120GB/250GB)",
+            "contsDate" : "February 16, 2016",
+            "contsLinkUrl":"http://www.thessdreview.com/our-reviews/samsung-750-evo-ssd-review-120gb250gb/"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/benchmark_reviews.jpg",
+            "contsTitle": "Samsung SSD 950 PRO Solid State Drive Review",
+            "contsDate" : "October 22, 2015",
+            "contsLinkUrl":"http://benchmarkreviews.com/31584/samsung-ssd-950-pro-solid-state-drive-review/"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/hothardware_editors_choice.jpg",
+            "contsTitle": "Samsung SSD 950 PRO M.2 Review: Affordable, Ultra Fast Storage",
+            "contsDate" : "October 22, 2015",
+            "contsLinkUrl":"http://hothardware.com/reviews/samsung-ssd-950-pro-m2-review-affordable-ultra-fast-storage"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/pcpereditors_choice.jpg",
+            "contsTitle": "Samsung 950 PRO 256GB and 512GB M.2 NVMe PCIe SSD Review",
+            "contsDate" : "October 22, 2015",
+            "contsLinkUrl":"http://www.pcper.com/reviews/Storage/Samsung-950-PRO-256GB-and-512GB-M2-NVMe-PCIe-SSD-Review"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/srlogo.jpg",
+            "contsTitle": "Samsung 950 PRO M.2 SSD Review",
+            "contsDate" : "October 22, 2015",
+            "contsLinkUrl":"http://www.storagereview.com/samsung_950_pro_m2_ssd_review"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/the_ssd_review.jpg",
+            "contsTitle": "Samsung 950 Pro M.2 NVME SSD Review (256/512GB) : The NVMe Effect",
+            "contsDate" : "October 22, 2015",
+            "contsLinkUrl":"http://www.thessdreview.com/our-reviews/samsung-950-pro-m-2-nvme-ssd-review-256512gb/"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/the_ssd_review.jpg",
+            "contsTitle": "Samsung PM863 SSD Review",
+            "contsDate" : "August 21, 2015",
+            "contsLinkUrl":"http://www.storagereview.com/samsung_pm863_ssd_review"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/srlogo.jpg",
+            "contsTitle": "Samsung SM863 SSD Review",
+            "contsDate" : "August 21, 2015",
+            "contsLinkUrl":"http://www.storagereview.com/samsung_sm863_ssd_review"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/srlogo.jpg",
+            "contsTitle": "Samsung SM863 & PM863 SSD Review (960GB)",
+            "contsDate" : "September 09, 2015",
+            "contsLinkUrl":"http://www.thessdreview.com/our-reviews/samsung-sm863-pm863-ssd-review-960gb/"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/srlogo.jpg",
+            "contsTitle": "Samsung 850 EVO SSD 2TB Review",
+            "contsDate" : "July 06, 2015",
+            "contsLinkUrl":"http://www.storagereview.com/samsung_850_evo_ssd_2tb_review"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/srlogo.jpg",
+            "contsTitle": "Samsung 850 PRO SSD 2TB Review",
+            "contsDate" : "July 06, 2015",
+            "contsLinkUrl":"http://www.storagereview.com/samsung_850_pro_ssd_2tb_review"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/pcpergold.jpg",
+            "contsTitle": "Samsung 850 EVO and Pro 2TB SATA SSD Review - Multi-terabyte Consumer SSDs Are Here!",
+            "contsDate" : "July 06, 2015",
+            "contsLinkUrl":"http://www.pcper.com/reviews/Storage/Samsung-850-EVO-and-Pro-2TB-SATA-SSD-Review-Multi-terabyte-Consumer-SSDs-Are-Here"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/the_ssd_review.jpg",
+            "contsTitle": "Samsung 850 EVO and Pro 2TB SSD Review ? 2TB SSDs Make their Entry",
+            "contsDate" : "July 06, 2015",
+            "contsLinkUrl":"http://www.thessdreview.com/daily-news/latest-buzz/samsung-850-evo-and-pro-2tb-ssd-review-2tb-ssds-make-their-entry/"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/the_ssd_review.jpg",
+            "contsTitle": "Samsung 850 EVO mSATA SSD Review (120GB/1TB) : Another Form Factor Option For A Great-Performing Drive",
+            "contsDate" : "April 07, 2015",
+            "contsLinkUrl":"http://www.thessdreview.com/our-reviews/samsung-850-evo-msata-ssd-review-120gb1tb-another-form-factor-option-for-a-great-performing-drive/"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/benchmark_reviews.jpg",
+            "contsTitle": "Samsung SSD 850 EVO mSATA Review",
+            "contsDate" : "April 03, 2015",
+            "contsLinkUrl":"http://benchmarkreviews.com/25865/samsung-ssd-850-evo-msata-review/"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/hot_hardware.jpg",
+            "contsTitle": "Samsung SSD 850 EVO mSATA and M.2 Drives Reviewed",
+            "contsDate" : "March 31, 2015",
+            "contsLinkUrl":"http://hothardware.com/reviews/samsung-ssd-850-evo-msata-and-m2-drives-reviewed"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/pcpereditors_choice.jpg",
+            "contsTitle": "Samsung 850 EVO M.2 SATA and mSATA 120GB, 500GB, 1TB SSD Roundup",
+            "contsDate" : "March 31, 2015",
+            "contsLinkUrl":"http://www.pcper.com/reviews/Storage/Samsung-850-EVO-M2-SATA-and-MSATA-120GB-500GB-1TB-SSD-Roundup"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/srlogo.jpg",
+            "contsTitle": "Samsung 850 EVO mSATA SSD Review",
+            "contsDate" : "March 31, 2015",
+            "contsLinkUrl":"http://www.storagereview.com/samsung_850_evo_msata_ssd_review"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/srlogo.jpg",
+            "contsTitle": "Samsung 850 EVO M.2 SSD Review",
+            "contsDate" : "March 31, 2015",
+            "contsLinkUrl":"http://www.storagereview.com/samsung_850_evo_m2_ssd_review"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/the_ssd_review.jpg",
+            "contsTitle": "Samsung 850 EVO M.2 SATA SSD Review (120GB/500GB)",
+            "contsDate" : "March 31, 2015",
+            "contsLinkUrl":"http://www.thessdreview.com/our-reviews/samsung-850-evo-m-2-sata-ssd-review-120gb500gb/"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/the_ssd_review.jpg",
+            "contsTitle": "Samsung 850 EVO SSD Review (1TB) ? Differing Series Controllers Compared",
+            "contsDate" : "December 22, 2014",
+            "contsLinkUrl":"http://www.thessdreview.com/our-reviews/samsung-850-evo-ssd-review-1tb-differing-series-controllers-compared/"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/benchmark_reviews.jpg",
+            "contsTitle": "Samsung SSD 850 EVO Solid State Drive Review",
+            "contsDate" : "December 08, 2014",
+            "contsLinkUrl":"http://benchmarkreviews.com/23506/samsung-ssd-850-evo-solid-state-drive-review/"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/hothardware_recommended.jpg",
+            "contsTitle": "Samsung SSD 850 EVO SATA Solid State Drive Review",
+            "contsDate" : "December 08, 2014",
+            "contsLinkUrl":"http://hothardware.com/reviews/samsung-ssd-850-evo-sata-solid-state-drive-review"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/pcpereditors_choice.jpg",
+            "contsTitle": "Samsung 850 EVO 120GB and 500GB RAID and RAPID Review - VNAND Goes TLC",
+            "contsDate" : "December 08, 2014",
+            "contsLinkUrl":"http://www.pcper.com/reviews/Storage/Samsung-850-EVO-120GB-and-500GB-RAID-and-RAPID-Review-VNAND-Goes-TLC"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/srlogo.jpg",
+            "contsTitle": "Samsung SSD 850 EVO SSD Review",
+            "contsDate" : "December 08, 2014",
+            "contsLinkUrl":"http://www.storagereview.com/samsung_ssd_850_evo_ssd_review"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/the_ssd_review.jpg",
+            "contsTitle": "Samsung 850 EVO SSD Review (120/500GB) ? Showing Off 3D TLC V-NAND",
+            "contsDate" : "December 08, 2014",
+            "contsLinkUrl":"http://www.thessdreview.com/our-reviews/samsung-850-evo-ssd-review-120500gb-showing-off-3d-tlc-v-nand/"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/srlogo.jpg",
+            "contsTitle": "Selecting the Best Samsung SSD for Intensive Desktop Workloads",
+            "contsDate" : "December 01, 2014",
+            "contsLinkUrl":"http://www.storagereview.com/selecting_the_best_samsung_ssd_for_intensive_desktop_workloads"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/pcpereditors_choice.jpg",
+            "contsTitle": "Samsung 850 Pro Full Capacity Roundup - Capacity Independent Speed",
+            "contsDate" : "November 03, 2014",
+            "contsLinkUrl":"http://www.pcper.com/reviews/Storage/Samsung-850-Pro-Full-Capacity-Roundup-Capacity-Independent-Speed"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/benchmark_reviews.jpg",
+            "contsTitle": "Samsung SSD 850 PRO Solid State Drive Review",
+            "contsDate" : "June 30, 2014",
+            "contsLinkUrl":"http://benchmarkreviews.com/17828/samsung-ssd-850-pro-solid-state-drive-review/"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/hothardware_editors_choice.jpg",
+            "contsTitle": "Samsung SSD 850 Pro - 3D NAND Arrives",
+            "contsDate" : "June 30, 2014",
+            "contsLinkUrl":"http://hothardware.com/reviews/samsung-ssd-850-pro-128gb-and-1tb-review"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/pcper.jpg",
+            "contsTitle": "Samsung 850 Pro 512GB Full Review - NAND Goes 3D!",
+            "contsDate" : "June 30, 2014",
+            "contsLinkUrl":"http://www.pcper.com/reviews/Storage/Samsung-850-Pro-512GB-Full-Review-NAND-Goes-3D"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/srlogo.jpg",
+            "contsTitle": "Samsung SSD 850 PRO Review",
+            "contsDate" : "June 30, 2014",
+            "contsLinkUrl":"http://www.storagereview.com/samsung_ssd_850_pro_review"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/the_ssd_review.jpg",
+            "contsTitle": "Samsung 850 Pro SSD Review ? Showing Off With 3D V-NAND",
+            "contsDate" : "June 30, 2014",
+            "contsLinkUrl":"http://www.thessdreview.com/our-reviews/samsung-850-pro-ssd-review-showing-3d-v-nand/"
+        }
+    ]
+}

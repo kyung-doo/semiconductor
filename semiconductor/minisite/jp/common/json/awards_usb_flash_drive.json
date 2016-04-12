@@ -1,0 +1,23 @@
+﻿{
+   
+    "reviewsAwardsList": [
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/srlogo.jpg",
+            "contsTitle": "Samsung Bar USB 3.0 Drive Review (MUF-64BA)",
+            "contsDate" : "November 29, 2015",
+            "contsLinkUrl":"http://www.storagereview.com/samsung_bar_usb_30_drive_review_muf64ba"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/srlogo.jpg",
+            "contsTitle": "Samsung USB 3.0 FIT Drive Review",
+            "contsDate" : "November 29, 2015",
+            "contsLinkUrl":"http://www.storagereview.com/samsung_usb_30_fit_drive_review"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/the_ssd_review.jpg",
+            "contsTitle": "Samsung’s Newest Flash Drives Reviewed",
+            "contsDate" : "November 18, 2015",
+            "contsLinkUrl":"http://www.thessdreview.com/featured/samsungs-newest-flash-drives-reviewed/"
+        }
+    ]
+}

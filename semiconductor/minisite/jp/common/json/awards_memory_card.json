@@ -1,0 +1,23 @@
+﻿{
+   
+    "reviewsAwardsList": [
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/the_ssd_review.jpg",
+            "contsTitle": "Samsung Pro Plus microSDHC 32GB and EVO Plus 128GB microSDXC Review",
+            "contsDate" : "July 21, 2015",
+            "contsLinkUrl":"http://www.thessdreview.com/featured/samsung-pro-plus-microsdhc-32gb-and-evo-plus-128gb-microsdxc-review/"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/srlogo.jpg",
+            "contsTitle": "Samsung PRO Plus MicroSD Memory Card Review",
+            "contsDate" : "May 26, 2015",
+            "contsLinkUrl":"http://www.storagereview.com/samsung_pro_plus_microsd_memory_card_review"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/srlogo.jpg",
+            "contsTitle": "Samsung EVO Plus MicroSD Memory Card Review",
+            "contsDate" : "May 26, 2015",
+            "contsLinkUrl":"http://www.storagereview.com/samsung_evo_plus_microsd_memory_card_review"
+        }
+    ]
+}

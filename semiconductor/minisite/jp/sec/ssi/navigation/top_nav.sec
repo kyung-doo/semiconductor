@@ -40,25 +40,25 @@
         </div>
     </li>
     <li class="sub">
-        <a href="#">MEMORY CARD</a>
+        <a href="javascript:void(0);">MEMORY CARD</a>
         <div class="submenu-container has-flyout">
             <ul data-role="ui-nav-sub">
-                <li><a href="#">Overview</a></li>
+                <li><a href="/semiconductor/minisite/jp/memorycard/overview.html">Overview</a></li>
                 <li class="sub">
-                    <a href="#">microSD</a>
+                    <a href="javascript:void(0);">microSD</a>
                     <div class="flyout">
                         <ul>
-                            <li><a href="#">PRO Plus</a></li>
-                            <li><a href="#">EVO Plus</a></li>
+                            <li><a href="/semiconductor/minisite/jp/memorycard/microsd/proplus.html">PRO Plus</a></li>
+                            <li><a href="/semiconductor/minisite/jp/memorycard/microsd/evoplus.html">EVO Plus</a></li>
                         </ul>
                     </div>
                 </li>
                 <li class="sub">
-                    <a href="#">SD Card</a>
+                    <a href="javascript:void(0);">SD Card</a>
                     <div class="flyout">
                         <ul>
-                            <li><a href="#">PRO Plus</a></li>
-                            <li><a href="#">EVO Plus</a></li>
+                            <li><a href="/semiconductor/minisite/jp/memorycard/sdcard/proplus.html">PRO Plus</a></li>
+                            <li><a href="/semiconductor/minisite/jp/memorycard/sdcard/proplus.html">EVO Plus</a></li>
                         </ul>
                     </div>
                 </li>
@@ -66,13 +66,13 @@
         </div>
     </li>
     <li class="sub">
-        <a href="#">USB FLASH DRIVE</a>
+        <a href="javascript:void(0);">USB FLASH DRIVE</a>
         <div class="submenu-container has-flyout">
             <ul data-role="ui-nav-sub">
-                <li><a href="#">Overview</a></li>
-                <li><a href="#">BAR</a></li>
-                <li><a href="#">FIT</a></li>
-                <li><a href="#">DUO</a></li>
+                <li><a href="/semiconductor/minisite/jp/usbflashdrive/overview.html">Overview</a></li>
+                <li><a href="/semiconductor/minisite/jp/usbflashdrive/bar.html">BAR</a></li>
+                <li><a href="/semiconductor/minisite/jp/usbflashdrive/fit.html">FIT</a></li>
+                <li><a href="/semiconductor/minisite/jp/usbflashdrive/duo.html">DUO</a></li>
             </ul>
         </div>
     </li>
