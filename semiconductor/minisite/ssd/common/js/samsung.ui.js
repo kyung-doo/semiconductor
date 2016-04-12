@@ -1389,7 +1389,10 @@ var AccordionUI = Class.extend({
     build_event : function() {
         var owner = this;
 
-        this._content.off('click').on('click', function(e) {
+        this._content.off('click').on('click', function(e) 
+        {
+            
+            if(!$(this).attr("data-role")) return;
 
             if (!$(this).data('content').hasClass('active')) {
                 setTimeout(function (){$(window).resize();},1);
@@ -6202,6 +6205,18 @@ var SelectionToo = Class.extend({
                var idx = $(this).index();
                owner.addList(list[idx].contsID, list[idx].member);
            });
+        });
+        
+        $(window).resize(function ()
+        {
+            if(_common.is_mode() != 'MOBILE')
+            {
+                $(".selection_step").find(".title").attr("data-role", "");
+            }
+            else
+            {
+                $(".selection_step").find(".title").attr("data-role", "ui-accordion-btn");  
+            }
         });
     },
 
