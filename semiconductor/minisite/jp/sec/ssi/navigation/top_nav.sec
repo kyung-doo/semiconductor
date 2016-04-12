@@ -1,29 +1,29 @@
 <ul class="local-menu" data-role="ui-nav">
     <li class="sub">
-        <a href="#">SSD</a>
+        <a href="javascript:void(0);">SSD</a>
         <div class="submenu-container">
             <ul data-role="ui-nav-sub">
-                <li><a href="#">Overview</a></li>
-                <li><a href="#">V-NAND Technology</a></li>
+                <li><a href="/semiconductor/minisite/jp/ssd/overview.html">Overview</a></li>
+                <li><a href="/semiconductor/minisite/jp/ssd/v-nand-ssd.html">V-NAND Technology</a></li>
                 <li class="sub">
-                    <a href="#">Consumer SSD</a>
+                    <a href="javascript:void(0);">Consumer SSD</a>
                     <div class="flyout">
                         <ul>
-                            <li><a href="#">Overview</a></li>
-                            <li><a href="#">950 PRO</a></li>
-                            <li><a href="#">850 PRO</a></li>
-                            <li><a href="#">850 EVO</a></li>
-                            <li><a href="#">750 EVO</a></li>
+                            <li><a href="/semiconductor/minisite/jp/ssd/consumer/overview.html">Overview</a></li>
+                            <li><a href="/semiconductor/minisite/jp/ssd/consumer/950pro.html">950 PRO</a></li>
+                            <li><a href="/semiconductor/minisite/jp/ssd/consumer/850pro.html">850 PRO</a></li>
+                            <li><a href="/semiconductor/minisite/jp/ssd/consumer/850evo.html">850 EVO</a></li>
+                            <li><a href="/semiconductor/minisite/jp/ssd/consumer/750evo.html">750 EVO</a></li>
                         </ul>
                     </div>
                 </li>
                 <li class="sub">
-                    <a href="#">Enterprise SSD</a>
+                    <a href="javascript:void(0);">Enterprise SSD</a>
                     <div class="flyout ">
                         <ul>
-                            <li><a href="#">Overview</a></li>
-                            <li><a href="#">SM863</a></li>
-                            <li><a href="#">PM863</a></li>
+                            <li><a href="/semiconductor/minisite/jp/ssd/enterprise/overview.html">Overview</a></li>
+                            <li><a href="/semiconductor/minisite/jp/ssd/enterprise/sm863.html">SM863</a></li>
+                            <li><a href="/semiconductor/minisite/jp/ssd/enterprise/pm863.html">PM863</a></li>
                         </ul>
                     </div>
                 </li>
@@ -31,11 +31,11 @@
         </div>
     </li>
     <li class="sub">
-        <a href="#">Portable SSD</a>
+        <a href="javascript:void(0);">Portable SSD</a>
         <div class="submenu-container">
             <ul data-role="ui-nav-sub">
-                <li><a href="#">Overview</a></li>
-                <li><a href="#">T3</a></li>
+                <li><a href="/semiconductor/minisite/jp/portable/overview.html">Overview</a></li>
+                <li><a href="/semiconductor/minisite/jp/portable/t3.html">T3</a></li>
             </ul>
         </div>
     </li>
