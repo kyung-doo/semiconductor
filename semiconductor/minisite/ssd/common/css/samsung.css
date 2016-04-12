@@ -1927,7 +1927,7 @@ table.support-info .img-ox {width:20px;}
 .products-list .banner_title h3 {font-size: 21px;color: #000;padding-left: 20px;padding-bottom: 5px;padding-right: 20px;}
 .products-list .banner_title p{padding:0 20px 15px 20px}
 .products-list .banner_title p.date_txt{margin-top:15px}
-.products-list .banner_title a{padding-left:20px}
+.products-list .banner_title a{padding:10px 20px 10px 20px}
 .products-list .loaded .grid-col4{display:block !important}
 @media (min-width:768px) and (max-width:1023px){
     .products-list .grid-col4{width:33.3333%}
@@ -1940,7 +1940,7 @@ table.support-info .img-ox {width:20px;}
    .products-list .banner_title p{height:65px;padding-bottom:0;padding-left:10px;padding-right:10px}
    .products-list .banner_title p.date_txt{height:auto;margin-top:5px}
    .products-list .banner_title h3{font-size:15px;padding-left:10px;padding-right:10px}
-   .products-list .banner_title a{padding-left:10px}
+   .products-list .banner_title a{padding:5px 10px 5px 10px}
    .products-list .banner_title button{padding:0 10px}
    .products-list .grid-col4:nth-child(3){display:none}
    .products-list .grid-col4:nth-child(4){display:none}
