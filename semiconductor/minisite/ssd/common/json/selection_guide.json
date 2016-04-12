@@ -192,7 +192,7 @@
             "member" : [
                 {
                    "contsID": "0201",
-                   "contsTitle": "USB 3.0",
+                   "contsTitle": "USB 3.1",
                    "member" : [
                        {
                          "contsID": "020101",
@@ -200,8 +200,8 @@
                          "member" : [
                              {
                                  "contsID": "02010101",
-                                 "contsTitle": "T1 250 GB",
-                                 "contsLink" : "/semiconductor/minisite/ssd/product/portable/t1.html"
+                                 "contsTitle": "T3 250 GB",
+                                 "contsLink" : "/semiconductor/minisite/ssd/product/portable/t3.html"
                              }
                          ]  
                        },
@@ -211,55 +211,22 @@
                          "member" : [
                              {
                                  "contsID": "02010201",
-                                 "contsTitle": "T1 500 GB",
-                                 "contsLink" : "/semiconductor/minisite/ssd/product/portable/t1.html"
-                             },
-                             {
-                                 "contsID": "02010202",
-                                 "contsTitle": "T1 1 TB",
-                                 "contsLink" : "/semiconductor/minisite/ssd/product/portable/t1.html"
-                             }
-                         ]  
-                       }
-                   ]     
-                },
-                {
-                   "contsID": "0202",
-                   "contsTitle": "USB 3.1",
-                   "member" : [
-                       {
-                         "contsID": "020201",
-                         "contsTitle": "120 GB ~ 256 GB",
-                         "member" : [
-                             {
-                                 "contsID": "02020101",
-                                 "contsTitle": "T3 250 GB",
-                                 "contsLink" : "/semiconductor/minisite/ssd/product/portable/t3.html"
-                             }
-                         ]  
-                       },
-                       {
-                         "contsID": "020202",
-                         "contsTitle": "480 GB ~ 1 TB",
-                         "member" : [
-                             {
-                                 "contsID": "02020201",
                                  "contsTitle": "T3 500 GB",
                                  "contsLink" : "/semiconductor/minisite/ssd/product/portable/t3.html"
                              },
                              {
-                                 "contsID": "02020202",
+                                 "contsID": "02010202",
                                  "contsTitle": "T3 1 TB",
                                  "contsLink" : "/semiconductor/minisite/ssd/product/portable/t3.html"
                              }
                          ]  
                        },
                        {
-                         "contsID": "020203",
+                         "contsID": "020103",
                          "contsTitle": "1.92 TB ~ 4 TB",
                          "member" : [
                              {
-                                 "contsID": "02020301",
+                                 "contsID": "02010301",
                                  "contsTitle": "T3 2 TB",
                                  "contsLink" : "/semiconductor/minisite/ssd/product/portable/t3.html"
                              }
