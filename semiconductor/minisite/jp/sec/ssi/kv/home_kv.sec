@@ -51,7 +51,7 @@
                     <!-- video(brightcove player) -->
                     <li>
                         <div class="screen movie">
-                        <img alt="UNRIVALED PERFORMANCE FOR ENTERPRISE" data-media-mobile="/global/business/semiconductor/minisite/SSD/global/common/img/@temp/00_home_KV_03_mob.jpg" data-media-desktop="/global/business/semiconductor/minisite/SSD/global/common/img/@temp/00_home_KV_03.jpg" class="kv_desktop">
+                            <img alt="AT THE CORE OF YOUR REVOLUTIONARY DEVICE" data-media-mobile="/semiconductor/minisite/jp/common/img/index/00_home_KV_01_mob.jpg" data-media-desktop="/semiconductor/minisite/jp/common/img/index/00_home_KV_02.jpg" class="kv_desktop">
                             <div>
                                 <div class="focus-msg "> <!-- 키비쥬얼 폰트  black_style 로 검은색으로 변경 기본은 흰색 -->
                                     <h1 class="tit"><em>Portable SSD T3</em>Transfer faster  Store Safer</h1>
@@ -96,11 +96,6 @@
                     <li>
                         <button type="button"><span class="blind">slide 3</span></button>
                     </li>
-                    <!--
-                    <li>
-                        <button type="button"><span class="blind">slide 4</span></button>
-                    </li>
-                    -->
                 </ul>
             </div>
         </div>

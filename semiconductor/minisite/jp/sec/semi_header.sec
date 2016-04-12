@@ -30,8 +30,8 @@
                 <!-- //GNB -->
                 <!-- top utility -->
                 <ul class="direct">
-                    <li><a href="/uk" class="btn link outlink" target="_blank" title="New window" onclick="sendClickCode('gnb','b2b_utility menu:consumer section');">SAMSUNG OFFICIAL SITE</a></li>
-                    <li><a href="https://partnerportal.samsung.com/portal/app/main?redirectYN=Y&amp;targetSite=GB&amp;targetNation=GB" class="btn link outlink" target="_blank" title="New window" onclick="sendClickCode('gnb','b2b_utility menu:partner portal');">SAMSUNG SSD FACE BOOK</a></li>
+                    <li><a href="http://www.samsung.com/jp/home/" class="btn link outlink" target="_blank" title="New window" onclick="sendClickCode('gnb','b2b_utility menu:consumer section');">SAMSUNG OFFICIAL SITE</a></li>
+                    <li><a href="https://www.facebook.com/SamsungSSD/" class="btn link outlink" target="_blank" title="New window" onclick="sendClickCode('gnb','b2b_utility menu:partner portal');">SAMSUNG SSD FACE BOOK</a></li>
                     <li><a href="" class="btn link outlink" target="_blank" title="New window" onclick="sendClickCode('gnb','b2b_utility menu:partner portal');">SAMSUNG Memory card FACE BOOK</a></li>
                 </ul>
                 <!-- //top utility -->

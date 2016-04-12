@@ -24,7 +24,7 @@ input[placeholder],input[type=text]:-moz-placeholder,input[type=text]::-moz-plac
 @font-face { font-family: 'samsungIcon'; src: url("/semiconductor/minisite/ssd/common/font/samsungIcon.eot"); src: url("/semiconductor/minisite/ssd/common/font/samsungIcon.eot?#iefix") format("embedded-opentype"), url("/semiconductor/minisite/ssd/common/font/samsungIcon.woff") format("woff"), url("/semiconductor/minisite/ssd/common/font/samsungIcon.ttf") format("truetype"), url("/semiconductor/minisite/ssd/common/font/samsungIcon.svg#samsungIcon") format("svg"); font-weight: normal; font-style: normal;}
 html{font-size:16px; line-height:1.365}
 h1,div.solution-visual-area div.inarea h1,.key-visual .screen .focus-msg h1,.sec-title {font-size:32px; font-family: 'SamsungIFBlk'; line-height: 100%;}
-.pop-tit {font-size:32px !important;}
+.pop-tit {font-size:28px;}
 h2,     .tab-content .module .fluid-txt .tit,     .module .tit,     .grid-outer .tit,     .tab-theme .tab-tit {font-size:28px}
 h3,     .module .fluid-txt .tit,     .grid-outer .fluid-txt .tit,     .article-thumb2 .grid-col2 .tit,     .article-thumb2 .grid-col3 .tit,     .article-txt3 .grid-col2 .tit /* small h2 */ {font-size:24px}
 h4,     ul.sortby-list li a,     a.btn-filterby span,     a.btn-advanced span,     .list-thumb .fluid-txt .tit,     .tab-theme .tab-sub,     .key-visual .screen .focus-msg h1 em,     .grid-outer .cat {font-size:18px}
@@ -793,6 +793,25 @@ div.top-visual-area.short-type {min-height:150px; height:auto;}
 .legacy-ie .key-visual .screen>div{margin:0 auto;max-width:1366px;height:100%;position:relative}
 .legacy-ie .key-visual .ctl-carousel .prev {margin-left:0}
 /*layer popup (common)*/
+
+/* EBC STEP COMPLETE POPUP */
+.pop-tit {font-family: 'SamsungIFBlk','メイリオ'; text-align:center; text-transform:uppercase; font-weight: 600;}
+.pop-wrap {margin: 0 auto;background: none; width: 750px;}
+.pop-wrap .des {margin-top:10px; padding:25px 0 5px; border-top:1px solid #f1f1f1; font-size:14px;}
+.pop-wrap .des .gray_box{background-color: #f1f1f1; padding: 25px 30px; margin-bottom: 35px;}
+.pop-wrap .des .gray_box h3{text-align: center;}
+.pop-wrap .des h3{font-weight: 600; font-size: 16px; margin-bottom: 15px;}
+.pop-wrap .des .conbox ul li{margin-bottom: 20px;}
+.pop-wrap .des .conbox p{margin-bottom: 20px;}
+@media (max-width:767px) {
+    .pop-wrap{width:100%;}
+
+    .pop-wrap .des .gray_box{padding: 15px 10px;}
+}
+
+
+
+
 .ui-layer-content a.btn-close{display:block; position:absolute; padding:10px; top:10px; right:10px; font-size:27px; z-index:1}
 .ui-layer-content a.btn-close:after {font-family:'samsungIcon'; content:"\33"; font-size:30px;}
 .ui-layer-content a.btn-close:active {background:none}
