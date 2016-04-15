@@ -3,3 +3,6 @@ div.featurebox .info-txt .title{font-family:"SamsungIFBd", Arial, 'メイリオ'
 .module>.sec-title{font-weight:bold}
 .specifi-list .specifi > h4{font-weight:bold}
 .show-more-spec .info.info2 li{margin-left:25px;text-indent:-25px}
+.key-visual .screen .focus-msg ul{margin-top:10px}
+.key-visual .screen .focus-msg ul li{width:auto;position:relative;left:0;font-size:21px;padding-left:8px;margin-top:7px}
+.key-visual .screen .focus-msg ul li:before{content:"";position:absolute;top:9px;left:0;width:2px;height:2px;background-color:#fff}
