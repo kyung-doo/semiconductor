@@ -1,0 +1,166 @@
+<?php include($_SERVER['DOCUMENT_ROOT'].'/semiconductor/minisite/jp/sec/ssi/header/dochead_html5.sec')?>
+
+<!-- 페이지별 css link,js -->
+<script src="/semiconductor/minisite/ssd/common/js/page/home.js"></script>
+<!-- //페이지별 css link,js -->
+
+
+<title>Samsung SSD</title>        <!-- unique한 페이지 title -->
+<meta name="description"     content=""/>
+<meta name="keywords"        content="Samsung,flash,storage"/>
+
+<?php include($_SERVER['DOCUMENT_ROOT'].'/semiconductor/minisite/jp/sec/semi_header.sec')?>
+
+<!-- contents wrapper -->
+<div class="content-wrap">
+    <div id="content">
+        <span class="blind">Content</span>
+    </div>
+    <!-- content -->
+
+    <!-- key visual -->
+    <div class="key-visual" data-role="ui-flick" data-autoplay="Y">
+        <div data-role="ui-flick-container">
+            <ul class="item4"  data-role="ui-flick-content">        <!-- class:"item"+slide item sum -->
+                <li>
+                    <div class="screen movie">
+                        <img alt="Download" data-media-mobile="/semiconductor/minisite/ssd/common/img/kv/kv_selection_guide_767.jpg" data-media-desktop="/semiconductor/minisite/ssd/common/img/kv/kv_selection_guide_1920.jpg" class="kv_desktop" src="/semiconductor/minisite/ssd/common/img/kv/kv_selection_guide_1920.jpg" />
+                        <div>
+                            <div class="focus-msg">
+                                <h1 class="tit">
+                                   <em>SELECTION GUIDE</em>
+                                   Choosing the right SSD
+                                   for you
+                                </h1>
+                            </div>
+                        </div>
+                        <span class="act2"></span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- //key visual -->
+
+    <!-- selection_wrap -->
+    <div class="module">
+        <!-- fixed jump menu -->
+        <h2 class="single_title pdp lone" data-role="ui-jump"><span>Selection Guide</span></h2>
+        <!-- //fixed jump menu -->
+
+        <div data-role="ui-jump-target">
+            <div class="grid-row">
+                <div class="col-inner box" data-role="selection-tool">
+                    <div class="selection_wrap" data-role="s_height pc tablet_b tablet_a">
+                        <div data-role="ui-accordion">
+                            <!-- selection_step -->
+                            <div class="selection_step step1">
+                                <div class="selection_inner">
+                                    <h4 class="title s_height_inner" data-role="ui-accordion-btn">STEP1. <span>USAGE</span></h4>
+                                    <div class="selection_box on">
+                                        <ul id="selection_step1" data-role="ui-accordion-content">
+
+                                        </ul>
+                                        <script id="tmpl-selection_step1" type="text/x-jquery-tmpl">
+                                            {{each(i) selectionList}}
+                                                <li data-id="${contsID}"><a href="javascript:void(0);"><span>${contsTitle}</span></a></li>
+                                            {{/each}}
+                                        </script>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- //selection_step -->
+
+                            <!-- selection_step -->
+                            <div class="selection_step step2">
+                                <div class="selection_inner">
+                                    <h4 class="title s_height_inner" data-role="ui-accordion-btn">STEP2. <span>FORM FACTOR & INTERFACE</span></h4>
+                                    <div class="selection_box">
+                                        <ul id="selection_step2" data-role="ui-accordion-content">
+
+                                        </ul>
+                                        <script id="tmpl-selection_step2" type="text/x-jquery-tmpl">
+                                            {{each(i) selectionList}}
+                                                <li data-id="${contsID}"><a href="javascript:void(0);"><span>${contsTitle}</span></a></li>
+                                            {{/each}}
+                                        </script>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- //selection_step -->
+
+                            <!-- selection_step -->
+                            <div class="selection_step step3">
+                                <div class="selection_inner">
+                                    <h4 class="title s_height_inner" data-role="ui-accordion-btn">STEP3. <span>CAPACITY</span></h4>
+                                    <div class="selection_box">
+                                        <ul id="selection_step3" data-role="ui-accordion-content">
+
+                                        </ul>
+                                        <script id="tmpl-selection_step3" type="text/x-jquery-tmpl">
+                                            {{each(i) selectionList}}
+                                                <li data-id="${contsID}"><a href="javascript:void(0);"><span>${contsTitle}</span></a></li>
+                                            {{/each}}
+                                        </script>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- //selection_step -->
+
+                            <!-- selection_step -->
+                            <div class="selection_step step4">
+                                <div class="selection_inner">
+                                    <h4 class="title s_height_inner" data-role="ui-accordion-btn">RECOMMENDATION</h4>
+                                    <div class="selection_box">
+                                        <ul id="selection_step4" data-role="ui-accordion-content">
+
+                                        </ul>
+                                        <script id="tmpl-selection_step4" type="text/x-jquery-tmpl">
+                                            {{each(i) selectionList}}
+                                                <li data-id="${contsID}"><a href="javascript:void(0);"><span>${contsTitle}</span></a></li>
+                                            {{/each}}
+                                        </script>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- //selection_step -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- //selection_wrap -->
+
+    <!--BOTTOM BANNER-->
+    <div class="module">
+        <div class="grid-row bottom_banner" data-role="s_height pc tablet_b tablet_a" >
+            <div class="grid-col2">
+                <div class="col-inner">
+                    <img src="/semiconductor/minisite/ssd/common/img/index/@_bottom_banner_01.jpg" alt="The New External Storage T3">
+                    <div class="banner_title">
+                        <h3 class="s_height_inner">The New External Storage T3</h3>
+                        <button type="button" class="btn-type2 link">Learn more</button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="grid-col2">
+                <div class="col-inner">
+                    <img src="/semiconductor/minisite/ssd/common/img/index/@_bottom_banner_02.jpg" alt="Experience a next-generation SSD today 950 PRO">
+                    <div class="banner_title">
+                        <h3 class="s_height_inner">Experience a next-generation SSD today 950 PRO</h3>
+                        <button type="button" class="btn-type2 link">Learn more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--//BOTTOM BANNER-->
+
+
+</div>
+<!-- //contents wrapper -->
+<?php include($_SERVER['DOCUMENT_ROOT'].'/semiconductor/minisite/jp/sec/semi_footer.sec')?>
