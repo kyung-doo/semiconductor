@@ -51,7 +51,7 @@
                         <h3 class="tit-accordion"><span>MEMORY CARD</span></h3>
                         <button type="button" class="ctl-accordion closed" data-role="ui-accordion-btn"><span class="blind">MEMORY CARD layer open</span></button>
                         <ul data-role="ui-accordion-content">
-                            <li><a href="#">Overview</a></li>
+                            <li><a href="/semiconductor/minisite/jp/memorycard/overview.html">Overview</a></li>
                             <li>
                                 <a href="#">microSD</a>
                                 <div>
