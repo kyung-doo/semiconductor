@@ -610,7 +610,8 @@ function init_selection_Tool()
 {
     $("*[data-role='selection-tool']").each(function ()
     {
-        var selectionTool = new SelectionToo( $(this) );
+        var url = $(this).attr("data-url");
+        var selectionTool = new SelectionToo( $(this), url );
     });
 
 }

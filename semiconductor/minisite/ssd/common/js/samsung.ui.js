@@ -6149,9 +6149,9 @@ var SelectionToo = Class.extend({
      *
      *
      */
-    init : function(scope) {
+    init : function(scope, url) {
         this._scope = scope;
-        this._dataUrl = "/semiconductor/minisite/ssd/common/json/selection_guide.json";
+        this._dataUrl = url;
         this._jsonData;
         this.reinit();
     },
