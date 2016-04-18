@@ -1,0 +1,132 @@
+<?php include($_SERVER['DOCUMENT_ROOT'].'/semiconductor/minisite/jp/sec/ssi/header/dochead_html5.sec')?>
+<!--#include virtual="/semiconductor/minisite/jp/sec/ssi/header/dochead_html5.sec"-->
+
+<!-- 페이지별 css link,js -->
+<script src="/semiconductor/minisite/ssd/common/js/page/home.js"></script>
+<!-- //페이지별 css link,js -->
+<script type="text/javascript">
+$(function ()
+{
+    $(window).resize(function ( e )
+    {
+        $(".v-line").css({height:$(".v-line").parent().height()-35});
+    });
+});
+
+</script>
+<title>Samsung Semiconductor</title>        <!-- unique한 페이지 title -->
+
+<?php include($_SERVER['DOCUMENT_ROOT'].'/semiconductor/minisite/jp/sec/semi_header.sec')?>
+<!--#include virtual="/semiconductor/minisite/jp/sec/semi_header.sec"-->
+
+<!-- contents wrapper -->
+<div class="content-wrap">
+    <div id="content">
+        <span class="blind">Content</span>
+    </div>
+    <!-- content -->
+
+    <!-- key visual -->
+    <div class="key-visual" data-role="ui-flick" data-autoplay="Y">
+        <div data-role="ui-flick-container">
+            <ul class="item4"  data-role="ui-flick-content">
+                <!-- class:"item"+slide item sum -->
+                <li>
+                    <div class="screen movie">
+                        <img alt="かけがえのない瞬間を、高性能でスタイリッシュな カードへ記録する" data-media-mobile="/semiconductor/minisite/jp/common/img/kv/kv_microsd_proplus_767.jpg" data-media-desktop="/semiconductor/minisite/jp/common/img/kv/kv_microsd_proplus_1920.jpg" class="kv_desktop" src="/semiconductor/minisite/jp/common/img/kv/kv_microsd_proplus_1920.jpg" />
+                        <div>
+                            <div class="focus-msg">
+                                <h1 class="tit">
+                                    <em>SD Card PRO Plus</em>
+                                    かけがえのない瞬間を、
+                                    高性能でスタイリッシュな
+                                    カードへ記録する
+                                </h1>
+                            </div>
+                        </div>
+                        <span class="act2"></span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- //key visual -->
+
+
+    <div class="module sec-board-box">
+
+        <!-- fixed jump menu -->
+        <div class="floating-jumpmenu pdp lone" data-role="ui-jump">
+            <p class="product-title"><span>PRO Plus</span></p>
+            <button type="button" data-role="ui-tab-jump-btn">Overview</button><!-- 첫번째 section의 title -->
+            <!--
+            <span class="btn-jump-wrap">
+                <a href="javascript:;" class="btn-jump quote" data-role="ui-btn-quote"><span class="blind-txt">Contact us</span></a>
+            </span>
+            -->
+            <div class="second-jump" data-role="ui-jump-container"> <!-- 140904 class="second-jump" 추가 -->
+                <ul data-role="ui-jump-menu">
+                    <li><a href="javascript:void(0);" data-role="ui-tab-jump-menu" class="on" data-eng-title="Overview"><span>概要</span></a></li>
+                    <li><a href="javascript:void(0);" data-role="ui-tab-jump-menu" data-eng-title="Download Files" data-hash="Download Files"><span>ダウンロード</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- //fixed jump menu -->
+
+        <!-- overview -->
+        <div data-role="ui-jump-target">
+           <div class="module">
+
+
+
+            </div>
+        </div>
+        <!-- //overview -->
+
+        <!-- Download files -->
+        <div data-role="ui-jump-target">
+            <div class="module" style="padding:0">
+                <h2 class="sec-title">ダウンロード</h2>
+                <!-- download-file-list -->
+                <div class="download-file-list">
+                    <div class="grid-row">
+                        <!-- item -->
+                        <div class="grid-col2">
+                            <div class="col-inner download-file">
+                                <p>
+                                    <span>T3 Brochure</span>
+                                    <a class="btn down" href="/semiconductor/minisite/ssd/downloads/document/T3_Brochure_Final.pdf"></a>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- //item -->
+                        <!-- item -->
+                        <div class="grid-col2">
+                            <div class="col-inner download-file down2">
+                                 <p>
+                                    <span>User Manual</span>
+                                    <a class="btn down" href="/semiconductor/minisite/ssd/downloads/document/Portable_SSD_T3_Manual_Full_Description_English.pdf"></a>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- //item -->
+                        <span class="v-line"></span>
+                    </div>
+
+                </div>
+                <!-- //download-file-list -->
+
+                <div class="wrapper-act">
+                    <a href="/semiconductor/about-us/executive-bio/index.html" class="btn link" target="_blank">Find more download files</a>
+                </div>
+        </div>
+        <!-- //Download files -->
+
+
+
+    </div>
+    <!-- //content -->
+</div>
+<!-- //contents wrapper -->
+<?php include($_SERVER['DOCUMENT_ROOT'].'/semiconductor/minisite/jp/sec/semi_footer.sec')?>
+<!--#include virtual="/semiconductor/minisite/jp/sec/semi_footer.sec"-->
