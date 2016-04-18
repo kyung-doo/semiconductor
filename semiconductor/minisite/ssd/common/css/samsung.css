@@ -2005,7 +2005,7 @@ table.support-info .img-ox {width:20px;}
 
 @media (max-width:767px){
    .product-visual .title{font-size:29px;width:300px !important}
-   .product-visual .txt{font-size:15px;width:300px !important}
+   .product-visual .txt{font-size:15px;width:300px !important;margin-top:10px}
    .product-visual .txt em{font-size:13px}
    .product-visual{padding-top:70px}
    .product-visual:first-child{padding-top:35px}
