@@ -9,14 +9,16 @@
 <script type="text/javascript">
     $(function ()
     {
-       loadReviewAwards("/semiconductor/minisite/ssd/common/json/awards_portable.json"); 
+       loadReviewAwards("/semiconductor/minisite/ssd/common/json/awards_portable.json");
     });
 
 </script>
 
 
 
-<title>Samsung Semiconductor</title>        <!-- unique한 페이지 title -->
+<title>Samsung SSD</title>        <!-- unique한 페이지 title -->
+<meta name="description"     content=""/>
+<meta name="keywords"        content="Samsung,flash,storage"/>
 
 <?php include($_SERVER['DOCUMENT_ROOT'].'/semiconductor/minisite/ssd/sec/semi_header.sec')?>
 <!--#include virtual="/semiconductor/common/html/sec/semi_header.sec"-->
@@ -233,14 +235,14 @@
             </div>
         </div>
         <!-- //video -->
-        
+
         <!-- review & awards -->
         <div data-role="ui-jump-target" class="module feature-module">
             <div class="module">
                 <h2 class="sec-title">Review &amp Awards</h2>
                 <div class="products-list">
                     <div class="grid-row review" data-role="s_height pc tablet_b tablet_a mobile" id="data-tmpl-awards">
-                        
+
                     </div>
                     <script id="tmpl-awards-inner" type="text/x-jquery-tmpl">
                         {{each(i) reviewsAwardsList}}

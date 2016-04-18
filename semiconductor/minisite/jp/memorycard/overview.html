@@ -8,12 +8,14 @@
 <script type="text/javascript">
     $(function ()
     {
-       loadReviewAwards("/semiconductor/minisite/jp/common/json/awards_memory_card.json"); 
+       loadReviewAwards("/semiconductor/minisite/jp/common/json/awards_memory_card.json");
     });
 
 </script>
 
-<title>Samsung Semiconductor</title>        <!-- unique한 페이지 title -->
+<title>Samsung SSD</title>        <!-- unique한 페이지 title -->
+<meta name="description"     content=""/>
+<meta name="keywords"        content="サムスン,フラッシュ,ストレージ"/>
 
 <?php include($_SERVER['DOCUMENT_ROOT'].'/semiconductor/minisite/jp/sec/semi_header.sec')?>
 <!--#include virtual="/semiconductor/minisite/jp/sec/semi_header.sec"-->
@@ -194,7 +196,7 @@
             </div>
         </div>
         <!-- //Products -->
-        
+
         <!-- dataTable -->
         <div data-role="ui-jump-target" class="module feature-module">
             <div class="module">
@@ -209,13 +211,13 @@
                                         <col style="width:15%">
                                         <col style="width:18%">
                                         <col style="width:18%">
-                                        <col style="width:18%">		
+                                        <col style="width:18%">
                                     </colgroup>
                                     <thead>
                                         <tr>
                                             <th></th>
                                             <th colspan="2">PRO Plus</th>
-                                            <th colspan="2">EVO Plus</th>			
+                                            <th colspan="2">EVO Plus</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -249,7 +251,7 @@
                                             <td class="t">パフォーマンス*3</td>
                                             <td colspan="2"><p>読み出し速度:  最大95MB/s<br />書き込み速度:  最大90MB/s</p></td>
                                             <td colspan="2"><p>読み出し速度: 最大80MB/s<br />書き込み速度:  最大20MB/s</p></td>
-                                        </tr>	
+                                        </tr>
                                         <tr>
                                             <td class="t">寸法</td>
                                             <td>15x11x1mm</td>
@@ -275,7 +277,7 @@
                                         <tr>
                                             <td class="t">湿度</td>
                                             <td colspan="4">40°C、93%、500時間(保管時)</td>
-                                        </tr>		
+                                        </tr>
                                         <tr>
                                             <td class="t">耐久性</td>
                                             <td colspan="4">挿抜回数:10,000回</td>
@@ -291,7 +293,7 @@
                                     </tbody>
                                 </table>
                             </div>
-                            
+
                             <div class="info">
                                 <ul>
                                 <li>
@@ -361,7 +363,7 @@
                 <h2 class="sec-title">レビューと受賞歴</h2>
                 <div class="products-list">
                     <div class="grid-row review" data-role="s_height pc tablet_b tablet_a mobile" id="data-tmpl-awards">
-                        
+
                     </div>
                     <script id="tmpl-awards-inner" type="text/x-jquery-tmpl">
                         {{each(i) reviewsAwardsList}}
