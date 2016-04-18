@@ -9,17 +9,17 @@
                         <h3 class="tit-accordion"><span>SSD</span></h3>
                         <button type="button" class="ctl-accordion closed" data-role="ui-accordion-btn"><span class="blind">SSD layer open</span></button>
                         <ul data-role="ui-accordion-content">
-                            <li><a href="#">Overview</a></li>
-                            <li><a href="#">V-NAND Technology</a></li>
+                            <li><a href="/semiconductor/minisite/jp/ssd/overview.html">Overview</a></li>
+                            <li><a href="/semiconductor/minisite/jp/ssd/v-nand-ssd.html">V-NAND Technology</a></li>
                             <li>
                                 <a href="#">Consumer SSD</a>
                                 <div class="flyout">
                                     <ul>
-                                        <li><a href="#">Overview</a></li>
-                                        <li><a href="#">950 PRO</a></li>
-                                        <li><a href="#">850 PRO</a></li>
-                                        <li><a href="#">850 EVO</a></li>
-                                        <li><a href="#">750 EVO</a></li>
+                                        <li><a href="/semiconductor/minisite/jp/ssd/consumer/overview.html">Overview</a></li>
+                                        <li><a href="/semiconductor/minisite/jp/ssd/consumer/950pro.html">950 PRO</a></li>
+                                        <li><a href="/semiconductor/minisite/jp/ssd/consumer/850pro.html">850 PRO</a></li>
+                                        <li><a href="/semiconductor/minisite/jp/ssd/consumer/850evo.html">850 EVO</a></li>
+                                        <li><a href="/semiconductor/minisite/jp/ssd/consumer/750evo.html">750 EVO</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -27,9 +27,9 @@
                                 <a href="#">Enterprise SSD</a>
                                 <div class="flyout ">
                                     <ul>
-                                        <li><a href="#">Overview</a></li>
-                                        <li><a href="#">SM863</a></li>
-                                        <li><a href="#">PM863</a></li>
+                                        <li><a href="/semiconductor/minisite/jp/ssd/enterprise/overview.html">Overview</a></li>
+                                        <li><a href="/semiconductor/minisite/jp/ssd/enterprise/sm863.html">SM863</a></li>
+                                        <li><a href="/semiconductor/minisite/jp/ssd/enterprise/pm863.html">PM863</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -41,8 +41,8 @@
                         <h3 class="tit-accordion"><span>Portable SSD</span></h3>
                         <button type="button" class="ctl-accordion closed" data-role="ui-accordion-btn"><span class="blind">Portable SSD layer open</span></button>
                         <ul data-role="ui-accordion-content">
-                            <li><a href="#">Overview</a></li>
-                            <li><a href="#">T3</a></li>
+                            <li><a href="/semiconductor/minisite/jp/portable/overview.html">Overview</a></li>
+                            <li><a href="/semiconductor/minisite/jp/portable/t3.html">T3</a></li>
                         </ul>
                     </div>
                 </div>
@@ -56,8 +56,8 @@
                                 <a href="#">microSD</a>
                                 <div>
                                     <ul>
-                                        <li><a href="#">PRO Plus</a></li>
-                                        <li><a href="#">EVO Plus</a></li>
+                                        <li><a href="/semiconductor/minisite/jp/memorycard/microsd/proplus.html">PRO Plus</a></li>
+                                        <li><a href="/semiconductor/minisite/jp/memorycard/microsd/evoplus.html">EVO Plus</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -65,8 +65,8 @@
                                 <a href="#">SD Card</a>
                                 <div>
                                     <ul>
-                                        <li><a href="#">PRO Plus</a></li>
-                                        <li><a href="#">EVO Plus</a></li>
+                                        <li><a href="/semiconductor/minisite/jp/memorycard/sdcard/proplus.html">PRO Plus</a></li>
+                                        <li><a href="/semiconductor/minisite/jp/memorycard/sdcard/proplus.html">EVO Plus</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -78,10 +78,10 @@
                         <h3 class="tit-accordion"><span>USB FLASH DRIVE</span></h3>
                         <button type="button" class="ctl-accordion closed" data-role="ui-accordion-btn"><span class="blind">USB FLASH DRIVE layer open</span></button>
                         <ul data-role="ui-accordion-content">
-                            <li><a href="#">Overview</a></li>
-                            <li><a href="#">BAR</a></li>
-                            <li><a href="#">FIT</a></li>
-                            <li><a href="#">DUO</a></li>
+                            <li><a href="/semiconductor/minisite/jp/usbflashdrive/overview.html">Overview</a></li>
+                            <li><a href="/semiconductor/minisite/jp/usbflashdrive/bar.html">BAR</a></li>
+                            <li><a href="/semiconductor/minisite/jp/usbflashdrive/fit.html">FIT</a></li>
+                            <li><a href="/semiconductor/minisite/jp/usbflashdrive/duo.html">DUO</a></li>
                         </ul>
                     </div>
                 </div>
@@ -109,7 +109,7 @@
                                     </ul>
                                 </div>
                             </li>
-                            <li><a href="#">SSD Selection Guide</a></li>
+                            <li><a href="/semiconductor/minisite/jp/support/selection-guide.html">SSD Selection Guide</a></li>
                             <li><a href="/semiconductor/minisite/jp/support/faqs.html">FAQs</a></li>
                             <li><a href="/semiconductor/minisite/jp/support/contact.html">Contact Us</a></li>
                         </ul>
