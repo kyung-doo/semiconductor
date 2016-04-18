@@ -2402,16 +2402,16 @@ ul.tab.type5 li a {display:block; padding:9px 5px; vertical-align:middle; box-si
 .notice_holiday .img{ position: absolute; left: 30px; top: 37px;}
 .notice_holiday dt{font-size: 26px; margin-bottom: 10px;}
 .notice_holiday dd{line-height: 24px;}
-.contact_info dl{width: 50%; padding-top: 35px;}
-.contact_info dl:first-child{float: left;}
-.contact_info dl:last-child{float: right;}
-.contact_info dl dt{font-size: 21px; font-weight: 600; margin-bottom: 20px;}
-.contact_info dl dd{margin-bottom:8px; line-height: 24px; padding-left:8px; position:relative;}
-.contact_info dl dd:before{content:"·"; display: inline-block; position: absolute; line-height: 24px; left: 0; top: 0;}
-.contact_info dl dd a{font-size: 16px;}
+.buy_contents .contact_info dl{width: 50%; padding-top: 35px;}
+.buy_contents .contact_info dl:first-child{float: left;}
+.buy_contents .contact_info dl:last-child{float: right;}
+.buy_contents .contact_info dl dt{font-size: 21px; font-weight: 600; margin-bottom: 20px;}
+.buy_contents .contact_info dl dd{margin-bottom:8px; line-height: 24px; padding-left:8px; position:relative;}
+.buy_contents .contact_info dl dd:before{content:"·"; display: inline-block; position: absolute; line-height: 24px; left: 0; top: 0;}
+.buy_contents .contact_info dl dd a{font-size: 16px;}
 
 @media (min-width:768px) and (max-width:1023px) {
-    .contact_info dl{width:100%; float: none;}
+    .buy_contents .contact_info dl{width:100%; float: none;}
 }
 @media (max-width:767px) {
     .notice_holiday{padding: 15px; padding-top: 20px;}
@@ -2419,8 +2419,8 @@ ul.tab.type5 li a {display:block; padding:9px 5px; vertical-align:middle; box-si
     .notice_holiday .img img{ width:60px ;}
     .notice_holiday dt{font-size:19px; margin-bottom: 10px;}
     .notice_holiday dd{line-height: 24px; font-size: 14px;}
-    .contact_info dl{width:100%; float: none; padding-top: 20px;}
-    .contact_info dl dt{font-size: 15px; font-weight: 600; margin-bottom:10px;}
-    .contact_info dl dd{font-size: 14px; margin-bottom:8px; line-height: 24px; padding-left:8px; position:relative;}
-    .contact_info dl dd a{font-size: 14px; margin-top:0px;}
+    .buy_contents .contact_info dl{width:100%; float: none; padding-top: 20px;}
+    .buy_contents .contact_info dl dt{font-size: 15px; font-weight: 600; margin-bottom:10px;}
+    .buy_contents .contact_info dl dd{font-size: 14px; margin-bottom:8px; line-height: 24px; padding-left:8px; position:relative;}
+    .buy_contents .contact_info dl dd a{font-size: 14px; margin-top:0px;}
 }
