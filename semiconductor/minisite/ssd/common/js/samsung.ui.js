@@ -1389,9 +1389,9 @@ var AccordionUI = Class.extend({
     build_event : function() {
         var owner = this;
 
-        this._content.off('click').on('click', function(e) 
+        this._content.off('click').on('click', function(e)
         {
-            
+
             if(!$(this).attr("data-role")) return;
 
             if (!$(this).data('content').hasClass('active')) {
@@ -6149,9 +6149,9 @@ var SelectionToo = Class.extend({
      *
      *
      */
-    init : function(scope, url) {
+    init : function(scope) {
         this._scope = scope;
-        this._dataUrl = url;
+        this._dataUrl = scope.attr("data-url");
         this._jsonData;
         this.reinit();
     },
@@ -6206,7 +6206,7 @@ var SelectionToo = Class.extend({
                owner.addList(list[idx].contsID, list[idx].member);
            });
         });
-        
+
         $(window).resize(function ()
         {
             if(_common.is_mode() != 'MOBILE')
@@ -6215,7 +6215,7 @@ var SelectionToo = Class.extend({
             }
             else
             {
-                $(".selection_step").find(".title").attr("data-role", "ui-accordion-btn");  
+                $(".selection_step").find(".title").attr("data-role", "ui-accordion-btn");
             }
         });
     },
@@ -6301,4 +6301,4 @@ var SelectionToo = Class.extend({
 
 });
 
- this._dataUrl = "/semiconductor/minisite/ssd/common/json/selection_guide.json";
+

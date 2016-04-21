@@ -2424,3 +2424,12 @@ ul.tab.type5 li a {display:block; padding:9px 5px; vertical-align:middle; box-si
     .buy_contents .contact_info dl dd{font-size: 14px; margin-bottom:8px; line-height: 24px; padding-left:8px; position:relative;}
     .buy_contents .contact_info dl dd a{font-size: 14px; margin-top:0px;}
 }
+
+
+.feature_selection .recommend ul{ background-color: #fff; min-height: 38px;}
+.feature_selection .recommend ul li{height: 38px; line-height: 38px; padding: 0 7px;}
+
+.feature_selection .recommend ul li span{float: left; display: block;}
+.feature_selection .recommend ul li a{display: block; float: right;}
+
+
