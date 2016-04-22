@@ -624,13 +624,40 @@ function init_feature_selection(){
 
 var featureSelection = Class.extend({
     init : function(scope) {
-//        this._scope = scope;
-//        this._dataUrl = scope.attr("data-url");
-//        this._jsonData;
-//        this.reinit();
-        init_selection_feature();
+        this._scope = scope;
+        this._dataUrl = scope.attr("data-url");
+        this._jsonData;
+        this.init_selection_feature();
+    },
+
+    init_selection_feature : function (){
+
+        var owner = this;
+
+
+
+        $.getJSON(owner._dataUrl, function ( data )
+        {
+            console.log(data.selectionList[1].member.length);
+
+            $(data.selectionList).each(function ()
+            {
+                var member = $(this).find("member");
+                console.log(member);
+            });
+
+        }).fail(function ( e , textStatus, error)
+        {
+
+        });
+
+
     }
-})
+});
+
+
+
+/*
 function init_selection_feature(){
     var $scope = $('div[data-role="feature-selection-tool"]');
     var $selectProduct = $scope.find('select[data-role="ui-select-feature"]');
@@ -648,6 +675,7 @@ function init_selection_feature(){
     var recommend_url02 = ['/semiconductor/minisite/ssd/product/consumer/850pro.html']
     var recommend_url03 = ['/semiconductor/minisite/ssd/product/consumer/850evo.html']
     var recommend_url04 = ['/semiconductor/minisite/ssd/product/consumer/750evo.html']
+
     var recommend_url05 = ['/semiconductor/minisite/ssd/product/portable/t3.html']
     var recommend_url06 = ['/semiconductor/minisite/ssd/product/enterprise/pm863.html','/semiconductor/minisite/ssd/product/enterprise/sm863.html']
     var recommend_url07 = ['']
@@ -753,5 +781,7 @@ function init_selection_feature(){
     });
 
 
+
 }
+*/
 
