@@ -10,7 +10,7 @@
                         <button type="button" class="ctl-accordion closed" data-role="ui-accordion-btn"><span class="blind">SSD layer open</span></button>
                         <ul data-role="ui-accordion-content">
                             <li><a href="/semiconductor/minisite/jp/ssd/overview.html">Overview</a></li>
-                            <li><a href="/semiconductor/minisite/jp/ssd/v-nand-ssd.html">V-NAND Technology</a></li>
+                            <li><a href="/semiconductor/minisite/jp/ssd/v-nand/technology.html">V-NAND Technology</a></li>
                             <li>
                                 <a href="#">Consumer SSD</a>
                                 <div class="flyout">
@@ -65,8 +65,8 @@
                                 <a href="#">SD Card</a>
                                 <div>
                                     <ul>
-                                        <li><a href="/semiconductor/minisite/jp/memorycard/sdcard/proplus.html">PRO Plus</a></li>
-                                        <li><a href="/semiconductor/minisite/jp/memorycard/sdcard/proplus.html">EVO Plus</a></li>
+                                        <li><a href="/semiconductor/minisite/jp/memorycard/sd/proplus.html">PRO Plus</a></li>
+                                        <li><a href="/semiconductor/minisite/jp/memorycard/sd/proplus.html">EVO Plus</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -78,10 +78,10 @@
                         <h3 class="tit-accordion"><span>USB FLASH DRIVE</span></h3>
                         <button type="button" class="ctl-accordion closed" data-role="ui-accordion-btn"><span class="blind">USB FLASH DRIVE layer open</span></button>
                         <ul data-role="ui-accordion-content">
-                            <li><a href="/semiconductor/minisite/jp/usbflashdrive/overview.html">Overview</a></li>
-                            <li><a href="/semiconductor/minisite/jp/usbflashdrive/bar.html">BAR</a></li>
-                            <li><a href="/semiconductor/minisite/jp/usbflashdrive/fit.html">FIT</a></li>
-                            <li><a href="/semiconductor/minisite/jp/usbflashdrive/duo.html">DUO</a></li>
+                            <li><a href="/semiconductor/minisite/jp/ufd/overview.html">Overview</a></li>
+                            <li><a href="/semiconductor/minisite/jp/ufd/bar.html">BAR</a></li>
+                            <li><a href="/semiconductor/minisite/jp/ufd/fit.html">FIT</a></li>
+                            <li><a href="/semiconductor/minisite/jp/ufd/duo.html">DUO</a></li>
                         </ul>
                     </div>
                 </div>
@@ -109,7 +109,7 @@
                                     </ul>
                                 </div>
                             </li>
-                            <li><a href="/semiconductor/minisite/jp/support/selection-guide.html">SSD Selection Guide</a></li>
+                            <li><a href="/semiconductor/minisite/jp/support/selection.html">SSD Selection Guide</a></li>
                             <li><a href="/semiconductor/minisite/jp/support/faqs.html">FAQs</a></li>
                             <li><a href="/semiconductor/minisite/jp/support/contact.html">Contact Us</a></li>
                         </ul>
