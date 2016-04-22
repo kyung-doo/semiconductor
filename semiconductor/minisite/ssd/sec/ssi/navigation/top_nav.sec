@@ -3,7 +3,7 @@
         <a href="#">V-NAND SSD</a>
         <div class="submenu-container">
             <ul data-role="ui-nav-sub">
-                <li><a href="/semiconductor/minisite/ssd/why/v-nand.html">V-NAND SSD Technology</a></li>
+            <li><a href="/semiconductor/minisite/ssd/v-nand/technology.html">V-NAND SSD Technology</a></li>
             </ul>
         </div>
     </li>

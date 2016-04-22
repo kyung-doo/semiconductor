@@ -13,14 +13,8 @@
     <div class="header-wrap">
         <div class="space"></div>
         <div class="header">
-            <div class="logo">
-
-            <a href="/semiconductor/minisite/ssd/">
-            <span class="blind">SAMSUNG SSD</span>
-            <span>V-NAND SSD</span>
-
-            </a>
-            </div>
+            <div class="logo"><a href="/semiconductor/minisite/ssd/"><span class="blind">SAMSUNG SSD</span></a></div>
+            <a href="/semiconductor/minisite/ssd/v-nand/technology.html" class="top_link"><span>V-NAND SSD</span></a>
             <button type="button" class="btn-ico ctl-nav" data-role="ui-nav-btn"><span class="label">Open Menu</span></button>
             <div class="overlay"></div>    <!-- dimed layer -->
             <div class="nav">
@@ -36,7 +30,7 @@
                 <!-- //top utility -->
             </div>
             <div class="util-menu">
-                <button type="button" class="btn-ico call-smartfinder" data-role="ui-btn-show-smartfinder" onClick="location.href='/semiconductor/minisite/ssd/selection/selection-guide.html'"><span class="label">selection guide</span></button>
+                <button type="button" class="btn-ico call-smartfinder" data-role="ui-btn-show-smartfinder" onClick="location.href='/semiconductor/minisite/ssd/util/selection.html'"><span class="label">selection guide</span></button>
             </div>
         </div>
     <div class="history_notification" style="display:none">

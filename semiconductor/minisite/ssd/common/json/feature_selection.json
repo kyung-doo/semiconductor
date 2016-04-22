@@ -1,0 +1,167 @@
+{
+
+    "selectionList": [
+        {
+            "contsID": "01",
+            "contsTitle": "Select most key factor you think"
+        },
+        {
+            "contsID": "02",
+            "contsTitle": "High-end computing with Ultra Speed",
+            "member" : [
+                {
+                    "contsID": "0201",
+                    "contsTitle": "950 PRO",
+                    "contsLink" : "/semiconductor/minisite/ssd/product/consumer/950pro.html"
+                }
+            ]
+        },
+        {
+            "contsID": "03",
+            "contsTitle": "High-end computing with Ultra Endurance",
+            "member" : [
+                {
+                    "contsID": "0301",
+                    "contsTitle": "850 PRO",
+                    "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850pro.html"
+                }
+            ]
+        },
+        {
+            "contsID": "04",
+            "contsTitle": "Every day computing",
+            "member" : [
+                {
+                    "contsID": "0401",
+                    "contsTitle": "850 EVO",
+                    "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850evo.html"
+                }
+            ]
+        },
+        {
+            "contsID": "05",
+            "contsTitle": "Every day computing with Cost Effective",
+            "member" : [
+                {
+                    "contsID": "0501",
+                    "contsTitle": "750 EVO",
+                    "contsLink" : "/semiconductor/minisite/ssd/product/consumer/750evo.html"
+                }
+            ]
+        },
+        {
+            "contsID": "06",
+            "contsTitle": "External storage with mobile connectivity",
+            "member" : [
+                {
+                    "contsID": "0601",
+                    "contsTitle": "T3",
+                    "contsLink" : "/semiconductor/minisite/ssd/product/portable/t3.html"
+                }
+            ]
+        },
+        {
+            "contsID": "07",
+            "contsTitle": "Server performance",
+            "member" : [
+                {
+                    "contsID": "0701",
+                    "contsTitle": "PM863 for mixed intensive",
+                    "contsLink" : "/semiconductor/minisite/ssd/enterprise/pm863.html"
+                },
+                {
+                    "contsID": "0702",
+                    "contsTitle": "SM863 for mixed intensive",
+                    "contsLink" : "/semiconductor/minisite/ssd/enterprise/sm863.html"
+                }
+            ]
+        },
+        {
+            "contsID": "08",
+            "contsTitle": "High capacity over 1TB",
+            "member" : [
+                {
+                    "contsID": "0801",
+                    "contsTitle": "Question 문구"
+                },
+                {
+                    "contsID": "0802",
+                    "contsTitle": "High-end computing with Ultra Endurance",
+                    "member" : [
+                        {
+                            "contsID": "080201",
+                            "contsTitle": "850 PRO - 1TB",
+                            "contsLink" : "/semiconductor/minisite/ssd/product/consumer/950pro.html"
+                        },
+                        {
+                            "contsID": "080202",
+                            "contsTitle": "850 PRO - 2TB",
+                            "contsLink" : "/semiconductor/minisite/ssd/product/consumer/950pro.html"
+                        }
+                    ]
+                },
+                {
+                    "contsID": "0803",
+                    "contsTitle": "Every day computing",
+                    "member" : [
+                        {
+                            "contsID": "080301",
+                            "contsTitle": "850 PRO - 1TB",
+                            "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850pro.html"
+                        },
+                        {
+                            "contsID": "080302",
+                            "contsTitle": "850 PRO - 2TB",
+                            "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850pro.html"
+                        },
+                        {
+                            "contsID": "080303",
+                            "contsTitle": "850 PRO – 4TB/1TB(mSATA)",
+                            "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850pro.html"
+                        }
+                    ]
+                },
+                {
+                    "contsID": "0804",
+                    "contsTitle": "External storage with mobile connectivity",
+                    "member" : [
+                        {
+                            "contsID": "080401",
+                            "contsTitle": "T3 - 1TB",
+                            "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850evo.html"
+                        },
+                        {
+                            "contsID": "080402",
+                            "contsTitle": "T3 - 2TB",
+                            "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850evo.html"
+                        }
+                    ]
+                },
+                {
+                    "contsID": "0805",
+                    "contsTitle": "Server performance",
+                    "member" : [
+                        {
+                            "contsID": "080501",
+                            "contsTitle": "PM863 - 1920 GB",
+                            "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850evo.html"
+                        },
+                        {
+                            "contsID": "080502",
+                            "contsTitle": "PM863 - 3840 GB",
+                            "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850evo.html"
+                        },
+                        {
+                            "contsID": "080503",
+                            "contsTitle": "SM863 - 1920 GB",
+                            "contsLink" : "/semiconductor/minisite/ssd/product/consumer/750evo.html"
+                        }
+                    ]
+                }
+            ]
+        }
+
+
+
+    ]
+}
