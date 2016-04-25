@@ -1959,7 +1959,7 @@ table.support-info .img-ox {width:20px;}
 .product-visual{text-align:center;padding-top:100px;max-width:1310px;margin:0 auto}
 .product-visual .title{font-size:64px;font-family:"samsungifblk";line-height:1em;margin:0 auto;width:1200px}
 .product-visual .txt{font-size:21px;line-height:1.7em;margin:25px auto 0 auto;width:1200px}
-.product-visual .txt em{font-size:14px;display:block;line-height:1.5em;margin-top:5px}
+.product-visual .txt em{font-size:14px;display:block;line-height:1.5em;margin-top:15px; color: #666666;}
 .product-visual .pc_block{display: block;}
 .product-visual .vi{margin-top:40px}
 .product-visual .vi img{width:100%;max-width:100%}
@@ -1980,7 +1980,7 @@ table.support-info .img-ox {width:20px;}
 
 @media (max-width:767px){
    .product-visual .title{font-size:29px;width:300px}
-   .product-visual .txt{font-size:15px;width:300px;margin-top:10px}
+   .product-visual .txt{font-size:15px; margin-top:10px; padding-left: 25px; padding-right: 25px; width: auto;}
    .product-visual .txt em{font-size:13px}
    .product-visual{padding-top:70px}
    .product-visual:first-child{padding-top:35px}
