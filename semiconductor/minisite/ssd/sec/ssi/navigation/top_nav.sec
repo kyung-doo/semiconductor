@@ -12,7 +12,8 @@
         <div class="submenu-container has-flyout">
             <ul data-role="ui-nav-sub">
                 <li class="sub">
-                    <a href="/semiconductor/minisite/ssd/product/consumer/overview.html">Consumer SSD</a>
+                    <a href='#' class='retial-mobile-btn'></a>
+                    <a href="/semiconductor/minisite/ssd/product/consumer/overview.html" class="retail-link">Consumer SSD</a>
                     <div class="flyout">
                         <ul>
                             <li><a href="/semiconductor/minisite/ssd/product/consumer/overview.html">Overview</a></li>
@@ -24,7 +25,8 @@
                     </div>
                 </li>
                 <li class="sub">
-                    <a href="/semiconductor/minisite/ssd/product/portable/overview.html">Portable SSD</a>
+                    <a href='#' class='retial-mobile-btn'></a>
+                    <a href="/semiconductor/minisite/ssd/product/portable/overview.html" class="retail-link">Portable SSD</a>
                     <div class="flyout ">
                         <ul>
                             <li><a href="/semiconductor/minisite/ssd/product/portable/overview.html">Overview</a></li>
@@ -33,7 +35,8 @@
                     </div>
                 </li>
                 <li class="sub">
-                    <a href="/semiconductor/minisite/ssd/product/enterprise/overview.html">Enterprise SSD</a>
+                    <a href='#' class='retial-mobile-btn'></a>
+                    <a href="/semiconductor/minisite/ssd/product/enterprise/overview.html" class="retail-link">Enterprise SSD</a>
                     <div class="flyout ">
                         <ul>
                             <li><a href="/semiconductor/minisite/ssd/product/enterprise/overview.html">Overview</a></li>
@@ -51,7 +54,8 @@
             <ul data-role="ui-nav-sub">
                 <li><a href="/semiconductor/minisite/ssd/download/overview.html">Overview</a></li>
                 <li class="sub">
-                    <a href="#">By Type</a>
+                    <a href='#' class='retial-mobile-btn'></a>
+                    <a href="/semiconductor/minisite/ssd/download/tools.html" class="retail-link">By Type</a>
                     <div class="flyout">
                         <ul>
                             <li><a href="/semiconductor/minisite/ssd/download/tools.html">Tools &amp; Software</a></li>
@@ -60,7 +64,8 @@
                     </div>
                 </li>
                 <li class="sub">
-                    <a href="#">By Product</a>
+                    <a href='#' class='retial-mobile-btn'></a>
+                    <a href="/semiconductor/minisite/ssd/download/consumer.html" class="retail-link">By Product</a>
                     <div class="flyout">
                         <ul>
                             <li><a href="/semiconductor/minisite/ssd/download/consumer.html">Consumer SSD</a></li>
