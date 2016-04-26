@@ -669,7 +669,7 @@ a.btn-clip-square:after {content:"\e612"; font-family:'samsungIcon'; display:inl
     .ui-layer-container.share {width:100% !important}
 }
 /* type2 kv */
-div.top-visual-area{position:relative; overflow:hidden; margin-bottom:40px; height: 100%;}
+div.top-visual-area{position:relative; overflow:hidden; height: 100%;}
 div.top-visual-area.short-type {min-height:150px; height:auto;}
     div.top-visual-area div.inarea{max-width:1310px; margin:0 auto; min-height:120px; height: 100%; max-height:460px; padding:20px 20px 60px; position:relative}
     div.top-visual-area.short-type div.inarea{padding-bottom:20px; box-sizing:border-box;}
@@ -2209,9 +2209,9 @@ table.support-info .img-ox {width:20px;}
 .faq_select a span{display: block; height: 115px;}
 
 .col-inner.download_select {margin-left: 0;}
-.download_select a{border: 1px solid #e9e9e9; display: block; text-align: center; font-size: 21px; height: 210px;font-family: 'SamsungIFBd'; padding-left: 20px; padding-right: 20px; margin-left: 10px; padding-top: 58px; padding-bottom: 58px;}
+.download_select a{border: 1px solid #e9e9e9; display: block; text-align: center; font-size: 21px; height: 200px;font-family: 'SamsungIFBd'; padding-left: 20px; padding-right: 20px; margin-left: 10px; padding-top: 58px; padding-bottom: 58px;}
 .download_select a span{display: block; height: 115px;}
-.download_select a em{display:block;font-size:16px;width:63%;margin:20px auto 0 auto;font-family:'SamsungIFRg'}
+.download_select a em{display:block;font-size:16px;margin:20px auto 0 auto;font-family:'SamsungIFRg'}
 
 .link_t3{height: 90px; line-height: 90px; text-align: center; font-size: 21px; background-color: #f1f1f1;}
 .link_t3 a{color: #0057a4;}
@@ -2278,7 +2278,7 @@ ul.support-list-type>li a.tooltipbox{display:inline-block; padding:0; margin-lef
     .faq_select a span{height: 60px; margin-bottom: 15px;}
     .faq_select a span img{height: 100%; width: auto;}
 
-    .download_select a{margin-bottom: 10px; font-size: 15px; padding-top: 35px;padding-bottom: 35px; margin-right: 0;}
+    .download_select a{margin-bottom: 10px; font-size: 15px; padding-top: 35px;padding-bottom: 35px; margin-right: 0; height: auto;}
     .download_select a span{height: 60px; margin-bottom: 30px;}
     .download_select a span img{height: 100%; width: auto;}
     .download_select a em{font-size:14px;margin:10px auto 0 auto;width:80%}
