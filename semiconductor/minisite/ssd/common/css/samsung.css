@@ -2057,9 +2057,11 @@ table.support-info .img-ox {width:20px;}
 .data-table table th{height:30px;padding:10px 30px;text-align:center;background-color:#0071bf;color:#fff;border-top:solid 1px #dcdcdc;border-bottom:solid 1px #dcdcdc}
 .data-table table th:first-child{text-align:left;border-right:solid 1px #dcdcdc}
 .data-table table th.c{text-align:center !important}
-.data-table table td{text-align:center;height:30px;padding:10px 30px;background-color:#fff;border-top:solid 1px #dcdcdc;border-bottom:solid 1px #dcdcdc;border-left:solid 1px #dcdcdc}
+.data-table table td{text-align:center;min-height:30px;padding:15px 30px;background-color:#fff;border-top:solid 1px #dcdcdc;border-bottom:solid 1px #dcdcdc;border-left:solid 1px #dcdcdc}
 .data-table table td.c{text-align:center !important}
 .data-table table td.t{border-right:solid 1px #dcdcdc;border-left:none;color:#0071bf;text-align:left}
+.data-table table td.t2{vertical-align:top;background-color:#f1f1f1;text-align:left;border-left:none}
+.data-table table td.l{text-align:left;vertical-align:top}
 .data-table table td img, .data-table table td p{padding:10px}
 
 
