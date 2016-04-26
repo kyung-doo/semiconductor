@@ -1975,8 +1975,8 @@ table.support-info .img-ox {width:20px;}
 
 @media (max-width: 1024px) and (min-width:768px)
 {
-    .product-visual .title{width:700px}
-    .product-visual .txt{width:700px}
+    .product-visual .title{font-size:45px;width:700px}
+    .product-visual .txt{font-size:18px;width:700px}
     .product-visual .pc_block{display:inline;}
     .product-visual .info{padding:15px}
 }
