@@ -18,7 +18,7 @@
                         <h3 class="tit-accordion"><span>PRODUCT</span></h3>
                         <button type="button" class="ctl-accordion closed" data-role="ui-accordion-btn"><span class="blind">PRODUCTS layer open</span></button>
                         <ul data-role="ui-accordion-content">
-                            <li><a href="#">Consumer SSD</a>
+                            <li><a href="/semiconductor/minisite/ssd/product/consumer/overview.html">Consumer SSD</a>
                                 <ul>
                                     <li><a href="/semiconductor/minisite/ssd/product/consumer/overview.html">Overview</a></li>
                                     <li><a href="/semiconductor/minisite/ssd/product/consumer/950pro.html">950 PRO</a></li>
@@ -27,13 +27,13 @@
                                     <li><a href="/semiconductor/minisite/ssd/product/consumer/750evo.html">750 EVO</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">Portable SSD</a>
+                            <li><a href="/semiconductor/minisite/ssd/product/portable/overview.html">Portable SSD</a>
                                 <ul>
                                     <li><a href="/semiconductor/minisite/ssd/product/portable/overview.html">Overview</a></li>
                                     <li><a href="/semiconductor/minisite/ssd/product/portable/t3.html">T3</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">Enterprise SSD</a>
+                            <li><a href="/semiconductor/minisite/ssd/product/enterprise/overview.html">Enterprise SSD</a>
                                 <ul>
                                     <li><a href="/semiconductor/minisite/ssd/product/enterprise/overview.html">Overview</a></li>
                                     <li><a href="/semiconductor/minisite/ssd/product/enterprise/sm863.html">SM863</a></li>
@@ -49,13 +49,13 @@
                         <button type="button" class="ctl-accordion closed" data-role="ui-accordion-btn"><span class="blind">DOWNLOAD CENTER layer open</span></button>
                         <ul data-role="ui-accordion-content">
                             <li><a href="/semiconductor/minisite/ssd/download/overview.html">Overview</a></li>
-                            <li><a href="#">By Type</a>
+                            <li><a href="/semiconductor/minisite/ssd/download/tools.html">By Type</a>
                                 <ul>
                                     <li><a href="/semiconductor/minisite/ssd/download/tools.html">Tools &amp; Software</a></li>
                                     <li><a href="/semiconductor/minisite/ssd/download/documents.html">Documents</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">By Product</a>
+                            <li><a href="/semiconductor/minisite/ssd/download/consumer.html">By Product</a>
                                 <ul>
                                     <li><a href="/semiconductor/minisite/ssd/download/consumer.html">Consumer SSD</a></li>
                                     <li><a href="/semiconductor/minisite/ssd/download/portable.html">Portable SSD</a></li>

@@ -2,6 +2,43 @@
 
 <!-- 페이지별 css link,js -->
 <script src="/semiconductor/minisite/ssd/common/js/page/home.js"></script>
+
+<script type="text/javascript">
+
+    $(function ()
+    {
+        var targetNum = getParameter(location.href, "target");
+
+        if(targetNum)
+        {
+            var target = $("div[data-role='ui-jump-target']").eq(targetNum-1);
+            setTimeout(function ()
+            {
+                $("html,body").scrollTop(target.position().top-138);
+            }, 100);
+        }
+    });
+
+
+    function getParameter (url, param)
+    {
+        var p = url.split("?")[1];
+        if(!p) return "";
+
+        var s = p.split( param + "=" )[1];
+        if(s)
+        {
+            var s2 = s.split("&")[0];
+            return s2;
+        }
+
+        return s;
+    }
+
+
+</script>
+
+
 <link rel="stylesheet" type="text/css" media="all" href="/semiconductor/minisite/ssd/common/css/pages/pdp.css">
 <!-- //페이지별 css link,js -->
 
