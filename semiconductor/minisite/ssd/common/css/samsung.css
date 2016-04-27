@@ -537,7 +537,7 @@ a.btn-jump span {text-transform:none}
 .key-visual .screen.movie iframe{position:absolute;left:0;right:0;top:0;bottom:0;}
 .key-visual.home_kv{margin-bottom:60px;}
 @media (min-width:1024px){
-.key-visual.home_kv .screen .focus-msg{position:relative;left:10px;top:10px;bottom:auto;width:520px;padding:0 1.4694%; background:none;color:#fff; line-height: 1.2;}
+    .key-visual.home_kv .screen .focus-msg{position:relative;left:10px;top:10px;bottom:auto; /* width:520px;*/ width:700px; padding:0 1.4694%; background:none;color:#fff; line-height: 1.2;}
 .key-visual.home_kv .screen .focus-msg .category{font-size: 21px; padding-top: 105px;}
     .key-visual.home_kv .screen .focus-msg h1{padding-top:90px;overflow:hidden; font-size:52px; line-height:56px; text-shadow:1px 1px 1px rgba(0,0,0,0.8); font-weight:600;}
     .key-visual.home_kv .screen .focus-msg h1 em{font-size: 21px; font-weight: normal;}
@@ -584,7 +584,7 @@ a.btn-jump span {text-transform:none}
     .key-visual .screen .focus-msg{display:block; position:static; width:auto; padding:20px 20px 60px; background:#424242}
     .key-visual .screen .focus-msg h1{padding:0}
     .key-visual .screen .focus-msg .txt{margin:10px 0 15px; padding-top:0; line-height: 21px;}
-    .key-visual .screen .focus-msg .act {bottom:20px}
+    .key-visual .screen .focus-msg .act {position: static;  margin-top: 10px;}
 
     .wrapper-act button {font-size:14px}
     .key-visual.home_kv .screen .focus-msg .category{font-size: 14px; margin-bottom: 20px;}
@@ -2300,7 +2300,7 @@ ul.support-list-type>li a.tooltipbox{display:inline-block; padding:0; margin-lef
 ul.tab{overflow:hidden;}
 ul.tab li{width:50%; float:left; text-align:center; font-size:16px;font-family:"SamsungIFBd"; border-top:1px solid #0057a4; border-right:1px solid #0057a4; box-sizing:border-box;}
 ul.tab li:first-child{border-left:1px solid #0057a4;}
-ul.tab li a{display:block; color:#0057a4; padding:16px 0 15px;}
+ul.tab li a{display:block; color:#0057a4; padding:16px 0 15px; text-transform: uppercase;}
 ul.tab li.active{border:none;}
 ul.tab li.active a{background:#0071bf; border-bottom:1px solid #0071bf; color:#fff;}
 
