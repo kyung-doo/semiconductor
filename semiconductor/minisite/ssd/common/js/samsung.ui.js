@@ -6097,11 +6097,11 @@ var SelectionToo = Class.extend({
                {
                    if($(this).find("a").is(".link"))
                    {
-                       $(this).find("a").attr("href", member[idx].contsLink);
+                       $(this).find("a").attr("onClick", member[idx].contsCode).attr("href", member[idx].contsLink);
                    }
                    else
                    {
-                       $("#selection_step"+(step+1)+" li a").removeClass("link").attr("href", "javascript:void(0);");
+                       $("#selection_step"+(step+1)+" li a").removeClass("link").attr("onClick", "").attr("href", "javascript:void(0);");
                        $(this).find("a").addClass("link");
                    }
                }

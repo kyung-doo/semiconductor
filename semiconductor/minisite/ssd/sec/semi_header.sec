@@ -13,7 +13,7 @@
     <div class="header-wrap">
         <div class="space"></div>
         <div class="header">
-            <div class="logo"><a href="/semiconductor/minisite/ssd/"><span class="blind">SAMSUNG SSD</span></a></div>
+            <div class="logo"><a href="/semiconductor/minisite/ssd/" onClick="sendClickCode('gnb','b2c_samsung logo');"><span class="blind">SAMSUNG SSD</span></a></div>
             <a href="/semiconductor/minisite/ssd/v-nand/technology.html" class="top_link"><span>V-NAND SSD</span></a>
             <button type="button" class="btn-ico ctl-nav" data-role="ui-nav-btn"><span class="label">Open Menu</span></button>
             <div class="overlay"></div>    <!-- dimed layer -->
@@ -24,7 +24,7 @@
                         <a href="#">V-NAND SSD</a>
                         <div class="submenu-container">
                             <ul data-role="ui-nav-sub">
-                                <li><a href="/semiconductor/minisite/ssd/v-nand/technology.html">V-NAND SSD Technology</a></li>
+                                <li><a href="/semiconductor/minisite/ssd/v-nand/technology.html" onclick="sendClickCode('gnb','b2c_vnandssd:vnandssd technology');">V-NAND SSD Technology</a></li>
                             </ul>
                         </div>
                     </li>
@@ -34,35 +34,35 @@
                             <ul data-role="ui-nav-sub">
                                 <li class="sub">
                                     <a href='#' class='retial-mobile-btn'></a>
-                                    <a href="/semiconductor/minisite/ssd/product/consumer/overview.html" class="retail-link">Consumer SSD</a>
+                                    <a href="/semiconductor/minisite/ssd/product/consumer/overview.html" class="retail-link" onClick="sendClickCode('gnb','b2c_products:consumerssd:overview');">Consumer SSD</a>
                                     <div class="flyout">
                                         <ul>
-                                            <li><a href="/semiconductor/minisite/ssd/product/consumer/overview.html">Overview</a></li>
-                                            <li><a href="/semiconductor/minisite/ssd/product/consumer/950pro.html">950 PRO</a></li>
-                                            <li><a href="/semiconductor/minisite/ssd/product/consumer/850pro.html">850 PRO</a></li>
-                                            <li><a href="/semiconductor/minisite/ssd/product/consumer/850evo.html">850 EVO</a></li>
-                                            <li><a href="/semiconductor/minisite/ssd/product/consumer/750evo.html">750 EVO</a></li>
+                                            <li><a href="/semiconductor/minisite/ssd/product/consumer/overview.html" onClick="sendClickCode('gnb','b2c_products:consumerssd:overview');">Overview</a></li>
+                                            <li><a href="/semiconductor/minisite/ssd/product/consumer/950pro.html" onClick="sendClickCode('gnb','b2c_products:consumerssd:950 pro');">950 PRO</a></li>
+                                            <li><a href="/semiconductor/minisite/ssd/product/consumer/850pro.html" onClick="sendClickCode('gnb','b2c_products:consumerssd:850 pro');">850 PRO</a></li>
+                                            <li><a href="/semiconductor/minisite/ssd/product/consumer/850evo.html" onClick="sendClickCode('gnb','b2c_products:consumerssd:850 evo');">850 EVO</a></li>
+                                            <li><a href="/semiconductor/minisite/ssd/product/consumer/750evo.html" onClick="sendClickCode('gnb','b2c_products:consumerssd:750 evo');">750 EVO</a></li>
                                         </ul>
                                     </div>
                                 </li>
                                 <li class="sub">
                                     <a href='#' class='retial-mobile-btn'></a>
-                                    <a href="/semiconductor/minisite/ssd/product/portable/overview.html" class="retail-link">Portable SSD</a>
+                                    <a href="/semiconductor/minisite/ssd/product/portable/overview.html" class="retail-link" onClick="sendClickCode('gnb','b2c_products:portablessd:overview');">Portable SSD</a>
                                     <div class="flyout ">
                                         <ul>
-                                            <li><a href="/semiconductor/minisite/ssd/product/portable/overview.html">Overview</a></li>
-                                            <li><a href="/semiconductor/minisite/ssd/product/portable/t3.html">T3</a></li>
+                                            <li><a href="/semiconductor/minisite/ssd/product/portable/overview.html" onClick="sendClickCode('gnb','b2c_products:portablessd:overview');">Overview</a></li>
+                                            <li><a href="/semiconductor/minisite/ssd/product/portable/t3.html" onClick="sendClickCode('gnb','b2c_products:portablessd:t3');">T3</a></li>
                                         </ul>
                                     </div>
                                 </li>
                                 <li class="sub">
                                     <a href='#' class='retial-mobile-btn'></a>
-                                    <a href="/semiconductor/minisite/ssd/product/enterprise/overview.html" class="retail-link">Enterprise SSD</a>
+                                    <a href="/semiconductor/minisite/ssd/product/enterprise/overview.html" class="retail-link" onClick="sendClickCode('gnb','b2c_products:enterprisessd:overview');">Enterprise SSD</a>
                                     <div class="flyout ">
                                         <ul>
-                                            <li><a href="/semiconductor/minisite/ssd/product/enterprise/overview.html">Overview</a></li>
-                                            <li><a href="/semiconductor/minisite/ssd/product/enterprise/sm863.html">SM863</a></li>
-                                            <li><a href="/semiconductor/minisite/ssd/product/enterprise/pm863.html">PM863</a></li>
+                                            <li><a href="/semiconductor/minisite/ssd/product/enterprise/overview.html" onClick="sendClickCode('gnb','b2c_products:enterprisessd:overview');">Overview</a></li>
+                                            <li><a href="/semiconductor/minisite/ssd/product/enterprise/sm863.html" onClick="sendClickCode('gnb','b2c_products:enterprisessd:sm863');">SM863</a></li>
+                                            <li><a href="/semiconductor/minisite/ssd/product/enterprise/pm863.html" onClick="sendClickCode('gnb','b2c_products:enterprisessd:pm863');">PM863</a></li>
                                         </ul>
                                     </div>
                                 </li>
@@ -73,25 +73,25 @@
                         <a href="#">DOWNLOAD</a>
                         <div class="submenu-container has-flyout">
                             <ul data-role="ui-nav-sub">
-                                <li><a href="/semiconductor/minisite/ssd/download/overview.html">Overview</a></li>
+                                <li><a href="/semiconductor/minisite/ssd/download/overview.html" onClick="sendClickCode('gnb','b2c_download:overview');">Overview</a></li>
                                 <li class="sub">
                                     <a href='#' class='retial-mobile-btn'></a>
-                                    <a href="/semiconductor/minisite/ssd/download/tools.html" class="retail-link">By Type</a>
+                                    <a href="/semiconductor/minisite/ssd/download/tools.html" class="retail-link" onClick="sendClickCode('gnb','b2c_download:by type:tools and software');">By Type</a>
                                     <div class="flyout">
                                         <ul>
-                                            <li><a href="/semiconductor/minisite/ssd/download/tools.html">Tools &amp; Software</a></li>
-                                            <li><a href="/semiconductor/minisite/ssd/download/documents.html">Documents</a></li>
+                                            <li><a href="/semiconductor/minisite/ssd/download/tools.html" onClick="sendClickCode('gnb','b2c_download:by type:tools and software');">Tools &amp; Software</a></li>
+                                            <li><a href="/semiconductor/minisite/ssd/download/documents.html" onClick="sendClickCode('gnb','b2c_download:by type:documents');">Documents</a></li>
                                         </ul>
                                     </div>
                                 </li>
                                 <li class="sub">
                                     <a href='#' class='retial-mobile-btn'></a>
-                                    <a href="/semiconductor/minisite/ssd/download/consumer.html" class="retail-link">By Product</a>
+                                    <a href="/semiconductor/minisite/ssd/download/consumer.html" class="retail-link" onClick="sendClickCode('gnb','b2c_download:by product:consumer ssd');">By Product</a>
                                     <div class="flyout">
                                         <ul>
-                                            <li><a href="/semiconductor/minisite/ssd/download/consumer.html">Consumer SSD</a></li>
-                                            <li><a href="/semiconductor/minisite/ssd/download/portable.html">Portable SSD</a></li>
-                                            <li><a href="/semiconductor/minisite/ssd/download/enterprise.html">Enterprise SSD</a></li>
+                                            <li><a href="/semiconductor/minisite/ssd/download/consumer.html" onClick="sendClickCode('gnb','b2c_download:by product:consumer ssd');">Consumer SSD</a></li>
+                                            <li><a href="/semiconductor/minisite/ssd/download/portable.html" onClick="sendClickCode('gnb','b2c_download:by product:portable ssd');">Portable SSD</a></li>
+                                            <li><a href="/semiconductor/minisite/ssd/download/enterprise.html" onClick="sendClickCode('gnb','b2c_download:by product:enterprise ssd');">Enterprise SSD</a></li>
                                         </ul>
                                     </div>
                                 </li>
@@ -102,9 +102,9 @@
                         <a href="#">SUPPORT</a>
                         <div class="submenu-container has-flyout">
                             <ul data-role="ui-nav-sub">
-                                <li><a href="/semiconductor/minisite/ssd/support/buy.html">Where to Buy</a></li>
-                                <li><a href="/semiconductor/minisite/ssd/support/faqs.html">FAQs</a></li>
-                                <li><a href="/semiconductor/minisite/ssd/support/cs.html">Customer Service</a></li>
+                                <li><a href="/semiconductor/minisite/ssd/support/buy.html" onClick="sendClickCode('gnb','b2c_support:where to buy');">Where to Buy</a></li>
+                                <li><a href="/semiconductor/minisite/ssd/support/faqs.html" onClick="sendClickCode('gnb','b2c_support:faqs');">FAQs</a></li>
+                                <li><a href="/semiconductor/minisite/ssd/support/cs.html" onClick="sendClickCode('gnb','b2c_support:customerservice');">Customer Service</a></li>
                             </ul>
                         </div>
                     </li>
@@ -112,13 +112,13 @@
                 <!-- //GNB -->
                 <!-- top utility -->
                 <ul class="direct">
-                <li><a href="http://www.samsung.com/us/" class="btn link outlink" target="_blank" title="New window" onclick="sendClickCode('gnb','b2b_utility menu:consumer section');">SAMSUNG OFFICIAL SITE</a></li>
-                    <li><a href="http://www.facebook.com/samsungSSD" class="btn link outlink" target="_blank" title="New window" onclick="sendClickCode('gnb','b2b_utility menu:partner portal');">SAMSUNG SSD FACE BOOK</a></li>
+                <li><a href="http://www.samsung.com/us/" class="btn link outlink" target="_blank" title="New window" onclick="sendClickCode('gnb','b2c_utility menu:samsung official site');">SAMSUNG OFFICIAL SITE</a></li>
+                    <li><a href="http://www.facebook.com/samsungSSD" class="btn link outlink" target="_blank" title="New window" onclick="sendClickCode('gnb','b2c_utility menu:samsung ssd face book');">SAMSUNG SSD FACE BOOK</a></li>
                 </ul>
                 <!-- //top utility -->
             </div>
             <div class="util-menu">
-                <button type="button" class="btn-ico call-smartfinder" data-role="ui-btn-show-smartfinder" onClick="location.href='/semiconductor/minisite/ssd/util/selection.html'"><span class="label">selection guide</span></button>
+                <button type="button" class="btn-ico call-smartfinder" data-role="ui-btn-show-smartfinder" onClick="sendClickCode('gnb','b2c_selection guide'); location.href='/semiconductor/minisite/ssd/util/selection.html'"><span class="label">selection guide</span></button>
             </div>
         </div>
     <div class="history_notification" style="display:none">

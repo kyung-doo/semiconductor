@@ -16,32 +16,38 @@
                              {
                                  "contsID": "01010101",
                                  "contsTitle": "850 PRO 128 GB",
-                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850pro.html"
+                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850pro.html",
+                                 "contsCode" : "sendClickCode('spt_search_success','selection guide:consumerssd_2.5inch and sata_120-256gb_850pro128gb');"
                              },
                              {
                                  "contsID": "01010102",
                                  "contsTitle": "850 PRO 256 GB",
-                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850pro.html"
+                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850pro.html",
+                                 "contsCode" : "sendClickCode('spt_search_success','selection guide:consumerssd_2.5inch and sata_120-256gb_850pro256gb');"
                              },
                              {
                                  "contsID": "01010103",
                                  "contsTitle": "850 EVO 120 GB",
-                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850pro.html"
+                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850pro.html",
+                                 "contsCode" : "sendClickCode('spt_search_success','selection guide:consumerssd_2.5inch and sata_120-256gb_850evo120gb');"
                              },
                              {
                                  "contsID": "01010104",
                                  "contsTitle": "850 EVO 250 GB",
-                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850evo.html"
+                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850evo.html",
+                                 "contsCode" : "sendClickCode('spt_search_success','selection guide:consumerssd_2.5inch and sata_120-256gb_850evo128gb');"
                              },
                              {
                                  "contsID": "01010105",
                                  "contsTitle": "750 EVO 120 GB",
-                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/750evo.html"
+                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/750evo.html",
+                                 "contsCode" : "sendClickCode('spt_search_success','selection guide:consumerssd_2.5inch and sata_120-256gb_750evo120gb');"
                              },
                              {
                                  "contsID": "01010106",
                                  "contsTitle": "750 EVO 250 GB",
-                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/750evo.html"
+                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/750evo.html",
+                                 "contsCode" : "sendClickCode('spt_search_success','selection guide:consumerssd_2.5inch and sata_120-256gb_750evo250gb');"
                              }
                          ]
                        },
@@ -52,22 +58,26 @@
                              {
                                  "contsID": "01010201",
                                  "contsTitle": "850 PRO 512 GB",
-                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850pro.html"
+                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850pro.html",
+                                 "contsCode" : "sendClickCode('spt_search_success','selection guide:consumerssd_2.5inch and sata_480-1tb_850pro512gb');"
                              },
                              {
                                  "contsID": "01010202",
                                  "contsTitle": "850 PRO 1 TB",
-                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850pro.html"
+                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850pro.html",
+                                 "contsCode" : "sendClickCode('spt_search_success','selection guide:consumerssd_2.5inch and sata_480-1tb_850pro1tb');"
                              },
                              {
                                  "contsID": "01010203",
                                  "contsTitle": "850 EVO 500 GB",
-                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850evo.html"
+                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850evo.html",
+                                 "contsCode" : "sendClickCode('spt_search_success','selection guide:consumerssd_2.5inch and sata_480-1tb_850evo500gb');"
                              },
                              {
                                  "contsID": "01010204",
                                  "contsTitle": "850 EVO 1 TB",
-                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850evo.html"
+                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850evo.html",
+                                 "contsCode" : "sendClickCode('spt_search_success','selection guide:consumerssd_2.5inch and sata_480-1tb_850evo1tb');"
                              }
                          ]
                        },
@@ -78,7 +88,8 @@
                              {
                                  "contsID": "01010301",
                                  "contsTitle": "850 PRO 2 TB",
-                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850pro.html"
+                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850pro.html",
+                                 "contsCode" : "sendClickCode('spt_search_success','selection guide:consumerssd_2.5inch and sata_1.92-4tb_850pro2tb');"
                              }
                          ]
                        }
@@ -95,12 +106,14 @@
                              {
                                  "contsID": "01020101",
                                  "contsTitle": "850 EVO 120 GB",
-                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850evo.html"
+                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850evo.html",
+                                 "contsCode" : "sendClickCode('spt_search_success','selection guide:consumerssd_msata and sata_120-256gb_850evo120gb');"
                              },
                              {
                                  "contsID": "01020102",
                                  "contsTitle": "850 EVO 250 GB",
-                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850evo.html"
+                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850evo.html",
+                                 "contsCode" : "sendClickCode('spt_search_success','selection guide:consumerssd_msata and sata_120-256gb_850evo250gb');"
                              }
                          ]
                        },
@@ -111,12 +124,14 @@
                              {
                                  "contsID": "01020201",
                                  "contsTitle": "850 EVO 500 GB",
-                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850evo.html"
+                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850evo.html",
+                                 "contsCode" : "sendClickCode('spt_search_success','selection guide:consumerssd_msata and sata_480-1tb_850evo500gb');"
                              },
                              {
                                  "contsID": "01020202",
                                  "contsTitle": "850 EVO 1 TB",
-                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850evo.html"
+                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850evo.html",
+                                 "contsCode" : "sendClickCode('spt_search_success','selection guide:consumerssd_msata and sata_480-1tb_850evo1tb');"
                              }
                          ]
                        }
@@ -133,12 +148,14 @@
                              {
                                  "contsID": "01030101",
                                  "contsTitle": "850 EVO 120 GB",
-                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850evo.html"
+                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850evo.html",
+                                 "contsCode" : "sendClickCode('spt_search_success','selection guide:consumerssd_m.2 and sata_120-256gb_850evo120gb');"
                              },
                              {
                                  "contsID": "01030102",
                                  "contsTitle": "850 EVO 250 GB",
-                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850evo.html"
+                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850evo.html",
+                                 "contsCode" : "sendClickCode('spt_search_success','selection guide:consumerssd_m.2 and sata_120-256gb_850evo250gb');"
                              }
                          ]
                        },
@@ -149,7 +166,8 @@
                              {
                                  "contsID": "01030201",
                                  "contsTitle": "850 EVO 500 GB",
-                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850evo.html"
+                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850evo.html",
+                                 "contsCode" : "sendClickCode('spt_search_success','selection guide:consumerssd_m.2 and sata_480-1tb_850evo500gb');"
                              }
                          ]
                        }
@@ -166,7 +184,8 @@
                              {
                                  "contsID": "01040101",
                                  "contsTitle": "950 PRO 256 GB",
-                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/950pro.html"
+                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/950pro.html",
+                                 "contsCode" : "sendClickCode('spt_search_success','selection guide:consumerssd_m.2 and nvme_120-256gb_950pro256gb');"
                              }
                          ]
                        },
@@ -177,7 +196,8 @@
                              {
                                  "contsID": "01040201",
                                  "contsTitle": "950 PRO 512 GB",
-                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/950pro.html"
+                                 "contsLink" : "/semiconductor/minisite/ssd/product/consumer/950pro.html",
+                                 "contsCode" : "sendClickCode('spt_search_success','selection guide:consumerssd_m.2 and nvme_480-1tb_950pro512gb');"
                              }
                          ]
                        }
@@ -201,7 +221,8 @@
                              {
                                  "contsID": "02010101",
                                  "contsTitle": "T3 250 GB",
-                                 "contsLink" : "/semiconductor/minisite/ssd/product/portable/t3.html"
+                                 "contsLink" : "/semiconductor/minisite/ssd/product/portable/t3.html",
+                                 "contsCode" : "sendClickCode('spt_search_success','selection guide:portablessd_usb3.1_120-256gb_t3250gb');"
                              }
                          ]
                        },
@@ -212,12 +233,14 @@
                              {
                                  "contsID": "02010201",
                                  "contsTitle": "T3 500 GB",
-                                 "contsLink" : "/semiconductor/minisite/ssd/product/portable/t3.html"
+                                 "contsLink" : "/semiconductor/minisite/ssd/product/portable/t3.html",
+                                 "contsCode" : "sendClickCode('spt_search_success','selection guide:portablessd_usb3.1_480-1tb_t3500gb');"
                              },
                              {
                                  "contsID": "02010202",
                                  "contsTitle": "T3 1 TB",
-                                 "contsLink" : "/semiconductor/minisite/ssd/product/portable/t3.html"
+                                 "contsLink" : "/semiconductor/minisite/ssd/product/portable/t3.html",
+                                 "contsCode" : "sendClickCode('spt_search_success','selection guide:portablessd_usb3.1_480-1tb_t31tb');"
                              }
                          ]
                        },
@@ -228,7 +251,8 @@
                              {
                                  "contsID": "02010301",
                                  "contsTitle": "T3 2 TB",
-                                 "contsLink" : "/semiconductor/minisite/ssd/product/portable/t3.html"
+                                 "contsLink" : "/semiconductor/minisite/ssd/product/portable/t3.html",
+                                 "contsCode" : "sendClickCode('spt_search_success','selection guide:portablessd_usb3.1_1.92-4tb_t32tb');"
                              }
                          ]
                        }
@@ -252,22 +276,26 @@
                              {
                                  "contsID": "03010101",
                                  "contsTitle": "SM863 120 GB",
-                                 "contsLink" : "/semiconductor/minisite/ssd/product/enterprise/sm863.html"
+                                 "contsLink" : "/semiconductor/minisite/ssd/product/enterprise/sm863.html",
+                                 "contsCode" : "sendClickCode('spt_search_success','selection guide:enterprisessd_2.5inch and sata_120-256gb_sm863120gb');"
                              },
                              {
                                  "contsID": "03010102",
                                  "contsTitle": "SM863 240 GB",
-                                 "contsLink" : "/semiconductor/minisite/ssd/product/enterprise/sm863.html"
+                                 "contsLink" : "/semiconductor/minisite/ssd/product/enterprise/sm863.html",
+                                 "contsCode" : "sendClickCode('spt_search_success','selection guide:enterprisessd_2.5inch and sata_120-256gb_sm863240gb');"
                              },
                              {
                                  "contsID": "03010103",
                                  "contsTitle": "PM863 120 GB",
-                                 "contsLink" : "/semiconductor/minisite/ssd/product/enterprise/pm863.html"
+                                 "contsLink" : "/semiconductor/minisite/ssd/product/enterprise/pm863.html",
+                                 "contsCode" : "sendClickCode('spt_search_success','selection guide:enterprisessd_2.5inch and sata_120-256gb_pm863120gb');"
                              },
                              {
                                  "contsID": "03010104",
                                  "contsTitle": "PM863 240 GB",
-                                 "contsLink" : "/semiconductor/minisite/ssd/product/enterprise/pm863.html"
+                                 "contsLink" : "/semiconductor/minisite/ssd/product/enterprise/pm863.html",
+                                 "contsCode" : "sendClickCode('spt_search_success','selection guide:enterprisessd_2.5inch and sata_120-256gb_pm863240gb');"
                              }
                          ]
                        },
@@ -278,22 +306,26 @@
                              {
                                  "contsID": "03010201",
                                  "contsTitle": "SM863 480 GB",
-                                 "contsLink" : "/semiconductor/minisite/ssd/product/enterprise/sm863.html"
+                                 "contsLink" : "/semiconductor/minisite/ssd/product/enterprise/sm863.html",
+                                 "contsCode" : "sendClickCode('spt_search_success','selection guide:enterprisessd_2.5inch and sata_480-1tb_sm863480gb');"
                              },
                              {
                                  "contsID": "03010202",
                                  "contsTitle": "SM863 960 GB",
-                                 "contsLink" : "/semiconductor/minisite/ssd/product/enterprise/sm863.html"
+                                 "contsLink" : "/semiconductor/minisite/ssd/product/enterprise/sm863.html",
+                                 "contsCode" : "sendClickCode('spt_search_success','selection guide:enterprisessd_2.5inch and sata_480-1tb_sm863960gb');"
                              },
                              {
                                  "contsID": "03010203",
                                  "contsTitle": "PM863 480 GB",
-                                 "contsLink" : "/semiconductor/minisite/ssd/product/enterprise/pm863.html"
+                                 "contsLink" : "/semiconductor/minisite/ssd/product/enterprise/pm863.html",
+                                 "contsCode" : "sendClickCode('spt_search_success','selection guide:enterprisessd_2.5inch and sata_480-1tb_pm863480gb');"
                              },
                              {
                                  "contsID": "03010204",
                                  "contsTitle": "PM863 960 GB",
-                                 "contsLink" : "/semiconductor/minisite/ssd/product/enterprise/pm863.html"
+                                 "contsLink" : "/semiconductor/minisite/ssd/product/enterprise/pm863.html",
+                                 "contsCode" : "sendClickCode('spt_search_success','selection guide:enterprisessd_2.5inch and sata_480-1tb_pm863960gb');"
                              }
                          ]
                        },
@@ -304,17 +336,20 @@
                              {
                                  "contsID": "03010301",
                                  "contsTitle": "SM863 1920 GB",
-                                 "contsLink" : "/semiconductor/minisite/ssd/product/enterprise/pm863.html"
+                                 "contsLink" : "/semiconductor/minisite/ssd/product/enterprise/pm863.html",
+                                 "contsCode" : "sendClickCode('spt_search_success','selection guide:enterprisessd_2.5inch and sata_1.92-4tb_sm8631920gb');"
                              },
                              {
                                  "contsID": "03010302",
                                  "contsTitle": "PM863 1920 GB",
-                                 "contsLink" : "/semiconductor/minisite/ssd/product/enterprise/pm863.html"
+                                 "contsLink" : "/semiconductor/minisite/ssd/product/enterprise/pm863.html",
+                                 "contsCode" : "sendClickCode('spt_search_success','selection guide:enterprisessd_2.5inch and sata_1.92-4tb_pm8631920gb');"
                              },
                              {
                                  "contsID": "03010303",
                                  "contsTitle": "PM863 3840 GB",
-                                 "contsLink" : "/semiconductor/minisite/ssd/product/enterprise/pm863.html"
+                                 "contsLink" : "/semiconductor/minisite/ssd/product/enterprise/pm863.html",
+                                 "contsCode" : "sendClickCode('spt_search_success','selection guide:enterprisessd_2.5inch and sata_1.92-4tb_pm8633840gb');"
                              }
                          ]
                        }
