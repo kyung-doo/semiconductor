@@ -13,7 +13,9 @@
             var target = $("div[data-role='ui-jump-target']").eq(targetNum-1);
             setTimeout(function ()
             {
-                $("html,body").scrollTop(target.position().top-138);
+                $("*[data-role='ui-jump-menu']").find('li').find('a').removeClass('on')
+                $("*[data-role='ui-jump-menu']").find('li').eq(targetNum-1).find('a').addClass('on').click();
+//                $("html,body").scrollTop(target.position().top-138);
             }, 100);
         }
     });

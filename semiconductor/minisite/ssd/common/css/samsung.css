@@ -1116,7 +1116,7 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
     .body-wrap.nav-on .ctl-nav {position:fixed; right:70%; top:31px; height:50px}
     .header-wrap .nav ul.direct{color:#000;position:static;border-bottom:1px solid #e1e1e1}
     .header-wrap .nav ul.direct>li{float:none;padding:0;border-top:1px solid #e1e1e1}
-    .header-wrap .nav ul.direct>li a{padding-left:30px;padding-right:72px; color:#0057a4; padding-top: 0;}
+    .header-wrap .nav ul.direct>li a{padding-left:30px;padding-right:72px; color:#0057a4;}
     .header-wrap .nav ul.direct>li a:hover{color:#000 !important}
     .header-wrap a.btn.link:after{content:""}
     .header-wrap .nav a{position:relative;}
@@ -1156,6 +1156,7 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
     .header-wrap .call-smartcase{right:0px}
     .header-wrap .util-menu .sch input[type=text] {font-size:16px; line-height: 16px}
     .header-wrap .util-menu .sch .txt_del {position:absolute; top:20px; right:45px}
+    .header-wrap .nav ul.direct>li a{padding-top: 0;}
 }
 .footer-row .grid-row {position:relative}
 .footer-row .grid-row .col-inner{overflow:hidden; margin-top:0;}
@@ -1501,7 +1502,7 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
     .home_product li a.app01 span img{width:175px;}
     .home_product li a.app02 span img{width:90px;}
     .home_product li a.app03 span img{width:98px;}
-    .home_product li a dl{background-color: #f8f8f8; min-height: auto; height:auto; padding-bottom: 15px;}
+    .home_product li a dl{background-color: #f8f8f8; min-height:0; height:auto; padding-bottom: 15px;}
     .home_product li a dt{padding-top: 15px;}
     .home_product li a dd{font-size: 14px; padding-top: 10px; padding-bottom: 0;}
 }
@@ -2121,6 +2122,7 @@ table.support-info .img-ox {width:20px;}
 
 @media (max-width: 1023px) and (min-width: 768px){
     .down-overview .down-title{padding-left:15px}
+    .down-overview .down-list.popular{min-height: 102px;}
 }
 
 @media (max-width:767px){
@@ -2263,7 +2265,7 @@ ul.support-list-type>li a.tooltipbox{display:inline-block; padding:0; margin-lef
     .ssd_module{padding-left: 10px; padding-right: 10px;}
     .faq_select a{margin-bottom: 10px;height: 210px;}
     .faq_select a span{display: block; height: 100px;}
-    .download_select a{margin-bottom: 10px;height: 210px;}
+    .download_select a{margin-bottom: 10px;}
     .download_select a span{display: block; height: 100px;}
 }
 
