@@ -1,0 +1,420 @@
+@charset "utf-8";
+
+/*pdp*/
+.pdp-contents {padding-top: 20px;}
+
+div.hero-module{padding:50px 0;}
+@media (min-width:768px) and (max-width:1023px){
+    div.hero-module{padding:0;}
+}
+@media (max-width:767px){
+    div.hero-module{padding:0;}
+}
+
+div.gray-bg{background:#e0e0e0;}
+
+div.product-info-wrap{position:relative; max-width:1310px; margin:0 auto; padding:0 28px;}
+div.product-info-wrap:after{content:""; display:block; overflow:hidden; clear:both; visibility:hidden;}
+@media (min-width:768px) and (max-width:1023px){
+    div.product-info-wrap{padding:0;}
+}
+@media (max-width:767px){
+    div.product-info-wrap{padding:0;}
+}
+
+div.product-img-section{position:absolute; left:28px; top:0; width:55%}
+div.product-img-section div.viewer-wrap {position:relative}
+div.product-img-section div.viewer img.responsive-image{}
+div.product-img-section div.viewer {position:relative; display:block; overflow:hidden; margin:0 10px}
+div.product-img-section div.viewer .ui-indicator {height:480px; padding:0}
+div.product-img-section div.viewer ul {position:static; width:100%; height:480px}
+div.product-img-section div.viewer ul li {display:none; position:absolute; left:0; top:0; width:100%}
+div.product-img-section div.viewer ul li:first-child {display:block}
+div.product-img-section div.viewer ul li a.play-btn{position:absolute; top:50%; left:50%; margin:-33px 0 0 -33px; display:block; width:66px; height:66px; overflow:hidden; background:url(/common/b2b4/img/ico/btn_play.png) no-repeat 0 0;}
+div.product-img-section div.viewer ul li a.play-btn:hover{background:url(/common/b2b4/img/ico/btn_play.png) no-repeat 0 0; background-position:0 -71px;}
+div.product-img-section div.ss-carousel .viewer-wrap a.prev{display:block; width:15px; height:30px; top:50%; left:10px; position:absolute; margin-top:-15px}
+div.product-img-section div.ss-carousel .viewer-wrap a.next{display:block; width:15px; height:30px; top:50%; right:10px; position:absolute; margin-top:-15px}
+div.product-img-section img{vertical-align:top;}
+
+div.product-img-section div.viewer .play-img {position:absolute; top:0; left:0; width:100%; height:100%; background:#fff; padding:0}
+div.product-img-section div.viewer .play-img img.responsive-image {position:absolute; left:50%; top:50%; margin-left:-73px; margin-top:-73px; width:147px !important; height:147px !important}
+
+div.product-img-section div.viewer ul li div p span{display:block; overflow:hidden; text-align:center}
+div.product-img-section div.viewer ul li div p span img:before {display:inline-block; content:""; vertical-align:middle}
+.legacy-ie div.product-img-section div.viewer ul li div p{float:none;left:0}
+.legacy-ie div.product-img-section div.viewer ul li div p span{float:none;left:0;}
+.legacy-ie div.product-img-section div.viewer img.responsive-image{width:655px}
+.legacy-ie div.product-img-section div.viewer{height:437px}
+div.product-img-section div.ss-carousel [data-role=ui-flick]{height:auto !important}
+div.num-count{display:none;}
+
+@media (min-width:1281px) {
+    div.product-img-section div.viewer .pdp-mobile {display:none !important}
+}
+/* tablet landscape */
+@media (min-width:1024px) and (max-width:1280px){
+    div.product-img-section div.viewer .pdp-desktop {display:none}
+    div.product-img-section div.viewer ul {position:static; width:100%}
+}
+/* tablet portrait */
+@media (min-width:768px) and (max-width:1023px){
+    div.product-img-section div.viewer .pdp-mobile {display:none !important}
+    div.product-img-section div.viewer ul li {position:relative}
+}
+@media (max-width:767px){
+    div.product-img-section div.viewer .pdp-desktop {display:none}
+}
+.legacy-ie div.product-img-section div.viewer .pdp-mobile {display:none !important}
+
+div.product-info-section{float:right; width:41%}
+div.product-info-section div.compare-button-container {position:absolute; top:5px; right:4px}
+div.product-info-section div.compare-button-container .btn-share {width:43px; height:43px; line-height:43px; margin-left:2px; background:#fff; vertical-align:top}
+div.product-info-section div.compare-button-container .btn-share:hover {background:#b8d8ee}
+.ie7 div.product-info-section div.compare-button-container .btn-share .blind {position:static; width:auto; font-size:12px}
+div.product-info-section div.compare-button-container .btn-share:after {font-family:'samsungIcon'; content:"\48"; font-size:22px}
+div.product-info-section div.compare-button-container .btn-share:hover {background-color:#b8d8ee}
+div.product-info-section div.compare-button-container .ss-compare-button {float:none; max-width:195px; height:43px; line-height:43px; background:#fff; padding:0 20px; vertical-align:top}
+div.product-info-section div.compare-button-container .ss-compare-button:hover {background:#b8d8ee; color:#000}
+div.product-info-section div.compare-button-container .ss-compare-button.active {background:#0057a4}
+div.product-info-section div.compare-button-container .ss-compare-button.active:hover {background:#b8d8ee; color:#000}
+div.product-info-section div.module-wrap {min-height:420px;/*height:420px;*/ background:#f1f1f1; padding:50px 28px 80px; position:relative;}
+div.product-info div.breadcrumb{font-size:14px;}
+div.product-info-section div.product-stitle {margin-top:5px; font-size:18px}
+div.product-info .product-title{font-size:40px; display:block; margin:5px 0 0}
+div.product-info p.product-code{font-family:'SamsungIFBd'; color:#5a5a5a; font-size:18px;}
+div.product-info div.badges{font-size:21px; line-height:23px; margin:6px 0 15px;}
+div.product-info div.swatches{width:100%; overflow:hidden; margin:15px 0 0;}
+div.product-info div.swatches div.swatch{float:left; margin-right:7px}
+div.product-info div.swatches div.swatch.active a{background:url(/common/b2b4/img/ico/swatches_active.png) no-repeat 50% 50%}
+div.product-info div.swatches div.swatch a{display:block; width:32px; height:32px; border:1px solid #666}
+div.product-info div.select-inch {margin-top:15px; *zoom:1}
+div.product-info div.select-inch:after {content:""; display:block; clear:both}
+div.product-info div.select-inch ul {float:left; *zoom:1}
+div.product-info div.select-inch ul:after {content:""; display:block; clear:both}
+div.product-info div.select-inch li {float:left; margin-right:1px}
+div.product-info div.select-inch li a,
+div.product-info div.select-inch button {display:block; width:40px; height:34px; line-height:34px; background:#b8d8ee; text-align:center}
+div.product-info div.select-inch button {float:left; width:auto; padding:0 10px}
+div.product-info div.select-inch li.active a,
+div.product-info div.select-inch li a:hover,
+div.product-info div.select-inch button:hover {background:#0071bf; color:#fff}
+
+div.slide-wrap {margin-top:10px; text-align:center}
+div.pdp-slide-area{position:relative; display:inline-block; *display:inline; *zoom:1; vertical-align:top}
+.ie7 div.pdp-slide-area {width:391px}
+.ie7 div.pdp-slide-area .prev .blind,
+.ie7 div.pdp-slide-area .next .blind {position:static; width:100%; font-size:12px; line-height:14px}
+.ss-carousel div.pdp-slide-area ul{position:relative; width:341px; height:60px; overflow:hidden; box-sizing:border-box; border-left:1px solid #c0d5ea}
+.ie7 .ss-carousel div.pdp-slide-area ul {width:343px}
+div.pdp-slide-area ul li{float:left; width:68px; height:60px; line-height:0;}
+div.pdp-slide-area ul li a{display:block; vertical-align:middle; width:67px; height:58px; line-height:58px; border-top:1px solid #c0d5ea; border-bottom:1px solid #c0d5ea; border-right:1px solid #c0d5ea}
+.ie7 div.pdp-slide-area ul li a {display:block; height:50px; padding-top:7px}
+div.pdp-slide-area ul li.current a{width:62px; height:54px; line-height:54px; border:3px solid #0071bf; padding-bottom:0;}
+.ie7 div.pdp-slide-area ul li.current a {width:62px; height:47px}
+div.pdp-slide-area ul li img{width:60px; height:40px; vertical-align:middle;}
+div.pdp-slide-area div.inner{padding:0 25px; margin:0 auto; overflow:hidden}
+button.btn_360 {width:60px; height:60px; margin-left:7px; background:#0071bf; font-family:'SamsungIFBd'; font-size:14px; color:#fff; vertical-align:top}
+button.btn_360 .txt-desk {display:inline-block; padding-top:20px; background:url(/common/b2b4/img/ico/btn_360_desk.png) no-repeat 50% top}
+button.btn_360 .txt-mobile {display:none; padding-right:24px; background:url(/common/b2b4/img/ico/btn_360_mobile.png) no-repeat right 50%; background-size:18px 18px}
+
+div.product-img-section div.pdp-slide-area a.prev{display:block; position:absolute; top:0; left:0; width:20px; height:60px; text-align:center; background:#0071bf; color:#fff;}
+div.product-img-section div.pdp-slide-area a.next{display:block; position:absolute; top:0; right:0; width:20px; height:60px; text-align:center; background:#0071bf; color:#fff;}
+
+div.product-info-section .price-section {margin-top:20px; /*position:absolute; left:28px; bottom:80px;*/}
+div.product-info-section .price-section .price-code {font-size:20px; font-family:'SamsungIFBd'; color:#000}
+div.product-info-section .price-section .eol-msg {color:#0057a4}
+
+div.product-info-section div.wrapper-act{position:absolute; left:28px; bottom:30px; text-align:left; padding:0}
+div.product-info-section div.wrapper-act .btn-type1{text-align:center; margin-right:6px; margin-left:0;}
+div.product-info-section div.wrapper-act .btn-rotate{font-size:21px;}
+div.product-info-section div.wrapper-act .btn-sample-img{font-size:21px;}
+
+div.jump-module{width:100%; border-bottom:1px solid #ccc;}
+div.jump-module .jump-toggle{display:none;}
+div.jump-module div.info-section{border-top:1px solid #ccc; border-bottom:1px solid #ccc;}
+div.jump-module div.info-section .product-title{max-width:1310px; margin:0 auto; padding:10px 28px;}
+div.jump-module div.info-section .product-title h2{font-size:25px; color:#292929;}
+div.jump-module div.inner{max-width:1310px; margin:0 auto; padding:0 28px;}
+ul.jump-link{width:100%; overflow:hidden; margin-bottom:-1px; position:relative;}
+ul.jump-link:after{content:'';border-bottom:1px solid #ccc; height:90px; display:block;}
+ul.jump-link li{float:left; border-bottom:1px solid #ccc;}
+ul.jump-link li a{display:inline-block; padding:33px 20px; font-size:18px; color:#0057a4;}
+ul.jump-link li a.on{background:#0071bf}
+
+div.product-w-inner{max-width:1310px; margin:0 auto; padding:20px 28px;}
+div.product-w-inner:after{content:"";display:block;overflow:hidden;clear:both;visibility:hidden;}
+div.product-w-inner .sec-title {margin-bottom:10px}
+
+.wrapper-act .btn_samp {margin:0}
+.wrapper-act .btn_samp span {display:inline-block; *display:inilne; width:44px; *zoom1}
+.wrapper-act .btn_samp img {width:100%}
+
+.glance-section ul li .glance-con .icon{position:absolute; font-size:26px;width:26px; height:26px;}
+
+div.glance-section{margin:25px 0 0 0;}
+ul.glance-list{}
+ul.glance-list li{padding:0 0 0 13px; position:relative;}
+ul.glance-list li:before{content:""; display:block; width:5px; height:1px; background:#000; position:absolute; left:0; top:12px;}
+
+.module-heading{font-size:32px}
+.module-heading span{display:inline-block; vertical-align:top; text-transform:uppercase}
+
+.desktop-area{display:block;}
+.mobile-area{display:none;}
+
+.similar-content .grid-row .grid-col .col-inner {position:relative}
+    div.product-img-section div.viewer ul li {height:100%}
+    div.product-img-section div.viewer ul li div p span img {width:100%}
+
+@media (min-width:1281px){
+    div.product-img-section div.viewer ul {overflow:hidden; height:480px !important}
+    div.product-img-section div.viewer ul li {overflow:hidden; height:480px}
+    div.product-img-section div.viewer ul li div p span img {width:100%}
+}
+
+@media (min-width:1024px) and (max-width:1280px){
+    div.product-img-section{width:48.5%}
+    div.product-img-section div.ss-carousel [data-role=ui-flick] {height:auto !important}
+    div.product-img-section div.viewer img.responsive-image{width:auto; max-width:100%; height:480px !important}
+
+    div.product-info-section{width:48.5%}
+
+}
+
+@media (max-width:1023px){
+    div.product-w-inner{max-width:1310px; margin:0 auto; padding:20px 15px;}
+    div.num-count{display:block; text-align:center; margin-top:10px}
+    button.btn_360 {position:absolute; right:10px; bottom:2px; width:auto; height:auto; margin-left:7px; background:#fff; font-family:'SamsungIFBd'; font-size:16px; color:#000}
+    button.btn_360 .txt-desk {display:none}
+    button.btn_360 .txt-mobile {display:block}
+    div.product-info-section div.module-wrap {height:auto; min-height:100%; padding-bottom:30px;}
+    div.product-info-section div.wrapper-act {position:static; margin-top:10px;}
+    div.slide-wrap {margin-top:0}
+
+    div.product-info-section .price-section {position:static; margin-top:25px;}
+    div.product-info-section .price-section .price-code {font-size:18px}
+}
+
+@media (min-width:768px) and (max-width:1023px){
+    div.product-img-section{position:static; width:100%; margin-top:40px}
+    div.product-img-section div.viewer {padding-bottom:66%;}
+    div.product-img-section div.viewer ul{position:relative; height:auto;}
+    div.product-img-section div.viewer ul li{position:absolute; height:100%;}
+    div.product-img-section div.viewer ul li a.play-btn {top:-33px; margin-top:33%;}
+    div.product-info-section{float:none; width:100%; margin-top:20px}
+    div.product-info-section div.wrapper-act{margin:0;}
+    div.product-img-section img {height:100%: vertical-align:middle}
+    div.pdp-slide-area{display:none;}
+
+    div.jump-module div.inner{padding:0;}
+
+    .module-heading{font-size:28px}
+
+    div.product-img-section div.viewer .ui-indicator {height:0; padding-bottom:66%}
+    div.product-img-section div.viewer .play-img {height:0; padding-bottom:66%}
+}
+
+@media (max-width:767px){
+    div.product-img-section{position:static; width:100%}
+    div[data-role="ui-flick"]{height:auto !important}
+    div.product-img-section div.viewer {padding-bottom:100%;}
+    div.product-img-section div.viewer ul{position:relative; height:auto;}
+    div.product-img-section div.viewer ul li{position:absolute; height:100%;}
+    div.product-img-section div.viewer img.responsive-image{width:100%}
+    div.product-img-section div.viewer ul li a.play-btn {top:-33px; margin-top:50%;}
+
+    div.product-info-section{float:none; width:100%;}
+    div.product-info-section div.module-wrap{padding:50px 10px 20px}
+    div.product-info div.breadcrumb{font-size:18px;}
+    div.product-info .product-title{font-size:26px;}
+    div.product-info p.product-code{font-size:14px; font-family:'SamsungIFBd';}
+    div.product-info div.badges{font-size:23px;}
+    div.product-info div.swatches{}
+    div.product-info-section div.wrapper-act .btn-type1{width:100%; box-sizing:border-box; font-size:14px; margin:0 0 10px 0}
+    div.product-info-section div.wrapper-act.top button {width:32%; margin:0}
+    .wrapper-act .btn_quote:after {width:13px; height:15px}
+    .wrapper-act .btn_buy:after {width:16px; height:16px}
+
+    div.product-info-section div.compare-button-container {right:10px}
+    div.product-info-section div.wrapper-act .share{width:100%; text-align:center; display:block; margin:10px 0 0; font-size:30px;}
+    div.product-info-section div.wrapper-act{/*left:0; bottom:10px; */box-sizing:border-box; width:100%; margin-top:20px;}
+
+    div.product-info-section {margin-top:10px}
+
+    button.btn_360 .txt-mobile {padding-right:22px; font-size:14px; background-size:16px 16px}
+
+    div.pdp-slide-area{display:none;}
+
+    div.jump-module div.inner{padding:0;}
+    div.jump-module div.info-section .product-title{padding:10px 20px 0;}
+    div.jump-module{border-bottom:none;}
+    div.jump-module div.info-section{border-bottom:none;}
+    div.jump-module .jump-toggle{clear:both; position:relative; z-index:2; display:block; height:58px; cursor:pointer;}
+    div.jump-module .jump-toggle:after{right:20px; position:absolute; top:20px; font-size:13px; font-family:'samsungIcon'; content:"\27"; color:#0057a4;}
+    div.jump-module div.info-section{border-top:1px solid #0057a4;}
+    div.jump-module.open ul.jump-link li a{display:block;}
+    div.jump-module.open .jump-link-list ul{margin-top:0; height:auto; top:0; position:relative;}
+    div.jump-module.open .info-section{border-bottom:none;}
+    div.jump-module.open .jump-link-list ul li a{background:#f1f1f1;}
+    ul.jump-link{position:absolute; left:0; top:-58px; overflow:hidden; z-index:1; width:100%; height:58px;}
+    ul.jump-link:after{content:'';border-bottom:1px solid #ccc; height:auto; display:block;}
+    ul.jump-link li{float:none; border-top:1px solid #fff; border-bottom:none;}
+    ul.jump-link li a{display:block; border-bottom:1px solid #ccc; padding:15px 20px; color:#0057a4; background:#fff; display:none;}
+    ul.jump-link li a.on{background:#fff; color:#0057a4; display:block;}
+
+    div.product-w-inner{padding-left:10px; padding-right:10px}
+
+    .desktop-area{display:none;}
+    .mobile-area{display:block;}
+
+    div.product-img-section div.viewer ul li div p {position:relative; width:100%}
+    div.product-img-section div.viewer ul li div p span img {width:100%}
+
+    .module-heading{font-size:24px}
+
+    div.product-img-section div.viewer .ui-indicator {height:0; padding-bottom:100%}
+    div.product-img-section div.viewer .play-img {height:0; padding-bottom:100%}
+}
+
+/* download */
+table.download-list{width:100%; border-spacing:0;}
+table.download-list th {vertical-align:top}
+table.download-list td{text-align:left; padding:0; width:40%; position:relative; vertical-align:top}
+table.download-list td.title {width:30%}
+table.download-list th.title{font-family:'SamsungIFBd'; width:30%; vertical-align:top; text-align:left}
+table.download-list .date{width:15%;}
+table.download-list .download{width:15%; text-align:right; vertical-align:top}
+table.download-list td div.popover-content{padding:20px;}
+
+.down-list li {min-height:20px; padding:5px 0; word-break:break-word; word-wrap:break-word; *zoom:1; position: relative;}
+.down-list li:after {display:block; content:""; clear:both}
+.down-list li + li {margin-top:5px}
+.down-list li > div {min-height:20px; float:left; box-sizing:border-box}
+.down-list li > div + div {padding-left:15px}
+.down-list li .title {width:20%}
+.down-list li {position:relative;}
+.down-list li .down-cont {/*position:relative; */width:39%}
+.down-list li .date {width:11%}
+.down-list li .download {float:right; width:15%; text-align:right}
+.down-list li .download .btn {line-height:1}
+ul.support-list-type li .down-list li {border:0}
+
+/* make ssd */
+.down-list li .title_ssd {width:53%}
+.down-list li .language {width:20%; color: #9c9c9c; text-align: right;}
+.down-list li .size {width:10%; color: #9c9c9c; text-align: right;}
+.down-list li .version {width:12%; color: #9c9c9c; text-align: right;}
+.down-list li .download_ssd {float:right; width:5%; text-align:right}
+.down-list li .download_ssd a span{display: none;}
+
+@media (max-width:1023px) {
+    .down-list {*zoom:1}
+    .down-list:after {display:block; content:""; clear:both}
+    .down-list li {float:none; width:100%}
+    .down-list li div + div {padding-left:0}
+    .down-list li .title {width:100%}
+    .down-list li .download {float:none; width:100%; text-align:left}
+    .down-list li .down-cont {width:100%}
+    .down-list li .date {width:100%}
+    .down-list li div + div {font-size:16px}
+    .down-list li .title_ssd {width:45%}
+    .down-list li .language {width:25%; color: #9c9c9c; text-align: right;}
+}
+@media (max-width:767px){
+    table.download-list{}
+    table.download-list tr{display:block;}
+    table.download-list td{display:block; width:100%; font-size:18px}
+    table.download-list td.title{width:100%;}
+    table.download-list td.date{width:100%;}
+    table.download-list td.download{width:100%; text-align:left; margin-bottom:15px}
+    table.download-list td.download a.btn.down{font-size:18px}
+
+    .ie9 table.download-list th.title {width:25%}
+    .ie9 table.download-list td{width:25%}
+    .ie9 table.download-list td.title{width:35%;}
+    .ie9 table.download-list td.date{width:20%;}
+    .ie9 table.download-list td.download{width:20%}
+
+    .down-list {*zoom:1}
+    .down-list:after {display:block; content:""; clear:both}
+    .down-list li {float:none; width:100%}
+    .down-list li div + div {padding-left:0; font-size:14px}
+    .down-list li .title {width:100%}
+    .down-list li .download {float:none; width:100%; text-align:left}
+    .down-list li .down-cont {width:100%}
+    .down-list li .date {width:100%}
+    .down-list li .version {width:100%; padding-left: 8px; text-align:left;}
+    .down-list li {float:none; width:100%}
+    /* make ssd */
+    .down-list li .title_ssd { width:100%; margin-bottom: 5px;}
+    .down-list li .language { width:100%; padding-left: 8px; text-align:left;}
+    .down-list li .size { width:100%; padding-left: 8px; text-align:left;}
+    .down-list li .download_ssd {position: absolute; right:0; top: 0; }
+    .down-list li .download_ssd a{margin-top: 0;}
+    .down-list li > div {min-height:auto;}
+}
+/* //download */
+
+/* certificate */
+.certificate {margin-top:10px; line-height:1.2; *zoom:1; margin-bottom:-40px; overflow: hidden;}
+.certificate:after {display:block; content:''; clear:both;}
+.certificate h3 {margin-bottom:10px; font-size:24px; color:#000;}
+.certificate li {margin-bottom:40px; float:left; width:50%;}
+.certificate li .cont_box {position:relative; padding-right:20px;}
+.certificate li .img_box {position:absolute; width:80px;}
+.certificate li .img_box img {width:100%;}
+.certificate li .txt_box {padding-left:100px;}
+.certificate li .act {margin-top:20px;}
+
+@media (min-width:768px) and (max-width:1024) {
+    .certificate h3 {font-size:20px;}
+}
+
+@media (max-width:767px) {
+    .certificate {margin-bottom:-25px;}
+    .certificate h3 {font-size:16px;}
+    .certificate li {margin-bottom:25px; float:none; width:100%;}
+    .certificate li .cont_box {padding-right:0;}
+}
+/* //certificate */
+
+/* pdp ribbon */
+div.hero-module.pdp-hero {position:relative;}
+div.hero-module.pdp-hero .flag {position:absolute; top:29px; left:3px; z-index:10; background-color:#2074dc; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg);}
+div.hero-module.pdp-hero .flag .promotion {font-size: 12px; margin: 0; text-align: center; color: #fff; width: 110px; padding: 15px 0; position: relative;}
+div.hero-module.pdp-hero .flag .promotion:after {content: " "; background: #2074dc; height: 100%; width: 100%; display: block; position: absolute; top: 0; bottom: 0; left: -31px; z-index: 1; -webkit-transform: skewX(-45deg); -moz-transform: skewX(-45deg); -ms-transform: skewX(-45deg); -o-transform: skewX(-45deg); transform: skewX(-45deg);}
+div.hero-module.pdp-hero .flag .promotion:before {content: " "; background: #2074dc; height: 100%; width: 100%; display: block; position: absolute; top: 0; bottom: 0; right: -31px; z-index: 1; -webkit-transform: skewX(45deg); -moz-transform: skewX(45deg); -ms-transform: skewX(45deg); -o-transform: skewX(45deg); transform: skewX(45deg);}
+div.hero-module.pdp-hero .flag .promotion span {position: relative; z-index: 10; display: block; line-height: 1; font-size:16px;}
+div.hero-module.pdp-hero .flag .promotion span:first-child {font-weight:bold;}
+.legacy-ie div.hero-module.pdp-hero .flag {top:50px;}
+.legacy-ie div.hero-module.pdp-hero .flag .promotion {width:80px;}
+.legacy-ie div.hero-module.pdp-hero .flag .promotion:before {background:url('/common/b2b4/img/etc/offer_ie.png') no-repeat right top; right:-21px}
+.legacy-ie div.hero-module.pdp-hero .flag .promotion:after {left:-21px;}
+.offer-area {width:100%; background-color:#0071bf;}
+.offer-area .inner {padding:30px; max-width:1310px; margin:0 auto;}
+.offer-area .inner .tit {width:15%;}
+.offer-area .inner .tit p {font-size:28px;}
+.offer-area .inner .tit p:before {font-family:samsungIcon; content:'\e002'; font-size:40px; vertical-align:middle;}
+.offer-area .inner .txt {margin-left:-4px; width:85%;}
+.offer-area .inner .txt .btn.link {font-size:18px; color:#fff; vertical-align:middle;}
+.offer-area .inner .txt .btn.link:hover {color:#b8d8ee !important;}
+.offer-area .inner .tit,
+.offer-area .inner .txt {display:inline-block; vertical-align:middle; *display:inline; *zoom:1; color:#fff;}
+@media (max-width:1023px) {
+    .offer-area .inner {padding:20px;}
+    .offer-area .inner .tit,
+    .offer-area .inner .txt {display:block; width:100%;}
+    .offer-area .inner .txt {margin-left:3px;}
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    div.hero-module.pdp-hero .flag {top:-11px;}
+}
+
+@media (max-width:768px) {
+    div.hero-module.pdp-hero .flag {top:34px;}
+    div.hero-module.pdp-hero .flag .promotion {padding:10px 0;}
+    div.hero-module.pdp-hero .flag .promotion span {font-size:14px;}
+    .offer-area .inner {padding:20px 10px;}
+}
+
