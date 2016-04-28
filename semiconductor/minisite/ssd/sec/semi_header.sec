@@ -118,7 +118,7 @@
                 <!-- //top utility -->
             </div>
             <div class="util-menu">
-                <button type="button" class="btn-ico call-smartfinder" data-role="ui-btn-show-smartfinder" onClick="sendClickCode('gnb','b2c_selection guide'); location.href='/semiconductor/minisite/ssd/util/selection.html'"><span class="label">selection guide</span></button>
+                <button type="button" class="btn-ico call-smartfinder" onClick="sendClickCode('gnb','b2c_selection guide'); location.href='/semiconductor/minisite/ssd/util/selection.html'"><span class="label">selection guide</span></button>
             </div>
         </div>
     <div class="history_notification" style="display:none">
