@@ -14,11 +14,9 @@
         <div class="space"></div>
         <div class="header">
             <div class="logo">
-
             <a href="/semiconductor/minisite/jp/">
-            <span class="blind">SAMSUNG BUSINESS</span>
-            <span>FLASH STORAGE</span>
-
+                <span class="blind">SAMSUNG BUSINESS</span>
+                <span>FLASH STORAGE</span>
             </a>
             </div>
             <button type="button" class="btn-ico ctl-nav" data-role="ui-nav-btn"><span class="label">Open Menu</span></button>

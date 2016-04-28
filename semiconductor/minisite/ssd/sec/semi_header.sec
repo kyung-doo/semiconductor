@@ -13,8 +13,7 @@
     <div class="header-wrap">
         <div class="space"></div>
         <div class="header">
-            <div class="logo"><a href="/semiconductor/minisite/ssd/" onClick="sendClickCode('gnb','b2c_samsung logo');"><span class="blind">SAMSUNG SSD</span></a></div>
-            <a href="/semiconductor/minisite/ssd/v-nand/technology.html" class="top_link"><span>V-NAND SSD</span></a>
+            <div class="logo"><a href="/semiconductor/minisite/ssd/" onClick="sendClickCode('gnb','b2c_samsung logo');"><span>V-NAND SSD</span><span class="blind">SAMSUNG SSD</span></a></div>
             <button type="button" class="btn-ico ctl-nav" data-role="ui-nav-btn"><span class="label">Open Menu</span></button>
             <div class="overlay"></div>    <!-- dimed layer -->
             <div class="nav">

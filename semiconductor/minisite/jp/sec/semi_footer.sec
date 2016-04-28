@@ -116,6 +116,17 @@
                     </div>
                 </div>
             </div>
+            <div class="grid-row social">
+                <div class="col-inner">
+                    <div class="social_area">
+                        <span>FOLLOW US</span>
+                        <a href="http://www.facebook.com/samsungSSD" target="_blank"><img src="/semiconductor/minisite/ssd/common/img/ico/ico_social_facebook.png" alt="facebook"></a>
+                        <a href="https://www.youtube.com/user/SamsungSSD" target="_blank"><img src="/semiconductor/minisite/ssd/common/img/ico/ico_social_youtube.png" alt="youtube"></a>
+                        <a href="https://www.instagram.com/samsungmemory/" target="_blank"><img src="/semiconductor/minisite/ssd/common/img/ico/ico_social_insta.png" alt="instagram"></a>
+                    </div>
+                </div>
+
+            </div>
         </div>
     <!-- //sitemap-->
         <!-- rows3 wrap copytight-->
@@ -128,7 +139,7 @@
                         <li><a href="#" data-role="ui-btn-privacy">Privacy &amp; Legal</a></li>
                     </ul>
                     <p class="mark">
-                        <a href="/semiconductor/minisite/jp/support/buy.html" class="link">Where to Buy</a>
+                        <a href="/semiconductor/minisite/jp/support/buy.html" class="link">販売店一覧</a>
                     </p>
                 </div>
             </div>
