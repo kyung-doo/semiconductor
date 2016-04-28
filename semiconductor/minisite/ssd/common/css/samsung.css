@@ -2352,11 +2352,13 @@ ul.tab.type5 li a {display:block; padding:9px 5px; vertical-align:middle; box-si
 .toggleTab .floating-jumpmenu {display:none;}
 .toggleTab .floating-jumpmenu ul li {background:#fff;}
 .toggleTab.col4 .floating-jumpmenu ul li {width:25%;}
+.toggleTab.col3 .floating-jumpmenu ul li {width:33.333%;}
 .toggleTab > ul.grid-row {margin-top:20px; position:static; font-size:0;}
 .toggleTab + .toggleTab > ul.grid-row {margin-top:0;}
 .toggleTab > ul:after {content:''; display:block; height:0; overflow:hidden; clear:both;}
 .toggleTab > ul > li {display:inline-block; vertical-align:top; font-size:16px; letter-spacing:0;}
 .toggleTab.col4 > ul > li {width:25%;}
+.toggleTab.col3 > ul > li {width:33.333%;}
 
 .toggleTab .overview {position:relative; margin-left:10px; padding:0 0 54px; box-sizing:border-box; }
 .toggleTab .overview figure img{border: 1px solid #e9e9e9; float: left; border-bottom: none; width: 100%;    box-sizing: border-box;}
