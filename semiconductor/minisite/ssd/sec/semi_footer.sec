@@ -77,6 +77,17 @@
                     </div>
                 </div>
             </div>
+            <div class="grid-row social">
+                <div class="col-inner">
+                    <div class="social_area">
+                        <span>FOLLOW US</span>
+                        <a href="#" target="_blank"><img src="/semiconductor/minisite/ssd/common/img/ico/ico_social_facebook.png" alt="facebook"></a>
+                        <a href="#" target="_blank"><img src="/semiconductor/minisite/ssd/common/img/ico/ico_social_youtube.png" alt="youtube"></a>
+                        <a href="#" target="_blank"><img src="/semiconductor/minisite/ssd/common/img/ico/ico_social_insta.png" alt="instagram"></a>
+                    </div>
+                </div>
+
+            </div>
         </div>
     <!-- //sitemap-->
         <!-- rows3 wrap copytight-->

@@ -4457,7 +4457,9 @@ var JumpUI = Class.extend({
         var pos = item.data('target').offset().top - owner._scope.outerHeight(false) - 20;
 
         if(owner._scope.is(':visible')) {
-            pos = pos + 10;
+            pos = pos - 10;
+//            pos = pos - ($('.floating-jumpmenu .product-title').height()-40);
+
         }
 
         $('html, body').stop().animate({

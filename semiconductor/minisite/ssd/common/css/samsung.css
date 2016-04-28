@@ -1304,7 +1304,7 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 .footer .sitemap h3{text-transform:uppercase;padding:28px 0 10px;font-family:'SamsungIFBd';line-height:1; height:30px; font-size:16px; vertical-align:middle; color:#fff;border-bottom:1px solid #d8d8d8}
 .footer .sitemap h3 span {display:inline-block}
 .footer .sitemap h3:after {display:inline-block; content:""; width:1px; height:30px; vertical-align:middle}
-.footer-row.sitemap .grid-row{padding-bottom:38px}
+.footer-row.sitemap .grid-row{padding-bottom:10px}
 .footer .sitemap .grid-col{float:left}
 .footer .sitemap .grid-col.left{width:25%;}
 .footer .sitemap .grid-col.center{width:50%;}
@@ -2168,7 +2168,7 @@ table.support-info .img-ox {width:20px;}
     .buy_contents .company_list li{float:none; margin-bottom:5px; padding-left:0px; width:100%;}
     .business_service {margin-bottom:0px;}
     .business_service li{float: left; padding-right: 0px; width:100%; box-sizing: border-box; margin-bottom:0px;}
-    .business_service li p{display: block; border:none; font-size:14px; padding:5px 0px ; line-height: 22px;}
+    .business_service li p{display: block; font-size:14px; padding:5px; line-height: 26px; margin-bottom: 5px; height: auto;}
     .business_service li p span{line-height: 24px; width: auto;}
     .business_service li p img{ vertical-align: top; margin-right:10px; border: 1px solid #cccccc;}
     .business_service li p a{position: static; top: auto; right: auto;}
@@ -2476,4 +2476,12 @@ ul.tab.type5 li a {display:block; padding:9px 5px; vertical-align:middle; box-si
 .feature_selection .recommend ul li span{float: left; display: block;}
 .feature_selection .recommend ul li a{display: block; float: right;}
 
-
+.grid-row.social{padding: 0; padding-bottom: 15px !important;}
+.grid-row.social .col-inner{ margin: 0; }
+.grid-row.social .col-inner .social_area{ line-height: 32px; padding-left: 10px;line-height: 50px; height: 50px;}
+.grid-row.social .col-inner .social_area img{vertical-align: middle; margin-right: 2px; display: inline-block;}
+.grid-row.social .col-inner .social_area a{display: inline-block;}
+.grid-row.social .col-inner .social_area span{margin-right: 15px;}
+@media (max-width:767px) {
+    .grid-row.social{padding: 0; padding-bottom:0px !important;}
+}
