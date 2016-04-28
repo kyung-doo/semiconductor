@@ -4210,7 +4210,6 @@ var JumpUI = Class.extend({
 
         owner._content.on('click', function(e) {
             e.preventDefault();
-
             owner._flag = true;
             var $self = $(this);
             var $lazyImages = $('img.lazy');
@@ -4455,10 +4454,15 @@ var JumpUI = Class.extend({
     transition : function(item) {
         var owner = this;
         var pos = item.data('target').offset().top - owner._scope.outerHeight(false) - 20;
-
-        if(owner._scope.is(':visible')) {
-            pos = pos + 10;
+        
+        
+        if( ! owner._scope.hasClass('active') && _common.is_mode() === "MOBILE" ) {
+            pos = pos - 20;
+            //console.log("!!!");
         }
+        
+        //console.log(pos, item.data('target').offset().top, item.data('target').html());
+        
 
         $('html, body').stop().animate({
             'scrollTop' : pos + 'px'
