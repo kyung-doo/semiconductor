@@ -345,7 +345,7 @@ button.ctl-accordion.expanded:after{content:"\28"}
 .floating-jumpmenu ul.col3 li:first-child{width:33.4%}
 .floating-jumpmenu ul.col2 li {overflow:hidden; width:50%; height:56px}
 .floating-jumpmenu ul.col1 li {overflow:hidden; width:100%; height:56px}
-.floating-jumpmenu li span {display:table-cell;vertical-align:middle;padding:0 20px; height:56px; min-width: 50px;}
+.floating-jumpmenu li span {display:table-cell;vertical-align:middle;padding:0; height:56px; min-width: 50px;}
 .floating-jumpmenu.filter_by li span {text-align:left;}
 .floating-jumpmenu li .active, .floating-jumpmenu li .on{width:100%; background:#0071bf;color:#fff;position:relative;z-index:1}
 .floating-jumpmenu>button{width:100%;height:40px;line-height: 1.4;display:none;padding:0 13px;font-family:inherit;color:inherit;text-align:left;position:relative;z-index:5;}
