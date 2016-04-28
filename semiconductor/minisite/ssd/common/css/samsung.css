@@ -1046,7 +1046,7 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 .header-wrap .ctl-nav:before{content:"\2b"}
 .header-wrap .util-menu .ctl-frm:before{content:"\e013";}
 .header-wrap .util-menu .submit-sch:before{content:"\e013";line-height:30px;height:30px}
-.header-wrap .util-menu .where{display: block; background-color: #fff; color: #0057a4; font-family: samsungifblk; width: 140px; height: 30px; line-height: 30px; border-radius: 15px; text-align: center; font-size: 14px; text-transform: uppercase; margin-top: 10px;}
+.header-wrap .util-menu .where{display: block; background-color: #fff; color: #0057a4; font-family: samsungifblk; width: 140px; height: 30px; line-height: 30px; border-radius: 15px; text-align: center; font-size: 14px; text-transform: uppercase; margin-top: 10px; font-weight: 600;}
 .header-wrap .util-menu .where:hover{color:#0057a4; }
 .header-wrap .util-menu .where span:after{content: "\34";    font-family: 'samsungIcon';    display: inline-block;    vertical-align: middle;    margin: 0 0 2px 2px;    position: relative;}
 
@@ -1352,7 +1352,7 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 .footer .bottom .language a{ color:#fff;}
 
 .footer .bottom .mark {float:right; *zoom:1; padding-top: 21px;}
-.footer .bottom .mark a {height:20px; line-height:20px; font-size:14px; font-family:'SamsungIFBlk'; text-transform: uppercase; display: block;}
+.footer .bottom .mark a {height:20px; line-height:20px; font-size:14px; font-family:'SamsungIFBlk'; text-transform: uppercase; display: block; font-weight: 600;}
 .footer .bottom .mark a:after{    content: "\34";font-family: 'samsungIcon'; display: inline-block; vertical-align: middle; margin: 0 0 2px 2px; position: relative;}
 
 .footer .bottom2{padding:10px 0;font-size:12px;}
