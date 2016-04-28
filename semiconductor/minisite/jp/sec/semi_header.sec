@@ -31,7 +31,8 @@
                                 <li><a href="/semiconductor/minisite/jp/ssd/overview.html">Overview</a></li>
                                 <li><a href="/semiconductor/minisite/jp/ssd/v-nand/technology.html">V-NAND Technology</a></li>
                                 <li class="sub">
-                                    <a href="javascript:void(0);">Consumer SSD</a>
+                                    <a href='#' class='retial-mobile-btn'></a>
+                                    <a href="/semiconductor/minisite/jp/ssd/consumer/overview.html" class="retail-link">Consumer SSD</a>
                                     <div class="flyout">
                                         <ul>
                                             <li><a href="/semiconductor/minisite/jp/ssd/consumer/overview.html">Overview</a></li>
@@ -43,7 +44,8 @@
                                     </div>
                                 </li>
                                 <li class="sub">
-                                    <a href="javascript:void(0);">Enterprise SSD</a>
+                                    <a href='#' class='retial-mobile-btn'></a>
+                                    <a href="/semiconductor/minisite/jp/ssd/enterprise/overview.html"  class="retail-link">Enterprise SSD</a>
                                     <div class="flyout ">
                                         <ul>
                                             <li><a href="/semiconductor/minisite/jp/ssd/enterprise/overview.html">Overview</a></li>
@@ -70,7 +72,8 @@
                             <ul data-role="ui-nav-sub">
                                 <li><a href="/semiconductor/minisite/jp/memorycard/overview.html">Overview</a></li>
                                 <li class="sub">
-                                    <a href="javascript:void(0);">microSD</a>
+                                    <a href='#' class='retial-mobile-btn'></a>
+                                    <a href="/semiconductor/minisite/jp/memorycard/microsd/proplus.html" class="retail-link">microSD</a>
                                     <div class="flyout">
                                         <ul>
                                             <li><a href="/semiconductor/minisite/jp/memorycard/microsd/proplus.html">PRO Plus</a></li>
@@ -79,7 +82,8 @@
                                     </div>
                                 </li>
                                 <li class="sub">
-                                    <a href="javascript:void(0);">SD Card</a>
+                                    <a href='#' class='retial-mobile-btn'></a>
+                                    <a href="/semiconductor/minisite/jp/memorycard/sd/proplus.html" class="retail-link">SD Card</a>
                                     <div class="flyout">
                                         <ul>
                                             <li><a href="/semiconductor/minisite/jp/memorycard/sd/proplus.html">PRO Plus</a></li>
@@ -91,7 +95,8 @@
                         </div>
                     </li>
                     <li class="sub">
-                        <a href="javascript:void(0);">USB FLASH DRIVE</a>
+                        <a href='#' class='retial-mobile-btn'></a>
+                        <a href="/semiconductor/minisite/jp/ufd/overview.html" class="retail-link">USB FLASH DRIVE</a>
                         <div class="submenu-container has-flyout">
                             <ul data-role="ui-nav-sub">
                                 <li><a href="/semiconductor/minisite/jp/ufd/overview.html">Overview</a></li>
@@ -106,7 +111,8 @@
                         <div class="submenu-container has-flyout">
                             <ul data-role="ui-nav-sub">
                                 <li class="sub">
-                                    <a href="#">Download by Type</a>
+                                    <a href='#' class='retial-mobile-btn'></a>
+                                    <a href="/semiconductor/minisite/jp/support/tools.html" class="retail-link">Download by Type</a>
                                     <div class="flyout ">
                                         <ul>
                                             <li><a href="/semiconductor/minisite/jp/support/tools.html">Tool &amp; Software</a></li>
@@ -115,7 +121,8 @@
                                     </div>
                                 </li>
                                 <li class="sub">
-                                    <a href="#">Download by Product</a>
+                                    <a href='#' class='retial-mobile-btn'></a>
+                                    <a href="/semiconductor/minisite/jp/support/consumer.html">Download by Product</a>
                                     <div class="flyout ">
                                         <ul>
                                             <li><a href="/semiconductor/minisite/jp/support/consumer.html">Consumer SSD</a></li>
