@@ -1970,22 +1970,22 @@ table.support-info .img-ox {width:20px;}
 
 @media (max-width: 1349px) and (min-width: 1024px)
 {
-    .product-visual .title{width:900px}
-    .product-visual .txt{width:900px}
+    .product-visual .title{ padding-left: 25px; padding-right: 25px; width: auto;}
+    .product-visual .txt{ padding-left: 25px; padding-right: 25px; width: auto;}
     .product-visual .pc_block{display:inline;}
     .product-visual .info{padding:25px}
 }
 
 @media (max-width: 1024px) and (min-width:768px)
 {
-    .product-visual .title{font-size:45px;width:700px}
-    .product-visual .txt{font-size:18px;width:700px}
+    .product-visual .title{font-size:45px;padding-left: 25px; padding-right: 25px; width: auto;}
+    .product-visual .txt{font-size:18px;padding-left: 25px; padding-right: 25px; width: auto;}
     .product-visual .pc_block{display:inline;}
     .product-visual .info{padding:15px}
 }
 
 @media (max-width:767px){
-   .product-visual .title{font-size:29px;width:300px}
+    .product-visual .title{font-size:29px; padding-left: 25px; padding-right: 25px; width: auto;}
    .product-visual .txt{font-size:15px; margin-top:10px; padding-left: 25px; padding-right: 25px; width: auto;}
    .product-visual .txt em{font-size:13px}
    .product-visual{padding-top:70px}
@@ -2000,8 +2000,8 @@ table.support-info .img-ox {width:20px;}
 .product-visual2:first-child{margin-top:50px}
 .product-visual2 .text-con{position:absolute;left:0;top:10%;width:100%}
 .product-visual2 .text-con.white{color:#fff}
-.product-visual2 .title{font-size:64px;line-height:1em;margin:0 auto;font-weight:bold;width:1200px}
-.product-visual2 .txt{font-size:21px;line-height:1.7em;margin:25px auto 0 auto;width:1200px}
+.product-visual2 .title{font-size:64px;line-height:1em;margin:0 auto;font-weight:bold;}
+.product-visual2 .txt{font-size:21px;line-height:1.7em;margin:25px auto 0 auto;}
 .product-visual2 .txt em{font-size:14px;display:block;line-height:1.5em;margin-top:5px}
 .product-visual2 .vi:after{display:block;width:100%;clear:both;content: ""}
 .product-visual2 .vi img{width:100%;max-width:100%;float:left}
@@ -2009,24 +2009,24 @@ table.support-info .img-ox {width:20px;}
 
 @media (max-width: 1349px) and (min-width: 1024px)
 {
-    .product-visual2 .title{width:900px}
-    .product-visual2 .txt{width:900px}
+    .product-visual2 .title{ padding-left: 25px; padding-right: 25px; width: auto;}
+    .product-visual2 .txt{ padding-left: 25px; padding-right: 25px; width: auto;}
     .product-visual2 .pc_block{display: inline;}
 }
 
 @media (max-width: 1024px) and (min-width:768px)
 {
-    .product-visual2 .title{font-size:45px;width:700px}
-    .product-visual2 .txt{font-size:18px;width:700px}
+    .product-visual2 .title{font-size:45px; padding-left: 25px; padding-right: 25px; width: auto;}
+    .product-visual2 .txt{font-size:18px; padding-left: 25px; padding-right: 25px; width: auto;}
     .product-visual2 .pc_block{display: inline;}
 }
 
 @media (max-width:767px){
    .product-visual2 .text-con{top:10%}
-   .product-visual2 .title{font-size:29px;width:300px}
-   .product-visual2 .txt{font-size:15px;width:300px;margin-top:10px}
+    .product-visual2 .title{font-size:29px; padding-left: 25px; padding-right: 25px; width: auto;}
+    .product-visual2 .txt{font-size:15px;margin-top:10px; padding-left: 25px; padding-right: 25px; width: auto;}
    .product-visual2 .txt em{font-size:13px}
-   .product-visual2:first-child{margin-top:0}
+   .product-visual2:first-child{margin-top:0;}
    .product-visual2 .pc_block{display: inline;}
 }
 
@@ -2446,7 +2446,7 @@ ul.tab.type5 li a {display:block; padding:9px 5px; vertical-align:middle; box-si
 }
 
 
-.notice_holiday{border: 1px solid #e9e9e9; padding: 30px 20px; padding-left: 145px; position: relative; min-height: 90px;}
+.notice_holiday{border: 1px solid #e9e9e9; padding: 30px 20px; padding-left: 145px; position: relative; min-height: 90px; background-color: #f1f1f1;}
 .notice_holiday .img{ position: absolute; left: 30px; top: 37px;}
 .notice_holiday dt{font-size: 26px; margin-bottom: 10px;}
 .notice_holiday dd{line-height: 24px;}

@@ -3,6 +3,37 @@
 <!-- 페이지별 css link,js -->
 <script src="/semiconductor/minisite/ssd/common/js/page/home.js"></script>
 <link rel="stylesheet" type="text/css" media="all" href="/semiconductor/minisite/ssd/common/css/pages/pdp.css">
+<script type="text/javascript">
+    $(function ()
+      {
+        var targetNum = getParameter(location.href, "target");
+
+        if(targetNum)
+        {
+            var target = $("div[data-role='ui-jump-target']").eq(targetNum-1);
+            setTimeout(function ()
+                       {
+                $("*[data-role='ui-jump-menu']").find('li').find('a').removeClass('on')
+                $("*[data-role='ui-jump-menu']").find('li').eq(targetNum-1).find('a').addClass('on').click();
+                //                $("html,body").scrollTop(target.position().top-138);
+            }, 100);
+        }
+    });
+    function getParameter (url, param)
+    {
+        var p = url.split("?")[1];
+        if(!p) return "";
+
+        var s = p.split( param + "=" )[1];
+        if(s)
+        {
+            var s2 = s.split("&")[0];
+            return s2;
+        }
+
+        return s;
+    }
+</script>
 <!-- //페이지별 css link,js -->
 
 <title>Portable SSD T3 | FAQs | Samsung Samsung V-NAND SSD</title>        <!-- unique한 페이지 title -->
@@ -19,25 +50,13 @@
     <!-- content -->
 
     <!-- key visual -->
-    <div class="key-visual" data-role="ui-flick" data-autoplay="Y">
-        <div data-role="ui-flick-container">
-            <ul class="item4"  data-role="ui-flick-content">        <!-- class:"item"+slide item sum -->
-                <li>
-                    <div class="screen movie">
-                        <img alt="" data-media-mobile="/semiconductor/minisite/ssd/common/img/kv/kv_whereTobuy_767.jpg" data-media-desktop="/semiconductor/minisite/ssd/common/img/kv/kv_whereTobuy_1920.jpg" class="kv_desktop" />
-                        <div>
-                            <div class="focus-msg">
-                                <h1 class="tit">
-                                    <em>FAQs</em>
-                                    YOUR COMPUTING LIFE
-                                    UPGRADED WITH SAMSUNG
-                                    V-NAND SSD
-                                </h1>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-            </ul>
+    <div class="top-visual-area short-type" data-role="ui-visual-area">
+        <img class="kv-bg" src="/semiconductor/minisite/ssd/common/img/kv/top_visual_download.jpg" alt="">
+        <div class="inarea">
+            <div class="info">
+                <h1>FAQs</h1>
+                <p>問題の解決方法を見つけることができます。</p>
+            </div>
         </div>
     </div>
     <!-- //key visual -->
