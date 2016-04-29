@@ -4,6 +4,41 @@
 <!-- 페이지별 css link,js -->
 <script src="/semiconductor/minisite/ssd/common/js/page/home.js"></script>
 <link rel="stylesheet" type="text/css" media="all" href="/semiconductor/minisite/ssd/common/css/pages/pdp.css">
+<script type="text/javascript">
+
+    $(function ()
+      {
+        var targetNum = getParameter(location.href, "target");
+
+        if(targetNum)
+        {
+            var target = $("div[data-role='ui-jump-target']").eq(targetNum-1);
+            setTimeout(function ()
+                       {
+                $("*[data-role='ui-jump-menu']").find('li').find('a').removeClass('on')
+                $("*[data-role='ui-jump-menu']").find('li').eq(targetNum-1).find('a').addClass('on').click();
+            }, 100);
+        }
+    });
+
+
+    function getParameter (url, param)
+    {
+        var p = url.split("?")[1];
+        if(!p) return "";
+
+        var s = p.split( param + "=" )[1];
+        if(s)
+        {
+            var s2 = s.split("&")[0];
+            return s2;
+        }
+
+        return s;
+    }
+
+
+</script>
 <!-- //페이지별 css link,js -->
 
 <title>Consumer SSD | ダウンロード | Samsung Samsung V-NAND SSD</title>        <!-- unique한 페이지 title -->
@@ -20,25 +55,13 @@
     <!-- content -->
 
     <!-- key visual -->
-    <div class="key-visual" data-role="ui-flick" data-autoplay="Y">
-        <div data-role="ui-flick-container">
-            <ul class="item4"  data-role="ui-flick-content">        <!-- class:"item"+slide item sum -->
-                <li>
-                    <div class="screen movie">
-                        <img alt="Download" data-media-mobile="/semiconductor/minisite/ssd/common/img/kv/kv_download_overview_767.jpg" data-media-desktop="/semiconductor/minisite/ssd/common/img/kv/kv_download_overview_1920.jpg" class="kv_desktop" src="/semiconductor/minisite/ssd/common/img/kv/kv_download_overview_1920.jpg" />
-                        <div>
-                            <div class="focus-msg">
-                                <h1 class="tit">
-                                    <em>Download</em>
-                                    YOUR COMPUTING LIFE
-                                    UPGRADED WITH SAMSUNG
-                                    V-NAND SSD
-                                </h1>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-            </ul>
+    <div class="top-visual-area short-type" data-role="ui-visual-area">
+        <img class="kv-bg" src="/semiconductor/minisite/ssd/common/img/kv/top_visual_download.jpg" alt="">
+        <div class="inarea">
+            <div class="info">
+                <h1>Download by Product – Consumer SSD</h1>
+                <p>コンシューマ向けSamsung SSD用最新のファームウェア、データ移行ツール、および Magician プログラムについてご確認いただけます。</p>
+            </div>
         </div>
     </div>
     <!-- //key visual -->
@@ -77,7 +100,7 @@
                                             <div class="size">17.8MB</div>
                                             <div class="version">Version 4.9.5</div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/software/Samsung_Magician_Setup_v495.zip" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/software/Samsung_Magician_Setup_v495.zip" class="btn down" target="_blank" onclick="sendclickcode('download_b2b','magician software|download:tools and software:magician software');"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -113,7 +136,7 @@
                                             <div class="size">36MB</div>
                                             <div class="version">Version 3.0</div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/software/Samsung_Data_Migration_Setup_v30.zip" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/software/Samsung_Data_Migration_Setup_v30.zip" class="btn down" target="_blank" onclick="sendclickcode('download_b2b','data migration software|download:tools and software:data migration software');"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -220,7 +243,7 @@
                                             <div class="size">1.43MB</div>
                                             <div class="version">Version 1.1</div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/software/Samsung_NVMExpress_Driver_rev11.zip" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/software/Samsung_NVMExpress_Driver_rev11.zip" class="btn down" target="_blank" onclick="sendclickcode('download_b2b','nvme driver installer|download:tools and software:nvme driver installer');"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -289,7 +312,7 @@
                                             <div class="size"></div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/document/White_Paper_M.2_SSDs_Aligned_for_Speed.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/document/White_Paper_M2_SSDs_Aligned_for_Speed.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -307,7 +330,7 @@
                                             <div class="size"></div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
-                                                <a href="http://www.samsung.com/semiconductor/minisite/ssd/html/support/documents.html" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/document/Samsung_SSD_Rapid_Mode_Whitepaper_EN.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -452,7 +475,7 @@
                                         </li>
                                         <li>
                                             <div class="title_ssd">· Warranty Statement</div>
-                                            <div class="language">Finnish</div>
+                                            <div class="language">French</div>
                                             <div class="size">106KB</div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
@@ -652,7 +675,7 @@
                                             <div class="size"></div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/document/SSD_Handling_Guide_M.2_1508.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/document/SSD_Handling_Guide_M2_1508.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
                                             </div>
                                         </li>
                                     </ul>
@@ -679,7 +702,7 @@
                                             <div class="size">17.8MB</div>
                                             <div class="version">Version 4.9.5</div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/software/Samsung_Magician_Setup_v495.zip" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/software/Samsung_Magician_Setup_v495.zip" class="btn down" target="_blank" onclick="sendclickcode('download_b2b','magician software|download:tools and software:magician software');"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -715,7 +738,7 @@
                                             <div class="size">36MB</div>
                                             <div class="version">Version 3.0</div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/software/Samsung_Data_Migration_Setup_v30.zip" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/software/Samsung_Data_Migration_Setup_v30.zip" class="btn down" target="_blank" onclick="sendclickcode('download_b2b','data migration software|download:tools and software:data migration software');"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -864,7 +887,7 @@
                                             <div class="size"></div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
-                                                <a href="http://www.samsung.com/semiconductor/minisite/ssd/html/support/documents.html" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/document/Samsung_SSD_Rapid_Mode_Whitepaper_EN.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -1009,7 +1032,7 @@
                                         </li>
                                         <li>
                                             <div class="title_ssd">· Warranty Statement</div>
-                                            <div class="language">Finnish</div>
+                                            <div class="language">French</div>
                                             <div class="size">106KB</div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
@@ -1209,7 +1232,7 @@
                                             <div class="size"></div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/document/SSD_Handling_Guide_2.5inch_1508.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/document/SSD_Handling_Guide_25inch_1508.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
                                             </div>
                                         </li>
                                     </ul>
@@ -1235,7 +1258,7 @@
                                             <div class="size">17.8MB</div>
                                             <div class="version">Version 4.9.5</div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/software/Samsung_Magician_Setup_v495.zip" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/software/Samsung_Magician_Setup_v495.zip" class="btn down" target="_blank" onclick="sendclickcode('download_b2b','magician software|download:tools and software:magician software');"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -1271,7 +1294,7 @@
                                             <div class="size">36MB</div>
                                             <div class="version">Version 3.0</div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/software/Samsung_Data_Migration_Setup_v30.zip" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/software/Samsung_Data_Migration_Setup_v30.zip" class="btn down" target="_blank" onclick="sendclickcode('download_b2b','data migration software|download:tools and software:data migration software');"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -1402,7 +1425,7 @@
                                             <div class="size"></div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/document/White_Paper_M.2_SSDs_Aligned_for_Speed.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/document/White_Paper_M2_SSDs_Aligned_for_Speed.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -1420,7 +1443,7 @@
                                             <div class="size"></div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
-                                                <a href="http://www.samsung.com/semiconductor/minisite/ssd/html/support/documents.html" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/document/Samsung_SSD_Rapid_Mode_Whitepaper_EN.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -1565,7 +1588,7 @@
                                         </li>
                                         <li>
                                             <div class="title_ssd">· Warranty Statement</div>
-                                            <div class="language">Finnish</div>
+                                            <div class="language">French</div>
                                             <div class="size">106KB</div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
@@ -1765,7 +1788,7 @@
                                             <div class="size"></div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/document/SSD_Handling_Guide_2.5inch_1508.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/document/SSD_Handling_Guide_25inch_1508.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -1774,7 +1797,7 @@
                                             <div class="size"></div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/document/SSD_Handling_Guide_M.2_1508.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/document/SSD_Handling_Guide_M2_1508.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -1809,7 +1832,7 @@
                                             <div class="size">17.8MB</div>
                                             <div class="version">Version 4.9.5</div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/software/Samsung_Magician_Setup_v495.zip" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/software/Samsung_Magician_Setup_v495.zip" class="btn down" target="_blank" onclick="sendclickcode('download_b2b','magician software|download:tools and software:magician software');"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -1845,7 +1868,7 @@
                                             <div class="size">36MB</div>
                                             <div class="version">Version 3.0</div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/software/Samsung_Data_Migration_Setup_v30.zip" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/software/Samsung_Data_Migration_Setup_v30.zip" class="btn down" target="_blank" onclick="sendclickcode('download_b2b','data migration software|download:tools and software:data migration software');"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -1985,7 +2008,7 @@
                                             <div class="size"></div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
-                                                <a href="http://www.samsung.com/semiconductor/minisite/ssd/html/support/documents.html" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/document/Samsung_SSD_Rapid_Mode_Whitepaper_EN.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -2114,7 +2137,7 @@
                                         </li>
                                         <li>
                                             <div class="title_ssd">· Warranty Statement</div>
-                                            <div class="language">Finnish</div>
+                                            <div class="language">French</div>
                                             <div class="size">106KB</div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
@@ -2314,7 +2337,7 @@
                                             <div class="size"></div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/document/SSD_Handling_Guide_2.5inch_1508.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/document/SSD_Handling_Guide_25inch_1508.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
                                             </div>
                                         </li>
                                     </ul>
