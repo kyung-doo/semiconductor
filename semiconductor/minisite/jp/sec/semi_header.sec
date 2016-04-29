@@ -95,9 +95,8 @@
                         </div>
                     </li>
                     <li class="sub">
-                        <a href='#' class='retial-mobile-btn'></a>
-                        <a href="/semiconductor/minisite/jp/ufd/overview.html" class="retail-link">USB FLASH DRIVE</a>
-                        <div class="submenu-container has-flyout">
+                        <a href="javascript:void(0);">USB FLASH DRIVE</a>
+                        <div class="submenu-container">
                             <ul data-role="ui-nav-sub">
                                 <li><a href="/semiconductor/minisite/jp/ufd/overview.html">Overview</a></li>
                                 <li><a href="/semiconductor/minisite/jp/ufd/bar.html">BAR</a></li>
@@ -122,7 +121,7 @@
                                 </li>
                                 <li class="sub">
                                     <a href='#' class='retial-mobile-btn'></a>
-                                    <a href="/semiconductor/minisite/jp/support/consumer.html">Download by Product</a>
+                                    <a href="/semiconductor/minisite/jp/support/consumer.html" class="retail-link">Download by Product</a>
                                     <div class="flyout ">
                                         <ul>
                                             <li><a href="/semiconductor/minisite/jp/support/consumer.html">Consumer SSD</a></li>
@@ -145,7 +144,7 @@
                 <ul class="direct">
                     <li><a href="http://www.samsung.com/jp/home/" class="btn link outlink" target="_blank" title="New window" onclick="sendClickCode('gnb','b2b_utility menu:consumer section');">SAMSUNG OFFICIAL SITE</a></li>
                     <li><a href="https://www.facebook.com/SamsungSSD/" class="btn link outlink" target="_blank" title="New window" onclick="sendClickCode('gnb','b2b_utility menu:partner portal');">SAMSUNG SSD FACE BOOK</a></li>
-                    <li><a href="" class="btn link outlink" target="_blank" title="New window" onclick="sendClickCode('gnb','b2b_utility menu:partner portal');">SAMSUNG Memory card FACE BOOK</a></li>
+                    <li><a href="https://www.facebook.com/SamsungMemory" class="btn link outlink" target="_blank" title="New window" onclick="sendClickCode('gnb','b2b_utility menu:partner portal');">SAMSUNG Memory card FACE BOOK</a></li>
                 </ul>
                 <!-- //top utility -->
             </div>
