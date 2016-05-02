@@ -1,0 +1,176 @@
+{
+
+    "selectionList": [
+       {
+            "contsID": "0001",
+            "contsTitle": "High-end computing with Ultra Speed",
+            "member" : [
+                {
+                    "contsID": "0101",
+                    "contsTitle": "950 PRO",
+                    "contsLink" : "/semiconductor/minisite/jp/ssd/consumer/950pro.html",
+                    "contsCode" : ""
+                }
+            ]
+        },
+        {
+            "contsID": "0002",
+            "contsTitle": "High-end computing with Ultra Endurance",
+            "member" : [
+                {
+                    "contsID": "0201",
+                    "contsTitle": "850 PRO",
+                    "contsLink" : "/semiconductor/minisite/jp/ssd/consumer/850pro.html",
+                    "contsCode" : ""
+                }
+            ]
+        },
+        {
+            "contsID": "0003",
+            "contsTitle": "Every day computing",
+            "member" : [
+                {
+                    "contsID": "0301",
+                    "contsTitle": "850 EVO",
+                    "contsLink" : "/semiconductor/minisite/jp/ssd/consumer/850evo.html",
+                    "contsCode" : ""
+                }
+            ]
+        },
+        {
+            "contsID": "0004",
+            "contsTitle": "Every day computing with Cost Effective",
+            "member" : [
+                {
+                    "contsID": "0401",
+                    "contsTitle": "750 EVO",
+                    "contsLink" : "/semiconductor/minisite/jp/ssd/consumer/750evo.html",
+                    "contsCode" : ""
+                }
+            ]
+        },
+        {
+            "contsID": "0005",
+            "contsTitle": "External storage with mobile connectivity",
+            "member" : [
+                {
+                    "contsID": "0501",
+                    "contsTitle": "T3",
+                    "contsLink" : "/semiconductor/minisite/jp/portable/t3.html",
+                    "contsCode" : ""
+                }
+            ]
+        },
+        {
+            "contsID": "0006",
+            "contsTitle": "Server performance",
+            "member" : [
+                {
+                    "contsID": "0601",
+                    "contsTitle": "PM863 for mixed intensive",
+                    "contsLink" : "/semiconductor/minisite/jp/ssd/enterprise/pm863.html",
+                    "contsCode" : ""
+                },
+                {
+                    "contsID": "0602",
+                    "contsTitle": "SM863 for mixed intensive",
+                    "contsLink" : "/semiconductor/minisite/jp/ssd/enterprise/sm863.html",
+                    "contsCode" : ""
+                }
+            ]
+        },
+        {
+            "contsID": "07",
+            "contsTitle": "High capacity over 1TB",
+            "member" : [
+               {
+                    "contsID": "0701",
+                    "contsTitle": "High-end computing with Ultra Endurance",
+                    "member" : [
+                        {
+                            "contsID": "070101",
+                            "contsTitle": "850 PRO - 1TB",
+                            "contsLink" : "/semiconductor/minisite/jp/ssd/consumer/850pro.html",
+                            "contsCode" : ""
+                        },
+                        {
+                            "contsID": "070102",
+                            "contsTitle": "850 PRO - 2TB",
+                            "contsLink" : "/semiconductor/minisite/jp/ssd/consumer/850pro.html",
+                            "contsCode" : ""
+                        }
+                    ]
+                },
+                {
+                    "contsID": "0702",
+                    "contsTitle": "Every day computing",
+                    "member" : [
+                        {
+                            "contsID": "070201",
+                            "contsTitle": "850 PRO - 1TB",
+                            "contsLink" : "/semiconductor/minisite/jp/ssd/consumer/850pro.html",
+                            "contsCode" : ""
+                        },
+                        {
+                            "contsID": "070202",
+                            "contsTitle": "850 PRO - 2TB",
+                            "contsLink" : "/semiconductor/minisite/jp/ssd/consumer/850pro.html",
+                            "contsCode" : ""
+                        },
+                        {
+                            "contsID": "070203",
+                            "contsTitle": "850 PRO – 4TB/1TB(mSATA)",
+                            "contsLink" : "/semiconductor/minisite/jp/ssd/consumer/850pro.html",
+                            "contsCode" : ""
+                        }
+                    ]
+                },
+                {
+                    "contsID": "0703",
+                    "contsTitle": "External storage with mobile connectivity",
+                    "member" : [
+                        {
+                            "contsID": "070301",
+                            "contsTitle": "T3 - 1TB",
+                            "contsLink" : "/semiconductor/minisite/jp/portable/t3.html",
+                            "contsCode" : ""
+                        },
+                        {
+                            "contsID": "070302",
+                            "contsTitle": "T3 - 2TB",
+                            "contsLink" : "/semiconductor/minisite/jp/portable/t3.html",
+                            "contsCode" : ""
+                        }
+                    ]
+                },
+                {
+                    "contsID": "0704",
+                    "contsTitle": "Server performance",
+                    "member" : [
+                        {
+                            "contsID": "070401",
+                            "contsTitle": "PM863 - 1920 GB",
+                            "contsLink" : "/semiconductor/minisite/jp/ssd/enterprise/pm863.html",
+                            "contsCode" : ""
+                        },
+                        {
+                            "contsID": "070402",
+                            "contsTitle": "PM863 - 3840 GB",
+                            "contsLink" : "/semiconductor/minisite/jp/ssd/enterprise/pm863.html",
+                            "contsCode" : ""
+                        },
+                        {
+                            "contsID": "070403",
+                            "contsTitle": "SM863 - 1920 GB",
+                            "contsLink" : "/semiconductor/minisite/jp/ssd/enterprise/sm863.html",
+                            "contsCode" : ""
+                        }
+                    ]
+                }
+            ]
+        }
+
+
+
+    ]
+}

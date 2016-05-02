@@ -218,96 +218,91 @@
         <!-- //Products -->
 
         <!-- selection_wrap -->
-        <div class="module">
-            <!-- fixed jump menu -->
-            <h2 class="single_title pdp lone" data-role="ui-jump"><span>Selection Guide</span></h2>
-            <!-- //fixed jump menu -->
+        <div data-role="ui-jump-target"  class="module feature-module">
+            <h2 class="sec-title">SELECTION GUIDE</h2>
 
-            <div data-role="ui-jump-target"  class="module feature-module">
-                <h2 class="sec-title">PRODUCT</h2>
+            <div class="grid-row">
+                <div class="col-inner box" data-role="selection-tool" data-url="/semiconductor/minisite/jp/common/json/selection_guide.json" data-tmpl="tmpl-selection_step">
+                        <div class="selection_wrap" data-role="s_height pc tablet_b tablet_a">
+                        <div data-role="ui-accordion">
+                            <div class="select_inner">
+                            <!-- selection_step -->
+                            <div class="selection_step step1">
+                                <div class="selection_inner">
+                                    <h4 class="title s_height_inner" data-role="ui-accordion-btn"><span>STEP1.</span> USAGE</h4>
+                                    <div class="selection_box on">
+                                        <ul id="selection_step1" data-role="ui-accordion-content">
 
-                <div class="grid-row">
-                    <div class="col-inner box" data-role="selection-tool" data-url="/semiconductor/minisite/jp/common/json/selection_guide.json">
-                        <div class="selection_wrap" data-role="s_height pc tablet_b tablet_a" style="margin-top:20px">
-                            <div data-role="ui-accordion">
-                                <!-- selection_step -->
-                                <div class="selection_step step1">
-                                    <div class="selection_inner">
-                                        <h4 class="title s_height_inner" data-role="ui-accordion-btn">STEP1. <span>USAGE</span></h4>
-                                        <div class="selection_box on">
-                                            <ul id="selection_step1" data-role="ui-accordion-content">
-
-                                            </ul>
-                                            <script id="tmpl-selection_step1" type="text/x-jquery-tmpl">
-                                                {{each(i) selectionList}}
-                                                    <li data-id="${contsID}"><a href="javascript:void(0);"><span>${contsTitle}</span></a></li>
-                                                {{/each}}
-                                            </script>
-                                        </div>
+                                        </ul>
+                                        <script id="tmpl-selection_step1" type="text/x-jquery-tmpl">
+                                            {{each(i) selectionList}}
+                                                <li data-id="${contsID}"><a href="javascript:void(0);"><span>${contsTitle}</span></a></li>
+                                            {{/each}}
+                                        </script>
                                     </div>
                                 </div>
-                                <!-- //selection_step -->
+                            </div>
+                            <!-- //selection_step -->
 
-                                <!-- selection_step -->
-                                <div class="selection_step step2">
-                                    <div class="selection_inner">
-                                        <h4 class="title s_height_inner" data-role="ui-accordion-btn">STEP2. <span>FORM FACTOR & INTERFACE</span></h4>
-                                        <div class="selection_box">
-                                            <ul id="selection_step2" data-role="ui-accordion-content">
+                            <!-- selection_step -->
+                            <div class="selection_step step2">
+                                <div class="selection_inner">
+                                    <h4 class="title s_height_inner" data-role="ui-accordion-btn"><span>STEP2.</span> FORM FACTOR & INTERFACE</h4>
+                                    <div class="selection_box">
+                                        <ul id="selection_step2" data-role="ui-accordion-content">
 
-                                            </ul>
-                                            <script id="tmpl-selection_step2" type="text/x-jquery-tmpl">
-                                                {{each(i) selectionList}}
-                                                    <li data-id="${contsID}"><a href="javascript:void(0);"><span>${contsTitle}</span></a></li>
-                                                {{/each}}
-                                            </script>
-                                        </div>
+                                        </ul>
+                                        <script id="tmpl-selection_step2" type="text/x-jquery-tmpl">
+                                            {{each(i) selectionList}}
+                                                <li data-id="${contsID}"><a href="javascript:void(0);"><span>${contsTitle}</span></a></li>
+                                            {{/each}}
+                                        </script>
                                     </div>
                                 </div>
-                                <!-- //selection_step -->
+                            </div>
+                            <!-- //selection_step -->
 
-                                <!-- selection_step -->
-                                <div class="selection_step step3">
-                                    <div class="selection_inner">
-                                        <h4 class="title s_height_inner" data-role="ui-accordion-btn">STEP3. <span>CAPACITY</span></h4>
-                                        <div class="selection_box">
-                                            <ul id="selection_step3" data-role="ui-accordion-content">
+                            <!-- selection_step -->
+                            <div class="selection_step step3">
+                                <div class="selection_inner">
+                                    <h4 class="title s_height_inner" data-role="ui-accordion-btn"><span>STEP3.</span> CAPACITY</h4>
+                                    <div class="selection_box">
+                                        <ul id="selection_step3" data-role="ui-accordion-content">
 
-                                            </ul>
-                                            <script id="tmpl-selection_step3" type="text/x-jquery-tmpl">
-                                                {{each(i) selectionList}}
-                                                    <li data-id="${contsID}"><a href="javascript:void(0);"><span>${contsTitle}</span></a></li>
-                                                {{/each}}
-                                            </script>
-                                        </div>
+                                        </ul>
+                                        <script id="tmpl-selection_step3" type="text/x-jquery-tmpl">
+                                            {{each(i) selectionList}}
+                                                <li data-id="${contsID}"><a href="javascript:void(0);"><span>${contsTitle}</span></a></li>
+                                            {{/each}}
+                                        </script>
                                     </div>
                                 </div>
-                                <!-- //selection_step -->
+                            </div>
+                            <!-- //selection_step -->
+                            </div>
+                            <div class="select_inner_right">
+                            <!-- selection_step -->
+                            <div class="selection_step step4 recommendation">
+                                <div class="selection_inner">
+                                    <h4 class="title s_height_inner recommend_title" data-role="ui-accordion-btn">RECOMMENDATION</h4>
+                                    <div class="selection_box">
+                                        <ul id="selection_step4" data-role="ui-accordion-content">
 
-                                <!-- selection_step -->
-                                <div class="selection_step step4">
-                                    <div class="selection_inner">
-                                        <h4 class="title s_height_inner" data-role="ui-accordion-btn">RECOMMENDATION</h4>
-                                        <div class="selection_box">
-                                            <ul id="selection_step4" data-role="ui-accordion-content">
-
-                                            </ul>
-                                            <script id="tmpl-selection_step4" type="text/x-jquery-tmpl">
-                                                {{each(i) selectionList}}
-                                                    <li data-id="${contsID}"><a href="javascript:void(0);"><span>${contsTitle}</span></a></li>
-                                                {{/each}}
-                                            </script>
-                                        </div>
+                                        </ul>
+                                        <script id="tmpl-selection_step4" type="text/x-jquery-tmpl">
+                                            {{each(i) selectionList}}
+                                                <li data-id="${contsID}"><a href="javascript:void(0);"><span>${contsTitle}</span></a></li>
+                                            {{/each}}
+                                        </script>
                                     </div>
                                 </div>
-                                <!-- //selection_step -->
+                            </div>
+                            <!-- //selection_step -->
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-
         </div>
         <!-- //selection_wrap -->
 
