@@ -5989,6 +5989,7 @@ var SelectionToo = Class.extend({
     init : function(scope) {
         this._scope = scope;
         this._dataUrl = scope.attr("data-url");
+        this._tmpl = scope.attr("data-tmpl");
         this._jsonData;
         this.reinit();
     },
@@ -5996,12 +5997,13 @@ var SelectionToo = Class.extend({
 
     reinit : function() {
         this.loadData();
-
+        var owner = this;
+        
         $(window).bind("resize", function ( e )
         {
             if(_common.is_mode() != 'MOBILE')
             {
-                $("*[id^=selection_step").css({display:""});
+                $("*[id^=selection_step]").css({display:""});
             }
         });
 
@@ -6030,17 +6032,17 @@ var SelectionToo = Class.extend({
             ar.push({"contsID":list[i].contsID, "contsTitle":list[i].contsTitle});
         });
 
-        var tmpl = $("#tmpl-selection_step1").tmpl({selectionList : ar});
-        tmpl.appendTo($("#selection_step1"));
+        var tmpl = $("#"+owner._tmpl+"1").tmpl({selectionList : ar});
+        tmpl.appendTo(owner._scope.find("#selection_step1"));
 
-        $("#selection_step1 li").each(function ()
+        owner._scope.find("#selection_step1").find("li").each(function ()
         {
            $(this).bind("click", function ( e )
            {
-               $("#selection_step1 li").removeClass("on");
+               owner._scope.find("#selection_step1 li").removeClass("on");
                $(this).addClass("on");
                var idx = $(this).index();
-               owner.addList(list[idx].contsID, list[idx].member);
+               owner.addList(list[idx].contsID, list[idx].member, 1);
            });
         });
 
@@ -6048,23 +6050,23 @@ var SelectionToo = Class.extend({
         {
             if(_common.is_mode() != 'MOBILE')
             {
-                $(".selection_step").find(".title").attr("data-role", "");
+                owner._scope.find(".selection_step").find(".title").attr("data-role", "");
             }
             else
             {
-                $(".selection_step").find(".title").attr("data-role", "ui-accordion-btn");
+                owner._scope.find(".selection_step").find(".title").attr("data-role", "ui-accordion-btn");
             }
         });
     },
 
 
-    addList : function ( id, member )
+    addList : function ( id, member, remove )
     {
         var owner = this;
         var step = id.length/2;
         var ar = new Array();
 
-        owner.removeList( step );
+        owner.removeList( remove );
 
         if(member.length == 0) return;
 
@@ -6073,29 +6075,29 @@ var SelectionToo = Class.extend({
             ar.push({"contsID":member[i].contsID, "contsTitle":member[i].contsTitle});
         });
 
-        var tmpl = $("#tmpl-selection_step"+(step+1)).tmpl({selectionList : ar});
-        tmpl.appendTo($("#selection_step"+(step+1)));
-        $("#selection_step"+(step+1)).addClass("on");
-        $("#selection_step"+(step+1)).parent().parent().find(".title").removeClass("dimmed");
+        var tmpl = $("#"+owner._tmpl+(step+1)).tmpl({selectionList : ar});
+        tmpl.appendTo(owner._scope.find("#selection_step"+(step+1)));
+        owner._scope.find("#selection_step"+(step+1)).addClass("on");
+        owner._scope.find("#selection_step"+(step+1)).parent().parent().find(".title").removeClass("dimmed");
         if(_common.is_mode() == 'MOBILE')
         {
-            $("#selection_step"+(step+1)).parent().parent().find(".title").trigger("active");
+            owner._scope.find("#selection_step"+(step+1)).parent().parent().find(".title").trigger("active");
         }
 
 
 
 
-        $("#selection_step"+(step+1)+" li").each(function ( i )
+        owner._scope.find("#selection_step"+(step+1)+" li").each(function ( i )
         {
            $(this).bind("click", function ( e )
            {
-               $("#selection_step"+(step+1)+" li").removeClass("on");
+               owner._scope.find("#selection_step"+(step+1)+" li").removeClass("on");
                $(this).addClass("on");
                var idx = $(this).index();
                if(typeof member[idx].contsLink == "undefined")
                {
                    var idx = $(this).index();
-                   owner.addList(member[idx].contsID, member[idx].member);
+                   owner.addList(member[idx].contsID, member[idx].member, member[idx].contsID.length/2);
                }
                else
                {
@@ -6105,7 +6107,7 @@ var SelectionToo = Class.extend({
                    }
                    else
                    {
-                       $("#selection_step"+(step+1)+" li a").removeClass("link").attr("onClick", "").attr("href", "javascript:void(0);");
+                       owner._scope.find("#selection_step"+(step+1)+" li a").removeClass("link").attr("onClick", "").attr("href", "javascript:void(0);");
                        $(this).find("a").addClass("link");
                    }
                }
@@ -6116,19 +6118,23 @@ var SelectionToo = Class.extend({
 
     removeList : function ( step )
     {
+        var owner = this;
+        
+        console.log(step);
+        
         for(var i = 0; i < 4; i++)
         {
             if(i > step-1)
             {
-                $("#selection_step"+(i+1)).empty();
-                $("#selection_step"+(i+1)).removeClass("on");
-                $("#selection_step"+(i+1)).parent().parent().find(".title").addClass("dimmed");
-                 if(_common.is_mode() == 'MOBILE')
+                owner._scope.find("#selection_step"+(i+1)).empty();
+                owner._scope.find("#selection_step"+(i+1)).removeClass("on");
+                owner._scope.find("#selection_step"+(i+1)).parent().parent().find(".title").addClass("dimmed");
+                if(_common.is_mode() == 'MOBILE')
                 {
-                    if($("#selection_step"+(i+1)).parent().parent().find(".title").is(".expanded"))
+                    if(owner._scope.find("#selection_step"+(i+1)).parent().parent().find(".title").is(".expanded"))
                     {
-                        $("#selection_step"+(i+1)).parent().parent().find(".title").removeClass("expanded");
-                        $("#selection_step"+(i+1)).parent().parent().find(".title").trigger("deActive");
+                        owner._scope.find("#selection_step"+(i+1)).parent().parent().find(".title").removeClass("expanded");
+                        owner._scope.find("#selection_step"+(i+1)).parent().parent().find(".title").trigger("deActive");
                     }
                 }
             }
@@ -6137,5 +6143,8 @@ var SelectionToo = Class.extend({
 
 
 });
+
+
+
 
 

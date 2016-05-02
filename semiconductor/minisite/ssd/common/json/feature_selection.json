@@ -1,160 +1,169 @@
 {
 
     "selectionList": [
-        {
-            "contsID": "01",
-            "contsTitle": "Select most key factor you think"
-        },
-        {
-            "contsID": "02",
+       {
+            "contsID": "0001",
             "contsTitle": "High-end computing with Ultra Speed",
             "member" : [
                 {
-                    "contsID": "0201",
+                    "contsID": "0101",
                     "contsTitle": "950 PRO",
-                    "contsLink" : "/semiconductor/minisite/ssd/product/consumer/950pro.html"
+                    "contsLink" : "/semiconductor/minisite/ssd/product/consumer/950pro.html",
+                    "contsCode" : ""
                 }
             ]
         },
         {
-            "contsID": "03",
+            "contsID": "0002",
             "contsTitle": "High-end computing with Ultra Endurance",
             "member" : [
                 {
-                    "contsID": "0301",
+                    "contsID": "0201",
                     "contsTitle": "850 PRO",
-                    "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850pro.html"
+                    "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850pro.html",
+                    "contsCode" : ""
                 }
             ]
         },
         {
-            "contsID": "04",
+            "contsID": "0003",
             "contsTitle": "Every day computing",
             "member" : [
                 {
-                    "contsID": "0401",
+                    "contsID": "0301",
                     "contsTitle": "850 EVO",
-                    "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850evo.html"
+                    "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850evo.html",
+                    "contsCode" : ""
                 }
             ]
         },
         {
-            "contsID": "05",
+            "contsID": "0004",
             "contsTitle": "Every day computing with Cost Effective",
             "member" : [
                 {
-                    "contsID": "0501",
+                    "contsID": "0401",
                     "contsTitle": "750 EVO",
-                    "contsLink" : "/semiconductor/minisite/ssd/product/consumer/750evo.html"
+                    "contsLink" : "/semiconductor/minisite/ssd/product/consumer/750evo.html",
+                    "contsCode" : ""
                 }
             ]
         },
         {
-            "contsID": "06",
+            "contsID": "0005",
             "contsTitle": "External storage with mobile connectivity",
             "member" : [
                 {
-                    "contsID": "0601",
+                    "contsID": "0501",
                     "contsTitle": "T3",
-                    "contsLink" : "/semiconductor/minisite/ssd/product/portable/t3.html"
+                    "contsLink" : "/semiconductor/minisite/ssd/product/portable/t3.html",
+                    "contsCode" : ""
+                }
+            ]
+        },
+        {
+            "contsID": "0006",
+            "contsTitle": "Server performance",
+            "member" : [
+                {
+                    "contsID": "0601",
+                    "contsTitle": "PM863 for mixed intensive",
+                    "contsLink" : "/semiconductor/minisite/ssd/product/enterprise/pm863.html",
+                    "contsCode" : ""
+                },
+                {
+                    "contsID": "0602",
+                    "contsTitle": "SM863 for mixed intensive",
+                    "contsLink" : "/semiconductor/minisite/ssd/product/enterprise/sm863.html",
+                    "contsCode" : ""
                 }
             ]
         },
         {
             "contsID": "07",
-            "contsTitle": "Server performance",
-            "member" : [
-                {
-                    "contsID": "0701",
-                    "contsTitle": "PM863 for mixed intensive",
-                    "contsLink" : "/semiconductor/minisite/ssd/enterprise/pm863.html"
-                },
-                {
-                    "contsID": "0702",
-                    "contsTitle": "SM863 for mixed intensive",
-                    "contsLink" : "/semiconductor/minisite/ssd/enterprise/sm863.html"
-                }
-            ]
-        },
-        {
-            "contsID": "08",
             "contsTitle": "High capacity over 1TB",
             "member" : [
-                {
-                    "contsID": "0801",
-                    "contsTitle": "Question 문구"
-                },
-                {
-                    "contsID": "0802",
+               {
+                    "contsID": "0701",
                     "contsTitle": "High-end computing with Ultra Endurance",
                     "member" : [
                         {
-                            "contsID": "080201",
+                            "contsID": "070101",
                             "contsTitle": "850 PRO - 1TB",
-                            "contsLink" : "/semiconductor/minisite/ssd/product/consumer/950pro.html"
+                            "contsLink" : "/semiconductor/minisite/ssd/product/consumer/950pro.html",
+                            "contsCode" : ""
                         },
                         {
-                            "contsID": "080202",
+                            "contsID": "070102",
                             "contsTitle": "850 PRO - 2TB",
-                            "contsLink" : "/semiconductor/minisite/ssd/product/consumer/950pro.html"
+                            "contsLink" : "/semiconductor/minisite/ssd/product/consumer/950pro.html",
+                            "contsCode" : ""
                         }
                     ]
                 },
                 {
-                    "contsID": "0803",
+                    "contsID": "0702",
                     "contsTitle": "Every day computing",
                     "member" : [
                         {
-                            "contsID": "080301",
+                            "contsID": "070201",
                             "contsTitle": "850 PRO - 1TB",
-                            "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850pro.html"
+                            "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850pro.html",
+                            "contsCode" : ""
                         },
                         {
-                            "contsID": "080302",
+                            "contsID": "070202",
                             "contsTitle": "850 PRO - 2TB",
-                            "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850pro.html"
+                            "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850pro.html",
+                            "contsCode" : ""
                         },
                         {
-                            "contsID": "080303",
+                            "contsID": "070203",
                             "contsTitle": "850 PRO – 4TB/1TB(mSATA)",
-                            "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850pro.html"
+                            "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850pro.html",
+                            "contsCode" : ""
                         }
                     ]
                 },
                 {
-                    "contsID": "0804",
+                    "contsID": "0703",
                     "contsTitle": "External storage with mobile connectivity",
                     "member" : [
                         {
-                            "contsID": "080401",
+                            "contsID": "070301",
                             "contsTitle": "T3 - 1TB",
-                            "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850evo.html"
+                            "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850evo.html",
+                            "contsCode" : ""
                         },
                         {
-                            "contsID": "080402",
+                            "contsID": "070302",
                             "contsTitle": "T3 - 2TB",
-                            "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850evo.html"
+                            "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850evo.html",
+                            "contsCode" : ""
                         }
                     ]
                 },
                 {
-                    "contsID": "0805",
+                    "contsID": "0704",
                     "contsTitle": "Server performance",
                     "member" : [
                         {
-                            "contsID": "080501",
+                            "contsID": "070401",
                             "contsTitle": "PM863 - 1920 GB",
-                            "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850evo.html"
+                            "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850evo.html",
+                            "contsCode" : ""
                         },
                         {
-                            "contsID": "080502",
+                            "contsID": "070402",
                             "contsTitle": "PM863 - 3840 GB",
-                            "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850evo.html"
+                            "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850evo.html",
+                            "contsCode" : ""
                         },
                         {
-                            "contsID": "080503",
+                            "contsID": "070403",
                             "contsTitle": "SM863 - 1920 GB",
-                            "contsLink" : "/semiconductor/minisite/ssd/product/consumer/750evo.html"
+                            "contsLink" : "/semiconductor/minisite/ssd/product/consumer/750evo.html",
+                            "contsCode" : ""
                         }
                     ]
                 }
