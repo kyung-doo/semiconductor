@@ -14,7 +14,6 @@ function initPage(){
     init_dotdotdot();
     init_data_table();
     init_selection_Tool();
-    init_event();
 };
 
 /****************************************************************************************
