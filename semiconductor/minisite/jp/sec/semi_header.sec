@@ -16,7 +16,7 @@
             <div class="logo">
             <a href="/semiconductor/minisite/jp/">
                 <span class="blind">SAMSUNG BUSINESS</span>
-                <span>FLASH STORAGE</span>
+                <span>FOR FLASH STORAGE</span>
             </a>
             </div>
             <button type="button" class="btn-ico ctl-nav" data-role="ui-nav-btn"><span class="label">Open Menu</span></button>
@@ -143,8 +143,8 @@
                 <!-- top utility -->
                 <ul class="direct">
                     <li><a href="http://www.samsung.com/jp/home/" class="btn link outlink" target="_blank" title="New window" onclick="sendClickCode('gnb','b2b_utility menu:consumer section');">SAMSUNG OFFICIAL SITE</a></li>
-                    <li><a href="https://www.facebook.com/SamsungSSD/" class="btn link outlink" target="_blank" title="New window" onclick="sendClickCode('gnb','b2b_utility menu:partner portal');">SAMSUNG SSD FACE BOOK</a></li>
-                    <li><a href="https://www.facebook.com/SamsungMemory" class="btn link outlink" target="_blank" title="New window" onclick="sendClickCode('gnb','b2b_utility menu:partner portal');">SAMSUNG Memory card FACE BOOK</a></li>
+                    <li><a href="https://www.facebook.com/SamsungSSD/" class="btn link outlink" target="_blank" title="New window" onclick="sendClickCode('gnb','b2b_utility menu:partner portal');">SAMSUNG SSD FACEBOOK</a></li>
+                    <li><a href="https://www.facebook.com/SamsungMemory" class="btn link outlink" target="_blank" title="New window" onclick="sendClickCode('gnb','b2b_utility menu:partner portal');">SAMSUNG Memory card FACEBOOK</a></li>
                 </ul>
                 <!-- //top utility -->
             </div>

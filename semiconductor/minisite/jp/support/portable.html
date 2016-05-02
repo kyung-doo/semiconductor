@@ -4,6 +4,37 @@
 <!-- 페이지별 css link,js -->
 <script src="/semiconductor/minisite/ssd/common/js/page/home.js"></script>
 <link rel="stylesheet" type="text/css" media="all" href="/semiconductor/minisite/ssd/common/css/pages/pdp.css">
+<script type="text/javascript">
+    $(function ()
+      {
+        var targetNum = getParameter(location.href, "target");
+
+        if(targetNum)
+        {
+            var target = $("div[data-role='ui-jump-target']").eq(targetNum-1);
+            setTimeout(function ()
+                       {
+                $("html,body").scrollTop(target.position().top-138);
+            }, 100);
+        }
+    });
+    function getParameter (url, param)
+    {
+        var p = url.split("?")[1];
+        if(!p) return "";
+
+        var s = p.split( param + "=" )[1];
+        if(s)
+        {
+            var s2 = s.split("&")[0];
+            return s2;
+        }
+
+        return s;
+    }
+
+
+</script>
 <!-- //페이지별 css link,js -->
 
 <title>Portable SSD | ダウンロード | Samsung Samsung V-NAND SSD</title>        <!-- unique한 페이지 title -->
@@ -20,25 +51,13 @@
     <!-- content -->
 
     <!-- key visual -->
-    <div class="key-visual" data-role="ui-flick" data-autoplay="Y">
-        <div data-role="ui-flick-container">
-            <ul class="item4"  data-role="ui-flick-content">        <!-- class:"item"+slide item sum -->
-                <li>
-                    <div class="screen movie">
-                        <img alt="Download" data-media-mobile="/semiconductor/minisite/ssd/common/img/kv/kv_download_overview_767.jpg" data-media-desktop="/semiconductor/minisite/ssd/common/img/kv/kv_download_overview_1920.jpg" class="kv_desktop" src="/semiconductor/minisite/ssd/common/img/kv/kv_download_overview_1920.jpg" />
-                        <div>
-                            <div class="focus-msg">
-                                <h1 class="tit">
-                                    <em>Download</em>
-                                    YOUR COMPUTING LIFE
-                                    UPGRADED WITH SAMSUNG
-                                    V-NAND SSD
-                                </h1>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-            </ul>
+    <div class="top-visual-area short-type" data-role="ui-visual-area">
+        <img class="kv-bg" src="/semiconductor/minisite/ssd/common/img/kv/top_visual_download.jpg" alt="">
+        <div class="inarea">
+            <div class="info">
+                <h1>Download by Product – Portable SSD</h1>
+                <p>Samsung ポータブルSSD用の最新のファームウェア、データ移行ツールについてご確認いただけます。</p>
+            </div>
         </div>
     </div>
     <!-- //key visual -->
@@ -75,7 +94,7 @@
                                             <div class="size">3.4MB</div>
                                             <div class="version">Version 1.0</div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/software/T3%20Security%20Enabler%20for%20Win.zip" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/software/T3%20Security%20Enabler%20for%20Win.zip" class="btn down" target="_blank" onclick="sendclickcode('download_b2b','t3 activation software for windows os|download:tools and software:t3 activation software for windows os');"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -84,7 +103,7 @@
                                             <div class="size">2.6MB</div>
                                             <div class="version">Version 1.0</div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/software/T3%20Security%20Enabler%20for%20Mac.zip" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/software/T3%20Security%20Enabler%20for%20Mac.zip" class="btn down" target="_blank" onclick="sendclickcode('download_b2b','t3 activation software for mac os|download:tools and software:t3 activation software for mac os');"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -116,7 +135,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">For Portable SSD - T3(26)</a>
+                                <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">Warranty(26)</a>
                                 <div class="inarea" data-role="ui-accordion-content" style="display: none;">
                                     <ul class="down-list">
                                         <li>
@@ -125,7 +144,7 @@
                                             <div class="size">576KB</div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/document/Portable_SSD_T3_Manual_Full_Description_Bulgarian.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/warranty/Portable_SSD_T3_Full_Warranty_Statment_Bulgarian.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -134,7 +153,7 @@
                                             <div class="size">644KB</div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/document/Portable_SSD_T3_Manual_Full_Description_Chinese(Simplifed).pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/warranty/Portable_SSD_T3_Full_Warranty_Statment_Chinese(Simplifed).pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -143,7 +162,7 @@
                                             <div class="size">567KB</div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/document/Portable_SSD_T3_Manual_Full_Description_Croatian.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/warranty/Portable_SSD_T3_Full_Warranty_Statment_Croatian.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -152,7 +171,7 @@
                                             <div class="size">611KB</div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/document/Portable_SSD_T3_Manual_Full_Description_Czech.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/warranty/Portable_SSD_T3_Full_Warranty_Statment_Czech.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -161,7 +180,7 @@
                                             <div class="size">542KB</div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/document/Portable_SSD_T3_Manual_Full_Description_Danish.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/warranty/Portable_SSD_T3_Full_Warranty_Statment_Danish.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -170,7 +189,7 @@
                                             <div class="size">544KB</div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/document/Portable_SSD_T3_Manual_Full_Description_Dutch.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/warranty/Portable_SSD_T3_Full_Warranty_Statment_Dutch.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -179,7 +198,7 @@
                                             <div class="size">542KB</div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/document/Portable_SSD_T3_Manual_Full_Description_English.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/warranty/Portable_SSD_T3_Full_Warranty_Statment_English.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -188,7 +207,7 @@
                                             <div class="size">542KB</div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/document/Portable_SSD_T3_Manual_Full_Description_Estonian.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/warranty/Portable_SSD_T3_Full_Warranty_Statment_Estonian.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -197,16 +216,16 @@
                                             <div class="size">543KB</div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/document/Portable_SSD_T3_Manual_Full_Description_Finnish.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/warranty/Portable_SSD_T3_Full_Warranty_Statment_Finnish.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="title_ssd">· Warranty Statement</div>
-                                            <div class="language">Finnish</div>
+                                            <div class="language">French</div>
                                             <div class="size">547KB</div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/document/Portable_SSD_T3_Manual_Full_Description_French.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/warranty/Portable_SSD_T3_Full_Warranty_Statment_French.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -215,7 +234,7 @@
                                             <div class="size">535KB</div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/document/Portable_SSD_T3_Manual_Full_Description_German.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/warranty/Portable_SSD_T3_Full_Warranty_Statment_German.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -224,7 +243,7 @@
                                             <div class="size">549KB</div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/document/Portable_SSD_T3_Manual_Full_Description_Greek.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/warranty/Portable_SSD_T3_Full_Warranty_Statment_Greek.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -233,7 +252,7 @@
                                             <div class="size">578KB</div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/document/Portable_SSD_T3_Manual_Full_Description_Hungarian.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/warranty/Portable_SSD_T3_Full_Warranty_Statment_Hungarian.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -242,7 +261,7 @@
                                             <div class="size">547KB</div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/document/Portable_SSD_T3_Manual_Full_Description_Irish.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/warranty/Portable_SSD_T3_Full_Warranty_Statment_Irish.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -251,7 +270,7 @@
                                             <div class="size">669KB</div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/document/Portable_SSD_T3_Manual_Full_Description_Japanese.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/warranty/Portable_SSD_T3_Full_Warranty_Statment_Japanese.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -260,7 +279,7 @@
                                             <div class="size">670KB</div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/document/Portable_SSD_T3_Manual_Full_Description_Korean.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/warranty/Portable_SSD_T3_Full_Warranty_Statment_Korean.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -269,7 +288,7 @@
                                             <div class="size">566KB</div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/document/Portable_SSD_T3_Manual_Full_Description_Latvian.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/warranty/Portable_SSD_T3_Full_Warranty_Statment_Latvian.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -278,7 +297,7 @@
                                             <div class="size">569KB</div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/document/Portable_SSD_T3_Manual_Full_Description_Lithuanian.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/warranty/Portable_SSD_T3_Full_Warranty_Statment_Lithuanian.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -287,7 +306,7 @@
                                             <div class="size">576KB</div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/document/Portable_SSD_T3_Manual_Full_Description_Maltese.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/warranty/Portable_SSD_T3_Full_Warranty_Statment_Maltese.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -296,7 +315,7 @@
                                             <div class="size">579KB</div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/document/Portable_SSD_T3_Manual_Full_Description_Polish.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/warranty/Portable_SSD_T3_Full_Warranty_Statment_Polish.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -305,7 +324,7 @@
                                             <div class="size">549KB</div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/document/Portable_SSD_T3_Manual_Full_Description_Portuguese.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/warranty/Portable_SSD_T3_Full_Warranty_Statment_Portuguese.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -314,7 +333,7 @@
                                             <div class="size">570KB</div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/document/Portable_SSD_T3_Manual_Full_Description_Romanian.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/warranty/Portable_SSD_T3_Full_Warranty_Statment_Romanian.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -323,7 +342,7 @@
                                             <div class="size">574KB</div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/document/Portable_SSD_T3_Manual_Full_Description_Slovak.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/warranty/Portable_SSD_T3_Full_Warranty_Statment_Slovak.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -332,7 +351,7 @@
                                             <div class="size">574KB</div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/document/Portable_SSD_T3_Manual_Full_Description_Slovenian.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/warranty/Portable_SSD_T3_Full_Warranty_Statment_Slovenian.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -341,7 +360,7 @@
                                             <div class="size">545KB</div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/document/Portable_SSD_T3_Manual_Full_Description_Spanish.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/warranty/Portable_SSD_T3_Full_Warranty_Statment_Spanish.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -350,14 +369,14 @@
                                             <div class="size">548KB</div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/document/Portable_SSD_T3_Manual_Full_Description_Swedish.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/warranty/Portable_SSD_T3_Full_Warranty_Statment_Swedish.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
                                             </div>
                                         </li>
                                     </ul>
                                 </div>
                             </li>
                             <li>
-                                <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">User Manual(28)</a>
+                                <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">User Manual(29)</a>
                                 <div class="inarea" data-role="ui-accordion-content" style="display: none;">
                                     <ul class="down-list">
                                         <li>
@@ -375,7 +394,7 @@
                                             <div class="size">644KB</div>
                                             <div class="version"></div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/document/Portable_SSD_T3_Manual_Full_Description_Chinese(Simplifed" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/document/Portable_SSD_T3_Manual_Full_Description_Chinese_Simplifed.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -612,6 +631,15 @@
                                                 <a href="/semiconductor/minisite/ssd/downloads/document/Korean_Portable_SSD_T3_FAQ_Web.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
                                             </div>
                                         </li>
+                                        <li>
+                                            <div class="title_ssd">· T3 FAQs</div>
+                                            <div class="language">Japanese</div>
+                                            <div class="size">266KB</div>
+                                            <div class="version"></div>
+                                            <div class="download_ssd">
+                                                <a href="/semiconductor/minisite/jp/download/Samsung_Portable_SSD_T3_FAQ_Japanese.pdf" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                            </div>
+                                        </li>
                                     </ul>
                                 </div>
                             </li>
@@ -636,7 +664,7 @@
                                             <div class="size">4.5MB</div>
                                             <div class="version">Version 1.0</div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/software/Samsung_Portable_SSD_win.zip" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/software/Samsung_Portable_SSD_win.zip" class="btn down" target="_blank" onclick="sendclickcode('download_b2b',‘t1 activation software for windows os|download:tools and software:t1 activation software for windows os');"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
@@ -645,7 +673,7 @@
                                             <div class="size">2.3MB</div>
                                             <div class="version">Version 1.0</div>
                                             <div class="download_ssd">
-                                                <a href="/semiconductor/minisite/ssd/downloads/software/Samsung_Portable_SSD_Mac.zip" class="btn down" target="_blank" onclick="javascript:void(0);"><span>Download</span></a>
+                                                <a href="/semiconductor/minisite/ssd/downloads/software/Samsung_Portable_SSD_Mac.zip" class="btn down" target="_blank" onclick="sendclickcode('download_b2b',‘t1 activation software for mac os|download:tools and software:t1 activation software for mac os');"><span>Download</span></a>
                                             </div>
                                         </li>
                                         <li>
