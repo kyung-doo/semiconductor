@@ -6103,7 +6103,14 @@ var SelectionToo = Class.extend({
                {
                    if($(this).find("a").is(".link"))
                    {
-                       $(this).find("a").attr("onClick", member[idx].contsCode).attr("href", member[idx].contsLink);
+                       if(member[idx].contsLink != "")
+                       {
+                           $(this).find("a").attr("onClick", member[idx].contsCode).attr("href", member[idx].contsLink);
+                       }
+                       else
+                       {
+                           $(this).find("a").attr("onClick", member[idx].contsCode);
+                       }
                    }
                    else
                    {
@@ -6120,7 +6127,7 @@ var SelectionToo = Class.extend({
     {
         var owner = this;
         
-        console.log(step);
+        //console.log(step);
         
         for(var i = 0; i < 4; i++)
         {
