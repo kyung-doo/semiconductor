@@ -2429,7 +2429,7 @@ ul.tab.type5 li a {display:block; padding:9px 5px; vertical-align:middle; box-si
 .selection_wrap .selection_step .title span{font-family:"SamsungIFRg"; }
 .selection_wrap .selection_box{position:relative;height:413px;overflow:hidden}
 .selection_wrap .selection_box > ul{overflow-y:auto;height:375px;padding:10px;border:solid 1px #dcdcdc;margin-top:15px;background-color:#fff}
-.selection_wrap .selection_box > ul:after{display:block;text-align:center;padding-top:210px;background:url(/semiconductor/minisite/ssd/common/img/ico/ico_selection.png) no-repeat center 130px #fff;font-family:"SamsungIFBd"}
+.selection_wrap .selection_box > ul:after{display:block;text-align:center;padding-top:210px;background:url(/semiconductor/minisite/ssd/common/img/ico/ico_selection.png) no-repeat center 130px ;font-family:"SamsungIFBd"}
 .selection_wrap .step2 .selection_box > ul:after{content:"Select a Usage"}
 .selection_wrap .step3 .selection_box > ul:after{content:"Select a Form Factor or Interface"}
 .selection_wrap .step4 .selection_box > ul:after{content:"Select a Capacity"}
@@ -2440,7 +2440,7 @@ ul.tab.type5 li a {display:block; padding:9px 5px; vertical-align:middle; box-si
 .selection_wrap .selection_box > ul li a.link:after{content:"";display:inline-block;width:9px;height:13px;margin-top:-7px;position:absolute;top:50%;right:20px;background:url(/semiconductor/minisite/ssd/common/img/ico/ico-list-arrow.png) no-repeat}
 
 .selection_wrap.feature_wrap .selection_step{float:left;width:50%; position:relative;box-sizing: border-box;}
-
+.select_inner_right .selection_box > ul{background-color:#f6fbff}
 @media (max-width: 767px){
     .selection_wrap{padding:0}
     .select_inner{padding:0px; border-bottom:none;float:none; width:100%;}
