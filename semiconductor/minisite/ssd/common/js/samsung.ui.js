@@ -6120,7 +6120,7 @@ var SelectionToo = Class.extend({
     {
         var owner = this;
         
-        console.log(step);
+        //console.log(step);
         
         for(var i = 0; i < 4; i++)
         {
