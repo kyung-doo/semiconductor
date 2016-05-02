@@ -495,7 +495,7 @@ a.btn-jump span {text-transform:none}
 .key-visual ul.item5{width:500%}
 .key-visual ul.item5 li{width:20%}
 .key-visual .screen{position:relative;height:0;padding-bottom:28.5505%;background-size:auto 100%;overflow:hidden;background-image:none !important}
-.key-visual li{overflow:hidden;}
+.key-visual li{overflow:hidden; font-size: 21px;}
 .key-visual li .kv_desktop,.key-visual li .kv_mobile {position:absolute; right:0; top:0;}
 .legacy-ie .key-visual li .kv_desktop {width:1920px; height:390px; right:50%; margin-right:-960px}
 .legacy-ie .key-visual.home_kv li .kv_desktop {width:1920px; height:600px; right:50%; margin-right:-960px}
