@@ -32,7 +32,7 @@ button {font-size:14px}
 div.select-product span.word,     .module .cat,     .article2 .no sub {font-size:14px}
 .grid-outer .cat + .tit, .sec-title2 {font-size:24px}
 .sec-board-box .tit {font-size:24px}
-.key-visual .screen .focus-msg .txt {font-size:21px}
+.key-visual .screen .focus-msg .txt {font-size:21px;}
 table th {font-weight:normal}
 @media (min-width:768px) and (max-width:1023px) {
     h1,     div.solution-visual-area div.inarea h1,     .key-visual .screen .focus-msg h1,     .sec-title,     .module .tit {font-size:28px}
