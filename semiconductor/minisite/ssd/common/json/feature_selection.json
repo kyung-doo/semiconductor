@@ -90,13 +90,13 @@
                         {
                             "contsID": "070101",
                             "contsTitle": "850 PRO - 1TB",
-                            "contsLink" : "/semiconductor/minisite/ssd/product/consumer/950pro.html",
+                            "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850pro.html",
                             "contsCode" : ""
                         },
                         {
                             "contsID": "070102",
                             "contsTitle": "850 PRO - 2TB",
-                            "contsLink" : "/semiconductor/minisite/ssd/product/consumer/950pro.html",
+                            "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850pro.html",
                             "contsCode" : ""
                         }
                     ]
@@ -132,13 +132,13 @@
                         {
                             "contsID": "070301",
                             "contsTitle": "T3 - 1TB",
-                            "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850evo.html",
+                            "contsLink" : "/semiconductor/minisite/ssd/product/portable/t3.html",
                             "contsCode" : ""
                         },
                         {
                             "contsID": "070302",
                             "contsTitle": "T3 - 2TB",
-                            "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850evo.html",
+                            "contsLink" : "/semiconductor/minisite/ssd/product/portable/t3.html",
                             "contsCode" : ""
                         }
                     ]
@@ -150,19 +150,19 @@
                         {
                             "contsID": "070401",
                             "contsTitle": "PM863 - 1920 GB",
-                            "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850evo.html",
+                            "contsLink" : "/semiconductor/minisite/ssd/product/enterprise/pm863.html",
                             "contsCode" : ""
                         },
                         {
                             "contsID": "070402",
                             "contsTitle": "PM863 - 3840 GB",
-                            "contsLink" : "/semiconductor/minisite/ssd/product/consumer/850evo.html",
+                            "contsLink" : "/semiconductor/minisite/ssd/product/enterprise/pm863.html",
                             "contsCode" : ""
                         },
                         {
                             "contsID": "070403",
                             "contsTitle": "SM863 - 1920 GB",
-                            "contsLink" : "/semiconductor/minisite/ssd/product/consumer/750evo.html",
+                            "contsLink" : "/semiconductor/minisite/ssd/product/enterprise/sm863.html",
                             "contsCode" : ""
                         }
                     ]
