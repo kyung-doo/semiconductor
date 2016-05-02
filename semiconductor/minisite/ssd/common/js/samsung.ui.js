@@ -2343,7 +2343,7 @@ var FlickUI = Class.extend({
     control : function() {
         var $control = $('div.ctl-carousel');
         var h = $('[data-role=ui-flick-content] li').height() - $('div.screen div').height() - 30;
-
+        /*
         if(ValidationUtil.is_mobile()) {
 
             $control.css({
@@ -2352,6 +2352,7 @@ var FlickUI = Class.extend({
                     });
 
         };
+        */
     },
 
     resize : function() {
@@ -4454,15 +4455,15 @@ var JumpUI = Class.extend({
     transition : function(item) {
         var owner = this;
         var pos = item.data('target').offset().top - owner._scope.outerHeight(false) - 20;
-        
-        
+
+
         if( ! owner._scope.hasClass('active') && _common.is_mode() === "MOBILE" ) {
             pos = pos - 20;
             //console.log("!!!");
         }
-        
+
         //console.log(pos, item.data('target').offset().top, item.data('target').html());
-        
+
 
         $('html, body').stop().animate({
             'scrollTop' : pos + 'px'
@@ -5998,7 +5999,7 @@ var SelectionToo = Class.extend({
     reinit : function() {
         this.loadData();
         var owner = this;
-        
+
         $(window).bind("resize", function ( e )
         {
             if(_common.is_mode() != 'MOBILE')
@@ -6126,9 +6127,9 @@ var SelectionToo = Class.extend({
     removeList : function ( step )
     {
         var owner = this;
-        
+
         //console.log(step);
-        
+
         for(var i = 0; i < 4; i++)
         {
             if(i > step-1)

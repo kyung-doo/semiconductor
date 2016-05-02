@@ -2,6 +2,18 @@
 <!--#include virtual="/semiconductor/minisite/ssd/sec/ssi/header/dochead_html5.sec"-->
 <!-- 페이지별 css link,js -->
 <script src="/semiconductor/minisite/ssd/common/js/page/home.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".social_banner a img").mouseover(function() {
+            var src = $(this).attr("src").replace(".png", "_on.png");
+            $(this).attr("src", src);
+        })
+            .mouseout(function() {
+            var src = $(this).attr("src").replace("_on.png", ".png");
+            $(this).attr("src", src);
+        });
+    })
+</script>
 <!-- //페이지별 css link,js -->
 
 <title>Samsung V-NAND SSD</title>        <!-- unique한 페이지 title -->
