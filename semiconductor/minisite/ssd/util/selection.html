@@ -41,10 +41,11 @@
                 <div class="col-inner box" data-role="selection-tool" data-url="/semiconductor/minisite/ssd/common/json/selection_guide.json">
                     <div class="selection_wrap" data-role="s_height pc tablet_b tablet_a">
                         <div data-role="ui-accordion">
+                            <div class="select_inner">
                             <!-- selection_step -->
                             <div class="selection_step step1">
                                 <div class="selection_inner">
-                                    <h4 class="title s_height_inner" data-role="ui-accordion-btn">STEP1. <span>USAGE</span></h4>
+                                    <h4 class="title s_height_inner" data-role="ui-accordion-btn"><span>STEP1.</span> USAGE</h4>
                                     <div class="selection_box on">
                                         <ul id="selection_step1" data-role="ui-accordion-content">
 
@@ -62,7 +63,7 @@
                             <!-- selection_step -->
                             <div class="selection_step step2">
                                 <div class="selection_inner">
-                                    <h4 class="title s_height_inner" data-role="ui-accordion-btn">STEP2. <span>FORM FACTOR & INTERFACE</span></h4>
+                                    <h4 class="title s_height_inner" data-role="ui-accordion-btn"><span>STEP2.</span> FORM FACTOR & INTERFACE</h4>
                                     <div class="selection_box">
                                         <ul id="selection_step2" data-role="ui-accordion-content">
 
@@ -80,7 +81,7 @@
                             <!-- selection_step -->
                             <div class="selection_step step3">
                                 <div class="selection_inner">
-                                    <h4 class="title s_height_inner" data-role="ui-accordion-btn">STEP3. <span>CAPACITY</span></h4>
+                                    <h4 class="title s_height_inner" data-role="ui-accordion-btn"><span>STEP3.</span> CAPACITY</h4>
                                     <div class="selection_box">
                                         <ul id="selection_step3" data-role="ui-accordion-content">
 
@@ -94,11 +95,12 @@
                                 </div>
                             </div>
                             <!-- //selection_step -->
-
+                            </div>
+                            <div class="select_inner_right">
                             <!-- selection_step -->
-                            <div class="selection_step step4">
+                            <div class="selection_step step4 recommendation">
                                 <div class="selection_inner">
-                                    <h4 class="title s_height_inner" data-role="ui-accordion-btn">RECOMMENDATION</h4>
+                                    <h4 class="title s_height_inner recommend_title" data-role="ui-accordion-btn">RECOMMENDATION</h4>
                                     <div class="selection_box">
                                         <ul id="selection_step4" data-role="ui-accordion-content">
 
@@ -112,6 +114,73 @@
                                 </div>
                             </div>
                             <!-- //selection_step -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-row">
+                <h3>SSD Selection Tool by Feature </h3>
+                <div class="col-inner box" data-role="selection-tool" data-url="/semiconductor/minisite/ssd/common/json/feature_selection.json">
+                    <div class="selection_wrap feature_wrap" data-role="s_height pc tablet_b tablet_a">
+                        <div data-role="ui-accordion">
+                            <div class="select_inner">
+                                <!-- selection_step -->
+                                <div class="selection_step step1">
+                                    <div class="selection_inner">
+                                        <h4 class="title s_height_inner" data-role="ui-accordion-btn"><span>STEP1.</span> Select a key factor you think </h4>
+                                        <div class="selection_box on">
+                                            <ul id="selection_step1" data-role="ui-accordion-content">
+
+                                            </ul>
+                                            <script id="tmpl-selection_step1" type="text/x-jquery-tmpl">
+                                            {{each(i) selectionList}}
+                                                <li data-id="${contsID}"><a href="javascript:void(0);"><span>${contsTitle}</span></a></li>
+                                            {{/each}}
+                                            </script>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- //selection_step -->
+
+                                <!-- selection_step -->
+                                <div class="selection_step step4">
+                                    <div class="selection_inner">
+                                        <h4 class="title s_height_inner" data-role="ui-accordion-btn"><span>STEP2.</span> FORM FACTOR & INTERFACE</h4>
+                                        <div class="selection_box">
+                                            <ul id="selection_step2" data-role="ui-accordion-content">
+
+                                            </ul>
+                                            <script id="tmpl-selection_step2" type="text/x-jquery-tmpl">
+                                            {{each(i) selectionList}}
+                                                <li data-id="${contsID}"><a href="javascript:void(0);"><span>${contsTitle}</span></a></li>
+                                            {{/each}}
+                                            </script>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- //selection_step -->
+                            </div>
+                            <div class="select_inner_right">
+                                <!-- selection_step -->
+                                <div class="selection_step step4 recommendation">
+                                    <div class="selection_inner">
+                                        <h4 class="title s_height_inner recommend_title" data-role="ui-accordion-btn">RECOMMENDATION</h4>
+                                        <div class="selection_box">
+                                            <ul id="selection_step4" data-role="ui-accordion-content">
+
+                                            </ul>
+                                            <script id="tmpl-selection_step4" type="text/x-jquery-tmpl">
+                                            {{each(i) selectionList}}
+                                                <li data-id="${contsID}"><a href="javascript:void(0);"><span>${contsTitle}</span></a></li>
+                                            {{/each}}
+                                            </script>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- //selection_step -->
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -119,44 +188,44 @@
 
 
 
-
-    <!-- //selection_wrap -->
-        <div class="grid-row">
-            <h3>SSD Selection Tool by Feature </h3>
-            <div class="col-inner">
-                <div class="selection_wrap feature_selection" data-role="feature-selection-tool" data-url="/semiconductor/minisite/ssd/common/json/feature_selection.json">
-                    <div class="step01">
-                        <h4 class="title">STEP1.</h4>
-                        <select name="" id="" data-role="ui-select-feature">
-                            <option value="select">Select most key factor you think</option>
-                            <option value="select01">High-end computing with Ultra Speed</option>
-                            <option value="select02">High-end computing with Ultra Endurance</option>
-                            <option value="select03">Every day computing</option>
-                            <option value="select04">Every day computing with Cost Effective</option>
-                            <option value="select05">External storage with mobile connectivity</option>
-                            <option value="select06">Server performance</option>
-                            <option value="select07">High capacity over 1TB</option>
-                        </select>
-                    </div>
-                    <div class="step02" style="display:none;">
-                        <h4 class="title">STEP2.</h4>
-                        <select name="" id="" data-role="ui-select-feature-sub">
-                            <option value="select07">Question 문구</option>
-                            <option value="select07_01">High-end computing with Ultra Endurance</option>
-                            <option value="select07_02">Every day computing</option>
-                            <option value="select07_03">External storage with mobile connectivity</option>
-                            <option value="select07_04">Server performance</option>
-                        </select>
-                    </div>
-                    <div class="recommend">
-                        <h4 class="title">RECOMMEND</h4>
-                        <ul class="recomend_product" data-role="ui-recommend-product">
-                            <li><span class="pro_title">1</span> <a href="">1</a></li>
-                        </ul>
+<!--
+            <div class="grid-row">
+                <h3>SSD Selection Tool by Feature </h3>
+                <div class="col-inner">
+                    <div class="selection_wrap feature_selection" data-role="feature-selection-tool" data-url="/semiconductor/minisite/ssd/common/json/feature_selection.json">
+                        <div class="step01">
+                            <h4 class="title">STEP1.</h4>
+                            <select name="" id="" data-role="ui-select-feature">
+                                <option value="select">Select most key factor you think</option>
+                                <option value="select01">High-end computing with Ultra Speed</option>
+                                <option value="select02">High-end computing with Ultra Endurance</option>
+                                <option value="select03">Every day computing</option>
+                                <option value="select04">Every day computing with Cost Effective</option>
+                                <option value="select05">External storage with mobile connectivity</option>
+                                <option value="select06">Server performance</option>
+                                <option value="select07">High capacity over 1TB</option>
+                            </select>
+                        </div>
+                        <div class="step02" style="display:none;">
+                            <h4 class="title">STEP2.</h4>
+                            <select name="" id="" data-role="ui-select-feature-sub">
+                                <option value="select07">Question 문구</option>
+                                <option value="select07_01">High-end computing with Ultra Endurance</option>
+                                <option value="select07_02">Every day computing</option>
+                                <option value="select07_03">External storage with mobile connectivity</option>
+                                <option value="select07_04">Server performance</option>
+                            </select>
+                        </div>
+                        <div class="recommend">
+                            <h4 class="title">RECOMMEND</h4>
+                            <ul class="recomend_product" data-role="ui-recommend-product">
+                                <li><span class="pro_title">1</span> <a href="">1</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+-->
         </div>
     </div>
 
