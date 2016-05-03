@@ -5142,9 +5142,9 @@ var LayerVideoUI = CommonUI.extend({
             default:
                 break
         }
-        var i = "#000 url(/semiconductor/common/img/layout/logo-samsung-2x.png) no-repeat 50% 50%";
+        var i = "#000";
         if (_common.is_mode() === "MOBILE") {
-            i = "#000 url(/semiconductor/common/img/layout/samsung-semiconductor-logo.png) no-repeat 50% 50%"
+            i = "#000"
         }
         var k = $(document.createElement("div")).attr({
             "class": "ui-layer-content",
