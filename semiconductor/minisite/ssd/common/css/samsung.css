@@ -2250,6 +2250,7 @@ ul.support-list-type>li a.tooltipbox{display:inline-block; padding:0; margin-lef
 .faq_contents .indent{padding-left: 20px;}
 .faq_contents .indent:before{content: "·"; width: 10px; display: inline-block; margin-left: -18px; font-size: 12px; vertical-align: middle; position: relative; top: -1px;}
 .faq_contents a{color: #0057a4;}
+.faq_contents a:hover{text-decoration:underline}
 
 .faq_contents .sub_dl{margin-top:25px;}
 .faq_contents .sub_dl dt{margin-bottom: 10px;}
