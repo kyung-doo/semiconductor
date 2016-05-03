@@ -1537,8 +1537,6 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 }
 @media (min-width:768px) and (max-width:1023px) {
     .video-banner .video-box {padding-left:5px;}
-    .video-banner .video-box .btn-ico.video {top:40%;}
-
 
 }
 @media (max-width:767px) {
