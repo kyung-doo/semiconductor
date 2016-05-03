@@ -2260,6 +2260,7 @@ ul.support-list-type>li a.tooltipbox{display:inline-block; padding:0; margin-lef
 .faq_contents .sub_list_num li{line-height: 24px; margin-bottom: 10px; padding-left: 15px; position: relative;}
 .faq_contents .sub_list_num li:before{}
 .faq_contents .sub_list_num li span{ position: absolute; left: 0; top: 0; line-height: 24px;}
+.faq_contents .sub_list_num li em{font-size:14px}
 .faq_contents .sub_list_num.wide li{padding-left:22px; }
 .faq_contents .top_mg{margin-top:20px;}
 .faq_contents .table_faq{ margin-top: 20px;}
@@ -2305,6 +2306,7 @@ ul.support-list-type>li a.tooltipbox{display:inline-block; padding:0; margin-lef
     ul.support-list-type>li a.close:after,ul.support-list-type>li a.expanded:after{right:15px;}
     .ssd_module h2{font-size: 22px;}
     .ssd_module.faq_container{padding-top:10px;}
+    .faq_contents .sub_list_num li em{font-size:12px}
 }
 
 /* tab */
