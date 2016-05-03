@@ -12,7 +12,7 @@ div.featurebox .info-txt .title{font-family:"SamsungIFBd", Arial, 'メイリオ'
 .product-visual .title{font-weight:bold}
 
 .data-table .proof_tech_list{overflow:hidden}
-.data-table .proof_tech_list li{float:left;width:195px;margin-left:10px}
+.data-table .proof_tech_list li{float:left;width:18.9%;margin-left:10px}
 .data-table .proof_tech_list li:first-child{margin-left:0}
 .data-table .proof_tech_list li img{padding:0}
 .data-table .proof_tech_list li .title{font-weight:bold;margin-top:5px}

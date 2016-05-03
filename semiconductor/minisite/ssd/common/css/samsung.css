@@ -2003,6 +2003,7 @@ table.support-info .img-ox {width:20px;}
 .product-visual2:first-child{margin-top:50px}
 .product-visual2 .text-con{position:absolute;left:0;top:10%;width:100%}
 .product-visual2 .text-con.white{color:#fff}
+.product-visual2 .text-con.white em{color:#fff}
 .product-visual2 .title{font-size:64px;line-height:1.2em;margin:0 auto;font-weight:bold;}
 .product-visual2 .txt{font-size:21px;line-height:1.7em;margin:25px auto 0 auto;}
 .product-visual2 .txt em{font-size:14px;display:block;line-height:1.5em;margin-top:5px; color: #666666;}
