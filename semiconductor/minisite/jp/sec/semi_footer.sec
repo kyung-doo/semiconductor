@@ -94,7 +94,7 @@
                                 <a href="#">Download by Type</a>
                                 <div>
                                     <ul>
-                                        <li><a href="/semiconductor/minisite/jp/support/tools.html" onclick="sendClickCode('gnb','b2c_support:download by type:tool and software');">Tool &amp; Software</a></li>
+                                        <li><a href="/semiconductor/minisite/jp/support/tools.html" onclick="sendClickCode('gnb','b2c_support:download by type:tool and software');">Tools &amp; Software</a></li>
                                         <li><a href="/semiconductor/minisite/jp/support/documents.html" onclick="sesendClickCode('gnb','b2c_support:download by type:documents');">Documents</a></li>
                                     </ul>
                                 </div>
