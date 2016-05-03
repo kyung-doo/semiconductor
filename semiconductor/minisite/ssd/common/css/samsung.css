@@ -602,7 +602,7 @@ a.btn-jump span {text-transform:none}
     .key-visual.home_kv .screen{padding-top:470px;background-size:auto 292px;background-position:right -207px top 0}/* index용 키비쥬얼 추가 css */
     .key-visual.home_kv .screen img{ height: 470px;}
     .key-visual .btn-ico.video{top:146px}
-    
+
 }
 @media (max-width:767px){
     .key-visual {margin-bottom:20px}
@@ -1026,7 +1026,7 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 .submenu-container li.sub.on .flyout, .ie7 .submenu-container li.sub:hover .flyout{display:block}        /*.flyout*/
 .header-wrap .nav ul.direct{color:#0057a4;font-size:14px;line-height:30px;position:absolute;right:28px;top:-30px;}
 .header-wrap .nav ul.direct a{font-size:12px;line-height:30px; letter-spacing: -0.5px;font-family: 'SamsungIFBd'; }
-.header-wrap .nav ul.direct a:hover{color:#b8d8ee !important}
+.header-wrap .nav ul.direct a:hover{/*color:#b8d8ee !important*/ text-decoration: underline;color:#0057a4 !important;}
 .header-wrap .nav ul.direct a:after{font-size:12px}
 .header-wrap .nav ul.direct a.link:after {margin-top:-2px; margin-bottom:0}
 .header-wrap .nav ul.direct a.outlink:after {margin-left:5px; margin-bottom:1px; content:'\e60e'}
