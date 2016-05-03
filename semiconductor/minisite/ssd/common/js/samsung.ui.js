@@ -4381,9 +4381,13 @@ var JumpUI = Class.extend({
         var _sf = $('*[data-role=ui-smartfinder]');
 
         if (owner._limit === 0 || w !== owner._temp_w || owner._smartfinder !== _sf.is(':visible') || _sf.is(':visible')) {
-            owner._limit = Math.round(owner._target.first().offset().top - owner._scope.outerHeight(false)) - 20;
-            owner._temp_w = w;
-            owner._smartfinder = _sf.is(':visible');
+            try
+            {
+                owner._limit = Math.round(owner._target.first().offset().top - owner._scope.outerHeight(false)) - 20;
+                owner._temp_w = w;
+                owner._smartfinder = _sf.is(':visible');
+            }
+            catch(e){}
         }
 
         if (t >= owner._limit) {
