@@ -1,5 +1,5 @@
-﻿{
-   
+{
+
     "reviewsAwardsList": [
         {
             "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/the_ssd_review.jpg",
@@ -19,6 +19,5 @@
             "contsDate" : "August 21, 2015",
             "contsLinkUrl":"http://www.storagereview.com/samsung_sm863_ssd_review"
         }
-        
     ]
 }
