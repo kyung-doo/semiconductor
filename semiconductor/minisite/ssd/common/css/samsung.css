@@ -168,6 +168,7 @@ a.ico.google{background-image:url(/semiconductor/minisite/ssd/common/img/ico/ico
     a.btn {font-size:14px;margin-top:20px;}
     a.btn:after {margin:0 0 0 2px}
     .btn.btn-outlink:after {margin-bottom:6px; height:15px}
+/*    .wrapper-act .btn-type2.show {display: block !important;}*/
 }
 .btn-type1:hover, .btn-ico:hover, .btn-small:hover{background-color:#b8d8ee !important; color:#000 !important}
 .btn-type1:active, .btn-ico:active, .btn-small:active{background-color:#292929 !important;color:#fff !important}
@@ -2059,17 +2060,19 @@ table.support-info .img-ox {width:20px;}
 
 
 .data-table{overflow-x:auto}
-.data-table table{border-collapse:collapse;width:100%;min-width:1000px}
+.data-table table{border-collapse:collapse;width:100%;min-width:1000px; border-left:solid 1px #dcdcdc;}
 .data-table.flex table{min-width:auto}
-.data-table table th{height:30px;padding:10px 30px;text-align:center;background-color:#0071bf;color:#fff;border-top:solid 1px #dcdcdc;border-bottom:solid 1px #dcdcdc}
-.data-table table th:first-child{text-align:left;border-right:solid 1px #dcdcdc}
+.data-table table th{height:30px;padding:10px 30px;text-align:center;background-color:#f1f1f1;border-top:solid 1px #dcdcdc;border-bottom:solid 1px #dcdcdc;border-right:solid 1px #dcdcdc}
+/*.data-table table th:first-child{text-align:left;}*/
 .data-table table th.c{text-align:center !important}
-.data-table table td{text-align:center;min-height:30px;padding:15px 30px;background-color:#fff;border-top:solid 1px #dcdcdc;border-bottom:solid 1px #dcdcdc;border-left:solid 1px #dcdcdc}
+.data-table table td{text-align:center;min-height:30px;padding:15px 30px;background-color:#fff;border-top:solid 1px #dcdcdc;border-bottom:solid 1px #dcdcdc;border-right:solid 1px #dcdcdc}
 .data-table table td.c{text-align:center !important}
 .data-table table td.t{border-right:solid 1px #dcdcdc;border-left:none;color:#0071bf;text-align:left}
 .data-table table td.t2{vertical-align:top;background-color:#f1f1f1;text-align:left;border-left:none}
 .data-table table td.l{text-align:left;vertical-align:top}
 .data-table table td img, .data-table table td p{padding:10px}
+.data-table table tr th:first-child {text-align:left}
+.data-table table tr td:first-child {text-align:left}
 
 
 .fix-table table{border-collapse:collapse;min-width:100%}
