@@ -594,6 +594,7 @@ a.btn-jump span {text-transform:none}
     .key-visual.home_kv .screen .focus-msg.black_style h1{text-shadow:none;}
     .key-visual.home_kv .screen .focus-msg.black_style .txt{color:#fff;text-shadow:none;}
     .key-visual.home_kv .screen .focus-msg .act a{font-size: 14px;}
+    .key-visual.home_kv .screen .focus-msg.black_style .act a{color:#0057A4}
 }
 @media (min-width:768px) and (max-width:1023px){
     .key-visual .screen .focus-msg h1 a{font-size:16px}
@@ -601,6 +602,7 @@ a.btn-jump span {text-transform:none}
     .key-visual.home_kv .screen{padding-top:470px;background-size:auto 292px;background-position:right -207px top 0}/* index용 키비쥬얼 추가 css */
     .key-visual.home_kv .screen img{ height: 470px;}
     .key-visual .btn-ico.video{top:146px}
+    
 }
 @media (max-width:767px){
     .key-visual {margin-bottom:20px}
@@ -1578,6 +1580,7 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 @media (min-width:768px) and (max-width:1023px) {
     .grid-row.v_nand .grid-col4 {width: 50%;}
     .grid-row.v_nand .grid-col4:nth-child(3) .col-inner{border: none;}
+    .grid-row.v_nand .grid-col4 .col-inner{border-left:none}
 
 }
 @media (max-width:767px) {
