@@ -137,8 +137,6 @@
                         </div>
                     </li>
                 </ul>
-
-                <!--#include virtual="/semiconductor/global/ssi/navigation/top_nav.sec"-->
                 <!-- //GNB -->
                 <!-- top utility -->
                 <ul class="direct">
