@@ -9,27 +9,27 @@
                         <h3 class="tit-accordion"><span>SSD</span></h3>
                         <button type="button" class="ctl-accordion closed" data-role="ui-accordion-btn"><span class="blind">SSD layer open</span></button>
                         <ul data-role="ui-accordion-content">
-                            <li><a href="/semiconductor/minisite/jp/ssd/overview.html">Overview</a></li>
-                            <li><a href="/semiconductor/minisite/jp/ssd/v-nand/technology.html">V-NAND Technology</a></li>
+                            <li><a href="/semiconductor/minisite/jp/ssd/overview.html" onclick="sendClickCode('gnb','b2c_ssd:overview');">Overview</a></li>
+                            <li><a href="/semiconductor/minisite/jp/ssd/v-nand/technology.html" onclick="sendClickCode('gnb','b2c_ssd:vnandssd technology');">V-NAND Technology</a></li>
                             <li>
                                 <a href="#">Consumer SSD</a>
                                 <div class="flyout">
                                     <ul>
-                                        <li><a href="/semiconductor/minisite/jp/ssd/consumer/overview.html">Overview</a></li>
-                                        <li><a href="/semiconductor/minisite/jp/ssd/consumer/950pro.html">950 PRO</a></li>
-                                        <li><a href="/semiconductor/minisite/jp/ssd/consumer/850pro.html">850 PRO</a></li>
-                                        <li><a href="/semiconductor/minisite/jp/ssd/consumer/850evo.html">850 EVO</a></li>
-                                        <li><a href="/semiconductor/minisite/jp/ssd/consumer/750evo.html">750 EVO</a></li>
+                                        <li><a href="/semiconductor/minisite/jp/ssd/consumer/overview.html" onclick="sendClickCode('gnb','b2c_ssd:consumerssd:overview');">Overview</a></li>
+                                        <li><a href="/semiconductor/minisite/jp/ssd/consumer/950pro.html" onclick="sendClickCode('gnb','b2c_ssd:consumerssd:950 pro');">950 PRO</a></li>
+                                        <li><a href="/semiconductor/minisite/jp/ssd/consumer/850pro.html" onclick="sendClickCode('gnb','b2c_ssd:consumerssd:850 pro');">850 PRO</a></li>
+                                        <li><a href="/semiconductor/minisite/jp/ssd/consumer/850evo.html" onclick="sendClickCode('gnb','b2c_ssd:consumerssd:850 evo');">850 EVO</a></li>
+                                        <li><a href="/semiconductor/minisite/jp/ssd/consumer/750evo.html" onclick="sendClickCode('gnb','b2c_ssd:consumerssd:750 evo');">750 EVO</a></li>
                                     </ul>
                                 </div>
                             </li>
                             <li>
-                                <a href="#">Enterprise SSD</a>
+                                <a href="/semiconductor/minisite/jp/ssd/enterprise/overview.html"  class="retail-link" onclick="sendClickCode('gnb','b2c_ssd:enterprisessd:overview');">Enterprise SSD</a>
                                 <div class="flyout ">
                                     <ul>
-                                        <li><a href="/semiconductor/minisite/jp/ssd/enterprise/overview.html">Overview</a></li>
-                                        <li><a href="/semiconductor/minisite/jp/ssd/enterprise/sm863.html">SM863</a></li>
-                                        <li><a href="/semiconductor/minisite/jp/ssd/enterprise/pm863.html">PM863</a></li>
+                                        <li><a href="/semiconductor/minisite/jp/ssd/enterprise/overview.html" onclick="sendClickCode('gnb','b2c_ssd:enterprisessd:overview');">Overview</a></li>
+                                        <li><a href="/semiconductor/minisite/jp/ssd/enterprise/sm863.html" onclick="sendClickCode('gnb','b2c_ssd:enterprisessd:sm863');">SM863</a></li>
+                                        <li><a href="/semiconductor/minisite/jp/ssd/enterprise/pm863.html" onclick="sendClickCode('gnb','b2c_ssd:enterprisessd:pm863');">PM863</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -41,8 +41,8 @@
                         <h3 class="tit-accordion"><span>Portable SSD</span></h3>
                         <button type="button" class="ctl-accordion closed" data-role="ui-accordion-btn"><span class="blind">Portable SSD layer open</span></button>
                         <ul data-role="ui-accordion-content">
-                            <li><a href="/semiconductor/minisite/jp/portable/overview.html">Overview</a></li>
-                            <li><a href="/semiconductor/minisite/jp/portable/t3.html">T3</a></li>
+                            <li><a href="/semiconductor/minisite/jp/portable/overview.html" onclick="sendClickCode('gnb','b2c_portablessd:overview');">Overview</a></li>
+                            <li><a href="/semiconductor/minisite/jp/portable/t3.html" onclick="sendClickCode('gnb','b2c_portablessd:t3');">T3</a></li>
                         </ul>
                     </div>
                 </div>
@@ -51,13 +51,13 @@
                         <h3 class="tit-accordion"><span>MEMORY CARD</span></h3>
                         <button type="button" class="ctl-accordion closed" data-role="ui-accordion-btn"><span class="blind">MEMORY CARD layer open</span></button>
                         <ul data-role="ui-accordion-content">
-                            <li><a href="/semiconductor/minisite/jp/memorycard/overview.html">Overview</a></li>
+                            <li><a href="/semiconductor/minisite/jp/memorycard/overview.html" onclick="sendClickCode('gnb','b2c_memorycard:overview');">Overview</a></li>
                             <li>
                                 <a href="#">microSD</a>
                                 <div>
                                     <ul>
-                                        <li><a href="/semiconductor/minisite/jp/memorycard/microsd/proplus.html">PRO Plus</a></li>
-                                        <li><a href="/semiconductor/minisite/jp/memorycard/microsd/evoplus.html">EVO Plus</a></li>
+                                        <li><a href="/semiconductor/minisite/jp/memorycard/microsd/proplus.html" onclick="sendClickCode('gnb','b2c_memorycard:microsd:pro plus');">PRO Plus</a></li>
+                                        <li><a href="/semiconductor/minisite/jp/memorycard/microsd/evoplus.html" onclick="sendClickCode('gnb','b2c_memorycard:microsd:evo plus');">EVO Plus</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -65,8 +65,8 @@
                                 <a href="#">SD Card</a>
                                 <div>
                                     <ul>
-                                        <li><a href="/semiconductor/minisite/jp/memorycard/sd/proplus.html">PRO Plus</a></li>
-                                        <li><a href="/semiconductor/minisite/jp/memorycard/sd/evoplus.html">EVO Plus</a></li>
+                                        <li><a href="/semiconductor/minisite/jp/memorycard/sd/proplus.html" onclick="sendClickCode('gnb','b2c_memorycard:sdcard:pro plus');">PRO Plus</a></li>
+                                        <li><a href="/semiconductor/minisite/jp/memorycard/sd/evoplus.html" onclick="sendClickCode('gnb','b2c_memorycard:sdcard:evo plus');">EVO Plus</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -78,10 +78,10 @@
                         <h3 class="tit-accordion"><span>USB FLASH DRIVE</span></h3>
                         <button type="button" class="ctl-accordion closed" data-role="ui-accordion-btn"><span class="blind">USB FLASH DRIVE layer open</span></button>
                         <ul data-role="ui-accordion-content">
-                            <li><a href="/semiconductor/minisite/jp/ufd/overview.html">Overview</a></li>
-                            <li><a href="/semiconductor/minisite/jp/ufd/bar.html">BAR</a></li>
-                            <li><a href="/semiconductor/minisite/jp/ufd/fit.html">FIT</a></li>
-                            <li><a href="/semiconductor/minisite/jp/ufd/duo.html">DUO</a></li>
+                            <li><a href="/semiconductor/minisite/jp/ufd/overview.html"  onclick="sendClickCode('gnb','b2c_usbflashdrive:overview');">Overview</a></li>
+                            <li><a href="/semiconductor/minisite/jp/ufd/bar.html" onclick="sendClickCode('gnb','b2c_usbflashdrive:bar');">BAR</a></li>
+                            <li><a href="/semiconductor/minisite/jp/ufd/fit.html" onclick="sendClickCode('gnb','b2c_usbflashdrive:fit');">FIT</a></li>
+                            <li><a href="/semiconductor/minisite/jp/ufd/duo.html" onclick="sendClickCode('gnb','b2c_usbflashdrive:duo');">DUO</a></li>
                         </ul>
                     </div>
                 </div>
@@ -94,8 +94,8 @@
                                 <a href="#">Download by Type</a>
                                 <div>
                                     <ul>
-                                        <li><a href="/semiconductor/minisite/jp/support/tools.html">Tool &amp; Software</a></li>
-                                        <li><a href="/semiconductor/minisite/jp/support/documents.html">Documents</a></li>
+                                        <li><a href="/semiconductor/minisite/jp/support/tools.html" onclick="sendClickCode('gnb','b2c_support:download by type:tool and software');">Tool &amp; Software</a></li>
+                                        <li><a href="/semiconductor/minisite/jp/support/documents.html" onclick="sesendClickCode('gnb','b2c_support:download by type:documents');">Documents</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -103,15 +103,15 @@
                                 <a href="#">Download by Product</a>
                                 <div>
                                     <ul>
-                                        <li><a href="/semiconductor/minisite/jp/support/consumer.html">Consumer SSD</a></li>
-                                        <li><a href="/semiconductor/minisite/jp/support/portable.html">Portable SSD</a></li>
-                                        <li><a href="/semiconductor/minisite/jp/support/enterprise.html">Enterprise SSD</a></li>
+                                        <li><a href="/semiconductor/minisite/jp/support/consumer.html" onclick="sendClickCode('gnb','b2c_support:download by product:consumerssd');">Consumer SSD</a></li>
+                                        <li><a href="/semiconductor/minisite/jp/support/portable.html" onclick="sendClickCode('gnb','b2c_support:download by product:portablessd');">Portable SSD</a></li>
+                                        <li><a href="/semiconductor/minisite/jp/support/enterprise.html" onclick="sendClickCode('gnb','b2c_support:download by product:enterprisessd');">Enterprise SSD</a></li>
                                     </ul>
                                 </div>
                             </li>
-                            <li><a href="/semiconductor/minisite/jp/support/selection.html">SSD Selection Guide</a></li>
-                            <li><a href="/semiconductor/minisite/jp/support/faqs.html">FAQs</a></li>
-                            <li><a href="/semiconductor/minisite/jp/support/contact.html">Contact Us</a></li>
+                            <li><a href="/semiconductor/minisite/jp/support/selection.html" onclick="sendClickCode('gnb','b2c_support:ssd selection guide');">SSD Selection Guide</a></li>
+                            <li><a href="/semiconductor/minisite/jp/support/faqs.html" onclick="sendClickCode('gnb','b2c_support:faqs');">FAQs</a></li>
+                            <li><a href="/semiconductor/minisite/jp/support/contact.html" onclick="sendClickCode('gnb','b2c_support:contact us');">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
@@ -139,7 +139,7 @@
                         <li><a href="#" data-role="ui-btn-privacy">Privacy &amp; Legal</a></li>
                     </ul>
                     <p class="mark">
-                        <a href="/semiconductor/minisite/jp/support/buy.html" class="link">販売店一覧</a>
+                        <a href="/semiconductor/minisite/jp/support/buy.html" class="link" onclick="sendClickCode('gnb','b2c_where to buy');">販売店一覧</a>
                     </p>
                 </div>
             </div>
