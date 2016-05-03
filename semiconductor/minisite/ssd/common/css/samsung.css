@@ -1049,7 +1049,7 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 .header-wrap .ctl-nav:before{content:"\2b"}
 .header-wrap .util-menu .ctl-frm:before{content:"\e013";}
 .header-wrap .util-menu .submit-sch:before{content:"\e013";line-height:30px;height:30px}
-.header-wrap .util-menu .where{display: block; background-color: #fff; color: #0057a4;  font-family: 'SamsungIFRg'; height: 30px; line-height: 30px; border-radius: 15px; text-align: center; font-size: 14px; margin-top: 10px; font-weight: 600; padding-left: 15px; padding-right: 10px;}
+.header-wrap .util-menu .where{display: block; background-color: #fff; color: #0057a4;  font-family: 'SamsungIFBlk'; height: 30px; line-height: 30px; border-radius: 15px; text-align: center; font-size: 14px; margin-top: 10px; padding-left: 15px; padding-right: 10px;}
 .header-wrap .util-menu .where:hover{color:#0057a4; }
 .header-wrap .util-menu .where span:after{content: "\34";    font-family: 'samsungIcon';    display: inline-block;    vertical-align: middle;    margin: 0 0 2px 2px;    position: relative;}
 
