@@ -301,9 +301,9 @@ ul.support-list-type li .down-list li {border:0}
 
 /* make ssd */
 .down-list li .title_ssd {width:53%}
-.down-list li .language {width:20%; color: #9c9c9c; text-align: right;}
-.down-list li .size {width:10%; color: #9c9c9c; text-align: right;}
-.down-list li .version {width:12%; color: #9c9c9c; text-align: right;}
+.down-list li .language {width:20%; color: #000; text-align: right;}
+.down-list li .size {width:10%; color: #000; text-align: right;}
+.down-list li .version {width:12%; color: #000; text-align: right;}
 .down-list li .download_ssd {float:right; width:5%; text-align:right}
 .down-list li .download_ssd a span{display: none;}
 
