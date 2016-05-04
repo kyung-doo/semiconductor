@@ -338,7 +338,7 @@ button.ctl-accordion.expanded:after{content:"\28"}
 .floating-jumpmenu ul {overflow:hidden; z-index:10;  border-left:1px solid #dcdcdc}
 .floating-jumpmenu ul:before, ul.jump-link:before {content:"";background:#e3e3e3;height:1px;position:absolute;left:0;right:0;top:56px;z-index:5}
 .floating-jumpmenu li, ul.jump-link li {float:left; /*position:relative*/} /*//20150803 mobile jellybean 4.2 에서 fixed 후, event 영역을 갱신하지 못하는 문제가 있어서 relative 를 제거함*/
-.floating-jumpmenu li a{display:table;width:100%; background:none; border-right:1px solid #dcdcdc; box-sizing:border-box}
+.floating-jumpmenu li a{display:table;width:100%; background:none; border-right:1px solid #dcdcdc; box-sizing:border-box;font-family:"SamsungIFBlk"}
     .ie7 .floating-jumpmenu li a {display:block; height:20px; padding:20px 0}
 .floating-jumpmenu ul.col5 li{overflow:hidden; width:20%; }
 .floating-jumpmenu ul.col4 li{overflow:hidden; width:25%; height:56px}
