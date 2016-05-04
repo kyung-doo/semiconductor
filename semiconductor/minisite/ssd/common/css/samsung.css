@@ -90,6 +90,7 @@ a.btn.link:after{content:"\34"}
 a.btn.link2:before{content:"\5f"}
 a.btn.pop:after{content:"\34"}
 a.btn.down:after{content:"\e00a"}
+a.btn.down:hover:after{color: #b8d8ee ;}
 a.btn.print:after{content:"\e61e"; font-size:1.1rem;}
 a.btn.top:after{content:"\4e"}
 a.btn.outlink:after{content:"\e60e"; margin-left:5px;}
@@ -2128,6 +2129,7 @@ table.support-info .img-ox {width:20px;}
 .down-overview .down-list.new a:hover{color:#0071bf !important}
 .down-overview .down-list.popular a:hover{color:#4a4a4a !important}
 
+
 @media (max-width: 1023px) and (min-width: 768px){
     .down-overview .down-title{padding-left:15px}
     .down-overview .down-list.popular{min-height: 102px;}
@@ -2430,7 +2432,7 @@ ul.tab.type5 li a {display:block; padding:9px 5px; vertical-align:middle; box-si
 .select_inner_right .selection_step{float: none; width: 100% !important;}
 .selection_wrap .selection_inner{padding:5px}
 .selection_wrap .selection_step.recommendation{}
-.selection_wrap .selection_step .title{padding-top:10px;font-size:18px;font-family:"SamsungIFBd";text-transform: uppercase;}
+.selection_wrap .selection_step .title{padding-top:10px;font-size:18px;font-family:"SamsungIFBd";}
 .selection_wrap .selection_step .title.recommend_title{color: #0057a4;}
 .selection_wrap .selection_step .title span{font-family:"SamsungIFRg"; }
 .selection_wrap .selection_box{position:relative;height:413px;overflow:hidden}

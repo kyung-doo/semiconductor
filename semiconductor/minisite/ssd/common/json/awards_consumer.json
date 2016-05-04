@@ -2,18 +2,6 @@
 
     "reviewsAwardsList": [
         {
-            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/ces.jpg",
-            "contsTitle": "CES 2016 Innovation Awards honoree - Samsung SSD 950 PRO 512GB",
-            "contsDate" : "January 04, 2016",
-            "contsLinkUrl":""
-        },
-        {
-            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/ces.jpg",
-            "contsTitle": "CES 2016 Innovation Awards honoree - Samsung SSD 850 PRO 2TB",
-            "contsDate" : "January 04, 2016",
-            "contsLinkUrl":""
-        },
-        {
             "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/pcper.jpg",
             "contsTitle": "V-NAND Showdown - Samsung 850 EVO V1 and V2 Compared - 32 (V2) vs. 48 (V3) Layer Flash",
             "contsDate" : "March 18, 2016",
@@ -216,6 +204,18 @@
             "contsTitle": "Samsung 850 Pro SSD Review - Showing Off With 3D V-NAND",
             "contsDate" : "June 30, 2014",
             "contsLinkUrl":"http://www.thessdreview.com/our-reviews/samsung-850-pro-ssd-review-showing-3d-v-nand/"
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/ces.jpg",
+            "contsTitle": "CES 2016 Innovation Awards honoree - Samsung SSD 950 PRO 512GB",
+            "contsDate" : "January 04, 2016",
+            "contsLinkUrl":""
+        },
+        {
+            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/ces.jpg",
+            "contsTitle": "CES 2016 Innovation Awards honoree - Samsung SSD 850 PRO 2TB",
+            "contsDate" : "January 04, 2016",
+            "contsLinkUrl":""
         }
     ]
 }
