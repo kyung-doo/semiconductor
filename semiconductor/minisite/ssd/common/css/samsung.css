@@ -2446,7 +2446,7 @@ ul.tab.type5 li a {display:block; padding:9px 5px; vertical-align:middle; box-si
 .selection_wrap .selection_box > ul li a{position:relative;display:block;padding:15px 10px;border-bottom:solid 1px #e9e9e9}
 .selection_wrap .selection_box > ul li a span{display:inline-block;width:93%}
 .selection_wrap .selection_box > ul li.on a{background-color:#0057a4;color:#fff}
-.selection_wrap .selection_box > ul li a.link:after{position:absolute;top:15px;right:10px;content: "\34";font-family: 'samsungIcon'; display: inline-block; vertical-align: middle; margin: 0 0 2px 2px}
+.selection_wrap .selection_box > ul li a.link:after{position:absolute;top:15px;right:5px;content: "\34";font-family: 'samsungIcon'; display: inline-block; vertical-align: middle; margin: 0 0 2px 2px}
 
 .selection_wrap.feature_wrap .selection_step{float:left;width:50%; position:relative;box-sizing: border-box;}
 .select_inner_right .selection_box > ul{background-color:#f6fbff}
