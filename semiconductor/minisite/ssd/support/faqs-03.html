@@ -115,8 +115,8 @@ $(function ()
                                         <li>Some Samsung SSD models (840, 840 Pro, 840 Evo, 850 PRO) support AES-256bit. 256bit refers to the length of the key used for data encryption. The larger the bit number, the more powerful the encryption becomes.</li>
                                         <li>If you enable the HDD Password in BIOS, SED using the Class0 mode will be enabled, and you don't need to install separate software. <br>
                                             Some systems or BIOS may not support this feature.</li>
-                                        <li>How to set up AES encryption:
-                                            <p class="indent">In BIOS, Security > Password on boot > HDD Password (※May differ depending on the BIOS)</p>
+                                        <li>How to set up AES encryption
+                                            <p class="indent">In BIOS, Security > Password on boot > HDD Password (※ May differ depending on the BIOS)</p>
                                         </li>
                                         <li>The encryption key set for the AES is stored in the NAND of the SSD. If the key is lost, you can only reset the encryption key by performing a Secure Erase. If you do so, all existing data will be lost.</li>
                                     </ul>
@@ -140,13 +140,13 @@ $(function ()
                             <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">What is e-DRIVE, and how do I use it? </a>
                             <div class="inarea" data-role="ui-accordion-content" style="display: none;">
                                 <div class="faq_contents">
-                                    <p class="text">eDrive (available for 840 EVO and 850 PRO): <br>
+                                    <p class="text">[eDrive (available for 840 EVO and 850 PRO)] <br>
                                         eDrvie linked with BitLocker software is a technology to improve the security performance of BitLocker, which is provided by the Microsoft Windows operating system.<br>
                                         BitLocker uses software-handled encryption, but when it is linked with a storage device that supports eDrive, it can perform hardware-based encryption, thereby improving both security and performance while minimizing CPU usage.<br>
                                         After installing an operating system on a storage device that supports eDrive, run BitLocker, which will automatically link the two. Among Samsung SSD models, 840 EVO supports eDRIVE.
                                     </p>
                                     <dl class="sub_dl">
-                                        <dt>How to set up e-DRIVE:</dt>
+                                        <dt>[How to set up e-DRIVE]</dt>
                                         <dd>You can convert e-Drive to “Ready to enable” by using Magician software. Then, the e-Drive is automatically enabled when a clean installation of an eDrive-compatible OS is performed. </dd>
                                         <dd>When e-Drive is Enabled, you cannot use Magician to manually change the status to Disabled or Ready to enable. For more information, please contact customer service or your OS provider (Microsoft).</dd>
                                     </dl>
@@ -227,7 +227,7 @@ $(function ()
                                         <li><span>3.</span>In the "Policy" tab, check "Enable write caching on the device (W)".</li>
 
                                     </ul>
-                                    <p class="text">This procedure is already described in the OS optimization methods section of the manual, but it is mentioned here again for those who are specifically interested in Write Cache</p>
+                                    <p class="text">This procedure is already described in the OS optimization methods section of the manual, but it is mentioned here again for those who are specifically interested in Write Cache.</p>
                                 </div>
                             </div>
                         </li>
@@ -299,7 +299,7 @@ $(function ()
                                         <li><span>2.</span> Because SSDs are based on NAND flash memory, which has no moving parts, they benefit from very high levels of reliability and durability. <br>Additionally, the lack of mechanical components also results in lower power consumption, which means longer battery life for notebook users.
                                         </li>
                                         <li><span>3.</span>SSDs can fit into much smaller form factors, making them suitable for use in the latest ultra-portable machines that are on the market
-                                            <p class="indent">and less bulk and fewer components also means less weight.</p>
+                                        and less bulk and fewer components also means less weight.
                                         </li>
                                         <li><span>4.</span>SSDs, unhindered by the limitation of a mechanical drive head, excel at multitasking. <br>
                                             This means that you can run more programs at one time without sacrificing speed or productivity.
@@ -400,10 +400,12 @@ $(function ()
                             <div class="inarea" data-role="ui-accordion-content" style="display: none;">
                                 <div class="faq_contents">
                                     <p class="text">RAPID (Real Time Acceleration Processing of I/O data) Mode <br>
-                                        uses the DRAM caching technique provided by Samsung Magician to enhance the performance of the SSD. <br>How to use RAPID Mode:
+                                        uses the DRAM caching technique provided by Samsung Magician to enhance the performance of the SSD. <br>
                                     </p>
-                                    <ul class="sub_list_num">
-                                        <li><span>1.</span> Click Enable / Disable buttons to enable or disable RAPID mode.</li>
+									
+									<ul class="sub_list_num">
+										<li style="padding-left:0;">[How to use RAPID Mode]</li>
+										<li><span>1.</span> Click Enable / Disable buttons to enable or disable RAPID mode.</li>
                                         <li><span>2.</span> Reboot the computer (when the rebooting message pops up, click the OK button).</li>
                                         <li><span>3.</span> Click the Enable button. Reboot the computer and start the RAPID mode in 45 seconds. <br>(In Task Manager - Performance - Memory tab, verify that the size of non-paged pool has increased). <br>
 
@@ -545,25 +547,26 @@ $(function ()
                             <a href="javascript:void(0);" class="close closed" data-role="ui-accordion-btn">How do I use TRIM? </a>
                             <div class="inarea" data-role="ui-accordion-content" style="display: none;">
                                 <div class="faq_contents">
-                                    <p class="text">XP/ Vista :</p>
-                                    <p class="indent">OS does not support Trim command.</p>
-                                    <p class="indent">Run Performance Optimization using Magician (once every week, or twice a month</p>
+                                    <p class="text">[XP/ Vista]</p>
+                                    <p>- OS does not support Trim command.</p>
+                                    <p>- Run Performance Optimization using Magician (once every week, or twice a month</p>
                                     <br>
-                                    <p class="text">Win7/Win server 2008 or later version :</p>
-                                        <p class="indent">FAT32 is not supported; NTFS is supported</p>
-                                        <p class="indent">TRIM cannot be done, but Enable/Disable is possible.</p>
-                                        <p class="indent">Enable TRIM in Windows : fsutil command <br>
-                                            a. Go to All programs > Accessories > Right-click Command Prompt, and then run with administrator privileges.<br>
-                                            b. Enter fsutil behavior query DisableDeleteNotify, and press Enter -> "DisableDeleteNotify = 0" means Trim is enabled.<br>
-                                            If it is not working, enter fsutil behavior set DisableDeleteNotify 0, and then press Enter to make it work.
+                                    <p class="text">[Win7/Win server 2008 or later version]</p>
+                                        <p>- FAT32 is not supported; NTFS is supported</p>
+										<p>- FAT32 is not supported; NTFS is supported</p>
+                                        <p>- TRIM cannot be done, but Enable/Disable is possible.</p>
+                                        <p>- Enable TRIM in Windows : fsutil command <br>
+                                             a. Go to All programs > Accessories > Right-click Command Prompt, and then run with administrator privileges.<br>
+                                             b. Enter fsutil behavior query DisableDeleteNotify, and press Enter -> "DisableDeleteNotify = 0" means Trim is enabled.<br>
+                                             If it is not working, enter fsutil behavior set DisableDeleteNotify 0, and then press Enter to make it work.
 
                                         </p>
                                         <br>
-                                    <p class="text">Linux :</p>
-                                    <p class="indent">Using the fstrim command is recommended, but since it may differ for each Linux version, please refer to Linux websites for details.</p>
+                                    <p class="text">[Linux]</p>
+                                    <p>- Using the fstrim command is recommended, but since it may differ for each Linux version, please refer to Linux websites for details.</p>
                                     <br>
-                                    <p class="text">Mac OS :</p>
-                                    <p class="indent">Please contact the manufacturer.</p>
+                                    <p class="text">[Mac OS]</p>
+                                    <p>- Please contact the manufacturer.</p>
                                 </div>
                             </div>
                         </li>
