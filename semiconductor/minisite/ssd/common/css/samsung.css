@@ -1052,12 +1052,10 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 .header-wrap .util-menu .where{display: block; background-color: #fff; color: #0057a4;  font-family: 'SamsungIFBlk'; height: 30px; line-height: 30px; border-radius: 15px; text-align: center; font-size: 14px; margin-top: 10px; padding-left: 15px; padding-right: 10px;}
 .header-wrap .util-menu .where:hover{color:#0057a4; }
 .header-wrap .util-menu .where span:after{content: "\34";    font-family: 'samsungIcon';    display: inline-block;    vertical-align: middle;    margin: 0 0 2px 2px;    position: relative;}
-
+.header-wrap .util-menu .where span em{font-weight: 600;}
 .header-wrap .call-smartfinder {margin-left:10px; float:left; width:34px}
 .header-wrap .call-smartfinder:after {display:block; content:'\e600'; font-size:26px; font-family: 'samsungIcon'}
 .header-wrap .call-smartfinder.active {background-color:#0071bf}
-
-
 
 .header-wrap .header:after, .header-wrap .nav:after, .header-wrap .local-menu:after{content:"";display:block;clear:both;visibility:hidden}
 .header-wrap a.retial-mobile-btn, .header-wrap a.retail-mobile-btn {display:none}
