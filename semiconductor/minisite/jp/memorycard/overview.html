@@ -451,7 +451,11 @@
                                     <div class="banner_title white">
                                         <h3 class="s_height_inner">${contsTitle}</h3>
                                         <p class="date_txt">${contsDate}</p>
-                                        <a href="${contsLinkUrl}" class="btn link" target="_blank">Read more</a>
+                                        {{if contsLinkUrl != ""}}
+                                            <a href="${contsLinkUrl}" target="_blank" class="btn link">Read more</a>
+                                        {{else}}
+                                            <a class="btn link" style="visibility:hidden"></a>
+                                        {{/if}}
                                     </div>
                                 </div>
                             </div>
