@@ -1,12 +1,7 @@
-﻿{
-   
+{
+
     "reviewsAwardsList": [
-        {
-            "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/ces.jpg",
-            "contsTitle": "CES 2016 Innovation Awards honoree - Samsung Portable SSD T3",
-            "contsDate" : "",
-            "contsLinkUrl":"http://cesweb.org/Events-Experiences/CES-Innovation-Awards.aspx"
-        },
+
         {
             "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/mynavi_book.jpg",
             "contsTitle": "高速＋?量＋タフなSSDでMacの容量不足を解消！",
@@ -39,9 +34,15 @@
         },
         {
             "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/the_ssd_review.jpg",
-            "contsTitle": "Samsung T3 Portable SSD Review (2TB) ? Samsung Ups The Ante Yet Again",
+            "contsTitle": "Samsung T3 Portable SSD Review (2TB) - Samsung Ups The Ante Yet Again",
             "contsDate" : "February 22, 2016",
             "contsLinkUrl":"http://www.thessdreview.com/our-reviews/samsung-t3-portable-ssd-review-2tb/"
+        },
+        {
+        "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/ces.jpg",
+        "contsTitle": "CES 2016 Innovation Awards honoree - Samsung Portable SSD T3",
+        "contsDate" : "January 04, 2016",
+        "contsLinkUrl":""
         }
     ]
 }
