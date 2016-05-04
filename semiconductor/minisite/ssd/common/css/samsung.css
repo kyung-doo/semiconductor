@@ -2060,7 +2060,7 @@ table.support-info .img-ox {width:20px;}
 
 
 .data-table{overflow-x:auto; margin-top: 20px;}
-.data-table table{border-collapse:collapse;width:100%;min-width:1000px; border-left:solid 1px #dcdcdc;}
+.data-table table{border-collapse:collapse;width:100%;min-width:1000px; border-left:solid 1px #dcdcdc; table-layout: fixed;}
 .data-table.flex table{min-width:auto}
 .data-table table th{height:30px;padding:10px 30px;text-align:center;border-top:solid 1px #dcdcdc;border-bottom:solid 1px #dcdcdc;border-right:solid 1px #dcdcdc;color: #fff; background-color: #0071bf;}
 /*.data-table table th:first-child{text-align:left;}*/
