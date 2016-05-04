@@ -3,7 +3,7 @@
     "selectionList": [
         {
             "contsID": "01",
-            "contsTitle": "CONSUMER SSD (HOME, OFFICE)",
+            "contsTitle": "Consumer SSD (Home, Office)",
             "member" : [
                 {
                    "contsID": "0101",
@@ -208,7 +208,7 @@
         },
         {
             "contsID": "02",
-            "contsTitle": "PORTABLE SSD (EXTERNAL SSD)",
+            "contsTitle": "Portable SSD (External SSD)",
             "member" : [
                 {
                    "contsID": "0201",
@@ -263,7 +263,7 @@
         },
         {
             "contsID": "03",
-            "contsTitle": "ENTERPRISE SSD (SERVER)",
+            "contsTitle": "Enterprise SSD (Server)",
             "member" : [
                 {
                    "contsID": "0301",
