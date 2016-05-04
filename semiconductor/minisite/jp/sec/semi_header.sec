@@ -141,7 +141,7 @@
                 <!-- top utility -->
                 <ul class="direct">
                     <li><a href="http://www.samsung.com/jp/home/" class="btn link outlink" target="_blank" title="New window" onclick="sendClickCode('gnb','b2c_utility menu:samsung official site');">SAMSUNG OFFICIAL SITE</a></li>
-                    <li><a href="https://www.facebook.com/SamsungSSD/" class="btn link outlink" target="_blank" title="New window" onclick="sendClickCode('gnb','b2c_utility menu:samsung ssd face book');">SAMSUNG SSD FACEBOOK</a></li>
+<!--                    <li><a href="https://www.facebook.com/SamsungSSD/" class="btn link outlink" target="_blank" title="New window" onclick="sendClickCode('gnb','b2c_utility menu:samsung ssd face book');">SAMSUNG SSD FACEBOOK</a></li>-->
                     <li><a href="https://www.facebook.com/SamsungMemory" class="btn link outlink" target="_blank" title="New window" onclick="sendClickCode('gnb','b2c_utility menu:samsung memory card face book');">SAMSUNG Memory card FACEBOOK</a></li>
                 </ul>
                 <!-- //top utility -->
