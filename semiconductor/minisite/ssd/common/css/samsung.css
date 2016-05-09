@@ -2243,7 +2243,7 @@ ul.support-list-type>li a.tooltipbox{display:inline-block; padding:0; margin-lef
 .faq_contents ul{margin-top:25px; margin-bottom: 25px;}
 .faq_contents .top{margin-top:0px; margin-bottom: 25px;}
 .faq_contents .alone{margin:0px;}
-.faq_contents .sub_list li{line-height: 24px; padding-left: 15px; margin-bottom: 10px;}
+.faq_contents .sub_list li{line-height: 24px; padding-left: 15px; margin-bottom: 5px;}
 .faq_contents .sub_list li:before{content: "-";width: 10px; display: inline-block; margin-left: -10px;}
 .faq_contents .sub_list.special li{padding-left:20px}
 .faq_contents .sub_list.special li:before{content:"※";margin-left:-14px}
@@ -2257,7 +2257,7 @@ ul.support-list-type>li a.tooltipbox{display:inline-block; padding:0; margin-lef
 .faq_contents .sub_dl dd{line-height: 24px; padding-left: 15px; margin-bottom: 10px;}
 .faq_contents .sub_dl dd:before{content: "-";width: 10px; display: inline-block; margin-left: -10px;}
 
-.faq_contents .sub_list_num li{line-height: 24px; margin-bottom: 10px; padding-left: 15px; position: relative;}
+.faq_contents .sub_list_num li{line-height: 24px; margin-bottom: 5px; padding-left: 15px; position: relative;}
 .faq_contents .sub_list_num li:before{}
 .faq_contents .sub_list_num li span{ position: absolute; left: 0; top: 0; line-height: 24px;}
 .faq_contents .sub_list_num li em{font-size:14px}
