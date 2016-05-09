@@ -303,6 +303,7 @@ ul.support-list-type li .down-list li:hover .title_ssd{color: #0071bf;}
 
 /* make ssd */
 .down-list li .title_ssd {width:53%}
+.down-list li .title_ssd .des{display: block; color: #666; font-size: 14px; padding-left: 10px;margin-top:3px}
 .down-list li .language {width:20%; color: #000; text-align: right;}
 .down-list li .size {width:10%; color: #000; text-align: right;}
 .down-list li .version {width:12%; color: #000; text-align: right;}
