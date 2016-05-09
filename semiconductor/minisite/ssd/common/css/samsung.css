@@ -2313,7 +2313,7 @@ ul.support-list-type>li a.tooltipbox{display:inline-block; padding:0; margin-lef
 ul.tab{overflow:hidden;}
 ul.tab li{width:50%; float:left; text-align:center; font-size:16px;font-family:"SamsungIFBd"; border-top:1px solid #0057a4; border-right:1px solid #0057a4; box-sizing:border-box;}
 ul.tab li:first-child{border-left:1px solid #0057a4;}
-ul.tab li a{display:block; color:#0057a4; padding:16px 0 15px; text-transform: uppercase;}
+ul.tab li a{display:block; color:#0057a4; padding:16px 0 15px; text-transform: uppercase;font-family: "SamsungIFBlk";}
 ul.tab li.active{border:none;}
 ul.tab li.active a{background:#0071bf; border-bottom:1px solid #0071bf; color:#fff;}
 
