@@ -4210,7 +4210,7 @@ var JumpUI = Class.extend({
         var owner = this;
 
         owner._content.on('click', function(e) {
-            
+
             e.preventDefault();
             owner._flag = true;
             var $self = $(this);
@@ -4395,7 +4395,7 @@ var JumpUI = Class.extend({
         if (t >= owner._limit) {
             owner._target.first().css({
                 'margin-top' : Math.round(owner._scope.outerHeight(false)) + 'px'
-                
+
             });
             //console.log(owner._scope.outerHeight(false));
             owner._scope.css({
@@ -4463,11 +4463,11 @@ var JumpUI = Class.extend({
     transition : function(item) {
         var owner = this;
         var pos = item.data('target').offset().top - owner._scope.outerHeight(false) - 20;
-        
+
         //if(!owner._scope.hasClass('active'))    pos = pos-50;
-        
-        console.log(pos); 
-        
+
+//        console.log(pos);
+
         $('html, body').stop().animate({
             'scrollTop' : pos + 'px'
         }, owner._speed, function() {
