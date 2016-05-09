@@ -67,13 +67,13 @@
             "member" : [
                 {
                     "contsID": "0601",
-                    "contsTitle": "PM863 for mixed intensive",
+                    "contsTitle": "PM863 for mixed-workload",
                     "contsLink" : "/semiconductor/minisite/jp/ssd/enterprise/pm863.html",
                     "contsCode" : ""
                 },
                 {
                     "contsID": "0602",
-                    "contsTitle": "SM863 for mixed intensive",
+                    "contsTitle": "SM863 for write-intensive",
                     "contsLink" : "/semiconductor/minisite/jp/ssd/enterprise/sm863.html",
                     "contsCode" : ""
                 }
