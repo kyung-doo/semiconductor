@@ -3,7 +3,7 @@
     "selectionList": [
        {
             "contsID": "0001",
-            "contsTitle": "High-end computing with Ultra Speed",
+            "contsTitle": "High-end computing with ultra speed",
             "member" : [
                 {
                     "contsID": "0101",
@@ -15,7 +15,7 @@
         },
         {
             "contsID": "0002",
-            "contsTitle": "High-end computing with Ultra Endurance",
+            "contsTitle": "High-end computing with ultra endurance",
             "member" : [
                 {
                     "contsID": "0201",
@@ -85,7 +85,7 @@
             "member" : [
                {
                     "contsID": "0701",
-                    "contsTitle": "High-end computing with Ultra Endurance",
+                    "contsTitle": "High-end computing with ultra endurance",
                     "member" : [
                         {
                             "contsID": "070101",
