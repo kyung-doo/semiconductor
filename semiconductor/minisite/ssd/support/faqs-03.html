@@ -552,15 +552,15 @@ $(function ()
                                     <p>- Run Performance Optimization using Magician (once every week, or twice a month</p>
                                     <br>
                                     <p class="text">[Win7/Win server 2008 or later version]</p>
-                                        <p>- FAT32 is not supported; NTFS is supported</p>
-                                        <p>- TRIM cannot be done, but Enable/Disable is possible.</p>
-                                        <p>- Enable TRIM in Windows : fsutil command <br>
-                                             a. Go to All programs > Accessories > Right-click Command Prompt, and then run with administrator privileges.<br>
-                                             b. Enter fsutil behavior query DisableDeleteNotify, and press Enter -> "DisableDeleteNotify = 0" means Trim is enabled.<br>
-                                             If it is not working, enter fsutil behavior set DisableDeleteNotify 0, and then press Enter to make it work.
-
-                                        </p>
-                                        <br>
+                                    <ul class="sub_list" style="margin-top:0">
+                                        <li>FAT32 is not supported; NTFS is supported</li>
+                                        <li>TRIM cannot be done, but Enable/Disable is possible.</li>
+                                        <li>Enable TRIM in Windows : fsutil command<br />
+                                           a. Go to All programs > Accessories > Right-click Command Prompt, and then run with administrator privileges.<br />
+                                           b. Enter fsutil behavior query DisableDeleteNotify, and press Enter -> "DisableDeleteNotify = 0" means Trim is enabled.<br />
+                                           If it is not working, enter fsutil behavior set DisableDeleteNotify 0, and then press Enter to make it work.
+                                        </li>
+                                    </ul>
                                     <p class="text">[Linux]</p>
                                     <p>- Using the fstrim command is recommended, but since it may differ for each Linux version, please refer to Linux websites for details.</p>
                                     <br>
