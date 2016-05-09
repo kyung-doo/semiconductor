@@ -962,8 +962,8 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 .header-wrap .header{margin:0 auto;max-width:1310px;padding:0 28px;height:50px;position:relative}
 .header-wrap .header:after {content:""; display:block; clear:both}
 .header-wrap .logo {float:left;color:#fff; margin:0 17px 0 0; position:relative; top: 14px; width: 139px;}
-.header-wrap .logo a {display:block; width: 139px; height: 22px; background:url(/semiconductor/minisite/ssd/common/img/layout/logo-samsung-2x.png) no-repeat 0 0; background-size: 139px 21px;}
-.legacy-ie .header-wrap .logo a {background:url(/semiconductor/minisite/ssd/common/img/layout/samsung-semiconductor-logo.png) no-repeat 0 0;}
+.header-wrap .logo a {display:block; width: 140px; height: 22px; background:url(/semiconductor/minisite/ssd/common/img/layout/logo-samsung-2x.png) no-repeat 0 0; background-size: 139px 21px;}
+.legacy-ie .header-wrap .logo a {background:url(/semiconductor/minisite/ssd/common/img/layout/logo-samsung.png) no-repeat 0 0;}
 .header-wrap .logo a > span{display:block;position:absolute;left:0;top:-45px;white-space:nowrap;color:#0057a4;font-size:12px;line-height:30px; text-transform:uppercase; font-family: 'SamsungIFBd';}
 .header-wrap .logo > p {display:none}
 .header-wrap .top_link{display:block;position:absolute;left:28px;top:-30px;white-space:nowrap;color:#0057a4;font-size:12px;line-height:30px; text-transform:uppercase; font-family: 'SamsungIFBd';}

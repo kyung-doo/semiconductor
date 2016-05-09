@@ -81,9 +81,9 @@
                 <div class="col-inner">
                     <div class="social_area">
                         <span>FOLLOW US</span>
-                        <a href="http://www.facebook.com/samsungSSD" target="_blank"><img src="/semiconductor/minisite/ssd/common/img/ico/ico_social_facebook.png" alt="facebook"></a>
-                        <a href="https://www.youtube.com/user/SamsungSSD" target="_blank"><img src="/semiconductor/minisite/ssd/common/img/ico/ico_social_youtube.png" alt="youtube"></a>
-                        <a href="https://www.instagram.com/samsungmemory/" target="_blank"><img src="/semiconductor/minisite/ssd/common/img/ico/ico_social_insta.png" alt="instagram"></a>
+                        <a href="http://www.facebook.com/samsungSSD" target="_blank"><img src="/semiconductor/minisite/ssd/common/img/ico/ico_social_facebook.png" alt="facebook" title="new window"></a>
+                        <a href="https://www.youtube.com/user/SamsungSSD" target="_blank"><img src="/semiconductor/minisite/ssd/common/img/ico/ico_social_youtube.png" alt="youtube" title="new window"></a>
+                        <a href="https://www.instagram.com/samsungmemory/" target="_blank"><img src="/semiconductor/minisite/ssd/common/img/ico/ico_social_insta.png" alt="instagram" title="new window"></a>
                     </div>
                 </div>
 
@@ -96,7 +96,7 @@
             <div class="grid-row">
                 <div class="col-inner">
                     <ul class="util-menu">
-                        <li><a href="http://www.samsung.com/semiconductor/common/privacy-legal/" target="_blank">Privacy &amp; Legal</a></li>
+                        <li><a href="http://www.samsung.com/semiconductor/common/privacy-legal/" target="_blank" title="new window">Privacy &amp; Legal</a></li>
                     </ul>
                     <p class="mark">
                         <a href="/semiconductor/minisite/ssd/util/selection.html" class="link">SSD Selection Tool</a>
