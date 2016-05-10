@@ -524,7 +524,7 @@ a.btn-jump span {text-transform:none}
     .key-visual li .kv_mobile {display:none}
 }
 .key-visual .screen .focus-msg{position:absolute;left:10px;top:10px;bottom:10px;width:30.1%;padding:0 1.4694%; background:url(/semiconductor/minisite/ssd/common/img/layout/bg_kv_txt.png);color:#fff; line-height: 1.2;}
-.key-visual .screen .focus-msg h1{padding-top:5%;overflow:hidden; text-transform:uppercase; font-family: 'SamsungIFBlk','メイリオ';font-weight:bold;line-height:1.2em}
+.key-visual .screen .focus-msg h1{padding-top:5%;overflow:hidden; text-transform:uppercase; font-family: 'SamsungIFBlk','メイリオ';font-weight:bold;line-height:1.2em; font-size: 32px;}
 .key-visual .screen .focus-msg h1 a{display:block; position:relative; font-size:18px;overflow:hidden; text-transform:uppercase; /*color:#b8d8ee;*/ padding-left:24px; font-family:'SamsungIFBlk';}
 .key-visual .screen .focus-msg h1 a:after {display:inline-block; position:absolute; top:0; left:0; content:"\e613"; font-family:'samsungIcon'}
 .key-visual .screen .focus-msg h1 span{display:block;text-transform:uppercase}
@@ -1376,7 +1376,7 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 .footer .bottom2 .copyright {font-size:12px}
 .footer .bottom .util-menu {padding:10px 0}
 .footer .bottom .util-menu li a {color:#fff}
-
+.footer .bottom2 .btn.top{display: none;}
 }
 
 /* module */
