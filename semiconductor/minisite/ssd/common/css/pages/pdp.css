@@ -299,7 +299,7 @@ table.download-list td div.popover-content{padding:20px;}
 .down-list li .download .btn {line-height:1}
 ul.support-list-type li .down-list li {border:0}
 /*ul.support-list-type li .down-list li:hover{ background-color:rgba(0,0,0,0.2); cursor: default;}*/
-ul.support-list-type li .down-list li:hover .title_ssd{color: #0071bf;}
+ul.support-list-type li .down-list li:hover .title_ssd{color: #006ebd;}
 
 /* make ssd */
 .down-list li .title_ssd {width:53%}
