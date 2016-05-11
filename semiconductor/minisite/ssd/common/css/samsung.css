@@ -321,7 +321,7 @@ button.ctl-accordion.expanded:after{content:"\28"}
 .key-visual+.floating-jumpmenu.active{margin-top:0}
 */
 /* jumpmenu : base */
-.floating-jumpmenu {width:100%; background:url("/semiconductor/minisite/ssd/common/img/layout/bg-jump-default.png"); border-bottom:1px solid #dcdcdc; text-transform:uppercase; position:relative; font-size:1rem;  font-family:'SamsungIFBd',Arial, "メイリオ"; color:#0057a4;}
+.floating-jumpmenu {width:100%; background:url("/semiconductor/minisite/ssd/common/img/layout/bg-jump-default.png"); border-bottom:1px solid #989898; text-transform:uppercase; position:relative; font-size:1rem;  font-family:'SamsungIFBd',Arial, "メイリオ"; color:#0057a4;}
 .acc-cont .floating-jumpmenu,.floating-jumpmenu li a.active:before {display:none;}
 .floating-jumpmenu.active{position:fixed;left:0;top:0;right:0;z-index:9;display:block !important;margin-top:0;z-index:9999999;border-bottom:1px solid #989898;}
 .floating-jumpmenu.active>div{display:block}
@@ -332,14 +332,14 @@ button.ctl-accordion.expanded:after{content:"\28"}
     .legacy-ie .floating-jumpmenu.active + .grid-row.tab-theme .tab-content > div:first-child {padding-top:67px}
 .floating-jumpmenu>div, div.jump-module div.inner{position:relative; max-width:1311px;margin:0 auto; /*padding-right:140px;*/ overflow:hidden;text-align:center; box-sizing:border-box}
     .legacy-ie .floating-jumpmenu>div, .legacy-ie .floating-jumpmenu div.innner {width:1366px}
-.floating-jumpmenu .product-title, .floating-jumpmenu h2 {width:100%; height:70px; background:#fff; border-bottom:1px solid #dcdcdc}
+.floating-jumpmenu .product-title, .floating-jumpmenu h2 {width:100%; height:70px; background:#fff; border-bottom:1px solid #989898}
 .floating-jumpmenu .product-title span, .floating-jumpmenu h2 span {display:block; max-width:1311px; margin:0 auto; padding:25px 20px 15px 20px; line-height:30px; font-family:'SamsungIFBlk'; font-size:28px; color:#292929}
 .floating-jumpmenu .product-title span {text-transform:none}
 .floating-jumpmenu .product-title.download{border-bottom:none}
-.floating-jumpmenu ul {overflow:hidden; z-index:10;  border-left:1px solid #dcdcdc}
+.floating-jumpmenu ul {overflow:hidden; z-index:10;  border-left:1px solid #989898}
 .floating-jumpmenu ul:before, ul.jump-link:before {content:"";background:#e3e3e3;height:1px;position:absolute;left:0;right:0;top:56px;z-index:5}
 .floating-jumpmenu li, ul.jump-link li {float:left; /*position:relative*/} /*//20150803 mobile jellybean 4.2 에서 fixed 후, event 영역을 갱신하지 못하는 문제가 있어서 relative 를 제거함*/
-.floating-jumpmenu li a{display:table;width:100%; background:none; border-right:1px solid #dcdcdc; box-sizing:border-box;font-family:"SamsungIFBlk"}
+.floating-jumpmenu li a{display:table;width:100%; background:none; border-right:1px solid #989898; box-sizing:border-box;font-family:"SamsungIFBlk"}
     .ie7 .floating-jumpmenu li a {display:block; height:20px; padding:20px 0}
 .floating-jumpmenu ul.col5 li{overflow:hidden; width:20%; }
 .floating-jumpmenu ul.col4 li{overflow:hidden; width:25%; height:56px}
@@ -1032,6 +1032,7 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 .header-wrap .nav ul.direct a.link:after {margin-top:-2px; margin-bottom:0}
 .header-wrap .nav ul.direct a.outlink:after {margin-left:5px; margin-bottom:1px; content:'\e60e'}
 .header-wrap .nav ul.direct>li{float:left;padding-left:8px}
+.header-wrap .nav ul.direct>li.selection{display: none;}
     .ie7 .header-wrap .nav ul.direct a{color:#0057a4}
 .header-wrap .util-menu{height:100%;float:right;position:relative;color:#fff;}
 .header-wrap .util-menu a:hover, .header-wrap .util-menu button:hover{color:#666}
@@ -1135,6 +1136,7 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
     .header-wrap a.retail-link:after {display:none}
     .header-wrap .util-menu .sch .txt_del {position:absolute; top:8px; right:35px}
     .header-wrap .util-menu .where{display: none;}
+    .header-wrap .nav ul.direct>li.selection{display: block;}
 }
 @media (min-width:768px) and (max-width:1023px){
     .header-wrap .header{padding:0 15px}
@@ -1159,6 +1161,9 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
     .header-wrap .util-menu .sch input[type=text] {font-size:16px; line-height: 16px}
     .header-wrap .util-menu .sch .txt_del {position:absolute; top:20px; right:45px}
     .header-wrap .nav ul.direct>li a{padding-top: 0;}
+}
+@media (max-width:768px){
+
 }
 .footer-row .grid-row {position:relative}
 .footer-row .grid-row .col-inner{overflow:hidden; margin-top:0;}
@@ -1235,7 +1240,7 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
     .footer .info .entermail .opt .txt{display:inline-block;height:40px;text-align:center;line-height:40px;padding:0 10px;margin:0 auto;position:absolute;left:50%;margin-left:-10px;top:0}
     .footer .info .entermail .opt .btn-ico:before{width:48px;height:48px;line-height:48px}
     .footer .info p,.footer .info .contact li strong {font-size:16px}
-
+    .footer .bottom2 .btn.top{display: none;}
 }
 @media (min-width:768px) and (max-width:1023px){
     .footer .info .contact .act{float:none;width:auto}
@@ -1376,7 +1381,7 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 .footer .bottom2 .copyright {font-size:12px}
 .footer .bottom .util-menu {padding:10px 0}
 .footer .bottom .util-menu li a {color:#fff}
-.footer .bottom2 .btn.top{display: none;}
+
 }
 
 /* module */
@@ -2286,9 +2291,9 @@ ul.support-list-type>li a.tooltipbox{display:inline-block; padding:0; margin-lef
     .single_title span {padding:15px 10px; line-height:20px; font-size:22px}
     .ssd_module{padding-top: 30px;}
     .ssd_module .grid-row{margin-bottom:30px;}
-    .ssd_module .grid-row .grid-col5{width: 100%; float: none;}
+    .ssd_module .grid-row .grid-col5{width:50%;}
     .ssd_module h3 {margin-bottom: 10px; font-size:20px;}
-    .faq_select a{margin-bottom: 10px; font-size: 15px; height: 120px; padding-top: 35px; margin-right: 0;}
+    .faq_select a{margin-bottom: 10px; font-size: 15px; height:auto; padding-top: 35px; margin-right: 0; padding-bottom: 35px;}
     .faq_select a span{height: 60px; margin-bottom: 15px;}
     .faq_select a span img{height: 100%; width: auto;}
 
@@ -2319,8 +2324,8 @@ ul.tab li.active a{background:#0071bf; border-bottom:1px solid #0071bf; color:#f
 
 /* POPUP TAB TYPE4 */
 ul.tab.type5 {display:table; width:100%;}
-ul.tab.type5 li {display:table-cell; float:none; width:20%; height:100%; border:1px solid #ccc; border-left:none; vertical-align:middle}
-ul.tab.type5 li:first-child {border-left:1px solid #ccc}
+ul.tab.type5 li {display:table-cell; float:none; width:20%; height:100%; border:1px solid #989898; border-left:none; vertical-align:middle}
+ul.tab.type5 li:first-child {border-left:1px solid #989898}
 ul.tab.type5 li.active {height:100%; border:none; border-right:1px solid #0071bf; border-bottom:1px solid #0071bf; background:#0071bf;}
 ul.tab.type5 li:first-child.active {border-left:none}
 ul.tab.type5 li a {display:block; padding:9px 5px; vertical-align:middle; box-sizing:border-box}

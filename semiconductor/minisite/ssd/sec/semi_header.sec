@@ -111,8 +111,8 @@
                 <!-- //GNB -->
                 <!-- top utility -->
                 <ul class="direct">
-                <li><a href="http://www.samsung.com/ssd/" class="btn link outlink" target="_blank" title="New window" onclick="sendClickCode('gnb','b2c_utility menu:samsung official site');">SAMSUNG OFFICIAL SITE</a></li>
-<!--                    <li><a href="http://www.facebook.com/samsungSSD" class="btn link outlink" target="_blank" title="New window" onclick="sendClickCode('gnb','b2c_utility menu:samsung ssd face book');">SAMSUNG SSD FACEBOOK</a></li>-->
+                    <li><a href="http://www.samsung.com/ssd/" class="btn link outlink" target="_blank" title="New window" onclick="sendClickCode('gnb','b2c_utility menu:samsung official site');">SAMSUNG OFFICIAL SITE</a></li>
+                    <li class="selection"><a href="/semiconductor/minisite/ssd/util/selection.html" class="btn link" onClick="sendClickCode('gnb','b2c_selection guide');">SSD Selection Tool</a></li>
                 </ul>
                 <!-- //top utility -->
             </div>
