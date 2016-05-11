@@ -6029,6 +6029,7 @@ var SelectionToo = Class.extend({
     initList : function ()
     {
         var owner = this;
+        var isFirst = true;
         var list = owner._jsonData.selectionList;
         var ar = new Array();
         $(list).each(function ( i )
@@ -6049,6 +6050,11 @@ var SelectionToo = Class.extend({
                owner.addList(list[idx].contsID, list[idx].member, 1);
            });
         });
+        
+        if(_common.is_mode() == 'MOBILE')
+        {
+            owner._scope.find("#selection_step1").parent().parent().find(".title").trigger("active");
+        }
 
         $(window).resize(function ()
         {
@@ -6083,8 +6089,10 @@ var SelectionToo = Class.extend({
         tmpl.appendTo(owner._scope.find("#selection_step"+(step+1)));
         owner._scope.find("#selection_step"+(step+1)).addClass("on");
         owner._scope.find("#selection_step"+(step+1)).parent().parent().find(".title").removeClass("dimmed");
+        
         if(_common.is_mode() == 'MOBILE')
         {
+            
             owner._scope.find("#selection_step"+(step+1)).parent().parent().find(".title").trigger("active");
         }
 
