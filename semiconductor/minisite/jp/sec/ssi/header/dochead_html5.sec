@@ -19,7 +19,6 @@
     <script src="/semiconductor/minisite/ssd/common/js/samsung.util.js"></script>
     <script src="/semiconductor/minisite/ssd/common/js/samsung.ui.js"></script>
     <script src="/semiconductor/minisite/ssd/common/js/samsung.common.js"></script>
-    <script src="/semiconductor/minisite/ssd/common/js/lib/datatables.js"></script>
 
     <!-- //favicon, app icon -->
     <link rel="shortcut icon" href="/semiconductor/minisite/ssd/common/img/ico/favicon.ico" />
