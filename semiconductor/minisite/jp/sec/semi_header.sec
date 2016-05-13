@@ -16,7 +16,7 @@
             <div class="logo">
                 <a href="/semiconductor/minisite/jp/" onclick="sendClickCode('gnb','b2c_samsung logo');">
                     <span class="blind">SAMSUNG BUSINESS</span>
-                    <span>FOR FLASH STORAGE</span>
+                    <span>MEMORY & STORAGE</span>
                 </a>
             </div>
             <button type="button" class="btn-ico ctl-nav" data-role="ui-nav-btn"><span class="label">Open Menu</span></button>
