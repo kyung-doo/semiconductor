@@ -102,6 +102,7 @@
                         <div class="submenu-container has-flyout">
                             <ul data-role="ui-nav-sub">
                                 <li><a href="/semiconductor/minisite/ssd/support/buy.html" onClick="sendClickCode('gnb','b2c_support:where to buy');">Where to Buy</a></li>
+                                <li><a href="/semiconductor/minisite/ssd/support/warranty.html" onClick="sendClickCode('gnb','b2c_support:warranty');">Warranty</a></li>
                                 <li><a href="/semiconductor/minisite/ssd/support/faqs.html" onClick="sendClickCode('gnb','b2c_support:faqs');">FAQs</a></li>
                                 <li><a href="/semiconductor/minisite/ssd/support/cs.html" onClick="sendClickCode('gnb','b2c_support:customerservice');">Customer Service</a></li>
                             </ul>

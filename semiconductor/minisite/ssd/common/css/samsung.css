@@ -1837,6 +1837,8 @@ div.keynote_rbox_small_group .keynote_rbox_small .text{width:auto;}
 div.feature div.wrap.left, div.feature div.wrap.right{text-align: left}
 div.featurebox .info-txt{width: auto;}
 div.featurebox .info-txt sup, div.feature div.wrap sup{font-size: 10px;}
+div.featurebox .info-txt .des a{color:#0057a4}
+div.featurebox .info-txt .des a:hover{text-decoration:underline}
 @media (min-width: 450px){
     div.featurebox .info-txt .des,     div.feature div.wrap .desc{font-size: 16px;    line-height: 1.4;}
 }
@@ -1967,6 +1969,15 @@ table.support-info .img-ox {width:20px;}
    .products-list .review .grid-col4:nth-child(3){display:none}
    .products-list .review .grid-col4:nth-child(4){display:none}
 }
+
+/* warranty-list */
+.warranty-list{margin-top:40px}
+
+@media (max-width:767px){
+    .warranty-list{margin-top:20px}
+}
+
+
 
 /* product-visual */
 .product-visual{text-align:center;padding-top:100px;max-width:1310px;margin:0 auto}

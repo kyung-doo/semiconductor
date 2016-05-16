@@ -71,6 +71,7 @@
                         <button type="button" class="ctl-accordion closed" data-role="ui-accordion-btn"><span class="blind">SUPPORTS &amp; Purchase layer open</span></button>
                         <ul data-role="ui-accordion-content">
                             <li><a href="/semiconductor/minisite/ssd/support/buy.html">Where to Buy</a></li>
+                            <li><a href="/semiconductor/minisite/ssd/support/warranty.html">Warranty</a></li>
                             <li><a href="/semiconductor/minisite/ssd/support/faqs.html">FAQs</a></li>
                             <li><a href="/semiconductor/minisite/ssd/support/cs.html">Customer Service</a></li>
                         </ul>
