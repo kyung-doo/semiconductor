@@ -82,9 +82,13 @@ function init_event(){
         var isOpen = $(this).parent().hasClass('expand');
         if(isOpen){
             $(this).parent().removeClass('expand');
+            var guide =  $(this).find('.blind').text().replace("close", "open");
+            $(this).find('.blind').text(guide);
         }
         else{
             $(this).parent().addClass('expand');
+            var guide =  $(this).find('.blind').text().replace("open", "close");
+            $(this).find('.blind').text(guide);
         }
     });
 
@@ -116,7 +120,7 @@ function init_event(){
             curJump.css('left', 0);
             curJump.css('top', 0);
             curJump.css('z-index', 1000);
-            curButton.find('span').text(curJump.find('.active span').text());
+            curButton.find('.title').text(curJump.find('.active span').text());
         }
         else{
             curJump.hide();
