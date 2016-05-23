@@ -1397,12 +1397,17 @@ var AccordionUI = Class.extend({
         {
 
             if(!$(this).attr("data-role")) return;
-
+            
             if (!$(this).data('content').hasClass('active')) {
                 setTimeout(function (){$(window).resize();},1);
                 owner.active_item($(this));
+                var guideTxt = $(this).find(".blind").text().replace("open", "close");
+                $(this).find(".blind").text(guideTxt);
             } else {
                 owner.deActive_item($(this));
+                console.log("off");
+                var guideTxt = $(this).find(".blind").text().replace("close", "open");
+                $(this).find(".blind").text(guideTxt);
             }
 
 
@@ -4218,7 +4223,10 @@ var JumpUI = Class.extend({
             var move = function(){
                 //140813 추가
                 if ($('*[data-role=ui-tab-jump-btn]').length > 0) {
-                    $('*[data-role=ui-tab-jump-btn]').text($self.find('>span').text()).parent().removeClass('expand');
+                    $('*[data-role=ui-tab-jump-btn] .title').text($self.find('>span').text())
+                    $('*[data-role=ui-tab-jump-btn]').parent().removeClass('expand');
+                    var guide = $('*[data-role=ui-tab-jump-btn] .blind').text().replace("close", "open");
+                    $('*[data-role=ui-tab-jump-btn] .blind').text(guide);
                 }
 
                 if (owner._current)
@@ -4314,9 +4322,13 @@ var JumpUI = Class.extend({
 
                     if (is_expanded) {
                         $(this).parent().removeClass('expand');
+                        var guide = $(this).find(".blind").text().replace("close", "open");
+                        $(this).find(".blind").text(guide);
                     } else {
                         $(this).parent().addClass('expand');
-                        $(this).text($('a[data-role=ui-tab-jump-menu].on>span').text());
+                        $(this).find(".title").text($('a[data-role=ui-tab-jump-menu].on>span').text());
+                        var guide = $(this).find(".blind").text().replace("open", "close");
+                        $(this).find(".blind").text(guide);
                     }
 
                 }
@@ -4345,7 +4357,7 @@ var JumpUI = Class.extend({
         var cnt = item.data('cnt');
         var txt = item.text();
 
-        owner._scope.find('*[data-role=ui-tab-jump-btn]').text(txt);
+        owner._scope.find('*[data-role=ui-tab-jump-btn] .title').text(txt);
         owner._content.eq(cnt).addClass('on');
         owner._current = item;
     },
