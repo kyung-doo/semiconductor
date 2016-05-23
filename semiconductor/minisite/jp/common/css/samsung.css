@@ -1,10 +1,10 @@
-.head-copy h2{font-family:"SamsungIFBlk", Arial, 'メイリオ';font-weight:bold}
-div.featurebox .info-txt .title{font-family:"SamsungIFBd", Arial, 'メイリオ'}
+.head-copy h2{font-family:"SamsungOne800", Arial, 'メイリオ';font-weight:bold}
+div.featurebox .info-txt .title{font-family:"SamsungOne600", Arial, 'メイリオ'}
 .module>.sec-title{font-weight:bold}
 .specifi-list .specifi > h4{font-weight:bold}
 .show-more-spec .info.info2 li{margin-left:25px;text-indent:-25px}
 .key-visual .screen .focus-msg ul{margin-top:10px}
-.floating-jumpmenu li a{font-weight:bold;font-family:"SamsungIFBlk",Arial, "メイリオ"}
+.floating-jumpmenu li a{font-weight:bold;font-family:"SamsungOne800",Arial, "メイリオ"}
 /*
 .key-visual .screen .focus-msg ul li{width:auto;position:relative;left:0;font-size:21px;padding-left:8px;margin-top:7px}
 .key-visual .screen .focus-msg ul li:before{content:"";position:absolute;top:9px;left:0;width:2px;height:2px;background-color:#fff}

@@ -81,7 +81,7 @@ div.product-info-section div.module-wrap {min-height:420px;/*height:420px;*/ bac
 div.product-info div.breadcrumb{font-size:14px;}
 div.product-info-section div.product-stitle {margin-top:5px; font-size:18px}
 div.product-info .product-title{font-size:40px; display:block; margin:5px 0 0}
-div.product-info p.product-code{font-family:'SamsungIFBd'; color:#5a5a5a; font-size:18px;}
+div.product-info p.product-code{font-family:'SamsungOne600'; color:#5a5a5a; font-size:18px;}
 div.product-info div.badges{font-size:21px; line-height:23px; margin:6px 0 15px;}
 div.product-info div.swatches{width:100%; overflow:hidden; margin:15px 0 0;}
 div.product-info div.swatches div.swatch{float:left; margin-right:7px}
@@ -113,7 +113,7 @@ div.pdp-slide-area ul li.current a{width:62px; height:54px; line-height:54px; bo
 .ie7 div.pdp-slide-area ul li.current a {width:62px; height:47px}
 div.pdp-slide-area ul li img{width:60px; height:40px; vertical-align:middle;}
 div.pdp-slide-area div.inner{padding:0 25px; margin:0 auto; overflow:hidden}
-button.btn_360 {width:60px; height:60px; margin-left:7px; background:#0071bf; font-family:'SamsungIFBd'; font-size:14px; color:#fff; vertical-align:top}
+button.btn_360 {width:60px; height:60px; margin-left:7px; background:#0071bf; font-family:'SamsungOne600'; font-size:14px; color:#fff; vertical-align:top}
 button.btn_360 .txt-desk {display:inline-block; padding-top:20px; background:url(/common/b2b4/img/ico/btn_360_desk.png) no-repeat 50% top}
 button.btn_360 .txt-mobile {display:none; padding-right:24px; background:url(/common/b2b4/img/ico/btn_360_mobile.png) no-repeat right 50%; background-size:18px 18px}
 
@@ -121,7 +121,7 @@ div.product-img-section div.pdp-slide-area a.prev{display:block; position:absolu
 div.product-img-section div.pdp-slide-area a.next{display:block; position:absolute; top:0; right:0; width:20px; height:60px; text-align:center; background:#0071bf; color:#fff;}
 
 div.product-info-section .price-section {margin-top:20px; /*position:absolute; left:28px; bottom:80px;*/}
-div.product-info-section .price-section .price-code {font-size:20px; font-family:'SamsungIFBd'; color:#000}
+div.product-info-section .price-section .price-code {font-size:20px; font-family:'SamsungOne600'; color:#000}
 div.product-info-section .price-section .eol-msg {color:#0057a4}
 
 div.product-info-section div.wrapper-act{position:absolute; left:28px; bottom:30px; text-align:left; padding:0}
@@ -184,7 +184,7 @@ ul.glance-list li:before{content:""; display:block; width:5px; height:1px; backg
 @media (max-width:1023px){
     div.product-w-inner{max-width:1310px; margin:0 auto; padding:20px 15px;}
     div.num-count{display:block; text-align:center; margin-top:10px}
-    button.btn_360 {position:absolute; right:10px; bottom:2px; width:auto; height:auto; margin-left:7px; background:#fff; font-family:'SamsungIFBd'; font-size:16px; color:#000}
+    button.btn_360 {position:absolute; right:10px; bottom:2px; width:auto; height:auto; margin-left:7px; background:#fff; font-family:'SamsungOne600'; font-size:16px; color:#000}
     button.btn_360 .txt-desk {display:none}
     button.btn_360 .txt-mobile {display:block}
     div.product-info-section div.module-wrap {height:auto; min-height:100%; padding-bottom:30px;}
@@ -227,7 +227,7 @@ ul.glance-list li:before{content:""; display:block; width:5px; height:1px; backg
     div.product-info-section div.module-wrap{padding:50px 10px 20px}
     div.product-info div.breadcrumb{font-size:18px;}
     div.product-info .product-title{font-size:26px;}
-    div.product-info p.product-code{font-size:14px; font-family:'SamsungIFBd';}
+    div.product-info p.product-code{font-size:14px; font-family:'SamsungOne600';}
     div.product-info div.badges{font-size:23px;}
     div.product-info div.swatches{}
     div.product-info-section div.wrapper-act .btn-type1{width:100%; box-sizing:border-box; font-size:14px; margin:0 0 10px 0}
@@ -281,7 +281,7 @@ table.download-list{width:100%; border-spacing:0;}
 table.download-list th {vertical-align:top}
 table.download-list td{text-align:left; padding:0; width:40%; position:relative; vertical-align:top}
 table.download-list td.title {width:30%}
-table.download-list th.title{font-family:'SamsungIFBd'; width:30%; vertical-align:top; text-align:left}
+table.download-list th.title{font-family:'SamsungOne600'; width:30%; vertical-align:top; text-align:left}
 table.download-list .date{width:15%;}
 table.download-list .download{width:15%; text-align:right; vertical-align:top}
 table.download-list td div.popover-content{padding:20px;}
