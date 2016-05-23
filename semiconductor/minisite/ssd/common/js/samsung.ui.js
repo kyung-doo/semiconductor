@@ -1027,7 +1027,10 @@ var NavUI = Class.extend({
             'focus' : function() {
                 for (var i in owner._current) {
                     if (owner._current[i])
+                    {
                         owner.deActive_item(owner._current[i]);
+                    }
+                        
                 }
 
                 owner.active_item($(this), 1);
@@ -1045,6 +1048,15 @@ var NavUI = Class.extend({
                 if (owner._current.depth_2)
                     owner.deActive_item(owner._current.depth_2);
                 owner.active_item($(this), 2);
+                
+                
+            },
+            'focusout' : function ()
+            {
+                if($(this).parent().is(".last"))
+                {
+                    owner.reset();
+                }
             }
         });
 
