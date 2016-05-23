@@ -14,7 +14,7 @@ function initPage(){
     init_dotdotdot();
     init_data_table();
     init_selection_Tool();
-    
+    init_index();
 };
 
 /****************************************************************************************
@@ -634,7 +634,7 @@ function loadReviewAwards( path )
         dataList = data.reviewsAwardsList;
         endNum = dataList.length;
         addList(4);
-        
+
         if(_common.is_mode() == 'MOBILE')
         {
             if(dataList.length <= 2 && startNum >= endNum)
@@ -647,17 +647,17 @@ function loadReviewAwards( path )
            if(dataList.length <= 3 && startNum >= endNum)
             {
                 $("button[data-role='ui-btn-awards']").hide();
-            } 
+            }
         }
         else
         {
-           if(startNum >= endNum) 
+           if(startNum >= endNum)
            {
                 $("button[data-role='ui-btn-awards']").hide();
-           } 
+           }
         }
 
-        
+
 
         $("button[data-role='ui-btn-awards']").bind("click", function ( e )
         {
@@ -710,7 +710,12 @@ function init_selection_Tool()
 }
 
 
-
+/****************************************************************************************
+* METHOD:EVENT
+****************************************************************************************/
+function init_index(){
+    $("#content").attr('tabindex','-1');
+}
 
 
 

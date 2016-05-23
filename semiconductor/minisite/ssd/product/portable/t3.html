@@ -23,7 +23,7 @@ $(function ()
 
 <!-- contents wrapper -->
 <div class="content-wrap">
-    <div id="content">
+    <div id="content" tabindex="-1">
         <span class="blind">Content</span>
     </div>
     <!-- content -->
@@ -38,10 +38,11 @@ $(function ()
                         <img alt="" data-media-mobile="/semiconductor/minisite/ssd/common/img/kv/kv_portable_t3_767.jpg" data-media-desktop="/semiconductor/minisite/ssd/common/img/kv/kv_portable_t3_1920.jpg" class="kv_desktop" src="/semiconductor/minisite/ssd/common/img/kv/kv_portable_t3_1920.jpg" />
                         <div>
                             <div class="focus-msg">
-                                <h1 class="tit">
+                                <h1 class="blind">Portable SSD T3</h1>
+                                <p class="tit">
                                     <em>Portable SSD T3</em>
                                     Transfer faster, <br>Store Safer.
-                                </h1>
+                                </p>
                                 <div class="txt">
                                    The fast and compact external storage.
                                 </div>
@@ -84,7 +85,7 @@ $(function ()
 
                 <!-- product-visual -->
                 <div class="product-visual t3_1">
-                    <h1 class="title">Small in size, big on memory</h1>
+                    <p class="title">Small in size, big on memory</p>
                     <p class="txt">
                         The new Samsung Portable SSD T3 sets the standard for speed, capacity, durability and connectivity.
                         <span class="pc_block">Store data safely and move it wherever it’s needed.</span>
@@ -97,7 +98,7 @@ $(function ()
 
                 <!-- product-visual -->
                 <div class="product-visual t3_2">
-                    <h1 class="title">Quick on its feet</h1>
+                    <p class="title">Quick on its feet</p>
                     <p class="txt">
                         Reduce downtime with blazing-fast read/write speeds of up to 450MB/s*,
                         <span class="pc_block">up to 4x faster than traditional external hard drives (HDD)**.</span>
@@ -115,7 +116,7 @@ $(function ()
 
                 <!-- product-visual -->
                 <div class="product-visual t3_3">
-                    <h1 class="title">Small, compact and light</h1>
+                    <p class="title">Small, compact and light</p>
                     <p class="txt">
                         Always on the move from one job to the next, media and data needs to travel at the speed of life.
                         <span class="pc_block">The T3 floats like a feather at just 51 grams* and is roughly the size of a business card for perfectly potent portability.</span>
@@ -131,7 +132,7 @@ $(function ()
 
                 <!-- product-visual -->
                 <div class="product-visual t3_4">
-                    <h1 class="title">Holds its own</h1>
+                    <p class="title">Holds its own</p>
                     <p class="txt">
                         With advanced Samsung V-NAND technology the T3 packs a punch — up to 2 TB capacity*
                         <span class="pc_block">means you’ve got everything you need in the palm of your hand.</span>
@@ -147,7 +148,7 @@ $(function ()
 
                 <!-- product-visual -->
                 <div class="product-visual t3_5">
-                    <h1 class="title">Tough to crack</h1>
+                    <p class="title">Tough to crack</p>
                     <p class="txt">
                         A trifecta of protection, the shock-resistant T3 has a strong exterior metal body,
                         <span class="pc_block">internal support frame and optional AES 256-bit hardware encryption prepared for demands of life.</span>
@@ -160,7 +161,7 @@ $(function ()
 
                 <!-- product-visual -->
                 <div class="product-visual t3_6">
-                    <h1 class="title">Connects with ease</h1>
+                    <p class="title">Connects with ease</p>
                     <p class="txt">
                         The T3 is compatible across multiple operating systems, so you can conveniently connect it to PCs,
                         <span class="pc_block">Android devices and more*. With the “Samsung Portable SSD” Android application,</span>
@@ -191,7 +192,7 @@ $(function ()
                         <!-- item -->
                         <div class="grid-col4">
                             <div class="col-inner specifi">
-                                <h4>Interface</h4>
+                                <h3>Interface</h3>
                                 <p>
                                     Compatible with USB 3.1(Gen.1, 5Gbps), 3.0, 2.0
                                 </p>
@@ -202,7 +203,7 @@ $(function ()
                         <!-- item -->
                         <div class="grid-col4">
                             <div class="col-inner specifi">
-                                <h4>Form Factor</h4>
+                                <h3>Form Factor</h3>
                                 <p>
                                     250GB, 500GB, 1TB, 2TB
                                 </p>
@@ -213,7 +214,7 @@ $(function ()
                         <!-- item -->
                         <div class="grid-col4">
                             <div class="col-inner specifi">
-                                <h4>Sequential Read Speed</h4>
+                                <h3>Sequential Read Speed</h3>
                                 <p>
                                     Up to 450MB/sec
                                 </p>
@@ -224,7 +225,7 @@ $(function ()
                         <!-- item -->
                         <div class="grid-col4">
                             <div class="col-inner specifi">
-                                <h4>Sequential Write Speed</h4>
+                                <h3>Sequential Write Speed</h3>
                                 <p>
                                     51g
                                 </p>
@@ -250,8 +251,9 @@ $(function ()
                            <div data-role="ui-accordion">
                                <a href="#" class="show_btn close closed" data-role="ui-accordion-btn">Show More Specs</a>
                                <div class="inarea" data-role="ui-accordion-content">
-                                   <div class="data-table">
+                                   <div class="data-table" tabindex=0>
                                         <table>
+                                            <caption>Samsung SSD T3 Spec</caption>
                                         <colgroup>
                                             <col style="width:13%">
                                             <col style="width:15%">
@@ -261,59 +263,59 @@ $(function ()
                                         </colgroup>
                                         <thead>
                                             <tr>
-                                                <th>Model Name</th>
-                                                <th>MU-PT250B</th>
-                                                <th>MU-PT500B</th>
-                                                <th>MU-PT1T0B</th>
-                                                <th>MU-PT2T0B</th>
+                                                <th scope="row">Model Name</th>
+                                                <th scope="col">MU-PT250B</th>
+                                                <th scope="col">MU-PT500B</th>
+                                                <th scope="col">MU-PT1T0B</th>
+                                                <th scope="col">MU-PT2T0B</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td class="t">Capacity*</td>
+                                                <th class="t" scope="row">Capacity*</th>
                                                 <td>250GB</td>
                                                 <td>500GB</td>
                                                 <td>1TB</td>
                                                 <td>2TB</td>
                                             </tr>
                                             <tr>
-                                                <td class="t">Interface</td>
+                                                <th class="t" scope="row">Interface</th>
                                                 <td colspan="4">Compatible with USB 3.1(Gen.1, 5Gbps), 3.0, 2.0</td>
                                             </tr>
                                             <tr>
-                                                <td class="t">Dimension (WxHxD)</td>
+                                                <th class="t" scope="row">Dimension (WxHxD)</th>
                                                 <td colspan="4">74 x 58 x 10.5 mm</td>
                                             </tr>
                                             <tr>
-                                                <td class="t">Weight**</td>
+                                                <th class="t" scope="row">Weight**</th>
                                                 <td colspan="4">51g</td>
                                             </tr>
                                             <tr>
-                                                <td class="t">Transfer Speed***</td>
+                                                <th class="t" scope="row">Transfer Speed***</th>
                                                 <td colspan="4">Up to 450MB/sec</td>
                                             </tr>
                                             <tr>
-                                                <td class="t">UASP Mode</td>
+                                                <th class="t" scope="row">UASP Mode</th>
                                                 <td colspan="4">Support</td>
                                             </tr>
                                             <tr>
-                                                <td class="t">Encryption</td>
+                                                <th class="t" scope="row">Encryption</th>
                                                 <td colspan="4">AES 256-bit hardware encryption</td>
                                             </tr>
                                             <tr>
-                                                <td class="t">Security****</td>
+                                                <th class="t" scope="row">Security****</th>
                                                 <td colspan="4">Password setting (Optional)<br /> Requires Windows 7 or higher, Mac OS 10.7 or higher and Android KitKat (version 4.4) or higher.</td>
                                             </tr>
                                             <tr>
-                                                <td class="t">Certification</td>
+                                                <th class="t" scope="row">Certification</th>
                                                 <td colspan="4">CE, BSMI, KC, VCCI, C-tick, FCC, IC, UL, TUV, CB, EAC</td>
                                             </tr>
                                             <tr>
-                                                <td class="t">RoHS Compliance</td>
+                                                <th class="t" scope="row">RoHS Compliance</th>
                                                 <td colspan="4">RoHS2</td>
                                             </tr>
                                             <tr>
-                                                <td class="t">Warranty</td>
+                                                <th class="t" scope="row">Warranty</th>
                                                 <td colspan="4">Limited 3-year</td>
                                             </tr>
                                         </tbody>

@@ -56,9 +56,9 @@ html{font-size:14px}
     .sec-board-box .tit {font-size:16px}
 }
 @media (min-width:1024px) and (max-width:1280px) {
-    .key-visual .screen .focus-msg h1 {font-size:30px}
+    .key-visual .screen .focus-msg p.tit {font-size:30px}
     .key-visual .screen .focus-msg .txt {font-size:18px}
-    .key-visual .screen .focus-msg h1 em {font-size:16px}
+    .key-visual .screen .focus-msg p.tit em {font-size:16px}
 }
 /* heading */
 h1,h2,h3,h4,h5,h6{font-weight:normal; font-size:100%}
@@ -524,11 +524,11 @@ a.btn-jump span {text-transform:none}
     .key-visual li .kv_mobile {display:none}
 }
 .key-visual .screen .focus-msg{position:absolute;left:10px;top:10px;bottom:10px;width:30.1%;padding:0 1.4694%; background:url(/semiconductor/minisite/ssd/common/img/layout/bg_kv_txt.png);color:#fff; line-height: 1.2;}
-.key-visual .screen .focus-msg h1{padding-top:5%;overflow:hidden; text-transform:uppercase; font-family: 'SamsungOne800','メイリオ';font-weight:bold;line-height:1.2em; font-size: 32px;}
-.key-visual .screen .focus-msg h1 a{display:block; position:relative; font-size:18px;overflow:hidden; text-transform:uppercase; /*color:#b8d8ee;*/ padding-left:24px; font-family:'SamsungOne800';}
-.key-visual .screen .focus-msg h1 a:after {display:inline-block; position:absolute; top:0; left:0; content:"\e613"; font-family:'samsungIcon'}
-.key-visual .screen .focus-msg h1 span{display:block;text-transform:uppercase}
-.key-visual .screen .focus-msg h1 em {display:block; font-family:'SamsungOne400'; overflow: hidden; text-overflow:ellipsis; white-space: nowrap;text-transform: none;padding-bottom:0; font-weight: normal;}
+.key-visual .screen .focus-msg p.tit{padding-top:5%;overflow:hidden; text-transform:uppercase; font-family: 'SamsungOne800','メイリオ';font-weight:bold;line-height:1.2em; font-size: 32px;}
+.key-visual .screen .focus-msg p.tit a{display:block; position:relative; font-size:18px;overflow:hidden; text-transform:uppercase; /*color:#b8d8ee;*/ padding-left:24px; font-family:'SamsungOne800';}
+.key-visual .screen .focus-msg p.tit a:after {display:inline-block; position:absolute; top:0; left:0; content:"\e613"; font-family:'samsungIcon'}
+.key-visual .screen .focus-msg p.tit span{display:block;text-transform:uppercase}
+.key-visual .screen .focus-msg p.tit em {display:block; font-family:'SamsungOne400'; overflow: hidden; text-overflow:ellipsis; white-space: nowrap;text-transform: none;padding-bottom:0; font-weight: normal; font-size: 18px;}
 .key-visual .screen .focus-msg .txt{padding-top:3%; overflow:hidden;}
 .key-visual .screen .focus-msg .act{position:absolute;bottom:8.1081%;display:block;overflow:hidden}
 .key-visual .screen .focus-msg button[type=button], .key-visual .screen .focus-msg a.btn-type1{background:#fff;color:#0057A4;float:left;line-height:40px}
@@ -541,8 +541,8 @@ a.btn-jump span {text-transform:none}
 @media (min-width:1024px){
     .key-visual.home_kv .screen .focus-msg{position:relative;left:10px;top:10px;bottom:auto; /* width:520px;*/ width:700px; padding:0 1.4694%; background:none;color:#fff; line-height: 1.2;}
 .key-visual.home_kv .screen .focus-msg .category{font-size: 21px; padding-top: 105px;}
-    .key-visual.home_kv .screen .focus-msg h1{padding-top:90px;overflow:hidden; font-size:52px; line-height:56px; text-shadow:1px 1px 1px rgba(0,0,0,0.8); font-weight:600;}
-    .key-visual.home_kv .screen .focus-msg h1 em{font-size: 21px; font-weight: normal;}
+    .key-visual.home_kv .screen .focus-msg p.tit{padding-top:90px;overflow:hidden; font-size:52px; line-height:56px; font-weight:600;}
+    .key-visual.home_kv .screen .focus-msg p.tit em{font-size: 21px; font-weight: normal;}
     .key-visual.home_kv .screen .focus-msg .txt{padding-top:15px; overflow:hidden;text-shadow:1px 1px 1px #000;text-shadow:1px 1px 1px rgba(0,0,0,0.8);font-size:21px; line-height: 30px; width: 650px;}
 .key-visual.home_kv .screen .focus-msg .act{position:relative;bottom:auto;display:block;overflow:hidden; margin-top:30px;}
 .key-visual.home_kv .screen .focus-msg .act a{font-size: 16px;text-shadow:1px 1px 1px rgba(0,0,0,0.8); background: none; line-height: auto; padding: 0; margin: 0; color:#fff; padding-left: 5px;}
@@ -1619,7 +1619,7 @@ div.btn-go-top .icon-up-arrow {overflow:hidden;position:absolute;left:-9999px;to
 .grid-row.bottom_banner {}
 
 .grid-row.bottom_banner .grid-col2 .col-inner .banner_title {border: 1px solid #e9e9e9; border-top: none; padding-top: 15px; padding-bottom:5px; clear: both;}
-.grid-row.bottom_banner .grid-col2 .col-inner .banner_title h3{font-size: 21px; color: #000; padding-left: 20px; padding-bottom: 5px; padding-right: 20px;}
+.grid-row.bottom_banner .grid-col2 .col-inner .banner_title p{font-size: 21px; color: #000; padding-left: 20px; padding-bottom: 5px; padding-right: 20px;}
 .grid-row.bottom_banner .grid-col2 .col-inner img{width: 100%;float: left;}
 .grid-row.bottom_banner .social_banner {border-bottom: 1px solid #e9e9e9;}
 .grid-row.bottom_banner .social_banner a{display: inline-block; width: 50%; float: left;}
@@ -1909,13 +1909,13 @@ table.support-info .img-ox {width:20px;}
 
 /*head-copy  :: new module */
 .head-copy {text-align:center; color:#010101; word-break:break-word;}
-.head-copy h2 {font-size:28px; font-family:'SamsungOne800'; margin:0 auto 15px; line-height:1;}
+.head-copy p.tit {font-size:28px; font-family:'SamsungOne800'; margin:0 auto 15px; line-height:1;}
 .head-copy div {font-size:16px; margin:0 auto;}
-.head-copy h2, .head-copy div {max-width:1150px; padding:0 2%;}
+.head-copy p.tit, .head-copy div {max-width:1150px; padding:0 2%;}
 .head-copy  img {margin-top:45px;}
 @media (max-width:767px){
     .head-copy  img {width:100%;}
-    .head-copy h2 {font-size:22px; margin: 0 auto 7px;}
+    .head-copy p.tit {font-size:22px; margin: 0 auto 7px;}
 }
 
 
@@ -1941,7 +1941,7 @@ table.support-info .img-ox {width:20px;}
 .products-list .col-inner{border:solid 1px #e9e9e9}
 .products-list .banner_title{background-color:#f8f8f8;padding:15px 0 5px 0}
 .products-list .banner_title.white{background-color:#fff}
-.products-list .banner_title h3 {font-size: 21px;color: #000;padding-left: 20px;padding-bottom: 5px;padding-right: 20px;}
+.products-list .banner_title .title {font-size: 21px;color: #000;padding-left: 20px;padding-bottom: 5px;padding-right: 20px; display: block;}
 .products-list .banner_title p{padding:0 20px 15px 20px}
 .products-list .banner_title p.date_txt{margin-top:15px;min-height:36px}
 .products-list .banner_title a{padding:10px 20px 10px 20px}
@@ -1962,7 +1962,7 @@ table.support-info .img-ox {width:20px;}
    .products-list .grid-col4{width:50% !important}
    .products-list .banner_title p{height:95px;padding-bottom:0;padding-left:10px;padding-right:10px;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 5;-webkit-box-orient: vertical;word-wrap:break-word; }
    .products-list .banner_title p.date_txt{height:auto;margin-top:5px}
-   .products-list .banner_title h3{font-size:15px;padding-left:10px;padding-right:10px}
+    .products-list .banner_title .title{font-size:15px;padding-left:10px;padding-right:10px}
    .products-list .banner_title a{padding:5px 10px 5px 10px}
    .products-list .banner_title > div{min-height:60px}
    .products-list .banner_title button{padding:0 10px}
@@ -2053,14 +2053,14 @@ table.support-info .img-ox {width:20px;}
 
 /* specifi-list */
 .specifi-list{margin-top:15px}
-.specifi-list .specifi > h4{font-size:18px;font-family:'SamsungOne800';padding:10px 0;border-bottom:solid 1px #dcdcdc}
+.specifi-list .specifi > h3{font-size:18px;font-family:'SamsungOne800';padding:10px 0;border-bottom:solid 1px #dcdcdc}
 .specifi-list .specifi > p{font-size:16px;font-family:'SamsungOne400';padding:10px 0}
 .specifi-list .info{font-size:14px;margin-top:10px}
 .compatible-list{margin-top:15px}
 .compatible-list ul{height:auto !important}
 @media (max-width:767px){
    .specifi-list{margin-top:5px}
-   .specifi-list .specifi > h4{font-size:14px;padding:5px 0}
+   .specifi-list .specifi > h3{font-size:14px;padding:5px 0}
    .specifi-list .specifi > p{padding:5px 0}
    .compatible-list{margin-top:5px}
 }
@@ -2089,14 +2089,18 @@ table.support-info .img-ox {width:20px;}
 .data-table table td img, .data-table table td p{padding:10px}
 .data-table table tr th:first-child {text-align:left}
 .data-table table tr td:first-child {text-align:left}
+.data-table table tbody th{min-height:30px;padding:15px 30px;background-color:#fff;border-top:solid 1px #dcdcdc;border-bottom:solid 1px #dcdcdc;border-right:solid 1px #dcdcdc; color: #0071bf;}
+.data-table table tbody th.t{text-align: left;}
 
 .data-table.support th{color: #000; background-color:#f1f1f1;}
+.data-table.support tbody th{background-color: #fff;}
 .fix-table table{border-collapse:collapse;min-width:100%}
 .fix-table table th{height:50px;padding:0 30px;text-align:center;background-color:#0071bf;color:#fff;border-top:solid 1px #dcdcdc;border-bottom:solid 1px #dcdcdc;white-space:nowrap;}
 .fix-table table th:first-child{text-align:left;border-right:solid 1px #dcdcdc}
 .fix-table table td{height:50px;padding:0 30px;text-align:left;background-color:#fff;border-top:solid 1px #dcdcdc;border-bottom:solid 1px #dcdcdc;white-space:nowrap;border-left:solid 1px #dcdcdc; word-break:break-all;}
 .fix-table table td.c{text-align:center;padding:0}
 .fix-table table td:first-child{border-right:solid 1px #dcdcdc;border-left:none;color:#0071bf}
+
 
 .show-more-spec .info{margin-top:20px}
 .show-more-spec .info li{margin-left:15px;text-indent:-15px}
@@ -2139,7 +2143,7 @@ table.support-info .img-ox {width:20px;}
 .down-overview .down-list{position:relative;padding:18px;border-radius:3px;box-sizing:border-box;color:#fff}
 .down-overview .down-list.new{background-color:#4a4a4a}
 .down-overview .down-list.popular{background-color:#0071bf}
-.down-overview .down-list h4{font-size:16px;width:90%}
+.down-overview .down-list p.title{font-size:16px;width:90%; margin: 0;}
 .down-overview .down-list p{font-size:13px;width:90%;margin-top:7px}
 .down-overview .down-list a{position:absolute;top:50%;right:20px;margin-top:-13px;color:#fff}
 .down-overview .down-list.new a:hover{color:#0071bf !important}
@@ -2348,8 +2352,8 @@ ul.tab.type5 li a {display:block; padding:9px 5px; vertical-align:middle; box-si
 }
 
 .service_information{ background-color: #f1f1f1; padding: 30px;}
-.service_information h3{margin-left: 0; border-bottom: 1px solid #dcdcdc; padding-bottom: 20px;}
-.service_information p{line-height: 24px; margin-bottom: 20px;}
+.service_information dt{margin-bottom: 20px;font-size: 26px; font-family: 'SamsungOne600'; vertical-align: middle; line-height: 26px; margin-left: 10px; margin-left: 0; border-bottom: 1px solid #dcdcdc; padding-bottom: 20px; }
+.service_information dd{line-height: 24px; margin-bottom: 20px;}
 .col-inner.service_center{margin-left: 0px;}
 .col-inner.service_center .contact_info{border: 1px solid #e9e9e9; margin-left: 10px; padding: 20px; padding-bottom: 15px; min-height: 92px;}
 .col-inner.service_center .contact_info h4{line-height: 24px; font-size:21px;}
@@ -2362,11 +2366,11 @@ ul.tab.type5 li a {display:block; padding:9px 5px; vertical-align:middle; box-si
     .col-inner.service_center .contact_info{margin-bottom: 10px;}
 }
 @media (max-width: 767px){
-    .col-inner.service_information{padding:15px;}
-    .col-inner.service_information h3{padding-bottom:10px;}
-    .col-inner.service_information p{line-height: 20px; margin-bottom:0px;}
-    .col-inner.service_center .contact_info{margin-bottom: 10px;}
-    .col-inner.service_center .contact_info{margin-right: 0px;}
+    .col-inner .service_information{padding:15px;}
+    .col-inner .service_information dt{padding-bottom:10px; font-size: 20px;}
+    .col-inner .service_information dd{line-height: 20px; margin-bottom:0px;}
+    .col-inner .service_center .contact_info{margin-bottom: 10px;}
+    .col-inner .service_center .contact_info{margin-right: 0px;}
 }
 
 
