@@ -2093,12 +2093,14 @@ table.support-info .img-ox {width:20px;}
 .data-table table tbody th.t{text-align: left;}
 
 .data-table.support th{color: #000; background-color:#f1f1f1;}
+.data-table.support tbody th{background-color: #fff;}
 .fix-table table{border-collapse:collapse;min-width:100%}
 .fix-table table th{height:50px;padding:0 30px;text-align:center;background-color:#0071bf;color:#fff;border-top:solid 1px #dcdcdc;border-bottom:solid 1px #dcdcdc;white-space:nowrap;}
 .fix-table table th:first-child{text-align:left;border-right:solid 1px #dcdcdc}
 .fix-table table td{height:50px;padding:0 30px;text-align:left;background-color:#fff;border-top:solid 1px #dcdcdc;border-bottom:solid 1px #dcdcdc;white-space:nowrap;border-left:solid 1px #dcdcdc; word-break:break-all;}
 .fix-table table td.c{text-align:center;padding:0}
 .fix-table table td:first-child{border-right:solid 1px #dcdcdc;border-left:none;color:#0071bf}
+
 
 .show-more-spec .info{margin-top:20px}
 .show-more-spec .info li{margin-left:15px;text-indent:-15px}
