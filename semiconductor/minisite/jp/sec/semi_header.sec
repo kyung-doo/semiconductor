@@ -132,7 +132,7 @@
                                 </li>
                                 <li><a href="/semiconductor/minisite/jp/support/selection.html" onclick="sendClickCode('gnb','b2c_support:ssd selection guide');">SSD Selection Guide</a></li>
                                 <li><a href="/semiconductor/minisite/jp/support/faqs.html" onclick="sendClickCode('gnb','b2c_support:faqs');">FAQs</a></li>
-                                <li><a href="/semiconductor/minisite/jp/support/contact.html" onclick="sendClickCode('gnb','b2c_support:contact us');">Contact Us</a></li>
+                                <li class="last"><a href="/semiconductor/minisite/jp/support/contact.html" onclick="sendClickCode('gnb','b2c_support:contact us');">Contact Us</a></li>
                             </ul>
                         </div>
                     </li>

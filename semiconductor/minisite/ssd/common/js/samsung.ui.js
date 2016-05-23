@@ -1027,7 +1027,10 @@ var NavUI = Class.extend({
             'focus' : function() {
                 for (var i in owner._current) {
                     if (owner._current[i])
+                    {
                         owner.deActive_item(owner._current[i]);
+                    }
+                        
                 }
 
                 owner.active_item($(this), 1);
@@ -1045,6 +1048,15 @@ var NavUI = Class.extend({
                 if (owner._current.depth_2)
                     owner.deActive_item(owner._current.depth_2);
                 owner.active_item($(this), 2);
+                
+                
+            },
+            'focusout' : function ()
+            {
+                if($(this).parent().is(".last"))
+                {
+                    owner.reset();
+                }
             }
         });
 
@@ -6019,7 +6031,7 @@ var SelectionToo = Class.extend({
         {
             if(_common.is_mode() != 'MOBILE')
             {
-                $("*[id^=selection_step]").css({display:""});
+                $("*[class^=selection_step]").css({display:""});
             }
         });
 
@@ -6050,13 +6062,13 @@ var SelectionToo = Class.extend({
         });
 
         var tmpl = $("#"+owner._tmpl+"1").tmpl({selectionList : ar});
-        tmpl.appendTo(owner._scope.find("#selection_step1"));
+        tmpl.appendTo(owner._scope.find(".selection_step1"));
 
-        owner._scope.find("#selection_step1").find("li").each(function ()
+        owner._scope.find(".selection_step1").find("li").each(function ()
         {
            $(this).bind("click", function ( e )
            {
-               owner._scope.find("#selection_step1 li").removeClass("on");
+               owner._scope.find(".selection_step1 li").removeClass("on");
                $(this).addClass("on");
                var idx = $(this).index();
                owner.addList(list[idx].contsID, list[idx].member, 1);
@@ -6065,7 +6077,7 @@ var SelectionToo = Class.extend({
         
         if(_common.is_mode() == 'MOBILE')
         {
-            owner._scope.find("#selection_step1").parent().parent().find(".title").trigger("active");
+            owner._scope.find(".selection_step1").parent().parent().find(".title").trigger("active");
         }
 
         $(window).resize(function ()
@@ -6098,24 +6110,24 @@ var SelectionToo = Class.extend({
         });
 
         var tmpl = $("#"+owner._tmpl+(step+1)).tmpl({selectionList : ar});
-        tmpl.appendTo(owner._scope.find("#selection_step"+(step+1)));
-        owner._scope.find("#selection_step"+(step+1)).addClass("on");
-        owner._scope.find("#selection_step"+(step+1)).parent().parent().find(".title").removeClass("dimmed");
+        tmpl.appendTo(owner._scope.find(".selection_step"+(step+1)));
+        owner._scope.find(".selection_step"+(step+1)).addClass("on");
+        owner._scope.find(".selection_step"+(step+1)).parent().parent().find(".title").removeClass("dimmed");
         
         if(_common.is_mode() == 'MOBILE')
         {
             
-            owner._scope.find("#selection_step"+(step+1)).parent().parent().find(".title").trigger("active");
+            owner._scope.find(".selection_step"+(step+1)).parent().parent().find(".title").trigger("active");
         }
 
 
 
 
-        owner._scope.find("#selection_step"+(step+1)+" li").each(function ( i )
+        owner._scope.find(".selection_step"+(step+1)+" li").each(function ( i )
         {
            $(this).bind("click", function ( e )
            {
-               owner._scope.find("#selection_step"+(step+1)+" li").removeClass("on");
+               owner._scope.find(".selection_step"+(step+1)+" li").removeClass("on");
                $(this).addClass("on");
                var idx = $(this).index();
                if(typeof member[idx].contsLink == "undefined")
@@ -6138,7 +6150,7 @@ var SelectionToo = Class.extend({
                    }
                    else
                    {
-                       owner._scope.find("#selection_step"+(step+1)+" li a").removeClass("link").attr("onClick", "").attr("href", "javascript:void(0);");
+                       owner._scope.find(".selection_step"+(step+1)+" li a").removeClass("link").attr("onClick", "").attr("href", "javascript:void(0);");
                        $(this).find("a").addClass("link");
                    }
                }
@@ -6157,15 +6169,15 @@ var SelectionToo = Class.extend({
         {
             if(i > step-1)
             {
-                owner._scope.find("#selection_step"+(i+1)).empty();
-                owner._scope.find("#selection_step"+(i+1)).removeClass("on");
-                owner._scope.find("#selection_step"+(i+1)).parent().parent().find(".title").addClass("dimmed");
+                owner._scope.find(".selection_step"+(i+1)).empty();
+                owner._scope.find(".selection_step"+(i+1)).removeClass("on");
+                owner._scope.find(".selection_step"+(i+1)).parent().parent().find(".title").addClass("dimmed");
                 if(_common.is_mode() == 'MOBILE')
                 {
-                    if(owner._scope.find("#selection_step"+(i+1)).parent().parent().find(".title").is(".expanded"))
+                    if(owner._scope.find(".selection_step"+(i+1)).parent().parent().find(".title").is(".expanded"))
                     {
-                        owner._scope.find("#selection_step"+(i+1)).parent().parent().find(".title").removeClass("expanded");
-                        owner._scope.find("#selection_step"+(i+1)).parent().parent().find(".title").trigger("deActive");
+                        owner._scope.find(".selection_step"+(i+1)).parent().parent().find(".title").removeClass("expanded");
+                        owner._scope.find(".selection_step"+(i+1)).parent().parent().find(".title").trigger("deActive");
                     }
                 }
             }
