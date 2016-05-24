@@ -1417,7 +1417,6 @@ var AccordionUI = Class.extend({
                 $(this).find(".blind").text(guideTxt);
             } else {
                 owner.deActive_item($(this));
-                console.log("off");
                 var guideTxt = $(this).find(".blind").text().replace("close", "open");
                 $(this).find(".blind").text(guideTxt);
             }
