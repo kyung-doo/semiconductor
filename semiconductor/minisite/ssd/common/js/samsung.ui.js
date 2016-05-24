@@ -992,7 +992,7 @@ var NavUI = Class.extend({
         var owner = this;
         var w = $(window).width();
 
-        if (w <= 1024) {
+        if (w <= 1023) {
             owner._active = false;
             owner.remove_event_d();
             owner.m_event();
@@ -1030,7 +1030,7 @@ var NavUI = Class.extend({
                     {
                         owner.deActive_item(owner._current[i]);
                     }
-                        
+
                 }
 
                 owner.active_item($(this), 1);
@@ -1048,8 +1048,8 @@ var NavUI = Class.extend({
                 if (owner._current.depth_2)
                     owner.deActive_item(owner._current.depth_2);
                 owner.active_item($(this), 2);
-                
-                
+
+
             },
             'focusout' : function ()
             {
@@ -1164,7 +1164,7 @@ var NavUI = Class.extend({
 
         $(window).on('resize', function() {
             var w = window.innerWidth;
-            var limit = 1024;
+            var limit = 1023;
 
             if (w <= limit) {
                 if (owner._active) {
@@ -1409,7 +1409,7 @@ var AccordionUI = Class.extend({
         {
 
             if(!$(this).attr("data-role")) return;
-            
+
             if (!$(this).data('content').hasClass('active')) {
                 setTimeout(function (){$(window).resize();},1);
                 owner.active_item($(this));
@@ -6073,7 +6073,7 @@ var SelectionToo = Class.extend({
                owner.addList(list[idx].contsID, list[idx].member, 1);
            });
         });
-        
+
         if(_common.is_mode() == 'MOBILE')
         {
             owner._scope.find(".selection_step1").parent().parent().find(".title").trigger("active");
@@ -6112,10 +6112,10 @@ var SelectionToo = Class.extend({
         tmpl.appendTo(owner._scope.find(".selection_step"+(step+1)));
         owner._scope.find(".selection_step"+(step+1)).addClass("on");
         owner._scope.find(".selection_step"+(step+1)).parent().parent().find(".title").removeClass("dimmed");
-        
+
         if(_common.is_mode() == 'MOBILE')
         {
-            
+
             owner._scope.find(".selection_step"+(step+1)).parent().parent().find(".title").trigger("active");
         }
 
