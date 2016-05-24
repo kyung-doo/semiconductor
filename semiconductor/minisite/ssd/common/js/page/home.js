@@ -15,6 +15,7 @@ function initPage(){
     init_data_table();
     init_selection_Tool();
     init_index();
+    init_download_title();
 };
 
 /****************************************************************************************
@@ -715,11 +716,25 @@ function init_selection_Tool()
 
 
 /****************************************************************************************
-* METHOD:EVENT
+* METHOD: tabindex
 ****************************************************************************************/
 function init_index(){
     $("#content").attr('tabindex','-1');
 }
+
+
+/****************************************************************************************
+* METHOD: tabindex
+****************************************************************************************/
+function init_download_title(){
+    $(".down-list li").each(function(i){
+        var tit_txt = $(this).find('.title_ssd').text();
+        var tit_target = $(this).find('.download_ssd a');
+        tit_target.attr('title', tit_txt + ' download new open window')
+    })
+}
+
+
 
 
 
