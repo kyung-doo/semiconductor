@@ -2215,11 +2215,13 @@ table.support-info .img-ox {width:20px;}
 
 .buy_contents.jp {padding-top: 50px;}
 .buy_contents.jp h3 { margin-top:0px;}
+.buy_contents.jp h2.contact_title {margin-bottom: 20px;font-size: 26px; font-family: 'SamsungOne600'; vertical-align: middle; line-height: 26px;}
 .buy_contents.jp .grid-row{margin-bottom:60px;}
 .buy_contents.jp .company_list{background-color: #f1f1f1; padding: 10px; padding-right: 20px; padding-top:20px;}
 .buy_contents.jp .company_list h4{font-size: 21px; padding-left: 10px; margin-bottom: 10px;}
 .buy_contents.jp .mail_to{background-color: #f1f1f1; padding: 25px 30px;}
-.buy_contents.jp .mail_to dt{font-size: 24px; font-family:'メイリオ'; font-weight: 600; border-bottom: 1px solid #dcdcdc; padding-bottom: 10px; margin-bottom: 20px;}
+.buy_contents.jp .mail_to dt{}
+.buy_contents.jp .mail_to dt h2{font-size: 24px; font-family:'メイリオ'; font-weight: 600; border-bottom: 1px solid #dcdcdc; padding-bottom: 10px; margin-bottom: 20px;}
 .buy_contents.jp .mail_to.contact dt{color: #0057a4; font-size: 26px; font-weight: normal;}
 .buy_contents.jp .mail_to dd{font-size: 16px; line-height: 24px;}
 
@@ -2227,7 +2229,7 @@ table.support-info .img-ox {width:20px;}
     .buy_contents.jp .grid-row{margin-bottom:30px;}
     .buy_contents.jp .company_list h4{margin-top: 10px;}
     .buy_contents.jp .mail_to{background-color: #f1f1f1; padding: 15px;}
-    .buy_contents.jp .mail_to dt{font-size:18px; padding-bottom:5px;}
+    .buy_contents.jp .mail_to dt h2{font-size:18px; padding-bottom:5px;}
     .buy_contents.jp .mail_to.contact dt{font-size:18px; padding-bottom:5px;}
     .buy_contents.jp .mail_to dd{font-size: 14px;}
     .buy_contents.jp .mail_to dd a{display: block;margin-top: 5px;}
@@ -2412,6 +2414,7 @@ ul.tab.type5 li a {display:block; padding:9px 5px; vertical-align:middle; box-si
 
 .toggleTab .storage_list{max-width:1320px; margin:0 auto; padding:0 28px 0 18px;}
 .toggleTab .storage_list li{float: left; margin-bottom: 10px;  width: 25%;}
+.toggleTab .storage_list li a{display: block;}
 .toggleTab .storage_list li figure{margin-left: 10px;background-color: #fff; border: 1px solid #e9e9e9; text-align: center; padding-bottom: 15px;}
 .toggleTab .storage_list li figure p.img{padding-top: 30px; height: 90px;}
 .toggleTab .storage_list li figure figcaption{font-size: 14px; color: #000;}
