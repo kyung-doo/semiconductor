@@ -15,7 +15,7 @@
         <div class="header">
             <div class="logo">
                 <a href="/semiconductor/minisite/jp/" onclick="sendClickCode('gnb','b2c_samsung logo');">
-                    <span class="blind">SAMSUNG BUSINESS</span>
+                    <span class="blind">SAMSUNG</span>
                     <span>MEMORY & STORAGE</span>
                 </a>
             </div>
