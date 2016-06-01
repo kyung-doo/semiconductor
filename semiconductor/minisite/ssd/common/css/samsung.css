@@ -2176,15 +2176,16 @@ table.support-info .img-ox {width:20px;}
 .buy_contents .grid-row{margin-bottom: 40px;}
 /*.buy_contents h3 { margin-top: 40px; margin-bottom: 20px;}*/
 .buy_contents .grid-row .col-inner{margin-top: 0;}
-.buy_contents h2{border-bottom: 1px solid #dcdcdc; padding-bottom:17px; font-size: 28px; color: #000; font-family: 'SamsungOne800';}
-.buy_contents h3 { margin-top: 40px; margin-bottom: 20px;font-size: 26px; font-family: 'SamsungOne600'; vertical-align: middle; line-height: 26px;}
-.buy_contents h3 img{vertical-align: middle;}
-.buy_contents h3 span:after{content:"\e60e"; margin-left:8px;font-family:'samsungIcon'; color: #0057a4; font-size: 12px; vertical-align: middle; line-height: 26px;}
+.buy_contents .buy_title{border-bottom: 1px solid #dcdcdc; padding-bottom:17px; font-size: 28px; color: #000; font-family: 'SamsungOne800';}
+.buy_contents .buy_title_sub { margin-top: 40px; margin-bottom: 20px;font-size: 26px; font-family: 'SamsungOne600'; vertical-align: middle; line-height: 26px;}
+.buy_contents .buy_title_sub img{vertical-align: middle;}
+.buy_contents .buy_title_sub span:after{content:"\e60e"; margin-left:8px;font-family:'samsungIcon'; color: #0057a4; font-size: 12px; vertical-align: middle; line-height: 26px;}
 .buy_contents .company_list{background-color: #f1f1f1; padding: 20px; padding-bottom:10px; padding-left: 10px;}
 .buy_contents .company_list li{float: left; margin-bottom: 10px; padding-left: 10px; width: 25%; box-sizing: border-box;}
 .buy_contents .company_list li:after{content: ""; clear: both; display: block;}
 .buy_contents .company_list li a{display: block;}
-.buy_contents .company_list li img{width: 100%; height: auto; border: 1px solid #e9e9e9;}
+.buy_contents .company_list li a:after{content:"";display:block; clear:both;}
+.buy_contents .company_list li img{width: 100%; height: auto; border: 1px solid #e9e9e9; float: left;}
 .business_service {margin-bottom: -10px;}
 .business_service li{float: left; padding-right: 10px; width: 25%; box-sizing: border-box; margin-bottom: 10px;font-family: 'SamsungOne600';}
 .business_service li:first-child{padding-left: 0;}
@@ -2201,7 +2202,7 @@ table.support-info .img-ox {width:20px;}
 
 @media (max-width:767px) {
     .buy_contents .grid-row{margin-bottom: 20px;}
-    .buy_contents h3{font-size: 22px; padding-bottom:7px;}
+    .buy_contents .buy_title_sub{font-size: 22px; margin-bottom: 10px;}
 /*    .buy_contents h3 { margin-top:20px; margin-bottom: 10px;font-size: 20px;}*/
     .buy_contents .company_list{padding: 10px; padding-bottom: 5px;}
     .buy_contents .company_list li{float:none; margin-bottom:5px; padding-left:0px; width:100%;}
