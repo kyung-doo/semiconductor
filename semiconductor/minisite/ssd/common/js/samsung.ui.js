@@ -1053,8 +1053,10 @@ var NavUI = Class.extend({
             },
             'focusout' : function ()
             {
+                console.log("!!!");
                 if($(this).parent().is(".last"))
                 {
+                    
                     owner.reset();
                 }
             }
@@ -1077,29 +1079,51 @@ var NavUI = Class.extend({
     m_event : function() {
         var owner = this;
 
-        owner._content.on('click', function() {
-            if (owner._current.depth_1) {
-                if (owner._current.depth_1.data('cnt') === $(this).data('cnt')) {
+        owner._content.on({
+            'click': function() {
+                if (owner._current.depth_1) {
+                    if (owner._current.depth_1.data('cnt') === $(this).data('cnt')) {
+                        owner.reset();
+                        return;
+                    }
+
                     owner.reset();
-                    return;
                 }
 
-                owner.reset();
-            }
+                owner.active_item($(this), 1);
+            },
 
-            owner.active_item($(this), 1);
+            'focusout' : function ()
+            {
+               
+            }
+        });
+        
+        $(".direct a").on("focusout", function ( e )
+        {
+            
+            if($(this).parent().is(".last"))
+            {
+                owner._btn.focus();
+            }
         });
 
-        owner._sub.on('click', function() {
-            if (owner._current.depth_2) {
-                owner.deActive_item(owner._current.depth_2);
+        owner._sub.on({
+            'click': function()
+            {
+                if (owner._current.depth_2) 
+                {
+                    owner.deActive_item(owner._current.depth_2);
 
-                if (owner._current.depth_2.data('cnt') === $(this).data('cnt')) {
-                    owner._current.depth_2 = null;
-                    return;
+                    if (owner._current.depth_2.data('cnt') === $(this).data('cnt')) 
+                    {
+                        owner._current.depth_2 = null;
+                        return;
+                    }
                 }
+                owner.active_item($(this), 2);
+                console.log("!!!");
             }
-            owner.active_item($(this), 2);
         });
 
         owner._btn.on('click', function() {

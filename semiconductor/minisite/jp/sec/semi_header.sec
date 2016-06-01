@@ -142,7 +142,7 @@
                 <ul class="direct">
                     <li><a href="http://www.samsung.com/jp/home/" class="btn link outlink" target="_blank" title="Open New window" onclick="sendClickCode('gnb','b2c_utility menu:samsung official site');">SAMSUNG OFFICIAL SITE</a></li>
                     <li><a href="http://www.facebook.com/samsungSSD" class="btn link outlink" target="_blank" title="Open New window" onclick="sendClickCode('gnb','b2c_utility menu:samsung memory card face book');">SAMSUNG MEMORY FACEBOOK</a></li>
-                    <li class="selection"><a href="/semiconductor/minisite/jp/support/buy.html" class="btn link" onclick="sendClickCode('gnb','b2c_where to buy');">販売店一覧</a></li>
+                    <li class="selection last"><a href="/semiconductor/minisite/jp/support/buy.html" class="btn link" onclick="sendClickCode('gnb','b2c_where to buy');">販売店一覧</a></li>
                 </ul>
                 <!-- //top utility -->
             </div>
