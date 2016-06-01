@@ -3,18 +3,21 @@
     "reviewsAwardsList": [
         {
             "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/the_ssd_review.jpg",
+            "fileAlt": "The ssd review",
             "contsTitle": "Samsung SM863 & PM863 SSD Review (960GB)",
             "contsDate" : "September 09, 2015",
             "contsLinkUrl":"http://www.thessdreview.com/our-reviews/samsung-sm863-pm863-ssd-review-960gb/"
         },
         {
             "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/srlogo.jpg",
+            "fileAlt": "Storage review",
             "contsTitle": "Samsung PM863 SSD Review",
             "contsDate" : "August 21, 2015",
             "contsLinkUrl":"http://www.storagereview.com/samsung_pm863_ssd_review"
         },
         {
             "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/srlogo.jpg",
+            "fileAlt": "Storage review",
             "contsTitle": "Samsung SM863 SSD Review",
             "contsDate" : "August 21, 2015",
             "contsLinkUrl":"http://www.storagereview.com/samsung_sm863_ssd_review"

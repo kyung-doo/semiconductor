@@ -3,36 +3,42 @@
     "reviewsAwardsList": [
         {
             "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/benchmark_reviews.jpg",
+            "fileAlt": "Benchmark reviews",
             "contsTitle": "Samsung Portable SSD T3 Review",
             "contsDate" : "February 22, 2016",
             "contsLinkUrl":"http://benchmarkreviews.com/35063/samsung-portable-ssd-t3-review/"
         },
         {
             "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/hothardware_approved.jpg",
+            "fileAlt": "Hot hardware approved",
             "contsTitle": "Samsung Portable SSD T3 Review: Fast, Sleek USB-C Storage",
             "contsDate" : "February 22, 2016",
             "contsLinkUrl":"http://hothardware.com/reviews/samsung-t3-ssd-review-fast-portable-storage"
         },
         {
             "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/pcpereditors_choice.jpg",
+            "fileAlt": "PC Perspective editor choice",
             "contsTitle": "Samsung Portable SSD T3 2TB Review - 2TB In Your Pocket",
             "contsDate" : "February 22, 2016",
             "contsLinkUrl":"http://www.pcper.com/reviews/Storage/Samsung-Portable-SSD-T3-2TB-Review-2TB-Your-Pocket"
         },
         {
             "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/srlogo.jpg",
+            "fileAlt": "Storage review",
             "contsTitle": "Samsung Portable SSD T3 Review",
             "contsDate" : "February 22, 2016",
             "contsLinkUrl":"http://www.storagereview.com/samsung_portable_ssd_t3_review"
         },
         {
             "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/the_ssd_review.jpg",
+            "fileAlt": "The ssd review",
             "contsTitle": "Samsung T3 Portable SSD Review (2TB) - Samsung Ups The Ante Yet Again",
             "contsDate" : "February 22, 2016",
             "contsLinkUrl":"http://www.thessdreview.com/our-reviews/samsung-t3-portable-ssd-review-2tb/"
         },
         {
             "fileUrl": "/semiconductor/minisite/ssd/common/img/review_award/ces.jpg",
+            "fileAlt": "Ces",
             "contsTitle": "CES 2016 Innovation Awards honoree - Samsung Portable SSD T3",
             "contsDate" : "January 04, 2016",
             "contsLinkUrl":""
