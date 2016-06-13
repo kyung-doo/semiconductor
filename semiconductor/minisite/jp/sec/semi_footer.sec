@@ -135,8 +135,8 @@
             <div class="grid-row">
                 <div class="col-inner">
                     <ul class="util-menu">
-                        <li><a href="#" data-role="ui-btn-term" title="New Window">ご利用規約</a></li>
-                        <li><a href="#" data-role="ui-btn-privacy" title="New Window">Privacy &amp; Legal</a></li>
+                        <li><a href="#" data-role="ui-btn-term" title="open new window">ご利用規約</a></li>
+                        <li><a href="#" data-role="ui-btn-privacy" title="open new window">Privacy &amp; Legal</a></li>
                     </ul>
                     <p class="mark">
                         <a href="/semiconductor/minisite/jp/support/buy.html" class="link" onclick="sendClickCode('gnb','b2c_where to buy');">販売店一覧</a>

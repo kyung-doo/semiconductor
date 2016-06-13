@@ -1056,7 +1056,7 @@ var NavUI = Class.extend({
                 console.log("!!!");
                 if($(this).parent().is(".last"))
                 {
-                    
+
                     owner.reset();
                 }
             }
@@ -1095,13 +1095,13 @@ var NavUI = Class.extend({
 
             'focusout' : function ()
             {
-               
+
             }
         });
-        
+
         $(".direct a").on("focusout", function ( e )
         {
-            
+
             if($(this).parent().is(".last"))
             {
                 owner._btn.focus();
@@ -1111,11 +1111,11 @@ var NavUI = Class.extend({
         owner._sub.on({
             'click': function()
             {
-                if (owner._current.depth_2) 
+                if (owner._current.depth_2)
                 {
                     owner.deActive_item(owner._current.depth_2);
 
-                    if (owner._current.depth_2.data('cnt') === $(this).data('cnt')) 
+                    if (owner._current.depth_2.data('cnt') === $(this).data('cnt'))
                     {
                         owner._current.depth_2 = null;
                         return;
@@ -2402,8 +2402,11 @@ var FlickUI = Class.extend({
         if (owner._scope.find('*[data-role=ui-flick-content]').children().length > 0) {
             $(window).on('resize', function() {
                 owner.resizing();
+
             });
         }
+
+
     },
 
     /**
@@ -2631,7 +2634,7 @@ var FlickUI = Class.extend({
 
         // 컨텐츠영역 접근성
         owner._content.find('> li').each(function(idx) {
-            $(this).attr('tabindex', '0');
+            //$(this).attr('tabindex', '0');
 
             $(this).bind({
                 'focusin' : function(e) {
@@ -2642,8 +2645,8 @@ var FlickUI = Class.extend({
                         owner.stop_autoplay();
                         owner._flag.auto = false;
 
-                        self.attr('tabindex', '0').find('a, button').attr('tabindex', '0');
-                        self.siblings().attr('tabindex', '-1').find('a, button').attr('tabindex', '-1');
+                        //self.attr('tabindex', '0').find('a, button').attr('tabindex', '0');
+                        //self.siblings().attr('tabindex', '-1').find('a, button').attr('tabindex', '-1');
                     } else {
                         owner._content.find('> li').eq(owner._current).focus();
                     }
@@ -2664,6 +2667,19 @@ var FlickUI = Class.extend({
                     }
                 }
             });
+        });
+
+        owner._content.find(">li").each(function ( i )
+        {
+            if(i == owner._current)
+            {
+                $(this).css({display:""});
+            }
+            else
+            {
+                $(this).css({display:"none"});
+            }
+
         });
 
         // 컨텐츠 버튼들 접근성
@@ -2990,6 +3006,18 @@ var FlickUI = Class.extend({
     transition : function(dir, cnt, f) {
         var owner = this;
 
+
+        var idx = cnt;
+
+        if(typeof cnt === 'undefined')
+        {
+            idx = owner._current + -dir;
+            if(idx >= owner._target.length)
+            {
+                idx = 0;
+            }
+        }
+
         if (owner._current === cnt) {
             owner._flag.slide = false;
             if (owner._flag.auto) {
@@ -3001,6 +3029,19 @@ var FlickUI = Class.extend({
         if ( typeof cnt !== 'undefined') {
             owner.fix_target(dir, cnt);
         }
+
+
+
+        owner._content.find(">li").each(function ( i )
+        {
+            if(i == idx)
+            {
+                $(this).css({display:""});
+            }
+
+        });
+
+
 
         owner.sliding(dir, cnt, f);
 
@@ -3135,6 +3176,19 @@ var FlickUI = Class.extend({
         if (owner._flag.auto) {
             owner.autoplay();
         }
+
+        owner._content.find(">li").each(function ( i )
+        {
+            if(i != owner._current)
+            {
+                $(this).css({display:"none"});
+            }
+            else
+            {
+                $(this).css({display:""});
+            }
+
+        });
     },
 
     /**
